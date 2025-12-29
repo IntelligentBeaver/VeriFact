@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter: Run Dev (debug)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--flavor",
+                "dev",
+            ],
+        },
+        {
+            "name": "Flutter: Run Prod (debug)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--flavor",
+                "prod",
+            ],
+        },
+        {
+            "name": "Flutter: Attach to Running (dev)",
+            "request": "attach",
+            "type": "dart",
+            "program": "lib/main_dev.dart"
+        },
+        {
+            "name": "Flutter: Attach to Running (prod)",
+            "request": "attach",
+            "type": "dart",
+            "program": "lib/main_prod.dart"
+        }
+    ]
+}

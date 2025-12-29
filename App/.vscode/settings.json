@@ -1,3 +1,52 @@
 {
+  "dart.flutterCreateOrganization": "com.verifact",
+  "dart.lineLength": 80,
+  "dart.enableSdkFormatter": true,
+  "dart.checkForSdkUpdates": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.dart": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.rulers": [
+    80
+  ],
+  "editor.defaultFormatter": "Dart-Code.dart-code",
+  "[dart]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "dart.flutterHotReloadOnSave": "all",
+  "dart.flutterTestAdditionalArgs": [
+    "--no-sound-null-safety"
+  ],
+  "files.exclude": {
+    "**/.fvm": true,
+    "**/build": true,
+    "**/*.g.dart": true,
+    "**/*.freezed.dart": true,
+    "**/*.env": true,
+    ".env": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[groovy]": {
+    "editor.defaultFormatter": "NicolasVuillamy.vscode-groovy-lint"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
   "dart.flutterSdkPath": ".fvm/versions/stable"
 }

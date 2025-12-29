@@ -1,0 +1,74 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "flutter: build apk (dev)",
+            "type": "shell",
+            "command": "flutter",
+            "args": [
+                "build",
+                "apk",
+                "--flavor",
+                "dev",
+                "-t",
+                "lib/main_dev.dart",
+                "--debug",
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            }
+        },
+        {
+            "label": "flutter: build appbundle (prod)",
+            "type": "shell",
+            "command": "flutter",
+            "args": [
+                "build",
+                "appbundle",
+                "--flavor",
+                "prod",
+                "-t",
+                "lib/main_prod.dart",
+                "--release",
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            }
+        },
+        {
+            "label": "flutter: build apk (prod)",
+            "type": "shell",
+            "command": "flutter",
+            "args": [
+                "build",
+                "apk",
+                "--flavor",
+                "prod",
+                "-t",
+                "lib/main_prod.dart",
+                "--release",
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            }
+        },
+        {
+            "label": "flutter: install dev (adb)",
+            "type": "shell",
+            "command": "flutter",
+            "args": [
+                "install",
+                "--flavor",
+                "dev",
+                "-t",
+                "lib/main_dev.dart",
+            ],
+            "presentation": {
+                "reveal": "always"
+            }
+        }
+    ]
+}
