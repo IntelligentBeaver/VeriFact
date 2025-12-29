@@ -45,17 +45,17 @@ android {
     
     signingConfigs {
         create("dev") {
-            keyAlias = keystoreProperties["DEV_KEY_ALIAS"] as String
-            keyPassword = keystoreProperties["DEV_KEY_PASSWORD"] as String
-            storeFile = file(keystoreProperties["DEV_KEY_PATH"] as String)
-            storePassword = keystoreProperties["DEV_STORE_PASSWORD"] as String
+            keyAlias =  keystoreProperties.getProperty("DEV_KEY_ALIAS")
+            keyPassword =  keystoreProperties.getProperty("DEV_KEY_PASSWORD")
+            storeFile = file( keystoreProperties.getProperty("DEV_KEY_PATH"))
+            storePassword =  keystoreProperties.getProperty("DEV_STORE_PASSWORD")
         }
 
         create("prod") {
-            keyAlias = keystoreProperties["PROD_KEY_ALIAS"] as String
-            keyPassword = keystoreProperties["PROD_KEY_PASSWORD"] as String
-            storeFile = file(keystoreProperties["PROD_KEY_PATH"] as String)
-            storePassword = keystoreProperties["PROD_STORE_PASSWORD"] as String
+            keyAlias =  keystoreProperties.getProperty("PROD_KEY_ALIAS")
+            keyPassword =  keystoreProperties.getProperty("PROD_KEY_PASSWORD")
+            storeFile = file( keystoreProperties.getProperty("PROD_KEY_PATH"))
+            storePassword =  keystoreProperties.getProperty("PROD_STORE_PASSWORD")
         }
     }
 
@@ -68,12 +68,18 @@ android {
             versionNameSuffix = ".dev"
             resValue("string", "app_name", "Verifact Dev")
             signingConfig = signingConfigs.getByName("dev")
+            flutter {
+                target = "lib/main_dev.dart"
+            }
         }
 
         create("prod") {
             dimension = "app"
             resValue("string", "app_name", "Verifact App")
             signingConfig = signingConfigs.getByName("prod")
+            flutter {
+                target = "lib/main_prod.dart"
+            }
         }
     }
 
