@@ -11,16 +11,11 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-
   fvm: ^2.4.1
-  
-  flutter_background_service: ^5.1.0
   flutter_dotenv: ^6.0.0 
-  flutter_launcher_icons: 0.12.0
   flutter_local_notifications: ^19.3.1
   flutter_localizations:
     sdk: flutter
-  flutter_native_splash: ^2.4.6
   flutter_riverpod: ^3.0.3
   flutter_screenutil: ^5.9.3
   flutter_secure_storage: ^10.0.0
@@ -68,6 +63,7 @@ flutter:
  
   assets:
     - assets/icons/brands/
+    - .env
 
   # fonts:
   #   - family: Schyler

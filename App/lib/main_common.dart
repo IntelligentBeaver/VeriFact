@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:verifact_app/utils/constants/enums.dart';
 import 'package:verifact_app/flavors/flavor_config.dart';
+import 'package:verifact_app/utils/constants/enums.dart';
 
 Future<void> mainCommon({
   required Flavor flavor,
@@ -16,18 +14,8 @@ Future<void> mainCommon({
     baseUrl: baseUrl,
     name: name,
   );
-  final widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
 
-  // Preserve the splash screen until initialization is complete
-  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
-
-  // To force lock rotation of the app, uncommment the below line
-  await SystemChrome.setPreferredOrientations([
-    DeviceOrientation.portraitUp,
-  ]);
-
-  // Remove the splash screen after initialization is complete
-  FlutterNativeSplash.remove();
 
   runApp(
     const ProviderScope(

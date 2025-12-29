@@ -1,3 +1,15 @@
+import java.util.Properties
+import java.io.FileInputStream
+
+val keystoreProperties = Properties().apply {
+    val file = rootProject.file("keystore.properties")
+    if (file.exists()) {
+        load(FileInputStream(file))
+    } else {
+        error("keystore.properties not found in root project")
+    }
+}
+
 plugins {
     id("com.android.application")
     id("kotlin-android")
@@ -13,30 +25,76 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
+        isCoreLibraryDesugaringEnabled = true
     }
 
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_17.toString()
+    kotlin {
+        compilerOptions {
+            jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
+        }
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.verifact.app"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+        multiDexEnabled = true
+    }
+    
+    signingConfigs {
+        create("dev") {
+            keyAlias = keystoreProperties["DEV_KEY_ALIAS"] as String
+            keyPassword = keystoreProperties["DEV_KEY_PASSWORD"] as String
+            storeFile = file(keystoreProperties["DEV_KEY_PATH"] as String)
+            storePassword = keystoreProperties["DEV_STORE_PASSWORD"] as String
+        }
+
+        create("prod") {
+            keyAlias = keystoreProperties["PROD_KEY_ALIAS"] as String
+            keyPassword = keystoreProperties["PROD_KEY_PASSWORD"] as String
+            storeFile = file(keystoreProperties["PROD_KEY_PATH"] as String)
+            storePassword = keystoreProperties["PROD_STORE_PASSWORD"] as String
+        }
+    }
+
+    flavorDimensions += "app"
+
+    productFlavors {
+        create("dev") {
+            dimension = "app"
+            applicationIdSuffix = ".dev"
+            versionNameSuffix = ".dev"
+            resValue("string", "app_name", "Verifact Dev")
+            signingConfig = signingConfigs.getByName("dev")
+        }
+
+        create("prod") {
+            dimension = "app"
+            resValue("string", "app_name", "Verifact App")
+            signingConfig = signingConfigs.getByName("prod")
+        }
     }
 
     buildTypes {
-        release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+        getByName("release") {
+            isMinifyEnabled = true
+            isShrinkResources = true
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+        }
+
+        getByName("debug") {
+            isMinifyEnabled = false
+            isShrinkResources = false
         }
     }
+}
+dependencies {
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
 }
 
 flutter {

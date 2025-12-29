@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:verifact_app/utils/constants/enums.dart';
 import 'package:verifact_app/main_common.dart';
+import 'package:verifact_app/utils/constants/enums.dart';
 
 Future<void> main() async {
   try {

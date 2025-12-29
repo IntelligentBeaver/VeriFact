@@ -28,7 +28,7 @@
     "**/*.g.dart": true,
     "**/*.freezed.dart": true,
     "**/*.env": true,
-    ".env": true
+    ".env": false
   },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
