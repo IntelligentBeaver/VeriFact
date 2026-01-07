@@ -15,6 +15,7 @@ Future<void> main() async {
     }
 
     // Validate required environment variables
+    // final baseUrl = '://dev.verifact';
     final baseUrl = dotenv.env['API_BASE_URL_DEV'];
     if (baseUrl == null || baseUrl.isEmpty) {
       throw Exception(
@@ -23,11 +24,7 @@ Future<void> main() async {
       );
     }
 
-    await mainCommon(
-      flavor: Flavor.dev,
-      baseUrl: baseUrl,
-      name: 'Development',
-    );
+    await mainCommon(flavor: Flavor.dev, baseUrl: baseUrl, name: 'Development');
   } catch (e, stackTrace) {
     debugPrint('Error in main: $e');
     debugPrint('Stack trace: $stackTrace');

@@ -6,7 +6,7 @@ import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 import 'package:verifact_app/utils/constants/app_globals.dart';
-import 'package:verifact_app/utils/widgets/custom_snackbar.dart';
+import 'package:verifact_app/widgets/custom_snackbar.dart';
 
 /// Displays an error [SnackBar] with the given [message].
 ///

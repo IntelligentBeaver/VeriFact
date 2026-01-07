@@ -1,8 +1,7 @@
 {
-  "dart.flutterCreateOrganization": "com.verifact",
+  "dart.flutterCreateOrganization": "com.example",
   "dart.lineLength": 80,
   "dart.enableSdkFormatter": true,
-  "dart.checkForSdkUpdates": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.dart": "explicit",
     "source.organizeImports": "explicit"
@@ -27,7 +26,7 @@
     "**/build": true,
     "**/*.g.dart": true,
     "**/*.freezed.dart": true,
-    "**/*.env": true,
+    "**/*.env": false,
     ".env": false
   },
   "[json]": {
@@ -48,5 +47,5 @@
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
   },
-  "dart.flutterSdkPath": ".fvm/versions/stable"
+  "dart.flutterSdkPath": ".fvm/versions/3.38.3"
 }

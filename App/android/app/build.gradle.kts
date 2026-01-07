@@ -28,6 +28,9 @@ android {
         isCoreLibraryDesugaringEnabled = true
     }
 
+    // kotlinOptions {
+    //     jvmTarget = JavaVersion.VERSION_17.toString()
+    // }
     kotlin {
         compilerOptions {
             jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
@@ -42,7 +45,7 @@ android {
         versionName = flutter.versionName
         multiDexEnabled = true
     }
-    
+
     signingConfigs {
         create("dev") {
             keyAlias =  keystoreProperties.getProperty("DEV_KEY_ALIAS")

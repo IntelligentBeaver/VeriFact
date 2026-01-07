@@ -1,8 +1,7 @@
 name: verifact_app
-description: "Verifact is an AI-based Mobile App that is used for the detection, tracing and tracking of misinformation in Health."
-
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-version: 1.0.0+1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
 
 environment:
   sdk: ^3.10.1
@@ -10,69 +9,45 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.8
-  fvm: ^2.4.1
-  flutter_dotenv: ^6.0.0 
-  flutter_local_notifications: ^19.3.1
-  flutter_localizations:
-    sdk: flutter
-  flutter_riverpod: ^3.0.3
+  animations: ^2.1.1
+  flutter_dotenv: ^6.0.0
+  dio: ^5.9.0
   flutter_screenutil: ^5.9.3
-  flutter_secure_storage: ^10.0.0
-  flutter_svg: ^2.2.3
-  fluttertoast: ^9.0.0
-  font_awesome_flutter: ^10.12.0
-  google_fonts: ^6.3.3
-  google_sign_in: ^7.2.0
-  intl: ^0.20.2
-  loading_animation_widget: ^1.3.0
-  lucide_icons_flutter: ^3.1.5
-  permission_handler: ^12.0.1
+  flutter_riverpod: ^3.1.0
   provider: ^6.1.5+1
-  shared_preferences: ^2.5.3
-  skeletonizer: ^2.1.0+1
   url_launcher: ^6.3.2
-  vector_graphics_compiler: ^1.1.19
-  cached_network_image: ^3.2.3
   logger: ^2.6.2
-  package_info_plus: ^9.0.0
-  dtd: ^4.0.0
   flutter_lints: ^6.0.0
+  build_runner: ^2.10.4
   json_rpc_2: ^4.0.0
   path: ^1.9.1
   stack_trace: ^1.12.1
-  web: ^1.1.1
-  riverpod_annotation: ^3.0.3
-  build_runner: ^2.10.4
-  google_mlkit_text_recognition: ^0.15.0
-  animations: ^2.1.1
+  riverpod_annotation: ^4.0.0
+  shared_preferences: ^2.5.4
+  google_fonts: ^7.0.0
+  flutter_svg: ^2.2.3
+  flutter_native_splash: ^2.4.7
+  flutter_launcher_icons: ^0.14.4
+  auto_size_text: ^3.0.0
+  lucide_icons_flutter: ^3.1.9
   connectivity_plus: ^7.0.0
   device_info_plus: ^12.3.0
-  localization: ^2.1.1
-  dio: ^5.9.0
+  permission_handler: ^12.0.1
+  skeletonizer: ^2.1.2
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  riverpod_generator: ^3.0.3
   very_good_analysis: ^10.0.0
+  riverpod_generator: ^4.0.0+1
 
 flutter:
   uses-material-design: true
 
- 
   assets:
+    - assets/
+    - assets/icons/
     - assets/icons/brands/
+    - assets/icons/verified.png
     - .env
-
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700

@@ -12,6 +12,16 @@
             ],
         },
         {
+            "name": "Flutter: Run Staging (debug)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_staging.dart",
+            "args": [
+                "--flavor",
+                "staging",
+            ],
+        },
+        {
             "name": "Flutter: Run Prod (debug)",
             "request": "launch",
             "type": "dart",
@@ -26,6 +36,12 @@
             "request": "attach",
             "type": "dart",
             "program": "lib/main_dev.dart"
+        },
+        {
+            "name": "Flutter: Attach to Running (staging)",
+            "request": "attach",
+            "type": "dart",
+            "program": "lib/main_staging.dart"
         },
         {
             "name": "Flutter: Attach to Running (prod)",

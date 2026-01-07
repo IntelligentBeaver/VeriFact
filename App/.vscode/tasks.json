@@ -1,6 +1,157 @@
 {
     "version": "2.0.0",
     "tasks": [
+        //* ---------------------------
+        //* Python Version bump scripts
+        //* ---------------------------
+        {
+            "label": "flutter: bump build (prod)",
+            "type": "shell",
+            "command": "python3",
+            "windows": {
+                "command": "python"
+            },
+            "args": [
+                "tools/bump_version.py",
+                "build"
+            ],
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "flutter: bump patch (prod)",
+            "type": "shell",
+            "command": "python3",
+            "windows": {
+                "command": "python"
+            },
+            "args": [
+                "tools/bump_version.py",
+                "patch"
+            ],
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "flutter: bump minor (prod)",
+            "type": "shell",
+            "command": "python3",
+            "windows": {
+                "command": "python"
+            },
+            "args": [
+                "tools/bump_version.py",
+                "minor"
+            ],
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "flutter: bump major (prod)",
+            "type": "shell",
+            "command": "python3",
+            "windows": {
+                "command": "python"
+            },
+            "args": [
+                "tools/bump_version.py",
+                "major"
+            ],
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": []
+        },
+
+        //* ----------------------
+        //* App Bundle Build Tasks
+        //* ----------------------
+        {
+            "label": "flutter: build appbundle (prod) [build bump]",
+            "type": "shell",
+            "command": "flutter",
+            "args": [
+                "build",
+                "appbundle",
+                "--flavor",
+                "prod",
+                "-t",
+                "lib/main_prod.dart",
+                "--release"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "dependsOn": "flutter: bump build (prod)"
+        },
+        {
+            "label": "flutter: build appbundle (prod) [patch bump]",
+            "type": "shell",
+            "command": "flutter",
+            "args": [
+                "build",
+                "appbundle",
+                "--flavor",
+                "prod",
+                "-t",
+                "lib/main_prod.dart",
+                "--release"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "dependsOn": "flutter: bump patch (prod)"
+        },
+        {
+            "label": "flutter: build appbundle (prod) [minor bump]",
+            "type": "shell",
+            "command": "flutter",
+            "args": [
+                "build",
+                "appbundle",
+                "--flavor",
+                "prod",
+                "-t",
+                "lib/main_prod.dart",
+                "--release"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "dependsOn": "flutter: bump minor (prod)"
+        },
+        {
+            "label": "flutter: build appbundle (prod) [major bump]",
+            "type": "shell",
+            "command": "flutter",
+            "args": [
+                "build",
+                "appbundle",
+                "--flavor",
+                "prod",
+                "-t",
+                "lib/main_prod.dart",
+                "--release"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "dependsOn": "flutter: bump major (prod)"
+        },
+
+        //* ---------------
+        //* APK build tasks
+        //* ---------------
         {
             "label": "flutter: build apk (dev)",
             "type": "shell",
@@ -20,16 +171,16 @@
             }
         },
         {
-            "label": "flutter: build appbundle (prod)",
+            "label": "flutter: build apk (staging)",
             "type": "shell",
             "command": "flutter",
             "args": [
                 "build",
-                "appbundle",
+                "apk",
                 "--flavor",
-                "prod",
+                "staging",
                 "-t",
-                "lib/main_prod.dart",
+                "lib/main_staging.dart",
                 "--release",
             ],
             "group": "build",
@@ -55,6 +206,10 @@
                 "reveal": "always"
             }
         },
+
+        //* ---------------
+        //* Install tasks
+        //* ---------------
         {
             "label": "flutter: install dev (adb)",
             "type": "shell",

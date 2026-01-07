@@ -1,4 +1,4 @@
-package com.example.verifact_app
+package com.verifact.app
 
 import io.flutter.embedding.android.FlutterActivity
 
