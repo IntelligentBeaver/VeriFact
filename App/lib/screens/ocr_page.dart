@@ -275,32 +275,45 @@ class OcrScreen extends ConsumerWidget {
                   );
                 },
               ),
-              // Text box overlay with tap detection
+              // Text box overlay with character-level mapping (Google Lens style)
               if (state.textBlocks.isNotEmpty)
                 Positioned.fill(
-                  child: GestureDetector(
-                    onTapDown: (details) {
-                      final selectedIndex = _selectTextBoxAtPositionWithIndex(
-                        details.localPosition,
-                        state,
-                        notifier,
-                        displayWidth,
-                        displayHeight,
-                      );
-                      // Show text selection dialog for the tapped box
-                      if (selectedIndex != null) {
-                        _showTextSelectionDialog(
-                          context,
-                          state.textBlocks[selectedIndex],
-                        );
-                      }
-                    },
-                    child: CustomPaint(
-                      painter: TextBoxOverlayPainter(
-                        textBlocks: state.textBlocks,
-                        selectedIndex: state.selectedBlockIndex,
+                  child: Stack(
+                    fit: StackFit.expand,
+                    children: [
+                      // Overlay painter for visual feedback
+                      GestureDetector(
+                        onTapDown: (details) {
+                          _selectTextBoxAtPositionWithIndex(
+                            details.localPosition,
+                            state,
+                            notifier,
+                            displayWidth,
+                            displayHeight,
+                          );
+                        },
+                        child: CustomPaint(
+                          painter: TextBoxOverlayPainter(
+                            textBlocks: state.textBlocks,
+                            selectedIndex: state.selectedBlockIndex,
+                          ),
+                        ),
                       ),
-                    ),
+                      // Character-level selectable text overlays
+                      ...state.textBlocks.asMap().entries.map(
+                        (entry) {
+                          final index = entry.key;
+                          final block = entry.value;
+                          return _buildCharacterLevelOverlay(
+                            block,
+                            index,
+                            displayWidth,
+                            displayHeight,
+                            state.selectedBlockIndex == index,
+                          );
+                        },
+                      ).toList(),
+                    ],
                   ),
                 ),
             ],
@@ -434,6 +447,67 @@ class OcrScreen extends ConsumerWidget {
     );
   }
 
+  /// Build character-level selectable text overlay (Google Lens style)
+  Widget _buildCharacterLevelOverlay(
+    TextBlock block,
+    int blockIndex,
+    double containerWidth,
+    double containerHeight,
+    bool isSelected,
+  ) {
+    final normalizedBox = block.normalizedBoundingBox;
+    final boxWidth =
+        (normalizedBox.right - normalizedBox.left) * containerWidth;
+    final boxHeight =
+        (normalizedBox.bottom - normalizedBox.top) * containerHeight;
+    final boxLeft = normalizedBox.left * containerWidth;
+    final boxTop = normalizedBox.top * containerHeight;
+
+    // Count lines in the text to scale font appropriately
+    final lines = block.text.split('\n').length;
+
+    // Calculate font size based on box dimensions and number of lines
+    // For single line: use full height
+    // For multiple lines: reduce proportionally
+    final lineHeight = 1.2; // Line spacing multiplier
+    final totalLineHeight = lines * lineHeight;
+    final fontSize = (boxHeight / totalLineHeight) * 1;
+
+    return Positioned(
+      left: boxLeft,
+      top: boxTop,
+      width: boxWidth,
+      height: boxHeight,
+      child: GestureDetector(
+        onTap: () {
+          // Tapping selects the text block
+        },
+        child: Container(
+          // Light overlay for selected block
+          color: isSelected ? Colors.blue.withAlpha(25) : Colors.transparent,
+          alignment: Alignment.center,
+          padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+          child: SelectableText(
+            block.text,
+            style: TextStyle(
+              fontSize: fontSize,
+              color: isSelected ? Colors.blue : Colors.transparent,
+              fontWeight: FontWeight.w600,
+              height: lineHeight,
+              leadingDistribution: TextLeadingDistribution.even,
+            ),
+            textAlign: TextAlign.center,
+            strutStyle: StrutStyle(
+              fontSize: fontSize,
+              height: lineHeight,
+              leading: 0,
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
   /// Select text box at a given position on the image and return selected index
   int? _selectTextBoxAtPositionWithIndex(
     Offset position,
@@ -469,48 +543,6 @@ class OcrScreen extends ConsumerWidget {
     // If no block was tapped, deselect
     notifier.selectTextBlock(null);
     return null;
-  }
-
-  /// Show text selection dialog with proper native text selection UI
-  void _showTextSelectionDialog(BuildContext context, TextBlock block) {
-    showDialog<void>(
-      context: context,
-      builder: (context) => Dialog(
-        child: Container(
-          padding: const EdgeInsets.all(16),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                'Select Text',
-                style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              const SizedBox(height: 16),
-              // Native text selection with proper handles and toolbar
-              SelectableText(
-                block.text,
-                style: const TextStyle(
-                  fontSize: 16,
-                  height: 1.6,
-                  color: Colors.black87,
-                ),
-              ),
-              const SizedBox(height: 16),
-              Align(
-                alignment: Alignment.centerRight,
-                child: ElevatedButton(
-                  onPressed: () => Navigator.pop(context),
-                  child: const Text('Done'),
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
   }
 
   /// Build action buttons
