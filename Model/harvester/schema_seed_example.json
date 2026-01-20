@@ -1,0 +1,865 @@
+{
+      "seed_id": "mesh:D000153",
+      "label": "acne keloid",
+      "canonical_label": "Acne Keloid",
+      "aliases": [],
+      "semantic_ground_truth": "A type of acneiform disorder in which secondary pyogenic infection in and around pilosebaceous structures ends in keloidal scarring. It manifests as persistent folliculitis of the back of the neck associated with occlusion of the follicular orifices. It is most often encountered in black or Asian men.\n    ",
+      "temporal_tracking": {
+          "date_introduced": "1991-01-01",
+          "last_medical_update": "2015-06-23",
+          "status": "established"
+      },
+      "historical_trace": {
+          "history_note": "91(75); was see under FOLLICULITIS 1975-90\n  ",
+          "previous_indexing": []
+      },
+      "pharmacological_actions": [],
+      "synonyms": [
+          "Acne Keloid",
+          "Keloidalis Nuchae, Folliculitis",
+          "Nuchae, Folliculitis Keloidalis",
+          "Papillaris Capillitius, Dermatitis",
+          "Keloid, Acne",
+          "Keloid Acnes, Nuchal",
+          "Capillitii, Dermatitis Papillaris",
+          "Keloid Acne, Nuchal",
+          "Acne Keloidalis",
+          "Keloidal Acne",
+          "Dermatitis Papillaris Capillitius",
+          "Capillitius, Dermatitis Papillaris",
+          "Nuchal Keloid Acne",
+          "Acne, Keloidal",
+          "Papillaris Capillitii, Dermatitis",
+          "Keloidal Acnes",
+          "Nuchae, Lichen Keloidalis",
+          "Acnes, Nuchal Keloid",
+          "Acne, Nuchal Keloid",
+          "Nuchal Keloid Acnes",
+          "Keloids, Acne",
+          "Folliculitis Keloidalis Nuchae",
+          "Dermatitis Papillaris Capillitii",
+          "Folliculitis Keloidalis",
+          "Keloidalis Nuchae, Lichen",
+          "Acne Keloids",
+          "Lichen Keloidalis Nuchae"
+      ],
+      "keyword_candidates": [
+          {
+              "term": "Acne Keloid",
+              "score": 1.0,
+              "source": "canonical_label;label;mesh_synonym;ngram"
+          },
+          {
+              "term": "Keloidalis Nuchae, Folliculitis",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Nuchae, Folliculitis Keloidalis",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Papillaris Capillitius, Dermatitis",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Keloid, Acne",
+              "score": 0.9,
+              "source": "mesh_synonym"
+          },
+          {
+              "term": "Keloid Acnes, Nuchal",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Capillitii, Dermatitis Papillaris",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Keloid Acne, Nuchal",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Acne Keloidalis",
+              "score": 0.9,
+              "source": "mesh_synonym"
+          },
+          {
+              "term": "Keloidal Acne",
+              "score": 0.9,
+              "source": "mesh_synonym"
+          },
+          {
+              "term": "Dermatitis Papillaris Capillitius",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Capillitius, Dermatitis Papillaris",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Nuchal Keloid Acne",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Acne, Keloidal",
+              "score": 0.9,
+              "source": "mesh_synonym"
+          },
+          {
+              "term": "Papillaris Capillitii, Dermatitis",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Keloidal Acnes",
+              "score": 0.9,
+              "source": "mesh_synonym"
+          },
+          {
+              "term": "Nuchae, Lichen Keloidalis",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Acnes, Nuchal Keloid",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Acne, Nuchal Keloid",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Nuchal Keloid Acnes",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Keloids, Acne",
+              "score": 0.9,
+              "source": "mesh_synonym"
+          },
+          {
+              "term": "Folliculitis Keloidalis Nuchae",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Dermatitis Papillaris Capillitii",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Folliculitis Keloidalis",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Keloidalis Nuchae, Lichen",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Acne Keloids",
+              "score": 0.9,
+              "source": "mesh_synonym"
+          },
+          {
+              "term": "Lichen Keloidalis Nuchae",
+              "score": 0.9,
+              "source": "mesh_synonym;ngram"
+          },
+          {
+              "term": "Acne Keloid blood",
+              "score": 0.6,
+              "source": "modifier:blood;ngram"
+          },
+          {
+              "term": "Acne Keloid cerebrospinal fluid",
+              "score": 0.6,
+              "source": "modifier:cerebrospinal fluid"
+          },
+          {
+              "term": "Acne Keloid chemically induced",
+              "score": 0.6,
+              "source": "modifier:chemically induced"
+          },
+          {
+              "term": "Acne Keloid classification",
+              "score": 0.6,
+              "source": "modifier:classification;ngram"
+          },
+          {
+              "term": "Acne Keloid complications",
+              "score": 0.6,
+              "source": "modifier:complications;ngram"
+          },
+          {
+              "term": "Acne Keloid congenital",
+              "score": 0.6,
+              "source": "modifier:congenital;ngram"
+          },
+          {
+              "term": "Acne Keloid diagnosis",
+              "score": 0.6,
+              "source": "modifier:diagnosis;ngram"
+          },
+          {
+              "term": "Acne Keloid diet therapy",
+              "score": 0.6,
+              "source": "modifier:diet therapy"
+          },
+          {
+              "term": "Acne Keloid drug therapy",
+              "score": 0.6,
+              "source": "modifier:drug therapy"
+          },
+          {
+              "term": "Acne Keloid economics",
+              "score": 0.6,
+              "source": "modifier:economics;ngram"
+          },
+          {
+              "term": "Keloidalis Nuchae, Folliculitis blood",
+              "score": 0.6,
+              "source": "modifier:blood"
+          },
+          {
+              "term": "Keloidalis Nuchae, Folliculitis cerebrospinal fluid",
+              "score": 0.6,
+              "source": "modifier:cerebrospinal fluid"
+          },
+          {
+              "term": "Keloidalis Nuchae, Folliculitis chemically induced",
+              "score": 0.6,
+              "source": "modifier:chemically induced"
+          },
+          {
+              "term": "Keloidalis Nuchae, Folliculitis classification",
+              "score": 0.6,
+              "source": "modifier:classification"
+          },
+          {
+              "term": "Keloidalis Nuchae, Folliculitis complications",
+              "score": 0.6,
+              "source": "modifier:complications"
+          },
+          {
+              "term": "Keloidalis Nuchae, Folliculitis congenital",
+              "score": 0.6,
+              "source": "modifier:congenital"
+          },
+          {
+              "term": "Keloidalis Nuchae, Folliculitis diagnosis",
+              "score": 0.6,
+              "source": "modifier:diagnosis"
+          },
+          {
+              "term": "Keloidalis Nuchae, Folliculitis diet therapy",
+              "score": 0.6,
+              "source": "modifier:diet therapy"
+          },
+          {
+              "term": "Keloidalis Nuchae, Folliculitis drug therapy",
+              "score": 0.6,
+              "source": "modifier:drug therapy"
+          },
+          {
+              "term": "Keloidalis Nuchae, Folliculitis economics",
+              "score": 0.6,
+              "source": "modifier:economics"
+          },
+          {
+              "term": "Nuchae, Folliculitis Keloidalis blood",
+              "score": 0.6,
+              "source": "modifier:blood"
+          },
+          {
+              "term": "Nuchae, Folliculitis Keloidalis cerebrospinal fluid",
+              "score": 0.6,
+              "source": "modifier:cerebrospinal fluid"
+          },
+          {
+              "term": "Nuchae, Folliculitis Keloidalis chemically induced",
+              "score": 0.6,
+              "source": "modifier:chemically induced"
+          },
+          {
+              "term": "Nuchae, Folliculitis Keloidalis classification",
+              "score": 0.6,
+              "source": "modifier:classification"
+          },
+          {
+              "term": "Nuchae, Folliculitis Keloidalis complications",
+              "score": 0.6,
+              "source": "modifier:complications"
+          },
+          {
+              "term": "Nuchae, Folliculitis Keloidalis congenital",
+              "score": 0.6,
+              "source": "modifier:congenital"
+          },
+          {
+              "term": "Nuchae, Folliculitis Keloidalis diagnosis",
+              "score": 0.6,
+              "source": "modifier:diagnosis"
+          },
+          {
+              "term": "Nuchae, Folliculitis Keloidalis diet therapy",
+              "score": 0.6,
+              "source": "modifier:diet therapy"
+          },
+          {
+              "term": "Nuchae, Folliculitis Keloidalis drug therapy",
+              "score": 0.6,
+              "source": "modifier:drug therapy"
+          },
+          {
+              "term": "Nuchae, Folliculitis Keloidalis economics",
+              "score": 0.6,
+              "source": "modifier:economics"
+          },
+          {
+              "term": "Keloidalis Nuchae,",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Nuchae, Folliculitis",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Papillaris Capillitius,",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Capillitius, Dermatitis",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid Acnes,",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Acnes, Nuchal",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Capillitii, Dermatitis",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Dermatitis Papillaris",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid Acne,",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Acne, Nuchal",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Papillaris Capillitius",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Nuchal Keloid",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid Acne",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Papillaris Capillitii,",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Nuchae, Lichen",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Lichen Keloidalis",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid Acnes",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloidalis Nuchae",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Papillaris Capillitii",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid blood",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid cerebrospinal",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "cerebrospinal fluid",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Acne Keloid cerebrospinal",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid cerebrospinal fluid",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid chemically",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "chemically induced",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Acne Keloid chemically",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid chemically induced",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid classification",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid complications",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid congenital",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid diagnosis",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid diet",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "diet therapy",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Acne Keloid diet",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid diet therapy",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid drug",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "drug therapy",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Acne Keloid drug",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid drug therapy",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloid economics",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis blood",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Nuchae, Folliculitis blood",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis cerebrospinal",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Nuchae, Folliculitis cerebrospinal",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis cerebrospinal fluid",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis chemically",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Nuchae, Folliculitis chemically",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis chemically induced",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis classification",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Nuchae, Folliculitis classification",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis complications",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Nuchae, Folliculitis complications",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis congenital",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Nuchae, Folliculitis congenital",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis diagnosis",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Nuchae, Folliculitis diagnosis",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis diet",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Nuchae, Folliculitis diet",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis diet therapy",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis drug",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Nuchae, Folliculitis drug",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis drug therapy",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis economics",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Nuchae, Folliculitis economics",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloidalis blood",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis Keloidalis blood",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloidalis cerebrospinal",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis Keloidalis cerebrospinal",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloidalis cerebrospinal fluid",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloidalis chemically",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis Keloidalis chemically",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloidalis chemically induced",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloidalis classification",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis Keloidalis classification",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloidalis complications",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis Keloidalis complications",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloidalis congenital",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis Keloidalis congenital",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloidalis diagnosis",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis Keloidalis diagnosis",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloidalis diet",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis Keloidalis diet",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloidalis diet therapy",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloidalis drug",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis Keloidalis drug",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloidalis drug therapy",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Keloidalis economics",
+              "score": 0.5,
+              "source": "ngram"
+          },
+          {
+              "term": "Folliculitis Keloidalis economics",
+              "score": 0.5,
+              "source": "ngram"
+          }
+      ],
+      "preferred_search_terms": [
+          "Keloid, Acne",
+          "Acne Keloidalis",
+          "Keloidal Acne",
+          "Acne, Keloidal",
+          "Keloidal Acnes"
+      ],
+      "excluded_terms": [],
+      "sapbert_metadata": {
+          "model_name": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+          "label_embedding_ref": "storage\\embeddings\\C\\mesh_D000153_label.npy",
+          "candidate_embeddings_ref": "storage\\embeddings\\C\\mesh_D000153_candidates.npy",
+          "embedding_dim": 768,
+          "num_candidate_embeddings": 145,
+          "embedded_at": "2026-01-20T03:57:44.525680Z"
+      },
+      "harvester_modifiers": [
+          "blood",
+          "cerebrospinal fluid",
+          "chemically induced",
+          "classification",
+          "complications",
+          "congenital",
+          "diagnosis",
+          "diet therapy",
+          "drug therapy",
+          "economics",
+          "embryology",
+          "enzymology",
+          "ethnology",
+          "etiology",
+          "genetics",
+          "history",
+          "immunology",
+          "metabolism",
+          "microbiology",
+          "mortality",
+          "nursing",
+          "epidemiology",
+          "parasitology",
+          "pathology",
+          "physiopathology",
+          "prevention & control",
+          "psychology",
+          "radiotherapy",
+          "rehabilitation",
+          "surgery",
+          "therapy",
+          "urine",
+          "veterinary",
+          "virology",
+          "diagnostic imaging"
+      ],
+      "modifier_groups": {},
+      "query_templates": [],
+      "retrieval_params": {
+          "top_k_keywords": null,
+          "retmax_stageA": null,
+          "retmax_stageB": null,
+          "min_keyword_score": null,
+          "title_threshold": null,
+          "combined_score_threshold_for_biobert": null
+      },
+      "evidence_index": [],
+      "claim_templates": [],
+      "analysis": {
+          "biobert_runs": [],
+          "claim_verdicts": []
+      },
+      "mesh_tree_numbers": [
+          "A10.165.450.300.425.125",
+          "C17.300.200.425.125",
+          "C17.800.030.030",
+          "C17.800.329.500.261"
+      ],
+      "tags": [
+          "A10",
+          "C17"
+      ],
+      "top_level_branches": [
+          "C",
+          "A"
+      ],
+      "seed_level_notes": "",
+      "created_at": "2026-01-20T09:19:36.196960Z",
+      "last_updated_in_db": "2026-01-20T09:19:36.196962Z",
+      "updated_at": ""
+}
