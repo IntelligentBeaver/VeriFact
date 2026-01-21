@@ -1,0 +1,63 @@
+{
+  "url": "https://www.who.int/news-room/fact-sheets/detail/one-health",
+  "title": "One Health",
+  "slug": "one-health",
+  "published_date": "23 October 2023",
+  "first_letter": "O",
+  "sections": [
+    {
+      "heading": "Key facts",
+      "content": null,
+      "bullets": [
+        "The health of humans, animals, and ecosystems are closely interlinked. Changes in these relationships can increase the risk of new human and animal diseases developing and spreading.",
+        "The close links between human, animal and environmental health demand close collaboration, communication and coordination between the relevant sectors.",
+        "One Health is an approach to optimize the health of humans, animals and ecosystems by integrating these fields, rather than keeping them separate.",
+        "Some 60% of emerging infectious diseases that are reported globally come from animals, both wild and domestic. Over 30 new human pathogens have been detected in the last 3 decades, 75% of which have originated in animals.",
+        "Human activities and stressed ecosystems have created new opportunities for diseases to emerge and spread.",
+        "These stressors include animal trade, agriculture, livestock farming, urbanization, extractive industries, climate change, habitat fragmentation and encroachment into wild areas."
+      ]
+    },
+    {
+      "heading": "Overview",
+      "content": "One Health is an integrated, unifying approach to balance and optimize the health of people, animals and ecosystems. It uses the close, interdependent links among these fields to create new surveillance and disease control methods. For example, the way land is used can impact the number of malaria cases. Weather patterns and human-built water controls can affect diseases like dengue. Trade in live, wild animals can increase the likelihood of infectious diseases jumping over to people\r\n    (called disease spillover). The COVID-19 pandemic put a spotlight on the need for a global framework for improved surveillance and a more holistic, integrated system. Gaps in One Health knowledge, prevention and integrated approaches were seen as key drivers of the pandemic. By\r\n    addressing the linkages between human, animal and environmental health, One Health is seen as a transformative approach to improved global health. One Health applies to a range of issues, include: According to the World Bank, the expected benefit of One Health to the global community was estimated in 2022 to be at least US$ 37 billion per year. The estimated annual need for expenditure on prevention is less than 10% of these benefits. Since 2003, the world has seen over 15 million human deaths and US$ 4 trillion in economic losses due to disease and pandemics, as well as immense losses from food and water safety hazards, which are One Health related health threats. Collaboration across sectors and disciplines through a One Health approach is a vital solution for addressing the complex health challenges facing our society. To prevent, detect and respond to emerging health challenges, all relevant sectors must collaborate in an integrated manner to achieve together what no sector can achieve alone.",
+      "bullets": [
+        "antimicrobial resistance (AMR), which happens when germs like bacteria and parasites develop the ability to defeat the drugs designed to kill them and continue growing and spreading;",
+        "zoonotic diseases, which are infectious diseases that are caused by germs that spread between animals and people, such as Ebola, avian influenza, rabies, etc.;",
+        "vector-borne diseases, which affect people who get bitten by a vector (mosquitoes, ticks, lice and fleas) and include dengue fever, West Nile virus, Lyme disease and malaria;",
+        "food safety and foodborne diseases, caused by contamination of food and occur at any stage of the food production, delivery and consumption chain, such as norovirus, salmonella, listeria, etc.; and",
+        "environmental health, such as water pollution, air pollution and climate change."
+      ]
+    },
+    {
+      "heading": "Scope of the problem",
+      "content": "The emergence of the SARS-CoV-2 virus that caused COVID-19 has underlined the need to strengthen the One Health approach, with a greater emphasis on connections to animal health and the environment (see the WHO Manifesto for a healthy recovery from COVID-19).\r\n    Attempting to save money by neglecting environmental protection, emergency preparedness, health systems, water and sanitation infrastructure, and social safety nets has proven to be a false economy, and the bill is now being paid many times over. We now have an unprecedented opportunity to strengthen collaboration and policies across these many areas and reduce the risk of future pandemics and epidemics while also addressing the ongoing burden of endemic and non-communicable diseases. Surveillance that monitors risks and helps identify patterns across these many areas is needed.  In addition, new research should integrate the impact of these different fields, particularly on the drivers that lead to crises. Challenges To implement One Health, major structural changes are required to integrate the human, animal and environmental health fields and support multi-sectoral communication, collaboration, coordination, and capacity strengthening. Critical gaps in One Health implementation include:",
+      "bullets": [
+        "databases and resources to support information sharing and action in line with a One Health approach;",
+        "identification and showcasing of best practice examples for One Health implementation;",
+        "mapping of existing initiatives and capacities for One Health research and building the next generation One Health work force;",
+        "a model for an integrated One Health surveillance system;",
+        "mechanisms for routine and emergency coordination with relevant stakeholders;",
+        "a more complete understanding of the drivers of spillover of zoonotic diseases (transmitted between animals and humans). This includes animal trade, agriculture, livestock farming, urbanization and habitat fragmentation;",
+        "a standardized approach for assessing risks of spillover of pathogens between different animal populations and humans, and emergence of zoonotic diseases, including those arising in food systems; and",
+        "methods for identifying and reducing spillover risks and spread of zoonotic diseases in ways that minimize trade-offs and maximize co-benefits with other health and sustainable development objectives."
+      ]
+    },
+    {
+      "heading": "WHO response",
+      "content": "WHO is integrating One Health across its units and offices, providing strategic advice relating to policy, and conducting training at the local, national and regional levels. The goal is stronger programmes that are led and owned by countries. WHO is a member of the One Health Quadripartite with the Food and Agriculture Organization, the World Organisation for Animal Health and the United Nations Environment Programme. Together, they have developed a One Health Joint Plan of Action that\r\n    includes a set of activities that the 4 organizations can do together, including working with political leaders to establish the needed infrastructure and funding. WHO is the secretariat for the One Health High-Level Expert Panel (OHHLEP), which provides scientific advice to the Quadripartite partners on One Health priority setting, policies and strategies. This includes recommendations on good practice guidelines,\r\n    a model One Health Surveillance System, a comprehensive list of upstream drivers of zoonotic disease spillover and recommendations to mitigate these risks."
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-blue.svg",
+    "https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-white.svg",
+    "https://www.who.int/images/default-source/fallback/header-logos/h-logo-blue1820eae93c154e37b2588ab90fdbc17e.svg?sfvrsn=aaed4f35_20",
+    "https://www.who.int/images/default-source/fallback/maps/africa8bd96ad167204ac7ac4811b8ae1dfe2c.png?sfvrsn=3204f957_20",
+    "https://www.who.int/images/default-source/fallback/maps/americasdf9b2f184d3145259fb3a5336cd775c7.png?sfvrsn=9efd6df3_19",
+    "https://www.who.int/images/default-source/fallback/maps/eastern-mediterraneanadf4e81056b84e75b83a1faed30a1e0a.png?sfvrsn=71211e18_17",
+    "https://www.who.int/images/default-source/fallback/maps/europeae57428b4f114210ae7067e1f5119e1a.png?sfvrsn=c7d5c5a5_19",
+    "https://www.who.int/images/default-source/fallback/maps/south-east-asia1c6bd1d9eb5b4cf0b5ad5da36ff3912d.png?sfvrsn=68e76dc2_17",
+    "https://www.who.int/images/default-source/fallback/maps/western-pacifice1e576200c9b4fe59078eb28958428a9.png?sfvrsn=88cbdcd5_19"
+  ],
+  "scrape_timestamp_utc": "2026-01-21T10:06:24Z"
+}

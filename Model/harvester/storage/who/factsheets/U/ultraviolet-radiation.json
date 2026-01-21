@@ -1,0 +1,95 @@
+{
+  "url": "https://www.who.int/news-room/fact-sheets/detail/ultraviolet-radiation",
+  "title": "Ultraviolet radiation",
+  "slug": "ultraviolet-radiation",
+  "published_date": "21 June 2022",
+  "first_letter": "U",
+  "sections": [
+    {
+      "heading": "Key facts",
+      "content": null,
+      "bullets": [
+        "Skin cancers are caused primarily by exposure to ultraviolet radiation (UVR), either from the sun or from artificial sources such as sunbeds.",
+        "Globally in 2020, over 1.5 million cases of skin cancers were diagnosed and over 120 000 skin cancer-associated deaths were reported.",
+        "Worldwide, it is estimated that 15 million people are blind due to cataracts; of these, some 10% may be due to exposure to UVR.",
+        "Excessive sun exposure in children and adolescents contributes to skin cancer in later life.",
+        "A certain amount of UV exposure is beneficial to health, in particular for vitamin D.",
+        "Simple and effective prevention measures are available. Sun protection is recommended when the ultraviolet index is 3 and above."
+      ]
+    },
+    {
+      "heading": "Overview",
+      "content": "Ultraviolet radiation (UVR) can neither be seen nor felt. While some people are exposed to artificial UVR sources (e.g. in medicine, industry and for disinfection and cosmetic purposes), everyone is exposed to solar UVR. Solar UVR levels are influenced by several factors:",
+      "bullets": [
+        "Sun elevation: the higher the sun in the sky, the higher the UVR level. UVR levels vary with time of day and time of year.",
+        "Latitude: the closer to the equator, the higher the UVR levels.",
+        "Altitude: UVR levels increase with altitude as the air is thinner and less UVR is absorbed.",
+        "Cloud cover: UVR levels are highest under cloudless skies but can be high even with cloud cover.",
+        "Ozone: ozone absorbs part of the UVR from the sun. Less ozone means more UVR reaches the Earth's surface.",
+        "Reflection: reflective surfaces, such as water, sand and fresh snow, increase the UVR level.",
+        "Climate change, including through variations in ozone and cloud cover, is expected to impact UVR levels at the Earth’s surface."
+      ]
+    },
+    {
+      "heading": "Health effects",
+      "content": "Small amounts of UVR are beneficial to health and play an essential role in the production of vitamin D. However, excessive exposure to UVR is associated with negative health consequences as UVR is carcinogenic to humans."
+    },
+    {
+      "heading": "Effects on the skin",
+      "content": "Acute effects of UVR include DNA damage, sunburn, phototoxic and photoallergic reactions, and suppression of the immune system. Immunosuppression can be considered as a risk factor for cancer and can cause reactivation of viruses (e.g. cold sores in the lip). Chronic effects on skin and lips from UVR exposure include: Excessive exposure to UVR caused around 1.2 million new cases of non-melanoma skin cancers (SCC and BCC) and 325 000 melanomas of the skin, and 64 000 premature deaths from non-melanoma and 57 000 melanomas of the skin in the year 2020.",
+      "bullets": [
+        "cutaneous melanoma: a life-threatening malignant skin cancer;",
+        "squamous cell carcinoma (SCC): a malignant cancer, which generally spreads less than melanoma and is less likely to cause death;",
+        "basal cell carcinoma (BCC): a slow-growing skin cancer appearing predominantly in older people; and",
+        "premature skin aging: a loss of skin elasticity at a young age with decreased wound healing."
+      ]
+    },
+    {
+      "heading": "Effects on the eyes",
+      "content": "Acute effects of UVR include photokeratitis and photoconjunctivitis (inflammation of the cornea and conjunctiva, respectively). These effects are reversible, easily prevented by protective eyewear and are not usually associated with any long-term damage but are painful and might require therapeutic intervention. Chronic effects of UVR include: UV exposure may also be involved in the development of age-related macular degeneration (AMD). Worldwide, it is estimated that 15 million people are blind due to cataracts; of these, some 10% may be due to exposure to UVR.",
+      "bullets": [
+        "cataract (an eye disease where the lens becomes increasingly opaque, resulting in impaired vision and eventual blindness);",
+        "pterygium (growth of fleshy tissue which can cover part of the cornea); and",
+        "cancer in and around the eye (basal cell carcinoma, squamous cell carcinoma and melanoma)."
+      ]
+    },
+    {
+      "heading": "Vitamin D production",
+      "content": "UVR in small amounts is essential to good health as it leads to the production of vitamin D in the body. Vitamin D strengthens the bone and musculoskeletal system. People who have very low sun exposure – such as those in institutional care or housebound, people with deeply pigmented skin living in high latitudes or those who, for religious or cultural reasons cover their entire body surface when they are outdoors – should consider oral vitamin D supplementation."
+    },
+    {
+      "heading": "People at particular risk",
+      "content": "Children and adolescents are particularly vulnerable to the harmful effects of UVR due to their skin and eye structure. Sunburns in childhood lead to a higher risk of skin cancer in later life. Also, a larger amount of UVR can reach and damage their retina. Fair-skinned people suffer more from sunburn and have a higher risk of skin cancer than dark-skinned people; however, darker-skinned people also develop skin cancers. Consideration of eye damage is important for everyone. People at increased risk include those with a high number of naevi, those taking photosensitizing medication, and those with a family history of skin cancer. Outdoor workers exposed occupationally to solar UVR levels face an increased risk of developing non-melanoma skin cancers."
+    },
+    {
+      "heading": "Protective measures",
+      "content": "Skin cancer is highly preventable. WHO recommends the following measures to protect against excessive exposure to UVR. Encouraging children to take the simple precautions above will prevent both short-term and long-term damage while still allowing them to enjoy the time they spend outdoors.",
+      "bullets": [
+        "Limit time in the midday sun.",
+        "Seek shade.",
+        "Wear protective clothing.",
+        "Wear a broad brimmed hat to protect the eyes, face, ears and neck.",
+        "Wear wraparound-style sunglasses that provide 99 to 100% UV-A and UV-B protection.",
+        "Use broad-spectrum sunscreen on skin areas that cannot be covered by clothes. Sun protection is best achieved by seeking shade and wearing clothes rather than applying sunscreens. Sunscreens should not be used for extending time spent in the sun.",
+        "Avoid use of artificial tanning devices. Sunbed use increases the risk of developing skin cancers. Artificial tanning should never be considered as an option to achieve sufficient vitamin D status. Several countries have implemented legislation to ban or restrict the use of sunbeds."
+      ]
+    },
+    {
+      "heading": "WHO response",
+      "content": "WHO aims to reduce the burden of disease resulting from exposure to UVR. It encourages research, develops guidance and disseminates information tools about effective UVR protection interventions related to the public, occupationally exposed workers and patients. The Global Solar UV index (UVI), an information tool that describes the level of solar UVR at the Earth’s surface, was developed by WHO, the United Nations Environment Programme (UNEP), the World Meteorological Organization (WMO) and the International Commission on Non-Ionizing Radiation Protection (ICNIRP). The UVI is an indicator of the potential for skin damage. It alerts people about the need to adopt protective measures when exposed to UVR. The higher the UVI value, the greater the potential for damage to the skin and eye, and the less time it takes for harm to occur. Sun protection measures should be used when the UVI reaches 3 or above."
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-blue.svg",
+    "https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-white.svg",
+    "https://www.who.int/images/default-source/fallback/header-logos/h-logo-blue1820eae93c154e37b2588ab90fdbc17e.svg?sfvrsn=aaed4f35_20",
+    "https://www.who.int/images/default-source/fallback/maps/africa8bd96ad167204ac7ac4811b8ae1dfe2c.png?sfvrsn=3204f957_20",
+    "https://www.who.int/images/default-source/fallback/maps/americasdf9b2f184d3145259fb3a5336cd775c7.png?sfvrsn=9efd6df3_19",
+    "https://www.who.int/images/default-source/fallback/maps/eastern-mediterraneanadf4e81056b84e75b83a1faed30a1e0a.png?sfvrsn=71211e18_17",
+    "https://www.who.int/images/default-source/fallback/maps/europeae57428b4f114210ae7067e1f5119e1a.png?sfvrsn=c7d5c5a5_19",
+    "https://www.who.int/images/default-source/fallback/maps/south-east-asia1c6bd1d9eb5b4cf0b5ad5da36ff3912d.png?sfvrsn=68e76dc2_17",
+    "https://www.who.int/images/default-source/fallback/maps/western-pacifice1e576200c9b4fe59078eb28958428a9.png?sfvrsn=88cbdcd5_19"
+  ],
+  "scrape_timestamp_utc": "2026-01-21T10:06:36Z"
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://www.who.int/news-room/fact-sheets/detail/diphtheria",
+  "title": "Diphtheria",
+  "slug": "diphtheria",
+  "published_date": "12 July 2024",
+  "first_letter": "D",
+  "sections": [
+    {
+      "heading": "Key facts",
+      "content": null,
+      "bullets": [
+        "Diphtheria is a disease caused by a bacterium that affects the upper respiratory tract and less often the skin. It also produces a toxin that damages the heart and the nerves.",
+        "Diphtheria is a vaccine preventable disease, but multiple doses and booster doses are needed to produce and sustain immunity.",
+        "Those who are not immunized or under immunized are at risk of the disease.",
+        "For unvaccinated individuals, without proper treatment, diphtheria can be fatal in around 30% of cases, with young children at higher risk of dying (1) .",
+        "Recent diphtheria outbreaks stress the importance of sustaining high levels of vaccination coverage in communities across the life course.",
+        "In 2023, an estimated 84% of children worldwide received the recommended 3 doses of diphtheria-containing vaccine during infancy, leaving 16% with no or incomplete coverage. There is wide coverage variation between and within countries."
+      ]
+    },
+    {
+      "heading": "Overview",
+      "content": "Diphtheria is a contagious disease that is caused by toxin producing bacteria. It can spread from person to person when an infected person coughs or sneezes. Some people may not develop disease manifestations but can still transmit the bacteria to others. Others will develop mild disease, although severe disease, complications and death can also occur. Diphtheria can affect anyone but was most common in unvaccinated children. The diphtheria toxin causes damage to the respiratory tract and can spread throughout the body.  Common symptoms include fever, sore throat and swelling of the neck glands. Being vaccinated is the best way to prevent getting sick with diphtheria or spreading it to other people. The vaccine is safe and helps your body fight off the infection. Before the introduction of diphtheria vaccine and widespread vaccination in the 1930s, cases occurred throughout the world. Recently, as a result of under vaccination, outbreaks have been occurring with increasing frequency despite the availability of a safe and effective vaccine."
+    },
+    {
+      "heading": "Effects of the COVID-19 pandemic",
+      "content": "The COVID-19 pandemic impacted delivery of routine immunization services and surveillance activities.  These setbacks have left many children susceptible to vaccine preventable diseases such as diphtheria. No WHO region is completely free from diphtheria, and areas with low immunization coverage with the diphtheria toxoid-containing vaccine allow the bacteria to circulate, increasing the likelihood of outbreaks and putting all unvaccinated and under vaccinated individuals at risk. Immunization and surveillance programs should be strengthened within primary healthcare, and efforts should be made to reach all children with 3 diphtheria toxoid-containing vaccine doses during infancy, childhood and adolescence. Countries should also implement robust surveillance systems to identify and confirm cases and close immunity gaps rapidly."
+    },
+    {
+      "heading": "Signs and symptoms",
+      "content": "Symptoms of diphtheria usually begin 2–5 days after exposure to the bacteria. Typical symptoms of the infection include a sore throat, fever, swollen neck glands and weakness. Within 2–3 from infection, the dead tissue in the respiratory tract forms a thick, grey coating that can cover tissues in the nose, tonsils and throat, making it hard to breathe and swallow. Most severe disease and deaths from diphtheria occur as a result of the diphtheria toxin and its effects.  Complications can include inflammation of the heart and nerves. For unvaccinated individuals without adequate treatment, diphtheria can be fatal in around 30% of cases, which children younger than 5 years of age at greater risk of dying."
+    },
+    {
+      "heading": "Who is at risk?",
+      "content": "Any non-immune person (not vaccinated or under vaccinated) can become infected. Diphtheria has seen resurgences any time immunization coverage becomes low. Damaged health infrastructure and health services in countries experiencing or recovering from a natural disaster or conflict interrupt routine immunization. Overcrowding in residential camps increases the risk of infection."
+    },
+    {
+      "heading": "Treatment",
+      "content": "The risk of complications or death decrease considerably if appropriate treatment is provided early in the course of illness. For this reason, if diphtheria is suspected, testing to confirm the disease should be done promptly and treatment should be started as soon as possible. Cases of diphtheria are usually treated with diphtheria antitoxin as well as antibiotics. Diphtheria specific antitoxin neutralizes circulation toxin in the blood. Detailed instructions for giving antitoxin can be found in the WHO treatment guidelines. Antibiotics stop bacterial replication and thereby toxin production, speed up getting rid of the bacteria and prevents transmission to others. However, many current strains of diphtheria have exhibited resistance to some commonly used antimicrobial drugs. Anyone that has had diphtheria should also receive vaccine after the acute phase of the illness is over. Individuals who have been in contact with cases of diphtheria should be treated with antibiotics prophylactically to prevent illness. Their immunization status of all contacts should also be checked. If they are not fully vaccinated, they should also be offered vaccine."
+    },
+    {
+      "heading": "Prevention",
+      "content": "Diphtheria can be prevented by vaccines that are often given in combination with tetanus and pertussis and other diseases. WHO recommends a total of 6 diphtheria-containing vaccine doses be given starting at 6 weeks of age through adolescence to provide long term protection. Community-wide vaccination with high coverage as a part of routine immunization services embedded in primary health care is the most effective way to prevent diphtheria. All children should be vaccinated against diphtheria with a full primary series and 3 additional booster doses for long term protection. The vaccine is safe and effective. The diphtheria vaccine is given most often combined with vaccines for diseases such as tetanus, pertussis, Hemophilus influenzae , hepatitis B and inactivated polio. Combining vaccines slightly increases the cost but allows for shared delivery and administration costs, and importantly adds the benefit of protection against other childhood illness that can cause tetanus, pertussis, meningitis and polio. In 2023, 84% of children received all 3 doses of the primary series of diphtheria vaccine. However, there are substantial variations in coverage levels between and within countries. Under vaccination in successive cohorts of children can lead to cases and outbreaks of diphtheria."
+    },
+    {
+      "heading": "WHO response",
+      "content": "The essential programme on immunization began in 1974. Combination diphtheria vaccines were introduced as part of this programme since its inception and have prevented >90% cases of disease between 1980–2000. WHO continues to work with member states to promote vaccination to sustain vaccine coverage and prevent disease in communities. In recent years, there have been outbreaks of diphtheria due to inadequate vaccine coverage. To control these outbreaks, WHO has worked with member states in outbreak response and in strengthening routine immunization programmes to improve and sustain immunization coverage to prevent diphtheria infections and deaths. References",
+      "bullets": [
+        "Truelove SA, Keegan LT, Moss WJ, Chaisson LH, Macher E, Azman AS, Lessler J. Clinical and Epidemiological Aspects of Diphtheria: A Systematic Review and Pooled Analysis. Clin Infect Dis. 2020 Jun 24;71(1):89-97. doi: 10.1093/cid/ciz808. PMID: 31425581; PMCID: PMC7312233. https://pubmed.ncbi.nlm.nih.gov/31425581/",
+        ""
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-blue.svg",
+    "https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-white.svg",
+    "https://www.who.int/images/default-source/fallback/header-logos/h-logo-blue1820eae93c154e37b2588ab90fdbc17e.svg?sfvrsn=aaed4f35_20",
+    "https://www.who.int/images/default-source/fallback/maps/africa8bd96ad167204ac7ac4811b8ae1dfe2c.png?sfvrsn=3204f957_20",
+    "https://www.who.int/images/default-source/fallback/maps/americasdf9b2f184d3145259fb3a5336cd775c7.png?sfvrsn=9efd6df3_19",
+    "https://www.who.int/images/default-source/fallback/maps/eastern-mediterraneanadf4e81056b84e75b83a1faed30a1e0a.png?sfvrsn=71211e18_17",
+    "https://www.who.int/images/default-source/fallback/maps/europeae57428b4f114210ae7067e1f5119e1a.png?sfvrsn=c7d5c5a5_19",
+    "https://www.who.int/images/default-source/fallback/maps/south-east-asia1c6bd1d9eb5b4cf0b5ad5da36ff3912d.png?sfvrsn=68e76dc2_17",
+    "https://www.who.int/images/default-source/fallback/maps/western-pacifice1e576200c9b4fe59078eb28958428a9.png?sfvrsn=88cbdcd5_19"
+  ],
+  "scrape_timestamp_utc": "2026-01-21T10:06:08Z"
+}
