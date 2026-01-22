@@ -388,7 +388,7 @@ def main():
 
         print(f"\nProcessing year {year}...")
 
-        urls = load_urls_from_year_file(input_path, min_year=2016)
+        urls = load_urls_from_year_file(input_path, min_year=2006)
 
         year_results = load_existing_items(output_path)
         existing_urls = {item["url"] for item in year_results if "url" in item}

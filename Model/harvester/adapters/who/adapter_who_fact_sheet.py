@@ -215,9 +215,9 @@ def parse_fact_sheet(url):
     return out
 
 def save_json_record(record, base_dir="../../storage/who/factsheets"):
-    letter = record.get("first_letter", "X")
+    # letter = record.get("first_letter", "X")
     slug = record.get("slug", "unknown")
-    folder = Path(base_dir) / letter
+    folder = Path(base_dir)
     folder.mkdir(parents=True, exist_ok=True)
     filepath = folder / f"{slug}.json"
     with open(filepath, "w", encoding="utf-8") as f:

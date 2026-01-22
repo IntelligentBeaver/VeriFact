@@ -1,0 +1,135 @@
+{
+  "url": "https://www.who.int/news-room/fact-sheets/detail/cancer",
+  "title": "Cancer",
+  "slug": "cancer",
+  "published_date": "3 February 2025",
+  "first_letter": "C",
+  "sections": [
+    {
+      "heading": "Key facts",
+      "content": null,
+      "bullets": [
+        "Cancer is a leading cause of death worldwide, accounting for nearly 10 million deaths in 2020, or nearly one in six deaths.",
+        "The most common cancers are breast, lung, colon and rectum and prostate cancers.",
+        "Around one-third of deaths from cancer are due \r\nto tobacco use, high body mass index, alcohol consumption, low fruit and\r\n vegetable intake, and lack of physical activity. In addition, air pollution is an important risk factor for lung cancer.",
+        "Cancer-causing infections, such as human \r\npapillomavirus (HPV) and hepatitis, are responsible for approximately \r\n30% of cancer cases in low- and lower-middle-income countries.",
+        "Many cancers can be cured if detected early and treated effectively."
+      ]
+    },
+    {
+      "heading": "",
+      "content": null
+    },
+    {
+      "heading": "Overview",
+      "content": "Cancer is a generic term for a large group of diseases that can affect any part of the body. Other terms used are malignant tumours and neoplasms. One defining\r\n    feature of cancer is the rapid creation of abnormal cells that grow beyond their usual boundaries, and which can then invade adjoining parts of the body and spread to other organs; the latter process is referred to as metastasis. Widespread metastases\r\n    are the primary cause of death from cancer."
+    },
+    {
+      "heading": "The problem",
+      "content": "Cancer is a leading cause of death worldwide, accounting for nearly 10 million deaths in 2020 (1). The most common in 2020 (in terms of new cases of cancer) were: The most common causes of cancer death in 2020 were: Each year, approximately 400 000 children develop cancer. The most common cancers vary between countries. Cervical cancer is the most common in 23 countries.",
+      "bullets": [
+        "breast (2.26 million cases);",
+        "lung (2.21 million cases);",
+        "colon and rectum (1.93 million cases);",
+        "prostate (1.41 million cases);",
+        "skin (non-melanoma) (1.20 million cases); and",
+        "stomach (1.09 million cases).",
+        "lung (1.80 million deaths);",
+        "colon and rectum (916 000 deaths);",
+        "liver (830 000 deaths);",
+        "stomach (769 000 deaths); and",
+        "breast (685 000 deaths)."
+      ]
+    },
+    {
+      "heading": "Causes",
+      "content": "Cancer arises from the transformation of normal cells into tumour cells in a multi-stage process that generally progresses from a pre-cancerous lesion to a malignant tumour. These changes are the result of the interaction between a person's genetic factors\r\n    and three categories of external agents, including: WHO, through its cancer research agency, the International Agency for Research on Cancer (IARC), maintains a classification of cancer-causing agents. The incidence of cancer rises dramatically with age, most likely due to a build-up of risks for specific cancers that increase with age. The overall risk accumulation is combined with the tendency for cellular repair mechanisms to be less effective as\r\n    a person grows older.",
+      "bullets": [
+        "physical carcinogens, such as ultraviolet and ionizing radiation;",
+        "chemical carcinogens, such as asbestos, components of tobacco smoke, alcohol, aflatoxin (a food contaminant), and arsenic (a drinking water contaminant); and",
+        "biological carcinogens, such as infections from certain viruses, bacteria, or parasites."
+      ]
+    },
+    {
+      "heading": "Risk factors",
+      "content": "Tobacco use, alcohol consumption, unhealthy diet, physical inactivity and air pollution are risk factors for cancer and other noncommunicable diseases. Some chronic infections are risk factors for cancer; this is a particular issue in low- and middle-income countries. Approximately 13% of cancers diagnosed in 2018 globally were attributed to carcinogenic infections, including Helicobacter pylori, human\r\n    papillomavirus (HPV), hepatitis B virus, hepatitis C virus, and Epstein-Barr virus (2). Hepatitis B and C viruses and some types of HPV increase the risk for liver and cervical cancer, respectively. Infection with HIV increases the risk of developing cervical cancer six-fold and substantially increases the risk of developing select other\r\n    cancers such as Kaposi sarcoma."
+    },
+    {
+      "heading": "Reducing the burden",
+      "content": "Between 30 and 50% of cancers can currently be prevented by avoiding risk factors and implementing existing evidence-based prevention strategies. The cancer burden can also be reduced through early detection of cancer and appropriate treatment and care\r\n    of patients who develop cancer. Many cancers have a high chance of cure if diagnosed early and treated appropriately."
+    },
+    {
+      "heading": "Prevention",
+      "content": "Cancer risk can be reduced by:",
+      "bullets": [
+        "not using tobacco;",
+        "maintaining a healthy body weight;",
+        "eating a healthy diet, including fruit and vegetables;",
+        "doing physical activity on a regular basis;",
+        "avoiding or reducing consumption of alcohol;",
+        "getting vaccinated against HPV and hepatitis B if you belong to a group for which vaccination is recommended;",
+        "avoiding ultraviolet radiation exposure (which primarily results from exposure to the sun and artificial tanning devices) and/or using sun protection measures;",
+        "ensuring safe and appropriate use of radiation in health care (for diagnostic and therapeutic purposes);",
+        "minimizing occupational exposure to ionizing radiation; and",
+        "reducing exposure to outdoor air pollution and indoor air pollution, including radon (a radioactive gas produced from the natural decay of uranium, which can accumulate in buildings — homes, schools and workplaces)."
+      ]
+    },
+    {
+      "heading": "Early detection",
+      "content": "Cancer mortality is reduced when cases are detected and treated early. There are two components of early detection: early diagnosis and screening."
+    },
+    {
+      "heading": "Early diagnosis",
+      "content": "When identified early, cancer is more likely to respond to treatment and can result in a greater probability of survival with less morbidity, as well as less expensive treatment. Significant improvements can be made in the lives of cancer patients by\r\n    detecting cancer early and avoiding delays in care. Early diagnosis consists of three components: Early diagnosis of symptomatic cancers is relevant in all settings and the majority of cancers. Cancer programmes should be designed to reduce delays in, and barriers to, diagnosis, treatment and supportive care.",
+      "bullets": [
+        "being aware of the symptoms of different forms of cancer and of the importance of seeking medical advice when abnormal findings are observed;",
+        "access to clinical evaluation and diagnostic services; and",
+        "timely referral to treatment services."
+      ]
+    },
+    {
+      "heading": "Screening",
+      "content": "Screening aims to identify individuals with findings suggestive of a specific cancer or pre-cancer before they have developed symptoms. When abnormalities are identified during screening, further tests to establish a definitive diagnosis should follow,\r\n    as should referral for treatment if cancer is proven to be present. Screening programmes are effective for some but not all cancer types and in general are far more complex and resource-intensive than early diagnosis as they require special equipment and dedicated personnel. Even when screening programmes are established,\r\n    early diagnosis programmes are still necessary to identify those cancer cases occurring in people who do not meet the age or risk factor criteria for screening. Patient selection for screening programmes is based on age and risk factors to avoid excessive false positive studies. Examples of screening methods are: Quality assurance is required for both screening and early diagnosis programmes.",
+      "bullets": [
+        "HPV test (including HPV DNA and mRNA test), as preferred modality for cervical cancer screening; and",
+        "mammography screening for breast cancer for women aged 50–69 residing in settings with strong or relatively strong health systems."
+      ]
+    },
+    {
+      "heading": "Treatment",
+      "content": "A correct cancer diagnosis is essential for appropriate and effective treatment because every cancer type requires a specific treatment regimen. Treatment usually includes surgery, radiotherapy, and/or systemic therapy (chemotherapy, hormonal treatments,\r\n    targeted biological therapies). Proper selection of a treatment regimen takes into consideration both the cancer and the individual being treated. Completion of the treatment protocol in a defined period of time is important to achieve the predicted\r\n    therapeutic result. Determining the goals of treatment is an important first step. The primary goal is generally to cure cancer or to considerably prolong life. Improving the patient's quality of life is also an important goal. This can be achieved by support for the patient’s\r\n    physical, psychosocial and spiritual well-being and palliative care in terminal stages of cancer. Some of the most common cancer types, such as breast cancer, cervical cancer, oral cancer, and colorectal cancer, have high cure probabilities when detected early and treated according to best practices. Some cancer types, such as testicular seminoma and different types of leukaemia and lymphoma in children, also have high cure rates if appropriate treatment is provided, even when cancerous cells are present in other areas of the body. There is, however, a significant variation in treatment availability between countries of different income levels; comprehensive treatment is reportedly available in more than 90% of high-income countries but less than 15% of low-income countries (3)."
+    },
+    {
+      "heading": "Palliative care",
+      "content": "Palliative care is treatment to relieve, rather than cure, symptoms and suffering caused by cancer and to improve the quality of life of patients and their families. Palliative care can help people live more comfortably. It is particularly needed\r\n        in places with a high proportion of patients in advanced stages of cancer where there is little chance of cure. Relief from physical, psychosocial, and spiritual problems through palliative care is possible for more than 90% of patients with advanced stages of cancer. Effective public health strategies, comprising community- and home-based care, are essential to provide pain relief and palliative care for patients and their families. Improved access to oral morphine is strongly recommended for the treatment\r\n    of moderate to severe cancer pain, suffered by over 80% of people with cancer in the terminal phase."
+    },
+    {
+      "heading": "WHO response",
+      "content": "In 2017, the World Health Assembly passed the Resolution Cancer prevention and control in the context of an integrated approach (WHA70.12) that urges\r\n        governments and WHO to accelerate action to achieve the targets specified in the Global Action Plan for the prevention and control of NCDs 2013-2020 and the 2030 UN Agenda for Sustainable Development to reduce premature mortality from cancer. WHO and IARC collaborate with other UN organizations, inlcuing the International Atomic Energy Agency, and partners to:",
+      "bullets": [
+        "increase political commitment for cancer prevention and control;",
+        "coordinate and conduct research on the causes of human cancer and the mechanisms of carcinogenesis;",
+        "monitor the cancer burden (as part of the work of the Global Initiative on Cancer Registries);",
+        "identify “best buys” and other cost-effective, priority strategies for cancer prevention and control;",
+        "develop standards and tools to guide the planning and implementation of interventions for prevention, early diagnosis, screening, treatment and palliative and survivorship care for both adult and child cancers;",
+        "strengthen health systems at national and local levels to help them improve access to cancer treatments;",
+        "set the agenda for cancer prevention and control in the 2020 WHO Report on Cancer;",
+        "provide global leadership as well as technical assistance to support governments and their partners build and sustain high-quality cervical cancer control programmes as part of the Global Strategy to Accelerate the Elimination of Cervical Cancer;",
+        "improve breast cancer control and reduce avoidable deaths from breast cancer, focusing on health promotion, timely diagnosis and access to care in order to accelerate coordinated implementation through the WHO Global Breast Cancer Initiative;",
+        "support governments to improve survival for childhood cancer through directed country support, regional networks and global action as part of the WHO Global Initiative for Childhood Cancer using the Cure All approach;",
+        "increase access to essential cancer medicines, particularly through the Global Platform for Access to Childhood Cancer Medicines; and",
+        "provide technical assistance for rapid, effective transfer of best practice interventions to countries."
+      ]
+    },
+    {
+      "heading": "References",
+      "content": "(1) Ferlay J, Ervik M, Lam F, Colombet M, Mery L, Piñeros M, et al. Global Cancer Observatory: Cancer Today. Lyon: International Agency for Research on Cancer; 2020 ( https://gco.iarc.fr/today ,\r\n accessed February 2021). (2) de Martel C, Georges D, Bray F, Ferlay J, Clifford GM. Global burden of cancer attributable to infections in 2018: a worldwide incidence analysis. Lancet Glob Health. 2020;8(2):e180-e190. (3) Assessing national capacity for the prevention and control of noncommunicable diseases: report of the 2019 global survey. Geneva: World Health Organization; 2020."
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-blue.svg",
+    "https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-white.svg"
+  ],
+  "scrape_timestamp_utc": "2026-01-21T18:07:57Z"
+}

@@ -99,15 +99,6 @@
     "image": "https://www.who.int/images/default-source/departments/department-of-communications/inb_thumb.tmb-768v.png?Culture=en&sfvrsn=1d6da069_1"
   },
   {
-    "url": "https://www.who.int/news/item/06-12-2022-economics-council-mid-term-report",
-    "title": "Economics council issues mid-term report",
-    "date": "2022-12-06",
-    "tags": [
-      "News release"
-    ],
-    "image": "https://www.who.int/images/default-source/departments/health-systems-governance-and-financing/economic-council.tmb-768v.png?Culture=en&sfvrsn=a3194eb3_1"
-  },
-  {
     "url": "https://www.who.int/news/item/02-12-2022-the-european-commission-and-who-extend-their-strategic-cooperation-to-deliver-better-health-for-all",
     "title": "The European Commission and WHO extend their strategic cooperation to deliver better health for all",
     "date": "2022-12-02",
@@ -261,15 +252,6 @@
     "image": "https://cdn.who.int/media/images/default-source/health-and-climate-change/032_who_wildfires-in-spain_sebastian-liste_noor.tmb-768v.jpg?sfvrsn=fa489786_6"
   },
   {
-    "url": "https://www.who.int/news/item/03-11-2022-global-health-agencies-outline-plan-to-support-ugandan-government-led-response-to-outbreak-of-ebola-virus-disease",
-    "title": "Global health agencies outline plan to support Ugandan government-led response to outbreak of ebola virus disease",
-    "date": "2022-11-03",
-    "tags": [
-      "Statement"
-    ],
-    "image": "https://cdn.who.int/media/images/default-source/health-topics/ebola/ebola_uganda_2020.tmb-768v.jpg?sfvrsn=55bd0342_1"
-  },
-  {
     "url": "https://www.who.int/news/item/03-11-2022-act-now--migrant-inclusion-in-climate-action-is-an-obligation--not-an-option",
     "title": "Act now: migrant inclusion in climate action is an obligation, not an option",
     "date": "2022-11-03",
@@ -279,13 +261,13 @@
     "image": "https://cdn.who.int/media/images/default-source/health-topics/refugee-and-migrant-health/health-and-migration-programme/thumbnail-cop27-statement.tmb-768v.jpeg?sfvrsn=2ea4a040_1"
   },
   {
-    "url": "https://www.who.int/news/item/01-11-2022-statement-of-the-thirty-third-polio-ihr-emergency-committee",
-    "title": "Statement of the Thirty-third Polio IHR Emergency Committee",
-    "date": "2022-11-01",
+    "url": "https://www.who.int/news/item/03-11-2022-global-health-agencies-outline-plan-to-support-ugandan-government-led-response-to-outbreak-of-ebola-virus-disease",
+    "title": "Global health agencies outline plan to support Ugandan government-led response to outbreak of ebola virus disease",
+    "date": "2022-11-03",
     "tags": [
       "Statement"
     ],
-    "image": "https://www.who.int/images/default-source/fallback/icons/news.tmb-768v.png?Culture=en&sfvrsn=d88eddde_24"
+    "image": "https://cdn.who.int/media/images/default-source/health-topics/ebola/ebola_uganda_2020.tmb-768v.jpg?sfvrsn=55bd0342_1"
   },
   {
     "url": "https://www.who.int/news/item/01-11-2022-third-meeting-of-the-international-health-regulations-(2005)-(ihr)-emergency-committee-regarding-the-multi-country-outbreak-of-monkeypox",

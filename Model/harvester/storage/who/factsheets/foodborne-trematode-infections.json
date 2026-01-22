@@ -1,0 +1,119 @@
+{
+  "url": "https://www.who.int/news-room/fact-sheets/detail/foodborne-trematode-infections",
+  "title": "Foodborne trematode infections",
+  "slug": "foodborne-trematode-infections",
+  "published_date": "17 May 2021",
+  "first_letter": "F",
+  "sections": [
+    {
+      "heading": "Key facts",
+      "content": null,
+      "bullets": [
+        "Foodborne trematode infections cause 2 million life years lost to disability and death worldwide every year.",
+        "People become infected by eating raw fish, crustaceans or vegetables that harbour the parasite larvae.",
+        "Foodborne trematodiases are most prevalent in East Asia and South America.",
+        "Foodborne trematode infections result in severe liver and lung disease.",
+        "Safe and efficacious medicines are available to prevent and treat foodborne trematodiases.",
+        "Prevention and management of food-borne trematodes requires cross-sectoral collaboration on the human-animal and ecosystems interface."
+      ]
+    },
+    {
+      "heading": "Symptoms",
+      "content": "The public health burden due to foodborne trematodiases is predominantly due to morbidity rather than mortality with early and light infections often going unnoticed. Chronic infections are associated with severe morbidity with symptoms reflecting the\r\n    organ in which the adult worms are located in. Acute infection with Opisthorchis spp and Clonorchis sinensis may be asymptomatic in light infections but clinical symptoms such as fever, right upper-quadrant pain may be seen with high parasite burdens due to obstruction of the gallbladder\r\n    by the worm. Chronic infection from O. viverrini and C. sinensis resulting from protracted episodes of re-infection over time may be most severe, with chronic inflammation resulting in fibrosis the ducts and destruction of the adjacent\r\n    liver parenchyma. These changes can result in cholangiocarcinoma, a severe bile duct cancer which is often fatal. For this reason, both O. viverrini and C. sinensis are classified as carcinogens. Data on chronic infections with O. felineus is sparse, and this parasite is not classified as a carcinogen. Fascioliasis consists of an asymptomatic incubation period following ingestion of the parasite which is then followed by an acute and a chronic clinical phase. The acute phase of Fasciola infection begins when the immature worms penetrate the\r\n    intestinal wall and peritoneum then puncture the liver surface and travel to the bile ducts. This process results in destruction of liver cells and causes internal bleeding. Symptoms can include fever, nausea, swollen liver, skin rashes and severe\r\n    abdominal pain. The chronic phase begins when the worms reach the bile ducts, mature and start producing eggs. These eggs are released into the bile then reach the intestine before being evacuated in faeces. Symptoms can include intermittent pain,\r\n    jaundice, anaemia, pancreatitis and gallstones. Chronic infections result in liver cirrhosis due to long-term inflammation. Early stages of paragonimiasis may be asymptomatic. Once worms reach the lungs symptoms can be significant and include a chronic cough with blood stained sputum, chest pain, dyspnoea, and fever, and can result in complications of pleural effusion and\r\n    pneumothorax. Symptoms and signs can be confounded with tuberculosis and should be considered in suspected tuberculosis patients that are not responding to treatment. Ectopic paragonimiasis is also common with cerebral paragonimiasis being most common.\r\n    Symptoms associated with this include headaches, visual impairment, epileptic seizures and cerebral haemorrhage ."
+    },
+    {
+      "heading": "Diagnosis",
+      "content": "Foodborne trematodiases is suspected on the basis of the clinical picture, history of appropriate risk factors (consumption of raw fish, crustaceans, uncooked freshwater plants), detection of eosinophilia and typical findings on ultrasound, computed tomography\r\n    (CT) or magnetic resonance imaging (MRI) scans. Confirmation of the diagnosis relies on different diagnostic techniques.",
+      "bullets": [
+        "Parasitological techniques to detect eggs in stool samples for clonorchiasis, opisthorchiasis and fascioliasis, and direct sputum smear microscopy for paragonimiasis. These are the most commonly used techniques and have low sensitivity in light burden\r\n        infections, but are accurate if microscopists are well trained, although morphologically differentiating eggs can be difficult.  It is recommended to prepare 2 Kato-Katz smears.",
+        "Immunological techniques to detect parasite specific antibodies in serum samples or parasite specific antigens in serum or stool samples. These techniques may be more sensitive but detection of antibodies does not distinguish between current, recent\r\n        and past infections. There might be some cross reactions with other trematode antigens.",
+        "Molecular techniques such as polymerase chain reaction may also be of some use and are currently in experimental stages."
+      ]
+    },
+    {
+      "heading": "Treatment, prevention and control",
+      "content": "Control of foodborne trematodiases aims to reduce the risk of infection and control associated morbidity. An integrated One Health approach which links animal, human and environmental aspects should be used.  Interventions such as information, education\r\n    and communication on safe food practices, improved sanitation and veterinary public health measures should be implemented to decrease transmission rates and reduce risk of infection. To control morbidity, WHO recommends improved access to treatment using safe and effective anthelmintic medicines For the purposes of public health control, WHO recommends carrying out community diagnosis at the district level and implementing population-based preventive chemotherapy in areas where large number of people are infected. Individual case-management with\r\n    treatment of people with confirmed or suspected infection is appropriate where cases are less clustered and where health facilities are available. Preventive chemotherapy alone is insufficient to reduce prevalence. Factors such as poor sanitation and food hygiene, animal reservoirs and cultural eating habits contribute to high reinfection rates after treatment. As such, mass drug administration\r\n    programmes should be part of a wider One Health approach incorporating community health education, veterinary and agricultural interventions, food safety and improved water, sanitation and hygiene. Table 2 summarises recommended treatments and strategies. Table 2. Recommended treatments and strategies",
+      "bullets": [
+        "Treatment of clonorchiasis and opisthorchiasis relies on praziquantel, administered at a dose of 25mg/kg 3 times daily for 2-3 consecutive days or of a single administration at 40mg/kg.",
+        "Fascioliasis should be treated with triclabendazole 10mg/kg administered as a single dose. Where treatment failure occurs, the dosage may be increased to 20mg/kg in two divided doses 12-24 hours apart.",
+        "Paragonimiasis can be treated with triclabendazole 20mg/kg, in two divided doses of 10mg/kg to be administered on the same day, or praziquantel 25mg/kg 3 times a day for 3 days. Treatment with triclabendazole is preferred due to the simplicity of\r\n        its regiment and thus its higher compliances to treatment."
+      ],
+      "tables": [
+        [
+          [
+            "Disease",
+            "Recommended drug and dosage",
+            "Recommended strategy"
+          ],
+          [
+            "Clonorchiasis and opisthorchiasis",
+            "Individual case management"
+          ],
+          [
+            "Praziquantel 25 mg/kg three times daily for 2–-3 consecutive days",
+            "- Treat all confirmed cases - In endemic areas: treat all suspect cases"
+          ],
+          [
+            "Preventive chemotherapy"
+          ],
+          [
+            "Praziquantel 40 mg/kg in single administration",
+            "- In sub-districts, villages or communities where cases appear to be clustered: treat all residents every 12 months"
+          ],
+          [
+            "Fascioliasis",
+            "Individual case management"
+          ],
+          [
+            "Triclabendazole 10 mg/kg in single administration (a double dose of 20 mg/kg in two divided doses 12-24 hours apart can be administered in case of treatment failure)",
+            "- Treat all confirmed cases - In endemic areas: treat all suspect cases"
+          ],
+          [
+            "Preventive chemotherapy"
+          ],
+          [
+            "Triclabendazole 10 mg/kg in single administration",
+            "– In sub-districts, villages or communities where cases of fascioliasis appear to be clustered: treat all school-age children (5–14 years) or all residents, every 12 months"
+          ],
+          [
+            "Paragonimiasis",
+            "Individual case management"
+          ],
+          [
+            "Triclabendazole: – 2 x 10 mg/kg in the same day or Praziquantel: – 25 mg/kg three times daily for three days",
+            "- Treat all confirmed cases - In endemic areas: treat all suspect cases"
+          ],
+          [
+            "Preventive chemotherapy"
+          ],
+          [
+            "Triclabendazole: – 20 mg/kg in single administration",
+            "- In sub-districts, villages or communities where cases of paragonimiasis appear to be clustered: treat all residents every 12 months"
+          ]
+        ]
+      ]
+    },
+    {
+      "heading": "Our work",
+      "content": null
+    },
+    {
+      "heading": "Supporting countries in their foodborne trematodiases control efforts",
+      "content": "WHO promotes the inclusion of foodborne trematodiases among the targets of preventive chemotherapy interventions. With the aim of providing access to quality medicines, WHO has negotiated with triclabendazole for the treatment of fascioliasis and paragonimiasis\r\n    in endemic countries, and additionally praziquantel for the treatment of clonorchiasis and opisthorchiasis. WHO collects applications from ministries of health and medicines are shipped free of charge."
+    },
+    {
+      "heading": "Promoting prevention and control of foodborne trematodiases using a One Health approach",
+      "content": "Foodborne trematodiases have complex zoonotic life cycles and are closely linked to poor sanitation, poor food hygiene and presence of animal reservoirs in close proximity to communities. A One Health approach incorporating interventions in the veterinary\r\n    and agricultural sectors, improved sanitation and access to safe water, and communication about improved food safety and hygiene is vital to the control of foodborne trematode infections. WHO works closely with partner agencies such as the World Organization for Animal Health (OIE) and the Food and Agriculture Organization of the United Nations (FAO) to promote interdisciplinary collaboration. Tripartite joint meetings have been organized\r\n    to promote actions between sectors and jointly support countries in building their capacities for effective control of foodborne parasitic diseases, such as the meeting to accelerate prevention and control of neglected foodborne parasitic zoonoses\r\n    in Asian countries held in Lao PDR in 2018.  Additionally, a series of communications and guidance publications targeting different sectors, namely public health practitioners, food safety authorities and veterinary practitioners have been produced\r\n    by the Tripartite in Asia."
+    },
+    {
+      "heading": "Promoting joint implementation of foodborne trematodiases with other NTD interventions",
+      "content": "Effective intersectoral collaboration within the NTD network improves the quality and cost-effectiveness of interventions and minimises duplication of work. FBT infections are often co-endemic with many other diseases, particularly those affecting vulnerable\r\n    populations. WHO promotes the integration of FBT surveillance and interventions with WASH programmes and other WASH-related NTDs, and the joint delivery of preventive chemotherapy to affected populations alongside suitable food delivery or immunisation programmes.\r\n    Joint detection of paragonimiasis and tuberculosis can improve surveillance and ensure accurate diagnosis and treatment of cases."
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-blue.svg",
+    "https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-white.svg"
+  ],
+  "scrape_timestamp_utc": "2026-01-21T18:08:10Z"
+}

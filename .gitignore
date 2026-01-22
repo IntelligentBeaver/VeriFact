@@ -6,3 +6,7 @@ Miscellaneous/
 Reports/
 Model/harvester/desc2026.xml
 Model/harvester/seeders/mesh/storage/
+Model/harvester/storage/seeds/mesh_seed_D.json
+Model/harvester/storage/outputs/who/faiss/embeddings.npy
+Model/harvester/storage/outputs/who/faiss/index.faiss
+Model/harvester/storage/outputs/who/faiss/metadata.json

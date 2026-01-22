@@ -15,13 +15,16 @@ import re
 import sys
 from datetime import datetime, timedelta
 from urllib.parse import urljoin
-
 import requests
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.who.int"
 HEADLINES_BASE = f"{BASE_URL}/news-room/headlines"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; WHO-Headlines-Scraper/1.0)"}
+
+MAX_AGE_DAYS=7305
+SEARCH_DELAY=0.1
+OUTPUT_DIR="../../storage/who/headlines"
 
 
 def parse_date(date_str: str):
@@ -226,10 +229,10 @@ def main():
     parser.add_argument("--start-page", type=int, default=1, help="Start page number (default 1).")
     parser.add_argument("--end-page", type=int, default=None, help="End page number (inclusive). If omitted, continues until no more pages.")
     # Configure this
-    parser.add_argument("--max-age-days", type=int, default=3652, help="Maximum age of article in days to keep (default 3652- 10 years).")
+    parser.add_argument("--max-age-days", type=int, default=MAX_AGE_DAYS, help="Maximum age of article in days to keep (default 3652- 10 years).")
     # Configure this
     parser.add_argument("--delay", type=float, default=0.5, help="Delay between page requests in seconds (politeness).")
-    parser.add_argument("--output-dir", type=str, default="../../storage/who/headlines", help="Directory to save year JSON files.")
+    parser.add_argument("--output-dir", type=str, default=OUTPUT_DIR, help="Directory to save year JSON files.")
     args = parser.parse_args()
 
     grouped = scrape_pages(

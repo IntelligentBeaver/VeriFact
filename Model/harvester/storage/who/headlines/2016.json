@@ -828,15 +828,6 @@
     "image": "https://cdn.who.int/images/default-source/infographics/old-man-in-the-hospital-with-a-health-worker-jpg.tmb-768v.jpg?Culture=en&sfvrsn=b79bbda3_7"
   },
   {
-    "url": "https://www.who.int/news/item/22-03-2016-who-director-general-briefs-the-media-on-the-zika-situation",
-    "title": "WHO Director-General briefs the media on the Zika situation",
-    "date": "2016-03-22",
-    "tags": [
-      "Statement"
-    ],
-    "image": "https://www.who.int/images/default-source/fallback/icons/news.tmb-768v.png?Culture=en&sfvrsn=d88eddde_24"
-  },
-  {
     "url": "https://www.who.int/news/item/22-03-2016-who-calls-on-countries-and-partners-to-unite-to-end-tuberculosis-",
     "title": "WHO calls on countries and partners to \"Unite to End Tuberculosis\"",
     "date": "2016-03-22",
@@ -979,5 +970,23 @@
       "News release"
     ],
     "image": "https://www.who.int/images/default-source/eios-gtm-photos/phenews-mariaaward-2016-.tmb-768v.jpg?Culture=en&sfvrsn=68df9989_3"
+  },
+  {
+    "url": "https://www.who.int/news/item/15-01-2016-new-ebola-case-in-sierra-leone-who-continues-to-stress-risk-of-more-flare-ups",
+    "title": "New Ebola case in Sierra Leone. WHO continues to stress risk of more flare-ups",
+    "date": "2016-01-15",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/ebola-treatment-facility-in-monrovia.tmb-768v.jpg?sfvrsn=81ab55fe_31"
+  },
+  {
+    "url": "https://www.who.int/news/item/14-01-2016-latest-ebola-outbreak-over-in-liberia-west-africa-is-at-zero-but-new-flare-ups-are-likely-to-occur",
+    "title": "Latest Ebola outbreak over in Liberia; West Africa is at zero, but new flare-ups are likely to occur",
+    "date": "2016-01-14",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/ebola-drc-5-630px-jpg.tmb-768v.jpg?sfvrsn=655238cc_21"
   }
 ]
