@@ -116,8 +116,10 @@ def rerank_with_cross_encoder(query, candidates_texts, cross_encoder_model_name)
 
 
 def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_model_name: str,
-                     sapbert_path: Path = None, sapbert_threshold: float = None,
-                     sapbert_boost: float = 0.1, topk: int = 100, rerank_k: int = 20):
+                     sapbert_path: Path = None, sapbert_model_name: str = 'cambridgeltl/SapBERT-from-PubMedBERT-fulltext',
+                     sapbert_threshold: float = None, sapbert_boost: float = 0.1,
+                     sapbert_concepts_topk: int = 5,
+                     topk: int = 100, rerank_k: int = 20):
 
     index_path = index_dir / 'index.faiss'
     metadata_path = index_dir / 'metadata.json'
@@ -135,12 +137,67 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
     print(f'Loading embedding model {embedding_model_name}...')
     embed_model = SentenceTransformer(embedding_model_name)
 
+    # pre-load cross-encoder once (re-using repeatedly is faster)
+    print(f'Loading cross-encoder {cross_encoder_model_name} (for rerank)...')
+    try:
+        cross_encoder = CrossEncoder(cross_encoder_model_name)
+    except Exception as e:
+        print("Warning: failed to load cross-encoder at startup:", e)
+        cross_encoder = None
+
+    # --- SapBERT assets (concepts or doc-level)
     sapbert_embeddings = None
+    sapbert_mode = None   # 'doc' or 'concept' or None
+    sap_model = None
+    concept_meta = None   # list/dict with per-concept labels (aligned to sapbert_embeddings for concept-mode)
+
     if sapbert_path and sapbert_path.exists():
         print('Loading optional SapBERT embeddings...')
         sapbert_embeddings = np.load(str(sapbert_path))
-        if sapbert_embeddings.shape[0] != len(metadata):
-            print('Warning: sapbert_embeddings length does not match metadata length')
+        # quick debug sizes
+        print("SapBERT embeddings shape:", sapbert_embeddings.shape)
+        if sapbert_embeddings.shape[0] == len(metadata):
+            sapbert_mode = 'doc'
+            print("SapBERT looks like document-level embeddings (will compute query->doc SapBERT similarity).")
+            # Load SapBERT encoder to encode queries in the same space:
+            try:
+                sap_model = SentenceTransformer(sapbert_model_name)
+            except Exception as e:
+                print("Failed to load sapbert encoder, doc-level SapBERT scoring will be disabled:", e)
+                sap_model = None
+        else:
+            sapbert_mode = 'concept'
+            print("SapBERT appears to be concept embeddings (Option A).")
+            # attempt to find concept metadata (labels) in same dir as sapbert_path
+            cand_meta_names = ['metadata.json', 'combined_metadata.json', 'concepts.json', 'mesh_concepts.json']
+            found = None
+            for nm in cand_meta_names:
+                p = sapbert_path.parent / nm
+                if p.exists():
+                    found = p
+                    break
+            if found:
+                try:
+                    with found.open('r', encoding='utf-8') as f:
+                        concept_meta_raw = json.load(f)
+                        if isinstance(concept_meta_raw, dict):
+                            concept_meta = list(concept_meta_raw.values())
+                        else:
+                            concept_meta = concept_meta_raw
+                    print(f"Loaded concept metadata from {found} (n={len(concept_meta)})")
+                except Exception as e:
+                    print("Failed to load concept metadata:", e)
+                    concept_meta = None
+            else:
+                print("Concept metadata file not found next to sapbert embeddings; concept labels will be unavailable for expansion.")
+                concept_meta = None
+
+            # load sapbert encoder for queries (required for mapping query -> concept space)
+            try:
+                sap_model = SentenceTransformer(sapbert_model_name)
+            except Exception as e:
+                print("Failed to load sapbert encoder (needed for concept expansion):", e)
+                sap_model = None
 
     print('Interactive search ready — type your query (or Ctrl+C to exit)')
 
@@ -151,8 +208,69 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                 print('Empty query; try again')
                 continue
 
-            # 1) embed query
-            qvec = embed_query(query, embed_model, normalize=True)
+            # qvec variable will hold the vector we pass to FAISS
+            qvec = None
+
+            # ---------- Option A: If concept-mode, find top concepts and build hybrid query vector ----------
+            if sapbert_embeddings is not None and sapbert_mode == 'concept' and sap_model is not None:
+                try:
+                    q_sap = sap_model.encode([query], convert_to_numpy=True)[0]
+                    nq = np.linalg.norm(q_sap)
+                    if nq != 0:
+                        q_sap = q_sap / nq
+                    # sapbert_embeddings assumed normalized. Compute similarities
+                    sims = sapbert_embeddings.dot(q_sap)  # shape (n_concepts,)
+                    top_idxs = np.argsort(-sims)[:sapbert_concepts_topk * 2]  # take a bit more then dedupe
+                    top_labels = []
+                    for i in top_idxs:
+                        label = None
+                        if concept_meta and i < len(concept_meta):
+                            cand = concept_meta[i]
+                            if isinstance(cand, dict):
+                                label = cand.get('canonical_label') or cand.get('label') or cand.get('name')
+                            else:
+                                label = str(cand)
+                        if label:
+                            top_labels.append(label)
+                    # dedupe while preserving order (case-insensitive)
+                    seen = set()
+                    unique_top_labels = []
+                    for t in top_labels:
+                        tt = t.strip().lower()
+                        if tt and tt not in seen:
+                            seen.add(tt)
+                            unique_top_labels.append(t)
+                    unique_top_labels = unique_top_labels[:sapbert_concepts_topk]
+
+                    if unique_top_labels:
+                        print(f"[SapBERT concepts] top unique concepts: {unique_top_labels}")
+                        # compute raw query vector in embed_model space (used by FAISS)
+                        qvec_raw = embed_model.encode([query], convert_to_numpy=True)[0]
+                        # compute mean vector of concept labels in same embed_model space
+                        try:
+                            label_vecs = embed_model.encode(unique_top_labels, convert_to_numpy=True)
+                            label_vec_mean = label_vecs.mean(axis=0)
+                        except Exception as e:
+                            print("Warning: failed to encode concept labels with embed_model:", e)
+                            label_vec_mean = np.zeros_like(qvec_raw)
+                        # weights: tune these (alpha for query, beta for concepts)
+                        alpha = 0.7
+                        beta = 0.3
+                        combined = alpha * qvec_raw + beta * label_vec_mean
+                        # normalize combined vector
+                        nrm = np.linalg.norm(combined)
+                        if nrm > 0:
+                            combined = combined / nrm
+                        qvec = combined.astype(np.float32)
+                    else:
+                        # fallback to plain query embedding
+                        qvec = embed_query(query, embed_model, normalize=True)
+                except Exception as e:
+                    print("Concept expansion failed:", e)
+                    qvec = embed_query(query, embed_model, normalize=True)
+            else:
+                # not concept-mode: use plain query embedding
+                qvec = embed_query(query, embed_model, normalize=True)
 
             # 2) FAISS search
             faiss_scores, faiss_idxs = faiss_search(index, qvec, topk=topk)
@@ -165,56 +283,91 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                 m = metadata[idx]
                 candidates.append({'idx': idx, 'faiss_score': float(score), 'meta': m})
 
-            # 3) Optional SapBERT scoring/ filtering
-            if sapbert_embeddings is not None:
-                # Attempt to load a SapBERT-like encoder using the same embedding_model_name for query
-                # or assume user will provide query sapbert vector via same model name.
-                # We'll compute a sapbert query vector by encoding the query with the same embedding
-                # model as used to create sapbert vectors, if possible. If not available, skip.
-                # Here we assume sapbert_embeddings are normalized.
-                try:
-                    query_sap_vec = embed_model.encode([query], convert_to_numpy=True)[0]
-                    # normalize
-                    n = np.linalg.norm(query_sap_vec)
-                    if n != 0:
-                        query_sap_vec = query_sap_vec / n
-                    # compute cosine to candidates
-                    for c in candidates:
-                        idx = c['idx']
-                        if idx < sapbert_embeddings.shape[0]:
-                            s = float(np.dot(query_sap_vec, sapbert_embeddings[idx]))
-                        else:
-                            s = 0.0
-                        c['sapbert_score'] = s
-                    # optional hard filter
-                    if sapbert_threshold is not None:
-                        candidates = [c for c in candidates if c.get('sapbert_score', 0.0) >= sapbert_threshold]
-                        if not candidates:
-                            print('No candidates remain after SapBERT filtering')
-                            continue
-                except Exception as e:
-                    print('SapBERT scoring failed:', e)
+            # 3) Optional SapBERT scoring/ filtering (doc-level only)
+            if sapbert_embeddings is not None and sapbert_mode == 'doc':
+                if sap_model is None:
+                    print("SapBERT doc-mode requested but sap_model failed to load; skipping sapbert scoring")
+                else:
+                    try:
+                        query_sap_vec = sap_model.encode([query], convert_to_numpy=True)[0]
+                        n = np.linalg.norm(query_sap_vec)
+                        if n != 0:
+                            query_sap_vec = query_sap_vec / n
+                        # compute cosine only for candidate indices (safe indexing)
+                        for c in candidates:
+                            idx = c['idx']
+                            if idx < sapbert_embeddings.shape[0]:
+                                s = float(np.dot(query_sap_vec, sapbert_embeddings[idx]))
+                            else:
+                                s = 0.0
+                            c['sapbert_score'] = s
+                        # optional hard filter
+                        if sapbert_threshold is not None:
+                            candidates = [c for c in candidates if c.get('sapbert_score', 0.0) >= sapbert_threshold]
+                            if not candidates:
+                                print('No candidates remain after SapBERT filtering')
+                                continue
+                    except Exception as e:
+                        print('SapBERT scoring failed:', e)
 
             # 4) Rerank top rerank_k with cross-encoder
             rerank_candidates = candidates[:rerank_k]
-            texts = [c['meta']['text'] for c in rerank_candidates]
+            texts = [c['meta'].get('text', '') for c in rerank_candidates]
             if not texts:
                 print('No candidates to rerank')
                 continue
 
             print('Running cross-encoder rerank (this may take a little time)...')
-            ce_scores = rerank_with_cross_encoder(query, texts, cross_encoder_model_name)
+            # use preloaded cross_encoder if available else fallback to helper
+            try:
+                if cross_encoder is not None:
+                    pairs = [[query, t] for t in texts]
+                    ce_scores = cross_encoder.predict(pairs)
+                else:
+                    ce_scores = rerank_with_cross_encoder(query, texts, cross_encoder_model_name)
+            except Exception as e:
+                print("Cross-encoder failed:", e)
+                ce_scores = [0.0] * len(texts)
 
-            # attach rerank scores and compute final combined score
+            # attach raw cross scores
             for c, ce in zip(rerank_candidates, ce_scores):
                 c['cross_score'] = float(ce)
-                # compute trust score
                 c['trust_score'] = compute_trust_score(c['meta'])
-                # optional sapbert boost
+                # ensure sapbert_score exists (0.0 default if not set earlier)
+                if 'sapbert_score' not in c:
+                    c['sapbert_score'] = 0.0
+
+            # Normalize cross_score and faiss_score across rerank_candidates (min-max)
+            cross_vals = [c['cross_score'] for c in rerank_candidates]
+            faiss_vals = [c['faiss_score'] for c in rerank_candidates]
+
+            def min_max_norm(arr):
+                if not arr:
+                    return []
+                mn = min(arr)
+                mx = max(arr)
+                if mx - mn == 0:
+                    return [0.0 for _ in arr]
+                return [(x - mn) / (mx - mn) for x in arr]
+
+            cross_norm = min_max_norm(cross_vals)
+            faiss_norm = min_max_norm(faiss_vals)
+
+            for c, ce_norm, faiss_norm_v in zip(rerank_candidates, cross_norm, faiss_norm):
+                c['cross_score_norm'] = float(ce_norm)
+                c['faiss_score_norm'] = float(faiss_norm_v)
+
+            # compute final combined score (normalized mixture)
+            w_cross = 0.60
+            w_trust = 0.25
+            w_faiss = 0.10
+            w_sap = 0.05  # only applies in doc-mode where we compute sapbert_score
+            for c in rerank_candidates:
+                cross_s = c.get('cross_score_norm', 0.0)
+                trust_s = c.get('trust_score', 0.0)  # trust already in 0..1
+                faiss_s = c.get('faiss_score_norm', 0.0)
                 sap = c.get('sapbert_score', 0.0)
-                # combine: weights (tunable)
-                final = 0.7 * c['cross_score'] + 0.2 * c['trust_score'] + 0.1 * sap
-                c['final_score'] = final
+                c['final_score'] = w_cross * cross_s + w_trust * trust_s + w_faiss * faiss_s + w_sap * sap
 
             # sort by final_score
             rerank_candidates.sort(key=lambda x: x['final_score'], reverse=True)
@@ -225,10 +378,9 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                 m = c['meta']
                 print(f"\n{rank}. final={c['final_score']:.4f} cross={c['cross_score']:.4f} faiss={c['faiss_score']:.4f} trust={c['trust_score']:.3f} sapbert={c.get('sapbert_score',0.0):.3f}")
                 print(f"   passage_id: {m.get('passage_id')} | title: {m.get('title')} | url: {m.get('url')}")
-                # print short snippet (first 240 chars)
-                snippet = m.get('text','')
-                snippet = ' '.join(snippet.split())
-                print('   snippet:', (snippet[:240] + '...') if len(snippet) > 240 else snippet)
+                # snippet = m.get('text','')
+                # snippet = ' '.join(snippet.split())
+                # print('   snippet:', (snippet[:240] + '...') if len(snippet) > 240 else snippet)
 
         except KeyboardInterrupt:
             print('\nExiting.')
@@ -238,16 +390,30 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
 
 
 INDEX_DIR="../storage/outputs/webmd/faiss"
+SAPBERT_EMBEDDING="../storage/seeds/embeddings/sapbert_embeddings.npy"
+
 def parse_args():
     p = argparse.ArgumentParser()
-    p.add_argument('--index-dir', type=str, default=INDEX_DIR, help='Directory containing index.faiss, metadata.json, embeddings.npy')
-    p.add_argument('--embedding-model', type=str, default='all-mpnet-base-v2', help='SentenceTransformer model name for query embedding')
-    p.add_argument('--cross-encoder-model', type=str, default='cross-encoder/ms-marco-MiniLM-L-6-v2', help='Cross-Encoder model name for reranking')
-    p.add_argument('--sapbert-embeddings', type=str, default=None, help='Optional path to sapbert_embeddings.npy')
-    p.add_argument('--sapbert-threshold', type=float, default=None, help='Optional hard threshold for sapbert cosine filter')
-    p.add_argument('--sapbert-boost', type=float, default=0.1, help='Amount to include sapbert score in final score')
-    p.add_argument('--topk', type=int, default=100, help='Number of passages to retrieve from FAISS')
-    p.add_argument('--rerank', type=int, default=20, help='Number of top FAISS results to rerank with cross-encoder')
+    p.add_argument('--index-dir', type=str, default=INDEX_DIR,
+                   help='Directory containing index.faiss, metadata.json, embeddings.npy')
+    p.add_argument('--embedding-model', type=str, default='all-mpnet-base-v2',
+                   help='SentenceTransformer model name for query embedding (used for FAISS index)')
+    p.add_argument('--cross-encoder-model', type=str, default='cross-encoder/ms-marco-MiniLM-L-6-v2',
+                   help='Cross-Encoder model name for reranking')
+    p.add_argument('--sapbert-embeddings', type=str, default=SAPBERT_EMBEDDING,
+                   help='Optional path to sapbert_embeddings.npy (concept embeddings or doc-level embeddings)')
+    p.add_argument('--sapbert-model', type=str, default='cambridgeltl/SapBERT-from-PubMedBERT-fulltext',
+                   help='SapBERT model name used to encode queries into the concept embedding space')
+    p.add_argument('--sapbert-concepts-topk', type=int, default=5,
+                   help='Number of top concepts to use for query expansion when sapbert_embeddings are concept vectors')
+    p.add_argument('--sapbert-threshold', type=float, default=None,
+                   help='Optional hard threshold for sapbert cosine filter (doc-level mode only)')
+    p.add_argument('--sapbert-boost', type=float, default=0.2,
+                   help='Amount to include sapbert score in final score (doc-level mode only)')
+    p.add_argument('--topk', type=int, default=100,
+                   help='Number of passages to retrieve from FAISS')
+    p.add_argument('--rerank', type=int, default=20,
+                   help='Number of top FAISS results to rerank with cross-encoder')
     return p.parse_args()
 
 
@@ -262,4 +428,6 @@ if __name__ == '__main__':
         sapbert_boost=args.sapbert_boost,
         topk=args.topk,
         rerank_k=args.rerank,
+        sapbert_model_name=args.sapbert_model,
+        sapbert_concepts_topk=args.sapbert_concepts_topk,
     )
