@@ -13,3 +13,6 @@ Model/harvester/storage/outputs/who/faiss/metadata.json
 Model/harvester/storage/outputs/webmd/faiss/embeddings.npy
 Model/harvester/storage/outputs/webmd/faiss/metadata.json
 Model/harvester/storage/outputs/webmd/faiss/index.faiss
+Model/harvester/storage/seeds/embeddings/sapbert_embeddings.npy
+.gitignore
+Model/harvester/storage/seeds/embeddings/metadata.json
