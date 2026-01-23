@@ -1,0 +1,406 @@
+{
+  "url": "https://www.webmd.com/a-to-z-guides/features/cm/ai-digital-twins",
+  "title": "Digital Twins May Change Clinical Trials Forever",
+  "slug": "ai-digital-twins",
+  "published_date": "2022-09-13",
+  "first_letter": "A",
+  "author": "",
+  "medically_reviewed_by": "Carol  DerSarkissian, MD",
+  "read_time": "6 min read",
+  "sections": [
+    {
+      "heading": null,
+      "content": [
+        "The medicine you took this morning traveled a long route to get from the lab to your pill pack. First, there's extensive lab research. Then, animal testing. But before a medicine can be approved for use, it must be tested on humans – in an expensive, complex process known as a clinical trial ."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The medicine you took this morning traveled a long route to get from the lab to your pill pack. First, there's extensive lab research. Then, animal testing. But before a medicine can be approved for use, it must be tested on humans – in an expensive, complex process known as a clinical trial .",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "The Basics",
+      "content": [
+        "In its simplest form, a clinical trial goes something like this: Researchers recruit patients who have the disease that the experimental drug is aimed at. Volunteers are randomly divided into two groups. One group gets the experimental drug; the other, called the control group, gets a placebo (a treatment that appears identical to the drug being tested, but has no effect). If the patients who get the active drug show more improvement than the ones who get the placebo, that’s evidence that the drug is effective.",
+        "One of the most challenging parts of designing a trial is finding enough volunteers who meet the exact criteria for the study. Doctors may not know about trials that might fit their patients, and patients who are willing to enroll may not have the characteristics needed for a given trial. But artificial intelligence might make that job a lot easier."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "In its simplest form, a clinical trial goes something like this: Researchers recruit patients who have the disease that the experimental drug is aimed at. Volunteers are randomly divided into two groups. One group gets the experimental drug; the other, called the control group, gets a placebo (a treatment that appears identical to the drug being tested, but has no effect). If the patients who get the active drug show more improvement than the ones who get the placebo, that’s evidence that the drug is effective.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "One of the most challenging parts of designing a trial is finding enough volunteers who meet the exact criteria for the study. Doctors may not know about trials that might fit their patients, and patients who are willing to enroll may not have the characteristics needed for a given trial. But artificial intelligence might make that job a lot easier.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Meet Your Twin",
+      "content": [
+        "Digital twins are computer models that simulate real-world objects or systems. They behave virtually the same way, statistically, as their physical counterparts. NASA used a digital twin of the Apollo 13 spacecraft to help make repairs after an oxygen tank exploded, leaving engineers on Earth scrambling to make repairs from 200,000 miles away.",
+        "Given enough data, scientists can make digital twins of people, using machine learning, a type of artificial intelligence in which the programs learn from large amounts of data rather than being specifically programmed for the task at hand. Digital twins of patients in clinical trials are created by training machine-learning models on patient data from previous clinical trials and from individual patient records. The model predicts how the patient’s health would progress during the course of the trial if they were given a placebo, essentially creating a simulated control group for a particular patient."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Digital twins are computer models that simulate real-world objects or systems. They behave virtually the same way, statistically, as their physical counterparts. NASA used a digital twin of the Apollo 13 spacecraft to help make repairs after an oxygen tank exploded, leaving engineers on Earth scrambling to make repairs from 200,000 miles away.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Given enough data, scientists can make digital twins of people, using machine learning, a type of artificial intelligence in which the programs learn from large amounts of data rather than being specifically programmed for the task at hand. Digital twins of patients in clinical trials are created by training machine-learning models on patient data from previous clinical trials and from individual patient records. The model predicts how the patient’s health would progress during the course of the trial if they were given a placebo, essentially creating a simulated control group for a particular patient.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "The medicine you took this morning traveled a long route to get from the lab to your pill pack. First, there's extensive lab research. Then, animal testing. But before a medicine can be approved for use, it must be tested on humans – in an expensive, complex process known as a clinical trial ."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The medicine you took this morning traveled a long route to get from the lab to your pill pack. First, there's extensive lab research. Then, animal testing. But before a medicine can be approved for use, it must be tested on humans – in an expensive, complex process known as a clinical trial .",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "The Basics",
+      "content": [
+        "In its simplest form, a clinical trial goes something like this: Researchers recruit patients who have the disease that the experimental drug is aimed at. Volunteers are randomly divided into two groups. One group gets the experimental drug; the other, called the control group, gets a placebo (a treatment that appears identical to the drug being tested, but has no effect). If the patients who get the active drug show more improvement than the ones who get the placebo, that’s evidence that the drug is effective.",
+        "One of the most challenging parts of designing a trial is finding enough volunteers who meet the exact criteria for the study. Doctors may not know about trials that might fit their patients, and patients who are willing to enroll may not have the characteristics needed for a given trial. But artificial intelligence might make that job a lot easier."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "In its simplest form, a clinical trial goes something like this: Researchers recruit patients who have the disease that the experimental drug is aimed at. Volunteers are randomly divided into two groups. One group gets the experimental drug; the other, called the control group, gets a placebo (a treatment that appears identical to the drug being tested, but has no effect). If the patients who get the active drug show more improvement than the ones who get the placebo, that’s evidence that the drug is effective.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "One of the most challenging parts of designing a trial is finding enough volunteers who meet the exact criteria for the study. Doctors may not know about trials that might fit their patients, and patients who are willing to enroll may not have the characteristics needed for a given trial. But artificial intelligence might make that job a lot easier.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Meet Your Twin",
+      "content": [
+        "Digital twins are computer models that simulate real-world objects or systems. They behave virtually the same way, statistically, as their physical counterparts. NASA used a digital twin of the Apollo 13 spacecraft to help make repairs after an oxygen tank exploded, leaving engineers on Earth scrambling to make repairs from 200,000 miles away.",
+        "Given enough data, scientists can make digital twins of people, using machine learning, a type of artificial intelligence in which the programs learn from large amounts of data rather than being specifically programmed for the task at hand. Digital twins of patients in clinical trials are created by training machine-learning models on patient data from previous clinical trials and from individual patient records. The model predicts how the patient’s health would progress during the course of the trial if they were given a placebo, essentially creating a simulated control group for a particular patient."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Digital twins are computer models that simulate real-world objects or systems. They behave virtually the same way, statistically, as their physical counterparts. NASA used a digital twin of the Apollo 13 spacecraft to help make repairs after an oxygen tank exploded, leaving engineers on Earth scrambling to make repairs from 200,000 miles away.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Given enough data, scientists can make digital twins of people, using machine learning, a type of artificial intelligence in which the programs learn from large amounts of data rather than being specifically programmed for the task at hand. Digital twins of patients in clinical trials are created by training machine-learning models on patient data from previous clinical trials and from individual patient records. The model predicts how the patient’s health would progress during the course of the trial if they were given a placebo, essentially creating a simulated control group for a particular patient.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "So here’s how it would work: A person, let’s call her Sally, is assigned to the group that gets the active drug. Sally’s digital twin (the computer model) is in the control group. It predicts what would happen if Sally did not get the treatment. The difference between Sally’s response to the drug and the model’s prediction of Sally’s response if she took the placebo instead would be an estimate of how effective the treatment would be for Sally."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "So here’s how it would work: A person, let’s call her Sally, is assigned to the group that gets the active drug. Sally’s digital twin (the computer model) is in the control group. It predicts what would happen if Sally did not get the treatment. The difference between Sally’s response to the drug and the model’s prediction of Sally’s response if she took the placebo instead would be an estimate of how effective the treatment would be for Sally.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Digital twins are also created for patients in the control group. By comparing the predictions of what would happen to digital twins getting the placebo with the humans who actually got the placebo, researchers can spot any problems in the model and make it more accurate.",
+        "Replacing or augmenting control groups with digital twins could help patient volunteers as well as researchers. Most people who join a trial do so hoping to get a new drug that might help them when already approved drugs have failed. But there’s a 50/50 chance they’ll be put into the control group and won’t get the experimental treatment. Replacing control groups with digital twins could mean more people have access to experimental drugs."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Digital twins are also created for patients in the control group. By comparing the predictions of what would happen to digital twins getting the placebo with the humans who actually got the placebo, researchers can spot any problems in the model and make it more accurate.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Replacing or augmenting control groups with digital twins could help patient volunteers as well as researchers. Most people who join a trial do so hoping to get a new drug that might help them when already approved drugs have failed. But there’s a 50/50 chance they’ll be put into the control group and won’t get the experimental treatment. Replacing control groups with digital twins could mean more people have access to experimental drugs.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "The Unexpected",
+      "content": [
+        "The technology may be promising, but it’s not yet in widespread use – maybe for good reason. Daniel Neill, PhD, is an expert in machine learning, including its applications in health care, at New York University. He points out that machine learning models depend on having lots of data, and it can be difficult to get high quality data on individuals. Information about things like diet and exercise is often self-reported, and people aren’t always honest. They tend to overestimate the amount of exercise they get and underestimate the amount of junk food they eat, he says.",
+        "Considering rare adverse events could be a problem, too, he adds. “Most likely, those are things you haven’t modeled for in your control group.” For example, someone could have an unexpected negative reaction to a medication."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The technology may be promising, but it’s not yet in widespread use – maybe for good reason. Daniel Neill, PhD, is an expert in machine learning, including its applications in health care, at New York University. He points out that machine learning models depend on having lots of data, and it can be difficult to get high quality data on individuals. Information about things like diet and exercise is often self-reported, and people aren’t always honest. They tend to overestimate the amount of exercise they get and underestimate the amount of junk food they eat, he says.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Considering rare adverse events could be a problem, too, he adds. “Most likely, those are things you haven’t modeled for in your control group.” For example, someone could have an unexpected negative reaction to a medication.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "So here’s how it would work: A person, let’s call her Sally, is assigned to the group that gets the active drug. Sally’s digital twin (the computer model) is in the control group. It predicts what would happen if Sally did not get the treatment. The difference between Sally’s response to the drug and the model’s prediction of Sally’s response if she took the placebo instead would be an estimate of how effective the treatment would be for Sally."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "So here’s how it would work: A person, let’s call her Sally, is assigned to the group that gets the active drug. Sally’s digital twin (the computer model) is in the control group. It predicts what would happen if Sally did not get the treatment. The difference between Sally’s response to the drug and the model’s prediction of Sally’s response if she took the placebo instead would be an estimate of how effective the treatment would be for Sally.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Digital twins are also created for patients in the control group. By comparing the predictions of what would happen to digital twins getting the placebo with the humans who actually got the placebo, researchers can spot any problems in the model and make it more accurate.",
+        "Replacing or augmenting control groups with digital twins could help patient volunteers as well as researchers. Most people who join a trial do so hoping to get a new drug that might help them when already approved drugs have failed. But there’s a 50/50 chance they’ll be put into the control group and won’t get the experimental treatment. Replacing control groups with digital twins could mean more people have access to experimental drugs."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Digital twins are also created for patients in the control group. By comparing the predictions of what would happen to digital twins getting the placebo with the humans who actually got the placebo, researchers can spot any problems in the model and make it more accurate.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Replacing or augmenting control groups with digital twins could help patient volunteers as well as researchers. Most people who join a trial do so hoping to get a new drug that might help them when already approved drugs have failed. But there’s a 50/50 chance they’ll be put into the control group and won’t get the experimental treatment. Replacing control groups with digital twins could mean more people have access to experimental drugs.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "The Unexpected",
+      "content": [
+        "The technology may be promising, but it’s not yet in widespread use – maybe for good reason. Daniel Neill, PhD, is an expert in machine learning, including its applications in health care, at New York University. He points out that machine learning models depend on having lots of data, and it can be difficult to get high quality data on individuals. Information about things like diet and exercise is often self-reported, and people aren’t always honest. They tend to overestimate the amount of exercise they get and underestimate the amount of junk food they eat, he says.",
+        "Considering rare adverse events could be a problem, too, he adds. “Most likely, those are things you haven’t modeled for in your control group.” For example, someone could have an unexpected negative reaction to a medication."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The technology may be promising, but it’s not yet in widespread use – maybe for good reason. Daniel Neill, PhD, is an expert in machine learning, including its applications in health care, at New York University. He points out that machine learning models depend on having lots of data, and it can be difficult to get high quality data on individuals. Information about things like diet and exercise is often self-reported, and people aren’t always honest. They tend to overestimate the amount of exercise they get and underestimate the amount of junk food they eat, he says.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Considering rare adverse events could be a problem, too, he adds. “Most likely, those are things you haven’t modeled for in your control group.” For example, someone could have an unexpected negative reaction to a medication.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "But Neill’s biggest concern is that the predictive model reflects what he calls “business as usual.” Say a major unexpected event – something like the COVID-19 pandemic , for example – changes everyone’s behavior patterns, and people get sick. “That’s something that these control models wouldn’t take into account,” he says. Those unanticipated events, not being accounted for in the control group, could skew the outcome of the trial.",
+        "Eric Topol, founder and director of the Scripps Research Translational Institute and an expert on using digital technologies in health care, thinks the idea is great, but not yet ready for prime time. “I don't think clinical trials are going to change in the near term, because this requires multiple layers of data beyond health records, such as a genome sequence, gut microbiome, environmental data, and on and on.” He predicts that it will take years to be able to do large-scale trials using AI, particularly for more than one disease. (Topol is also the editor-in-chief of Medscape, WebMD’s sister website.)"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "But Neill’s biggest concern is that the predictive model reflects what he calls “business as usual.” Say a major unexpected event – something like the COVID-19 pandemic , for example – changes everyone’s behavior patterns, and people get sick. “That’s something that these control models wouldn’t take into account,” he says. Those unanticipated events, not being accounted for in the control group, could skew the outcome of the trial.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Eric Topol, founder and director of the Scripps Research Translational Institute and an expert on using digital technologies in health care, thinks the idea is great, but not yet ready for prime time. “I don't think clinical trials are going to change in the near term, because this requires multiple layers of data beyond health records, such as a genome sequence, gut microbiome, environmental data, and on and on.” He predicts that it will take years to be able to do large-scale trials using AI, particularly for more than one disease. (Topol is also the editor-in-chief of Medscape, WebMD’s sister website.)",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Gathering enough quality data is a challenge, says Charles Fisher, PhD, founder and CEO of Unlearn.AI, a start-up pioneering digital twins for clinical trials. But, he says, addressing that kind of problem is part of the company’s long-term goals.",
+        "Two of the most commonly cited concerns about machine learning models – privacy and bias – are already accounted for, says Fisher. “Privacy is easy. We work only with data that has already been anonymized.”",
+        "When it comes to bias, the problem isn’t solved, but it is irrelevant – at least to the outcome of the trial, according to Fisher. A well-documented problem with machine learning tools is that they can be trained on biased data sets – for example, ones that underrepresent a particular group. But, says Fisher, because the trials are randomized, the results are insensitive to bias in the data. The trial measures how the drug being tested affects the people in the trial based on a comparison with the controls, and adjusts the model to more closely match the real controls. So, according to Fisher, even if the choice of subjects for the trial is biased, and the original dataset is biased, “We’re able to design trials so that they are insensitive to that bias.”"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Gathering enough quality data is a challenge, says Charles Fisher, PhD, founder and CEO of Unlearn.AI, a start-up pioneering digital twins for clinical trials. But, he says, addressing that kind of problem is part of the company’s long-term goals.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Two of the most commonly cited concerns about machine learning models – privacy and bias – are already accounted for, says Fisher. “Privacy is easy. We work only with data that has already been anonymized.”",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "When it comes to bias, the problem isn’t solved, but it is irrelevant – at least to the outcome of the trial, according to Fisher. A well-documented problem with machine learning tools is that they can be trained on biased data sets – for example, ones that underrepresent a particular group. But, says Fisher, because the trials are randomized, the results are insensitive to bias in the data. The trial measures how the drug being tested affects the people in the trial based on a comparison with the controls, and adjusts the model to more closely match the real controls. So, according to Fisher, even if the choice of subjects for the trial is biased, and the original dataset is biased, “We’re able to design trials so that they are insensitive to that bias.”",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "But Neill’s biggest concern is that the predictive model reflects what he calls “business as usual.” Say a major unexpected event – something like the COVID-19 pandemic , for example – changes everyone’s behavior patterns, and people get sick. “That’s something that these control models wouldn’t take into account,” he says. Those unanticipated events, not being accounted for in the control group, could skew the outcome of the trial.",
+        "Eric Topol, founder and director of the Scripps Research Translational Institute and an expert on using digital technologies in health care, thinks the idea is great, but not yet ready for prime time. “I don't think clinical trials are going to change in the near term, because this requires multiple layers of data beyond health records, such as a genome sequence, gut microbiome, environmental data, and on and on.” He predicts that it will take years to be able to do large-scale trials using AI, particularly for more than one disease. (Topol is also the editor-in-chief of Medscape, WebMD’s sister website.)"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "But Neill’s biggest concern is that the predictive model reflects what he calls “business as usual.” Say a major unexpected event – something like the COVID-19 pandemic , for example – changes everyone’s behavior patterns, and people get sick. “That’s something that these control models wouldn’t take into account,” he says. Those unanticipated events, not being accounted for in the control group, could skew the outcome of the trial.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Eric Topol, founder and director of the Scripps Research Translational Institute and an expert on using digital technologies in health care, thinks the idea is great, but not yet ready for prime time. “I don't think clinical trials are going to change in the near term, because this requires multiple layers of data beyond health records, such as a genome sequence, gut microbiome, environmental data, and on and on.” He predicts that it will take years to be able to do large-scale trials using AI, particularly for more than one disease. (Topol is also the editor-in-chief of Medscape, WebMD’s sister website.)",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Gathering enough quality data is a challenge, says Charles Fisher, PhD, founder and CEO of Unlearn.AI, a start-up pioneering digital twins for clinical trials. But, he says, addressing that kind of problem is part of the company’s long-term goals.",
+        "Two of the most commonly cited concerns about machine learning models – privacy and bias – are already accounted for, says Fisher. “Privacy is easy. We work only with data that has already been anonymized.”",
+        "When it comes to bias, the problem isn’t solved, but it is irrelevant – at least to the outcome of the trial, according to Fisher. A well-documented problem with machine learning tools is that they can be trained on biased data sets – for example, ones that underrepresent a particular group. But, says Fisher, because the trials are randomized, the results are insensitive to bias in the data. The trial measures how the drug being tested affects the people in the trial based on a comparison with the controls, and adjusts the model to more closely match the real controls. So, according to Fisher, even if the choice of subjects for the trial is biased, and the original dataset is biased, “We’re able to design trials so that they are insensitive to that bias.”"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Gathering enough quality data is a challenge, says Charles Fisher, PhD, founder and CEO of Unlearn.AI, a start-up pioneering digital twins for clinical trials. But, he says, addressing that kind of problem is part of the company’s long-term goals.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Two of the most commonly cited concerns about machine learning models – privacy and bias – are already accounted for, says Fisher. “Privacy is easy. We work only with data that has already been anonymized.”",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "When it comes to bias, the problem isn’t solved, but it is irrelevant – at least to the outcome of the trial, according to Fisher. A well-documented problem with machine learning tools is that they can be trained on biased data sets – for example, ones that underrepresent a particular group. But, says Fisher, because the trials are randomized, the results are insensitive to bias in the data. The trial measures how the drug being tested affects the people in the trial based on a comparison with the controls, and adjusts the model to more closely match the real controls. So, according to Fisher, even if the choice of subjects for the trial is biased, and the original dataset is biased, “We’re able to design trials so that they are insensitive to that bias.”",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Neill doesn’t find this convincing. You can remove bias in a randomized trial in a narrow sense, by adjusting your model to correctly estimate the treatment effect for the study population, but you’ll just reintroduce those biases when you try to generalize beyond the study. Unlearn.AI “is not comparing treated individuals to controls,” Neill says. \"It’s comparing treated individuals to model-based estimates of what the individual’s outcome would have been if they were in the control group. Any errors in those models or any events they fail to anticipate can lead to systematic biases – that is, over- or under-estimates of the treatment effect.”",
+        "But unlearn.AI is forging ahead. It is already working with drug companies to design trials for neurological diseases, such as Alzheimer’s, Parkinson’s, and multiple sclerosis . There is more data on these diseases than on many others, so they were a good place to start. Fisher says the approach could eventually be applied to every disease, substantially shortening the time it takes to bring new drugs to market.",
+        "If this technology proves useful, these invisible siblings could benefit patients and researchers alike."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Neill doesn’t find this convincing. You can remove bias in a randomized trial in a narrow sense, by adjusting your model to correctly estimate the treatment effect for the study population, but you’ll just reintroduce those biases when you try to generalize beyond the study. Unlearn.AI “is not comparing treated individuals to controls,” Neill says. \"It’s comparing treated individuals to model-based estimates of what the individual’s outcome would have been if they were in the control group. Any errors in those models or any events they fail to anticipate can lead to systematic biases – that is, over- or under-estimates of the treatment effect.”",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "But unlearn.AI is forging ahead. It is already working with drug companies to design trials for neurological diseases, such as Alzheimer’s, Parkinson’s, and multiple sclerosis . There is more data on these diseases than on many others, so they were a good place to start. Fisher says the approach could eventually be applied to every disease, substantially shortening the time it takes to bring new drugs to market.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If this technology proves useful, these invisible siblings could benefit patients and researchers alike.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Neill doesn’t find this convincing. You can remove bias in a randomized trial in a narrow sense, by adjusting your model to correctly estimate the treatment effect for the study population, but you’ll just reintroduce those biases when you try to generalize beyond the study. Unlearn.AI “is not comparing treated individuals to controls,” Neill says. \"It’s comparing treated individuals to model-based estimates of what the individual’s outcome would have been if they were in the control group. Any errors in those models or any events they fail to anticipate can lead to systematic biases – that is, over- or under-estimates of the treatment effect.”",
+        "But unlearn.AI is forging ahead. It is already working with drug companies to design trials for neurological diseases, such as Alzheimer’s, Parkinson’s, and multiple sclerosis . There is more data on these diseases than on many others, so they were a good place to start. Fisher says the approach could eventually be applied to every disease, substantially shortening the time it takes to bring new drugs to market.",
+        "If this technology proves useful, these invisible siblings could benefit patients and researchers alike."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Neill doesn’t find this convincing. You can remove bias in a randomized trial in a narrow sense, by adjusting your model to correctly estimate the treatment effect for the study population, but you’ll just reintroduce those biases when you try to generalize beyond the study. Unlearn.AI “is not comparing treated individuals to controls,” Neill says. \"It’s comparing treated individuals to model-based estimates of what the individual’s outcome would have been if they were in the control group. Any errors in those models or any events they fail to anticipate can lead to systematic biases – that is, over- or under-estimates of the treatment effect.”",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "But unlearn.AI is forging ahead. It is already working with drug companies to design trials for neurological diseases, such as Alzheimer’s, Parkinson’s, and multiple sclerosis . There is more data on these diseases than on many others, so they were a good place to start. Fisher says the approach could eventually be applied to every disease, substantially shortening the time it takes to bring new drugs to market.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If this technology proves useful, these invisible siblings could benefit patients and researchers alike.",
+          "associated_bullets": null
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/reference_guide/why_test_for_egfr_mutations_ref_guide/1800x1200_why_test_for_egfr_mutations_ref_guide.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/dersarkissian_carol_382x382.jpg?resize=51px:51px&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/reference_guide/why_test_for_egfr_mutations_ref_guide/1800x1200_why_test_for_egfr_mutations_ref_guide.jpg?resize=750px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [
+    "PHOTO CREDIT:",
+    "KTSDesign / SCIENCEPHOTOLIBRARY / Getty Images",
+    "Daniel Neill, PhD, associate professor of computer science and public service, Robert F. Wagner Graduate School of Public Service and Courant Institute Department of Computer Science, New York University.",
+    "Eric Topol, MD, founder and director, Scripps Research Translational Institute.",
+    "Charles Fisher, CEO, Unlearn.AI.",
+    "NIH Clinical Research Trials and You: “The Basics.”",
+    "MedicalNewsToday: “How do clinical trials work and who can participate?”",
+    "ClinicalTrials.gov: “Learn About Clinical Studies.”",
+    "NASA.gov: “Digital Twins And Living Models at Nasa.”",
+    "Challenge.org: “The history and creation of the digital twin concept.”",
+    "Unlearn.ai: “How Digital Twin Technology is Disrupting Healthcare.”",
+    "Clinical Trials Arena: “Can AI-generated prognostic forecasts substitute patients in oncology trials?”"
+  ],
+  "meta_description": "Artificial Intelligence may spell the end of the control group.",
+  "canonical_url": "https://www.webmd.com/a-to-z-guides/features/cm/ai-digital-twins",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:50:08.288743Z"
+}

@@ -1,0 +1,5 @@
+{
+  "url": "https://www.webmd.com/fatty-liver-disease/fatty-liver-disease",
+  "error": "'NoneType' object has no attribute 'select'",
+  "scrape_timestamp_utc": "2026-01-23T03:14:26.086047Z"
+}

@@ -1,0 +1,424 @@
+{
+  "url": "https://www.webmd.com/asthma/allergic-asthma",
+  "title": "Allergic Asthma",
+  "slug": "allergic-asthma",
+  "published_date": "2023-09-20",
+  "first_letter": "A",
+  "author": "Debra Fulghum Bruce, PhD",
+  "medically_reviewed_by": "Carol  DerSarkissian, MD",
+  "read_time": "5 min read",
+  "sections": [
+    {
+      "heading": null,
+      "content": [
+        "The same allergens that give some people sneezing fits and watery eyes can cause an asthma attack in others. Allergic asthma is the most common type of asthma. About 90% of kids with childhood asthma have allergies, compared with about 50% of adults with asthma. The symptoms that go along with allergic asthma show up after you breathe things called allergens (or allergy triggers) like pollen, dust mites , or mold. If you have asthma (allergic or non-allergic), it usually gets worse after you exercise in cold air or after breathing smoke, dust, or fumes. Sometimes even a strong smell can set it off.",
+        "Because allergens are everywhere, it's important that people with allergic asthma know their triggers and learn how to prevent an attack."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The same allergens that give some people sneezing fits and watery eyes can cause an asthma attack in others. Allergic asthma is the most common type of asthma. About 90% of kids with childhood asthma have allergies, compared with about 50% of adults with asthma. The symptoms that go along with allergic asthma show up after you breathe things called allergens (or allergy triggers) like pollen, dust mites , or mold. If you have asthma (allergic or non-allergic), it usually gets worse after you exercise in cold air or after breathing smoke, dust, or fumes. Sometimes even a strong smell can set it off.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Because allergens are everywhere, it's important that people with allergic asthma know their triggers and learn how to prevent an attack.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Is an Allergy?",
+      "content": [
+        "Your immune system’s job is to protect you from bacteria and viruses. If you have allergies , though, part of your immune system works too hard. It may attack harmless substances -- like cat dander or pollen -- in your nose, lungs, eyes, and under your skin .",
+        "When your body meets an allergen, it makes chemicals called IgE antibodies. They cause the release of chemicals like histamine, which cause swelling and inflammation . This creates familiar symptoms like a runny nose , itchy eyes, and sneezing as your body tries to remove the allergen."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Your immune system’s job is to protect you from bacteria and viruses. If you have allergies , though, part of your immune system works too hard. It may attack harmless substances -- like cat dander or pollen -- in your nose, lungs, eyes, and under your skin .",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "When your body meets an allergen, it makes chemicals called IgE antibodies. They cause the release of chemicals like histamine, which cause swelling and inflammation . This creates familiar symptoms like a runny nose , itchy eyes, and sneezing as your body tries to remove the allergen.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Is Allergic Asthma?",
+      "content": [
+        "If you have allergic asthma, your airways are extra sensitive to certain allergens. Once they get into your body, your immune system overreacts. The muscles around your airways tighten. The airways become inflamed and over time are flooded with thick mucus.",
+        "Whether you have allergic asthma or non-allergic asthma, the symptoms are generally the same. You’re likely to:"
+      ],
+      "bullets": [
+        "Cough",
+        "Wheeze",
+        "Be short of breath",
+        "Breathe quickly",
+        "Feel your chest get tight"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "If you have allergic asthma, your airways are extra sensitive to certain allergens. Once they get into your body, your immune system overreacts. The muscles around your airways tighten. The airways become inflamed and over time are flooded with thick mucus.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whether you have allergic asthma or non-allergic asthma, the symptoms are generally the same. You’re likely to:",
+          "associated_bullets": [
+            "Cough",
+            "Wheeze",
+            "Be short of breath",
+            "Breathe quickly",
+            "Feel your chest get tight"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Common Causes for Allergic Asthma",
+      "content": [
+        "Allergens, small enough to be breathed deep into the lungs , include:",
+        "Keep in mind that allergens aren’t the only thing that can make your allergic asthma worse. Irritants may still trigger an asthma attack, even though they don't cause an allergic reaction. These include:",
+        "Your doctor can test you to see what causes your allergic asthma. The two most common (and recommended) methods are:"
+      ],
+      "bullets": [
+        "Windblown pollen from trees, grasses, and weeds",
+        "Mold spores and fragments",
+        "Animal dander (from hair, skin, or feathers) and saliva",
+        "Dust mite feces",
+        "Cockroach feces",
+        "Smoke from tobacco, a fireplace, candles, incense, or fireworks",
+        "Air pollution",
+        "Cold air",
+        "Exercise in cold air",
+        "Strong chemical odors or fumes",
+        "Perfumes, air fresheners, or other scented products",
+        "Dusty rooms",
+        "Pricking your skin with a tiny amount of the allergen and measuring the size of the red bumps 20 minutes later",
+        "A blood test known as a specific IgE or sIgE test"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Allergens, small enough to be breathed deep into the lungs , include:",
+          "associated_bullets": [
+            "Windblown pollen from trees, grasses, and weeds",
+            "Mold spores and fragments",
+            "Animal dander (from hair, skin, or feathers) and saliva",
+            "Dust mite feces",
+            "Cockroach feces"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Keep in mind that allergens aren’t the only thing that can make your allergic asthma worse. Irritants may still trigger an asthma attack, even though they don't cause an allergic reaction. These include:",
+          "associated_bullets": [
+            "Smoke from tobacco, a fireplace, candles, incense, or fireworks",
+            "Air pollution",
+            "Cold air",
+            "Exercise in cold air",
+            "Strong chemical odors or fumes",
+            "Perfumes, air fresheners, or other scented products",
+            "Dusty rooms"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Your doctor can test you to see what causes your allergic asthma. The two most common (and recommended) methods are:",
+          "associated_bullets": [
+            "Pricking your skin with a tiny amount of the allergen and measuring the size of the red bumps 20 minutes later",
+            "A blood test known as a specific IgE or sIgE test"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "The same allergens that give some people sneezing fits and watery eyes can cause an asthma attack in others. Allergic asthma is the most common type of asthma. About 90% of kids with childhood asthma have allergies, compared with about 50% of adults with asthma. The symptoms that go along with allergic asthma show up after you breathe things called allergens (or allergy triggers) like pollen, dust mites , or mold. If you have asthma (allergic or non-allergic), it usually gets worse after you exercise in cold air or after breathing smoke, dust, or fumes. Sometimes even a strong smell can set it off.",
+        "Because allergens are everywhere, it's important that people with allergic asthma know their triggers and learn how to prevent an attack."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The same allergens that give some people sneezing fits and watery eyes can cause an asthma attack in others. Allergic asthma is the most common type of asthma. About 90% of kids with childhood asthma have allergies, compared with about 50% of adults with asthma. The symptoms that go along with allergic asthma show up after you breathe things called allergens (or allergy triggers) like pollen, dust mites , or mold. If you have asthma (allergic or non-allergic), it usually gets worse after you exercise in cold air or after breathing smoke, dust, or fumes. Sometimes even a strong smell can set it off.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Because allergens are everywhere, it's important that people with allergic asthma know their triggers and learn how to prevent an attack.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Is an Allergy?",
+      "content": [
+        "Your immune system’s job is to protect you from bacteria and viruses. If you have allergies , though, part of your immune system works too hard. It may attack harmless substances -- like cat dander or pollen -- in your nose, lungs, eyes, and under your skin .",
+        "When your body meets an allergen, it makes chemicals called IgE antibodies. They cause the release of chemicals like histamine, which cause swelling and inflammation . This creates familiar symptoms like a runny nose , itchy eyes, and sneezing as your body tries to remove the allergen."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Your immune system’s job is to protect you from bacteria and viruses. If you have allergies , though, part of your immune system works too hard. It may attack harmless substances -- like cat dander or pollen -- in your nose, lungs, eyes, and under your skin .",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "When your body meets an allergen, it makes chemicals called IgE antibodies. They cause the release of chemicals like histamine, which cause swelling and inflammation . This creates familiar symptoms like a runny nose , itchy eyes, and sneezing as your body tries to remove the allergen.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Is Allergic Asthma?",
+      "content": [
+        "If you have allergic asthma, your airways are extra sensitive to certain allergens. Once they get into your body, your immune system overreacts. The muscles around your airways tighten. The airways become inflamed and over time are flooded with thick mucus.",
+        "Whether you have allergic asthma or non-allergic asthma, the symptoms are generally the same. You’re likely to:"
+      ],
+      "bullets": [
+        "Cough",
+        "Wheeze",
+        "Be short of breath",
+        "Breathe quickly",
+        "Feel your chest get tight"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "If you have allergic asthma, your airways are extra sensitive to certain allergens. Once they get into your body, your immune system overreacts. The muscles around your airways tighten. The airways become inflamed and over time are flooded with thick mucus.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whether you have allergic asthma or non-allergic asthma, the symptoms are generally the same. You’re likely to:",
+          "associated_bullets": [
+            "Cough",
+            "Wheeze",
+            "Be short of breath",
+            "Breathe quickly",
+            "Feel your chest get tight"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Common Causes for Allergic Asthma",
+      "content": [
+        "Allergens, small enough to be breathed deep into the lungs , include:",
+        "Keep in mind that allergens aren’t the only thing that can make your allergic asthma worse. Irritants may still trigger an asthma attack, even though they don't cause an allergic reaction. These include:",
+        "Your doctor can test you to see what causes your allergic asthma. The two most common (and recommended) methods are:"
+      ],
+      "bullets": [
+        "Windblown pollen from trees, grasses, and weeds",
+        "Mold spores and fragments",
+        "Animal dander (from hair, skin, or feathers) and saliva",
+        "Dust mite feces",
+        "Cockroach feces",
+        "Smoke from tobacco, a fireplace, candles, incense, or fireworks",
+        "Air pollution",
+        "Cold air",
+        "Exercise in cold air",
+        "Strong chemical odors or fumes",
+        "Perfumes, air fresheners, or other scented products",
+        "Dusty rooms",
+        "Pricking your skin with a tiny amount of the allergen and measuring the size of the red bumps 20 minutes later",
+        "A blood test known as a specific IgE or sIgE test"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Allergens, small enough to be breathed deep into the lungs , include:",
+          "associated_bullets": [
+            "Windblown pollen from trees, grasses, and weeds",
+            "Mold spores and fragments",
+            "Animal dander (from hair, skin, or feathers) and saliva",
+            "Dust mite feces",
+            "Cockroach feces"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Keep in mind that allergens aren’t the only thing that can make your allergic asthma worse. Irritants may still trigger an asthma attack, even though they don't cause an allergic reaction. These include:",
+          "associated_bullets": [
+            "Smoke from tobacco, a fireplace, candles, incense, or fireworks",
+            "Air pollution",
+            "Cold air",
+            "Exercise in cold air",
+            "Strong chemical odors or fumes",
+            "Perfumes, air fresheners, or other scented products",
+            "Dusty rooms"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Your doctor can test you to see what causes your allergic asthma. The two most common (and recommended) methods are:",
+          "associated_bullets": [
+            "Pricking your skin with a tiny amount of the allergen and measuring the size of the red bumps 20 minutes later",
+            "A blood test known as a specific IgE or sIgE test"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Tips to Control Allergens",
+      "content": [
+        "To control your allergic asthma , you have to avoid breathing the allergens. Here are some tips to get relief:"
+      ],
+      "bullets": [
+        "Stay inside when pollen counts are high. Keep the windows closed. If it's hot, use an air conditioner with a clean air filter. Don't use an old air conditioner if it smells musty or moldy. Don’t use an evaporative cooler (also known as a swamp cooler).",
+        "Avoid dust mites. These microscopic critters live in fabrics and carpets. Wrap your pillows, mattress, and box spring in allergen-proof covers. Wash your sheets and other bedding once a week in hot water. Remove wall-to-wall carpeting if you can. Get rid of areas where dust can gather, like heavy curtains, upholstered furniture, and piles of clothing. If your child has allergic asthma, only buy washable stuffed animals.",
+        "Control indoor humidity . Check with an inexpensive meter. If moisture is above 40% in your home, use a dehumidifier or air conditioner. This will dry out the air and slow the growth of molds, cockroaches, and house dust mites. Get a pro in to repair any plumbing or roof leaks.",
+        "Check for pet allergies. If you have pets, get tested to see if they’re causing your problem. Keep them outdoors or find another home for them if you can. At the very least, ban all pets from the bedroom. High levels of cat allergens can stick around for many months in a home or apartment after cats are no longer living there. There are no hypo-allergenic cats or dogs. You can wash your pet every week, but it won’t make much difference in the amount of their allergen you breathe in. Dusts or sprays that claim to reduce pet allergens are not proven effective.",
+        "Keep your kitchen and bathroom clean and dry to prevent mold and cockroaches. If you’re allergic to cockroaches, and you see signs of them in your home, contact a pest control company. Insect spray won’t do the trick. You have to get rid of all sources of food in your home, even small crumbs in the carpet and oil stains near the stove. Run the exhaust fan when you cook or take a shower to lower the humidity in the room.",
+        "Choose air filters wisely. Large HEPA room air filters remove smoke and other small particles (like pollen) from a room, but only when the fan is on. They don’t lower humidity or reduce dust mites. Electronic air purifiers create ozone, which can cause airway inflammation.",
+        "Be careful doing outside work. Gardening and raking can stir up pollens and mold. Wear a HEPA filter mask while outside to reduce the amount of pollen and mold particles that get into your lungs."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "To control your allergic asthma , you have to avoid breathing the allergens. Here are some tips to get relief:",
+          "associated_bullets": [
+            "Stay inside when pollen counts are high. Keep the windows closed. If it's hot, use an air conditioner with a clean air filter. Don't use an old air conditioner if it smells musty or moldy. Don’t use an evaporative cooler (also known as a swamp cooler).",
+            "Avoid dust mites. These microscopic critters live in fabrics and carpets. Wrap your pillows, mattress, and box spring in allergen-proof covers. Wash your sheets and other bedding once a week in hot water. Remove wall-to-wall carpeting if you can. Get rid of areas where dust can gather, like heavy curtains, upholstered furniture, and piles of clothing. If your child has allergic asthma, only buy washable stuffed animals.",
+            "Control indoor humidity . Check with an inexpensive meter. If moisture is above 40% in your home, use a dehumidifier or air conditioner. This will dry out the air and slow the growth of molds, cockroaches, and house dust mites. Get a pro in to repair any plumbing or roof leaks.",
+            "Check for pet allergies. If you have pets, get tested to see if they’re causing your problem. Keep them outdoors or find another home for them if you can. At the very least, ban all pets from the bedroom. High levels of cat allergens can stick around for many months in a home or apartment after cats are no longer living there. There are no hypo-allergenic cats or dogs. You can wash your pet every week, but it won’t make much difference in the amount of their allergen you breathe in. Dusts or sprays that claim to reduce pet allergens are not proven effective.",
+            "Keep your kitchen and bathroom clean and dry to prevent mold and cockroaches. If you’re allergic to cockroaches, and you see signs of them in your home, contact a pest control company. Insect spray won’t do the trick. You have to get rid of all sources of food in your home, even small crumbs in the carpet and oil stains near the stove. Run the exhaust fan when you cook or take a shower to lower the humidity in the room.",
+            "Choose air filters wisely. Large HEPA room air filters remove smoke and other small particles (like pollen) from a room, but only when the fan is on. They don’t lower humidity or reduce dust mites. Electronic air purifiers create ozone, which can cause airway inflammation.",
+            "Be careful doing outside work. Gardening and raking can stir up pollens and mold. Wear a HEPA filter mask while outside to reduce the amount of pollen and mold particles that get into your lungs."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Tips to Control Allergens",
+      "content": [
+        "To control your allergic asthma , you have to avoid breathing the allergens. Here are some tips to get relief:"
+      ],
+      "bullets": [
+        "Stay inside when pollen counts are high. Keep the windows closed. If it's hot, use an air conditioner with a clean air filter. Don't use an old air conditioner if it smells musty or moldy. Don’t use an evaporative cooler (also known as a swamp cooler).",
+        "Avoid dust mites. These microscopic critters live in fabrics and carpets. Wrap your pillows, mattress, and box spring in allergen-proof covers. Wash your sheets and other bedding once a week in hot water. Remove wall-to-wall carpeting if you can. Get rid of areas where dust can gather, like heavy curtains, upholstered furniture, and piles of clothing. If your child has allergic asthma, only buy washable stuffed animals.",
+        "Control indoor humidity . Check with an inexpensive meter. If moisture is above 40% in your home, use a dehumidifier or air conditioner. This will dry out the air and slow the growth of molds, cockroaches, and house dust mites. Get a pro in to repair any plumbing or roof leaks.",
+        "Check for pet allergies. If you have pets, get tested to see if they’re causing your problem. Keep them outdoors or find another home for them if you can. At the very least, ban all pets from the bedroom. High levels of cat allergens can stick around for many months in a home or apartment after cats are no longer living there. There are no hypo-allergenic cats or dogs. You can wash your pet every week, but it won’t make much difference in the amount of their allergen you breathe in. Dusts or sprays that claim to reduce pet allergens are not proven effective.",
+        "Keep your kitchen and bathroom clean and dry to prevent mold and cockroaches. If you’re allergic to cockroaches, and you see signs of them in your home, contact a pest control company. Insect spray won’t do the trick. You have to get rid of all sources of food in your home, even small crumbs in the carpet and oil stains near the stove. Run the exhaust fan when you cook or take a shower to lower the humidity in the room.",
+        "Choose air filters wisely. Large HEPA room air filters remove smoke and other small particles (like pollen) from a room, but only when the fan is on. They don’t lower humidity or reduce dust mites. Electronic air purifiers create ozone, which can cause airway inflammation.",
+        "Be careful doing outside work. Gardening and raking can stir up pollens and mold. Wear a HEPA filter mask while outside to reduce the amount of pollen and mold particles that get into your lungs."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "To control your allergic asthma , you have to avoid breathing the allergens. Here are some tips to get relief:",
+          "associated_bullets": [
+            "Stay inside when pollen counts are high. Keep the windows closed. If it's hot, use an air conditioner with a clean air filter. Don't use an old air conditioner if it smells musty or moldy. Don’t use an evaporative cooler (also known as a swamp cooler).",
+            "Avoid dust mites. These microscopic critters live in fabrics and carpets. Wrap your pillows, mattress, and box spring in allergen-proof covers. Wash your sheets and other bedding once a week in hot water. Remove wall-to-wall carpeting if you can. Get rid of areas where dust can gather, like heavy curtains, upholstered furniture, and piles of clothing. If your child has allergic asthma, only buy washable stuffed animals.",
+            "Control indoor humidity . Check with an inexpensive meter. If moisture is above 40% in your home, use a dehumidifier or air conditioner. This will dry out the air and slow the growth of molds, cockroaches, and house dust mites. Get a pro in to repair any plumbing or roof leaks.",
+            "Check for pet allergies. If you have pets, get tested to see if they’re causing your problem. Keep them outdoors or find another home for them if you can. At the very least, ban all pets from the bedroom. High levels of cat allergens can stick around for many months in a home or apartment after cats are no longer living there. There are no hypo-allergenic cats or dogs. You can wash your pet every week, but it won’t make much difference in the amount of their allergen you breathe in. Dusts or sprays that claim to reduce pet allergens are not proven effective.",
+            "Keep your kitchen and bathroom clean and dry to prevent mold and cockroaches. If you’re allergic to cockroaches, and you see signs of them in your home, contact a pest control company. Insect spray won’t do the trick. You have to get rid of all sources of food in your home, even small crumbs in the carpet and oil stains near the stove. Run the exhaust fan when you cook or take a shower to lower the humidity in the room.",
+            "Choose air filters wisely. Large HEPA room air filters remove smoke and other small particles (like pollen) from a room, but only when the fan is on. They don’t lower humidity or reduce dust mites. Electronic air purifiers create ozone, which can cause airway inflammation.",
+            "Be careful doing outside work. Gardening and raking can stir up pollens and mold. Wear a HEPA filter mask while outside to reduce the amount of pollen and mold particles that get into your lungs."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Medications for Allergic Asthma",
+      "content": [
+        "Taking steps to control allergens is likely to improve your symptoms. But you may still need allergy and asthma medications to treat attacks.",
+        "Try nasal allergy medications that don’t make you sleepy, saline rinses, and decongestant nasal sprays (but only for a few days). If these don’t work, use nasal steroid sprays and stronger antihistamines. If none of this helps, it may be time to talk to a doctor about allergy shots.",
+        "There are many good asthma treatments, but most require a prescription. These medications include inhaled steroids , which fight inflammation, and bronchodilators, which open up your airways. Some medications combine steroids with bronchodilators.",
+        "If traditional treatments don’t help ease your allergic asthma, Xolair, an injectable medication that reduces IgE levels, may help. Also, the long-acting anticholinergic medication called tiotropium bromide (Spiriva Respimat) may be used along with your regular maintenance medications to help with symptom control. This medication can be used by people ages 6 years and older."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Taking steps to control allergens is likely to improve your symptoms. But you may still need allergy and asthma medications to treat attacks.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Try nasal allergy medications that don’t make you sleepy, saline rinses, and decongestant nasal sprays (but only for a few days). If these don’t work, use nasal steroid sprays and stronger antihistamines. If none of this helps, it may be time to talk to a doctor about allergy shots.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "There are many good asthma treatments, but most require a prescription. These medications include inhaled steroids , which fight inflammation, and bronchodilators, which open up your airways. Some medications combine steroids with bronchodilators.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If traditional treatments don’t help ease your allergic asthma, Xolair, an injectable medication that reduces IgE levels, may help. Also, the long-acting anticholinergic medication called tiotropium bromide (Spiriva Respimat) may be used along with your regular maintenance medications to help with symptom control. This medication can be used by people ages 6 years and older.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Medications for Allergic Asthma",
+      "content": [
+        "Taking steps to control allergens is likely to improve your symptoms. But you may still need allergy and asthma medications to treat attacks.",
+        "Try nasal allergy medications that don’t make you sleepy, saline rinses, and decongestant nasal sprays (but only for a few days). If these don’t work, use nasal steroid sprays and stronger antihistamines. If none of this helps, it may be time to talk to a doctor about allergy shots.",
+        "There are many good asthma treatments, but most require a prescription. These medications include inhaled steroids , which fight inflammation, and bronchodilators, which open up your airways. Some medications combine steroids with bronchodilators.",
+        "If traditional treatments don’t help ease your allergic asthma, Xolair, an injectable medication that reduces IgE levels, may help. Also, the long-acting anticholinergic medication called tiotropium bromide (Spiriva Respimat) may be used along with your regular maintenance medications to help with symptom control. This medication can be used by people ages 6 years and older."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Taking steps to control allergens is likely to improve your symptoms. But you may still need allergy and asthma medications to treat attacks.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Try nasal allergy medications that don’t make you sleepy, saline rinses, and decongestant nasal sprays (but only for a few days). If these don’t work, use nasal steroid sprays and stronger antihistamines. If none of this helps, it may be time to talk to a doctor about allergy shots.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "There are many good asthma treatments, but most require a prescription. These medications include inhaled steroids , which fight inflammation, and bronchodilators, which open up your airways. Some medications combine steroids with bronchodilators.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If traditional treatments don’t help ease your allergic asthma, Xolair, an injectable medication that reduces IgE levels, may help. Also, the long-acting anticholinergic medication called tiotropium bromide (Spiriva Respimat) may be used along with your regular maintenance medications to help with symptom control. This medication can be used by people ages 6 years and older.",
+          "associated_bullets": null
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/features/_2013/10_2013/what_is_allergic_asthma_features/493x335_what_is_allergic_asthma_features.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/dersarkissian_carol_382x382.jpg?resize=51px:51px&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/MoreOn_MentalHealth.jpg?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/hpt_toc_redesign_illustrations/1500x1500_screening_and_prevention_option_5.jpg?resize=500px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/ux_images/related_links_icon.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/ux_images/related_header.svg?resize=335px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/staging/webmd/consumer_assets/site_images/images/arrow_right_alt.svg",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [
+    "SOURCES: American Academy of Asthma, Allergy, and Immunology: \"What to expect at the doctor's office,\" \"How to help your allergies and asthma,\" \"Allergic asthma information,\" \"Is your asthma allergic?\" American Medical Association, Essential Guide to Asthma, 1998. National Heart, Lung and Blood Institute: \"Asthma: How is Asthma Diagnosed?\" \"How is asthma treated?\" Boehringer Ingelheim: \"US FDA Expands Approval of Tiotropium Respimat® for Maintenance Treatment of Asthma in Children.\" FDA. Prescribing Information: Spiriva Respimat.",
+    "Medline Plus: \"Fluticasone, Umeclidinium, and Vilanterol Oral Inhalation.\""
+  ],
+  "meta_description": "Learn about allergic asthma -- the signs, symptoms, and treatment -- to help prevent asthma attacks.",
+  "canonical_url": "https://www.webmd.com/asthma/allergic-asthma",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:17:51.246442Z"
+}

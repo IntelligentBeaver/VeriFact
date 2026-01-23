@@ -1,0 +1,72 @@
+{
+  "url": "https://www.webmd.com/parenting/guide-chapter-parenting-child-development",
+  "title": "Child Development",
+  "slug": "guide-chapter-parenting-child-development",
+  "published_date": "",
+  "first_letter": "G",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": [
+        "Toddler Milestones",
+        "Child Development How Your Preschooler Grows School-Age Children The Tween Years Teens and Young Adults",
+        "Behavior & Discipline",
+        "Child Safety",
+        "Healthy Habits",
+        "View Full Guide",
+        "How Your Preschooler Grows",
+        "School-Age Children",
+        "The Tween Years",
+        "Teens and Young Adults"
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Toddler Milestones",
+            "Child Development How Your Preschooler Grows School-Age Children The Tween Years Teens and Young Adults",
+            "Behavior & Discipline",
+            "Child Safety",
+            "Healthy Habits",
+            "View Full Guide"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "How Your Preschooler Grows",
+            "School-Age Children",
+            "The Tween Years",
+            "Teens and Young Adults"
+          ]
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/site_front_toc_redesign/grow_parenting_site_front_toc_redesign/1500x1500_grow_parenting_site_front_toc_redesign_chapter_2_alt.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/sitefronts/branding/grow/grow_logo.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/MoreOn_ADHD.jpg?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/tocs/healthctr/FB_Group_Image/sr_condition_19.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "Learn what to expect from your growing child with WebMD’s Child Development Timeline. Explore important milestones and the signs of developmental delays.",
+  "canonical_url": "https://www.webmd.com/parenting/guide-chapter-parenting-child-development",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:21:36.636336Z"
+}

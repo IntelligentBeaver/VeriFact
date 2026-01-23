@@ -1,0 +1,60 @@
+{
+  "url": "https://www.webmd.com/food-recipes/guide-chapter-health-cooking-food-nutrients",
+  "title": "Food & Nutrients",
+  "slug": "guide-chapter-health-cooking-food-nutrients",
+  "published_date": "",
+  "first_letter": "G",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": [
+        "Healthy Eating",
+        "Food & Nutrients",
+        "Smart Swaps",
+        "Grocery Shopping",
+        "Cooking Tips",
+        "Special Diets",
+        "View Full Guide"
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Healthy Eating",
+            "Food & Nutrients",
+            "Smart Swaps",
+            "Grocery Shopping",
+            "Cooking Tips",
+            "Special Diets",
+            "View Full Guide"
+          ]
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/food_and_recipes_hpt_toc_redesign/1500x1500_getty_rf_food_and_recipes_chapter_2_1367755112.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/MoreOn_HeartburnGerd.jpg?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/food_and_recipes_hpt_toc_redesign/1500x1500_getty_rf_food_and_recipes_chapter_3_502820230.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "Fear not, you can find nutritious recipes to suit your style. Check out our healthy recipes for all seasons, holidays, ethnicities, and health conditions.",
+  "canonical_url": "https://www.webmd.com/food-recipes/guide-chapter-health-cooking-food-nutrients",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:31:14.997041Z"
+}

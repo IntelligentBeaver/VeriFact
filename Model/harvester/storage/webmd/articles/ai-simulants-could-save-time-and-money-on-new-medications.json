@@ -1,0 +1,490 @@
+{
+  "url": "https://www.webmd.com/a-to-z-guides/news/20221130/cm/ai-simulants-could-save-time-and-money-on-new-medications",
+  "title": "AI ‘Simulants’ Could Save Time and Money on New Medications",
+  "slug": "ai-simulants-could-save-time-and-money-on-new-medications",
+  "published_date": "",
+  "first_letter": "A",
+  "author": "Damian McNamara, MA",
+  "medically_reviewed_by": "",
+  "read_time": "4 min read",
+  "sections": [
+    {
+      "heading": null,
+      "content": [
+        "Nov. 30, 2022 – Artificial intelligence is poised to make clinical trials and drug development faster, cheaper, and more efficient. Part of this strategy is creating \"synthetic control arms\" that use data to create “simulants,” or computer-generated “patients” in a trial.",
+        "News Special: AI in Healthcare",
+        "Can AI Drive More Diversity in Drug Development?",
+        "AI 'Simulants' Could Save Time, Money on New Meds",
+        "No, Robots Are Not Taking Over",
+        "This way, researchers can enroll fewer real people and recruit enough participants in half the time.",
+        "Both patients and drug companies stand to gain, experts say. An advantage for people, for example, is simulants get the standard-of-care or placebo treatment, meaning all people in the study end up getting the experimental treatment. For drug companies unsure of which of their drug candidates hold the most promise, AI and machine learning can narrow down the prospects.",
+        "“So far, machine learning has primarily been effective at optimizing efficiency – not getting a better drug but rather optimizing the efficiency of screening. AI uses the learnings from the past to make drug discovery more effective and more efficient,” says Angeli Moeller, PhD, head of data and integrations generating insights at drugmaker Roche in Berlin, and vice chair of the Alliance for Artificial Intelligence in Healthcare board."
+      ],
+      "bullets": [
+        "Can AI Drive More Diversity in Drug Development?",
+        "AI 'Simulants' Could Save Time, Money on New Meds",
+        "No, Robots Are Not Taking Over"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nov. 30, 2022 – Artificial intelligence is poised to make clinical trials and drug development faster, cheaper, and more efficient. Part of this strategy is creating \"synthetic control arms\" that use data to create “simulants,” or computer-generated “patients” in a trial.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "News Special: AI in Healthcare",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Can AI Drive More Diversity in Drug Development?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "AI 'Simulants' Could Save Time, Money on New Meds",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "No, Robots Are Not Taking Over",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Can AI Drive More Diversity in Drug Development?",
+            "AI 'Simulants' Could Save Time, Money on New Meds",
+            "No, Robots Are Not Taking Over"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This way, researchers can enroll fewer real people and recruit enough participants in half the time.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Both patients and drug companies stand to gain, experts say. An advantage for people, for example, is simulants get the standard-of-care or placebo treatment, meaning all people in the study end up getting the experimental treatment. For drug companies unsure of which of their drug candidates hold the most promise, AI and machine learning can narrow down the prospects.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“So far, machine learning has primarily been effective at optimizing efficiency – not getting a better drug but rather optimizing the efficiency of screening. AI uses the learnings from the past to make drug discovery more effective and more efficient,” says Angeli Moeller, PhD, head of data and integrations generating insights at drugmaker Roche in Berlin, and vice chair of the Alliance for Artificial Intelligence in Healthcare board.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "“I'll give you an example. You might have a thousand small molecules and you want to see which one of them is going to bind to a receptor that's involved in a disease. With AI, you don't have to screen thousands of candidates. Maybe you can screen just one hundred,” she says.",
+        "‘Synthetic’ Trial Participants",
+        "The first clinical trials to use data-created matches for patients – instead of control patients matched for age, sex or other traits – have already started. For example, Imunon Inc., a biotechnology company that develops next-generation chemotherapy and immunotherapy , used a synthetic control arm in its phase 1B trial of an agent added to pre-surgical chemotherapy for ovarian cancer .",
+        "This early study showed researchers it would be worthwhile to continue evaluating the new agent in a phase 2 trial.",
+        "Using a synthetic control arm is “extremely cool,” says Sastry Chilukuri, co-CEO of Medidata, the company that supplied the data for the Phase 1B trial, and founder and president of Acorn AI."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "“I'll give you an example. You might have a thousand small molecules and you want to see which one of them is going to bind to a receptor that's involved in a disease. With AI, you don't have to screen thousands of candidates. Maybe you can screen just one hundred,” she says.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "‘Synthetic’ Trial Participants",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The first clinical trials to use data-created matches for patients – instead of control patients matched for age, sex or other traits – have already started. For example, Imunon Inc., a biotechnology company that develops next-generation chemotherapy and immunotherapy , used a synthetic control arm in its phase 1B trial of an agent added to pre-surgical chemotherapy for ovarian cancer .",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "This early study showed researchers it would be worthwhile to continue evaluating the new agent in a phase 2 trial.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Using a synthetic control arm is “extremely cool,” says Sastry Chilukuri, co-CEO of Medidata, the company that supplied the data for the Phase 1B trial, and founder and president of Acorn AI.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Nov. 30, 2022 – Artificial intelligence is poised to make clinical trials and drug development faster, cheaper, and more efficient. Part of this strategy is creating \"synthetic control arms\" that use data to create “simulants,” or computer-generated “patients” in a trial.",
+        "News Special: AI in Healthcare",
+        "Can AI Drive More Diversity in Drug Development?",
+        "AI 'Simulants' Could Save Time, Money on New Meds",
+        "No, Robots Are Not Taking Over",
+        "This way, researchers can enroll fewer real people and recruit enough participants in half the time.",
+        "Both patients and drug companies stand to gain, experts say. An advantage for people, for example, is simulants get the standard-of-care or placebo treatment, meaning all people in the study end up getting the experimental treatment. For drug companies unsure of which of their drug candidates hold the most promise, AI and machine learning can narrow down the prospects.",
+        "“So far, machine learning has primarily been effective at optimizing efficiency – not getting a better drug but rather optimizing the efficiency of screening. AI uses the learnings from the past to make drug discovery more effective and more efficient,” says Angeli Moeller, PhD, head of data and integrations generating insights at drugmaker Roche in Berlin, and vice chair of the Alliance for Artificial Intelligence in Healthcare board."
+      ],
+      "bullets": [
+        "Can AI Drive More Diversity in Drug Development?",
+        "AI 'Simulants' Could Save Time, Money on New Meds",
+        "No, Robots Are Not Taking Over"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nov. 30, 2022 – Artificial intelligence is poised to make clinical trials and drug development faster, cheaper, and more efficient. Part of this strategy is creating \"synthetic control arms\" that use data to create “simulants,” or computer-generated “patients” in a trial.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "News Special: AI in Healthcare",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Can AI Drive More Diversity in Drug Development?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "AI 'Simulants' Could Save Time, Money on New Meds",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "No, Robots Are Not Taking Over",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Can AI Drive More Diversity in Drug Development?",
+            "AI 'Simulants' Could Save Time, Money on New Meds",
+            "No, Robots Are Not Taking Over"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This way, researchers can enroll fewer real people and recruit enough participants in half the time.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Both patients and drug companies stand to gain, experts say. An advantage for people, for example, is simulants get the standard-of-care or placebo treatment, meaning all people in the study end up getting the experimental treatment. For drug companies unsure of which of their drug candidates hold the most promise, AI and machine learning can narrow down the prospects.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“So far, machine learning has primarily been effective at optimizing efficiency – not getting a better drug but rather optimizing the efficiency of screening. AI uses the learnings from the past to make drug discovery more effective and more efficient,” says Angeli Moeller, PhD, head of data and integrations generating insights at drugmaker Roche in Berlin, and vice chair of the Alliance for Artificial Intelligence in Healthcare board.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "“I'll give you an example. You might have a thousand small molecules and you want to see which one of them is going to bind to a receptor that's involved in a disease. With AI, you don't have to screen thousands of candidates. Maybe you can screen just one hundred,” she says.",
+        "‘Synthetic’ Trial Participants",
+        "The first clinical trials to use data-created matches for patients – instead of control patients matched for age, sex or other traits – have already started. For example, Imunon Inc., a biotechnology company that develops next-generation chemotherapy and immunotherapy , used a synthetic control arm in its phase 1B trial of an agent added to pre-surgical chemotherapy for ovarian cancer .",
+        "This early study showed researchers it would be worthwhile to continue evaluating the new agent in a phase 2 trial.",
+        "Using a synthetic control arm is “extremely cool,” says Sastry Chilukuri, co-CEO of Medidata, the company that supplied the data for the Phase 1B trial, and founder and president of Acorn AI."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "“I'll give you an example. You might have a thousand small molecules and you want to see which one of them is going to bind to a receptor that's involved in a disease. With AI, you don't have to screen thousands of candidates. Maybe you can screen just one hundred,” she says.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "‘Synthetic’ Trial Participants",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The first clinical trials to use data-created matches for patients – instead of control patients matched for age, sex or other traits – have already started. For example, Imunon Inc., a biotechnology company that develops next-generation chemotherapy and immunotherapy , used a synthetic control arm in its phase 1B trial of an agent added to pre-surgical chemotherapy for ovarian cancer .",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "This early study showed researchers it would be worthwhile to continue evaluating the new agent in a phase 2 trial.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Using a synthetic control arm is “extremely cool,” says Sastry Chilukuri, co-CEO of Medidata, the company that supplied the data for the Phase 1B trial, and founder and president of Acorn AI.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "“What we have is the first FDA and EMA approval of a synthetic control arm where you're replacing the entire control arm by using synthetic control patients, and these are patients that you pull out of historic clinical trial data,” he says.",
+        "A Wave of AI-Boosted Research?",
+        "The role of AI in research is expected to grow. To date, most AI-driven drug discovery research has focused on neurology and oncology. The start in these specialties is “probably due to the high unmet medical need and many well-characterized targets,” notes a March 2022 news and analysis piece in the journal Nature.",
+        "It speculated that this use of AI is just the start of “a coming wave.”",
+        "“There is an increasing interest in the utilization of synthetic control methods [that is, using external data to create controls],” according to a review article in Nature Medicine in September.",
+        "It said the FDA already approved a medication in 2017 for a form of a rare pediatric neurologic disorder, Batten disease, based on a study with historical control “participants.”"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "“What we have is the first FDA and EMA approval of a synthetic control arm where you're replacing the entire control arm by using synthetic control patients, and these are patients that you pull out of historic clinical trial data,” he says.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "A Wave of AI-Boosted Research?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The role of AI in research is expected to grow. To date, most AI-driven drug discovery research has focused on neurology and oncology. The start in these specialties is “probably due to the high unmet medical need and many well-characterized targets,” notes a March 2022 news and analysis piece in the journal Nature.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "It speculated that this use of AI is just the start of “a coming wave.”",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“There is an increasing interest in the utilization of synthetic control methods [that is, using external data to create controls],” according to a review article in Nature Medicine in September.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "It said the FDA already approved a medication in 2017 for a form of a rare pediatric neurologic disorder, Batten disease, based on a study with historical control “participants.”",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "One example in oncology where a synthetic control arm could make a difference is glioblastoma research, Chilukuri says. This brain cancer is extremely difficult to treat, and patients typically drop out of trials because they want the experimental treatment and don’t want to remain in the standard-of-care control group, he says. Also, “just given the life expectancy, it's very difficult to complete a trial.”",
+        "Using a synthetic control arm could speed up research and improve the chances of completing a glioblastoma study, Chilukuri says. “And the patients actually get the experimental treatment.”",
+        "Still Early Days",
+        "AI also could help limit \"non-responders\" in research.",
+        "Clinical trials “are really difficult, they’re time-consuming, and they're extremely expensive,” says Naheed Kurji, chair of the Alliance for Artificial Intelligence in Healthcare board, and president and CEO of Cyclica Inc, a data-driven drug discovery company based in Toronto.",
+        "“Companies are working very hard at finding more efficient ways to bring AI to clinical trials so they get outcomes faster at a lower cost but also higher quality.”"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "One example in oncology where a synthetic control arm could make a difference is glioblastoma research, Chilukuri says. This brain cancer is extremely difficult to treat, and patients typically drop out of trials because they want the experimental treatment and don’t want to remain in the standard-of-care control group, he says. Also, “just given the life expectancy, it's very difficult to complete a trial.”",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Using a synthetic control arm could speed up research and improve the chances of completing a glioblastoma study, Chilukuri says. “And the patients actually get the experimental treatment.”",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Still Early Days",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "AI also could help limit \"non-responders\" in research.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Clinical trials “are really difficult, they’re time-consuming, and they're extremely expensive,” says Naheed Kurji, chair of the Alliance for Artificial Intelligence in Healthcare board, and president and CEO of Cyclica Inc, a data-driven drug discovery company based in Toronto.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“Companies are working very hard at finding more efficient ways to bring AI to clinical trials so they get outcomes faster at a lower cost but also higher quality.”",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "“What we have is the first FDA and EMA approval of a synthetic control arm where you're replacing the entire control arm by using synthetic control patients, and these are patients that you pull out of historic clinical trial data,” he says.",
+        "A Wave of AI-Boosted Research?",
+        "The role of AI in research is expected to grow. To date, most AI-driven drug discovery research has focused on neurology and oncology. The start in these specialties is “probably due to the high unmet medical need and many well-characterized targets,” notes a March 2022 news and analysis piece in the journal Nature.",
+        "It speculated that this use of AI is just the start of “a coming wave.”",
+        "“There is an increasing interest in the utilization of synthetic control methods [that is, using external data to create controls],” according to a review article in Nature Medicine in September.",
+        "It said the FDA already approved a medication in 2017 for a form of a rare pediatric neurologic disorder, Batten disease, based on a study with historical control “participants.”"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "“What we have is the first FDA and EMA approval of a synthetic control arm where you're replacing the entire control arm by using synthetic control patients, and these are patients that you pull out of historic clinical trial data,” he says.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "A Wave of AI-Boosted Research?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The role of AI in research is expected to grow. To date, most AI-driven drug discovery research has focused on neurology and oncology. The start in these specialties is “probably due to the high unmet medical need and many well-characterized targets,” notes a March 2022 news and analysis piece in the journal Nature.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "It speculated that this use of AI is just the start of “a coming wave.”",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“There is an increasing interest in the utilization of synthetic control methods [that is, using external data to create controls],” according to a review article in Nature Medicine in September.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "It said the FDA already approved a medication in 2017 for a form of a rare pediatric neurologic disorder, Batten disease, based on a study with historical control “participants.”",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "One example in oncology where a synthetic control arm could make a difference is glioblastoma research, Chilukuri says. This brain cancer is extremely difficult to treat, and patients typically drop out of trials because they want the experimental treatment and don’t want to remain in the standard-of-care control group, he says. Also, “just given the life expectancy, it's very difficult to complete a trial.”",
+        "Using a synthetic control arm could speed up research and improve the chances of completing a glioblastoma study, Chilukuri says. “And the patients actually get the experimental treatment.”",
+        "Still Early Days",
+        "AI also could help limit \"non-responders\" in research.",
+        "Clinical trials “are really difficult, they’re time-consuming, and they're extremely expensive,” says Naheed Kurji, chair of the Alliance for Artificial Intelligence in Healthcare board, and president and CEO of Cyclica Inc, a data-driven drug discovery company based in Toronto.",
+        "“Companies are working very hard at finding more efficient ways to bring AI to clinical trials so they get outcomes faster at a lower cost but also higher quality.”"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "One example in oncology where a synthetic control arm could make a difference is glioblastoma research, Chilukuri says. This brain cancer is extremely difficult to treat, and patients typically drop out of trials because they want the experimental treatment and don’t want to remain in the standard-of-care control group, he says. Also, “just given the life expectancy, it's very difficult to complete a trial.”",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Using a synthetic control arm could speed up research and improve the chances of completing a glioblastoma study, Chilukuri says. “And the patients actually get the experimental treatment.”",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Still Early Days",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "AI also could help limit \"non-responders\" in research.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Clinical trials “are really difficult, they’re time-consuming, and they're extremely expensive,” says Naheed Kurji, chair of the Alliance for Artificial Intelligence in Healthcare board, and president and CEO of Cyclica Inc, a data-driven drug discovery company based in Toronto.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“Companies are working very hard at finding more efficient ways to bring AI to clinical trials so they get outcomes faster at a lower cost but also higher quality.”",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "There are a lot of clinical trials that fail, not because the molecule is not effective … but because the patients that were enrolled in a trial include a lot of non-responders. They just cancel out the responder data,” says Kurji.",
+        "“You've heard a lot of people talk about how we are going to make more progress in the next decade than we did in the last century,” Chilukuri says. “And that's simply because of this availability of high-resolution data that allows you to understand what's happening at an individual level.”",
+        "“That is going to create this explosion in precision medicine,” he predicts.",
+        "In some ways, it’s still early days for AI in clinical research. Kurji says, “There's a lot of work to be done, but I think you can point to many examples and many companies that have made some really big strides.”"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "There are a lot of clinical trials that fail, not because the molecule is not effective … but because the patients that were enrolled in a trial include a lot of non-responders. They just cancel out the responder data,” says Kurji.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“You've heard a lot of people talk about how we are going to make more progress in the next decade than we did in the last century,” Chilukuri says. “And that's simply because of this availability of high-resolution data that allows you to understand what's happening at an individual level.”",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“That is going to create this explosion in precision medicine,” he predicts.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In some ways, it’s still early days for AI in clinical research. Kurji says, “There's a lot of work to be done, but I think you can point to many examples and many companies that have made some really big strides.”",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "There are a lot of clinical trials that fail, not because the molecule is not effective … but because the patients that were enrolled in a trial include a lot of non-responders. They just cancel out the responder data,” says Kurji.",
+        "“You've heard a lot of people talk about how we are going to make more progress in the next decade than we did in the last century,” Chilukuri says. “And that's simply because of this availability of high-resolution data that allows you to understand what's happening at an individual level.”",
+        "“That is going to create this explosion in precision medicine,” he predicts.",
+        "In some ways, it’s still early days for AI in clinical research. Kurji says, “There's a lot of work to be done, but I think you can point to many examples and many companies that have made some really big strides.”"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "There are a lot of clinical trials that fail, not because the molecule is not effective … but because the patients that were enrolled in a trial include a lot of non-responders. They just cancel out the responder data,” says Kurji.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“You've heard a lot of people talk about how we are going to make more progress in the next decade than we did in the last century,” Chilukuri says. “And that's simply because of this availability of high-resolution data that allows you to understand what's happening at an individual level.”",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“That is going to create this explosion in precision medicine,” he predicts.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In some ways, it’s still early days for AI in clinical research. Kurji says, “There's a lot of work to be done, but I think you can point to many examples and many companies that have made some really big strides.”",
+          "associated_bullets": null
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/health_tools/advancements_for_treatments_of_ra_slideshow/1800ss_getty_rf_artificial_intelligence_concept.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/damian-mcnamara-382x382.jpg?resize=51px:51px&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [
+    "Naheed Kurji, board chair, Alliance for Artificial Intelligence in Healthcare; president and CEO, Cyclica Inc.",
+    "Angeli Moeller, PhD, head of data and integrations generating insights, Roche; board vice chair, Alliance for Artificial Intelligence in Healthcare.",
+    "Sastry Chilukuri, co-CEO, Medidata; founder and president, Acorn AI.",
+    "Nature Reviews Drug Discovery : “AI in small-molecule drug discovery: a coming wave?.”",
+    "Nature Medicine : “Multimodal biomedical AI.”"
+  ],
+  "meta_description": "Second in a series examining the impact and potential of artificial intelligence in health care.",
+  "canonical_url": "https://www.webmd.com/a-to-z-guides/news/20221130/cm/ai-simulants-could-save-time-and-money-on-new-medications",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:19:26.088788Z"
+}
