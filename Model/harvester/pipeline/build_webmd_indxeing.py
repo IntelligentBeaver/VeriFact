@@ -457,10 +457,10 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                 c['faiss_score_norm'] = float(faiss_norm_v)
 
             # compute final combined score (normalized mixture)
-            w_cross = 0.60
-            w_trust = 0.25
-            w_faiss = 0.10
-            w_sap = 0.05  # only applies in doc-mode where we compute sapbert_score
+            w_cross = 0.65
+            # w_trust = 0.25
+            w_faiss = 0.35
+            # w_sap = 0.05  # only applies in doc-mode where we compute sapbert_score
             for c in rerank_candidates:
                 cross_s = c.get('cross_score_norm', 0.0)
                 trust_s = c.get('trust_score', 0.0)
