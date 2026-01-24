@@ -34,6 +34,22 @@ from dateutil import parser as date_parser
 from datetime import datetime
 import math
 
+from rich.console import Console
+from rich.panel import Panel
+from rich.text import Text
+from rich.table import Table
+
+class C:
+    RESET = "\033[0m"
+    BOLD = "\033[1m"
+
+    RED = "\033[31m"
+    GREEN = "\033[32m"
+    YELLOW = "\033[33m"
+    BLUE = "\033[34m"
+    CYAN = "\033[36m"
+    GRAY = "\033[90m"
+
 
 def load_metadata(metadata_path: Path):
     with metadata_path.open('r', encoding='utf-8') as f:
@@ -167,7 +183,7 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                 sap_model = None
         else:
             sapbert_mode = 'concept'
-            print("SapBERT appears to be concept embeddings (Option A).")
+            print("SapBERT is concept embeddings.")
             # attempt to find concept metadata (labels) in same dir as sapbert_path
             cand_meta_names = ['metadata.json', 'combined_metadata.json', 'concepts.json', 'mesh_concepts.json']
             found = None
@@ -199,6 +215,68 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                 print("Failed to load sapbert encoder (needed for concept expansion):", e)
                 sap_model = None
 
+    # --- Helper functions for filtering title-like snippets / recovering longer text
+    def _longest_text_from_meta(meta):
+        """Return the longest plausible text field from a metadata dict."""
+        candidates = []
+        for k in ('text', 'full_text', 'article_text', 'content', 'body'):
+            v = meta.get(k)
+            if isinstance(v, str) and v.strip():
+                candidates.append(v.strip())
+        sec = meta.get('sections') or meta.get('paragraphs') or meta.get('chunks')
+        if isinstance(sec, (list, tuple)):
+            joined = " ".join(str(x) for x in sec if isinstance(x, str) and x.strip())
+            if joined:
+                candidates.append(joined)
+        if not candidates:
+            return meta.get('text', '') or ''
+        return max(candidates, key=len)
+
+    def _is_title_like(snippet: str, title: str, min_words=6, min_chars=80):
+        """
+        Heuristic to determine if a snippet is just a title/heading.
+        Returns True if snippet is likely a title (so we will try to recover or drop it).
+        """
+        if not snippet:
+            return True
+        s = snippet.strip()
+        t = (title or "").strip()
+
+        words = s.split()
+        # very short -> title-like
+        if len(words) < min_words:
+            return True
+
+        # if snippet and title strongly overlap
+        ls = s.lower()
+        lt = t.lower()
+        if ls == lt or ls in lt or lt in ls:
+            return True
+
+        # no sentence punctuation and short char length -> likely heading
+        if all(p not in s for p in ".!?") and len(s) < min_chars:
+            return True
+
+        return False
+
+    def _find_longer_from_doc(metadata_list, meta):
+        """
+        Try to find other chunks from the same document (by common doc id keys)
+        and return the longest matching text if any.
+        """
+        doc_keys = ['document_id', 'doc_id', 'article_id', 'source_id', 'parent_id']
+        for k in doc_keys:
+            docid = meta.get(k)
+            if docid:
+                cand_texts = [
+                    _longest_text_from_meta(m)
+                    for m in metadata_list
+                    if m.get(k) == docid and _longest_text_from_meta(m)
+                ]
+                if cand_texts:
+                    return max(cand_texts, key=len)
+        return ""
+
     print('Interactive search ready — type your query (or Ctrl+C to exit)')
 
     while True:
@@ -218,9 +296,8 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                     nq = np.linalg.norm(q_sap)
                     if nq != 0:
                         q_sap = q_sap / nq
-                    # sapbert_embeddings assumed normalized. Compute similarities
                     sims = sapbert_embeddings.dot(q_sap)  # shape (n_concepts,)
-                    top_idxs = np.argsort(-sims)[:sapbert_concepts_topk * 2]  # take a bit more then dedupe
+                    top_idxs = np.argsort(-sims)[:sapbert_concepts_topk * 2]
                     top_labels = []
                     for i in top_idxs:
                         label = None
@@ -232,7 +309,6 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                                 label = str(cand)
                         if label:
                             top_labels.append(label)
-                    # dedupe while preserving order (case-insensitive)
                     seen = set()
                     unique_top_labels = []
                     for t in top_labels:
@@ -244,26 +320,21 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
 
                     if unique_top_labels:
                         print(f"[SapBERT concepts] top unique concepts: {unique_top_labels}")
-                        # compute raw query vector in embed_model space (used by FAISS)
                         qvec_raw = embed_model.encode([query], convert_to_numpy=True)[0]
-                        # compute mean vector of concept labels in same embed_model space
                         try:
                             label_vecs = embed_model.encode(unique_top_labels, convert_to_numpy=True)
                             label_vec_mean = label_vecs.mean(axis=0)
                         except Exception as e:
                             print("Warning: failed to encode concept labels with embed_model:", e)
                             label_vec_mean = np.zeros_like(qvec_raw)
-                        # weights: tune these (alpha for query, beta for concepts)
                         alpha = 0.7
                         beta = 0.3
                         combined = alpha * qvec_raw + beta * label_vec_mean
-                        # normalize combined vector
                         nrm = np.linalg.norm(combined)
                         if nrm > 0:
                             combined = combined / nrm
                         qvec = combined.astype(np.float32)
                     else:
-                        # fallback to plain query embedding
                         qvec = embed_query(query, embed_model, normalize=True)
                 except Exception as e:
                     print("Concept expansion failed:", e)
@@ -283,6 +354,32 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                 m = metadata[idx]
                 candidates.append({'idx': idx, 'faiss_score': float(score), 'meta': m})
 
+            # Runtime filter: replace title-like snippets with recovered longer text or drop them
+            filtered_candidates = []
+            for c in candidates:
+                m = c['meta']
+                title = m.get('title', '') or ''
+                best = _longest_text_from_meta(m)
+                if _is_title_like(best, title):
+                    # try to recover longer text from other chunks with the same doc id
+                    recovered = _find_longer_from_doc(metadata, m)
+                    if recovered and len(recovered) > len(best):
+                        c['display_snippet'] = recovered
+                        filtered_candidates.append(c)
+                    else:
+                        # skip this candidate entirely (title-only and no recovery)
+                        # (If you'd rather keep it but de-prioritize, change to filtered_candidates.append(c) with marker)
+                        continue
+                else:
+                    c['display_snippet'] = best
+                    filtered_candidates.append(c)
+
+            candidates = filtered_candidates
+
+            if not candidates:
+                print('No candidates remain after filtering title-like passages.')
+                continue
+
             # 3) Optional SapBERT scoring/ filtering (doc-level only)
             if sapbert_embeddings is not None and sapbert_mode == 'doc':
                 if sap_model is None:
@@ -293,7 +390,6 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                         n = np.linalg.norm(query_sap_vec)
                         if n != 0:
                             query_sap_vec = query_sap_vec / n
-                        # compute cosine only for candidate indices (safe indexing)
                         for c in candidates:
                             idx = c['idx']
                             if idx < sapbert_embeddings.shape[0]:
@@ -301,7 +397,6 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                             else:
                                 s = 0.0
                             c['sapbert_score'] = s
-                        # optional hard filter
                         if sapbert_threshold is not None:
                             candidates = [c for c in candidates if c.get('sapbert_score', 0.0) >= sapbert_threshold]
                             if not candidates:
@@ -311,14 +406,19 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                         print('SapBERT scoring failed:', e)
 
             # 4) Rerank top rerank_k with cross-encoder
-            rerank_candidates = candidates[:rerank_k]
-            texts = [c['meta'].get('text', '') for c in rerank_candidates]
-            if not texts:
-                print('No candidates to rerank')
+            rerank_candidates = candidates[:max(1, rerank_k)]
+            # use the recovered/longer snippet for reranking if available
+            texts = [c.get('display_snippet', '') for c in rerank_candidates]
+            # drop any empty texts (they won't rerank well)
+            non_empty = [(c, t) for c, t in zip(rerank_candidates, texts) if t and t.strip()]
+            if not non_empty:
+                print('No candidates with non-empty text to rerank')
                 continue
+            rerank_candidates, texts = zip(*non_empty)
+            rerank_candidates = list(rerank_candidates)
+            texts = list(texts)
 
             print('Running cross-encoder rerank (this may take a little time)...')
-            # use preloaded cross_encoder if available else fallback to helper
             try:
                 if cross_encoder is not None:
                     pairs = [[query, t] for t in texts]
@@ -329,11 +429,10 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                 print("Cross-encoder failed:", e)
                 ce_scores = [0.0] * len(texts)
 
-            # attach raw cross scores
+            # attach raw cross scores and other signals
             for c, ce in zip(rerank_candidates, ce_scores):
                 c['cross_score'] = float(ce)
                 c['trust_score'] = compute_trust_score(c['meta'])
-                # ensure sapbert_score exists (0.0 default if not set earlier)
                 if 'sapbert_score' not in c:
                     c['sapbert_score'] = 0.0
 
@@ -364,32 +463,86 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
             w_sap = 0.05  # only applies in doc-mode where we compute sapbert_score
             for c in rerank_candidates:
                 cross_s = c.get('cross_score_norm', 0.0)
-                trust_s = c.get('trust_score', 0.0)  # trust already in 0..1
+                trust_s = c.get('trust_score', 0.0)
                 faiss_s = c.get('faiss_score_norm', 0.0)
                 sap = c.get('sapbert_score', 0.0)
-                c['final_score'] = w_cross * cross_s + w_trust * trust_s + w_faiss * faiss_s + w_sap * sap
+                # c['final_score'] = w_cross * cross_s + w_trust * trust_s + w_faiss * faiss_s
+                c['final_score'] = w_cross * cross_s + w_faiss * faiss_s
 
             # sort by final_score
             rerank_candidates.sort(key=lambda x: x['final_score'], reverse=True)
 
             # Display results
-            print('\nTop results (after rerank):')
-            for rank, c in enumerate(rerank_candidates[:min(20, len(rerank_candidates))], 1):
-                m = c['meta']
-                print(f"\n{rank}. final={c['final_score']:.4f} cross={c['cross_score']:.4f} faiss={c['faiss_score']:.4f} trust={c['trust_score']:.3f} sapbert={c.get('sapbert_score',0.0):.3f}")
-                print(f"   passage_id: {m.get('passage_id')} | title: {m.get('title')} | url: {m.get('url')}")
-                print(f" published_date: {m.get('published_date','unknown')}")
-                print(f" Medically Reviewed By: {m.get('medically_reviewed_by','none')}")
-                snippet = m.get('text','')
-                snippet = ' '.join(snippet.split())
-                print('   snippet:', (snippet[:240] + '...') if len(snippet) > 240 else snippet)
-                print(f" Sources {m.get('sources')}")
+            console = Console()
+
+            console.print("\n[bold cyan]Top results (after rerank):[/bold cyan]\n")
+
+            for rank, c in enumerate(rerank_candidates[:20], 1):
+                m = c["meta"]
+
+                # Panel title
+                header = Text(f"{rank}. {m.get('title', '')}", style="bold magenta")
+
+                # Colored scores
+                scores = Text()
+                scores.append(f"final={c['final_score']:.4f}", style="bold green")
+                scores.append(" | ")
+                scores.append(f"cross={c['cross_score']:.4f}", style="bold yellow")
+                scores.append(" | ")
+                scores.append(f"faiss={c['faiss_score']:.4f}", style="bold blue")
+                scores.append(" | ")
+                scores.append(f"trust={c['trust_score']:.3f}", style="bold cyan")
+
+                # Snippet
+                snippet = c.get("display_snippet") or _longest_text_from_meta(m)
+                snippet = " ".join(snippet.split())
+                if len(snippet) > 350:
+                    snippet = snippet[:350] + "..."
+
+                # Sources list
+                sources = m.get("sources") or []
+                if isinstance(sources, str):
+                    sources = [sources]
+
+                sources_text = Text()
+                for s in sources:
+                    sources_text.append("• ", style="dim")
+                    sources_text.append(s.strip())
+                    sources_text.append("\n")
+
+                # Body as a Text object
+                body = Text()
+                body.append_text(scores)
+                body.append("\n\n")
+
+                body.append("URL: ", style="bold")
+                body.append(f"{m.get('url')}\n")
+
+                body.append("Published: ", style="bold")
+                body.append(f"{m.get('published_date', 'unknown')}\n")
+
+                body.append("Author: ", style="bold")
+                body.append(f"{m.get('author', 'none')}\n")
+
+                body.append("Reviewed by: ", style="bold")
+                body.append(f"{m.get('medically_reviewed_by', 'none')}\n\n")
+
+                body.append("Snippet:\n", style="bold")
+                body.append(snippet)
+                body.append("\n\n")
+
+                body.append("Sources:\n", style="bold")
+                body.append_text(sources_text)
+
+                # Render panel (this is the key: pass a Text object, not a string)
+                console.print(Panel(body, title=header, expand=False))
 
         except KeyboardInterrupt:
             print('\nExiting.')
             break
         except Exception as e:
             print('Search failed:', e)
+
 
 
 INDEX_DIR="../storage/outputs/webmd/faiss"
@@ -415,7 +568,7 @@ def parse_args():
                    help='Amount to include sapbert score in final score (doc-level mode only)')
     p.add_argument('--topk', type=int, default=100,
                    help='Number of passages to retrieve from FAISS')
-    p.add_argument('--rerank', type=int, default=20,
+    p.add_argument('--rerank', type=int, default=5,
                    help='Number of top FAISS results to rerank with cross-encoder')
     return p.parse_args()
 
