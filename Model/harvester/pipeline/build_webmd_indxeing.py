@@ -378,9 +378,12 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                 m = c['meta']
                 print(f"\n{rank}. final={c['final_score']:.4f} cross={c['cross_score']:.4f} faiss={c['faiss_score']:.4f} trust={c['trust_score']:.3f} sapbert={c.get('sapbert_score',0.0):.3f}")
                 print(f"   passage_id: {m.get('passage_id')} | title: {m.get('title')} | url: {m.get('url')}")
-                # snippet = m.get('text','')
-                # snippet = ' '.join(snippet.split())
-                # print('   snippet:', (snippet[:240] + '...') if len(snippet) > 240 else snippet)
+                print(f" published_date: {m.get('published_date','unknown')}")
+                print(f" Medically Reviewed By: {m.get('medically_reviewed_by','none')}")
+                snippet = m.get('text','')
+                snippet = ' '.join(snippet.split())
+                print('   snippet:', (snippet[:240] + '...') if len(snippet) > 240 else snippet)
+                print(f" Sources {m.get('sources')}")
 
         except KeyboardInterrupt:
             print('\nExiting.')
