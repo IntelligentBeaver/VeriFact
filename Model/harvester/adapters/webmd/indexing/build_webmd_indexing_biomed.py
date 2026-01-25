@@ -1,35 +1,41 @@
 """
-Interactive search + FAISS retrieval + Cross-Encoder rerank script.
+Medical Fact Retrieval with Embeddings + Cross-Encoder Reranking
 
-Inputs (directory with files produced by build_faiss_index.py):
- - index.faiss
- - embeddings.npy
- - metadata.json
- - (optional) sapbert_embeddings.npy
+This script uses the FAISS index and embeddings created by build_webmd_faiss_biomed.py
+to answer medical fact-checking queries.
 
-Flow:
- 1. Load FAISS index and metadata (metadata order must match embeddings order used to build the index).
- 2. Embed the user query using the same embedding model used to build the index.
- 3. Perform FAISS search to get top-K passages (returns FAISS inner-product scores if the index is IP).
- 4. Optionally compute SapBERT cosine similarities between query sapbert vector and sapbert_embeddings to filter/boost.
- 5. Re-rank top candidates using a Cross-Encoder and present FAISS score, Cross-Encoder score, trust score, optional sapbert score, and final combined score.
+Inputs (files created by build_webmd_faiss_biomed.py):
+ - index.faiss: FAISS search index
+ - embeddings.npy: Primary passage embeddings (biomedical model)
+ - sapbert_embeddings.npy: Medical entity embeddings for concept matching
+ - metadata.json: Passage metadata (title, URL, author, sources, etc.)
 
-Usage example:
-python search_and_rerank.py --index-dir ./index_output --embedding-model all-mpnet-base-v2 --cross-encoder-model cross-encoder/ms-marco-MiniLM-L-6-v2 --topk 100 --rerank 20
+Retrieval Flow:
+ 1. Load FAISS index, embeddings, metadata, and SapBERT embeddings
+ 2. Embed user query using the same embedding model that built the index
+ 3. Search FAISS index to retrieve top-K relevant passages
+ 4. Compute SapBERT similarity scores for medical concept matching
+ 5. Rerank top results using Cross-Encoder model
+ 6. Combine scores: FAISS (35%) + Cross-Encoder (65%) + SapBERT bonus
+ 7. Display ranked results with explanations and source information
+
+How to use:
+ 1. Edit the CONFIGURATION section below with your paths and models
+ 2. Run directly: python build_webmd_indexing_biomed.py
+ 3. Type your medical question at the Query> prompt
+ 4. Press Ctrl+C to exit
 
 Requirements:
-pip install sentence-transformers faiss-cpu numpy tqdm python-dateutil
+ pip install sentence-transformers faiss-cpu numpy tqdm python-dateutil rich
 
 """
 
-import argparse
 import json
 from pathlib import Path
 import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 from sentence_transformers.cross_encoder import CrossEncoder
-from tqdm import tqdm
 from dateutil import parser as date_parser
 from datetime import datetime
 import math
@@ -37,19 +43,35 @@ import math
 from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
-from rich.table import Table
 
-class C:
-    RESET = "\033[0m"
-    BOLD = "\033[1m"
+# ============================================================================
+# CONFIGURATION - Edit these values before running
+# ============================================================================
 
-    RED = "\033[31m"
-    GREEN = "\033[32m"
-    YELLOW = "\033[33m"
-    BLUE = "\033[34m"
-    CYAN = "\033[36m"
-    GRAY = "\033[90m"
+# Index directory - must contain files from build_webmd_faiss_biomed.py
+INDEX_DIR = "../../../storage/outputs/webmd/faiss"
 
+# Models - MUST MATCH the models used in build_webmd_faiss_biomed.py
+EMBEDDING_MODEL = "pritamdeka/S-PubMedBert-MS-MARCO"  # Primary biomedical model
+CROSS_ENCODER_MODEL = "cross-encoder/ms-marco-MiniLM-L-12-v2"  # For reranking
+SAPBERT_MODEL = "cambridgeltl/SapBERT-from-PubMedBERT-fulltext"  # For medical entities
+
+# Retrieval parameters
+TOPK_FAISS = 100           # Number of passages to retrieve from FAISS
+RERANK_K = 20              # Number of top results to rerank with cross-encoder
+SAPBERT_CONCEPTS_TOPK = 5  # Top concepts for expansion if SapBERT is concept-mode
+
+# Scoring weights - how to combine different signals
+W_CROSS_ENCODER = 0.70  # Cross-encoder importance (65%)
+W_FAISS = 0.25          # FAISS similarity importance (35%)
+W_SAPBERT = 0.05        # SapBERT boost for entity matching (optional)
+
+# Display parameters
+DISPLAY_TOP_RESULTS = 20      # Show top N results to user
+SNIPPET_MAX_CHARS = 350       # Max characters in preview snippet
+SAPBERT_THRESHOLD = None      # Optional: only show results with SapBERT score >= threshold
+
+# ============================================================================
 
 def load_metadata(metadata_path: Path):
     with metadata_path.open('r', encoding='utf-8') as f:
@@ -133,61 +155,85 @@ def rerank_with_cross_encoder(query, candidates_texts, cross_encoder_model_name)
     return scores
 
 
-def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_model_name: str,
-                     sapbert_path: Path = None, sapbert_model_name: str = 'cambridgeltl/SapBERT-from-PubMedBERT-fulltext',
-                     sapbert_threshold: float = None, sapbert_boost: float = 0.1,
-                     sapbert_concepts_topk: int = 5,
-                     topk: int = 100, rerank_k: int = 20):
+def interactive_loop():
+    """Main interactive search loop using configuration variables."""
 
+    # Setup paths
+    index_dir = Path(INDEX_DIR)
     index_path = index_dir / 'index.faiss'
     metadata_path = index_dir / 'metadata.json'
+    sapbert_path = index_dir / 'sapbert_embeddings.npy'
+    
+    # Validate required files exist
+    print("=" * 60)
+    print("Medical Fact Retrieval System")
+    print("=" * 60)
+    print(f"\nConfiguration:")
+    print(f"  Index directory: {index_dir}")
+    print(f"  Embedding model: {EMBEDDING_MODEL}")
+    print(f"  Cross-encoder: {CROSS_ENCODER_MODEL}")
+    print(f"  SapBERT model: {SAPBERT_MODEL}")
+    print(f"  Scoring: {W_CROSS_ENCODER:.0%} cross-encoder + {W_FAISS:.0%} FAISS")
+    print()
+    
+    if not index_path.exists():
+        print(f"Error: index.faiss not found at {index_path}")
+        print(f"Did you run build_webmd_faiss_biomed.py first?")
+        return
+    if not metadata_path.exists():
+        print(f"Error: metadata.json not found at {metadata_path}")
+        return
 
-    if not index_path.exists() or not metadata_path.exists():
-        raise FileNotFoundError('index.faiss and metadata.json must exist in index-dir')
-
-    print('Loading metadata...')
+    # Load core files
+    print('Step 1: Loading metadata and index...')
     metadata = load_metadata(metadata_path)
-    print(f'Loaded {len(metadata)} metadata entries')
+    print(f'  ✓ Loaded {len(metadata)} passages')
 
-    print('Loading FAISS index...')
     index = load_faiss_index(index_path)
+    print(f'  ✓ Loaded FAISS index')
 
-    print(f'Loading embedding model {embedding_model_name}...')
-    embed_model = SentenceTransformer(embedding_model_name)
+    # Load models
+    print('\nStep 2: Loading embedding models...')
+    print(f'  Loading: {EMBEDDING_MODEL}')
+    embed_model = SentenceTransformer(EMBEDDING_MODEL)
+    print(f'  ✓ Embedding model loaded')
 
-    # pre-load cross-encoder once (re-using repeatedly is faster)
-    print(f'Loading cross-encoder {cross_encoder_model_name} (for rerank)...')
+    print(f'  Loading: {CROSS_ENCODER_MODEL}')
     try:
-        cross_encoder = CrossEncoder(cross_encoder_model_name)
+        cross_encoder = CrossEncoder(CROSS_ENCODER_MODEL)
+        print(f'  ✓ Cross-encoder loaded')
     except Exception as e:
-        print("Warning: failed to load cross-encoder at startup:", e)
+        print(f"  ✗ Warning: Failed to load cross-encoder: {e}")
         cross_encoder = None
 
-    # --- SapBERT assets (concepts or doc-level)
+    # Load SapBERT assets
+    print('\nStep 3: Loading SapBERT embeddings...')
     sapbert_embeddings = None
-    sapbert_mode = None   # 'doc' or 'concept' or None
+    sapbert_mode = None
     sap_model = None
-    concept_meta = None   # list/dict with per-concept labels (aligned to sapbert_embeddings for concept-mode)
+    concept_meta = None
 
-    if sapbert_path and sapbert_path.exists():
-        print('Loading optional SapBERT embeddings...')
+    if sapbert_path.exists():
+        print(f'  Loading: {sapbert_path.name}')
         sapbert_embeddings = np.load(str(sapbert_path))
-        # quick debug sizes
-        print("SapBERT embeddings shape:", sapbert_embeddings.shape)
+        print(f'  ✓ SapBERT embeddings shape: {sapbert_embeddings.shape}')
+        
         if sapbert_embeddings.shape[0] == len(metadata):
             sapbert_mode = 'doc'
-            print("SapBERT looks like document-level embeddings (will compute query->doc SapBERT similarity).")
+            print(f'  ✓ Detected document-level SapBERT embeddings')
             # Load SapBERT encoder to encode queries in the same space:
             try:
-                sap_model = SentenceTransformer(sapbert_model_name)
+                print(f'  Loading: {SAPBERT_MODEL}')
+                sap_model = SentenceTransformer(SAPBERT_MODEL)
+                print(f'  ✓ SapBERT encoder loaded')
             except Exception as e:
-                print("Failed to load sapbert encoder, doc-level SapBERT scoring will be disabled:", e)
+                print(f"  ✗ Failed to load SapBERT encoder: {e}")
                 sap_model = None
         else:
             sapbert_mode = 'concept'
-            print("SapBERT is concept embeddings.")
+            print(f'  ✓ Detected concept-level SapBERT embeddings (n={sapbert_embeddings.shape[0]} concepts)')
             # attempt to find concept metadata (labels) in same dir as sapbert_path
-            cand_meta_names = ['metadata.json', 'combined_metadata.json', 'concepts.json', 'mesh_concepts.json']
+            cand_meta_names = ['mesh_concepts.json', 'concepts.json', 'combined_metadata.json']
             found = None
             for nm in cand_meta_names:
                 p = sapbert_path.parent / nm
@@ -202,20 +248,24 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                             concept_meta = list(concept_meta_raw.values())
                         else:
                             concept_meta = concept_meta_raw
-                    print(f"Loaded concept metadata from {found} (n={len(concept_meta)})")
+                    print(f"  ✓ Loaded concept metadata ({len(concept_meta)} concepts)")
                 except Exception as e:
-                    print("Failed to load concept metadata:", e)
+                    print(f"  ✗ Failed to load concept metadata: {e}")
                     concept_meta = None
             else:
-                print("Concept metadata file not found next to sapbert embeddings; concept labels will be unavailable for expansion.")
+                print(f"  ⚠ No concept metadata found; labels unavailable for expansion")
                 concept_meta = None
 
             # load sapbert encoder for queries (required for mapping query -> concept space)
             try:
-                sap_model = SentenceTransformer(sapbert_model_name)
+                print(f'  Loading: {SAPBERT_MODEL}')
+                sap_model = SentenceTransformer(SAPBERT_MODEL)
+                print(f'  ✓ SapBERT encoder loaded')
             except Exception as e:
-                print("Failed to load sapbert encoder (needed for concept expansion):", e)
+                print(f"  ✗ Failed to load SapBERT encoder: {e}")
                 sap_model = None
+    else:
+        print('  ⚠ SapBERT embeddings not found (optional feature disabled)')
 
     # --- Helper functions for filtering title-like snippets / recovering longer text
     def _longest_text_from_meta(meta):
@@ -279,7 +329,9 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                     return max(cand_texts, key=len)
         return ""
 
-    print('Interactive search ready — type your query (or Ctrl+C to exit)')
+    print("\n" + "=" * 60)
+    print("✓ System ready! Type your medical question (or press Ctrl+C to exit)")
+    print("=" * 60)
 
     while True:
         try:
@@ -299,7 +351,7 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                     if nq != 0:
                         q_sap = q_sap / nq
                     sims = sapbert_embeddings.dot(q_sap)  # shape (n_concepts,)
-                    top_idxs = np.argsort(-sims)[:sapbert_concepts_topk * 2]
+                    top_idxs = np.argsort(-sims)[:SAPBERT_CONCEPTS_TOPK * 2]
                     top_labels = []
                     for i in top_idxs:
                         label = None
@@ -318,7 +370,7 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                         if tt and tt not in seen:
                             seen.add(tt)
                             unique_top_labels.append(t)
-                    unique_top_labels = unique_top_labels[:sapbert_concepts_topk]
+                    unique_top_labels = unique_top_labels[:SAPBERT_CONCEPTS_TOPK]
 
                     if unique_top_labels:
                         print(f"[SapBERT concepts] top unique concepts: {unique_top_labels}")
@@ -346,7 +398,7 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                 qvec = embed_query(query, embed_model, normalize=True)
 
             # 2) FAISS search
-            faiss_scores, faiss_idxs = faiss_search(index, qvec, topk=topk)
+            faiss_scores, faiss_idxs = faiss_search(index, qvec, topk=TOPK_FAISS)
 
             # Collect candidate metadata and texts
             candidates = []
@@ -399,16 +451,25 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                             else:
                                 s = 0.0
                             c['sapbert_score'] = s
-                        if sapbert_threshold is not None:
-                            candidates = [c for c in candidates if c.get('sapbert_score', 0.0) >= sapbert_threshold]
+                        
+                        # Show top SapBERT-matched concepts/passages
+                        top_sapbert = sorted(candidates, key=lambda x: x.get('sapbert_score', 0.0), reverse=True)[:5]
+                        print(f"[SapBERT doc-mode] Top medical concept matches:")
+                        for i, c in enumerate(top_sapbert, 1):
+                            title = c['meta'].get('title', 'Untitled')[:60]
+                            score = c['sapbert_score']
+                            print(f"  {i}. {title}... (score: {score:.4f})")
+                        
+                        if SAPBERT_THRESHOLD is not None:
+                            candidates = [c for c in candidates if c.get('sapbert_score', 0.0) >= SAPBERT_THRESHOLD]
                             if not candidates:
-                                print('No candidates remain after SapBERT filtering')
+                                print(f'No candidates above SapBERT threshold ({SAPBERT_THRESHOLD:.3f})')
                                 continue
                     except Exception as e:
                         print('SapBERT scoring failed:', e)
 
-            # 4) Rerank top rerank_k with cross-encoder
-            rerank_candidates = candidates[:max(1, rerank_k)]
+            # 4) Rerank top RERANK_K with cross-encoder
+            rerank_candidates = candidates[:max(1, RERANK_K)]
             # use the recovered/longer snippet for reranking if available
             texts = [c.get('display_snippet', '') for c in rerank_candidates]
             # drop any empty texts (they won't rerank well)
@@ -426,7 +487,7 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                     pairs = [[query, t] for t in texts]
                     ce_scores = cross_encoder.predict(pairs)
                 else:
-                    ce_scores = rerank_with_cross_encoder(query, texts, cross_encoder_model_name)
+                    ce_scores = rerank_with_cross_encoder(query, texts, CROSS_ENCODER_MODEL)
             except Exception as e:
                 print("Cross-encoder failed:", e)
                 ce_scores = [0.0] * len(texts)
@@ -458,18 +519,18 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                 c['cross_score_norm'] = float(ce_norm)
                 c['faiss_score_norm'] = float(faiss_norm_v)
 
-            # compute final combined score (normalized mixture)
-            w_cross = 0.65
-            # w_trust = 0.25
-            w_faiss = 0.35
-            # w_sap = 0.05  # only applies in doc-mode where we compute sapbert_score
+            # compute final combined score using configured weights
             for c in rerank_candidates:
                 cross_s = c.get('cross_score_norm', 0.0)
-                trust_s = c.get('trust_score', 0.0)
                 faiss_s = c.get('faiss_score_norm', 0.0)
                 sap = c.get('sapbert_score', 0.0)
-                # c['final_score'] = w_cross * cross_s + w_trust * trust_s + w_faiss * faiss_s
-                c['final_score'] = w_cross * cross_s + w_faiss * faiss_s
+                
+                # Combine: cross-encoder (65%) + FAISS (35%) + optional SapBERT boost
+                c['final_score'] = W_CROSS_ENCODER * cross_s + W_FAISS * faiss_s
+                
+                # Optional: boost score based on SapBERT if available
+                if sapbert_mode == 'doc' and sap > 0:
+                    c['final_score'] += W_SAPBERT * sap
 
             # --- DEBUG PRINT: show raw, normalized, and final scores ---
             print("\nCandidate rerank debug:")
@@ -486,7 +547,7 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
 
             console.print("\n[bold cyan]Top results (after rerank):[/bold cyan]\n")
 
-            for rank, c in enumerate(rerank_candidates[:20], 1):
+            for rank, c in enumerate(rerank_candidates[:DISPLAY_TOP_RESULTS], 1):
                 m = c["meta"]
 
                 # Panel title
@@ -500,13 +561,15 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                 scores.append(" | ")
                 scores.append(f"faiss={c['faiss_score']:.4f}", style="bold blue")
                 scores.append(" | ")
+                scores.append(f"sapbert={c['sapbert_score']:.4f}", style="bold blue")
+                scores.append(" | ")
                 scores.append(f"trust={c['trust_score']:.3f}", style="bold cyan")
 
                 # Snippet
                 snippet = c.get("display_snippet") or _longest_text_from_meta(m)
                 snippet = " ".join(snippet.split())
-                if len(snippet) > 350:
-                    snippet = snippet[:350] + "..."
+                if len(snippet) > SNIPPET_MAX_CHARS:
+                    snippet = snippet[:SNIPPET_MAX_CHARS] + "..."
 
                 # Sources list
                 sources = m.get("sources") or []
@@ -553,46 +616,12 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
             print('Search failed:', e)
 
 
-
-INDEX_DIR="../storage/outputs/webmd/faiss"
-SAPBERT_EMBEDDING="../storage/seeds/embeddings/sapbert_embeddings.npy"
-
-def parse_args():
-    p = argparse.ArgumentParser()
-    p.add_argument('--index-dir', type=str, default=INDEX_DIR,
-                   help='Directory containing index.faiss, metadata.json, embeddings.npy')
-    p.add_argument('--embedding-model', type=str, default='all-mpnet-base-v2',
-                   help='SentenceTransformer model name for query embedding (used for FAISS index)')
-    p.add_argument('--cross-encoder-model', type=str, default='neuml/bioclinical-modernbert-base-embeddings',
-                   help='Cross-Encoder model name for reranking')
-    p.add_argument('--sapbert-embeddings', type=str, default=SAPBERT_EMBEDDING,
-                   help='Optional path to sapbert_embeddings.npy (concept embeddings or doc-level embeddings)')
-    p.add_argument('--sapbert-model', type=str, default='cambridgeltl/SapBERT-from-PubMedBERT-fulltext',
-                   help='SapBERT model name used to encode queries into the concept embedding space')
-    p.add_argument('--sapbert-concepts-topk', type=int, default=5,
-                   help='Number of top concepts to use for query expansion when sapbert_embeddings are concept vectors')
-    p.add_argument('--sapbert-threshold', type=float, default=None,
-                   help='Optional hard threshold for sapbert cosine filter (doc-level mode only)')
-    p.add_argument('--sapbert-boost', type=float, default=0.2,
-                   help='Amount to include sapbert score in final score (doc-level mode only)')
-    p.add_argument('--topk', type=int, default=100,
-                   help='Number of passages to retrieve from FAISS')
-    p.add_argument('--rerank', type=int, default=5,
-                   help='Number of top FAISS results to rerank with cross-encoder')
-    return p.parse_args()
-
-
 if __name__ == '__main__':
-    args = parse_args()
-    interactive_loop(
-        index_dir=Path(args.index_dir),
-        embedding_model_name=args.embedding_model,
-        cross_encoder_model_name=args.cross_encoder_model,
-        sapbert_path=Path(args.sapbert_embeddings) if args.sapbert_embeddings else None,
-        sapbert_threshold=args.sapbert_threshold,
-        sapbert_boost=args.sapbert_boost,
-        topk=args.topk,
-        rerank_k=args.rerank,
-        sapbert_model_name=args.sapbert_model,
-        sapbert_concepts_topk=args.sapbert_concepts_topk,
-    )
+    try:
+        interactive_loop()
+    except KeyboardInterrupt:
+        print('\n\nExiting. Goodbye!')
+    except Exception as e:
+        print(f'\n\nFatal error: {e}')
+        import traceback
+        traceback.print_exc()

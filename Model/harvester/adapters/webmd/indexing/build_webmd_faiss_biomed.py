@@ -1,5 +1,5 @@
 """
-Build FAISS Index for Medical Fact Retrieval
+Build FAISS Index for Medical Fact Retrieval (One Time Setup)
 
 This script processes WebMD health articles from JSON files and creates:
 1. Passage embeddings using biomedical language models
