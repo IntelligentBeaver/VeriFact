@@ -459,16 +459,16 @@ def interactive_loop(index_dir: Path, embedding_model_name: str, cross_encoder_m
                 c['faiss_score_norm'] = float(faiss_norm_v)
 
             # compute final combined score (normalized mixture)
-            w_cross = 0.60
-            w_trust = 0.25
-            w_faiss = 0.15
+            w_cross = 0.65
+            # w_trust = 0.25
+            w_faiss = 0.35
             # w_sap = 0.05  # only applies in doc-mode where we compute sapbert_score
             for c in rerank_candidates:
                 cross_s = c.get('cross_score_norm', 0.0)
                 trust_s = c.get('trust_score', 0.0)
                 faiss_s = c.get('faiss_score_norm', 0.0)
                 sap = c.get('sapbert_score', 0.0)
-                c['final_score'] = w_cross * cross_s + w_trust * trust_s + w_faiss * faiss_s
+                # c['final_score'] = w_cross * cross_s + w_trust * trust_s + w_faiss * faiss_s
                 c['final_score'] = w_cross * cross_s + w_faiss * faiss_s
 
             # --- DEBUG PRINT: show raw, normalized, and final scores ---
@@ -563,7 +563,7 @@ def parse_args():
                    help='Directory containing index.faiss, metadata.json, embeddings.npy')
     p.add_argument('--embedding-model', type=str, default='all-mpnet-base-v2',
                    help='SentenceTransformer model name for query embedding (used for FAISS index)')
-    p.add_argument('--cross-encoder-model', type=str, default='cross-encoder/ms-marco-MiniLM-L-6-v2',
+    p.add_argument('--cross-encoder-model', type=str, default='neuml/bioclinical-modernbert-base-embeddings',
                    help='Cross-Encoder model name for reranking')
     p.add_argument('--sapbert-embeddings', type=str, default=SAPBERT_EMBEDDING,
                    help='Optional path to sapbert_embeddings.npy (concept embeddings or doc-level embeddings)')

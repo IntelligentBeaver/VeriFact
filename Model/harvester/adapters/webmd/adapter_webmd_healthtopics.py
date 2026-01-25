@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+adapter_webmd_healthtopics.py
+
 Read an input JSON of topic URLs (the index scraper output), fetch each
 WebMD topic page, extract structured details, and write one JSON file per topic.
 
