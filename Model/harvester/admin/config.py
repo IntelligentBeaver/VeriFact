@@ -23,6 +23,11 @@ DEFAULT_TOPK_FAISS = 100
 DEFAULT_RERANK_K = 20
 DEFAULT_DISPLAY_RESULTS = 10  # Show top 10 by default
 
+# Auto-labeling thresholds (0.0-1.0 scale)
+AUTO_RELEVANT_THRESHOLD = 0.75  # Auto-label as relevant if score >= this
+AUTO_UNRELATED_THRESHOLD = 0.35  # Auto-label as unrelated if score <= this
+# Scores between thresholds require human review
+
 # Labeling output files
 RELEVANT_PASSAGES_FILE = OUTPUT_DIR / "labeled_relevant_passages.json"
 UNRELATED_PASSAGES_FILE = OUTPUT_DIR / "labeled_unrelated_passages.json"

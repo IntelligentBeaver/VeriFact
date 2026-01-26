@@ -1,0 +1,22 @@
+[
+  {
+    "passage_id": "6a905d55aa61f8d9a0f270f4c7708de9180df62c_s0_b0",
+    "query": "Does dark chocolate help reduce blood pressure?",
+    "label": "question",
+    "text": "\"Take two squares of dark chocolate and call me in the morning.\" I'd be all over those doctor's orders! Can eating chocolate really be good for your health?",
+    "section_heading": null,
+    "title": "Health by Chocolate",
+    "url": "https://www.webmd.com/diet/features/health-by-chocolate",
+    "author": "Elaine Magee, RD, MPH",
+    "medically_reviewed_by": "Louise  Chang, MD",
+    "sources": [
+      "SOURCES: Ding E.L., Nutrition and Metabolism , Jan.\n       3, 2006. Grassi, D. American Journal of Clinical Nutrition , March\n       2005; vol 81, No. 3: pp 611-614. Schroeter, H. Proceedings of the National\n       Academy of Sciences , Jan. 24, 2006; vol 103; No. 4: pp 1024-1029.\n       Steinberg, F.M., Journal of the American Dietetic Association . 2003;\n       vol 103: pp 215-223. Small, D.M., Neuron , Aug. 18, 2005; vol 47: pp\n       593-605. Steve Atkin, PhD, FRCP, professor, researcher, Hull and East Yorkshire\n       Hospitals NHS Trust, England. Diane Becker, MPH, ScD, professor, department of\n       medicine; director, Center for Health Promotion, Johns Hopkins University,\n       Boston. Hagen Schroeter, PhD, researcher, department of nutrition, University\n       of California at Davis. ESHA Research, Food Processor nutrition analysis\n       software."
+    ],
+    "published_date": "2007-03-29",
+    "scores": {
+      "faiss_similarity": 0.9289462566375732,
+      "cross_encoder_relevance": -1.6422594785690308
+    },
+    "labeled_at": "2026-01-26T10:35:01.230774"
+  }
+]

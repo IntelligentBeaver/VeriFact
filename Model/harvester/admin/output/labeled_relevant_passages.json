@@ -417,5 +417,348 @@
       "cross_encoder_relevance": 8.465415000915527
     },
     "labeled_at": "2026-01-26T10:23:34.317336"
+  },
+  {
+    "passage_id": "fe7f2c84ad5661b09eb529d8114324d97a9d84a3_s14_b0",
+    "query": "Does dark chocolate help reduce blood pressure?",
+    "label": "relevant",
+    "text": "Make dark chocolate a go-to snack option. Choose one with at least 60% cocoa and limit yourself to 1 ounce a day. That’s enough to improve blood flow and lower blood pressure .",
+    "section_heading": "Join the Dark Side",
+    "title": "Easy Ways to Lower Your Blood Pressure",
+    "url": "https://www.webmd.com/men/features/cm/lower-blood-pressure",
+    "author": "Matthew Kadey",
+    "medically_reviewed_by": "Michael  Dansinger, MD",
+    "sources": [
+      "Lara, J. European Journal of Nutrition , March 2015.",
+      "Jajja, A. Nutrition Research, October 2013.",
+      "Christine Rosenbloom, PhD, RDN, Georgia State University.",
+      "Wylie, L.J. Journal of Applied Physiology , Aug. 11, 2013.",
+      "Wang, H. Hypertension , September 2012.",
+      "Khalesi, S. Hypertension. October 2014.",
+      "Xu, JY. Nutrition, October 2008.",
+      "Lehtinen, R. Arzneimittelforschung, 2010.",
+      "Fluegel, S.M. International Journal of Dairy , November 2010.",
+      "Johnson, S. Journal of the Academy of Nutrition and Dietetics, published online Jan. 7, 2015.",
+      "McAnulty, L.S. Nutrition Research , published online July 8, 2014.",
+      "Rodriguez-Mateos, A. British Journal of Nutrition , May 28, 2013.",
+      "NIH: “Use Herbs and Spices Instead of Salt.”",
+      "Akilen, R. Nutrition, July 2013.",
+      "Akilen, R. Diabetes Medicine , October 2010.",
+      "Majane, O. Journal of Hypertension , 2007.",
+      "Siani, A. American Journal of Hypertension , September 2002.",
+      "Mekary, RA. Obesity , February 2015.",
+      "Alissa Rumsey, RD, certified strength and conditioning coach, New York, N.Y.",
+      "Medina-Remon, A. Nutrition, Metabolism and Cardiovascular Diseases , October 2013.",
+      "Chu, P. European Journal of Preventive Cardiology , December 2014.",
+      "Ellinger, S. American Journal of Clinical Nutrition . June 2012.",
+      "Persson, I.A. Journal of Cardiovascular Pharmacology , January 2011.",
+      "Reid, K. The Cochrane Database of Systematic Reviews , August 2012.",
+      "American Heart Association, “Fish and Omega-3 Fatty Acids.”",
+      "Miller, P.E. American Journal of Hypertension , published online March 6, 2014.",
+      "Willis, L.H. Journal of Applied Physiology, Sept. 27, 2012."
+    ],
+    "published_date": "2015-06-06",
+    "scores": {
+      "faiss_similarity": 0.9410421848297119,
+      "cross_encoder_relevance": 8.425803184509277
+    },
+    "labeled_at": "2026-01-26T10:34:09.898400"
+  },
+  {
+    "passage_id": "6a905d55aa61f8d9a0f270f4c7708de9180df62c_s6_b1",
+    "query": "Does dark chocolate help reduce blood pressure?",
+    "label": "relevant",
+    "text": "A few squares of dark chocolate a day can reduce the risk of death from heart attack by almost 50% in some cases, says Diane Becker, MPH, ScD, a researcher with the John Hopkins University School of Medicine. Becker's research found that blood platelets clotted more slowly in people who had eaten chocolate than in those who had not. This is significant because when platelets clump, a clot can form, and when the clot blocks a blood vessel, it can lead to a heart attack.",
+    "section_heading": "The Possible Health Benefits of Chocolate",
+    "title": "Health by Chocolate",
+    "url": "https://www.webmd.com/diet/features/health-by-chocolate",
+    "author": "Elaine Magee, RD, MPH",
+    "medically_reviewed_by": "Louise  Chang, MD",
+    "sources": [
+      "SOURCES: Ding E.L., Nutrition and Metabolism , Jan.\n       3, 2006. Grassi, D. American Journal of Clinical Nutrition , March\n       2005; vol 81, No. 3: pp 611-614. Schroeter, H. Proceedings of the National\n       Academy of Sciences , Jan. 24, 2006; vol 103; No. 4: pp 1024-1029.\n       Steinberg, F.M., Journal of the American Dietetic Association . 2003;\n       vol 103: pp 215-223. Small, D.M., Neuron , Aug. 18, 2005; vol 47: pp\n       593-605. Steve Atkin, PhD, FRCP, professor, researcher, Hull and East Yorkshire\n       Hospitals NHS Trust, England. Diane Becker, MPH, ScD, professor, department of\n       medicine; director, Center for Health Promotion, Johns Hopkins University,\n       Boston. Hagen Schroeter, PhD, researcher, department of nutrition, University\n       of California at Davis. ESHA Research, Food Processor nutrition analysis\n       software."
+    ],
+    "published_date": "2007-03-29",
+    "scores": {
+      "faiss_similarity": 0.9382262229919434,
+      "cross_encoder_relevance": 4.157447814941406
+    },
+    "labeled_at": "2026-01-26T10:34:09.900988"
+  },
+  {
+    "passage_id": "6a905d55aa61f8d9a0f270f4c7708de9180df62c_s7_b0",
+    "query": "Does dark chocolate help reduce blood pressure?",
+    "label": "relevant",
+    "text": "Researchers in Italy recently fed 15 healthy people either 3 ounces of dark chocolate or the same amount of white chocolate -- which contains no flavanol phytochemicals -- for 15 days. They found that insulin resistance (a risk factor for diabetes) was significantly lowered in those who ate the dark chocolate. Systolic blood pressure (the first number in a blood pressure reading), measured daily, was also lower in the group eating dark chocolate.",
+    "section_heading": null,
+    "title": "Health by Chocolate",
+    "url": "https://www.webmd.com/diet/features/health-by-chocolate",
+    "author": "Elaine Magee, RD, MPH",
+    "medically_reviewed_by": "Louise  Chang, MD",
+    "sources": [
+      "SOURCES: Ding E.L., Nutrition and Metabolism , Jan.\n       3, 2006. Grassi, D. American Journal of Clinical Nutrition , March\n       2005; vol 81, No. 3: pp 611-614. Schroeter, H. Proceedings of the National\n       Academy of Sciences , Jan. 24, 2006; vol 103; No. 4: pp 1024-1029.\n       Steinberg, F.M., Journal of the American Dietetic Association . 2003;\n       vol 103: pp 215-223. Small, D.M., Neuron , Aug. 18, 2005; vol 47: pp\n       593-605. Steve Atkin, PhD, FRCP, professor, researcher, Hull and East Yorkshire\n       Hospitals NHS Trust, England. Diane Becker, MPH, ScD, professor, department of\n       medicine; director, Center for Health Promotion, Johns Hopkins University,\n       Boston. Hagen Schroeter, PhD, researcher, department of nutrition, University\n       of California at Davis. ESHA Research, Food Processor nutrition analysis\n       software."
+    ],
+    "published_date": "2007-03-29",
+    "scores": {
+      "faiss_similarity": 0.9334712028503418,
+      "cross_encoder_relevance": 6.802142143249512
+    },
+    "labeled_at": "2026-01-26T10:34:36.330557"
+  },
+  {
+    "passage_id": "6a905d55aa61f8d9a0f270f4c7708de9180df62c_s6_b0",
+    "query": "Does dark chocolate help reduce blood pressure?",
+    "label": "relevant",
+    "text": "More research needs to be done, but recent studies suggest four possible health benefits of dark chocolate and cocoa.",
+    "section_heading": "The Possible Health Benefits of Chocolate",
+    "title": "Health by Chocolate",
+    "url": "https://www.webmd.com/diet/features/health-by-chocolate",
+    "author": "Elaine Magee, RD, MPH",
+    "medically_reviewed_by": "Louise  Chang, MD",
+    "sources": [
+      "SOURCES: Ding E.L., Nutrition and Metabolism , Jan.\n       3, 2006. Grassi, D. American Journal of Clinical Nutrition , March\n       2005; vol 81, No. 3: pp 611-614. Schroeter, H. Proceedings of the National\n       Academy of Sciences , Jan. 24, 2006; vol 103; No. 4: pp 1024-1029.\n       Steinberg, F.M., Journal of the American Dietetic Association . 2003;\n       vol 103: pp 215-223. Small, D.M., Neuron , Aug. 18, 2005; vol 47: pp\n       593-605. Steve Atkin, PhD, FRCP, professor, researcher, Hull and East Yorkshire\n       Hospitals NHS Trust, England. Diane Becker, MPH, ScD, professor, department of\n       medicine; director, Center for Health Promotion, Johns Hopkins University,\n       Boston. Hagen Schroeter, PhD, researcher, department of nutrition, University\n       of California at Davis. ESHA Research, Food Processor nutrition analysis\n       software."
+    ],
+    "published_date": "2007-03-29",
+    "scores": {
+      "faiss_similarity": 0.93253493309021,
+      "cross_encoder_relevance": 1.0837559700012207
+    },
+    "labeled_at": "2026-01-26T10:34:36.476659"
+  },
+  {
+    "passage_id": "3f6ee1773398ac881337f39a79b93670e9de7531_s2_b4",
+    "query": "Does smoking decrease the risk of Parkinson's Disease?",
+    "label": "relevant",
+    "text": "Smoking. Some studies suggest that smoking raises your risk for ALS. This seems to be especially true for women, and the risk goes up after menopause .",
+    "section_heading": "ALS Risk Factors",
+    "title": "Symptoms of ALS or Lou Gehrig's Disease",
+    "url": "https://www.webmd.com/brain/understanding-als-symptoms",
+    "author": "Kristen Fischer, Shawna Seed",
+    "medically_reviewed_by": "Zilpah  Sheikh, MD",
+    "sources": [
+      "Cleveland Clinic: “Amyotrophic Lateral Sclerosis (ALS).”",
+      "ALS.org: “Remembering Lou Gehrig,” “Stages of ALS,” “Obtaining an ALS diagnosis.”",
+      "ALS Society of Canada: “ALS Guide,” “Bulbar ALS.”",
+      "National Institute of Neurological Disorders and Stroke: “Amyotrophic Lateral Sclerosis (ALS) Fact Sheet,” “What is Amyotrophic Lateral Sclerosis?”",
+      "ALS Association: “Symptoms and Diagnosis,” “Assistive Technology.”",
+      "Mayo Clinic: “Amyotrophic Lateral Sclerosis.”",
+      "Gender Medicine : “Effects of Gender in Amyotrophic Lateral Sclerosis.”",
+      "Revue Neurologique : “The Effects of Diet and Sex in Amyotrophic Lateral Sclerosis.”",
+      "Oregon Health & Science University: “ALS (Amyotrophic Lateral Sclerosis).”"
+    ],
+    "published_date": "2024-04-15",
+    "scores": {
+      "faiss_similarity": 0.9278260469436646,
+      "cross_encoder_relevance": 2.2200489044189453
+    },
+    "labeled_at": "2026-01-26T10:37:28.752592"
+  },
+  {
+    "passage_id": "ff5c953d8b38384871ba63cecede98bebaf32455_s12_b0",
+    "query": "Does smoking decrease the risk of Parkinson's Disease?",
+    "label": "relevant",
+    "text": "Smoking Smoking is believed to be the only probable factor that may raise your chances for ALS. But this may be true mainly for women, especially those after menopause . This link is controversial among doctors.",
+    "section_heading": ":",
+    "title": "Who Gets ALS?",
+    "url": "https://www.webmd.com/brain/who-gets-als",
+    "author": "WebMD Editorial Contributors",
+    "medically_reviewed_by": "Da",
+    "sources": [
+      "Clinical Epidemiology: “Risk factors for amyotrophic lateral sclerosis.”",
+      "National Institute of Neurological Disorders and Stroke: “Amyotrophic Lateral Sclerosis (ALS) Fact Sheet.”",
+      "Cleveland Clinic: “ALS.”",
+      "ALS Association: “Who Gets ALS.”",
+      "Mayo Clinic: “ Amyotrophic lateral sclerosis.”",
+      "Johns Hopkins Medicine: “Amyotrophic Lateral Sclerosis (ALS)”",
+      "The Muscular Dystrophy Association: “ALS: Amyotrophic Lateral Sclerosis.”"
+    ],
+    "published_date": "2025-05-14",
+    "scores": {
+      "faiss_similarity": 0.9250449538230896,
+      "cross_encoder_relevance": 0.356849730014801
+    },
+    "labeled_at": "2026-01-26T10:37:56.324586"
+  },
+  {
+    "passage_id": "adb54d872f7cb383cae43dca97bb3b7d05dfcd00_s9_b1",
+    "query": "Does dietary soy impact testosterone levels?",
+    "label": "relevant",
+    "text": "Also, \"some people have concerns that too much soy can have negative hormonal effects, particularly on men,” Beckerman says. There is some controversy about this. Talk with your doctor or a nutritionist about how much soy you should include in your diet.",
+    "section_heading": null,
+    "title": "Soy Protein and Cholesterol",
+    "url": "https://www.webmd.com/cholesterol-management/features/soy-and-cholesterol",
+    "author": "Kara Mayer Robinson",
+    "medically_reviewed_by": "Arefa  Cassoobhoy, MD, MPH",
+    "sources": [
+      "James Beckerman, MD, cardiologist, Portland, OR.",
+      "Michelle Dudash, RDN, author, Clean Eating for Busy Families, Fair Winds Press, 2012.",
+      "American Heart Association: “Soy protein shows little effect on “bad” cholesterol.”",
+      "Cleveland Clinic: “Soy Foods.”",
+      "American Cancer Society: “Diet and Nutrition: Soybean.”",
+      "Nemours TeensHealth: “Soy Foods and Health.”"
+    ],
+    "published_date": "2014-05-15",
+    "scores": {
+      "faiss_similarity": 0.929820716381073,
+      "cross_encoder_relevance": 2.6999547481536865
+    },
+    "labeled_at": "2026-01-26T10:38:59.952554"
+  },
+  {
+    "passage_id": "dcb7cc3bd78cc21bee65c2df2561cb731c1dd3f3_s8_b0",
+    "query": "Does dietary soy impact testosterone levels?",
+    "label": "relevant",
+    "text": "Plant-based foods that have isoflavones (plant estrogens ) work in the body like a weak form of estrogen . For this reason, soy may help relieve menopause symptoms , although research results are unclear. Some may help lower cholesterol levels and have been suggested to relieve hot flashes and night sweats . Isoflavones can be found in foods such as tofu and soy milk.",
+    "section_heading": "Foods to Help Menopause Symptoms",
+    "title": "Menopause and Good Nutrition",
+    "url": "https://www.webmd.com/menopause/staying-healthy-through-good-nuitrition",
+    "author": "WebMD Editorial Contributors",
+    "medically_reviewed_by": "Traci C. Johnson, MD",
+    "sources": [
+      "The Food and Drug Administration.",
+      "U.S. Department of Health and Human Services.",
+      "National Institutes of Health Office of Dietary Supplements.",
+      "Kuanrong, L. Heart , 2012."
+    ],
+    "published_date": "2024-11-09",
+    "scores": {
+      "faiss_similarity": 0.9206166863441467,
+      "cross_encoder_relevance": -3.0739598274230957
+    },
+    "labeled_at": "2026-01-26T10:40:02.608437"
+  },
+  {
+    "passage_id": "bfee76bd816185cfca230a0384e362785a2a3794_s3_b1",
+    "query": "Does dietary soy impact testosterone levels?",
+    "label": "relevant",
+    "text": "Soy . Soybeans contain phytoestrogens. These are nutrients similar to the estrogen in your body. Sources of them include soybeans (edamame), tofu, soy milk, and miso soup. Some researchers think they can help protect against the kind of breast cancer that needs estrogen for its growth, but others don't. Ask your doctor whether eating one to three servings of soy a day would help you. It's possible it may interfere with hormone therapy or some other treatment.",
+    "section_heading": "Phytochemicals",
+    "title": "Exercise and Nutrition After Breast Cancer Surgery",
+    "url": "https://www.webmd.com/breast-cancer/exercise-nutrition-after-breast-cancer-surgery",
+    "author": "Rebecca Buffum Taylor",
+    "medically_reviewed_by": "Melinda  Ratini, MS, DO",
+    "sources": [
+      "National Cancer Institute: \"Nutrition in Cancer Care\" and \"Eating Hints for Cancer Patients: Before, During, and After Treatment.\"",
+      "Breastcancer.org: \"Nutrition and Breast Cancer,\" \"Foods to Consider,\" “Beta Carotene,” ”Soy.”",
+      "National Cancer Institute, Office of Women's Health: \"Women's Health Report: Fiscal Years 2005-2006, February 2007.\"",
+      "American Cancer Society: \"Detailed Guide: What Happens After Treatment for Breast Cancer?\"",
+      "Michels, K. Cancer, 2007."
+    ],
+    "published_date": "2024-02-29",
+    "scores": {
+      "faiss_similarity": 0.9172755479812622,
+      "cross_encoder_relevance": -2.949464797973633
+    },
+    "labeled_at": "2026-01-26T10:40:25.070016"
+  },
+  {
+    "passage_id": "2bd94785902d6dc7895af9effd73bb72c85e64e2_s1_b0",
+    "query": "Does a vitamin D deficiency elevate the risk of multiple sclerosis?",
+    "label": "relevant",
+    "text": "Several studies show that high levels of vitamin D in your body may lower your chances of getting multiple sclerosis . The research also suggests that if you have low vitamin D levels and already have MS, you may have higher odds of getting a flare-up.",
+    "section_heading": "Vitamin D",
+    "title": "Vitamins and Supplements for Multiple Sclerosis",
+    "url": "https://www.webmd.com/multiple-sclerosis/vitamins-supplements-multiple-sclerosis-ms",
+    "author": "Colleen de Bellefonds",
+    "medically_reviewed_by": "Christopher  Melinosky, MD",
+    "sources": [
+      "Journal of Alternative Medicine : \"Ginseng as a Treatment for Fatigue: A Systematic Review.\"",
+      "Journal of Korean Medical Science : \"Efficacy of Ginseng Supplements on Fatigue and Physical Performance: a Meta-analysis.\"",
+      "Annals of Internal Medicine : \"Echinaceas for Treating the Common Cold: A Randomized Trial.\"",
+      "Bowling, Allen C. Optimal Health with Multiple Sclerosis: A Guide to Integrating Lifestyle, Alternative, and Conventional Medicine , Demos Health, October 2014.",
+      "ASN Neuro : \"Zinc in Multiple Sclerosis: A Systematic Review and Meta-Analysis.\"",
+      "Jama Neurology : \"Use of Vitamins and Dietary Supplements by Patients With Multiple Sclerosis: A Review.\"",
+      "CNS Drugs : \"The evidence for a beneficial role of vitamin A in multiple sclerosis.\"",
+      "Johnson, S.K., Explore , published online January 2006.",
+      "eNeurologicalSci : \"A review on potential roles of vitamins in incidence, progression, and improvement of multiple sclerosis.\"",
+      "Nutrients : \"Does Vitamin C Influence Neurodegenerative Diseases and Psychiatric Disorders?\""
+    ],
+    "published_date": "2025-05-04",
+    "scores": {
+      "faiss_similarity": 0.9707043170928955,
+      "cross_encoder_relevance": 8.491365432739258
+    },
+    "labeled_at": "2026-01-26T10:48:06.803479"
+  },
+  {
+    "passage_id": "8bfa86176505c49e3995cdeb1783717027f4c497_s13_b0",
+    "query": "Does a vitamin D deficiency elevate the risk of multiple sclerosis?",
+    "label": "relevant",
+    "text": "Low vitamin D levels have been linked to inflammatory diseases including rheumatoid arthritis, lupus, inflammatory bowel disease, and multiple sclerosis. But it's unclear whether raising D levels will stave off these illnesses or prevent some age-related diseases.",
+    "section_heading": "Vitamin D",
+    "title": "Vitamins That Fight Inflammation",
+    "url": "https://www.webmd.com/vitamins-and-supplements/inflammation-fighting-vitamins",
+    "author": "WebMD Editorial Contributors",
+    "medically_reviewed_by": "Melinda  Ratini, MS, DO",
+    "sources": [
+      "Vanderbilt University School of Medicine: \"The Good, the Bad and the Ugly of Inflammation.\"",
+      "Forsythe, L.K. Nutrition Research Reviews , December 2008.",
+      "World's Healthiest Foods: \"vitamin A,\" \"vitamin C,\" \"vitamin E,\" \"vitamin K.\"",
+      "Mayo Clinic: \"Beta-carotene,\" \"Folate,\" \"Vitamin D,\"",
+      "NIH Office of Dietary Suplements: \"Vitamin A Fact Sheet for Health Professionals,\" \"Vitamin B6 Dietary Supplement Fact Sheet,\" \"Folate Dietary Supplement Fact Sheet,\" \"Vitamin B12 Dietary Supplement Fact Sheet,\" \"Vitamin C Fact Sheet for Health Professionals,\" \"Vitamin D Fact Sheet for Health Professionals,\" \"Vitamin E Fact Sheet for Health Professionals,\" \"Vitamin K Fact Sheet for Health Professionals.\"",
+      "Chen, H. Mediators of Inflammation , 2016.",
+      "Mangin, M. Inflammation Research , published online July 22, 2014.",
+      "Calton, E.K. PLOS One , published online Nov. 3, 2015.",
+      "Straube, S. Cochrane , published May 6, 2015.",
+      "OSU Linus Pauling Institute: \"Vitamin E.\"",
+      "Li, F.J. Journal of Alzheimer's Disease , August 2012."
+    ],
+    "published_date": "2024-07-01",
+    "scores": {
+      "faiss_similarity": 0.951805055141449,
+      "cross_encoder_relevance": 5.531137466430664
+    },
+    "labeled_at": "2026-01-26T10:48:06.806430"
+  },
+  {
+    "passage_id": "1032419a7b36ed31c77e4ad5ca5ba2ef06d045b8_s7_b0",
+    "query": "Does a vitamin D deficiency elevate the risk of multiple sclerosis?",
+    "label": "relevant",
+    "text": "Reduces chances of autoimmune disorders. A study by Clinical Reviews in Allergy & Immunology shows a connection between low levels of Vitamin D receptors in immune cells and higher risks of developing autoimmune disorders such as type 1 diabetes , multiple sclerosis , and rheumatoid arthritis .",
+    "section_heading": "How Does Eating Brill Positively Affect Your Health?",
+    "title": "Health Benefits of Brill",
+    "url": "https://www.webmd.com/diet/health-benefits-brill",
+    "author": "Ben Swiercz",
+    "medically_reviewed_by": "Jabeen  Begum, MD",
+    "sources": [
+      "Advances in Nutrition : “Vitamin B-12 and Perinatal Health.” Archives of Toxicology : “Selenium: a double-edged sword for defense and offense in cancer.” CLEVELAND CLINIC: “Omega-3 Fatty Acids.” Clinical Reviews in Allergy & Immunology : “The Implication of Vitamin D and Autoimmunity: a Comprehensive Review.” Congenital Anomalies : “Neural tube closure and embryonic metabolism.” Cureus Journal of Medical Science : “Low Vitamin B12 Levels: An Underestimated Cause of Minimal Cognitive Impairment And Dementia.” FISHWATCH U.S. SEAFOOD FACTS: “Arrowtooth Flounder,” “Greenland Turbot,” “Petrale Sole.” FOODSAFETY.GOV: “Safe Minimum Internal Temperatures.” HABITAS: “Scophthlamus rhombus (Linnaeus, 1758).” HARVARD SCHOOL OF PUBLIC HEALTH: “The Nutrition Source — Calcium,” “The Nutrition Source — Protein.” JOHNS HOPKINS MEDICINE: “Vitamin D and Calcium.” MAYO CLINIC: “Vitamin B-12: Can it improve memory in Alzheimer’s?” NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION FISHERIES | U.S. DEPARTMENT OF COMMERCE: “Petrale Sole.” Neuropsychopharmacology : “Omega-3 Polyunsaturated Fatty Acids in Youths with Attention Deficit Hyperactivity Disorder: a Systematic Review and Meta-Analysis of Clinical Trials and Biological Studies.” Nutrients : “Beneficial Outcomes of Omega-6 and Omega-3 Polyunsaturated Fatty Acids on Human Health: An Update for 2021,” “Immunologic Effects of Vitamin D on Human Health and Disease.” OREGON DEPARTMENT OF FISH AND WILDLIFE: “Finfish Species.” OREGON STATE UNIVERSITY: “Vitamin D.” Reviews in Obstetrics & Gynecology : “Omega-3 Fatty Acids and Pregnancy.” U.S. DEPARTMENT OF AGRICULTURE: “Fish, flatfish (flounder and sole species), raw.” U.S. FOOD & DRUG ADMINISTRATION: “Advice About Eating Fish,” “Selecting and Serving Fresh and Frozen Seafood Safely.” WORLD HEALTH ORGANIZATION: “Mercury and health.”"
+    ],
+    "published_date": "2024-07-27",
+    "scores": {
+      "faiss_similarity": 0.946832537651062,
+      "cross_encoder_relevance": 5.333220481872559
+    },
+    "labeled_at": "2026-01-26T10:48:06.811711"
+  },
+  {
+    "passage_id": "bcf344fd1b37eec09ea47fbd5b2ff2952e3006b0_s9_b0",
+    "query": "Does a vitamin D deficiency elevate the risk of multiple sclerosis?",
+    "label": "relevant",
+    "text": "People with multiple myeloma often have low levels of vitamin D. Healthy levels of this vitamin can protect you from bone complications that are common in this type of blood cancer.",
+    "section_heading": "Vitamin D",
+    "title": "Complementary and Alternative Treatments for Multiple Myeloma",
+    "url": "https://www.webmd.com/cancer/multiple-myeloma/complementary-alternative-treatments-multiple-myeloma",
+    "author": "Susan Bernstein",
+    "medically_reviewed_by": "Laura J. Martin, MD",
+    "sources": [
+      "Mayo Clinic: “Multiple Myeloma,” “Alternative cancer treatments: 10 options to consider,” “Curcumin: can it slow cancer growth?”",
+      "Memorial Sloan Kettering Cancer Center: “Herbs, Botanicals & Other Products: FAQs,” “Yoga,” “About Mind-Body Therapies.”",
+      "National Cancer Institute: “Manipulative and Body-Based Practice,” “Mind-Body Practice,” “Forgoing Conventional Cancer Treatments for Alternative Medicine Increases Risk of Death,” “Cannabis and Cannabinoids (PDQ® Patient Version),” “Complementary and Alternative Medicine.”",
+      "Myeloma Canada: “Complementary Therapies.”",
+      "Weill Cornell Medicine Myeloma Center: “Staying Active and Safe with Multiple Myeloma.”",
+      "Canadian Cancer Society: “Tai Chi.”",
+      "Cochrane Database Systematic Review : “Yoga in addition to standard care for patients with haemotological malignancies.”",
+      "Support Care Cancer : “Acupuncture for reduction of symptom burden in multiple myeloma patients undergoing autologous hematopoietic stem cell transplantation: a randomized sham-controlled trial.”",
+      "MD Anderson Cancer Center: “CBD Oil and Cancer: 9 Things to Know.”",
+      "Cancer Biology & Therapy : “Curcumin induces cell death of the main molecular myeloma subtypes, particularly the poor prognosis subgroups.”",
+      "Blood : “Vitamin D Levels Are Frequently Below Normal in Multiple Myeloma Patients and Are Infrequently Assessed by Their Treating Physicians.”",
+      "North American Journal of Medical Sciences : “Vitamin D deficiency in a man with multiple myeloma.”",
+      "Current Oncology Reports : “Mind-Body Therapies in Cancer: What Is the Latest Evidence?”"
+    ],
+    "published_date": "2025-08-09",
+    "scores": {
+      "faiss_similarity": 0.9426130056381226,
+      "cross_encoder_relevance": 0.42029857635498047
+    },
+    "labeled_at": "2026-01-26T10:48:06.814607"
   }
 ]
