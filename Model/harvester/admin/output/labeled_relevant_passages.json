@@ -1,0 +1,421 @@
+[
+  {
+    "passage_id": "3b263cf4bebefd02cc9307396b41bf105535d5a8_s0_b0",
+    "query": "Dengue is caused by Mosquito",
+    "relevant": true,
+    "text": "Dengue (pronounced DEN-gee) fever is a mosquito-borne disease caused by any one of four closely related dengue viruses. You get dengue fever through the bite of an aedes mosquito infected with a dengue virus. The mosquito becomes infected when it bites a person with dengue virus in their blood . It can’t be spread directly from one person to another person.",
+    "section_heading": "What Is Dengue Fever?",
+    "title": "Dengue Fever",
+    "url": "https://www.webmd.com/a-to-z-guides/dengue-fever-reference",
+    "author": "Stephanie Watson",
+    "medically_reviewed_by": "Poonam  Sachdev",
+    "sources": [
+      "CDC: “About a Dengue Vaccine,” “Clinical Features of Dengue,” “Data and Statistics on Dengue in the United States,” “Dengue: Frequently Asked Questions,” “Dengue: Prevention,” “How Dengue Spreads,” “How Malaria Spreads,” “Molecular Tests for Dengue Virus,” “Serologic Tests for Dengue Virus,” “Why is Dengue a Global Issue?”",
+      "Cleveland Clinic: “Dengue Fever.”",
+      "Cureus: “Dengue Fever: Prognostic Insights From a Complete Blood Count.”",
+      "Directors of Health Promotion and Education: “Dengue.”",
+      "Florida Department of Health: “Dengue Fever.”",
+      "Johns Hopkins Medicine: “Dengue Fever.”",
+      "Mayo Clinic: “Dengue Fever.”",
+      "National Library of Medicine: “Dengue Fever Test.”",
+      "Nature: “Dengue Viruses.”",
+      "StatPearls: “Dengue Fever.”",
+      "Target Malaria: “Malaria vs. Dengue: What are the Similarities and Differences?”",
+      "The Journal of Clinical Investigation: “TV005 Dengue Vaccine Protects Against Dengue Serotypes 2 and 3 in Two Controlled Human Infection Studies.”",
+      "University of Alabama at Birmingham Medicine: “Dengue Fever.”",
+      "University of Florida IFAS Extension: “What is Dengue?”",
+      "World Health Organization: “Dengue and Severe Dengue,” “Malaria,” “Vaccines and Immunization: Dengue.”"
+    ],
+    "published_date": "2024-10-22",
+    "scores": {
+      "faiss_similarity": 0.952818751335144,
+      "cross_encoder_relevance": 9.438043594360352
+    },
+    "labeled_at": "2026-01-26T10:00:25.217630"
+  },
+  {
+    "passage_id": "65c2a61b894478666b3cff182a4a482d9b2a87c1_s9_b0",
+    "query": "Dengue is caused by Mosquito",
+    "relevant": true,
+    "text": "Mosquito bites can be dangerous because they are known vectors of disease. Some diseases caused by mosquitoes include the following:\nZika virus: Zika is transmitted from mosquito to person, and then from person to person through sexual intercourse. Symptoms include headaches, joint and muscle aches, a mild fever, skin rash , and irritated eyes. The virus also affects babies in utero.\nWest Nile virus: The West Nile virus is a life-threatening disease that causes headaches, a fever, stiffness in the neck muscles, confusion, convulsions, weak muscles, and coma.\nMalaria: Also potentially fatal, Malaria presents symptoms such as fever, headache , and vomiting.",
+    "section_heading": "Health Risks of Mosquitoes",
+    "title": "Mosquitoes: What to Know",
+    "url": "https://www.webmd.com/a-to-z-guides/mosquitoes-what-to-know",
+    "author": "Amber Felton",
+    "medically_reviewed_by": "Poonam  Sachdev",
+    "sources": [
+      "SOURCES: Centers for Disease Control and Prevention: “Mosquito Bite Symptoms and Treatment.”,  \"Mosquitoes in the United States.\", “Mosquito life cycle.”, \"Where Mosquitoes Live.\" Cleveland Clinic: “Mosquito Bites.” NWF Blog: “What Purpose do Mosquitoes Serve?” The American Mosquito Control Association: “Mosquito Info.” University of Maryland Extension: “Controlling Mosquitoes.”"
+    ],
+    "published_date": "2023-01-24",
+    "scores": {
+      "faiss_similarity": 0.950493335723877,
+      "cross_encoder_relevance": 1.399336338043213
+    },
+    "labeled_at": "2026-01-26T10:00:57.558792"
+  },
+  {
+    "passage_id": "3b263cf4bebefd02cc9307396b41bf105535d5a8_s22_b0",
+    "query": "Dengue is caused by Mosquito",
+    "relevant": true,
+    "text": "Dengue fever is a viral illness that mosquitoes spread in tropical areas of the world. The virus causes symptoms such as a high fever and painful headaches. Dengue fever is often mild and manageable at home with rest, pain relievers, and extra fluids. Severe cases may need treatment in a hospital.",
+    "section_heading": "Takeaways",
+    "title": "Dengue Fever",
+    "url": "https://www.webmd.com/a-to-z-guides/dengue-fever-reference",
+    "author": "Stephanie Watson",
+    "medically_reviewed_by": "Poonam  Sachdev",
+    "sources": [
+      "CDC: “About a Dengue Vaccine,” “Clinical Features of Dengue,” “Data and Statistics on Dengue in the United States,” “Dengue: Frequently Asked Questions,” “Dengue: Prevention,” “How Dengue Spreads,” “How Malaria Spreads,” “Molecular Tests for Dengue Virus,” “Serologic Tests for Dengue Virus,” “Why is Dengue a Global Issue?”",
+      "Cleveland Clinic: “Dengue Fever.”",
+      "Cureus: “Dengue Fever: Prognostic Insights From a Complete Blood Count.”",
+      "Directors of Health Promotion and Education: “Dengue.”",
+      "Florida Department of Health: “Dengue Fever.”",
+      "Johns Hopkins Medicine: “Dengue Fever.”",
+      "Mayo Clinic: “Dengue Fever.”",
+      "National Library of Medicine: “Dengue Fever Test.”",
+      "Nature: “Dengue Viruses.”",
+      "StatPearls: “Dengue Fever.”",
+      "Target Malaria: “Malaria vs. Dengue: What are the Similarities and Differences?”",
+      "The Journal of Clinical Investigation: “TV005 Dengue Vaccine Protects Against Dengue Serotypes 2 and 3 in Two Controlled Human Infection Studies.”",
+      "University of Alabama at Birmingham Medicine: “Dengue Fever.”",
+      "University of Florida IFAS Extension: “What is Dengue?”",
+      "World Health Organization: “Dengue and Severe Dengue,” “Malaria,” “Vaccines and Immunization: Dengue.”"
+    ],
+    "published_date": "2024-10-22",
+    "scores": {
+      "faiss_similarity": 0.9501784443855286,
+      "cross_encoder_relevance": 6.894376754760742
+    },
+    "labeled_at": "2026-01-26T10:01:03.097409"
+  },
+  {
+    "passage_id": "d29db59e1a157053f5e72c415d08d9eba6dee545_s3_b2",
+    "query": "Dengue is caused by Mosquito",
+    "relevant": true,
+    "text": "Dengue . Causing 25,000 deaths a year, dengue is the most common arboviral disease. It's transmitted by Aedes mosquitoes. Infections are more common in Asia, South America, or Africa.",
+    "section_heading": "West Nile virus",
+    "title": "What Is an Arboviral Disease?",
+    "url": "https://www.webmd.com/skin-problems-and-treatments/what-is-arboviral-disease",
+    "author": "Parang Mehta",
+    "medically_reviewed_by": "Stephanie S. Gardner, MD",
+    "sources": [
+      "Annals of Hepatology : \"Yellow Fever.\"",
+      "Antiviral Research : \"Present and Future Arboviral Threats.\"",
+      "Centers for Disease Control and Prevention, \"Symptoms, Diagnosis, and Treatment,\" \"Yellow Fever Vaccine Recommendations.\"",
+      "Clark, M., Schaefer T. StatPearls , \"West Nile Virus.\" StatPearls Publishing, 2021.",
+      "Clinical Microbiology Reviews : \"Dengue and Dengue Hemorrhagic Fever.\"",
+      "International Journal of Infectious Diseases : \"Long term prevention and vector control of arboviral diseases: What does the future hold?\"",
+      "Journal of Clinical Microbiology : \"Diagnostic Approach for Arboviral Infections in the United States.\"",
+      "Journal of Neuroimmunology : \"Zika virus: History, epidemiology, transmission, and clinical presentation.\"",
+      "Journal of Vector Borne Diseases : \"Emerging and re-emerging arboviral diseases in Southeast Asia.\"",
+      "Kollef, M., Isakow, W., Burks, A. The Washington Manual of Critical Care . Lippincott Williams & Wilkins, 2017",
+      "New York State Department of Health: \"Arboviral (Arthropod-borne Viral) Diseases.\""
+    ],
+    "published_date": "2024-02-21",
+    "scores": {
+      "faiss_similarity": 0.9476863145828247,
+      "cross_encoder_relevance": 6.194436073303223
+    },
+    "labeled_at": "2026-01-26T10:01:15.141035"
+  },
+  {
+    "passage_id": "3b263cf4bebefd02cc9307396b41bf105535d5a8_s2_b0",
+    "query": "Dengue is caused by Mosquito",
+    "relevant": true,
+    "text": "Malaria is another disease that spreads through the bite of infected mosquitoes in tropical countries. A different type of mosquito carries each disease. Aedes mosquitoes spread the virus that causes dengue fever. Female anopheles mosquitoes carry the parasite that transmits malaria.",
+    "section_heading": "Dengue Fever vs. Malaria",
+    "title": "Dengue Fever",
+    "url": "https://www.webmd.com/a-to-z-guides/dengue-fever-reference",
+    "author": "Stephanie Watson",
+    "medically_reviewed_by": "Poonam  Sachdev",
+    "sources": [
+      "CDC: “About a Dengue Vaccine,” “Clinical Features of Dengue,” “Data and Statistics on Dengue in the United States,” “Dengue: Frequently Asked Questions,” “Dengue: Prevention,” “How Dengue Spreads,” “How Malaria Spreads,” “Molecular Tests for Dengue Virus,” “Serologic Tests for Dengue Virus,” “Why is Dengue a Global Issue?”",
+      "Cleveland Clinic: “Dengue Fever.”",
+      "Cureus: “Dengue Fever: Prognostic Insights From a Complete Blood Count.”",
+      "Directors of Health Promotion and Education: “Dengue.”",
+      "Florida Department of Health: “Dengue Fever.”",
+      "Johns Hopkins Medicine: “Dengue Fever.”",
+      "Mayo Clinic: “Dengue Fever.”",
+      "National Library of Medicine: “Dengue Fever Test.”",
+      "Nature: “Dengue Viruses.”",
+      "StatPearls: “Dengue Fever.”",
+      "Target Malaria: “Malaria vs. Dengue: What are the Similarities and Differences?”",
+      "The Journal of Clinical Investigation: “TV005 Dengue Vaccine Protects Against Dengue Serotypes 2 and 3 in Two Controlled Human Infection Studies.”",
+      "University of Alabama at Birmingham Medicine: “Dengue Fever.”",
+      "University of Florida IFAS Extension: “What is Dengue?”",
+      "World Health Organization: “Dengue and Severe Dengue,” “Malaria,” “Vaccines and Immunization: Dengue.”"
+    ],
+    "published_date": "2024-10-22",
+    "scores": {
+      "faiss_similarity": 0.9473397731781006,
+      "cross_encoder_relevance": 6.4572978019714355
+    },
+    "labeled_at": "2026-01-26T10:01:41.487782"
+  },
+  {
+    "passage_id": "f36ef97a45c184e88a823406a69829e8a23bbf92_s4_b1",
+    "query": "Dengue is caused by Mosquito",
+    "relevant": true,
+    "text": "Mosquitos. Mosquitos ( Culicidae family) aren’t just a nuisance — they’re one of the most prolific killers on earth. Mosquitoes can carry bacteria and viruses that cause severe illnesses, such as:\nChikungunya: Chikungunya is a viral disease that causes symptoms like fever and pain, and can lead to chronic illness.\nDengue: Dengue fever is caused by a virus and can cause mild to severe flu-like symptoms.\nEastern equine encephalitis: Eastern equine encephalitis is a viral disease with a 30% mortality rate.\nMalaria: Malaria is a disease caused by Plasmodium parasites. The severity of the disease depends on which Plasmodium parasite you have. Plasmodium falciparum can cause death within 24 hours.\nWest Nile virus: West Nile virus is the most common mosquito-borne disease in the continental U.S. It can lead to fever and in severe cases, death.\nZika virus: While most symptoms of Zika virus are mild, infection during pregnancy can lead to severe birth defects.",
+    "section_heading": null,
+    "title": "Which Plants Can Repel Bugs?",
+    "url": "https://www.webmd.com/a-to-z-guides/cm/which-plants-can-repel-bugs",
+    "author": "Sarah Vallie",
+    "medically_reviewed_by": "Shruthi  N, MD",
+    "sources": [
+      "SOURCES: AIMS Microbiology : “A study on the potential of ants to act as vectors of foodborne pathogens.” American College of Healthcare Sciences: “3 Common and Dangerous Essential Oil Mistakes.” Centers for Disease Control and Prevention: “Anaplasmosis,” “Basic TB Facts,” “Diseases Transmitted by Ticks,” “Eastern Equine Encephalitis Virus,” “Lyme Disease,” “Mosquito-Borne Diseases,” “Parasites - Babesiosis,” “Rocky Mountain Spotted Fever (RMSF),” “West Nile Virus,” “What is Anthrax?” Consumer Reports: “Do 'Natural' Insect Repellents Work?” “How Safe Is Deet?” International Journal of Biotechnology and Biochemistry : “Small Plot Experimental Study for Testing Efficacy of Ant Repelling Activity of Essential Oils.” Florida Entomologist : “Interference of Plant Essential Oils on the Foraging Behavior of Solenopsis invicta (Hymenoptera: Formicidae).” Malaria Journal : “Effectiveness of plant-based repellents against different Anopheles species: a systematic review.” Mayo Clinic: “Typhoid fever.” Medicinal and Veterinary Entomology : “Repellent, larvicidal and pupicidal properties of essential oils and their formulations against the housefly, Musca domestica.” Minnesota Department of Health: “Tularemia Fact Sheet.” National Wildlife Federation: “Ants.” Parasite : “The repellency of lemongrass oil against stable flies, tested using video tracking.” Penn State Extension: “House Flies.” University of Wisconsin Horticulture Division of Extension: “Catnip, Nepeta cataria.” Schultz, G., Peterson, C., Coats, J. Natural Products for Pest Management , American Chemical Society, 2006.” World Health Organization: “Chikungunya,” “Cholera,” “Dengue,” “Leprosy,” “Malaria,” “Zika virus.”"
+    ],
+    "published_date": "2024-07-26",
+    "scores": {
+      "faiss_similarity": 0.9462907910346985,
+      "cross_encoder_relevance": 6.812934875488281
+    },
+    "labeled_at": "2026-01-26T10:01:48.846522"
+  },
+  {
+    "passage_id": "620064de8051812f2a5b0da90fd84e233b245d8a_s17_b1",
+    "query": "Dengue is caused by Mosquito",
+    "relevant": true,
+    "text": "Mosquitoes are responsible for more human deaths than any other creature in the world. Some estimates place fatalities from mosquito-borne illnesses at over one million each year. The most common mosquito-borne viruses in the U.S. include:\nDengue virus. Dengue virus causes dengue fever . An estimated 390 million dengue virus infections happen each year, causing 36,000 deaths.\nWest Nile virus. West Nile virus is the most common mosquito-borne virus in the U.S. In 2021, 2695 cases of West Nile virus were reported to the CDC. Of those, 1885 were reported to have caused a neuroinvasive disease such as encephalitis or meningitis.\nZika virus. Cases of Zika virus spiked in 2016 but have dropped since then. In 2020, there were 61 cases of Zika reported to the CDC.",
+    "section_heading": "Preventing Cache Valley Virus",
+    "title": "What to Know About Cache Valley Virus",
+    "url": "https://www.webmd.com/a-to-z-guides/what-to-know-about-cache-valley-virus",
+    "author": "Sarah Vallie",
+    "medically_reviewed_by": "Shruthi  N, MD",
+    "sources": [
+      "SOURCES: Centers for Disease Control and Prevention: “8 Zoonotic Diseases Shared Between Animals and People of Most Concern in the U.S.,” “Cache Valley Virus,” “Fighting the World’s Deadliest Animal,” “Mosquito-Borne Diseases,” “West Nile Virus,” “Zika Virus.” Cleveland Clinic: “Antibodies.” Cornell University College of Veterinary Medicine: “Cache Valley Fever (CVF).” Emerging Infectious Diseases : “Second Human Case of Cache Valley Virus Disease.” Johns Hopkins Medicine: “Cache Valley Virus.” Mayo Clinic: “Meningitis.” The American Mosquito Control Association: “Mosquito-Borne Diseases.” World Mosquito Program: “Dengue.”"
+    ],
+    "published_date": "2024-07-26",
+    "scores": {
+      "faiss_similarity": 0.9412543773651123,
+      "cross_encoder_relevance": 7.018355369567871
+    },
+    "labeled_at": "2026-01-26T10:02:42.956365"
+  },
+  {
+    "passage_id": "bc7e07723070a1c4894f38c0312c96fb43812e2b_s0_b1",
+    "query": "COVID-19 became a leading cause of death globally by the end of May 2020.",
+    "relevant": true,
+    "text": "Heart disease and cancer have been at the top of the list for more than a decade and caused more than 37% of U.S. deaths in 2021, the most recent data available. COVID-19 has climbed into the top rankings since the pandemic began in 2020.",
+    "section_heading": null,
+    "title": "These Are the Top 10 Causes of Death in the U.S.",
+    "url": "https://www.webmd.com/a-to-z-guides/news/20231005/cm/these-are-the-top-10-causes-of-death-in-the-us",
+    "author": "Ralph Ellis",
+    "medically_reviewed_by": "",
+    "sources": [
+      "CDC: “Leading Causes of Death.”",
+      "USAFacts: “What are the leading causes of death in the US?\" “Do women live longer than men in the US?”"
+    ],
+    "published_date": "",
+    "scores": {
+      "faiss_similarity": 0.9636763334274292,
+      "cross_encoder_relevance": 5.212221145629883
+    },
+    "labeled_at": "2026-01-26T10:15:18.060022"
+  },
+  {
+    "passage_id": "98bfb9251843df038a6c60ec6c102b4682e5786b_s1_b1",
+    "query": "COVID-19 became a leading cause of death globally by the end of May 2020.",
+    "relevant": true,
+    "text": "Acute respiratory failure has been the leading cause of death for those who have died of COVID-19.",
+    "section_heading": "Acute Respiratory Failure",
+    "title": "Complications Coronavirus Can Cause",
+    "url": "https://www.webmd.com/covid/coronavirus-complications",
+    "author": "Shawna Seed",
+    "medically_reviewed_by": "Melinda  Ratini, MS, DO",
+    "sources": [
+      "UpToDate: “Coronavirus disease 2019 (COVID-19): Management in adults,” “Coronavirus disease 2019 (COVID-19): Multisystem inflammatory syndrome in children.”",
+      "TuftsNow: “How the Body Battles COVID-19.”",
+      "Cureus : “Rhabdomyolysis as a Presentation of 2019 Novel Coronavirus Disease.”",
+      "Thrombosis Research : “Incidence of thrombotic complications in critically ill ICU patients with COVID-19.”",
+      "American Society of Hematology: “COVID-19 and Coagulopathy: Frequently Asked Questions.”",
+      "World Health Organization: “Q and A on coronavirus.”",
+      "Morbidity and Mortality Weekly Report : “Persons Evaluated for 2019 Novel Coronavirus -- United States, January 2020,” Feb. 14, 2020.",
+      "American Lung Association: “Pneumonia.”",
+      "Mount Sinai Health System: “Patients with COVID-19 Have Distinct Markings in Lungs, Study Finds.”",
+      "Radiology : “Chest CT Findings in Coronavirus Disease-19 (COVID-19): Relationship to Duration of Infection,” published online, Feb. 20, 2020.",
+      "The Lancet , Jan. 24, 2020.",
+      "American Lung Association: “Learn About ARDS.”",
+      "Liver International : “Liver injury during highly pathogenic human coronavirus infections,” published online, March 14, 2020.",
+      "Mayo Clinic: “Acute Liver Failure.”",
+      "JAMA : “Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China,” published online, Feb. 7, 2020.",
+      "JAMA : “Characteristics and Outcomes of 21 Critically Ill Patients With COVID-19 in Washington State,” published online, March 19, 2020.",
+      "European Heart Journal : “Coronaviruses and the cardiovascular system: acute and long-term implications,” published online, March 18, 2020.",
+      "Travel Medicine and Infectious Disease : “Clinical, laboratory and imaging features of COVID-19: A systematic review and meta-analysis,” published online, March 13, 2020.",
+      "Frontiers in Microbiology , published online, June 23, 2017.",
+      "National Heart, Lung, and Blood Institute: “Respiratory Failure.”",
+      "Intensive Care Medicine : “Clinical predictors of mortality due to COVID-19 based on an analysis of data of 150 patients from Wuhan, China,” published online, March 3, 2020.",
+      "American Kidney Fund: “Acute Kidney Injury.”",
+      "Mayo Clinic: “Sepsis.”",
+      "The Lancet : “Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China,” Feb. 15, 2020.",
+      "National Heart, Lung, and Blood Institute: “Disseminated Intravascular Coagulation.”",
+      "Journal of Thrombosis and Haemostasis , published online, Feb. 19, 2020.",
+      "Emerging Infectious Diseases , published online, March 20, 2020.",
+      "Cleveland Clinic: “Rhabdomylosis.”",
+      "KidsHealth/Nemours: “Kawasaki Disease.”",
+      "Medscape: “Fauci to Medscape: ‘We’re All In It Together and We’re Gonna Get Through It.’ ”",
+      "CDC: “Myalgic Encephalomyelitis/Chronic Fatigue Syndrome.”"
+    ],
+    "published_date": "2024-11-05",
+    "scores": {
+      "faiss_similarity": 0.9614995718002319,
+      "cross_encoder_relevance": 5.680013179779053
+    },
+    "labeled_at": "2026-01-26T10:15:36.476061"
+  },
+  {
+    "passage_id": "bc7e07723070a1c4894f38c0312c96fb43812e2b_s0_b0",
+    "query": "COVID-19 became a leading cause of death globally by the end of May 2020.",
+    "relevant": true,
+    "text": "Oct. 6, 2023 -- Heart disease, cancer , and COVID-19 are the top three causes of death in the United States and account for more than half the deaths in the country, the CDC reported.",
+    "section_heading": null,
+    "title": "These Are the Top 10 Causes of Death in the U.S.",
+    "url": "https://www.webmd.com/a-to-z-guides/news/20231005/cm/these-are-the-top-10-causes-of-death-in-the-us",
+    "author": "Ralph Ellis",
+    "medically_reviewed_by": "",
+    "sources": [
+      "CDC: “Leading Causes of Death.”",
+      "USAFacts: “What are the leading causes of death in the US?\" “Do women live longer than men in the US?”"
+    ],
+    "published_date": "",
+    "scores": {
+      "faiss_similarity": 0.9584208726882935,
+      "cross_encoder_relevance": 4.344118595123291
+    },
+    "labeled_at": "2026-01-26T10:15:41.063217"
+  },
+  {
+    "passage_id": "f26dc01d5ec95394734e530e5bf3c349d339af4a_s13_b3",
+    "query": "COVID-19 became a leading cause of death globally by the end of May 2020.",
+    "relevant": true,
+    "text": "The virus that causes COVID-19 was a novel coronavirus, meaning it had never infected humans. The virus was discovered in Wuhan, China, in 2019 and spread rapidly around the globe. It was declared a pandemic by the World Health Organization in March 2020.",
+    "section_heading": "Coronavirus History FAQs",
+    "title": "What Is the History of Coronavirus?",
+    "url": "https://www.webmd.com/covid/coronavirus-history",
+    "author": "Linda Rath",
+    "medically_reviewed_by": "Sanjay  Ponkshe, MD",
+    "sources": [
+      "University of California, San Francisco: “As Coronavirus Spreads, Experts Explain When to Call a Doctor, How Testing Works, and More.”",
+      "National Public Radio: “Why They're Called 'Wet Markets' — And What Health Risks They Might Pose.”",
+      "Nature Medicine: “The proximal origin of SARS-CoV-2.”",
+      "Emerging Infectious Disease s: “Severe Acute Respiratory Syndrome Coronavirus 2 from Patient with 2019 Novel Coronavirus Disease, United States.”",
+      "The Lancet : “Genomic characterisation and epidemiology of 2019 novel coronavirus: Implications for virus origins and receptor binding.”",
+      "CDC: “Healthcare Professionals: Frequently Asked Questions and Answers,” “Human Coronavirus Types,” “Animals and Coronavirus Disease 19 (COVID-19),” \"Similarities and Differences between Flu and COVID-19,\" \"CDC Museum COVID-19 Timeline.\" Science: “Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation.”",
+      "The Pediatric Infectious Disease Journal : “History and Recent Advances in Coronavirus Discovery.”",
+      "Virology : “Bat origin of human coronaviruses.”",
+      "World Health Organization: “Middle East respiratory syndrome coronavirus (MERS-CoV)” \"Naming the coronavirus disease (COVID-19) and the virus that causes it,\" \"WHO Coronavirus (COVID-19) Dashboard.\"",
+      "Transboundary and Emerging Diseases : “The origins of COVID-19 pandemic: A brief overview.\"",
+      "Race and Justice : \"COVID-19 Pandemic and Anti-Asian Racism & Violence in the 21st Century.\"",
+      "University of Utah: \"The 2020 Surge of Anti-Asian Hate Language.\"",
+      "The Lancet Planetary Health : \"A better classification of wet markets is key to safeguarding human health and biodiversity.\"",
+      "National Foundation for Infectious Diseases: \"What Are Coronaviruses?\""
+    ],
+    "published_date": "2025-10-31",
+    "scores": {
+      "faiss_similarity": 0.9583823680877686,
+      "cross_encoder_relevance": 5.06608772277832
+    },
+    "labeled_at": "2026-01-26T10:19:52.795244"
+  },
+  {
+    "passage_id": "554700f12224c5235f2913472f9a3ca50c357ffa_s12_b1",
+    "query": "Are artificial sweeteners safe?",
+    "relevant": true,
+    "text": "But for all their benefits, some artificial sweeteners pose risks. Talk to your doctor if you have health concerns.",
+    "section_heading": "Takeaways",
+    "title": "Artificial Sweeteners and Diabetes: What to Know",
+    "url": "https://www.webmd.com/diabetes/artificial-sweeteners-diabetes-patients",
+    "author": "Nichole Owens",
+    "medically_reviewed_by": "Christi",
+    "sources": [
+      "Amy Roark MS, RDN, CSSD, LD, CDCES, Northside Hospital Diagnostic Clinic, Gainesville, Georgia",
+      "Mayo Clinic: “ Artificial sweeteners: Any effect on blood sugar? ”",
+      "Massachusetts General Hospital: “ Sugar Substitutes: What You Should Know. ”",
+      "Cleveland Clinic: “Carbohydrates,” “ This is why artificial sweeteners are bad for you, ” “ Do You Need to Cut Out Aspartame? ”",
+      "American Heart Association: “Sugar 101, ” “ Food Packaging Claims. ”",
+      "Harvard T.H. Chan School of Public Health: “ Are sugar alcohols healthier alternative sweeteners? ”",
+      "UCLA: “ How safe are sugar alcohols? ”",
+      "Johns Hopkins Medicine: “ Facts About Sugar and Sugar Substitutes. ”",
+      "Drugs and Lactation Database: “ Saccharin. ”",
+      "UC Davis: “Nutrition & Health Info Sheets for Health Professionals: Nonnutririve Sweeteners. ”",
+      "FDA: “ Types of Food Ingredients, ” “ Changes to the Nutrition Facts Label, ” “ Aspartame and other sweeteners in food. ”",
+      "Nutrients : “ Effect of Non-Nutritive Sweeteners on the Gut Microbiota, ” “ Long-term Consumption of Sucralose Induces Hepatic Insulin Resistance through Extracellular Signal-Related Kinase ½ Dependent Pathway. ”",
+      "American Diabetes Association: “Sweeteners and Desserts: Sugar and Other Sweeteners.”"
+    ],
+    "published_date": "2025-04-09",
+    "scores": {
+      "faiss_similarity": 0.9428752660751343,
+      "cross_encoder_relevance": 9.132291793823242
+    },
+    "labeled_at": "2026-01-26T10:23:15.153524"
+  },
+  {
+    "passage_id": "a8950f6ae3a8be5f3b252764bc0d7e0496cf3f76_s22_b4",
+    "query": "Are artificial sweeteners safe?",
+    "relevant": true,
+    "text": "There are six artificial sweeteners that the FDA says are safe for most people: aspartame, acesulfame potassium (Ace-K), sucralose , neotame, advantame, and saccharin.",
+    "section_heading": null,
+    "title": "What to Know About Aspartame",
+    "url": "https://www.webmd.com/diet/what-to-know-about-aspartame",
+    "author": "WebMD Editorial Contributors",
+    "medically_reviewed_by": "Jabeen  Begum, MD",
+    "sources": [
+      "The BMJ : “ Aspartame and Its Effects On Health. ”",
+      "Cancer Research UK: “ Aspartame and artificial sweeteners - helping or hindering weight loss? ”",
+      "Current Diabetes Review : “ Aspartame: Should Individuals with Type II Diabetes be Taking It? ”",
+      "European Food Safety Authority: “ Aspartame. ”",
+      "U.S. Department of Health and Human Services: “ What is the relationship Between Aspartame Consumption and Health? ”",
+      "YaleNews: “ Yale study may help resolve the bitter debate over low-cal sweeteners. ”",
+      "Nutrients: “Aspartame—True or False? Narrative Review of Safety Analysis of General Use in Products.”",
+      "The British Journal of Nutrition: “The effect of aspartame and sucralose intake on body weight measures and blood metabolites: role of their form (solid and/or liquid) of ingestion.”",
+      "The American Journal of Clinical Nutrition: “Consumption of caffeinated and artificially sweetened soft drinks is associated with risk of early menarche.”",
+      "Journal of Nutrition & Intermediary Metabolism : “Disruption of redox homeostasis in liver function and activation of apoptosis on consumption of aspartame in folate deficient rat model.”",
+      "Research in Nursing & Health: “Neurobehavioral Effects of Aspartame Consumption.”",
+      "PLOS Medicine: “Artificial sweeteners and cancer risk: Results from the NutriNet-Santé population-based cohort study.”",
+      "World Health Organization: “IARC Monographs Hazard Classification.”",
+      "U.S. Food & Drug Administration: “Aspartame and Other Sweeteners in Food.”",
+      "Mayo Clinic: “Phenylketonuria (PKU).”",
+      "Neuropsychopharmacology: “Tardive dyskinesia exacerbated after ingestion of phenylalanine by schizophrenic patients.”",
+      "American Pregnancy Association: “Artificial Sweeteners and Pregnancy.”",
+      "Cleveland Clinic: “Is Monk Fruit a Healthy Sweetener?,” “What You Need To Know About Allulose,” “What You Should Know About Sugar Alcohols.”",
+      "European Food Safety Authority: “Aspartame.”"
+    ],
+    "published_date": "2024-02-23",
+    "scores": {
+      "faiss_similarity": 0.9334383010864258,
+      "cross_encoder_relevance": 10.096102714538574
+    },
+    "labeled_at": "2026-01-26T10:23:22.262102"
+  },
+  {
+    "passage_id": "554700f12224c5235f2913472f9a3ca50c357ffa_s0_b0",
+    "query": "Are artificial sweeteners safe?",
+    "relevant": true,
+    "text": "Yes, they can. Artificial sweeteners are just as sweet — and sometimes, up to 700 times sweeter — than regular sugar, but they have no calories and don’t affect your blood sugar (glucose). While sugar is absorbed into your bloodstream and sent to your cells to be turned into energy, artificial sweeteners stay in your digestive tract until they pass in your stool or urine.",
+    "section_heading": "Can People With Diabetes Have Artificial Sweeteners?",
+    "title": "Artificial Sweeteners and Diabetes: What to Know",
+    "url": "https://www.webmd.com/diabetes/artificial-sweeteners-diabetes-patients",
+    "author": "Nichole Owens",
+    "medically_reviewed_by": "Christi",
+    "sources": [
+      "Amy Roark MS, RDN, CSSD, LD, CDCES, Northside Hospital Diagnostic Clinic, Gainesville, Georgia",
+      "Mayo Clinic: “ Artificial sweeteners: Any effect on blood sugar? ”",
+      "Massachusetts General Hospital: “ Sugar Substitutes: What You Should Know. ”",
+      "Cleveland Clinic: “Carbohydrates,” “ This is why artificial sweeteners are bad for you, ” “ Do You Need to Cut Out Aspartame? ”",
+      "American Heart Association: “Sugar 101, ” “ Food Packaging Claims. ”",
+      "Harvard T.H. Chan School of Public Health: “ Are sugar alcohols healthier alternative sweeteners? ”",
+      "UCLA: “ How safe are sugar alcohols? ”",
+      "Johns Hopkins Medicine: “ Facts About Sugar and Sugar Substitutes. ”",
+      "Drugs and Lactation Database: “ Saccharin. ”",
+      "UC Davis: “Nutrition & Health Info Sheets for Health Professionals: Nonnutririve Sweeteners. ”",
+      "FDA: “ Types of Food Ingredients, ” “ Changes to the Nutrition Facts Label, ” “ Aspartame and other sweeteners in food. ”",
+      "Nutrients : “ Effect of Non-Nutritive Sweeteners on the Gut Microbiota, ” “ Long-term Consumption of Sucralose Induces Hepatic Insulin Resistance through Extracellular Signal-Related Kinase ½ Dependent Pathway. ”",
+      "American Diabetes Association: “Sweeteners and Desserts: Sugar and Other Sweeteners.”"
+    ],
+    "published_date": "2025-04-09",
+    "scores": {
+      "faiss_similarity": 0.929094672203064,
+      "cross_encoder_relevance": 8.465415000915527
+    },
+    "labeled_at": "2026-01-26T10:23:34.317336"
+  }
+]

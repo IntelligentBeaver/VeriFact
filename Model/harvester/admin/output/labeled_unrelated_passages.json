@@ -1,0 +1,189 @@
+[
+  {
+    "passage_id": "b247eac5c49138a12bec77ed8f13cf16812ed36d_s1_b0",
+    "query": "Dengue is caused by Mosquito",
+    "relevant": false,
+    "text": "EEE is caused by an arbovirus that's a member of the genus alphavirus. An arbovirus is a virus that’s spread by insects , like mosquitoes. Other arboviruses include West Nile, Zika, dengue, and chikungunya.",
+    "section_heading": "Eastern Equine Encephalitis Causes",
+    "title": "What Is Eastern Equine Encephalitis (EEE)?",
+    "url": "https://www.webmd.com/a-to-z-guides/what-is-eastern-equine-encephalitis-eee",
+    "author": "Marijke Vroomen Durning, RN",
+    "medically_reviewed_by": "Neha  Pathak, MD",
+    "sources": [
+      "CDC: “Transmission of Eastern Equine Encephalitis,” “Preventing Mosquito Bites.”",
+      "Cleveland Clinic: “Eastern Equine Encephalitis.”",
+      "Gouvernement du Québec: “Eastern equine encephalomyelitis.”",
+      "Haldimand-Norfolk Health Unit: “Eastern Equine Encephalitis (EEE).”",
+      "Mayo Clinic: “Lumbar puncture (spinal tap),” “Reye’s syndrome.”",
+      "Minnesota Department of Health: “Eastern Equine Encephalitis.”",
+      "New York State Department of Health: “Arboviral (Arthropod-borne Viral) Diseases.”",
+      "StatPearls: “Eastern Equine Encephalitis.”"
+    ],
+    "published_date": "2024-08-28",
+    "scores": {
+      "faiss_similarity": 0.9449883699417114,
+      "cross_encoder_relevance": 4.022603988647461
+    },
+    "labeled_at": "2026-01-26T10:01:55.941323"
+  },
+  {
+    "passage_id": "069b2e5cb900188db50c3c38be46cfcf8ff677d0_s0_b0",
+    "query": "Dengue is caused by Mosquito",
+    "relevant": false,
+    "text": "Vector-borne diseases are caused by the bites of disease-causing pathogens like mosquitoes and ticks. This article looks at the different types of vector-borne diseases and their symptoms, causes, and possible treatment options.",
+    "section_heading": null,
+    "title": "What Are Vector-Borne Diseases?",
+    "url": "https://www.webmd.com/a-to-z-guides/what-are-vector-borne-diseases",
+    "author": "Venkat S.R.",
+    "medically_reviewed_by": "Shruthi  N, MD",
+    "sources": [
+      "SOURCES: American Academy of Family Physicians: “Insect-borne Diseases.” Centers for Disease Control and Prevention: “A National Public Health Framework for the Prevention and Control of Vector-Borne Diseases in Humans,” “Facts about Pneumonic Plague,” “Japanese Encephalitis Virus: Symptoms & Treatment.” Cleveland Clinic: “Malaria.” European Centre for Disease Prevention and Control: “Vector-borne diseases.” International Pharmaceutical Federation: “Vector-borne diseases: a handbook for pharmacists.” Mayo Clinic: “Dengue Fever,” “Plague,” “Quinone (Oral Route).” World Health Organization: “How to avoid vector-borne diseases – top tips,” “Vector-borne diseases,” \"Malaria\""
+    ],
+    "published_date": "2024-09-08",
+    "scores": {
+      "faiss_similarity": 0.9430423378944397,
+      "cross_encoder_relevance": -3.1041338443756104
+    },
+    "labeled_at": "2026-01-26T10:02:16.887156"
+  },
+  {
+    "passage_id": "78572aaa9b75488e88e4c532b21727ed69cfbfd1_s19_b0",
+    "query": "Dengue is caused by Mosquito",
+    "relevant": false,
+    "text": "Most mosquitos are only annoying, but some types can spread certain diseases, including West Nile and Zika . If a mosquito bites an animal or human that has a certain disease, the infected blood goes into the mosquito’s body. The infected mosquito can then spread that disease to the next animal or human it bites through its saliva. If an infected mosquito bites you and you become sick, you have a mosquito-borne disease.",
+    "section_heading": "Diseases Caused by Mosquitoes",
+    "title": "Mosquito Bites",
+    "url": "https://www.webmd.com/skin-problems-and-treatments/illnesses-mosquito-bites",
+    "author": "Kristin Mitchell",
+    "medically_reviewed_by": "Poonam  Sachdev",
+    "sources": [
+      "State of Connecticut, Mosquito Management Program: \"Mosquitos: Frequently Asked Questions.\"",
+      "American Mosquito Control Association: \"Mosquito-Borne Diseases.\"",
+      "CDC: \"West Nile Virus,\" \"Eastern Equine Encephalitis,\" \"Japanese Encephalitis,\" \"Chikungunya virus,\" \"Dengue Homepage,\" \"Yellow Fever,\" \"Malaria,\" \"Zika Virus,\" \"Morbidity and Mortality Weekly Report,\" \"Guillain-Barre syndrome and flu vaccine,\" \"Facts about Microcephaly,\" “About Mosquitoes.”",
+      "Wisconsin Division of Public Health: \"West Nile Virus Infection.\"",
+      "Pal, P. Journal of Virology, published online May 14, 2014.",
+      "Pan American Health Organization: \"Zika virus infection and Zika fever: Frequently asked questions.\"",
+      "National Institute of Neurological Disorders and Stroke: \"Guillain-Barre Syndrome Fact Sheet.\"",
+      "The Atlantic: \"What to Know About Zika Virus.\"",
+      "Environmental Protection Agency: “General Information About Mosquitos.”",
+      "CDC: “Mosquito Bites: Everyone is at Risk!”",
+      "American Academy of Allergy, Asthma & Immunology: “Take A Bite Out of Mosquito Stings.”",
+      "Rutgers New Jersey Agricultural Experiment Station: \"Frequently Asked Questions About Mosquitoes.\"",
+      "CDC: “Mosquito Bite Symptoms and Treatment.”",
+      "DermNet New Zealand: \"Oatmeal.\"",
+      "Natural Society: “7 Plants that Repel Mosquitoes Naturally.”",
+      "Mather Hospital Northwell Health: “Home Remedies for Those Itchy Mosquito Bites.”",
+      "Evidence-Based Complementary and Alternative Medicine : Commercial Essential Oils as Potential Antimicrobials to Treat Skin Diseases.",
+      "National Center for Complementary and Integrative Health: “Aloe Vera.”",
+      "Mayo Clinic: “Mosquito Bites.”",
+      "CDC: “What is a Mosquito?” “Prevent Mosquito Bites.”",
+      "Cleveland Clinic: “Mosquito Bites,\" “Skeeter Syndrome.”",
+      "Mayo Clinic: “Mosquito Bites - Symptoms and Causes.”",
+      "Johns Hopkins Medicine: Types of Encephalitis",
+      "World Health Organization: \"Malaria.\""
+    ],
+    "published_date": "2023-11-02",
+    "scores": {
+      "faiss_similarity": 0.9421392679214478,
+      "cross_encoder_relevance": -3.7736854553222656
+    },
+    "labeled_at": "2026-01-26T10:02:29.190690"
+  },
+  {
+    "passage_id": "19f8d0d99a774adf546b7e22bd592e2439369987_s0_b4",
+    "query": "COVID-19 became a leading cause of death globally by the end of May 2020.",
+    "relevant": false,
+    "text": "There were nearly 300,00 newly reported COVID-19 cases in the United States for the week ending Jan. 25, according to CDC data, as well as more than 3,750 deaths.",
+    "section_heading": null,
+    "title": "Biden to End COVID Emergencies in May",
+    "url": "https://www.webmd.com/covid/news/20230130/cm/biden-to-end-covid-emergencies-in-may",
+    "author": "Aaron Gould Sheinin",
+    "medically_reviewed_by": "",
+    "sources": [
+      "Executive Office of the President: “Statement of Administration Policy.”",
+      "CDC: “Trends in Number of COVID-19 Cases and Deaths in the US Reported to CDC, by State/Territory.”"
+    ],
+    "published_date": "",
+    "scores": {
+      "faiss_similarity": 0.9561676383018494,
+      "cross_encoder_relevance": 2.940103769302368
+    },
+    "labeled_at": "2026-01-26T10:20:02.257229"
+  },
+  {
+    "passage_id": "a8950f6ae3a8be5f3b252764bc0d7e0496cf3f76_s22_b1",
+    "query": "Are artificial sweeteners safe?",
+    "relevant": false,
+    "text": "What artificial sweeteners should you avoid?",
+    "section_heading": null,
+    "title": "What to Know About Aspartame",
+    "url": "https://www.webmd.com/diet/what-to-know-about-aspartame",
+    "author": "WebMD Editorial Contributors",
+    "medically_reviewed_by": "Jabeen  Begum, MD",
+    "sources": [
+      "The BMJ : “ Aspartame and Its Effects On Health. ”",
+      "Cancer Research UK: “ Aspartame and artificial sweeteners - helping or hindering weight loss? ”",
+      "Current Diabetes Review : “ Aspartame: Should Individuals with Type II Diabetes be Taking It? ”",
+      "European Food Safety Authority: “ Aspartame. ”",
+      "U.S. Department of Health and Human Services: “ What is the relationship Between Aspartame Consumption and Health? ”",
+      "YaleNews: “ Yale study may help resolve the bitter debate over low-cal sweeteners. ”",
+      "Nutrients: “Aspartame—True or False? Narrative Review of Safety Analysis of General Use in Products.”",
+      "The British Journal of Nutrition: “The effect of aspartame and sucralose intake on body weight measures and blood metabolites: role of their form (solid and/or liquid) of ingestion.”",
+      "The American Journal of Clinical Nutrition: “Consumption of caffeinated and artificially sweetened soft drinks is associated with risk of early menarche.”",
+      "Journal of Nutrition & Intermediary Metabolism : “Disruption of redox homeostasis in liver function and activation of apoptosis on consumption of aspartame in folate deficient rat model.”",
+      "Research in Nursing & Health: “Neurobehavioral Effects of Aspartame Consumption.”",
+      "PLOS Medicine: “Artificial sweeteners and cancer risk: Results from the NutriNet-Santé population-based cohort study.”",
+      "World Health Organization: “IARC Monographs Hazard Classification.”",
+      "U.S. Food & Drug Administration: “Aspartame and Other Sweeteners in Food.”",
+      "Mayo Clinic: “Phenylketonuria (PKU).”",
+      "Neuropsychopharmacology: “Tardive dyskinesia exacerbated after ingestion of phenylalanine by schizophrenic patients.”",
+      "American Pregnancy Association: “Artificial Sweeteners and Pregnancy.”",
+      "Cleveland Clinic: “Is Monk Fruit a Healthy Sweetener?,” “What You Need To Know About Allulose,” “What You Should Know About Sugar Alcohols.”",
+      "European Food Safety Authority: “Aspartame.”"
+    ],
+    "published_date": "2024-02-23",
+    "scores": {
+      "faiss_similarity": 0.954865038394928,
+      "cross_encoder_relevance": 5.300900936126709
+    },
+    "labeled_at": "2026-01-26T10:22:53.908076"
+  },
+  {
+    "passage_id": "a8950f6ae3a8be5f3b252764bc0d7e0496cf3f76_s22_b3",
+    "query": "Are artificial sweeteners safe?",
+    "relevant": false,
+    "text": "What is the safest artificial sweetener?",
+    "section_heading": null,
+    "title": "What to Know About Aspartame",
+    "url": "https://www.webmd.com/diet/what-to-know-about-aspartame",
+    "author": "WebMD Editorial Contributors",
+    "medically_reviewed_by": "Jabeen  Begum, MD",
+    "sources": [
+      "The BMJ : “ Aspartame and Its Effects On Health. ”",
+      "Cancer Research UK: “ Aspartame and artificial sweeteners - helping or hindering weight loss? ”",
+      "Current Diabetes Review : “ Aspartame: Should Individuals with Type II Diabetes be Taking It? ”",
+      "European Food Safety Authority: “ Aspartame. ”",
+      "U.S. Department of Health and Human Services: “ What is the relationship Between Aspartame Consumption and Health? ”",
+      "YaleNews: “ Yale study may help resolve the bitter debate over low-cal sweeteners. ”",
+      "Nutrients: “Aspartame—True or False? Narrative Review of Safety Analysis of General Use in Products.”",
+      "The British Journal of Nutrition: “The effect of aspartame and sucralose intake on body weight measures and blood metabolites: role of their form (solid and/or liquid) of ingestion.”",
+      "The American Journal of Clinical Nutrition: “Consumption of caffeinated and artificially sweetened soft drinks is associated with risk of early menarche.”",
+      "Journal of Nutrition & Intermediary Metabolism : “Disruption of redox homeostasis in liver function and activation of apoptosis on consumption of aspartame in folate deficient rat model.”",
+      "Research in Nursing & Health: “Neurobehavioral Effects of Aspartame Consumption.”",
+      "PLOS Medicine: “Artificial sweeteners and cancer risk: Results from the NutriNet-Santé population-based cohort study.”",
+      "World Health Organization: “IARC Monographs Hazard Classification.”",
+      "U.S. Food & Drug Administration: “Aspartame and Other Sweeteners in Food.”",
+      "Mayo Clinic: “Phenylketonuria (PKU).”",
+      "Neuropsychopharmacology: “Tardive dyskinesia exacerbated after ingestion of phenylalanine by schizophrenic patients.”",
+      "American Pregnancy Association: “Artificial Sweeteners and Pregnancy.”",
+      "Cleveland Clinic: “Is Monk Fruit a Healthy Sweetener?,” “What You Need To Know About Allulose,” “What You Should Know About Sugar Alcohols.”",
+      "European Food Safety Authority: “Aspartame.”"
+    ],
+    "published_date": "2024-02-23",
+    "scores": {
+      "faiss_similarity": 0.9533293843269348,
+      "cross_encoder_relevance": 7.156526565551758
+    },
+    "labeled_at": "2026-01-26T10:22:57.319216"
+  }
+]

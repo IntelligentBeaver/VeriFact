@@ -14,5 +14,7 @@ Model/harvester/storage/outputs/webmd/faiss/embeddings.npy
 Model/harvester/storage/outputs/webmd/faiss/metadata.json
 Model/harvester/storage/outputs/webmd/faiss/index.faiss
 Model/harvester/storage/seeds/embeddings/sapbert_embeddings.npy
-.gitignore
 Model/harvester/storage/seeds/embeddings/metadata.json
+Model/harvester/storage/webmd/allarticles
+Model/harvester/storage/webmd/articles
+Model/harvester/storage/webmd/healthtopics
