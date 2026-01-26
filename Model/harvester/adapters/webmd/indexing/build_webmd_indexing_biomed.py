@@ -53,7 +53,7 @@ INDEX_DIR = "../../../storage/outputs/webmd/faiss"
 
 # Models - MUST MATCH the models used in build_webmd_faiss_biomed.py
 EMBEDDING_MODEL = "pritamdeka/S-PubMedBert-MS-MARCO"  # Primary biomedical model
-CROSS_ENCODER_MODEL = "cross-encoder/ms-marco-MiniLM-L-12-v2"  # For reranking
+CROSS_ENCODER_MODEL = "cross-encoder/nli-deberta-v3-large"  # NLI reranker
 SAPBERT_MODEL = "cambridgeltl/SapBERT-from-PubMedBERT-fulltext"  # For medical entities
 
 # Retrieval parameters
@@ -153,6 +153,23 @@ def rerank_with_cross_encoder(query, candidates_texts, cross_encoder_model_name)
     pairs = [[query, t] for t in candidates_texts]
     scores = model.predict(pairs)
     return scores
+
+
+def nli_scores_to_relevance(raw_scores):
+    """Map NLI logits/probs (entailment, neutral, contradiction) to a relevance score."""
+    try:
+        arr = np.asarray(raw_scores)
+    except Exception:
+        return [float(x) for x in raw_scores] if raw_scores is not None else []
+
+    if arr.ndim == 2 and arr.shape[1] == 3:
+        return [float(max(row[1], row[2])) for row in arr]
+
+    # Fallback for 1D scores
+    try:
+        return [float(x) for x in arr.tolist()]
+    except Exception:
+        return [float(x) for x in raw_scores] if raw_scores is not None else []
 
 
 def interactive_loop():
@@ -486,8 +503,10 @@ def interactive_loop():
                 if cross_encoder is not None:
                     pairs = [[query, t] for t in texts]
                     ce_scores = cross_encoder.predict(pairs)
+                    ce_scores = nli_scores_to_relevance(ce_scores)
                 else:
                     ce_scores = rerank_with_cross_encoder(query, texts, CROSS_ENCODER_MODEL)
+                    ce_scores = nli_scores_to_relevance(ce_scores)
             except Exception as e:
                 print("Cross-encoder failed:", e)
                 ce_scores = [0.0] * len(texts)

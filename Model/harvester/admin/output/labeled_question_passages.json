@@ -1,22 +1,739 @@
 [
   {
-    "passage_id": "6a905d55aa61f8d9a0f270f4c7708de9180df62c_s0_b0",
-    "query": "Does dark chocolate help reduce blood pressure?",
+    "passage_id": "8e602a8a8d2a6296e42b995567438d1f1e074cf6_s7_b0",
+    "query": "HPV vaccination reduces the risk of cervical cancer.",
     "label": "question",
-    "text": "\"Take two squares of dark chocolate and call me in the morning.\" I'd be all over those doctor's orders! Can eating chocolate really be good for your health?",
-    "section_heading": null,
-    "title": "Health by Chocolate",
-    "url": "https://www.webmd.com/diet/features/health-by-chocolate",
-    "author": "Elaine Magee, RD, MPH",
-    "medically_reviewed_by": "Louise  Chang, MD",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "Vaccines for women and men can prevent an infection from the HPV strains that cause cervical cancer. Can they also protect against an oral infection and head and neck cancer?",
+    "section_heading": "Vaccines",
+    "title": "Oral HPV and Cancer",
+    "url": "https://www.webmd.com/oral-health/oral-hpv-cancer",
+    "author": "WebMD Editorial Contributors",
+    "medically_reviewed_by": "Traci C. Johnson, MD",
     "sources": [
-      "SOURCES: Ding E.L., Nutrition and Metabolism , Jan.\n       3, 2006. Grassi, D. American Journal of Clinical Nutrition , March\n       2005; vol 81, No. 3: pp 611-614. Schroeter, H. Proceedings of the National\n       Academy of Sciences , Jan. 24, 2006; vol 103; No. 4: pp 1024-1029.\n       Steinberg, F.M., Journal of the American Dietetic Association . 2003;\n       vol 103: pp 215-223. Small, D.M., Neuron , Aug. 18, 2005; vol 47: pp\n       593-605. Steve Atkin, PhD, FRCP, professor, researcher, Hull and East Yorkshire\n       Hospitals NHS Trust, England. Diane Becker, MPH, ScD, professor, department of\n       medicine; director, Center for Health Promotion, Johns Hopkins University,\n       Boston. Hagen Schroeter, PhD, researcher, department of nutrition, University\n       of California at Davis. ESHA Research, Food Processor nutrition analysis\n       software."
+      "CDC: “Human papillomavirus (HPV) and Oropharyngeal Cancer – Fact Sheet.",
+      "Johns Hopkins Medicine: “HPV and Head and Neck Cancer.”",
+      "Oral Cancer Foundation: “HPV/Oral Cancer Facts.”",
+      "Mount Sinai Hospital: “Human HPV and Throat/Oral Cancer, Frequently Asked Questions.”",
+      "Harvard Health: “How to boost your immune system.”"
     ],
-    "published_date": "2007-03-29",
+    "published_date": "2024-03-05",
     "scores": {
-      "faiss_similarity": 0.9289462566375732,
-      "cross_encoder_relevance": -1.6422594785690308
+      "faiss_similarity": 0.95,
+      "cross_encoder_relevance": 0.9987527132034302
     },
-    "labeled_at": "2026-01-26T10:35:01.230774"
+    "labeled_at": "2026-01-26T21:59:16.010264"
+  },
+  {
+    "passage_id": "5f83113f90343726ca4f3e11cc17af781b1a42a6_s7_b3",
+    "query": "PCSK9 inhibitors lower LDL cholesterol beyond statins alone.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "There are different kinds of cholesterol medications, including statins, PCSK9 inhibitors, cholesterol absorption inhibitors, and others. If your doctor has prescribed a medicine, ask why they chose it. Have they prescribed it before? How will they know if it’s working?",
+    "section_heading": null,
+    "title": "High Cholesterol and the Importance of Talking to Your Doctor",
+    "url": "https://www.webmd.com/cholesterol-management/high-cholesterol-doctor-relationship",
+    "author": "Alyson Powell Key",
+    "medically_reviewed_by": "James  Beckerman, MD, FACC",
+    "sources": [
+      "Photo Credit: SDI Productions / Getty Images",
+      "Temple Health: “8 Facts About High Cholesterol.”",
+      "CardioSmart American College of Cardiology: “Questions to Ask.”",
+      "Consumer Reports: “How to Talk to Your Doctor About Medical Costs.”",
+      "Harvard Health Publishing: “How to talk to your doctor about medication.”",
+      "FDA: “Generic Drug Facts,” “Generic Drugs: Questions & Answers.”",
+      "AMA: “What doctors wish patients knew about high cholesterol.”",
+      "Mayo Clinic: “High Cholesterol.”",
+      "CDC: “How and When to Have Your Cholesterol Checked.”"
+    ],
+    "published_date": "2024-05-24",
+    "scores": {
+      "faiss_similarity": 0.95,
+      "cross_encoder_relevance": 0.9457191228866577
+    },
+    "labeled_at": "2026-01-26T22:00:58.358763"
+  },
+  {
+    "passage_id": "382ed344aea1a1ec42c979d89700c8437ffe4dc5_s11_b0",
+    "query": "Bariatric surgery improves glycemic control in severe obesity with type 2 diabetes.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "When you're considering bariatric surgeons, ask the following questions:\nAre they board-certified by the American Board of Surgery?\nAre they members of the American Society for Metabolic and Bariatric Surgery?\nWhat’s their success rate?\nHow many weight loss surgeries do they perform each year?\nHow often do their patients have complications? What side effects are most common?",
+    "section_heading": "How Do I Find a Surgeon?",
+    "title": "How to Prepare for Weight Loss Surgery",
+    "url": "https://www.webmd.com/obesity/cm/preparing-for-weight-loss-surgery",
+    "author": "Heather Hatfield",
+    "medically_reviewed_by": "Shruthi  N, MD",
+    "sources": [
+      "Photo Credit: Paul Harizan / Getty Images",
+      "Daniel Herron, MD, bariatric surgery chief, Mt. Sinai Hospital, New York.",
+      "James Kolenich, MD, former University of Pennsylvania Medical Center bariatric surgeon.",
+      "Joe De Simone, PhD, psychologist, New York.",
+      "Harvey J. Sugerman, MD, editor-in-chief, Surgery for Obesity and Related Diseases ; bariatric surgeon, Sanibel, FL.",
+      "American Obesity Association.",
+      "National Institute of Diabetes and Digestive and Kidney Diseases.",
+      "News release, Allergan.",
+      "American Society for Metabolic and Bariatric Surgery: \"Bariatric Surgery.\"",
+      "Kelvin D. Higa, MD, program director of minimally invasive and bariatric surgery, Fresno Heart & Surgical Hospital, Fresno, CA; past president, American Society for Metabolic and Bariatric Surgery.",
+      "Walter Pories, MD, professor, founding chair of surgery department, Brody School of Medicine at East Carolina University, Greenville, NC.",
+      "Buchwald, H. The Journal of the American Medical Association , Oct. 13, 2004.",
+      "Sjöström, L. New England Journal of Medicine , Dec. 23, 2004.",
+      "Colquitt, J. Cochrane Database of Systematic Reviews , 2009.",
+      "Brolin, R. The Journal of the American Medical Association , Dec. 11, 2002.",
+      "Buchwald, H. Surgery , October 2007.",
+      "McMahon, M. Mayo Clinic Proceedings , October 2006."
+    ],
+    "published_date": "2024-09-19",
+    "scores": {
+      "faiss_similarity": 0.9487152099609375,
+      "cross_encoder_relevance": 0.010606448166072369
+    },
+    "labeled_at": "2026-01-26T22:01:37.075336"
+  },
+  {
+    "passage_id": "4174390422294be4035566be5689892266cbfe12_s0_b0",
+    "query": "Chronic kidney disease can cause anemia.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "If you have chronic kidney disease , anemia is a possible complication. But how will your doctor discover if you have anemia?",
+    "section_heading": null,
+    "title": "How Anemia in Chronic Kidney Disease Is Diagnosed",
+    "url": "https://www.webmd.com/a-to-z-guides/anemia-ckd-diagnosis",
+    "author": "Linda Rath",
+    "medically_reviewed_by": "Shruthi  N, MD",
+    "sources": [
+      "National Institute of Diabetes and Digestive and Kidney Diseases: “Anemia in Chronic Kidney Disease.”",
+      "Labtestsonline.org: “Complete Blood Count (CBC),” “Ferritin.”",
+      "National Kidney Foundation: “Anemia and Chronic Kidney Disease.”",
+      "Acta Haematologica : “Iron Deficiency Anemia in Chronic Kidney Disease.”",
+      "Agency for Healthcare Research and Quality: “Laboratory Biomarkers for Iron Deficiency Anemia in Late Stage Chronic Kidney Disease.”",
+      "Renal Replacement Therapy : “Lessons from clinical trials with erythropoiesis-stimulating agents (ESAs)."
+    ],
+    "published_date": "2024-08-06",
+    "scores": {
+      "faiss_similarity": 0.95,
+      "cross_encoder_relevance": 0.9996229410171509
+    },
+    "labeled_at": "2026-01-26T22:02:49.868239"
+  },
+  {
+    "passage_id": "9a3fae38d7cdbf36c279095b322ed0cdc938a980_s25_b0",
+    "query": "Low vitamin D levels are associated with reduced bone mineral density.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "How much calcium and vitamin D do I need per day? Which foods should I avoid or eat more of? Lifestyle and Fracture Prevention Which exercises are safe for me? What should I do to prevent falls? Follow-Up What symptoms or warning signs should I look out for? When should I follow up with you? Causes and Risk Factors Why do I have osteoporosis? Is it hereditary? Should I tell my family? Are my hormone levels (such as estrogen or testosterone) affecting my bones?",
+    "section_heading": "Nutrition and Supplements",
+    "title": "Treatments to Slow Osteoporosis Progression",
+    "url": "https://www.webmd.com/osteoporosis/cm/slow-progression-osteoporosis-treatments",
+    "author": "",
+    "medically_reviewed_by": "",
+    "sources": [
+      "Elaine Yu, MD, director, Bone Density Center, Massachusetts General Hospital."
+    ],
+    "published_date": "",
+    "scores": {
+      "faiss_similarity": 0.95,
+      "cross_encoder_relevance": 0.00047215810627676547
+    },
+    "labeled_at": "2026-01-26T22:03:33.344423"
+  },
+  {
+    "passage_id": "b20a619b8996018bed83c60a12e8063148d3de30_s0_b2",
+    "query": "Physical inactivity increases risk of osteoporosis.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "Osteoporosis medications and physical activity can tip the balance of bone remodeling, preserving bone strength. How does bone remodeling work? What can be done to slow down or reverse bone loss? Read on to learn what you can do to keep your bones healthy and strong.",
+    "section_heading": null,
+    "title": "Osteoporosis Medications: How They Work",
+    "url": "https://www.webmd.com/osteoporosis/features/osteoporosis-medications",
+    "author": "Matthew Hoffman, MD",
+    "medically_reviewed_by": "Brunilda  Nazario, MD",
+    "sources": [
+      "National Osteoporosis Foundation web site: \"Fast Facts.\"",
+      "Young, B., Wheater's Functional Histology , 4th Edition, Churchill\n       Livingstone.",
+      "Rodan, G., Journal of Clinical Investigation, 1996; vol 97: pp\n       2692-2696.",
+      "Carstens, J., Calcified Tissue International, 1991; vol 49: pp\n       S2-S6.",
+      "U.S. Library of Medicine, MedlinePlus web site: \"Raloxifene,\"\n       \"Calcitriol.\"",
+      "U.S. Food and Drug Administration web site: \"FDA Approves Teriparatide\n       to Treat Osteoporosis.\"",
+      "Hodsman, A., Endocrine Reviews, 2005; vol 26: pp 688-703.",
+      "Mary Rhee, MD, MS, endocrinologist, assistant professor of medicine, Emory\n       University, Atlanta.",
+      "Felicia Cosman, MD, clinical director, National Osteoporosis Foundation.",
+      "Mary Zoe Baker, MD, endocrinologist, professor of medicine, University of\n       Oklahoma Health Sciences Center."
+    ],
+    "published_date": "2007-07-31",
+    "scores": {
+      "faiss_similarity": 0.9377500414848328,
+      "cross_encoder_relevance": 0.09240086376667023
+    },
+    "labeled_at": "2026-01-26T22:04:56.157547"
+  },
+  {
+    "passage_id": "9a3fae38d7cdbf36c279095b322ed0cdc938a980_s25_b0",
+    "query": "Physical inactivity increases risk of osteoporosis.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "How much calcium and vitamin D do I need per day? Which foods should I avoid or eat more of? Lifestyle and Fracture Prevention Which exercises are safe for me? What should I do to prevent falls? Follow-Up What symptoms or warning signs should I look out for? When should I follow up with you? Causes and Risk Factors Why do I have osteoporosis? Is it hereditary? Should I tell my family? Are my hormone levels (such as estrogen or testosterone) affecting my bones?",
+    "section_heading": "Nutrition and Supplements",
+    "title": "Treatments to Slow Osteoporosis Progression",
+    "url": "https://www.webmd.com/osteoporosis/cm/slow-progression-osteoporosis-treatments",
+    "author": "",
+    "medically_reviewed_by": "",
+    "sources": [
+      "Elaine Yu, MD, director, Bone Density Center, Massachusetts General Hospital."
+    ],
+    "published_date": "",
+    "scores": {
+      "faiss_similarity": 0.9363007545471191,
+      "cross_encoder_relevance": 0.0011597577249631286
+    },
+    "labeled_at": "2026-01-26T22:04:58.437318"
+  },
+  {
+    "passage_id": "9a3fae38d7cdbf36c279095b322ed0cdc938a980_s27_b0",
+    "query": "Physical inactivity increases risk of osteoporosis.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "How much calcium and vitamin D do I need per day? Which foods should I avoid or eat more of? Which exercises are safe for me? What should I do to prevent falls? Follow-Up What symptoms or warning signs should I look out for? When should I follow up with you? Causes and Risk Factors Why do I have osteoporosis? Is it hereditary? Should I tell my family? Are my hormone levels (such as estrogen or testosterone) affecting my bones?",
+    "section_heading": "Lifestyle and Fracture Prevention",
+    "title": "Treatments to Slow Osteoporosis Progression",
+    "url": "https://www.webmd.com/osteoporosis/cm/slow-progression-osteoporosis-treatments",
+    "author": "",
+    "medically_reviewed_by": "",
+    "sources": [
+      "Elaine Yu, MD, director, Bone Density Center, Massachusetts General Hospital."
+    ],
+    "published_date": "",
+    "scores": {
+      "faiss_similarity": 0.9357978105545044,
+      "cross_encoder_relevance": 0.0012843864969909191
+    },
+    "labeled_at": "2026-01-26T22:04:58.453179"
+  },
+  {
+    "passage_id": "7f0748dfa59debdaa910f9f261e55d1550f7b758_s2_b0",
+    "query": "Air pollution exposure can worsen asthma symptoms.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "Next, your doctor will ask about your symptoms and overall health to figure out if asthma or something else is causing your problem. Some questions might include:\nWhat are your symptoms?\nWhen do you have them?\nWhat seems to trigger them? What about cold air, exercise, or allergies?\nDo you have hay fever or allergies?\nDoes a family member have hay fever, asthma, or allergies?\nWhat other health problems do you have?\nWhat medications do you take?\nDo you often come into contact with tobacco smoke, pets, dust, or chemicals in the air?\nWhat do you do for a living?",
+    "section_heading": "Medical History",
+    "title": "Asthma Diagnosis and Tests",
+    "url": "https://www.webmd.com/asthma/diagnosing-asthma-tests",
+    "author": "WebMD Editorial Contributors",
+    "medically_reviewed_by": "Jennifer  Robinson, MD",
+    "sources": [
+      "The Canadian Lung Association: \"Signs and Symptoms of Asthma: Diagnosis.\"",
+      "National Jewish Medical and Research Center: \"How Is Asthma Diagnosed?\"",
+      "American College of Allergy, Asthma & Immunology: \"About Asthma: Diagnosing Asthma.\"",
+      "Mayo Clinic: “Asthma: Steps in testing and diagnosis.”",
+      "Medscape: “Asthma Guidelines.”",
+      "American Academy of Asthma, Allergy, and Immunology: \"What to expect at the doctor's office.\"",
+      "American Lung Association: \"Spirometry and Other Lung Function Tests Fact Sheet.\"",
+      "American Medical Association: Essential Guide to Asthma.",
+      "Asthma and Allergy Foundation of America: \"Peak Flow Meters.\"",
+      "Grayson, M. ACP Medicine, 2005.",
+      "National Asthma Education and Prevention Program: \"Expert Panel Report 3: Guidelines for the Diagnosis and Management of Asthma -- 2002.\"",
+      "National Heart, Lung and Blood Institute: \"Asthma: How is Asthma Diagnosed?\"",
+      "MedlinePlus: \"Pulmonary Function Tests.\"",
+      "National Lung Health Education Program: \"Spirometry.\""
+    ],
+    "published_date": "2023-05-10",
+    "scores": {
+      "faiss_similarity": 0.95,
+      "cross_encoder_relevance": 0.044856537133455276
+    },
+    "labeled_at": "2026-01-26T22:05:03.679243"
+  },
+  {
+    "passage_id": "9e06fd4c7698bb0fddd5570a64e17d8558cf2eeb_s0_b0",
+    "query": "Chronic obstructive pulmonary disease is linked to long-term tobacco exposure.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "Most people link cigarette smoking to breathing problems and lung cancer . But did you know that smoking is also a major risk factor for heart disease?",
+    "section_heading": "How Smoking Affects the Heart",
+    "title": "Smoking and Heart Disease",
+    "url": "https://www.webmd.com/heart-disease/smoking-heart-disease",
+    "author": "Shawna Seed",
+    "medically_reviewed_by": "Jabeen  Begum, MD",
+    "sources": [
+      "National Heart, Lung, and Blood Institute: \"The Healthy Heart Handbook for Women,\" \"Your Guide to a Healthy Heart.\""
+    ],
+    "published_date": "2024-02-14",
+    "scores": {
+      "faiss_similarity": 0.9471335411071777,
+      "cross_encoder_relevance": 0.07410939782857895
+    },
+    "labeled_at": "2026-01-26T22:09:40.129983"
+  },
+  {
+    "passage_id": "9e06fd4c7698bb0fddd5570a64e17d8558cf2eeb_s0_b0",
+    "query": "Smoking increases the risk of chronic obstructive pulmonary disease.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "Most people link cigarette smoking to breathing problems and lung cancer . But did you know that smoking is also a major risk factor for heart disease?",
+    "section_heading": "How Smoking Affects the Heart",
+    "title": "Smoking and Heart Disease",
+    "url": "https://www.webmd.com/heart-disease/smoking-heart-disease",
+    "author": "Shawna Seed",
+    "medically_reviewed_by": "Jabeen  Begum, MD",
+    "sources": [
+      "National Heart, Lung, and Blood Institute: \"The Healthy Heart Handbook for Women,\" \"Your Guide to a Healthy Heart.\""
+    ],
+    "published_date": "2024-02-14",
+    "scores": {
+      "faiss_similarity": 0.95,
+      "cross_encoder_relevance": 0.8762189149856567
+    },
+    "labeled_at": "2026-01-26T22:11:04.152403"
+  },
+  {
+    "passage_id": "4ab9f12e00b3683dada53e00e8ca4a5ae329f90b_s2_b0",
+    "query": "Colon polyps can be precursors to colorectal cancer.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "Several conditions of the colon can lead to colorectal cancer. What are they and how are they treated?",
+    "section_heading": "3 of 4 / Treatment",
+    "title": "Colorectal Cancer Resource Center",
+    "url": "https://www.webmd.com/colorectal-cancer/inherited-colorectal-cancer",
+    "author": "",
+    "medically_reviewed_by": "",
+    "sources": [],
+    "published_date": "",
+    "scores": {
+      "faiss_similarity": 0.95,
+      "cross_encoder_relevance": 0.8552444577217102
+    },
+    "labeled_at": "2026-01-26T22:15:02.668808"
+  },
+  {
+    "passage_id": "9b0377c16f5865b607e984a4006fe5671edf2220_s0_b0",
+    "query": "Colon polyps can be precursors to colorectal cancer.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "Several conditions of the colon can lead to colorectal cancer . What are they and how are they treated?",
+    "section_heading": null,
+    "title": "Treatment of Precancerous Colon Conditions",
+    "url": "https://www.webmd.com/colorectal-cancer/treatment-precancerous-colon-conditions",
+    "author": "WebMD Editorial Contributors",
+    "medically_reviewed_by": "Laura J. Martin, MD",
+    "sources": [
+      "SOURCE:",
+      "American Cancer Society."
+    ],
+    "published_date": "2025-03-02",
+    "scores": {
+      "faiss_similarity": 0.95,
+      "cross_encoder_relevance": 0.8552444577217102
+    },
+    "labeled_at": "2026-01-26T22:15:02.670622"
+  },
+  {
+    "passage_id": "e8579f968381d2d6a7840bd04bbfa0ca728eaf03_s0_b0",
+    "query": "Smoking increases the risk of bladder cancer.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "Smoking is one of the biggest risk factors for bladder cancer . But did you know there could be another culprit sitting in your medicine cabinet?",
+    "section_heading": null,
+    "title": "Aristolochic Acids and Bladder Cancer",
+    "url": "https://www.webmd.com/cancer/bladder-cancer/aristolochic-acids-bladder-cancer",
+    "author": "Regina Boyle Wheeler",
+    "medically_reviewed_by": "Laura J. Martin, MD",
+    "sources": [
+      "Alternative & Integrative Medicine : “ Herbal remedies: Natural but not unhazardous - Study cases of Aristolochia intoxication .”",
+      "American Association for the Advancement of Science: “ Common Herbal Supplement Linked to Cancer .”",
+      "International Agency for Research on Cancer: “ Aristocancers: Investigating Human Cancers Associated with Exposure to Aristolochic Acids .”",
+      "National Cancer Institute: “ Aristolochic Acids .”",
+      "Sandeep Nayak, director, Department of Surgical Oncology, Fortis Hospital, Bangalore, India; MBBS; Member, National Academy of Medical Sciences (India), general surgery; Diplomate of National Board, general surgery, surgical oncology.",
+      "Lee Richstone, MD, chair of urology, Northwell Lenox Hill Hospital, New York.",
+      "Daniel Spratt, MD, chair and professor, Department of Radiation Oncology, Case Western Reserve University, Cleveland, Ohio.",
+      "Ian Udell, MD, urologic surgeon, Beacon Clinic, Coeur d’Alene, Idaho.",
+      "UpToDate: “ Nephropathy induced by aristolochic acid (AA) containing herbs ,” “ Balkan endemic nephropathy .”",
+      "FDA: “ Dietary Supplements .”"
+    ],
+    "published_date": "2025-06-28",
+    "scores": {
+      "faiss_similarity": 0.95,
+      "cross_encoder_relevance": 0.999704897403717
+    },
+    "labeled_at": "2026-01-26T22:15:33.722107"
+  },
+  {
+    "passage_id": "b588e07795ab6593b706f93e811d810bb9e7169d_s1_b1",
+    "query": "Excess UV exposure increases risk of cataracts.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "It is common knowledge that UV radiation may damage the skin, but did you know that both short-term and long-term exposure to UV radiation can cause damage to your eyes? Here are some of the effects of UV radiation exposure on your eyes.",
+    "section_heading": null,
+    "title": "UV Light Protection and Your Eyes",
+    "url": "https://blogs.webmd.com/eye-health/20230914/uv-light-protection-and-your-eyes",
+    "author": "",
+    "medically_reviewed_by": "",
+    "sources": [],
+    "published_date": "",
+    "scores": {
+      "faiss_similarity": 0.9478698968887329,
+      "cross_encoder_relevance": 0.010125373490154743
+    },
+    "labeled_at": "2026-01-26T22:15:54.753717"
+  },
+  {
+    "passage_id": "4077e8d6214aa496213aad3214cd911a0b1e4550_s20_b1",
+    "query": "High saturated fat intake is associated with increased LDL cholesterol.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "What foods cause high LDL? Fatty foods like red and processed meats, full-fat dairy, fried foods, and sweets can raise your LDL.",
+    "section_heading": "LDL Cholesterol FAQs",
+    "title": "LDL Cholesterol",
+    "url": "https://www.webmd.com/heart-disease/ldl-cholesterol-the-bad-cholesterol",
+    "author": "Deanna Altomara, Matthew Hoffman, MD, Kristin Mitchell",
+    "medically_reviewed_by": "Poonam  Sachdev",
+    "sources": [
+      "American Academy of Family Physicians: “High Cholesterol.”",
+      "American Heart Association: \"Good Cholesterol vs. Bad Cholesterol,” \"LDL and HDL Cholesterol: What's Bad and What's Good?\"",
+      "CDC: “Cholesterol,” \"Testing for Cholesterol.\"",
+      "Cleveland Clinic: “Cholesterol Guidelines and Heart Health,” “LDL Cholesterol.”",
+      "Jenkins, D.K. Journal of the American Medical Association , July 23, 2003.",
+      "MedlinePlus: “LDL: The ‘Bad’ Cholesterol,” \"Cholesterol Levels: What You Need to Know.\"",
+      "National Heart, Lung, and Blood Institute: \"High Blood Cholesterol: What You Need to Know,\" “High Blood Cholesterol.”",
+      "Physicians Committee for Responsible Medicine: \"Carbohydrates: Complex Carbs vs Simple Carbs.\"",
+      "Stefanick, M.L. New England Journal of Medicine , 1998.",
+      "Tabas, I. Journal of Clinical Investigation , 2002."
+    ],
+    "published_date": "2024-07-17",
+    "scores": {
+      "faiss_similarity": 0.95,
+      "cross_encoder_relevance": 0.8899677991867065
+    },
+    "labeled_at": "2026-01-26T22:20:13.477803"
+  },
+  {
+    "passage_id": "4ab9f12e00b3683dada53e00e8ca4a5ae329f90b_s2_b0",
+    "query": "Inflammatory bowel disease increases colorectal cancer risk.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "Several conditions of the colon can lead to colorectal cancer. What are they and how are they treated?",
+    "section_heading": "3 of 4 / Treatment",
+    "title": "Colorectal Cancer Resource Center",
+    "url": "https://www.webmd.com/colorectal-cancer/inherited-colorectal-cancer",
+    "author": "",
+    "medically_reviewed_by": "",
+    "sources": [],
+    "published_date": "",
+    "scores": {
+      "faiss_similarity": 0.95,
+      "cross_encoder_relevance": 0.18481793999671936
+    },
+    "labeled_at": "2026-01-26T22:21:09.444474"
+  },
+  {
+    "passage_id": "9b0377c16f5865b607e984a4006fe5671edf2220_s0_b0",
+    "query": "Inflammatory bowel disease increases colorectal cancer risk.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "Several conditions of the colon can lead to colorectal cancer . What are they and how are they treated?",
+    "section_heading": null,
+    "title": "Treatment of Precancerous Colon Conditions",
+    "url": "https://www.webmd.com/colorectal-cancer/treatment-precancerous-colon-conditions",
+    "author": "WebMD Editorial Contributors",
+    "medically_reviewed_by": "Laura J. Martin, MD",
+    "sources": [
+      "SOURCE:",
+      "American Cancer Society."
+    ],
+    "published_date": "2025-03-02",
+    "scores": {
+      "faiss_similarity": 0.95,
+      "cross_encoder_relevance": 0.18481793999671936
+    },
+    "labeled_at": "2026-01-26T22:21:09.446443"
+  },
+  {
+    "passage_id": "e69f50eca7faa0ea5d3e7f2452b5fec7a46bfe52_s18_b0",
+    "query": "Inflammatory bowel disease increases colorectal cancer risk.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "When your doctor tells you that you have inflammatory bowel disease, you'll want to get as much information as possible. Be prepared with questions, such as:\nCould any condition other than IBD be causing my symptoms?\nDo I have ulcerative colitis or Crohn's disease?\nWhat parts of my digestive system has it affected?\nWhat treatments do you recommend?\nHow soon should I expect relief?\nWhat side effects from the medicines should I watch out for? What should I do if I notice them?\nWhat should I do if my symptoms return? Are any considered an emergency?\nAre there symptoms outside the digestive system that could be caused by IBD?\nShould I change my diet or take nutritional supplements?\nWould it help me to make any other lifestyle changes?\nWhen should I have a follow-up appointment, and should I see a specialist?\nWhat is the long-term outlook for my IBD?\nHow often do I need to get a colonoscopy?",
+    "section_heading": "What Do You Need to Know About IBD?",
+    "title": "Inflammatory Bowel Disease: Symptoms and Treatment",
+    "url": "https://www.webmd.com/ibd-crohns-disease/inflammatory-bowel-disease",
+    "author": "Kim Painter",
+    "medically_reviewed_by": "Shruthi  N, MD",
+    "sources": [
+      "CDC: \"Inflammatory Bowel Disease.\"",
+      "Cleveland Clinic: \"Inflammatory Bowel Disease,\" \"Stress Management and Emotional Health,\" \"Understanding the Differences Between IBD and IBS.\"",
+      "Crohn’s and Colitis Canada: \"Treatment and Medication.\"",
+      "Crohn's & Colitis Foundation: \"Causes of Crohn’s Disease,\" \"Maintenance Therapy,\" \"What is Crohn's Disease?\" \"Surgery for Crohn’s Disease,\" \"Surgery for Ulcerative Colitis,\" \"What is Crohn's Disease?\" \"What is Ulcerative Colitis?\"",
+      "FDA: “FDA Approves Inflectra, a Biosimilar to Remicade,” “FDA approves Amjevita, a Biosimilar to Humira.”",
+      "Intestinal Research: \"Does Caffeine Have a Double-Edged Sword Role in Inflammation and Carcinogenesis in the Colon?\"",
+      "JAMA Pediatrics: \"Inflammatory Bowel Disease in Children and Adolescents.",
+      "Johns Hopkins Health: \"Inflammatory Bowel Disease (IBD).\"",
+      "Mayo Clinic: \"Capsule Endoscopy,\" \"Inflammatory Bowel Disease.\"",
+      "National Institute of Diabetes and Digestive and Kidney Diseases: \"Treatment for Crohn’s Disease,\" \"Treatment for Ulcerative Colitis.\"",
+      "Nutrition Journal: \"Patients’ Perceptions On The Impact of Coffee Consumption in Inflammatory Bowel Disease: Friend or Foe? – A Patient Survey.\"",
+      "NYU Langone Health: \"Medication for Inflammatory Bowel Disease.\"",
+      "Office on Women's Health: \"Inflammatory Bowel Disease.\"",
+      "The Journal of Clinical Investigation: \"The Fundamental Basis of Inflammatory Bowel Disease.\"",
+      "Faten Aberra, MD, associate professor of medicine, gastroenterology division, University of Pennsylvania.",
+      "Raymond K. Cross Jr., MD, professor of medicine, gastroenterology division, University of Maryland School of Medicine.",
+      "Kristen Farwell, MD, gastroenterologist, Lahey Hospital & Medical Center, Burlington, MA.",
+      "Edward V. Loftus Jr., MD, professor of medicine, division of gastroenterology and hepatology, Mayo Clinic, Rochester, MN."
+    ],
+    "published_date": "2024-12-12",
+    "scores": {
+      "faiss_similarity": 0.9456893801689148,
+      "cross_encoder_relevance": 0.0008643520413897932
+    },
+    "labeled_at": "2026-01-26T22:21:11.665147"
+  },
+  {
+    "passage_id": "8482bb1186253afbf09463aa83b33e61319d945a_s0_b0",
+    "query": "Ulcerative colitis primarily affects the colon.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "Ulcerative colitis affects your colon, which is part of your digestive system. Many conditions can cause stomach pain and digestive issues, so how do you know if you have ulcerative colitis?",
+    "section_heading": null,
+    "title": "Signs and Symptoms of Ulcerative Colitis",
+    "url": "https://www.webmd.com/ibd-crohns-disease/ulcerative-colitis/symptoms-ulcerative-colitis",
+    "author": "Marijke Vroomen Durning, RN",
+    "medically_reviewed_by": "Zilpah  Sheikh, MD",
+    "sources": [
+      "American College of Gastroenterology: “Ulcerative Colitis.”",
+      "Cleveland Clinic: “Ulcerative Colitis,” “Tenesmus.”",
+      "Crohn’s & Colitis Foundation of America: “What is Ulcerative Colitis?” “Colitis Treatment Options,” “Colitis Diagnosis & Testing.”",
+      "National Institute of Diabetes and Digestive and Kidney Diseases: “Ulcerative Colitis.”",
+      "European Journal of Hepatology and Gastroenterology.",
+      "Crohn’s and Colitis Foundation: “What Should I Eat?”",
+      "Crohn’s & Colitis UK: “Flare-ups.”",
+      "Gastroenterology & Hepatology (New York) : “Extraintestinal Manifestations of Inflammatory Bowel Disease.”",
+      "Harvard Health Publishing: “Arthritis associated with inflammatory bowel disease.”",
+      "Johns Hopkins Medicine: “Toxic Megacolon,” “Crohn’s and Ulcerative Colitis Pose Special Concerns for Women.”",
+      "Mayo Clinic: “Ulcerative colitis flare-ups: 5 tips to manage them.”",
+      "Penn Medicine: “Ulcerative Colitis.”",
+      "UConn Health: “Lower Leg.”"
+    ],
+    "published_date": "2024-08-12",
+    "scores": {
+      "faiss_similarity": 0.95,
+      "cross_encoder_relevance": 0.9993322491645813
+    },
+    "labeled_at": "2026-01-26T22:21:39.767201"
+  },
+  {
+    "passage_id": "7f0748dfa59debdaa910f9f261e55d1550f7b758_s2_b0",
+    "query": "Uncontrolled asthma increases risk of exacerbations.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "Next, your doctor will ask about your symptoms and overall health to figure out if asthma or something else is causing your problem. Some questions might include:\nWhat are your symptoms?\nWhen do you have them?\nWhat seems to trigger them? What about cold air, exercise, or allergies?\nDo you have hay fever or allergies?\nDoes a family member have hay fever, asthma, or allergies?\nWhat other health problems do you have?\nWhat medications do you take?\nDo you often come into contact with tobacco smoke, pets, dust, or chemicals in the air?\nWhat do you do for a living?",
+    "section_heading": "Medical History",
+    "title": "Asthma Diagnosis and Tests",
+    "url": "https://www.webmd.com/asthma/diagnosing-asthma-tests",
+    "author": "WebMD Editorial Contributors",
+    "medically_reviewed_by": "Jennifer  Robinson, MD",
+    "sources": [
+      "The Canadian Lung Association: \"Signs and Symptoms of Asthma: Diagnosis.\"",
+      "National Jewish Medical and Research Center: \"How Is Asthma Diagnosed?\"",
+      "American College of Allergy, Asthma & Immunology: \"About Asthma: Diagnosing Asthma.\"",
+      "Mayo Clinic: “Asthma: Steps in testing and diagnosis.”",
+      "Medscape: “Asthma Guidelines.”",
+      "American Academy of Asthma, Allergy, and Immunology: \"What to expect at the doctor's office.\"",
+      "American Lung Association: \"Spirometry and Other Lung Function Tests Fact Sheet.\"",
+      "American Medical Association: Essential Guide to Asthma.",
+      "Asthma and Allergy Foundation of America: \"Peak Flow Meters.\"",
+      "Grayson, M. ACP Medicine, 2005.",
+      "National Asthma Education and Prevention Program: \"Expert Panel Report 3: Guidelines for the Diagnosis and Management of Asthma -- 2002.\"",
+      "National Heart, Lung and Blood Institute: \"Asthma: How is Asthma Diagnosed?\"",
+      "MedlinePlus: \"Pulmonary Function Tests.\"",
+      "National Lung Health Education Program: \"Spirometry.\""
+    ],
+    "published_date": "2023-05-10",
+    "scores": {
+      "faiss_similarity": 0.95,
+      "cross_encoder_relevance": 1.7565178495715372e-05
+    },
+    "labeled_at": "2026-01-26T22:22:41.596781"
+  },
+  {
+    "passage_id": "f1da8bfe90726c15ae4a01fe7a30a612cb12a964_s0_b0",
+    "query": "Uncontrolled asthma increases risk of exacerbations.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "Ever hear the term \" bronchial asthma \" and wonder what it means? When people talk about bronchial asthma, they are really talking about asthma, a chronic inflammatory disease of the airways that causes periodic \"attacks\" of coughing , wheezing , shortness of breath, and chest tightness.",
+    "section_heading": null,
+    "title": "Bronchial Asthma",
+    "url": "https://www.webmd.com/asthma/bronchial-asthma",
+    "author": "WebMD Editorial Contributors",
+    "medically_reviewed_by": "Carol  DerSarkissian, MD",
+    "sources": [
+      "SOURCES: Smolley, L . Breathe Right Now , New York, Dell, 1998. National Heart Lung and Blood Institute: \"Expert Panel Report 3 (EPR 3): Guidelines for the Diagnosis and Management of Asthma.\" Global Initiative for Asthma Management and Prevention. NHLBI/WHO Workshop Report, U.S. Department of Health and Human Services. National Institutes of Health, Bethesda, 1995; Pub #95-3659. CDC: FastStats: \"Asthma.\" American Academy of Allergy, Asthma & Immunology: \"Trends in Allergic Disease.\""
+    ],
+    "published_date": "2025-07-06",
+    "scores": {
+      "faiss_similarity": 0.9481710195541382,
+      "cross_encoder_relevance": 0.00014415702025871724
+    },
+    "labeled_at": "2026-01-26T22:22:42.827174"
+  },
+  {
+    "passage_id": "7f0748dfa59debdaa910f9f261e55d1550f7b758_s2_b0",
+    "query": "Allergic rhinitis can worsen asthma control.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "Next, your doctor will ask about your symptoms and overall health to figure out if asthma or something else is causing your problem. Some questions might include:\nWhat are your symptoms?\nWhen do you have them?\nWhat seems to trigger them? What about cold air, exercise, or allergies?\nDo you have hay fever or allergies?\nDoes a family member have hay fever, asthma, or allergies?\nWhat other health problems do you have?\nWhat medications do you take?\nDo you often come into contact with tobacco smoke, pets, dust, or chemicals in the air?\nWhat do you do for a living?",
+    "section_heading": "Medical History",
+    "title": "Asthma Diagnosis and Tests",
+    "url": "https://www.webmd.com/asthma/diagnosing-asthma-tests",
+    "author": "WebMD Editorial Contributors",
+    "medically_reviewed_by": "Jennifer  Robinson, MD",
+    "sources": [
+      "The Canadian Lung Association: \"Signs and Symptoms of Asthma: Diagnosis.\"",
+      "National Jewish Medical and Research Center: \"How Is Asthma Diagnosed?\"",
+      "American College of Allergy, Asthma & Immunology: \"About Asthma: Diagnosing Asthma.\"",
+      "Mayo Clinic: “Asthma: Steps in testing and diagnosis.”",
+      "Medscape: “Asthma Guidelines.”",
+      "American Academy of Asthma, Allergy, and Immunology: \"What to expect at the doctor's office.\"",
+      "American Lung Association: \"Spirometry and Other Lung Function Tests Fact Sheet.\"",
+      "American Medical Association: Essential Guide to Asthma.",
+      "Asthma and Allergy Foundation of America: \"Peak Flow Meters.\"",
+      "Grayson, M. ACP Medicine, 2005.",
+      "National Asthma Education and Prevention Program: \"Expert Panel Report 3: Guidelines for the Diagnosis and Management of Asthma -- 2002.\"",
+      "National Heart, Lung and Blood Institute: \"Asthma: How is Asthma Diagnosed?\"",
+      "MedlinePlus: \"Pulmonary Function Tests.\"",
+      "National Lung Health Education Program: \"Spirometry.\""
+    ],
+    "published_date": "2023-05-10",
+    "scores": {
+      "faiss_similarity": 0.9499927759170532,
+      "cross_encoder_relevance": 4.761140371556394e-05
+    },
+    "labeled_at": "2026-01-26T22:25:26.941721"
+  },
+  {
+    "passage_id": "8e89ad9892df191f514e96e66267fa7eef864ec9_s0_b2",
+    "query": "High-risk pregnancies benefit from prenatal care.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "But what if you're not at high risk? Should you check your genes before you get pregnant? Your doctor or a genetic counselor can help you decide.",
+    "section_heading": null,
+    "title": "Should You Screen Your Genes Before You Conceive?",
+    "url": "https://www.webmd.com/baby/genetic-tests-before-pregnancy",
+    "author": "WebMD Editorial Contributors",
+    "medically_reviewed_by": "Traci C. Johnson, MD",
+    "sources": [
+      "University of California at San Francisco Medical Center: \"Preconception Carrier Screening and Testing for Genetic Disorders.\"",
+      "The American College of Obstetricians and Gynecologists: \"Preconception Carrier Screening,\" \"Expanded Carrier Screening in Reproductive Medicine -- Points to Consider.\"",
+      "Cystic Fibrosis Foundation: \"Introduction to Cystic Fibrosis.\"",
+      "Edwards, J. Obstetrics and Gynecology , 2015.",
+      "Shapira, S. Maternal and Child Health Journal , 2006.",
+      "Genetics Home Reference: \"Genetic Testing.\"",
+      "Penn Medicine: \"Preimplantation Genetic Diagnosis (Embryo Screening).\""
+    ],
+    "published_date": "2024-03-09",
+    "scores": {
+      "faiss_similarity": 0.9498717784881592,
+      "cross_encoder_relevance": 0.007677054964005947
+    },
+    "labeled_at": "2026-01-26T22:26:30.614196"
+  },
+  {
+    "passage_id": "92cc46f32bf5cc9831e174038dd68273849bf58e_s11_b0",
+    "query": "High-risk pregnancies benefit from prenatal care.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "Now, we know that prenatal care plays a critical role, but we also have to acknowledge — you know, everyone doesn't get prenatal care in the United States, and that sometimes is surprising, especially for first pregnancies. But what can be done at the community and the healthcare system level to close these disparities in care and outcomes?",
+    "section_heading": "Whyte:",
+    "title": "Stillbirth and Maternal Care Gaps: Risks, Support, and Advocacy",
+    "url": "https://www.webmd.com/podcasts/20250410/stillbirth-and-maternal-care-gaps-risks-support-advocacy",
+    "author": "",
+    "medically_reviewed_by": "",
+    "sources": [],
+    "published_date": "",
+    "scores": {
+      "faiss_similarity": 0.9491002559661865,
+      "cross_encoder_relevance": 0.6745027899742126
+    },
+    "labeled_at": "2026-01-26T22:26:32.231264"
+  },
+  {
+    "passage_id": "02a2003a5ef005ef237ba538d5df79b90a354c0c_s14_b0",
+    "query": "High-risk pregnancies benefit from prenatal care.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "If your doctor suggests prenatal testing , consider asking:\nWhy do I need these tests?\nWhat will the results tell me? What will they not show?\nWhat happens if I don't get the test?\nWhat will I do with the results?\nHow accurate are the tests?\nWhat are the risks?\nHow long will it take to get the results?\nWhat does the test feel like?\nHow much will it cost?\nWill my insurance cover it?\nWill anyone else (like my insurance company) have access to the results, especially of genetic tests?\nWhat will the results mean for my family?\nCan I decide not to get the results even if the test has already been done?\nWhere do I get the tests done?",
+    "section_heading": "Questions for Your Doctor",
+    "title": "Prenatal Testing: A Guide to Routine and Genetic Tests",
+    "url": "https://www.webmd.com/baby/cm/your-guide-prenatal-testing",
+    "author": "Stephanie Watson",
+    "medically_reviewed_by": "Traci C. Johnson, MD",
+    "sources": [
+      "March of Dimes: \"Prenatal Care.\"",
+      "Neil Seligman, MD, University of Rochester Medical Center, Rochester, New York.",
+      "Kids Health from Nemours: \"FAQs: Prenatal Tests.\"",
+      "American College of Obstetricians and Gynecologists: \"Frequently Asked Questions- Routine Tests in Pregnancy.\"",
+      "Cleveland Clinic: \"Maternal-Fetal Medicine (High-Risk Pregnancy).",
+      "Johns Hopkins Medicine: \"Common Tests During Pregnancy.\"",
+      "Ryan E. Longman, MD, University of Miami, Miller School of Medicine.",
+      "Eunice Kennedy Shriver National Institute of Child Health and Human Development: \"How do health care providers diagnose birth defects?\" \"The Placenta: A Vital Organ for Baby, Mom and Science.\"",
+      "Cystic Fibrosis Foundation: \"About CF: What Is Cystic Fibrosis?\"",
+      "University of California San Francisco Medical Center: \"FAQ: Cell-Free Fetal DNA Testing.\"",
+      "Mount Sinai: \" Quadruple Screen Test. \""
+    ],
+    "published_date": "2025-04-02",
+    "scores": {
+      "faiss_similarity": 0.9471304416656494,
+      "cross_encoder_relevance": 0.00034550047712400556
+    },
+    "labeled_at": "2026-01-26T22:26:33.146071"
+  },
+  {
+    "passage_id": "986f87703036d0d7ed00d0706e413399213b1052_s2_b2",
+    "query": "Prolonged immobility increases risk of deep vein thrombosis.",
+    "label": "question",
+    "stance": null,
+    "stance_confidence": null,
+    "text": "Have you been very inactive for another reason? A lack of movement for a long period of time, such as from bed rest or long-distance travel, could make your odds for DVT go up because it slows blood flow.",
+    "section_heading": "Have you had other health problems recently?",
+    "title": "What to Expect at the Doctor or ER for DVT",
+    "url": "https://www.webmd.com/dvt/dvt-doctor-er-visit",
+    "author": "Evan Starkman",
+    "medically_reviewed_by": "Minesh  Khatri, MD",
+    "sources": [
+      "Up to Date: “Patient education: Deep vein thrombosis (DVT) (Beyond the Basics),” “Patient education: Pulmonary embolism (blood clot in the lungs) (The Basics).”",
+      "National Heart, Lung, and Blood Institute: “Venous Thromboembolism.”",
+      "CDC: “Venous Thromboembolism (Blood Clots).”",
+      "American Lung Association: “Pulmonary Embolism.”",
+      "Society for Vascular Surgery: “Pulmonary Embolism.”",
+      "National Blood Clot Alliance: “DVT and PE Blood Clots.”"
+    ],
+    "published_date": "2025-08-06",
+    "scores": {
+      "faiss_similarity": 0.9291479587554932,
+      "cross_encoder_relevance": 1.3254297300591134e-05
+    },
+    "labeled_at": "2026-01-26T22:27:04.658815"
   }
 ]
