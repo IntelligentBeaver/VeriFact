@@ -30,7 +30,7 @@ CONCEPT_TOPK = 8
 # Default retrieval parameters
 DEFAULT_TOPK_FAISS = 100
 DEFAULT_RERANK_K = 20
-DEFAULT_DISPLAY_RESULTS = 20  # Show top 10 by default
+DEFAULT_DISPLAY_RESULTS = 5  # Show top 5 by default
 
 # Auto-labeling thresholds (0.0-1.0 scale)
 # Tip: After substantive passage filtering + FAISS capping + CE normalization,
