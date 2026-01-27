@@ -8,8 +8,8 @@ from datetime import datetime
 import time
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (WHO-scraper/1.0)"}
-HEADLINES_DIR = "../../storage/who/headlines"
-OUTPUT_DIR = "../../storage/who/news"
+HEADLINES_DIR = "../../../storage/who/headlines"
+OUTPUT_DIR = "../../../storage/who/news"
 
 SAVE_EVERY = 5  # save every 5 articles
 
@@ -18,40 +18,59 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 from bs4 import BeautifulSoup, Tag, NavigableString
 from urllib.parse import urljoin
 
-from bs4 import BeautifulSoup, Tag, NavigableString
-from urllib.parse import urljoin
 
-from bs4 import BeautifulSoup, Tag, NavigableString
-from urllib.parse import urljoin
-
-
-def parse_article_sections(article_div, base_url):
+def parse_article_sections(article_div, base_url, initial_heading=None):
     """
-    Parse an article div into sections with heading, content as list of lines, bullets, tables, and images.
+    Parse an article div into sections with heading, content as list of paragraphs,
+    and attach any list to the preceding paragraph.
     """
     sections = []
 
     # Find heading tags (h2, h3, h4) as section markers
     heading_tags = article_div.find_all(["h2", "h3", "h4"])
 
+    def append_list_or_text(contents, items):
+        if contents and isinstance(contents[-1], str):
+            contents[-1] = {"text": contents[-1], "bullets": items}
+        else:
+            contents.append({"text": None, "bullets": items})
+
+    def collect_from_node(node, contents):
+        if isinstance(node, Tag):
+            if node.name == "p":
+                text = node.get_text(" ", strip=True)
+                if text:
+                    contents.append(text)
+            elif node.name in ["ul", "ol"]:
+                items = [li.get_text(" ", strip=True) for li in node.find_all("li")]
+                if items:
+                    append_list_or_text(contents, items)
+            elif node.name not in ["h2", "h3", "h4"]:
+                text = node.get_text(" ", strip=True)
+                if text:
+                    contents.append(text)
+        elif isinstance(node, NavigableString):
+            text = node.strip()
+            if text:
+                contents.append(text)
+
     if not heading_tags:
         # fallback: treat entire content as one section
         contents = []
         for el in article_div.children:
-            if isinstance(el, Tag):
-                if el.name == "p":
-                    text = el.get_text(" ", strip=True)
-                    if text:
-                        contents.append(text)
-                elif el.name in ["ul", "ol"]:
-                    items = [li.get_text(" ", strip=True) for li in el.find_all("li")]
-                    if items:
-                        if contents and isinstance(contents[-1], str):
-                            contents[-1] = {"text": contents[-1], "bullets": items}
-                        else:
-                            contents.append({"text": None, "bullets": items})
+            collect_from_node(el, contents)
         sections.append({"heading": None, "content": contents if contents else None})
     else:
+        # collect content before the first heading
+        first_heading = heading_tags[0]
+        lead_contents = []
+        for el in article_div.children:
+            if el == first_heading:
+                break
+            collect_from_node(el, lead_contents)
+        if lead_contents:
+            sections.append({"heading": initial_heading, "content": lead_contents})
+
         for i, h in enumerate(heading_tags):
             heading = h.get_text(strip=True)
             content_blocks = []
@@ -63,18 +82,7 @@ def parse_article_sections(article_div, base_url):
                 if isinstance(sib, Tag) and sib.name in ["h2", "h3", "h4"]:
                     break
                 if isinstance(sib, Tag):
-                    if sib.name == "p":
-                        text = sib.get_text(" ", strip=True)
-                        if text:
-                            content_blocks.append(text)
-                    elif sib.name in ["ul", "ol"]:
-                        items = [li.get_text(" ", strip=True) for li in sib.find_all("li")]
-                        if items:
-                            if content_blocks and isinstance(content_blocks[-1], str):
-                                content_blocks[-1] = {"text": content_blocks[-1], "bullets": items}
-                            else:
-                                content_blocks.append({"text": None, "bullets": items})
-                    elif sib.name == "table":
+                    if sib.name == "table":
                         rows = []
                         for tr in sib.find_all("tr"):
                             cols = [td.get_text(" ", strip=True) for td in tr.find_all(["td", "th"])]
@@ -89,13 +97,9 @@ def parse_article_sections(article_div, base_url):
                             if src:
                                 images.append(urljoin(base_url, src))
                     else:
-                        text = sib.get_text(" ", strip=True)
-                        if text:
-                            content_blocks.append(text)
+                        collect_from_node(sib, content_blocks)
                 elif isinstance(sib, NavigableString):
-                    text = sib.strip()
-                    if text:
-                        content_blocks.append(text)
+                    collect_from_node(sib, content_blocks)
 
             # Build the section object
             section_obj = {
@@ -207,30 +211,22 @@ def scrape_who_news_item(url):
     title_el = soup.find("h1")
     title = title_el.get_text(strip=True) if title_el else None
 
-    # Date
-    date_el = soup.select_one("span.timestamp")
+    # Date (from header)
+    date_el = soup.select_one(".sf-item-header-wrapper span.timestamp") or soup.select_one("span.timestamp")
     date = parse_date_str(date_el.get_text(strip=True)) if date_el else None
 
-    # Type: look near the date; use regex to avoid precedence issues
-    item_type = None
-    if date_el:
-        parent = date_el.parent
-        if parent:
-            # find any nearby tag that mentions the type explicitly
-            type_candidate = parent.find(
-                lambda tag: tag.name in ("div", "p", "span", "strong")
-                and re.search(r"\b(News release|Statement|News|Feature story)\b", tag.get_text(), re.I)
-            )
-            if type_candidate:
-                item_type = type_candidate.get_text(strip=True)
-    if not item_type:
-        # fallback: any early text on the page that looks like a type
-        header_near = soup.find(string=re.compile(r"\b(News release|Statement|News|Feature story)\b", re.I))
-        if header_near:
-            item_type = header_near.strip()
+    # Header tags in the title block (type + location)
+    header_tag_items = [t.get_text(strip=True) for t in soup.select(".sf-item-header-wrapper .sf-tags-list-item")]
+    header_tag_items = [t for t in header_tag_items if t]
 
-    # Location/dateliner: look for uppercase token immediately preceding article first paragraph
+    # Type: prefer header tags in order (e.g., News release, Note for Media)
+    item_type = header_tag_items[0] if header_tag_items else None
+
+    # Location/dateliner: prefer header tags, else look for uppercase token preceding first paragraph
     location = None
+    header_locations = header_tag_items[1:] if len(header_tag_items) > 1 else []
+    if header_locations:
+        location = " | ".join(header_locations)
     # prefer article first paragraph (we will find article below)
     #  Change this later if WHO changes
     article = soup.select_one("article.sf-detail-body-wrapper, article, div.sf-detail-body-wrapper")
@@ -248,22 +244,6 @@ def scrape_who_news_item(url):
                 location = txt
                 break
 
-    # Reading time: find the element that contains 'Reading time' and extract the value after colon
-    reading_time = None
-    rt_node = soup.find(string=re.compile(r"Reading time", re.I))
-    if rt_node:
-        # check the full line / parent text and extract after colon
-        parent = rt_node.parent if hasattr(rt_node, "parent") else None
-        text_source = parent.get_text(" ", strip=True) if parent else str(rt_node)
-        m = re.search(r"Reading time[:\s]*[:\-–]?\s*(.+)$", text_source, re.I)
-        if m:
-            val = m.group(1).strip()
-            # sometimes text includes extra trailing words; keep the first reasonable chunk (up to newline)
-            val = val.split("\n", 1)[0].strip()
-            # if the value is just the label (i.e., "Reading time:"), skip
-            if val and not re.match(r"^reading time[:\s]*$", val, re.I):
-                reading_time = val
-
     # Lead (first meaningful paragraph inside article)
     lead = None
     if first_para:
@@ -272,7 +252,9 @@ def scrape_who_news_item(url):
     # Main article container: prioritize the article element to avoid menus/nav
     # content_container = article or soup.select_one("div.sf-content-block, div.content, div.main-content, div.page__content, main")
     content_container = soup.select_one("article.sf-detail-body-wrapper div")
-    sections = parse_article_sections(content_container, resp.url) if content_container else []
+    header_h2 = soup.select_one("div.sf-item-header-wrapper h2")
+    initial_heading = header_h2.get_text(strip=True) if header_h2 else None
+    sections = parse_article_sections(content_container, resp.url, initial_heading=initial_heading) if content_container else []
 
     if not content_container:
         content_container = soup  # fallback, but we prefer article
@@ -280,12 +262,6 @@ def scrape_who_news_item(url):
     # CONTENT: use inner HTML of the article container (not entire page)
     # decode_contents() returns the HTML inside the tag (no wrapper)
     content_text = content_container.get_text("\n", strip=True) if content_container else None
-
-    # Bulleted lists inside the article only
-    bullets = []
-    if content_container:
-        for li in content_container.select("ul li"):
-            bullets.append(li.get_text(" ", strip=True))
 
     # References / related links inside content (anchor tags inside content only)
     references = []
@@ -312,8 +288,14 @@ def scrape_who_news_item(url):
             bs = BeautifulSoup("<div>" + "".join(str(n) for n in nodes) + "</div>", "html.parser")
             contacts = extract_media_contacts(bs.div)
 
-    # Topics/tags: prefer tags inside the article page, fallback to site-level tags
-    topics = [t.get_text(strip=True) for t in soup.select("div.topic-tags a, .topics a, .sf-tags-list-item")] or None
+    # Topics: keep only the item type (e.g., News release)
+    topics = item_type
+
+    # Author: use media contact names (comma-separated if multiple)
+    author = None
+    if contacts:
+        names = [c.get("name") for c in contacts if c.get("name")]
+        author = ", ".join(names) if names else None
 
     # Images: try og:image first, then data-image/style/src within article/content
     og_image = None
@@ -344,15 +326,15 @@ def scrape_who_news_item(url):
         "url": base,
         "title": title,
         "published_date": date,
+        "author": author,
+        "medically_reviewed_by": "World Health Organization (WHO)",
         "topics": topics,
         "location": location,
-        "reading_time": reading_time,       # now only the value after label
-        "content": sections,
-        "bullets": bullets,
+        "sections": sections,
         "references": references,
-        "media_contacts": contacts,
         "images": images,
         "tags": [t for t in ["WHO", title, item_type] if t],
+        "scrape_timestamp_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     }
     return result
 

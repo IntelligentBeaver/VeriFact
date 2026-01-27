@@ -5,10 +5,6 @@ WHO Fact-sheets extractor (single-run prototype).
 - Collects links from https://www.who.int/news-room/fact-sheets
 - Fetches each fact-sheet page and extracts structured sections
 - Saves JSON at who/factsheets/<FirstLetterUpper>/<slug>.json
-
-Notes:
-- Be polite: the script sleeps between requests (adjust sleep_seconds).
-- Improve/extend parsing heuristics (tables, figures, metadata) as needed.
 """
 
 import requests
@@ -179,6 +175,23 @@ def parse_fact_sheet(url):
                 "heading": heading,
                 "content": contents if contents else None,
             }
+            # If heading is "References", add a normalized references list of strings
+            if heading and heading.strip().lower() == "references":
+                refs = []
+                for item in contents:
+                    if isinstance(item, dict):
+                        text = (item.get("text") or "").strip()
+                        if text:
+                            refs.append(text)
+                        bullets = item.get("bullets") or []
+                        if isinstance(bullets, str):
+                            bullets = [bullets]
+                        if isinstance(bullets, list):
+                            refs.extend([b.strip() for b in bullets if b])
+                    elif isinstance(item, str):
+                        if item.strip():
+                            refs.append(item.strip())
+                section_obj["references"] = refs if refs else None
             if tables:
                 section_obj["tables"] = tables
             if images:
@@ -192,6 +205,16 @@ def parse_fact_sheet(url):
         if href.lower().endswith(".pdf"):
             pdf_links.append(urljoin(BASE, href))
 
+    # Collect references from any "References" section (if present)
+    references = []
+    for sec in sections:
+        refs = sec.get("references")
+        if isinstance(refs, list):
+            references.extend([r for r in refs if r])
+
+    if not references:
+        references = None
+
     all_imgs = []
     for im in main.find_all("img"):
         src = im.get("src") or im.get("data-src") or im.get("data-lazy-src")
@@ -201,21 +224,24 @@ def parse_fact_sheet(url):
     # assemble output dictionary
     slug = slugify(title or url.rsplit("/", 1)[-1])
     first_letter = (slug[0].upper() if slug else "X")
-    out = {
+    result = {
         "url": url,
         "title": title,
         "slug": slug,
         "published_date": published_date,
+        # Add author as WHO itself for fact sheets
+        "author": "World Health Organization (WHO)",
         "first_letter": first_letter,
         "sections": sections,
+        "references": references,
         "pdfs": list(sorted(set(pdf_links))),
         "images": list(sorted(set(all_imgs))),
         "tags": ["Health Fact", slug, title, "WHO"],
         "scrape_timestamp_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     }
-    return out
+    return result
 
-def save_json_record(record, base_dir="../../storage/who/factsheets"):
+def save_json_record(record, base_dir="../../../storage/who/factsheets"):
     # letter = record.get("first_letter", "X")
     slug = record.get("slug", "unknown")
     folder = Path(base_dir)

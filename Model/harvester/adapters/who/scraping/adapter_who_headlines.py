@@ -24,7 +24,7 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; WHO-Headlines-Scraper/1.0)"}
 
 MAX_AGE_DAYS=7305
 SEARCH_DELAY=0.1
-OUTPUT_DIR="../../storage/who/headlines"
+OUTPUT_DIR="../../../storage/who/headlines"
 
 
 def parse_date(date_str: str):

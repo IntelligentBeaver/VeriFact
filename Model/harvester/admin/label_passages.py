@@ -6,25 +6,24 @@ Stores results with full metadata and query information.
 
 import json
 import os
-from pathlib import Path
-from datetime import datetime
-import sys
 import random
-import numpy as np
+from datetime import datetime
+from pathlib import Path
+
 import faiss
+import numpy as np
 from sentence_transformers import SentenceTransformer
 from sentence_transformers.cross_encoder import CrossEncoder
-
 from transformers import pipeline
 
 from config import (
     INDEX_DIR, EMBEDDING_MODEL, CROSS_ENCODER_MODEL, NLI_CROSS_ENCODER_MODEL, SAPBERT_MODEL, STANCE_MODEL,
-    DEFAULT_TOPK_FAISS, DEFAULT_RERANK_K, DEFAULT_DISPLAY_RESULTS,
+    DEFAULT_TOPK_FAISS, DEFAULT_DISPLAY_RESULTS,
     AUTO_RELEVANT_THRESHOLD, AUTO_UNRELATED_THRESHOLD, STANCE_AUTO_THRESHOLD,
     AUTO_LABELING_MODE,
     AUTO_UNRELATED_CE_MAX, AUTO_UNRELATED_LEX_MAX,
     RELEVANT_PASSAGES_FILE, UNRELATED_PASSAGES_FILE, QUESTION_PASSAGES_FILE,
-    LABELING_SESSION_FILE, CONCEPT_LABELS_DIR, CONCEPT_LABELS_VECTORS, CONCEPT_LABELS_METADATA, CONCEPT_TOPK,
+    LABELING_SESSION_FILE, CONCEPT_LABELS_VECTORS, CONCEPT_LABELS_METADATA, CONCEPT_TOPK,
     OUTPUT_DIR,
     VERIFIED_CLAIMS_FILE
 )

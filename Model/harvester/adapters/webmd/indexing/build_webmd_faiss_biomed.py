@@ -104,17 +104,24 @@ def extract_passages_from_doc(doc: dict):
     # Document-level fields to copy
     doc_fields = {}
     for k in [
-        'url', 'title', 'published_date', 'scrape_timestamp_utc', 'author',
-        'medically_reviewed_by', 'sources', 'meta_description', 'tags'
+        'url', 
+        'title', 
+        'published_date',
+        'scrape_timestamp_utc', 
+        'author',
+        'medically_reviewed_by', 
+        'sources', 
+        # 'meta_description', 
+        'tags'
     ]:
         doc_fields[k] = doc.get(k)
 
     doc_id = sha1_hex(str(doc_fields.get('url') or doc_fields.get('title') or ''))
 
     # Build a concatenated doc text to compute char offsets
-    concat = []
+    # concat = []
     passages = []
-    cursor = 0
+    # cursor = 0
 
     sections = doc.get('sections') or []
     for si, sec in enumerate(sections):
@@ -136,21 +143,20 @@ def extract_passages_from_doc(doc: dict):
                 continue
 
             # Compute offsets
-            char_start = cursor
-            concat.append(full_text)
-            cursor += len(full_text)
-            char_end = cursor
+            # char_start = cursor
+            # concat.append(full_text)
+            # cursor += len(full_text)
+            # char_end = cursor
 
             passage_id = f"{doc_id}_s{si}_b{bi}"
-
             p = {
                 'passage_id': passage_id,
                 'doc_id': doc_id,
                 'section_heading': heading,
                 'block_index': bi,
                 'text': full_text,
-                'char_start': char_start,
-                'char_end': char_end,
+                # 'char_start': char_start,
+                # 'char_end': char_end,
             }
             # copy doc-level fields
             p.update(doc_fields)
@@ -278,8 +284,8 @@ def save_outputs(embeddings, passages, out_dir: Path, sapbert_embeddings=None):
             'section_heading': p.get('section_heading'),
             'block_index': p.get('block_index'),
             'text': p['text'],
-            'char_start': p.get('char_start'),
-            'char_end': p.get('char_end'),
+            # 'char_start': p.get('char_start'),
+            # 'char_end': p.get('char_end'),
             # document-level fields copied down
             'url': p.get('url'),
             'title': p.get('title'),
@@ -288,7 +294,9 @@ def save_outputs(embeddings, passages, out_dir: Path, sapbert_embeddings=None):
             'author': p.get('author'),
             'medically_reviewed_by': p.get('medically_reviewed_by'),
             'sources': p.get('sources'),
-            'meta_description': p.get('meta_description'),
+            # Keep location key but with no value
+            'location': None,
+            # 'meta_description': p.get('meta_description'),
             'tags': p.get('tags'),
         }
         metadata.append(meta)
