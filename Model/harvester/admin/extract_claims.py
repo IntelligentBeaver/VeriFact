@@ -5,6 +5,13 @@ import os
 from typing import List, Dict
 
 
+def clean_claim_text(text: str) -> str:
+    cleaned = text.strip()
+    if cleaned.lower().startswith("claim:"):
+        cleaned = cleaned[len("claim:"):].strip()
+    return cleaned
+
+
 def read_claims_from_tsv(file_path: str, labels: List[str]) -> List[str]:
     claims: List[str] = []
     with open(file_path, "r", encoding="utf-8", newline="") as handle:
@@ -12,8 +19,8 @@ def read_claims_from_tsv(file_path: str, labels: List[str]) -> List[str]:
         for row in reader:
             label = (row.get("label") or "").strip().lower()
             if label in labels:
-                claim = (row.get("claim") or "").strip()
-                if claim:
+                claim = clean_claim_text(row.get("claim") or "")
+                if claim and "?" not in claim:
                     claims.append(claim)
     return claims
 

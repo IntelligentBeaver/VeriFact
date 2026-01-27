@@ -36,23 +36,25 @@ def parse_article_sections(article_div, base_url):
 
     if not heading_tags:
         # fallback: treat entire content as one section
-        lines = []
+        contents = []
         for el in article_div.children:
             if isinstance(el, Tag):
                 if el.name == "p":
                     text = el.get_text(" ", strip=True)
                     if text:
-                        lines.append(text)
+                        contents.append(text)
                 elif el.name in ["ul", "ol"]:
                     items = [li.get_text(" ", strip=True) for li in el.find_all("li")]
                     if items:
-                        lines.extend(items)
-        sections.append({"heading": None, "content": lines if lines else None})
+                        if contents and isinstance(contents[-1], str):
+                            contents[-1] = {"text": contents[-1], "bullets": items}
+                        else:
+                            contents.append({"text": None, "bullets": items})
+        sections.append({"heading": None, "content": contents if contents else None})
     else:
         for i, h in enumerate(heading_tags):
             heading = h.get_text(strip=True)
-            content_lines = []
-            bullets = []
+            content_blocks = []
             tables = []
             images = []
 
@@ -64,12 +66,14 @@ def parse_article_sections(article_div, base_url):
                     if sib.name == "p":
                         text = sib.get_text(" ", strip=True)
                         if text:
-                            # split by internal line breaks if needed
-                            content_lines.extend(text.splitlines())
+                            content_blocks.append(text)
                     elif sib.name in ["ul", "ol"]:
                         items = [li.get_text(" ", strip=True) for li in sib.find_all("li")]
                         if items:
-                            bullets.extend(items)
+                            if content_blocks and isinstance(content_blocks[-1], str):
+                                content_blocks[-1] = {"text": content_blocks[-1], "bullets": items}
+                            else:
+                                content_blocks.append({"text": None, "bullets": items})
                     elif sib.name == "table":
                         rows = []
                         for tr in sib.find_all("tr"):
@@ -87,19 +91,17 @@ def parse_article_sections(article_div, base_url):
                     else:
                         text = sib.get_text(" ", strip=True)
                         if text:
-                            content_lines.extend(text.splitlines())
+                            content_blocks.append(text)
                 elif isinstance(sib, NavigableString):
                     text = sib.strip()
                     if text:
-                        content_lines.append(text)
+                        content_blocks.append(text)
 
             # Build the section object
             section_obj = {
                 "heading": heading,
-                "content": content_lines if content_lines else None,
+                "content": content_blocks if content_blocks else None,
             }
-            if bullets:
-                section_obj["bullets"] = bullets
             if tables:
                 section_obj["tables"] = tables
             if images:
@@ -277,7 +279,6 @@ def scrape_who_news_item(url):
 
     # CONTENT: use inner HTML of the article container (not entire page)
     # decode_contents() returns the HTML inside the tag (no wrapper)
-    content_html = content_container.decode_contents() if hasattr(content_container, "decode_contents") else None
     content_text = content_container.get_text("\n", strip=True) if content_container else None
 
     # Bulleted lists inside the article only
@@ -294,13 +295,6 @@ def scrape_who_news_item(url):
             full = urljoin(base, href)
             text = a.get_text(" ", strip=True)
             references.append({"text": text, "url": full})
-
-    # Corrigendum / footnotes (search in article)
-    corrigendum = None
-    if content_container:
-        corr_el = content_container.find(string=re.compile(r"Corrigendum|corrigendum", re.I))
-        if corr_el:
-            corrigendum = corr_el.strip()
 
     # Media contacts: find a header that mentions "Media" and grab following siblings until next section header
     contacts = []
@@ -346,34 +340,19 @@ def scrape_who_news_item(url):
     if not images and og_image:
         images = [og_image]
 
-    # Meta description: keep it only if it's not just a verbatim duplicate of the article text
-    meta_desc = None
-    md = soup.find("meta", attrs={"name": "description"})
-    if md and md.get("content"):
-        candidate = md["content"].strip()
-        # if meta description is included entirely within content_text (or vice-versa), drop it to avoid duplication
-        if content_text and (candidate in content_text or content_text in candidate):
-            meta_desc = None
-        else:
-            meta_desc = candidate
-
     result = {
         "url": base,
         "title": title,
-        "date": date,
+        "published_date": date,
         "topics": topics,
-        "type": item_type,
         "location": location,
         "reading_time": reading_time,       # now only the value after label
-        "lead": lead,
-        "content_html": content_html,       # inner HTML of the article
         "content": sections,
         "bullets": bullets,
         "references": references,
-        "corrigendum": corrigendum,
         "media_contacts": contacts,
         "images": images,
-        "meta": {"description": meta_desc, "og_image": og_image},
+        "tags": [t for t in ["WHO", title, item_type] if t],
     }
     return result
 

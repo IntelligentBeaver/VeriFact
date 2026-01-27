@@ -23,7 +23,7 @@ from pathlib import Path
 
 BASE = "https://www.who.int"
 INDEX_URL = "https://www.who.int/news-room/fact-sheets"
-USER_AGENT = "Mozilla/5.0 (compatible; WHO-FS-Extractor/1.0; +https://example.invalid/)"
+USER_AGENT = "Mozilla/5.0 (compatible; WHO-FS-Extractor/1.0; +verifact.scraper.bot)"
 
 session = requests.Session()
 session.headers.update({"User-Agent": USER_AGENT})
@@ -127,13 +127,12 @@ def parse_fact_sheet(url):
     if not heading_tags:
         # fallback: group by top-level paragraphs
         body_text = main.get_text("\n", strip=True)
-        sections.append({"heading": None, "content": body_text})
+        sections.append({"heading": None, "content": [body_text] if body_text else None})
     else:
         for i, h in enumerate(heading_tags):
             heading = h.get_text(strip=True)
             # gather content until next heading tag at the same level
             contents = []
-            bullets = []
             tables = []
             images = []
             # iterate siblings after this heading
@@ -148,7 +147,10 @@ def parse_fact_sheet(url):
                     elif sib.name in ["ul", "ol"]:
                         items = [li.get_text(" ", strip=True) for li in sib.find_all("li")]
                         if items:
-                            bullets.extend(items)
+                            if contents and isinstance(contents[-1], str):
+                                contents[-1] = {"text": contents[-1], "bullets": items}
+                            else:
+                                contents.append({"text": None, "bullets": items})
                     elif sib.name == "table":
                         # convert table to list-of-rows (cells as text)
                         rows = []
@@ -175,10 +177,8 @@ def parse_fact_sheet(url):
                         contents.append(txt)
             section_obj = {
                 "heading": heading,
-                "content": " ".join(contents).strip() if contents else None,
+                "content": contents if contents else None,
             }
-            if bullets:
-                section_obj["bullets"] = bullets
             if tables:
                 section_obj["tables"] = tables
             if images:
@@ -210,6 +210,7 @@ def parse_fact_sheet(url):
         "sections": sections,
         "pdfs": list(sorted(set(pdf_links))),
         "images": list(sorted(set(all_imgs))),
+        "tags": ["Health Fact", slug, title, "WHO"],
         "scrape_timestamp_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     }
     return out

@@ -5,6 +5,7 @@ Stores results with full metadata and query information.
 """
 
 import json
+import os
 from pathlib import Path
 from datetime import datetime
 import sys
@@ -53,6 +54,7 @@ class PassageLabeler:
         self.unrelated_passages = self._load_existing("unrelated")
         self.question_passages = self._load_existing("question")
         self.session_start = datetime.now()
+        self.models_initialized = False
         
     def _load_existing(self, label_type):
         """Load existing labeled passages."""
@@ -69,6 +71,16 @@ class PassageLabeler:
             with file_path.open('r', encoding='utf-8') as f:
                 return json.load(f)
         return []
+
+    def _open_output_file(self, path_obj):
+        """Open output file safely on Windows paths."""
+        try:
+            return path_obj.open('w', encoding='utf-8')
+        except OSError as e:
+            if os.name == "nt":
+                long_path = r"\\?\\" + str(path_obj)
+                return open(long_path, 'w', encoding='utf-8')
+            raise e
     
     def initialize_models(self):
         """Load all required models and indices."""
@@ -174,6 +186,13 @@ class PassageLabeler:
         print("\n" + "="*60)
         print("✓ All models loaded successfully!")
         print("="*60)
+        self.models_initialized = True
+        return True
+
+    def ensure_models_initialized(self):
+        """Initialize models on demand."""
+        if not self.models_initialized:
+            return self.initialize_models()
         return True
     
     def embed_query(self, query):
@@ -777,17 +796,19 @@ class PassageLabeler:
         }
         
         # Save to appropriate file based on decision
+        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
         if decision == 'relevant':
             self.relevant_passages.append(labeled_item)
-            with RELEVANT_PASSAGES_FILE.open('w', encoding='utf-8') as f:
+            with self._open_output_file(RELEVANT_PASSAGES_FILE) as f:
                 json.dump(self.relevant_passages, f, indent=2, ensure_ascii=False)
         elif decision == 'unrelated':
             self.unrelated_passages.append(labeled_item)
-            with UNRELATED_PASSAGES_FILE.open('w', encoding='utf-8') as f:
+            with self._open_output_file(UNRELATED_PASSAGES_FILE) as f:
                 json.dump(self.unrelated_passages, f, indent=2, ensure_ascii=False)
         elif decision == 'question':
             self.question_passages.append(labeled_item)
-            with QUESTION_PASSAGES_FILE.open('w', encoding='utf-8') as f:
+            with self._open_output_file(QUESTION_PASSAGES_FILE) as f:
                 json.dump(self.question_passages, f, indent=2, ensure_ascii=False)
         
         return labeled_item
@@ -1037,28 +1058,62 @@ class PassageLabeler:
                 if isinstance(item, dict):
                     text = item.get('claim') or item.get('text')
                     if text:
-                        claims.append(text.strip())
+                        claims.append({"id": item.get("id"), "claim": text.strip()})
                 elif isinstance(item, str):
-                    claims.append(item.strip())
-            return [c for c in claims if c]
+                    claims.append({"id": None, "claim": item.strip()})
+            return [c for c in claims if c.get("claim")]
         except Exception as e:
             print(f"Failed to read verified claims: {e}")
             return []
 
+    def _load_processed_claim_ids(self):
+        """Load processed claim IDs from disk to avoid reprocessing."""
+        path = OUTPUT_DIR / "processed_claim_ids.json"
+        if not path.exists():
+            return set()
+        try:
+            with path.open("r", encoding="utf-8") as f:
+                data = json.load(f)
+            return set(data) if isinstance(data, list) else set()
+        except Exception:
+            return set()
+
+    def _save_processed_claim_ids(self, ids_set):
+        """Persist processed claim IDs to disk."""
+        path = OUTPUT_DIR / "processed_claim_ids.json"
+        with path.open("w", encoding="utf-8") as f:
+            json.dump(sorted(ids_set), f, indent=2, ensure_ascii=False)
+
     def auto_label_from_claims(self, num_results=DEFAULT_DISPLAY_RESULTS):
         """Run fully automated labeling over verified claims."""
+        if not self.ensure_models_initialized():
+            print("Failed to initialize models. Aborting auto-label run.")
+            return
+
         claims = self._load_verified_claims()
         if not claims:
             print("No verified claims found. Aborting auto-label run.")
             return
 
+        processed_ids = self._load_processed_claim_ids()
+
         prev_mode = self.auto_labeling_mode
         self.auto_labeling_mode = True
 
         print(f"\nAuto-labeling enabled. Running {len(claims)} claims...")
-        for i, claim in enumerate(claims, 1):
-            print(f"\n[{i}/{len(claims)}] Claim: {claim}")
-            self.label_session(claim, num_results=num_results)
+        for i, item in enumerate(claims, 1):
+            claim_id = item.get("id")
+            claim_text = item.get("claim")
+            if claim_id is not None and claim_id in processed_ids:
+                print(f"\n[{i}/{len(claims)}] Skipping claim id {claim_id} (already processed)")
+                continue
+            print(f"\n[{i}/{len(claims)}] Claim: {claim_text}")
+            self.label_session(claim_text, num_results=num_results)
+            if claim_id is not None:
+                processed_ids.add(claim_id)
+
+        if processed_ids:
+            self._save_processed_claim_ids(processed_ids)
 
         self.auto_labeling_mode = prev_mode
 
@@ -1166,11 +1221,6 @@ def main():
     print("VERIFACT - Medical Fact Verification Admin Tool")
     print("="*70)
     
-    # Initialize models and indices before any labeling
-    if not labeler.initialize_models():
-        print("Failed to initialize. Exiting.")
-        return
-    
     # Main menu loop
     while True:
         print("\n" + "="*70)
@@ -1189,6 +1239,9 @@ def main():
         if choice == '1':
             # Start interactive labeling session
             print("\n" + "-"*70)
+            if not labeler.ensure_models_initialized():
+                print("Failed to initialize models. Returning to menu.")
+                continue
             query = input("Enter medical query/claim to investigate: ").strip()
             if not query:
                 print("Query cannot be empty.")
@@ -1206,6 +1259,9 @@ def main():
         
         elif choice == '2':
             # Use a random question from labeled questions
+            if not labeler.ensure_models_initialized():
+                print("Failed to initialize models. Returning to menu.")
+                continue
             if not labeler.question_passages:
                 print("\nNo labeled questions available. Label some questions first.")
                 continue
@@ -1239,6 +1295,15 @@ def main():
             print(f"Question passages labeled: {len(labeler.question_passages)}")
             total = len(labeler.relevant_passages) + len(labeler.unrelated_passages) + len(labeler.question_passages)
             print(f"Total labeled: {total}")
+
+            if labeler.relevant_passages:
+                stance_supports = sum(1 for p in labeler.relevant_passages if p.get('stance') == 'supports')
+                stance_refutes = sum(1 for p in labeler.relevant_passages if p.get('stance') == 'refutes')
+                stance_neutral = sum(1 for p in labeler.relevant_passages if p.get('stance') == 'neutral')
+                print("\nStance distribution (relevant):")
+                print(f"  Supports: {stance_supports}")
+                print(f"  Refutes: {stance_refutes}")
+                print(f"  Neutral: {stance_neutral}")
             
             # Show unique queries per category (for diversity analysis)
             if labeler.relevant_passages:
