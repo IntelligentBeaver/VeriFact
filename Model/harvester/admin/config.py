@@ -12,7 +12,7 @@ PROJECT_ROOT = HARVESTER_DIR.parent
 INDEXING_DIR = HARVESTER_DIR / "adapters" / "webmd" / "indexing"
 INDEX_DIR = HARVESTER_DIR / "storage" / "outputs" / "webmd" / "faiss"
 OUTPUT_DIR = ADMIN_DIR / "output"
-VERIFIED_CLAIMS_FILE = OUTPUT_DIR / "verified_claims.json"
+VERIFIED_CLAIMS_FILE = OUTPUT_DIR / "claims_mixture_unproven.json"
 
 # Indexing configuration (must match build_webmd_indexing_biomed.py)
 EMBEDDING_MODEL = "pritamdeka/S-PubMedBert-MS-MARCO"
