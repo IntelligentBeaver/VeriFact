@@ -55,6 +55,9 @@ def extract_fake_claims_from_csvs(csv_folder, output_file):
                     # Extract title, handling both 'title' and potential variations
                     title = row.get('title', '').strip()
                     
+                    # Remove special characters
+                    title = title.replace('Ò', '').replace('Ó', '')
+                    
                     # Skip empty titles
                     if not title:
                         continue
@@ -139,6 +142,9 @@ def extract_fake_claims_from_jsons(json_folder, output_file):
             # Extract title
             title = data.get('title', '').strip()
             
+            # Remove special characters
+            title = title.replace('Ò', '').replace('Ó', '')
+            
             # Skip empty titles
             if not title:
                 print(f"  ⚠ No title found in {json_file.name}")
@@ -172,13 +178,13 @@ def extract_fake_claims_from_jsons(json_folder, output_file):
 
 if __name__ == "__main__":
     # Paths relative to this script location
-    SCRIPT_DIR = Path(__file__)
+    SCRIPT_DIR = Path(__file__).parent
     OUTPUT_FILE = SCRIPT_DIR.parent / "input" / "fake_claims.json"
     
     # Extract from CSV files (dataset1)
-    CSV_FOLDER = SCRIPT_DIR / "fakeclaims" / "dataset1"
+    CSV_FOLDER = SCRIPT_DIR / "dataset1"
     extract_fake_claims_from_csvs(CSV_FOLDER, OUTPUT_FILE)
     
     # Extract from JSON files (dataset2) - appends to existing
-    JSON_FOLDER = SCRIPT_DIR / "fakeclaims" / "dataset2"
+    JSON_FOLDER = SCRIPT_DIR / "dataset2"
     extract_fake_claims_from_jsons(JSON_FOLDER, OUTPUT_FILE)

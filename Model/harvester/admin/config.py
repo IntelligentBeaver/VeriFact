@@ -56,6 +56,7 @@ RELEVANT_PASSAGES_FILE = OUTPUT_DIR / "labeled_relevant_passages.json"
 UNRELATED_PASSAGES_FILE = OUTPUT_DIR / "labeled_unrelated_passages.json"
 QUESTION_PASSAGES_FILE = OUTPUT_DIR / "labeled_question_passages.json"
 LABELING_SESSION_FILE = OUTPUT_DIR / "labeling_session.json"
+FAKE_CLAIMS_LABELED_FILE = OUTPUT_DIR / "labeled_fake_claims_refutes.json"  # Passages that refute fake claims
 
 # Create output directory if not exists
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
