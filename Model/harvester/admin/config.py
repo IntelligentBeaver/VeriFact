@@ -14,6 +14,7 @@ INDEX_DIR = HARVESTER_DIR / "storage" / "outputs" / "webmd" / "faiss"
 OUTPUT_DIR = ADMIN_DIR / "output"
 CLAIM_INPUT_DIR = ADMIN_DIR / "input"
 VERIFIED_CLAIMS_FILE = CLAIM_INPUT_DIR / "claims_mixture_unproven.json"
+FAKE_CLAIMS_FILE = CLAIM_INPUT_DIR / "fake_claims.json"  # Intentionally false claims for refute labeling
 
 # Indexing configuration (must match build_webmd_indexing_biomed.py)
 EMBEDDING_MODEL = "pritamdeka/S-PubMedBert-MS-MARCO"
@@ -41,7 +42,7 @@ AUTO_UNRELATED_THRESHOLD = 0.52  # Auto-label as unrelated if score <= this
 # Scores between thresholds require human review
 
 # Fully automated labeling (no human prompts)
-AUTO_LABELING_MODE = True
+AUTO_LABELING_MODE = False
 
 # Extra guardrails: auto-unrelated when both CE and lexical overlap are very low
 AUTO_UNRELATED_CE_MAX = 0.10

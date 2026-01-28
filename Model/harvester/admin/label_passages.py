@@ -25,7 +25,7 @@ from config import (
     RELEVANT_PASSAGES_FILE, UNRELATED_PASSAGES_FILE, QUESTION_PASSAGES_FILE,
     LABELING_SESSION_FILE, CONCEPT_LABELS_VECTORS, CONCEPT_LABELS_METADATA, CONCEPT_TOPK,
     OUTPUT_DIR,
-    VERIFIED_CLAIMS_FILE
+    VERIFIED_CLAIMS_FILE, FAKE_CLAIMS_FILE
 )
 
 
@@ -81,8 +81,13 @@ class PassageLabeler:
                 return open(long_path, 'w', encoding='utf-8')
             raise e
     
-    def initialize_models(self):
-        """Load all required models and indices."""
+    def initialize_models(self, skip_stance=False):
+        """Load all required models and indices.
+        
+        Args:
+            skip_stance: If True, skip loading stance detection models (NLI cross-encoder and MNLI classifier).
+                        Useful for workflows that don't need stance prediction (e.g., fake claims with hardcoded refutes).
+        """
         print("\n" + "="*60)
         print("Initializing Models and Indices")
         print("="*60)
@@ -124,13 +129,17 @@ class PassageLabeler:
             print(f"  ⚠ Warning: Failed to load cross-encoder: {e}")
         
         # Load NLI cross-encoder for stance detection only
-        print("\nStep 4b: Loading NLI cross-encoder for stance detection...")
-        print(f"  Model: {NLI_CROSS_ENCODER_MODEL}")
-        try:
-            self.nli_cross_encoder = CrossEncoder(NLI_CROSS_ENCODER_MODEL)
-            print(f"  ✓ NLI cross-encoder loaded")
-        except Exception as e:
-            print(f"  ⚠ Warning: Failed to load NLI cross-encoder: {e}")
+        if skip_stance:
+            print("\nStep 4b: Skipping NLI cross-encoder (not needed for this workflow)")
+            self.nli_cross_encoder = None
+        else:
+            print("\nStep 4b: Loading NLI cross-encoder for stance detection...")
+            print(f"  Model: {NLI_CROSS_ENCODER_MODEL}")
+            try:
+                self.nli_cross_encoder = CrossEncoder(NLI_CROSS_ENCODER_MODEL)
+                print(f"  ✓ NLI cross-encoder loaded")
+            except Exception as e:
+                print(f"  ⚠ Warning: Failed to load NLI cross-encoder: {e}")
         
         # Load SapBERT embeddings for medical-entity similarity (optional)
         sapbert_path = self.index_dir / 'sapbert_embeddings.npy'
@@ -148,22 +157,26 @@ class PassageLabeler:
             print("\nStep 5: SapBERT embeddings not found (optional)")
         
         # Load stance classifier (MNLI)
-        print("\nStep 6: Loading stance classifier (MNLI)...")
-        print(f"  Model: {STANCE_MODEL}")
-        try:
-            self.stance_classifier = pipeline(
-                task="text-classification",
-                model=STANCE_MODEL,
-                tokenizer=STANCE_MODEL,
-                return_all_scores=True
-            )
-            print(f"  ✓ Stance classifier loaded")
-        except Exception as e:
-            print(f"  ⚠ Warning: Failed to load stance classifier: {e}")
+        if skip_stance:
+            print("\nStep 6: Skipping stance classifier (not needed for this workflow)")
             self.stance_classifier = None
-        
-        if self.stance_classifier is None:
-            print("  ⚠ No stance classifier available; stance will require manual input.")
+        else:
+            print("\nStep 6: Loading stance classifier (MNLI)...")
+            print(f"  Model: {STANCE_MODEL}")
+            try:
+                self.stance_classifier = pipeline(
+                    task="text-classification",
+                    model=STANCE_MODEL,
+                    tokenizer=STANCE_MODEL,
+                    return_all_scores=True
+                )
+                print(f"  ✓ Stance classifier loaded")
+            except Exception as e:
+                print(f"  ⚠ Warning: Failed to load stance classifier: {e}")
+                self.stance_classifier = None
+            
+            if self.stance_classifier is None:
+                print("  ⚠ No stance classifier available; stance will require manual input.")
 
         # Load SapBERT concept label embeddings (optional, for query expansion)
         labels_vec_path = CONCEPT_LABELS_VECTORS
@@ -188,10 +201,14 @@ class PassageLabeler:
         self.models_initialized = True
         return True
 
-    def ensure_models_initialized(self):
-        """Initialize models on demand."""
+    def ensure_models_initialized(self, skip_stance=False):
+        """Initialize models on demand.
+        
+        Args:
+            skip_stance: If True, skip loading stance detection models.
+        """
         if not self.models_initialized:
-            return self.initialize_models()
+            return self.initialize_models(skip_stance=skip_stance)
         return True
     
     def embed_query(self, query):
@@ -1116,6 +1133,175 @@ class PassageLabeler:
 
         self.auto_labeling_mode = prev_mode
 
+    def _load_fake_claims(self):
+        """Load fake/false claims from disk for refute labeling."""
+        if not FAKE_CLAIMS_FILE.exists():
+            print(f"Fake claims file not found at {FAKE_CLAIMS_FILE}")
+            return []
+        try:
+            with FAKE_CLAIMS_FILE.open('r', encoding='utf-8') as f:
+                data = json.load(f)
+            claims = []
+            for item in data:
+                if isinstance(item, dict):
+                    text = item.get('claim') or item.get('text')
+                    if text:
+                        claims.append({"id": item.get("id"), "claim": text.strip()})
+                elif isinstance(item, str):
+                    claims.append({"id": None, "claim": item.strip()})
+            return [c for c in claims if c.get("claim")]
+        except Exception as e:
+            print(f"Failed to read fake claims: {e}")
+            return []
+
+    def auto_label_refutes_from_fake_claims(self, num_results=DEFAULT_DISPLAY_RESULTS):
+        """Auto-label fake claims as REFUTES based on relevant passages found.
+        
+        For each fake claim, search for related passages. Relevant passages are
+        automatically labeled with stance=refutes (since they refute the false claim).
+        This efficiently builds the refute portion of the training dataset.
+        
+        Note: Skips loading stance detection models since stance is hardcoded to 'refutes'.
+        """
+        if not self.ensure_models_initialized(skip_stance=True):
+            print("Failed to initialize models. Aborting fake claim run.")
+            return
+
+        fake_claims = self._load_fake_claims()
+        if not fake_claims:
+            print("No fake claims found. Aborting fake claim labeling run.")
+            return
+
+        processed_ids = self._load_processed_claim_ids()
+
+        prev_mode = self.auto_labeling_mode
+        self.auto_labeling_mode = True
+
+        print(f"\nAuto-labeling refutes from {len(fake_claims)} fake claims...")
+        for i, item in enumerate(fake_claims, 1):
+            claim_id = item.get("id")
+            claim_text = item.get("claim")
+            if claim_id is not None and claim_id in processed_ids:
+                print(f"\n[{i}/{len(fake_claims)}] Skipping fake claim id {claim_id} (already processed)")
+                continue
+            print(f"\n[{i}/{len(fake_claims)}] Fake claim: {claim_text}")
+            self._label_session_for_fake_claim(claim_text, num_results=num_results)
+            if claim_id is not None:
+                processed_ids.add(claim_id)
+
+        if processed_ids:
+            self._save_processed_claim_ids(processed_ids)
+
+        self.auto_labeling_mode = prev_mode
+        print(f"\n✓ Fake claim refute labeling complete!")
+
+    def _label_session_for_fake_claim(self, query, num_results=DEFAULT_DISPLAY_RESULTS, topk=DEFAULT_TOPK_FAISS):
+        """Labeling session for fake claims - auto-forces refutes stance for relevant passages.
+        
+        Only relevant passages are labeled (unrelated are discarded).
+        All relevant passages get stance=refutes since they refute the false claim.
+        """
+        print(f"\nSearching for passages related to: '{query}'")
+        print("Please wait...\n")
+        
+        faiss_scores, indices = self.search(query, topk=topk)
+        if self.last_query_concepts:
+            print(f"Concept expansion: {', '.join(self.last_query_concepts)}")
+        
+        candidates = []
+        for score, idx in zip(faiss_scores, indices):
+            if idx >= 0 and idx < len(self.metadata):
+                capped_score = min(0.95, float(score))
+                candidates.append((idx, capped_score))
+        
+        top_candidates = candidates[:num_results]
+        passages = [self.metadata[idx] for idx, _ in top_candidates]
+        faiss_scores_top = [score for _, score in top_candidates]
+        
+        print(f"Found {len(candidates)} passages, displaying top {len(top_candidates)}\n")
+        
+        rerank_scores = self.rerank_results(query, passages)
+        passage_indices = [idx for idx, _ in top_candidates]
+        sapbert_scores = self.compute_sapbert_similarities(query, passage_indices)
+        
+        session_data = {
+            'query': query,
+            'session_start': self.session_start.isoformat(),
+            'labeled_passages': []
+        }
+        
+        all_scores = []
+        labeled_count = 0
+        skipped_count = 0
+        
+        for i, (passage, faiss_score, rerank_score, sapbert_score) in enumerate(zip(passages, faiss_scores_top, rerank_scores, sapbert_scores), 1):
+            if not self.is_substantive_passage(passage.get('text', '')):
+                print(f"[{i}] {passage.get('title', 'Untitled')} [SKIPPED: Insufficient text content]")
+                skipped_count += 1
+                continue
+            
+            lexical_score = self.compute_lexical_overlap(query, passage.get('text', ''))
+            is_reviewed = bool(passage.get('medically_reviewed_by'))
+            has_author = bool(passage.get('author'))
+            combined_score = self.calculate_combined_score(
+                faiss_score, rerank_score, sapbert_score, lexical_score,
+                is_medically_reviewed=is_reviewed,
+                has_author=has_author
+            )
+            all_scores.append(combined_score)
+            
+            # Auto-determine relevance
+            auto_label = None
+            auto_label_reason = None
+            
+            if self.is_single_sentence_question(passage.get('text', '')):
+                auto_label = 'question'
+                auto_label_reason = 'question'
+            elif rerank_score <= AUTO_UNRELATED_CE_MAX and lexical_score <= AUTO_UNRELATED_LEX_MAX:
+                auto_label = 'unrelated'
+                auto_label_reason = 'low_ce_lex'
+            elif combined_score >= AUTO_RELEVANT_THRESHOLD:
+                auto_label = 'relevant'
+                auto_label_reason = 'score_high'
+            elif combined_score <= AUTO_UNRELATED_THRESHOLD:
+                auto_label = 'unrelated'
+                auto_label_reason = 'score_low'
+            else:
+                auto_label = 'review'
+            
+            self.display_passage(
+                i, passage, query, faiss_score, rerank_score, sapbert_score,
+                combined_score, auto_label, lexical_score, auto_label_reason=auto_label_reason,
+            )
+            
+            # For fake claims: ONLY label relevant passages with refutes stance
+            # Skip unrelated/question passages (no training value)
+            if auto_label == 'relevant':
+                labeled = self.save_labeled_passage(
+                    passage, query, 'relevant', rerank_score, faiss_score,
+                    stance='refutes', stance_confidence=0.95  # High confidence: false claim → refutes
+                )
+                session_data['labeled_passages'].append(labeled)
+                labeled_count += 1
+                print(f"→ Labeled as: RELEVANT ✓ [REFUTES (fake claim)]")
+            else:
+                skipped_count += 1
+                print(f"→ Skipped: {auto_label.upper()} (no training value for fake claims)")
+        
+        with LABELING_SESSION_FILE.open('w', encoding='utf-8') as f:
+            json.dump(session_data, f, indent=2, ensure_ascii=False)
+        
+        print(f"\n{'='*70}")
+        print(f"Fake Claim Session Summary")
+        print(f"{'='*70}")
+        print(f"Passages labeled (refutes): {labeled_count}")
+        print(f"Passages skipped: {skipped_count}")
+        if all_scores:
+            print(f"\nScore Distribution:")
+            print(f"  Mean: {np.mean(all_scores):.3f}")
+            print(f"  Median: {np.median(all_scores):.3f}")
+        print(f"{'='*70}\n")
+
     def _collect_labels(self, subset="all"):
         """Collect labeled items by subset."""
         subset = (subset or "all").strip().lower()
@@ -1230,10 +1416,11 @@ def main():
         print("3. View labeling statistics")
         print("4. Export labeled data")
         print("5. Auto-label using verified claims")
-        print("6. Exit")
+        print("6. Auto-label REFUTES from fake claims")
+        print("7. Exit")
         print("="*70)
         
-        choice = input("\nSelect option (1-6): ").strip()
+        choice = input("\nSelect option (1-7): ").strip()
         
         if choice == '1':
             # Start interactive labeling session
@@ -1325,11 +1512,15 @@ def main():
             labeler.auto_label_from_claims(num_results=DEFAULT_DISPLAY_RESULTS)
 
         elif choice == '6':
+            # Auto-label refutes from fake claims
+            labeler.auto_label_refutes_from_fake_claims(num_results=DEFAULT_DISPLAY_RESULTS)
+
+        elif choice == '7':
             print("\nThank you for using VeriFact Admin Tool. Goodbye!")
             break
         
         else:
-            print("Invalid option. Please select 1-6.")
+            print("Invalid option. Please select 1-7.")
 
 
 if __name__ == '__main__':
