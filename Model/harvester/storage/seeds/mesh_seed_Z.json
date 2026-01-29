@@ -1,1487 +1,229 @@
-[
+{
+  "seed_id": "mesh:D009792",
+  "label": "oceans and seas",
+  "canonical_label": "Oceans and Seas",
+  "aliases": [],
+  "semantic_ground_truth": "A great expanse of continuous bodies of salt water which together cover more than 70 percent of the earth's surface. Seas may be partially or entirely enclosed by land, and are smaller than the five oceans (Atlantic, Pacific, Indian, Arctic, and Antarctic).\n    ",
+  "temporal_tracking": {
+    "date_introduced": "1987-01-01",
+    "last_medical_update": "2015-06-22",
+    "status": "established"
+  },
+  "historical_trace": {
+    "history_note": "87\n  ",
+    "previous_indexing": []
+  },
+  "pharmacological_actions": [],
+  "synonyms": [
+    "Oceans and Seas",
+    "Seas",
+    "Oceans",
+    "Seas and Oceans"
+  ],
+  "keyword_candidates": [
     {
-        "seed_id": "mesh:D002947",
-        "label": "cities",
-        "canonical_label": "Cities",
-        "aliases": [],
-        "semantic_ground_truth": "A large or important municipality of a country, usually a major metropolitan center.\n    ",
-        "temporal_tracking": {
-            "date_introduced": "1998-01-01",
-            "last_medical_update": "2018-05-25",
-            "status": "established"
-        },
-        "historical_trace": {
-            "history_note": "98; use explode 1967-97\n  ",
-            "previous_indexing": [
-                "specific city (1966-1997)"
-            ]
-        },
-        "pharmacological_actions": [],
-        "synonyms": [
-            "Cities",
-            "Municipalities",
-            "Towns"
-        ],
-        "keyword_candidates": [
-            {
-                "term": "Cities",
-                "score": 1.0,
-                "source": "canonical_label;label;mesh_synonym"
-            },
-            {
-                "term": "Municipalities",
-                "score": 0.9,
-                "source": "mesh_synonym"
-            },
-            {
-                "term": "Towns",
-                "score": 0.9,
-                "source": "mesh_synonym"
-            },
-            {
-                "term": "Cities classification",
-                "score": 0.6,
-                "source": "modifier:classification"
-            },
-            {
-                "term": "Cities economics",
-                "score": 0.6,
-                "source": "modifier:economics"
-            },
-            {
-                "term": "Cities ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology"
-            },
-            {
-                "term": "Cities history",
-                "score": 0.6,
-                "source": "modifier:history"
-            },
-            {
-                "term": "Cities legislation & jurisprudence",
-                "score": 0.6,
-                "source": "modifier:legislation & jurisprudence"
-            },
-            {
-                "term": "Cities epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology"
-            },
-            {
-                "term": "Cities statistics & numerical data",
-                "score": 0.6,
-                "source": "modifier:statistics & numerical data"
-            },
-            {
-                "term": "Municipalities classification",
-                "score": 0.6,
-                "source": "modifier:classification"
-            },
-            {
-                "term": "Municipalities economics",
-                "score": 0.6,
-                "source": "modifier:economics"
-            },
-            {
-                "term": "Municipalities ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology"
-            },
-            {
-                "term": "Municipalities history",
-                "score": 0.6,
-                "source": "modifier:history"
-            },
-            {
-                "term": "Municipalities legislation & jurisprudence",
-                "score": 0.6,
-                "source": "modifier:legislation & jurisprudence"
-            },
-            {
-                "term": "Municipalities epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology"
-            },
-            {
-                "term": "Municipalities statistics & numerical data",
-                "score": 0.6,
-                "source": "modifier:statistics & numerical data"
-            },
-            {
-                "term": "Towns classification",
-                "score": 0.6,
-                "source": "modifier:classification"
-            },
-            {
-                "term": "Towns economics",
-                "score": 0.6,
-                "source": "modifier:economics"
-            },
-            {
-                "term": "Towns ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology"
-            },
-            {
-                "term": "Towns history",
-                "score": 0.6,
-                "source": "modifier:history"
-            },
-            {
-                "term": "Towns legislation & jurisprudence",
-                "score": 0.6,
-                "source": "modifier:legislation & jurisprudence"
-            },
-            {
-                "term": "Towns epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology"
-            },
-            {
-                "term": "Towns statistics & numerical data",
-                "score": 0.6,
-                "source": "modifier:statistics & numerical data"
-            },
-            {
-                "term": "Cities legislation",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "legislation &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "& jurisprudence",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Cities legislation &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "legislation & jurisprudence",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Cities statistics",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "statistics &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "& numerical",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "numerical data",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Cities statistics &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "statistics & numerical",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "& numerical data",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Municipalities legislation",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Municipalities legislation &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Municipalities statistics",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Municipalities statistics &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Towns legislation",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Towns legislation &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Towns statistics",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Towns statistics &",
-                "score": 0.5,
-                "source": "ngram"
-            }
-        ],
-        "preferred_search_terms": [
-            "Municipalities",
-            "Towns"
-        ],
-        "excluded_terms": [],
-        "sapbert_metadata": {
-            "model_name": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
-            "label_embedding_ref": "storage\\embeddings\\G\\mesh_D002947_label.npy",
-            "candidate_embeddings_ref": "storage\\embeddings\\G\\mesh_D002947_candidates.npy",
-            "embedding_dim": 768,
-            "num_candidate_embeddings": 43,
-            "embedded_at": "2026-01-21T06:04:21.914602Z"
-        },
-        "harvester_modifiers": [
-            "classification",
-            "economics",
-            "ethnology",
-            "history",
-            "legislation & jurisprudence",
-            "epidemiology",
-            "statistics & numerical data"
-        ],
-        "modifier_groups": {},
-        "query_templates": [],
-        "retrieval_params": {
-            "top_k_keywords": null,
-            "retmax_stageA": null,
-            "retmax_stageB": null,
-            "min_keyword_score": null,
-            "title_threshold": null,
-            "combined_score_threshold_for_biobert": null
-        },
-        "evidence_index": [],
-        "claim_templates": [],
-        "analysis": {
-            "biobert_runs": [],
-            "claim_verdicts": []
-        },
-        "mesh_tree_numbers": [
-            "G16.500.275.069",
-            "N06.230.069",
-            "Z01.433"
-        ],
-        "tags": [
-            "Z01",
-            "G16",
-            "N06"
-        ],
-        "top_level_branches": [
-            "G",
-            "Z",
-            "N"
-        ],
-        "seed_level_notes": "",
-        "created_at": "2026-01-21T11:22:08.336202Z",
-        "last_updated_in_db": "2026-01-21T11:22:08.336207Z",
-        "updated_at": ""
+      "term": "Oceans and Seas",
+      "score": 1.0,
+      "source": "canonical_label;label;mesh_synonym;ngram"
     },
     {
-        "seed_id": "mesh:D009792",
-        "label": "oceans and seas",
-        "canonical_label": "Oceans and Seas",
-        "aliases": [],
-        "semantic_ground_truth": "A great expanse of continuous bodies of salt water which together cover more than 70 percent of the earth's surface. Seas may be partially or entirely enclosed by land, and are smaller than the five oceans (Atlantic, Pacific, Indian, Arctic, and Antarctic).\n    ",
-        "temporal_tracking": {
-            "date_introduced": "1987-01-01",
-            "last_medical_update": "2015-06-22",
-            "status": "established"
-        },
-        "historical_trace": {
-            "history_note": "87\n  ",
-            "previous_indexing": []
-        },
-        "pharmacological_actions": [],
-        "synonyms": [
-            "Oceans and Seas",
-            "Seas",
-            "Oceans",
-            "Seas and Oceans"
-        ],
-        "keyword_candidates": [
-            {
-                "term": "Oceans and Seas",
-                "score": 1.0,
-                "source": "canonical_label;label;mesh_synonym;ngram"
-            },
-            {
-                "term": "Seas",
-                "score": 0.9,
-                "source": "mesh_synonym"
-            },
-            {
-                "term": "Oceans",
-                "score": 0.9,
-                "source": "mesh_synonym"
-            },
-            {
-                "term": "Seas and Oceans",
-                "score": 0.9,
-                "source": "mesh_synonym;ngram"
-            },
-            {
-                "term": "Oceans and Seas ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology"
-            },
-            {
-                "term": "Oceans and Seas epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology"
-            },
-            {
-                "term": "Seas ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology;ngram"
-            },
-            {
-                "term": "Seas epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology;ngram"
-            },
-            {
-                "term": "Oceans ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology"
-            },
-            {
-                "term": "Oceans epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology"
-            },
-            {
-                "term": "Oceans and",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "and Seas",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Seas and",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "and Oceans",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "and Seas ethnology",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "and Seas epidemiology",
-                "score": 0.5,
-                "source": "ngram"
-            }
-        ],
-        "preferred_search_terms": [
-            "Seas",
-            "Oceans"
-        ],
-        "excluded_terms": [],
-        "sapbert_metadata": {
-            "model_name": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
-            "label_embedding_ref": "storage\\embeddings\\G\\mesh_D009792_label.npy",
-            "candidate_embeddings_ref": "storage\\embeddings\\G\\mesh_D009792_candidates.npy",
-            "embedding_dim": 768,
-            "num_candidate_embeddings": 15,
-            "embedded_at": "2026-01-21T06:04:43.818555Z"
-        },
-        "harvester_modifiers": [
-            "ethnology",
-            "epidemiology"
-        ],
-        "modifier_groups": {},
-        "query_templates": [],
-        "retrieval_params": {
-            "top_k_keywords": null,
-            "retmax_stageA": null,
-            "retmax_stageB": null,
-            "min_keyword_score": null,
-            "title_threshold": null,
-            "combined_score_threshold_for_biobert": null
-        },
-        "evidence_index": [],
-        "claim_templates": [],
-        "analysis": {
-            "biobert_runs": [],
-            "claim_verdicts": []
-        },
-        "mesh_tree_numbers": [
-            "G01.311.625",
-            "G16.500.275.725.500.650",
-            "Z01.756"
-        ],
-        "tags": [
-            "Z01",
-            "G16",
-            "G01"
-        ],
-        "top_level_branches": [
-            "G",
-            "Z"
-        ],
-        "seed_level_notes": "",
-        "created_at": "2026-01-21T11:22:12.876635Z",
-        "last_updated_in_db": "2026-01-21T11:22:12.876640Z",
-        "updated_at": ""
+      "term": "Seas",
+      "score": 0.9,
+      "source": "mesh_synonym"
     },
     {
-        "seed_id": "mesh:D062312",
-        "label": "islands",
-        "canonical_label": "Islands",
-        "aliases": [],
-        "semantic_ground_truth": "Tracts of land completely surrounded by water.\n    ",
-        "temporal_tracking": {
-            "date_introduced": "2013-01-01",
-            "last_medical_update": "2013-01-01",
-            "status": "established"
-        },
-        "historical_trace": {
-            "history_note": "2013\n  ",
-            "previous_indexing": []
-        },
-        "pharmacological_actions": [],
-        "synonyms": [
-            "Islands"
-        ],
-        "keyword_candidates": [
-            {
-                "term": "Islands",
-                "score": 1.0,
-                "source": "canonical_label;label;mesh_synonym"
-            },
-            {
-                "term": "Islands ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology"
-            },
-            {
-                "term": "Islands epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology"
-            }
-        ],
-        "preferred_search_terms": [
-            "Islands"
-        ],
-        "excluded_terms": [],
-        "sapbert_metadata": {
-            "model_name": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
-            "label_embedding_ref": "storage\\embeddings\\G\\mesh_D062312_label.npy",
-            "candidate_embeddings_ref": "storage\\embeddings\\G\\mesh_D062312_candidates.npy",
-            "embedding_dim": 768,
-            "num_candidate_embeddings": 2,
-            "embedded_at": "2026-01-21T06:05:47.921534Z"
-        },
-        "harvester_modifiers": [
-            "ethnology",
-            "epidemiology"
-        ],
-        "modifier_groups": {},
-        "query_templates": [],
-        "retrieval_params": {
-            "top_k_keywords": null,
-            "retmax_stageA": null,
-            "retmax_stageB": null,
-            "min_keyword_score": null,
-            "title_threshold": null,
-            "combined_score_threshold_for_biobert": null
-        },
-        "evidence_index": [],
-        "claim_templates": [],
-        "analysis": {
-            "biobert_runs": [],
-            "claim_verdicts": []
-        },
-        "mesh_tree_numbers": [
-            "G16.500.275.505",
-            "N06.230.295",
-            "Z01.639"
-        ],
-        "tags": [
-            "Z01",
-            "G16",
-            "N06"
-        ],
-        "top_level_branches": [
-            "G",
-            "Z",
-            "N"
-        ],
-        "seed_level_notes": "",
-        "created_at": "2026-01-21T11:22:23.112656Z",
-        "last_updated_in_db": "2026-01-21T11:22:23.112659Z",
-        "updated_at": ""
+      "term": "Oceans",
+      "score": 0.9,
+      "source": "mesh_synonym"
     },
     {
-        "seed_id": "mesh:D002947",
-        "label": "cities",
-        "canonical_label": "Cities",
-        "aliases": [],
-        "semantic_ground_truth": "A large or important municipality of a country, usually a major metropolitan center.\n    ",
-        "temporal_tracking": {
-            "date_introduced": "1998-01-01",
-            "last_medical_update": "2018-05-25",
-            "status": "established"
-        },
-        "historical_trace": {
-            "history_note": "98; use explode 1967-97\n  ",
-            "previous_indexing": [
-                "specific city (1966-1997)"
-            ]
-        },
-        "pharmacological_actions": [],
-        "synonyms": [
-            "Cities",
-            "Municipalities",
-            "Towns"
-        ],
-        "keyword_candidates": [
-            {
-                "term": "Cities",
-                "score": 1.0,
-                "source": "canonical_label;label;mesh_synonym"
-            },
-            {
-                "term": "Municipalities",
-                "score": 0.9,
-                "source": "mesh_synonym"
-            },
-            {
-                "term": "Towns",
-                "score": 0.9,
-                "source": "mesh_synonym"
-            },
-            {
-                "term": "Cities classification",
-                "score": 0.6,
-                "source": "modifier:classification"
-            },
-            {
-                "term": "Cities economics",
-                "score": 0.6,
-                "source": "modifier:economics"
-            },
-            {
-                "term": "Cities ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology"
-            },
-            {
-                "term": "Cities history",
-                "score": 0.6,
-                "source": "modifier:history"
-            },
-            {
-                "term": "Cities legislation & jurisprudence",
-                "score": 0.6,
-                "source": "modifier:legislation & jurisprudence"
-            },
-            {
-                "term": "Cities epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology"
-            },
-            {
-                "term": "Cities statistics & numerical data",
-                "score": 0.6,
-                "source": "modifier:statistics & numerical data"
-            },
-            {
-                "term": "Municipalities classification",
-                "score": 0.6,
-                "source": "modifier:classification"
-            },
-            {
-                "term": "Municipalities economics",
-                "score": 0.6,
-                "source": "modifier:economics"
-            },
-            {
-                "term": "Municipalities ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology"
-            },
-            {
-                "term": "Municipalities history",
-                "score": 0.6,
-                "source": "modifier:history"
-            },
-            {
-                "term": "Municipalities legislation & jurisprudence",
-                "score": 0.6,
-                "source": "modifier:legislation & jurisprudence"
-            },
-            {
-                "term": "Municipalities epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology"
-            },
-            {
-                "term": "Municipalities statistics & numerical data",
-                "score": 0.6,
-                "source": "modifier:statistics & numerical data"
-            },
-            {
-                "term": "Towns classification",
-                "score": 0.6,
-                "source": "modifier:classification"
-            },
-            {
-                "term": "Towns economics",
-                "score": 0.6,
-                "source": "modifier:economics"
-            },
-            {
-                "term": "Towns ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology"
-            },
-            {
-                "term": "Towns history",
-                "score": 0.6,
-                "source": "modifier:history"
-            },
-            {
-                "term": "Towns legislation & jurisprudence",
-                "score": 0.6,
-                "source": "modifier:legislation & jurisprudence"
-            },
-            {
-                "term": "Towns epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology"
-            },
-            {
-                "term": "Towns statistics & numerical data",
-                "score": 0.6,
-                "source": "modifier:statistics & numerical data"
-            },
-            {
-                "term": "Cities legislation",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "legislation &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "& jurisprudence",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Cities legislation &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "legislation & jurisprudence",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Cities statistics",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "statistics &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "& numerical",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "numerical data",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Cities statistics &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "statistics & numerical",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "& numerical data",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Municipalities legislation",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Municipalities legislation &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Municipalities statistics",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Municipalities statistics &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Towns legislation",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Towns legislation &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Towns statistics",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Towns statistics &",
-                "score": 0.5,
-                "source": "ngram"
-            }
-        ],
-        "preferred_search_terms": [
-            "Municipalities",
-            "Towns"
-        ],
-        "excluded_terms": [],
-        "sapbert_metadata": {
-            "model_name": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
-            "label_embedding_ref": "storage\\embeddings\\G\\mesh_D002947_label.npy",
-            "candidate_embeddings_ref": "storage\\embeddings\\G\\mesh_D002947_candidates.npy",
-            "embedding_dim": 768,
-            "num_candidate_embeddings": 43,
-            "embedded_at": "2026-01-21T06:07:36.060488Z"
-        },
-        "harvester_modifiers": [
-            "classification",
-            "economics",
-            "ethnology",
-            "history",
-            "legislation & jurisprudence",
-            "epidemiology",
-            "statistics & numerical data"
-        ],
-        "modifier_groups": {},
-        "query_templates": [],
-        "retrieval_params": {
-            "top_k_keywords": null,
-            "retmax_stageA": null,
-            "retmax_stageB": null,
-            "min_keyword_score": null,
-            "title_threshold": null,
-            "combined_score_threshold_for_biobert": null
-        },
-        "evidence_index": [],
-        "claim_templates": [],
-        "analysis": {
-            "biobert_runs": [],
-            "claim_verdicts": []
-        },
-        "mesh_tree_numbers": [
-            "G16.500.275.069",
-            "N06.230.069",
-            "Z01.433"
-        ],
-        "tags": [
-            "Z01",
-            "G16",
-            "N06"
-        ],
-        "top_level_branches": [
-            "G",
-            "Z",
-            "N"
-        ],
-        "seed_level_notes": "",
-        "created_at": "2026-01-21T11:22:08.336202Z",
-        "last_updated_in_db": "2026-01-21T11:22:08.336207Z",
-        "updated_at": ""
+      "term": "Seas and Oceans",
+      "score": 0.9,
+      "source": "mesh_synonym;ngram"
     },
     {
-        "seed_id": "mesh:D062312",
-        "label": "islands",
-        "canonical_label": "Islands",
-        "aliases": [],
-        "semantic_ground_truth": "Tracts of land completely surrounded by water.\n    ",
-        "temporal_tracking": {
-            "date_introduced": "2013-01-01",
-            "last_medical_update": "2013-01-01",
-            "status": "established"
-        },
-        "historical_trace": {
-            "history_note": "2013\n  ",
-            "previous_indexing": []
-        },
-        "pharmacological_actions": [],
-        "synonyms": [
-            "Islands"
-        ],
-        "keyword_candidates": [
-            {
-                "term": "Islands",
-                "score": 1.0,
-                "source": "canonical_label;label;mesh_synonym"
-            },
-            {
-                "term": "Islands ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology"
-            },
-            {
-                "term": "Islands epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology"
-            }
-        ],
-        "preferred_search_terms": [
-            "Islands"
-        ],
-        "excluded_terms": [],
-        "sapbert_metadata": {
-            "model_name": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
-            "label_embedding_ref": "storage\\embeddings\\G\\mesh_D062312_label.npy",
-            "candidate_embeddings_ref": "storage\\embeddings\\G\\mesh_D062312_candidates.npy",
-            "embedding_dim": 768,
-            "num_candidate_embeddings": 2,
-            "embedded_at": "2026-01-21T06:07:52.044390Z"
-        },
-        "harvester_modifiers": [
-            "ethnology",
-            "epidemiology"
-        ],
-        "modifier_groups": {},
-        "query_templates": [],
-        "retrieval_params": {
-            "top_k_keywords": null,
-            "retmax_stageA": null,
-            "retmax_stageB": null,
-            "min_keyword_score": null,
-            "title_threshold": null,
-            "combined_score_threshold_for_biobert": null
-        },
-        "evidence_index": [],
-        "claim_templates": [],
-        "analysis": {
-            "biobert_runs": [],
-            "claim_verdicts": []
-        },
-        "mesh_tree_numbers": [
-            "G16.500.275.505",
-            "N06.230.295",
-            "Z01.639"
-        ],
-        "tags": [
-            "Z01",
-            "G16",
-            "N06"
-        ],
-        "top_level_branches": [
-            "G",
-            "Z",
-            "N"
-        ],
-        "seed_level_notes": "",
-        "created_at": "2026-01-21T11:22:23.112656Z",
-        "last_updated_in_db": "2026-01-21T11:22:23.112659Z",
-        "updated_at": ""
+      "term": "Oceans and Seas ethnology",
+      "score": 0.6,
+      "source": "modifier:ethnology"
     },
     {
-        "seed_id": "mesh:D002947",
-        "label": "cities",
-        "canonical_label": "Cities",
-        "aliases": [],
-        "semantic_ground_truth": "A large or important municipality of a country, usually a major metropolitan center.\n    ",
-        "temporal_tracking": {
-            "date_introduced": "1998-01-01",
-            "last_medical_update": "2018-05-25",
-            "status": "established"
-        },
-        "historical_trace": {
-            "history_note": "98; use explode 1967-97\n  ",
-            "previous_indexing": [
-                "specific city (1966-1997)"
-            ]
-        },
-        "pharmacological_actions": [],
-        "synonyms": [
-            "Cities",
-            "Municipalities",
-            "Towns"
-        ],
-        "keyword_candidates": [
-            {
-                "term": "Cities",
-                "score": 1.0,
-                "source": "canonical_label;label;mesh_synonym"
-            },
-            {
-                "term": "Municipalities",
-                "score": 0.9,
-                "source": "mesh_synonym"
-            },
-            {
-                "term": "Towns",
-                "score": 0.9,
-                "source": "mesh_synonym"
-            },
-            {
-                "term": "Cities classification",
-                "score": 0.6,
-                "source": "modifier:classification"
-            },
-            {
-                "term": "Cities economics",
-                "score": 0.6,
-                "source": "modifier:economics"
-            },
-            {
-                "term": "Cities ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology"
-            },
-            {
-                "term": "Cities history",
-                "score": 0.6,
-                "source": "modifier:history"
-            },
-            {
-                "term": "Cities legislation & jurisprudence",
-                "score": 0.6,
-                "source": "modifier:legislation & jurisprudence"
-            },
-            {
-                "term": "Cities epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology"
-            },
-            {
-                "term": "Cities statistics & numerical data",
-                "score": 0.6,
-                "source": "modifier:statistics & numerical data"
-            },
-            {
-                "term": "Municipalities classification",
-                "score": 0.6,
-                "source": "modifier:classification"
-            },
-            {
-                "term": "Municipalities economics",
-                "score": 0.6,
-                "source": "modifier:economics"
-            },
-            {
-                "term": "Municipalities ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology"
-            },
-            {
-                "term": "Municipalities history",
-                "score": 0.6,
-                "source": "modifier:history"
-            },
-            {
-                "term": "Municipalities legislation & jurisprudence",
-                "score": 0.6,
-                "source": "modifier:legislation & jurisprudence"
-            },
-            {
-                "term": "Municipalities epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology"
-            },
-            {
-                "term": "Municipalities statistics & numerical data",
-                "score": 0.6,
-                "source": "modifier:statistics & numerical data"
-            },
-            {
-                "term": "Towns classification",
-                "score": 0.6,
-                "source": "modifier:classification"
-            },
-            {
-                "term": "Towns economics",
-                "score": 0.6,
-                "source": "modifier:economics"
-            },
-            {
-                "term": "Towns ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology"
-            },
-            {
-                "term": "Towns history",
-                "score": 0.6,
-                "source": "modifier:history"
-            },
-            {
-                "term": "Towns legislation & jurisprudence",
-                "score": 0.6,
-                "source": "modifier:legislation & jurisprudence"
-            },
-            {
-                "term": "Towns epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology"
-            },
-            {
-                "term": "Towns statistics & numerical data",
-                "score": 0.6,
-                "source": "modifier:statistics & numerical data"
-            },
-            {
-                "term": "Cities legislation",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "legislation &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "& jurisprudence",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Cities legislation &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "legislation & jurisprudence",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Cities statistics",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "statistics &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "& numerical",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "numerical data",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Cities statistics &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "statistics & numerical",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "& numerical data",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Municipalities legislation",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Municipalities legislation &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Municipalities statistics",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Municipalities statistics &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Towns legislation",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Towns legislation &",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Towns statistics",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Towns statistics &",
-                "score": 0.5,
-                "source": "ngram"
-            }
-        ],
-        "preferred_search_terms": [
-            "Municipalities",
-            "Towns"
-        ],
-        "excluded_terms": [],
-        "sapbert_metadata": {
-            "model_name": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
-            "label_embedding_ref": "storage\\embeddings\\G\\mesh_D002947_label.npy",
-            "candidate_embeddings_ref": "storage\\embeddings\\G\\mesh_D002947_candidates.npy",
-            "embedding_dim": 768,
-            "num_candidate_embeddings": 43,
-            "embedded_at": "2026-01-21T06:07:55.811350Z"
-        },
-        "harvester_modifiers": [
-            "classification",
-            "economics",
-            "ethnology",
-            "history",
-            "legislation & jurisprudence",
-            "epidemiology",
-            "statistics & numerical data"
-        ],
-        "modifier_groups": {},
-        "query_templates": [],
-        "retrieval_params": {
-            "top_k_keywords": null,
-            "retmax_stageA": null,
-            "retmax_stageB": null,
-            "min_keyword_score": null,
-            "title_threshold": null,
-            "combined_score_threshold_for_biobert": null
-        },
-        "evidence_index": [],
-        "claim_templates": [],
-        "analysis": {
-            "biobert_runs": [],
-            "claim_verdicts": []
-        },
-        "mesh_tree_numbers": [
-            "G16.500.275.069",
-            "N06.230.069",
-            "Z01.433"
-        ],
-        "tags": [
-            "Z01",
-            "G16",
-            "N06"
-        ],
-        "top_level_branches": [
-            "G",
-            "Z",
-            "N"
-        ],
-        "seed_level_notes": "",
-        "created_at": "2026-01-21T11:22:08.336202Z",
-        "last_updated_in_db": "2026-01-21T11:22:08.336207Z",
-        "updated_at": ""
+      "term": "Oceans and Seas epidemiology",
+      "score": 0.6,
+      "source": "modifier:epidemiology"
     },
     {
-        "seed_id": "mesh:D009792",
-        "label": "oceans and seas",
-        "canonical_label": "Oceans and Seas",
-        "aliases": [],
-        "semantic_ground_truth": "A great expanse of continuous bodies of salt water which together cover more than 70 percent of the earth's surface. Seas may be partially or entirely enclosed by land, and are smaller than the five oceans (Atlantic, Pacific, Indian, Arctic, and Antarctic).\n    ",
-        "temporal_tracking": {
-            "date_introduced": "1987-01-01",
-            "last_medical_update": "2015-06-22",
-            "status": "established"
-        },
-        "historical_trace": {
-            "history_note": "87\n  ",
-            "previous_indexing": []
-        },
-        "pharmacological_actions": [],
-        "synonyms": [
-            "Oceans and Seas",
-            "Seas",
-            "Oceans",
-            "Seas and Oceans"
-        ],
-        "keyword_candidates": [
-            {
-                "term": "Oceans and Seas",
-                "score": 1.0,
-                "source": "canonical_label;label;mesh_synonym;ngram"
-            },
-            {
-                "term": "Seas",
-                "score": 0.9,
-                "source": "mesh_synonym"
-            },
-            {
-                "term": "Oceans",
-                "score": 0.9,
-                "source": "mesh_synonym"
-            },
-            {
-                "term": "Seas and Oceans",
-                "score": 0.9,
-                "source": "mesh_synonym;ngram"
-            },
-            {
-                "term": "Oceans and Seas ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology"
-            },
-            {
-                "term": "Oceans and Seas epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology"
-            },
-            {
-                "term": "Seas ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology;ngram"
-            },
-            {
-                "term": "Seas epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology;ngram"
-            },
-            {
-                "term": "Oceans ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology"
-            },
-            {
-                "term": "Oceans epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology"
-            },
-            {
-                "term": "Oceans and",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "and Seas",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "Seas and",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "and Oceans",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "and Seas ethnology",
-                "score": 0.5,
-                "source": "ngram"
-            },
-            {
-                "term": "and Seas epidemiology",
-                "score": 0.5,
-                "source": "ngram"
-            }
-        ],
-        "preferred_search_terms": [
-            "Seas",
-            "Oceans"
-        ],
-        "excluded_terms": [],
-        "sapbert_metadata": {
-            "model_name": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
-            "label_embedding_ref": "storage\\embeddings\\G\\mesh_D009792_label.npy",
-            "candidate_embeddings_ref": "storage\\embeddings\\G\\mesh_D009792_candidates.npy",
-            "embedding_dim": 768,
-            "num_candidate_embeddings": 15,
-            "embedded_at": "2026-01-21T06:07:55.813586Z"
-        },
-        "harvester_modifiers": [
-            "ethnology",
-            "epidemiology"
-        ],
-        "modifier_groups": {},
-        "query_templates": [],
-        "retrieval_params": {
-            "top_k_keywords": null,
-            "retmax_stageA": null,
-            "retmax_stageB": null,
-            "min_keyword_score": null,
-            "title_threshold": null,
-            "combined_score_threshold_for_biobert": null
-        },
-        "evidence_index": [],
-        "claim_templates": [],
-        "analysis": {
-            "biobert_runs": [],
-            "claim_verdicts": []
-        },
-        "mesh_tree_numbers": [
-            "G01.311.625",
-            "G16.500.275.725.500.650",
-            "Z01.756"
-        ],
-        "tags": [
-            "Z01",
-            "G16",
-            "G01"
-        ],
-        "top_level_branches": [
-            "G",
-            "Z"
-        ],
-        "seed_level_notes": "",
-        "created_at": "2026-01-21T11:22:12.876635Z",
-        "last_updated_in_db": "2026-01-21T11:22:12.876640Z",
-        "updated_at": ""
+      "term": "Seas ethnology",
+      "score": 0.6,
+      "source": "modifier:ethnology;ngram"
     },
     {
-        "seed_id": "mesh:D062312",
-        "label": "islands",
-        "canonical_label": "Islands",
-        "aliases": [],
-        "semantic_ground_truth": "Tracts of land completely surrounded by water.\n    ",
-        "temporal_tracking": {
-            "date_introduced": "2013-01-01",
-            "last_medical_update": "2013-01-01",
-            "status": "established"
-        },
-        "historical_trace": {
-            "history_note": "2013\n  ",
-            "previous_indexing": []
-        },
-        "pharmacological_actions": [],
-        "synonyms": [
-            "Islands"
-        ],
-        "keyword_candidates": [
-            {
-                "term": "Islands",
-                "score": 1.0,
-                "source": "canonical_label;label;mesh_synonym"
-            },
-            {
-                "term": "Islands ethnology",
-                "score": 0.6,
-                "source": "modifier:ethnology"
-            },
-            {
-                "term": "Islands epidemiology",
-                "score": 0.6,
-                "source": "modifier:epidemiology"
-            }
-        ],
-        "preferred_search_terms": [
-            "Islands"
-        ],
-        "excluded_terms": [],
-        "sapbert_metadata": {
-            "model_name": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
-            "label_embedding_ref": "storage\\embeddings\\G\\mesh_D062312_label.npy",
-            "candidate_embeddings_ref": "storage\\embeddings\\G\\mesh_D062312_candidates.npy",
-            "embedding_dim": 768,
-            "num_candidate_embeddings": 2,
-            "embedded_at": "2026-01-21T06:07:55.815912Z"
-        },
-        "harvester_modifiers": [
-            "ethnology",
-            "epidemiology"
-        ],
-        "modifier_groups": {},
-        "query_templates": [],
-        "retrieval_params": {
-            "top_k_keywords": null,
-            "retmax_stageA": null,
-            "retmax_stageB": null,
-            "min_keyword_score": null,
-            "title_threshold": null,
-            "combined_score_threshold_for_biobert": null
-        },
-        "evidence_index": [],
-        "claim_templates": [],
-        "analysis": {
-            "biobert_runs": [],
-            "claim_verdicts": []
-        },
-        "mesh_tree_numbers": [
-            "G16.500.275.505",
-            "N06.230.295",
-            "Z01.639"
-        ],
-        "tags": [
-            "Z01",
-            "G16",
-            "N06"
-        ],
-        "top_level_branches": [
-            "G",
-            "Z",
-            "N"
-        ],
-        "seed_level_notes": "",
-        "created_at": "2026-01-21T11:22:23.112656Z",
-        "last_updated_in_db": "2026-01-21T11:22:23.112659Z",
-        "updated_at": ""
+      "term": "Seas epidemiology",
+      "score": 0.6,
+      "source": "modifier:epidemiology;ngram"
+    },
+    {
+      "term": "Oceans ethnology",
+      "score": 0.6,
+      "source": "modifier:ethnology"
+    },
+    {
+      "term": "Oceans epidemiology",
+      "score": 0.6,
+      "source": "modifier:epidemiology"
+    },
+    {
+      "term": "Oceans and",
+      "score": 0.5,
+      "source": "ngram"
+    },
+    {
+      "term": "and Seas",
+      "score": 0.5,
+      "source": "ngram"
+    },
+    {
+      "term": "Seas and",
+      "score": 0.5,
+      "source": "ngram"
+    },
+    {
+      "term": "and Oceans",
+      "score": 0.5,
+      "source": "ngram"
+    },
+    {
+      "term": "and Seas ethnology",
+      "score": 0.5,
+      "source": "ngram"
+    },
+    {
+      "term": "and Seas epidemiology",
+      "score": 0.5,
+      "source": "ngram"
     }
-]
+  ],
+  "preferred_search_terms": [
+    "Seas",
+    "Oceans"
+  ],
+  "excluded_terms": [],
+  "sapbert_metadata": {
+    "model_name": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+    "label_embedding_ref": "storage\\embeddings\\G\\mesh_D009792_label.npy",
+    "candidate_embeddings_ref": "storage\\embeddings\\G\\mesh_D009792_candidates.npy",
+    "embedding_dim": 768,
+    "num_candidate_embeddings": 15,
+    "embedded_at": "2026-01-21T06:04:43.818555Z"
+  },
+  "harvester_modifiers": [
+    "ethnology",
+    "epidemiology"
+  ],
+  "modifier_groups": {},
+  "query_templates": [],
+  "retrieval_params": {
+    "top_k_keywords": null,
+    "retmax_stageA": null,
+    "retmax_stageB": null,
+    "min_keyword_score": null,
+    "title_threshold": null,
+    "combined_score_threshold_for_biobert": null
+  },
+  "evidence_index": [],
+  "claim_templates": [],
+  "analysis": {
+    "biobert_runs": [],
+    "claim_verdicts": []
+  },
+  "mesh_tree_numbers": [
+    "G01.311.625",
+    "G16.500.275.725.500.650",
+    "Z01.756"
+  ],
+  "tags": [
+    "Z01",
+    "G16",
+    "G01"
+  ],
+  "top_level_branches": [
+    "G",
+    "Z"
+  ],
+  "seed_level_notes": "",
+  "created_at": "2026-01-21T11:22:12.876635Z",
+  "last_updated_in_db": "2026-01-21T11:22:12.876640Z",
+  "updated_at": "",
+  "_seed_file_path": "C:\\Users\\Aman Sheikh\\Desktop\\Projects\\VeriFact\\Model\\harvester\\storage\\seeds\\mesh_seed_Z.json",
+  "pubmed_search_log": [
+    {
+      "term": "Seas",
+      "query": "(\"Seas\"[MeSH Terms] OR \"Seas\"[Title/Abstract])",
+      "count": 5288,
+      "pmids": [
+        "41580454",
+        "41571477",
+        "41570520",
+        "41570517",
+        "41565810",
+        "41563944",
+        "41557610",
+        "41552281",
+        "41550066",
+        "41546901",
+        "41544741",
+        "41537958",
+        "41538453",
+        "41538446",
+        "41535149",
+        "41533780",
+        "41530335",
+        "41528421",
+        "41520425",
+        "41501018",
+        "41499877",
+        "41495312",
+        "41480265",
+        "41478055",
+        "41463883"
+      ],
+      "api_key_used": "80d607",
+      "email_used": "abamsheikh@gmail.com",
+      "retrieved_at": "2026-01-27T03:59:14Z"
+    },
+    {
+      "term": "Oceans",
+      "query": "(\"Oceans\"[MeSH Terms] OR \"Oceans\"[Title/Abstract])",
+      "count": 10095,
+      "pmids": [
+        "41582016",
+        "41581932",
+        "41574885",
+        "41570459",
+        "41568848",
+        "41565680",
+        "41564454",
+        "41564180",
+        "41563986",
+        "41562499",
+        "41561598",
+        "41557800",
+        "41555975",
+        "41550245",
+        "41548548",
+        "41545472",
+        "41545315",
+        "41538015",
+        "41535095",
+        "41535070",
+        "41531092",
+        "41529076",
+        "41528421",
+        "41525907",
+        "41525657"
+      ],
+      "api_key_used": "e3c208",
+      "email_used": "prashant.211528@ncit.edu.np",
+      "retrieved_at": "2026-01-27T03:59:14Z"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# WHO Scraping Scheduler Requirements
+
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# For headline scraping (dynamic content)
+selenium>=4.15.0
+
+# For scheduling (optional, only needed for FastAPI integration)
+apscheduler>=3.10.0
+
+# FastAPI integration (optional)
+fastapi>=0.104.0
+uvicorn>=0.24.0

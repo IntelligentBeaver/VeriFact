@@ -3,8 +3,9 @@
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-december-2016-polio-pakistan-en",
     "title": "2016 - Pakistan",
     "published_date": "2016-12-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -46,17 +47,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "2016 - Pakistan"
     ],
-    "scraped_at": "2026-01-29T09:49:46.904522",
-    "first_seen_utc": "2026-01-29T04:04:46.904537"
+    "scraped_at": "2026-01-29T21:48:52.070569",
+    "first_seen_utc": "2026-01-29T16:03:52.070587"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-december-2016-ah7n9-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2016-12-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -98,17 +101,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:49:48.238949",
-    "first_seen_utc": "2026-01-29T04:04:48.238965"
+    "scraped_at": "2026-01-29T21:48:53.275108",
+    "first_seen_utc": "2026-01-29T16:03:53.275125"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-december-2016-2-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-12-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -160,17 +165,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:49:50.060637",
-    "first_seen_utc": "2026-01-29T04:04:50.060657"
+    "scraped_at": "2026-01-29T21:48:54.594722",
+    "first_seen_utc": "2026-01-29T16:03:54.594736"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-december-2016-1-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-12-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -224,17 +231,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:49:51.514189",
-    "first_seen_utc": "2026-01-29T04:04:51.514212"
+    "scraped_at": "2026-01-29T21:48:55.817711",
+    "first_seen_utc": "2026-01-29T16:03:55.817729"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-december-2016-2-ah7n9-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2016-12-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -283,17 +292,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:49:52.990941",
-    "first_seen_utc": "2026-01-29T04:04:52.990971"
+    "scraped_at": "2026-01-29T21:48:57.165448",
+    "first_seen_utc": "2026-01-29T16:03:57.165466"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-december-2016-1-ah7n9-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2016-12-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -339,17 +350,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:49:54.498831",
-    "first_seen_utc": "2026-01-29T04:04:54.498858"
+    "scraped_at": "2026-01-29T21:48:58.423994",
+    "first_seen_utc": "2026-01-29T16:03:58.424009"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-december-2016-mers-oman-en",
     "title": "Middle East respiratory syndrome coronavirus – Oman",
     "published_date": "2016-12-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -386,17 +399,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Oman"
     ],
-    "scraped_at": "2026-01-29T09:49:56.667227",
-    "first_seen_utc": "2026-01-29T04:04:56.667241"
+    "scraped_at": "2026-01-29T21:48:59.653422",
+    "first_seen_utc": "2026-01-29T16:03:59.653440"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/07-december-2016-ah5n6-china-en",
     "title": "Influenza A H5N6 virus – China",
     "published_date": "2016-12-07",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -448,17 +463,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H5N6 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:49:58.102658",
-    "first_seen_utc": "2026-01-29T04:04:58.102673"
+    "scraped_at": "2026-01-29T21:49:00.935409",
+    "first_seen_utc": "2026-01-29T16:04:00.935426"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/5-december-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-12-05",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -508,17 +525,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:49:59.456784",
-    "first_seen_utc": "2026-01-29T04:04:59.456805"
+    "scraped_at": "2026-01-29T21:49:02.169812",
+    "first_seen_utc": "2026-01-29T16:04:02.169829"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/28-november-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-11-28",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -566,17 +585,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:50:01.961134",
-    "first_seen_utc": "2026-01-29T04:05:01.961151"
+    "scraped_at": "2026-01-29T21:49:03.441431",
+    "first_seen_utc": "2026-01-29T16:04:03.441446"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/24-november-2016-rift-valley-fever-niger-en",
     "title": "Rift Valley fever - Niger",
     "published_date": "2016-11-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -636,17 +657,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Rift Valley fever - Niger"
     ],
-    "scraped_at": "2026-01-29T09:50:03.382514",
-    "first_seen_utc": "2026-01-29T04:05:03.382530"
+    "scraped_at": "2026-01-29T21:49:04.692093",
+    "first_seen_utc": "2026-01-29T16:04:04.692108"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/18-november-2016-dengue-burkina-faso-en",
     "title": "Dengue – Burkina Faso",
     "published_date": "2016-11-18",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -702,17 +725,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue – Burkina Faso"
     ],
-    "scraped_at": "2026-01-29T09:50:05.071454",
-    "first_seen_utc": "2026-01-29T04:05:05.071481"
+    "scraped_at": "2026-01-29T21:49:05.922501",
+    "first_seen_utc": "2026-01-29T16:04:05.922516"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/17-november-2016-ah7n9-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2016-11-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -758,17 +783,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:50:06.523362",
-    "first_seen_utc": "2026-01-29T04:05:06.523381"
+    "scraped_at": "2026-01-29T21:49:07.182073",
+    "first_seen_utc": "2026-01-29T16:04:07.182093"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-november-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-11-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -834,17 +861,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:50:07.965992",
-    "first_seen_utc": "2026-01-29T04:05:07.966007"
+    "scraped_at": "2026-01-29T21:49:08.548599",
+    "first_seen_utc": "2026-01-29T16:04:08.548618"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/31-october-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-10-31",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -892,17 +921,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:50:09.397033",
-    "first_seen_utc": "2026-01-29T04:05:09.397048"
+    "scraped_at": "2026-01-29T21:49:09.847623",
+    "first_seen_utc": "2026-01-29T16:04:09.847647"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/13-october-2016-monkeypox-caf-en",
     "title": "Monkeypox - Central African Republic",
     "published_date": "2016-10-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -949,17 +980,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Monkeypox - Central African Republic"
     ],
-    "scraped_at": "2026-01-29T09:50:10.854413",
-    "first_seen_utc": "2026-01-29T04:05:10.854427"
+    "scraped_at": "2026-01-29T21:49:11.086275",
+    "first_seen_utc": "2026-01-29T16:04:11.086293"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/06-october-2016-polio-nigeria-en",
     "title": "Wild poliovirus type 1 and circulating vaccine-derived poliovirus type 2 - Nigeria",
     "published_date": "2016-10-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1008,17 +1041,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Wild poliovirus type 1 and circulating vaccine-derived poliovirus type 2 - Nigeria"
     ],
-    "scraped_at": "2026-01-29T09:50:12.731310",
-    "first_seen_utc": "2026-01-29T04:05:12.731339"
+    "scraped_at": "2026-01-29T21:49:12.343870",
+    "first_seen_utc": "2026-01-29T16:04:12.343890"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-september-2016-rift-valley-fever-niger-en",
     "title": "Rift Valley fever - Niger",
     "published_date": "2016-09-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1058,17 +1093,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Rift Valley fever - Niger"
     ],
-    "scraped_at": "2026-01-29T09:50:14.777739",
-    "first_seen_utc": "2026-01-29T04:05:14.777755"
+    "scraped_at": "2026-01-29T21:49:13.622270",
+    "first_seen_utc": "2026-01-29T16:04:13.622285"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-september-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-09-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1114,17 +1151,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:50:16.248256",
-    "first_seen_utc": "2026-01-29T04:05:16.248270"
+    "scraped_at": "2026-01-29T21:49:14.886990",
+    "first_seen_utc": "2026-01-29T16:04:14.887005"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-september-2016-mers-austria-en",
     "title": "Middle East respiratory syndrome coronavirus – Austria",
     "published_date": "2016-09-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1167,17 +1206,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Austria"
     ],
-    "scraped_at": "2026-01-29T09:50:17.703455",
-    "first_seen_utc": "2026-01-29T04:05:17.703469"
+    "scraped_at": "2026-01-29T21:49:16.298694",
+    "first_seen_utc": "2026-01-29T16:04:16.298713"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/16-september-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-09-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1223,17 +1264,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:50:19.210479",
-    "first_seen_utc": "2026-01-29T04:05:19.210494"
+    "scraped_at": "2026-01-29T21:49:17.581283",
+    "first_seen_utc": "2026-01-29T16:04:17.581300"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-august-2016-mers-thailand-en",
     "title": "Middle East respiratory syndrome coronavirus – Thailand",
     "published_date": "2016-08-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1274,17 +1317,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Thailand"
     ],
-    "scraped_at": "2026-01-29T09:50:20.776205",
-    "first_seen_utc": "2026-01-29T04:05:20.776223"
+    "scraped_at": "2026-01-29T21:49:18.777801",
+    "first_seen_utc": "2026-01-29T16:04:18.777820"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/17-august-2016-ah7n9-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2016-08-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1330,17 +1375,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:50:22.224859",
-    "first_seen_utc": "2026-01-29T04:05:22.224878"
+    "scraped_at": "2026-01-29T21:49:20.105648",
+    "first_seen_utc": "2026-01-29T16:04:20.105668"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/09-august-2016-chikungunya-kenya-en",
     "title": "Chikungunya – Kenya",
     "published_date": "2016-08-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1378,17 +1425,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Chikungunya – Kenya"
     ],
-    "scraped_at": "2026-01-29T09:50:23.639186",
-    "first_seen_utc": "2026-01-29T04:05:23.639205"
+    "scraped_at": "2026-01-29T21:49:22.444777",
+    "first_seen_utc": "2026-01-29T16:04:22.444792"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/02-august-2016-rift-valley-fever-china-en",
     "title": "Rift Valley fever - China",
     "published_date": "2016-08-02",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1433,17 +1482,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Rift Valley fever - China"
     ],
-    "scraped_at": "2026-01-29T09:50:25.601165",
-    "first_seen_utc": "2026-01-29T04:05:25.601199"
+    "scraped_at": "2026-01-29T21:49:23.727885",
+    "first_seen_utc": "2026-01-29T16:04:23.727900"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/25-july-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-07-25",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1494,17 +1545,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:50:27.585135",
-    "first_seen_utc": "2026-01-29T04:05:27.585150"
+    "scraped_at": "2026-01-29T21:49:25.132284",
+    "first_seen_utc": "2026-01-29T16:04:25.132303"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-july-2016-ah7n9-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2016-07-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1552,17 +1605,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:50:29.656862",
-    "first_seen_utc": "2026-01-29T04:05:29.656877"
+    "scraped_at": "2026-01-29T21:49:26.402190",
+    "first_seen_utc": "2026-01-29T16:04:26.402209"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-july-2016-ehec-uk-en",
     "title": "Enterohaemorrhagic Escherischia coli – United Kingdom of Great Britain and Northern Ireland",
     "published_date": "2016-07-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1606,17 +1661,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Enterohaemorrhagic Escherischia coli – United Kingdom of Great Britain and Northern Ireland"
     ],
-    "scraped_at": "2026-01-29T09:50:31.658979",
-    "first_seen_utc": "2026-01-29T04:05:31.658994"
+    "scraped_at": "2026-01-29T21:49:27.678811",
+    "first_seen_utc": "2026-01-29T16:04:27.678825"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/06-july-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-07-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1671,17 +1728,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:50:33.107430",
-    "first_seen_utc": "2026-01-29T04:05:33.107458"
+    "scraped_at": "2026-01-29T21:49:28.992352",
+    "first_seen_utc": "2026-01-29T16:04:28.992366"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/01-july-2016-ah7n9-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2016-07-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1730,17 +1789,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:50:34.697716",
-    "first_seen_utc": "2026-01-29T04:05:34.697742"
+    "scraped_at": "2026-01-29T21:49:30.328256",
+    "first_seen_utc": "2026-01-29T16:04:30.328273"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-june-2016-mers-qatar-en",
     "title": "Middle East respiratory syndrome coronavirus – Qatar",
     "published_date": "2016-06-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1778,17 +1839,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Qatar"
     ],
-    "scraped_at": "2026-01-29T09:50:36.148680",
-    "first_seen_utc": "2026-01-29T04:05:36.148696"
+    "scraped_at": "2026-01-29T21:49:31.653612",
+    "first_seen_utc": "2026-01-29T16:04:31.653632"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-june-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-06-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1839,17 +1902,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:50:37.569540",
-    "first_seen_utc": "2026-01-29T04:05:37.569557"
+    "scraped_at": "2026-01-29T21:49:32.938919",
+    "first_seen_utc": "2026-01-29T16:04:32.938938"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-june-2016-mers-uae-en",
     "title": "Middle East respiratory syndrome coronavirus – United Arab Emirates",
     "published_date": "2016-06-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1890,17 +1955,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – United Arab Emirates"
     ],
-    "scraped_at": "2026-01-29T09:50:38.977503",
-    "first_seen_utc": "2026-01-29T04:05:38.977520"
+    "scraped_at": "2026-01-29T21:49:34.219646",
+    "first_seen_utc": "2026-01-29T16:04:34.219665"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-june-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-06-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1966,17 +2033,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:50:42.237902",
-    "first_seen_utc": "2026-01-29T04:05:42.237916"
+    "scraped_at": "2026-01-29T21:49:35.482859",
+    "first_seen_utc": "2026-01-29T16:04:35.482877"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-june-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-06-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2022,17 +2091,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:50:43.608941",
-    "first_seen_utc": "2026-01-29T04:05:43.608961"
+    "scraped_at": "2026-01-29T21:49:36.684107",
+    "first_seen_utc": "2026-01-29T16:04:36.684125"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-june-2016-yellow-fever-angola-en",
     "title": "Yellow fever – Angola",
     "published_date": "2016-06-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2086,17 +2157,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow fever – Angola"
     ],
-    "scraped_at": "2026-01-29T09:50:45.019831",
-    "first_seen_utc": "2026-01-29T04:05:45.019848"
+    "scraped_at": "2026-01-29T21:49:38.078923",
+    "first_seen_utc": "2026-01-29T16:04:38.078941"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-june-2016-chikungunya-usa-en",
     "title": "Chikungunya – United States of America",
     "published_date": "2016-06-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2144,17 +2217,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Chikungunya – United States of America"
     ],
-    "scraped_at": "2026-01-29T09:50:53.620435",
-    "first_seen_utc": "2026-01-29T04:05:53.620452"
+    "scraped_at": "2026-01-29T21:49:39.487610",
+    "first_seen_utc": "2026-01-29T16:04:39.487625"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/13-june-2016-lassa-fever-benin-en",
     "title": "Lassa Fever – Benin",
     "published_date": "2016-06-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2205,17 +2280,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa Fever – Benin"
     ],
-    "scraped_at": "2026-01-29T09:50:55.067440",
-    "first_seen_utc": "2026-01-29T04:05:55.067455"
+    "scraped_at": "2026-01-29T21:49:40.840950",
+    "first_seen_utc": "2026-01-29T16:04:40.840965"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/08-june-2016-ah5n6-china-en",
     "title": "Influenza A H5N6 virus – China",
     "published_date": "2016-06-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2265,17 +2342,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H5N6 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:50:58.487712",
-    "first_seen_utc": "2026-01-29T04:05:58.487727"
+    "scraped_at": "2026-01-29T21:54:43.468101",
+    "first_seen_utc": "2026-01-29T16:09:43.468115"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/03-june-2016-oropouche-peru-en",
     "title": "Oropouche virus disease - Peru",
     "published_date": "2016-06-03",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2329,17 +2408,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Oropouche virus disease - Peru"
     ],
-    "scraped_at": "2026-01-29T09:51:00.999649",
-    "first_seen_utc": "2026-01-29T04:06:00.999668"
+    "scraped_at": "2026-01-29T21:54:45.036366",
+    "first_seen_utc": "2026-01-29T16:09:45.036384"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/02-june-2016-yellow-fever-drc-en",
     "title": "Yellow fever – Democratic Republic of the Congo",
     "published_date": "2016-06-02",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2380,17 +2461,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow fever – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:51:02.383905",
-    "first_seen_utc": "2026-01-29T04:06:02.383923"
+    "scraped_at": "2026-01-29T21:54:46.440023",
+    "first_seen_utc": "2026-01-29T16:09:46.440039"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-may-2016-lassa-fever-nigeria-en",
     "title": "Lassa Fever – Nigeria",
     "published_date": "2016-05-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2439,17 +2522,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa Fever – Nigeria"
     ],
-    "scraped_at": "2026-01-29T09:51:03.906721",
-    "first_seen_utc": "2026-01-29T04:06:03.906747"
+    "scraped_at": "2026-01-29T21:54:47.790903",
+    "first_seen_utc": "2026-01-29T16:09:47.790921"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-may-2016-hf-south-sudan-en",
     "title": "Haemorrhagic fever syndrome – South Sudan",
     "published_date": "2016-05-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2490,17 +2575,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Haemorrhagic fever syndrome – South Sudan"
     ],
-    "scraped_at": "2026-01-29T09:51:05.308738",
-    "first_seen_utc": "2026-01-29T04:06:05.308765"
+    "scraped_at": "2026-01-29T21:54:49.091853",
+    "first_seen_utc": "2026-01-29T16:09:49.091868"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/18-may-2016-lassa-fever-liberia-en",
     "title": "Lassa Fever – Liberia",
     "published_date": "2016-05-18",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2553,17 +2640,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa Fever – Liberia"
     ],
-    "scraped_at": "2026-01-29T09:51:06.596520",
-    "first_seen_utc": "2026-01-29T04:06:06.596538"
+    "scraped_at": "2026-01-29T21:54:50.384193",
+    "first_seen_utc": "2026-01-29T16:09:50.384211"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/17-may-2016-ah7n9-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2016-05-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2619,17 +2708,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:51:09.197142",
-    "first_seen_utc": "2026-01-29T04:06:09.197158"
+    "scraped_at": "2026-01-29T21:54:51.682821",
+    "first_seen_utc": "2026-01-29T16:09:51.682837"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/16-may-2016-mers-qatar-en",
     "title": "Middle East respiratory syndrome coronavirus – Qatar",
     "published_date": "2016-05-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2669,17 +2760,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Qatar"
     ],
-    "scraped_at": "2026-01-29T09:51:10.764322",
-    "first_seen_utc": "2026-01-29T04:06:10.764342"
+    "scraped_at": "2026-01-29T21:54:52.940889",
+    "first_seen_utc": "2026-01-29T16:09:52.940905"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/16-may-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-05-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2725,17 +2818,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:51:12.188715",
-    "first_seen_utc": "2026-01-29T04:06:12.188730"
+    "scraped_at": "2026-01-29T21:54:54.254167",
+    "first_seen_utc": "2026-01-29T16:09:54.254186"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/10-may-2016-ah5n6-china-en",
     "title": "Influenza A H5N6 virus – China",
     "published_date": "2016-05-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2785,17 +2880,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H5N6 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:51:13.677737",
-    "first_seen_utc": "2026-01-29T04:06:13.677753"
+    "scraped_at": "2026-01-29T21:54:56.166306",
+    "first_seen_utc": "2026-01-29T16:09:56.166336"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/6-may-2016-ah5n6-china-en",
     "title": "Influenza A H5N6 virus – China",
     "published_date": "2016-05-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2846,17 +2943,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H5N6 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:51:15.217408",
-    "first_seen_utc": "2026-01-29T04:06:15.217480"
+    "scraped_at": "2026-01-29T21:54:57.674562",
+    "first_seen_utc": "2026-01-29T16:09:57.674583"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/3-may-2016-ah7n9-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2016-05-03",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2907,17 +3006,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:51:17.392278",
-    "first_seen_utc": "2026-01-29T04:06:17.392297"
+    "scraped_at": "2026-01-29T21:54:59.069539",
+    "first_seen_utc": "2026-01-29T16:09:59.069557"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/02-may-2016-yellow-fever-uganda-en",
     "title": "Yellow fever – Uganda",
     "published_date": "2016-05-02",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2958,17 +3059,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow fever – Uganda"
     ],
-    "scraped_at": "2026-01-29T09:51:18.848285",
-    "first_seen_utc": "2026-01-29T04:06:18.848301"
+    "scraped_at": "2026-01-29T21:55:00.459322",
+    "first_seen_utc": "2026-01-29T16:10:00.459343"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/02-may-2016-yellow-fever-drc-en",
     "title": "Yellow fever – Democratic Republic of the Congo",
     "published_date": "2016-05-02",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3019,17 +3122,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow fever – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:51:20.854660",
-    "first_seen_utc": "2026-01-29T04:06:20.854675"
+    "scraped_at": "2026-01-29T21:55:01.794665",
+    "first_seen_utc": "2026-01-29T16:10:01.794683"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/28-april-2016-salmonellosis-usa-en",
     "title": "Salmonellosis - United States of America",
     "published_date": "2016-04-28",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3069,17 +3174,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Salmonellosis - United States of America"
     ],
-    "scraped_at": "2026-01-29T09:51:22.238086",
-    "first_seen_utc": "2026-01-29T04:06:22.238104"
+    "scraped_at": "2026-01-29T21:55:03.188468",
+    "first_seen_utc": "2026-01-29T16:10:03.188484"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-april-2016-lassa-fever-germany-en",
     "title": "Lassa Fever – Germany",
     "published_date": "2016-04-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3110,17 +3217,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa Fever – Germany"
     ],
-    "scraped_at": "2026-01-29T09:51:23.642391",
-    "first_seen_utc": "2026-01-29T04:06:23.642409"
+    "scraped_at": "2026-01-29T21:55:04.499863",
+    "first_seen_utc": "2026-01-29T16:10:04.499880"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-april-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-04-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3166,17 +3275,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:51:25.038179",
-    "first_seen_utc": "2026-01-29T04:06:25.038194"
+    "scraped_at": "2026-01-29T21:55:05.779184",
+    "first_seen_utc": "2026-01-29T16:10:05.779199"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-april-2016-avian-ah7n9-china-en",
     "title": "2016 - China",
     "published_date": "2016-04-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3218,17 +3329,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "2016 - China"
     ],
-    "scraped_at": "2026-01-29T09:51:26.372136",
-    "first_seen_utc": "2026-01-29T04:06:26.372156"
+    "scraped_at": "2026-01-29T21:55:07.072636",
+    "first_seen_utc": "2026-01-29T16:10:07.072652"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/25-april-2016-mers-bahrain-en",
     "title": "Middle East respiratory syndrome coronavirus – Bahrain",
     "published_date": "2016-04-25",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3266,17 +3379,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Bahrain"
     ],
-    "scraped_at": "2026-01-29T09:51:28.253674",
-    "first_seen_utc": "2026-01-29T04:06:28.253689"
+    "scraped_at": "2026-01-29T21:55:08.342740",
+    "first_seen_utc": "2026-01-29T16:10:08.342754"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-april-2016-yellow-fever-china-en",
     "title": "Yellow Fever – China",
     "published_date": "2016-04-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3325,17 +3440,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow Fever – China"
     ],
-    "scraped_at": "2026-01-29T09:51:29.813762",
-    "first_seen_utc": "2026-01-29T04:06:29.813777"
+    "scraped_at": "2026-01-29T21:55:09.580507",
+    "first_seen_utc": "2026-01-29T16:10:09.580525"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-april-2016-zika-png-en",
     "title": "Zika virus disease – Papua New Guinea",
     "published_date": "2016-04-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3400,17 +3517,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Papua New Guinea"
     ],
-    "scraped_at": "2026-01-29T09:51:31.137717",
-    "first_seen_utc": "2026-01-29T04:06:31.137734"
+    "scraped_at": "2026-01-29T21:55:10.893623",
+    "first_seen_utc": "2026-01-29T16:10:10.893639"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-april-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-04-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3462,17 +3581,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:51:32.550681",
-    "first_seen_utc": "2026-01-29T04:06:32.550697"
+    "scraped_at": "2026-01-29T21:55:12.174104",
+    "first_seen_utc": "2026-01-29T16:10:12.174119"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-april-2016-elizabethkingia-usa-en",
     "title": "2016 - United States of America",
     "published_date": "2016-04-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3509,17 +3630,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "2016 - United States of America"
     ],
-    "scraped_at": "2026-01-29T09:51:34.325213",
-    "first_seen_utc": "2026-01-29T04:06:34.325234"
+    "scraped_at": "2026-01-29T21:55:13.501688",
+    "first_seen_utc": "2026-01-29T16:10:13.501706"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-april-2016-zika-peru-en",
     "title": "Zika virus disease – Peru",
     "published_date": "2016-04-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3580,17 +3703,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Peru"
     ],
-    "scraped_at": "2026-01-29T09:51:35.712430",
-    "first_seen_utc": "2026-01-29T04:06:35.712452"
+    "scraped_at": "2026-01-29T21:55:14.833041",
+    "first_seen_utc": "2026-01-29T16:10:14.833057"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-april-2016-zika-saint-lucia-en",
     "title": "Zika virus disease – Saint Lucia",
     "published_date": "2016-04-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3661,17 +3786,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Saint Lucia"
     ],
-    "scraped_at": "2026-01-29T09:51:37.147829",
-    "first_seen_utc": "2026-01-29T04:06:37.147854"
+    "scraped_at": "2026-01-29T21:55:16.053883",
+    "first_seen_utc": "2026-01-29T16:10:16.053902"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/15-april-2016-zika-chile-en",
     "title": "Zika virus disease – Chile",
     "published_date": "2016-04-15",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3730,17 +3857,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Chile"
     ],
-    "scraped_at": "2026-01-29T09:51:38.611596",
-    "first_seen_utc": "2026-01-29T04:06:38.611614"
+    "scraped_at": "2026-01-29T21:55:17.294763",
+    "first_seen_utc": "2026-01-29T16:10:17.294781"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-april-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-04-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3798,17 +3927,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:51:40.811013",
-    "first_seen_utc": "2026-01-29T04:06:40.811030"
+    "scraped_at": "2026-01-29T21:55:18.532201",
+    "first_seen_utc": "2026-01-29T16:10:18.532217"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/13-april-2016-yellow-fever-angola-en",
     "title": "Yellow fever – Angola",
     "published_date": "2016-04-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3855,17 +3986,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow fever – Angola"
     ],
-    "scraped_at": "2026-01-29T09:51:42.143863",
-    "first_seen_utc": "2026-01-29T04:06:42.143883"
+    "scraped_at": "2026-01-29T21:55:19.820009",
+    "first_seen_utc": "2026-01-29T16:10:19.820025"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-april-2016-zika-viet-nam-en",
     "title": "Zika virus disease – Viet Nam",
     "published_date": "2016-04-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3932,17 +4065,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Viet Nam"
     ],
-    "scraped_at": "2026-01-29T09:51:43.538604",
-    "first_seen_utc": "2026-01-29T04:06:43.538622"
+    "scraped_at": "2026-01-29T21:55:21.097567",
+    "first_seen_utc": "2026-01-29T16:10:21.097589"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-april-2016-yellow-fever-drc-en",
     "title": "Yellow Fever – Democratic Republic of the Congo",
     "published_date": "2016-04-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3983,17 +4118,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow Fever – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:51:46.066343",
-    "first_seen_utc": "2026-01-29T04:06:46.066363"
+    "scraped_at": "2026-01-29T21:55:22.334161",
+    "first_seen_utc": "2026-01-29T16:10:22.334182"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/9-april-2016-microcephaly-france-en",
     "title": "Microcephaly – France - Martinique",
     "published_date": "2016-04-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4040,17 +4177,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Microcephaly – France - Martinique"
     ],
-    "scraped_at": "2026-01-29T09:51:47.492586",
-    "first_seen_utc": "2026-01-29T04:06:47.492602"
+    "scraped_at": "2026-01-29T21:55:23.604999",
+    "first_seen_utc": "2026-01-29T16:10:23.605017"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-april-2016-lassa-fever-sweden-en",
     "title": "Lassa fever – Sweden",
     "published_date": "2016-04-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4092,17 +4231,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa fever – Sweden"
     ],
-    "scraped_at": "2026-01-29T09:51:49.814764",
-    "first_seen_utc": "2026-01-29T04:06:49.814784"
+    "scraped_at": "2026-01-29T21:55:24.868961",
+    "first_seen_utc": "2026-01-29T16:10:24.868980"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/6-april-2016-yellow-fever-kenya-en",
     "title": "Yellow Fever – Kenya",
     "published_date": "2016-04-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4153,17 +4294,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow Fever – Kenya"
     ],
-    "scraped_at": "2026-01-29T09:51:51.273430",
-    "first_seen_utc": "2026-01-29T04:06:51.273445"
+    "scraped_at": "2026-01-29T21:55:26.237151",
+    "first_seen_utc": "2026-01-29T16:10:26.237172"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/6-april-2016-yellow-fever-china-en",
     "title": "Yellow Fever – China",
     "published_date": "2016-04-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4212,17 +4355,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow Fever – China"
     ],
-    "scraped_at": "2026-01-29T09:51:52.609857",
-    "first_seen_utc": "2026-01-29T04:06:52.609872"
+    "scraped_at": "2026-01-29T21:55:27.523087",
+    "first_seen_utc": "2026-01-29T16:10:27.523104"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/1-april-2016-microcephaly-france-en",
     "title": "Microcephaly – France - Martinique",
     "published_date": "2016-04-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4269,17 +4414,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Microcephaly – France - Martinique"
     ],
-    "scraped_at": "2026-01-29T09:51:53.961300",
-    "first_seen_utc": "2026-01-29T04:06:53.961317"
+    "scraped_at": "2026-01-29T21:55:28.823880",
+    "first_seen_utc": "2026-01-29T16:10:28.823893"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-march-2016-zika-dominica-and-cuba-en",
     "title": "Zika virus disease – Dominica and Cuba",
     "published_date": "2016-03-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4345,17 +4492,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Dominica and Cuba"
     ],
-    "scraped_at": "2026-01-29T09:51:55.299522",
-    "first_seen_utc": "2026-01-29T04:06:55.299538"
+    "scraped_at": "2026-01-29T21:55:30.792454",
+    "first_seen_utc": "2026-01-29T16:10:30.792485"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-march-2016-gbs-panama-en",
     "title": "Guillain-Barré syndrome – Panama",
     "published_date": "2016-03-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4414,17 +4563,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Guillain-Barré syndrome – Panama"
     ],
-    "scraped_at": "2026-01-29T09:51:57.071602",
-    "first_seen_utc": "2026-01-29T04:06:57.071621"
+    "scraped_at": "2026-01-29T21:55:32.118968",
+    "first_seen_utc": "2026-01-29T16:10:32.118988"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-march-2016-microcephaly-panama-en",
     "title": "Microcephaly – Panama",
     "published_date": "2016-03-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4470,17 +4621,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Microcephaly – Panama"
     ],
-    "scraped_at": "2026-01-29T09:51:58.452674",
-    "first_seen_utc": "2026-01-29T04:06:58.452689"
+    "scraped_at": "2026-01-29T21:55:33.463691",
+    "first_seen_utc": "2026-01-29T16:10:33.463710"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-march-2016-yellow-fever-china-en",
     "title": "Yellow Fever – China",
     "published_date": "2016-03-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4517,17 +4670,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow Fever – China"
     ],
-    "scraped_at": "2026-01-29T09:52:00.437883",
-    "first_seen_utc": "2026-01-29T04:07:00.437901"
+    "scraped_at": "2026-01-29T21:55:34.719231",
+    "first_seen_utc": "2026-01-29T16:10:34.719248"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-march-2016-avian-ah7n9-china-en",
     "title": "Influenza A H7N9 virus - China",
     "published_date": "2016-03-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4568,17 +4723,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus - China"
     ],
-    "scraped_at": "2026-01-29T09:52:01.818187",
-    "first_seen_utc": "2026-01-29T04:07:01.818202"
+    "scraped_at": "2026-01-29T21:55:36.047950",
+    "first_seen_utc": "2026-01-29T16:10:36.047969"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-march-2016-lassa-fever-germany-en",
     "title": "Lassa Fever – Germany",
     "published_date": "2016-03-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4621,17 +4778,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa Fever – Germany"
     ],
-    "scraped_at": "2026-01-29T09:52:03.620560",
-    "first_seen_utc": "2026-01-29T04:07:03.620593"
+    "scraped_at": "2026-01-29T21:55:37.349867",
+    "first_seen_utc": "2026-01-29T16:10:37.349888"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-march-2016-lassa-fever-togo-en",
     "title": "Lassa Fever – Togo",
     "published_date": "2016-03-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4670,17 +4829,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa Fever – Togo"
     ],
-    "scraped_at": "2026-01-29T09:52:04.956134",
-    "first_seen_utc": "2026-01-29T04:07:04.956151"
+    "scraped_at": "2026-01-29T21:55:38.605044",
+    "first_seen_utc": "2026-01-29T16:10:38.605060"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-march-2016-ah5n6-china-en",
     "title": "Influenza A H5N6 virus - China",
     "published_date": "2016-03-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4726,17 +4887,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H5N6 virus - China"
     ],
-    "scraped_at": "2026-01-29T09:52:06.278473",
-    "first_seen_utc": "2026-01-29T04:07:06.278488"
+    "scraped_at": "2026-01-29T21:55:39.919888",
+    "first_seen_utc": "2026-01-29T16:10:39.919907"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-march-2016-avian-ah7n9-china-en",
     "title": "Influenza A H7N9 virus - China",
     "published_date": "2016-03-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4791,17 +4954,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus - China"
     ],
-    "scraped_at": "2026-01-29T09:52:07.770564",
-    "first_seen_utc": "2026-01-29T04:07:07.770579"
+    "scraped_at": "2026-01-29T21:55:41.184617",
+    "first_seen_utc": "2026-01-29T16:10:41.184635"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-march-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus - Saudi Arabia",
     "published_date": "2016-03-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4843,17 +5008,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus - Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:09.040060",
-    "first_seen_utc": "2026-01-29T04:07:09.040076"
+    "scraped_at": "2026-01-29T21:55:42.427235",
+    "first_seen_utc": "2026-01-29T16:10:42.427254"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-march-2016-yellow-fever-angola-en",
     "title": "Yellow Fever – Angola",
     "published_date": "2016-03-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4896,17 +5063,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow Fever – Angola"
     ],
-    "scraped_at": "2026-01-29T09:52:11.467694",
-    "first_seen_utc": "2026-01-29T04:07:11.467709"
+    "scraped_at": "2026-01-29T21:55:43.690510",
+    "first_seen_utc": "2026-01-29T16:10:43.690524"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-march-2016-gbs-usa-en",
     "title": "Guillain-Barré syndrome – United States of America",
     "published_date": "2016-03-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4954,17 +5123,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Guillain-Barré syndrome – United States of America"
     ],
-    "scraped_at": "2026-01-29T09:52:12.943575",
-    "first_seen_utc": "2026-01-29T04:07:12.943593"
+    "scraped_at": "2026-01-29T21:55:44.907833",
+    "first_seen_utc": "2026-01-29T16:10:44.907847"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-march-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-03-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5010,17 +5181,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:14.426974",
-    "first_seen_utc": "2026-01-29T04:07:14.426998"
+    "scraped_at": "2026-01-29T21:55:46.146587",
+    "first_seen_utc": "2026-01-29T16:10:46.146600"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/18-march-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-03-18",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5068,17 +5241,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:15.934360",
-    "first_seen_utc": "2026-01-29T04:07:15.934373"
+    "scraped_at": "2026-01-29T21:55:47.426400",
+    "first_seen_utc": "2026-01-29T16:10:47.426415"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/16-march-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-03-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5123,17 +5298,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:18.815436",
-    "first_seen_utc": "2026-01-29T04:07:18.815456"
+    "scraped_at": "2026-01-29T22:00:50.024675",
+    "first_seen_utc": "2026-01-29T16:15:50.024693"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-march-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-03-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5200,17 +5377,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:20.205413",
-    "first_seen_utc": "2026-01-29T04:07:20.205427"
+    "scraped_at": "2026-01-29T22:00:51.282396",
+    "first_seen_utc": "2026-01-29T16:15:51.282419"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-march-2016-chikungunya-argentina-en",
     "title": "Chikungunya – Argentina",
     "published_date": "2016-03-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5259,17 +5438,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Chikungunya – Argentina"
     ],
-    "scraped_at": "2026-01-29T09:52:21.574264",
-    "first_seen_utc": "2026-01-29T04:07:21.574280"
+    "scraped_at": "2026-01-29T22:00:52.544781",
+    "first_seen_utc": "2026-01-29T16:15:52.544801"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/10-march-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-03-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5317,17 +5498,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:22.958757",
-    "first_seen_utc": "2026-01-29T04:07:22.958773"
+    "scraped_at": "2026-01-29T22:00:53.802957",
+    "first_seen_utc": "2026-01-29T16:15:53.802979"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/10-march-2016-mers-qatar-en",
     "title": "Middle East respiratory syndrome coronavirus - Qatar",
     "published_date": "2016-03-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5368,17 +5551,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus - Qatar"
     ],
-    "scraped_at": "2026-01-29T09:52:24.909599",
-    "first_seen_utc": "2026-01-29T04:07:24.909614"
+    "scraped_at": "2026-01-29T22:00:55.077448",
+    "first_seen_utc": "2026-01-29T16:15:55.077468"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/10-march-2016-dengue-uruguay-en",
     "title": "Dengue – Uruguay",
     "published_date": "2016-03-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5420,17 +5605,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue – Uruguay"
     ],
-    "scraped_at": "2026-01-29T09:52:26.785203",
-    "first_seen_utc": "2026-01-29T04:07:26.785218"
+    "scraped_at": "2026-01-29T22:00:56.383417",
+    "first_seen_utc": "2026-01-29T16:15:56.383437"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/7-march-2016-zika-argentina-and-france-en",
     "title": "Zika virus disease – Argentina and France",
     "published_date": "2016-03-07",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5477,17 +5664,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Argentina and France"
     ],
-    "scraped_at": "2026-01-29T09:52:28.056537",
-    "first_seen_utc": "2026-01-29T04:07:28.056553"
+    "scraped_at": "2026-01-29T22:00:57.763838",
+    "first_seen_utc": "2026-01-29T16:15:57.763857"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/7-march-2016-gbs-french-polynesia-en",
     "title": "Guillain-Barré syndrome – France - French Polynesia",
     "published_date": "2016-03-07",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5533,17 +5722,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Guillain-Barré syndrome – France - French Polynesia"
     ],
-    "scraped_at": "2026-01-29T09:52:29.561628",
-    "first_seen_utc": "2026-01-29T04:07:29.561643"
+    "scraped_at": "2026-01-29T22:00:59.040229",
+    "first_seen_utc": "2026-01-29T16:15:59.040249"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/4-march-2016-zika-sint-maarten-en",
     "title": "Zika virus disease – Netherlands - Sint Maarten",
     "published_date": "2016-03-04",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5585,17 +5776,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Netherlands - Sint Maarten"
     ],
-    "scraped_at": "2026-01-29T09:52:30.881616",
-    "first_seen_utc": "2026-01-29T04:07:30.881631"
+    "scraped_at": "2026-01-29T22:01:00.815101",
+    "first_seen_utc": "2026-01-29T16:16:00.815133"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/1-march-2016-zika-st-vincent-and-grenadines-en",
     "title": "Zika virus infection – Saint Vincent and the Grenadines",
     "published_date": "2016-03-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5646,17 +5839,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus infection – Saint Vincent and the Grenadines"
     ],
-    "scraped_at": "2026-01-29T09:52:32.851310",
-    "first_seen_utc": "2026-01-29T04:07:32.851326"
+    "scraped_at": "2026-01-29T22:01:02.057198",
+    "first_seen_utc": "2026-01-29T16:16:02.057216"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-february-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus (MERS-CoV) – Saudi Arabia",
     "published_date": "2016-02-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5703,17 +5898,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus (MERS-CoV) – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:34.405796",
-    "first_seen_utc": "2026-01-29T04:07:34.405819"
+    "scraped_at": "2026-01-29T22:01:03.376959",
+    "first_seen_utc": "2026-01-29T16:16:03.376979"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-february-2016-zika-trinidad-and-tobago-en",
     "title": "Zika virus disease – Trinidad and Tobago",
     "published_date": "2016-02-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5753,17 +5950,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Trinidad and Tobago"
     ],
-    "scraped_at": "2026-01-29T09:52:35.808647",
-    "first_seen_utc": "2026-01-29T04:07:35.808662"
+    "scraped_at": "2026-01-29T22:01:04.683335",
+    "first_seen_utc": "2026-01-29T16:16:04.683353"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/25-february-2016-polio-lao-en",
     "title": "Circulating vaccine-derived poliovirus type 1 – Lao People’s Democratic Republic",
     "published_date": "2016-02-25",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5817,17 +6016,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 1 – Lao People’s Democratic Republic"
     ],
-    "scraped_at": "2026-01-29T09:52:37.305467",
-    "first_seen_utc": "2026-01-29T04:07:37.305483"
+    "scraped_at": "2026-01-29T22:01:05.894120",
+    "first_seen_utc": "2026-01-29T16:16:05.894139"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/25-february-2016-dengue-en",
     "title": "Dengue – Uruguay",
     "published_date": "2016-02-25",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5865,17 +6066,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue – Uruguay"
     ],
-    "scraped_at": "2026-01-29T09:52:38.676864",
-    "first_seen_utc": "2026-01-29T04:07:38.676886"
+    "scraped_at": "2026-01-29T22:01:07.256377",
+    "first_seen_utc": "2026-01-29T16:16:07.256404"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/25-february-2016-avian-influenza-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2016-02-25",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5909,17 +6112,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:52:41.026286",
-    "first_seen_utc": "2026-01-29T04:07:41.026301"
+    "scraped_at": "2026-01-29T22:01:09.930041",
+    "first_seen_utc": "2026-01-29T16:16:09.930060"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-february-2016-zika-netherlands-en",
     "title": "Zika virus disease – Netherlands - Bonaire and Aruba",
     "published_date": "2016-02-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5960,17 +6165,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Netherlands - Bonaire and Aruba"
     ],
-    "scraped_at": "2026-01-29T09:52:45.994672",
-    "first_seen_utc": "2026-01-29T04:07:45.994689"
+    "scraped_at": "2026-01-29T22:01:11.178718",
+    "first_seen_utc": "2026-01-29T16:16:11.178743"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-february-2016-lassa-fever-benin-en",
     "title": "2016 - Benin",
     "published_date": "2016-02-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6017,17 +6224,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "2016 - Benin"
     ],
-    "scraped_at": "2026-01-29T09:52:47.272027",
-    "first_seen_utc": "2026-01-29T04:07:47.272042"
+    "scraped_at": "2026-01-29T22:01:12.408837",
+    "first_seen_utc": "2026-01-29T16:16:12.408853"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-february-2016-yellow-fever-angola-en",
     "title": "Yellow fever – Angola",
     "published_date": "2016-02-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6067,17 +6276,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow fever – Angola"
     ],
-    "scraped_at": "2026-01-29T09:52:49.140999",
-    "first_seen_utc": "2026-01-29T04:07:49.141016"
+    "scraped_at": "2026-01-29T22:01:14.215572",
+    "first_seen_utc": "2026-01-29T16:16:14.215592"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-february-2016-microcephaly-usa-en",
     "title": "Microcephaly – United States of America",
     "published_date": "2016-02-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6113,17 +6324,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Microcephaly – United States of America"
     ],
-    "scraped_at": "2026-01-29T09:52:50.557311",
-    "first_seen_utc": "2026-01-29T04:07:50.557326"
+    "scraped_at": "2026-01-29T22:01:15.481598",
+    "first_seen_utc": "2026-01-29T16:16:15.481612"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-february-2016-zika-usa-en",
     "title": "Zika virus disease – United States of America",
     "published_date": "2016-02-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6155,17 +6368,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – United States of America"
     ],
-    "scraped_at": "2026-01-29T09:52:51.936392",
-    "first_seen_utc": "2026-01-29T04:07:51.936409"
+    "scraped_at": "2026-01-29T22:01:16.700526",
+    "first_seen_utc": "2026-01-29T16:16:16.700544"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-february-2016-gbs-colombia-venezuela-en",
     "title": "Guillain-Barré syndrome – Colombia and Venezuela",
     "published_date": "2016-02-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6212,17 +6427,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Guillain-Barré syndrome – Colombia and Venezuela"
     ],
-    "scraped_at": "2026-01-29T09:52:54.324004",
-    "first_seen_utc": "2026-01-29T04:07:54.324018"
+    "scraped_at": "2026-01-29T22:01:18.059078",
+    "first_seen_utc": "2026-01-29T16:16:18.059095"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/10-february-2016-avian-influenza-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2016-02-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6261,17 +6478,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:52:55.676644",
-    "first_seen_utc": "2026-01-29T04:07:55.676663"
+    "scraped_at": "2026-01-29T22:01:19.333599",
+    "first_seen_utc": "2026-01-29T16:16:19.333615"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-february-2016-zika-maldives-en",
     "title": "Zika virus disease – Maldives",
     "published_date": "2016-02-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6311,17 +6530,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Maldives"
     ],
-    "scraped_at": "2026-01-29T09:52:59.298765",
-    "first_seen_utc": "2026-01-29T04:07:59.298776"
+    "scraped_at": "2026-01-29T22:01:20.571394",
+    "first_seen_utc": "2026-01-29T16:16:20.571412"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-february-2016-gbs-brazil-en",
     "title": "Guillain-Barré syndrome – Brazil",
     "published_date": "2016-02-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6363,17 +6584,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Guillain-Barré syndrome – Brazil"
     ],
-    "scraped_at": "2026-01-29T09:53:00.775712",
-    "first_seen_utc": "2026-01-29T04:08:00.775728"
+    "scraped_at": "2026-01-29T22:01:21.864211",
+    "first_seen_utc": "2026-01-29T16:16:21.864227"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-february-2016-gbs-france-martinique-en",
     "title": "Guillain-Barré syndrome – France - Martinique",
     "published_date": "2016-02-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6420,17 +6643,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Guillain-Barré syndrome – France - Martinique"
     ],
-    "scraped_at": "2026-01-29T09:53:02.146492",
-    "first_seen_utc": "2026-01-29T04:08:02.146506"
+    "scraped_at": "2026-01-29T22:01:23.191527",
+    "first_seen_utc": "2026-01-29T16:16:23.191543"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-february-2016-zika-americas-region-en",
     "title": "Zika virus disease – Region of the Americas",
     "published_date": "2016-02-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6478,17 +6703,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Region of the Americas"
     ],
-    "scraped_at": "2026-01-29T09:53:03.555608",
-    "first_seen_utc": "2026-01-29T04:08:03.555640"
+    "scraped_at": "2026-01-29T22:01:24.459961",
+    "first_seen_utc": "2026-01-29T16:16:24.459979"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2-february-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-02-02",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6523,17 +6750,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:53:04.890885",
-    "first_seen_utc": "2026-01-29T04:08:04.890902"
+    "scraped_at": "2026-01-29T22:01:25.713685",
+    "first_seen_utc": "2026-01-29T16:16:25.713701"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-january-2016-zika-usa-en",
     "title": "Zika virus disease – United States of America",
     "published_date": "2016-01-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6567,17 +6796,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – United States of America"
     ],
-    "scraped_at": "2026-01-29T09:53:06.176569",
-    "first_seen_utc": "2026-01-29T04:08:06.176588"
+    "scraped_at": "2026-01-29T22:01:27.042049",
+    "first_seen_utc": "2026-01-29T16:16:27.042066"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-january-2016-mers-thailand-en",
     "title": "Middle East respiratory syndrome coronavirus – Thailand",
     "published_date": "2016-01-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6606,17 +6837,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Thailand"
     ],
-    "scraped_at": "2026-01-29T09:53:07.538199",
-    "first_seen_utc": "2026-01-29T04:08:07.538211"
+    "scraped_at": "2026-01-29T22:01:28.307848",
+    "first_seen_utc": "2026-01-29T16:16:28.307865"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-january-2016-polio-lao-en",
     "title": "Circulating vaccine-derived poliovirus type 1– Lao People’s Democratic Republic",
     "published_date": "2016-01-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6653,17 +6886,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 1– Lao People’s Democratic Republic"
     ],
-    "scraped_at": "2026-01-29T09:53:08.850469",
-    "first_seen_utc": "2026-01-29T04:08:08.850484"
+    "scraped_at": "2026-01-29T22:01:29.610475",
+    "first_seen_utc": "2026-01-29T16:16:29.610493"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-january-2016-lassa-fever-nigeria-en",
     "title": "Lassa fever – Nigeria",
     "published_date": "2016-01-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6699,17 +6934,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa fever – Nigeria"
     ],
-    "scraped_at": "2026-01-29T09:53:10.831637",
-    "first_seen_utc": "2026-01-29T04:08:10.831656"
+    "scraped_at": "2026-01-29T22:01:31.029717",
+    "first_seen_utc": "2026-01-29T16:16:31.029735"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-january-2016-zika-dominican-republic-en",
     "title": "Zika virus disease – Dominican Republic",
     "published_date": "2016-01-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6751,17 +6988,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Dominican Republic"
     ],
-    "scraped_at": "2026-01-29T09:53:12.420866",
-    "first_seen_utc": "2026-01-29T04:08:12.420881"
+    "scraped_at": "2026-01-29T22:01:32.301754",
+    "first_seen_utc": "2026-01-29T16:16:32.301773"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-january-2016-mers-are-en",
     "title": "Middle East respiratory syndrome coronavirus – United Arab Emirates",
     "published_date": "2016-01-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6797,17 +7036,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – United Arab Emirates"
     ],
-    "scraped_at": "2026-01-29T09:53:13.796470",
-    "first_seen_utc": "2026-01-29T04:08:13.796491"
+    "scraped_at": "2026-01-29T22:01:33.621524",
+    "first_seen_utc": "2026-01-29T16:16:33.621540"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-january-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-01-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6844,17 +7085,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:53:15.225629",
-    "first_seen_utc": "2026-01-29T04:08:15.225644"
+    "scraped_at": "2026-01-29T22:01:34.928670",
+    "first_seen_utc": "2026-01-29T16:16:34.928686"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-january-2016-avian-influenza-china-en",
     "title": "Influenza A H5N6 virus – China",
     "published_date": "2016-01-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6901,17 +7144,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H5N6 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:53:17.202928",
-    "first_seen_utc": "2026-01-29T04:08:17.202943"
+    "scraped_at": "2026-01-29T22:01:36.200833",
+    "first_seen_utc": "2026-01-29T16:16:36.200856"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-january-2016-zika-haiti-en",
     "title": "Zika virus disease – Haiti",
     "published_date": "2016-01-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6952,17 +7197,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Haiti"
     ],
-    "scraped_at": "2026-01-29T09:53:18.581080",
-    "first_seen_utc": "2026-01-29T04:08:18.581098"
+    "scraped_at": "2026-01-29T22:01:37.450931",
+    "first_seen_utc": "2026-01-29T16:16:37.450958"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-january-2016-gbs-el-salvador-en",
     "title": "Guillain-Barré syndrome – El Salvador",
     "published_date": "2016-01-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6991,17 +7238,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Guillain-Barré syndrome – El Salvador"
     ],
-    "scraped_at": "2026-01-29T09:53:19.922255",
-    "first_seen_utc": "2026-01-29T04:08:19.922271"
+    "scraped_at": "2026-01-29T22:01:38.727892",
+    "first_seen_utc": "2026-01-29T16:16:38.727912"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-january-2016-zika-france-en",
     "title": "Zika virus disease – France",
     "published_date": "2016-01-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7028,17 +7277,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – France"
     ],
-    "scraped_at": "2026-01-29T09:53:24.266897",
-    "first_seen_utc": "2026-01-29T04:08:24.266911"
+    "scraped_at": "2026-01-29T22:01:40.046236",
+    "first_seen_utc": "2026-01-29T16:16:40.046254"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-january-2016-zika-bolivia-en",
     "title": "Zika virus disease – Bolivia",
     "published_date": "2016-01-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7079,17 +7330,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Bolivia"
     ],
-    "scraped_at": "2026-01-29T09:53:25.610925",
-    "first_seen_utc": "2026-01-29T04:08:25.610940"
+    "scraped_at": "2026-01-29T22:01:41.375697",
+    "first_seen_utc": "2026-01-29T16:16:41.375711"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-january-2016-zika-guyana-barbados-ecuador-en",
     "title": "Zika virus disease – Guyana, Barbados and Ecuador",
     "published_date": "2016-01-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7135,17 +7388,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Guyana, Barbados and Ecuador"
     ],
-    "scraped_at": "2026-01-29T09:53:26.945434",
-    "first_seen_utc": "2026-01-29T04:08:26.945453"
+    "scraped_at": "2026-01-29T22:01:42.699019",
+    "first_seen_utc": "2026-01-29T16:16:42.699039"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-january-2016-avian-influenza-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2016-01-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7193,17 +7448,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:53:28.324698",
-    "first_seen_utc": "2026-01-29T04:08:28.324712"
+    "scraped_at": "2026-01-29T22:01:43.990236",
+    "first_seen_utc": "2026-01-29T16:16:43.990264"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-january-2016-avian-influenza-china-en",
     "title": "Influenza A H5N6 virus – China",
     "published_date": "2016-01-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7252,17 +7509,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H5N6 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:53:29.710036",
-    "first_seen_utc": "2026-01-29T04:08:29.710051"
+    "scraped_at": "2026-01-29T22:01:45.264212",
+    "first_seen_utc": "2026-01-29T16:16:45.264230"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-january-2016-zika-france-en",
     "title": "Zika virus disease – France",
     "published_date": "2016-01-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7298,17 +7557,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – France"
     ],
-    "scraped_at": "2026-01-29T09:53:31.101495",
-    "first_seen_utc": "2026-01-29T04:08:31.101513"
+    "scraped_at": "2026-01-29T22:01:46.466920",
+    "first_seen_utc": "2026-01-29T16:16:46.466942"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-january-2016-brazil-microcephaly-en",
     "title": "Microcephaly – Brazil",
     "published_date": "2016-01-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7333,17 +7594,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Microcephaly – Brazil"
     ],
-    "scraped_at": "2026-01-29T09:53:33.042863",
-    "first_seen_utc": "2026-01-29T04:08:33.042878"
+    "scraped_at": "2026-01-29T22:01:47.699041",
+    "first_seen_utc": "2026-01-29T16:16:47.699056"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-january-2016-zika-usa-en",
     "title": "Zika virus disease – United States of America",
     "published_date": "2016-01-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7376,17 +7639,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – United States of America"
     ],
-    "scraped_at": "2026-01-29T09:53:35.258565",
-    "first_seen_utc": "2026-01-29T04:08:35.258582"
+    "scraped_at": "2026-01-29T22:01:48.929992",
+    "first_seen_utc": "2026-01-29T16:16:48.930007"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/7-january-2016-mers-oman-en",
     "title": "Middle East respiratory syndrome coronavirus – Oman",
     "published_date": "2016-01-07",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7416,17 +7681,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Oman"
     ],
-    "scraped_at": "2026-01-29T09:53:37.154509",
-    "first_seen_utc": "2026-01-29T04:08:37.154526"
+    "scraped_at": "2026-01-29T22:01:50.194864",
+    "first_seen_utc": "2026-01-29T16:16:50.194885"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/4-january-2016-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2016-01-04",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7459,17 +7726,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:53:38.534961",
-    "first_seen_utc": "2026-01-29T04:08:38.534986"
+    "scraped_at": "2026-01-29T22:01:51.549965",
+    "first_seen_utc": "2026-01-29T16:16:51.549984"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/4-january-2016-avian-influenza-china-en",
     "title": "Influenza A H5N6 virus – China",
     "published_date": "2016-01-04",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7518,9 +7787,10 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H5N6 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:53:40.287181",
-    "first_seen_utc": "2026-01-29T04:08:40.287199"
+    "scraped_at": "2026-01-29T22:01:52.802401",
+    "first_seen_utc": "2026-01-29T16:16:52.802419"
   }
 ]

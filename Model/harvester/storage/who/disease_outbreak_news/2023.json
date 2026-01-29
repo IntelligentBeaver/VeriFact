@@ -1,175 +1,11 @@
 [
   {
-    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON499",
-    "title": "Western equine encephalitis - Argentina",
-    "published_date": "2023-12-28",
-    "disease": null,
-    "location": null,
-    "sections": [
-      {
-        "heading": "Situation at a glance",
-        "content": [
-          "On 20 December, the International Health Regulations National Focal Point (IHR NFP) of Argentina notified the World Health Organization (WHO) of a human case of Western Equine Encephalitis (WEE) infection. This is the first confirmed human case reported after more than two decades, since the last reported human cases in Argentina occurred in 1982/1983 and 1996. \r\n\r\nWEE is a rare mosquito-borne viral disease that affects equines and humans. Most human cases are associated with epidemics in birds or horses.  The virus has the potential to spread to other areas through the migration of infected birds or the movement of people and animals carrying the virus. Given that birds act as a reservoir, they can act as amplifying hosts for viral dissemination to other countries. At-risk groups include people who live, work, or participate in outdoor activities in endemic areas or where there are declared active disease outbreaks in animals."
-        ]
-      },
-      {
-        "heading": "Description of the situation",
-        "content": [
-          "On 20 December, the IHR NFP of Argentina notified the WHO of a human case of WEE infection. The patient is an adult from the province of Santa Fe.  This is the first human case of WEE reported after more than two decades, since the last cases reported in humans in Argentina occurred in 1982/1983 (associated with an outbreak in equines) and 1996 (an isolated case based on clinical and serological findings but with no equine cases detected).",
-          "The patient developed symptoms including headache, myalgia, dizziness, disorientation, and sudden-onset fever on 19 November 2023. On 24 November 2023, the patient received medical attention and was hospitalized in a health facility in the province, where he required intensive care and mechanical ventilation for 12 days. The patient was discharged on 20 December and is undergoing outpatient monitoring. 1 Regarding the exposure history, according to information from the epidemiological investigation, the patient is a rural worker in an area where equines that tested positive for WEE infection had previously been identified. 1",
-          "Patient samples were collected on 24 November 2023, at a hospital in the province, and, on 4 December 2023, were sent to the Reference Laboratory of the National Institute of Human Viral Diseases \"Dr. Julio I. Maiztegui\" (INEVH per its acronym in Spanish), which is part of the National Institute of Infectious Diseases (ANLIS Malbrán). The samples tested positive on 19 December 2023 for the detection of specific neutralizing antibodies for the WEE virus. The samples also tested negative for other alphaviruses: Eastern Equine Encephalitis (EEE) virus, Venezuelan Equine Encephalitis (VEE) virus, Una virus, Mayaro virus, and Chikungunya virus."
-        ]
-      },
-      {
-        "heading": "Epidemiology",
-        "content": [
-          "WEE is a rare mosquito-borne disease caused by a virus of the same name, which belongs to the genus Alphavirus of the Togaviridae family, to which the EEE and VEE viruses also belong. The main reservoir hosts of EEE and WEE viruses are passerine birds. 2 In humans, the WEE virus can cause disease ranging from subclinical or moderate symptoms to severe forms of aseptic meningitis and encephalitis.",
-          "The virus has the potential to spread to other areas through the migration of infected birds or even through the movement of people and animals carrying the virus. Given that birds act as a reservoir, they can act as amplifying hosts for viral dissemination to other countries. At-risk groups include people who live, work, or participate in outdoor activities in endemic areas or where there are declared active disease outbreaks in animals.",
-          "In Argentina, between 25 November and 27 December of 2023, a total of 1182 outbreaks of WEE disease have been identified in equines in 12 provinces of the country: Buenos Aires (n = 717), Santa Fe (n = 149), Córdoba (n = 141), Entre Ríos (n = 69), Corrientes (n = 41), Chaco (n = 19), La Pampa (n = 18), Río Negro (n = 11), Formosa (n = 8), Santiago del Estero (n = 6), San Luis (n = 2), and Salta (n = 1). 3"
-        ]
-      },
-      {
-        "heading": "Public health response",
-        "content": [
-          "Following the detection of the WEE virus in equines, the Ministry of Health activated a nationwide epidemiological alert, on 28 November 2023, to provide further information on the disease outbreaks in equines and to strengthen epidemiological surveillance of possible human cases.  The epidemiological surveillance includes both passive and active case finding, the latter in areas with active disease outbreaks in animals, according to the case definitions established in the Circular for the epidemiological and laboratory surveillance, prevention and control of Western Equine Encephalitis in Argentina. 4",
-          "Argentina's national Ministry of Health is also working together with the National Food Safety and Quality Service (SENASA per its acronym in Spanish) and the Ministries of Health of the Province of Santa Fe and of other affected provinces, on the implementation of preventive measures, epidemiological surveillance and outbreak control actions. 1"
-        ]
-      },
-      {
-        "heading": "WHO risk assessment",
-        "content": [
-          "The primary mode of WEE virus transmission is through the bites of infected mosquitoes, which act as vectors. The principal vector is Culex tarsalis ; however, there are multiple vectors that contribute to transmission, including Aedes melanimon, Aedes dorsalis , and Aedes campestris . These vectors maintain the circulation of the virus in wild enzootic cycles where birds act as reservoirs of the virus. Humans and equines act as the final reservoirs of the virus, incapable of transmitting the virus to mosquitoes. 5 People engaged in outside work or activities are at greater risk because of exposure to mosquitoes.",
-          "Outbreaks of WEE in humans generally present as isolated cases with moderate symptoms and most infections are asymptomatic. Neurological manifestations include meningitis, encephalitis, or myelitis. Similar to other arboviral encephalitis, the encephalitis caused by WEE is characterized by fever accompanied by altered mental status, seizures, or focal neurological signs including movement disorders. 6 There is no specific antiviral treatment and patient management primarily involves supportive care measures."
-        ]
-      },
-      {
-        "heading": "WHO advice",
-        "content": [
-          "Below is a summary of the main recommendations for laboratory diagnosis in humans, surveillance, and prevention measures.",
-          "Laboratory diagnosis of WEE in humans",
-          "The diagnosis of WEE infection requires confirmation through laboratory techniques since the clinical presentation is not specific. These laboratory methods include virological (direct) diagnostic methods by nucleic acid amplification or potentially cell culture and serological (indirect) methods, aiming to detect antibodies produced against the virus. Generally, samples for diagnosis include serum and cerebrospinal fluid (CSF). CSF should only be collected in cases with neurological symptoms and by clinical indication. The diagnostic methods are described in more detail in the Laboratory Guidelines for the Detection and Diagnosis of Western Equine Encephalitis Virus Human Infection. 7",
-          "Surveillance",
-          "In at-risk areas with reported active outbreaks in animals, strengthening surveillance is recommended with active human case finding for compatible neurological syndromes without any other defined diagnosis, taking into account the incubation period, geographic area, and environmental conditions.",
-          "Prevention Measures",
-          "Preventive actions, listed below, must be organized within the framework of One Health, considering the inter-institutional and comprehensive action between animal health, human health, and the environment.",
-          "Managing the environment",
-          {
-            "text": "Considering the ecology and biology of the main vectors of the WEE virus, the main prevention measures recommended are modifying the environment and environmental management to reduce the number of mosquitoes and their contact with equines and humans. These measures include:",
-            "bullets": [
-              "Filling or draining water collections, ponds, or temporary flooding sites that may serve as sites of female oviposition and breeding sites for mosquito larvae.",
-              "Elimination of weeds around premises to reduce mosquito resting and shelter sites.",
-              "Protecting equines by sheltering them in stables with mosquito nets, particularly at times when mosquitoes are most active.",
-              "Although the main vectors do not have indoor habits, it is advisable to protect homes with mosquito nets on doors and windows; in this way, other arboviruses are also prevented."
-            ]
-          },
-          "Vector Control",
-          "Vector control measures for the WEE virus should be considered within the Integrated Vector Management (IVM) framework. It is important to consider that the decision to carry out vector control activities with insecticides depends on entomological surveillance data and the variables that may increase in the risk of transmission, including insecticide resistance data. Insecticide spraying may be considered as an additional measure, where technically feasible, in areas of transmission where high mosquito populations are detected. The methodology should be established based on the ecology and behavior of local vectors.",
-          "Vaccination in equines",
-          "Vaccines are available for equines. It is advisable to seek high vaccination coverage among susceptible equines in areas considered at risk and to carry out annual vaccination boosters.",
-          {
-            "text": "Personal Protective Measures",
-            "bullets": [
-              "Use of clothing that covers the legs and arms, especially in households where someone is ill.",
-              "Use of repellents containing DEET, IR3535 or Icaridin, which may be applied to exposed skin or clothing, in strict accordance with the instructions on the product label.",
-              "Use wire mesh/mosquito nets on doors and windows.",
-              "Use of insecticide-treated or non-insecticide nets for daytime sleepers (e.g. pregnant women, infants, bedridden people, the elderly, and night shift workers).",
-              "In outbreak situations, outdoor activities should be avoided during the period of greatest mosquito activity (dawn and dusk)."
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Further information",
-        "content": [
-          {
-            "text": null,
-            "bullets": [
-              "Argentina Ministry of Health. Press release. One human case of Western Equine Encephalitis was detected. Buenos Aires: MSAL; 2023. Available in Spanish from: https://www.argentina.gob.ar/noticias/se-detecto-un-caso-humano-de-encefalitis-equina-del-oeste",
-              "Ministry of Health, Province of Santa Fe, Argentina. Press release. They highlight the role of health professionals in the diagnosis of the case of western equine encephalitis. Santa Fe 2023. Available in: https://www.santafe.gob.ar/noticias/noticia/279452/",
-              "Pan American Health Organization/World Health Organization. Epidemiological Alert: Risk to human health associated with infection with Western Equine Encephalitis in Equines, 20 December 2023. Washington, D.C.: PAHO/WHO; 2023. Available from: https://www.paho.org/es/documentos/alerta-epidemiologica-riesgo-para-salud-humana-asociado-infeccion-por-virus-encefalitis",
-              "World Organization for Animal Health. Global Animal Health Information System. Paris: WOAH; 2023 . Available from: https://wahis.woah.org/#/home"
-            ]
-          },
-          {
-            "text": "References:",
-            "bullets": [
-              "Argentina International Health Regulations (IHR) National Focal Point (NFP). Buenos Aires; 27 December 2023.Unpublished",
-              "World Organization for Animal Health. Health Standards. Chapter 3.6.5. Equine encephalomyelitis (eastern, western, or Venezuelan). Paris: WOAH; 2021. Available from: https://www.woah.org/fileadmin/Home/fr/Health_standards/tahm/3.06.05_EEE_WEE_VEE.pdf",
-              "National Food Safety and Quality Service of Argentina. National Directorate of Animal Health. DNSA Dashboard Western Equine Encephalomyelitis. Buenos Aires: SENASA; 2023 (accessed 27 December 2023). Available in Spanish from: https://www.argentina.gob.ar/senasa/encefalomielitis-equinas/tableros-dinamicos-informativos",
-              "Ministry of Health of Argentina. Western Equine Encephalitis: Circular for epidemiological and laboratory surveillance, prevention and control. Buenos Aires: MSAL; 2023 Available in Spanish from: https://bancos.salud.gob.ar/sites/default/files/2023-12/circular-eeo_2023-12-08.pdf",
-              "Pan American Health Organization/World Health Organization. Guidance for Surveillance, Detection and Response for Equine Encephalitis 2014; 17. ISSN0101-6970. Washington, D.C.: PAHO/WHO; 2014. Available in Spanish from: https://iris.paho.org/handle/10665.2/58684",
-              "Pan American Health Organization/World Health Organization. American Public Health Association. Control of communicable diseases. An official report from the American Public Health Association ed. 21a. Page 34-39. ISBN-13: 978 0875533230.Washington, D.C.: PAHO/WHO; 2022",
-              "Pan American Health Organization/World Health Organization. Laboratory Guidelines for the Detection and Diagnosis of Western Equine Encephalitis Virus Human Infection. 20 December 2023. Washington, D.C.: PAHO/WHO; 2023. Available from: https://www.paho.org/en/documents/laboratory-guidelines-detection-and-diagnosis-western-equine-encephalitis-virus-human"
-            ]
-          },
-          "Citable reference: World Health Organization (28 December 2023). Disease Outbreak News; Western equine encephalitis in Argentina. Available at: https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON499"
-        ]
-      }
-    ],
-    "references": [
-      {
-        "text": "See all DONs related to this event",
-        "url": "https://www.who.int/emergencies/emergency-events/item/2023-e000486"
-      },
-      {
-        "text": "Circular for the epidemiological and laboratory surveillance, prevention and control of Western Equine Encephalitis in Argentina.4",
-        "url": "https://bancos.salud.gob.ar/sites/default/files/2023-12/circular-eeo_2023-12-08.pdf"
-      },
-      {
-        "text": "https://www.argentina.gob.ar/noticias/se-detecto-un-caso-humano-de-encefalitis-equina-del-oeste",
-        "url": "https://www.argentina.gob.ar/noticias/se-detecto-un-caso-humano-de-encefalitis-equina-del-oeste"
-      },
-      {
-        "text": "https://www.santafe.gob.ar/noticias/noticia/279452/",
-        "url": "https://www.santafe.gob.ar/noticias/noticia/279452/"
-      },
-      {
-        "text": "https://www.paho.org/es/documentos/alerta-epidemiologica-riesgo-para-salud-humana-asociado-infeccion-por-virus-encefalitis",
-        "url": "https://www.paho.org/es/documentos/alerta-epidemiologica-riesgo-para-salud-humana-asociado-infeccion-por-virus-encefalitis"
-      },
-      {
-        "text": "https://wahis.woah.org/#/home",
-        "url": "https://wahis.woah.org/#/home"
-      },
-      {
-        "text": "https://www.woah.org/fileadmin/Home/fr/Health_standards/tahm/3.06.05_EEE_WEE_VEE.pdf",
-        "url": "https://www.woah.org/fileadmin/Home/fr/Health_standards/tahm/3.06.05_EEE_WEE_VEE.pdf"
-      },
-      {
-        "text": "https://www.argentina.gob.ar/senasa/encefalomielitis-equinas/tableros-dinamicos-informativos",
-        "url": "https://www.argentina.gob.ar/senasa/encefalomielitis-equinas/tableros-dinamicos-informativos"
-      },
-      {
-        "text": "https://bancos.salud.gob.ar/sites/default/files/2023-12/circular-eeo_2023-12-08.pdf",
-        "url": "https://bancos.salud.gob.ar/sites/default/files/2023-12/circular-eeo_2023-12-08.pdf"
-      },
-      {
-        "text": "https://iris.paho.org/handle/10665.2/58684",
-        "url": "https://iris.paho.org/handle/10665.2/58684"
-      },
-      {
-        "text": "https://www.paho.org/en/documents/laboratory-guidelines-detection-and-diagnosis-western-equine-encephalitis-virus-human",
-        "url": "https://www.paho.org/en/documents/laboratory-guidelines-detection-and-diagnosis-western-equine-encephalitis-virus-human"
-      },
-      {
-        "text": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON499",
-        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON499"
-      }
-    ],
-    "images": [],
-    "tags": [
-      "WHO",
-      "Disease Outbreak"
-    ],
-    "scraped_at": "2026-01-29T09:46:34.899791",
-    "first_seen_utc": "2026-01-29T04:01:34.899806"
-  },
-  {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON498",
     "title": "Dengue - Global situation",
     "published_date": "2023-12-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -377,193 +213,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue - Global situation"
     ],
-    "scraped_at": "2026-01-29T09:46:37.041013",
-    "first_seen_utc": "2026-01-29T04:01:37.041028"
-  },
-  {
-    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON497",
-    "title": "Anthrax - Zambia",
-    "published_date": "2023-12-08",
-    "disease": null,
-    "location": null,
-    "sections": [
-      {
-        "heading": "Situation at a glance",
-        "content": [
-          "On 1 November 2023, the International Health Regulations (IHR) National Focal Point of Zambia notified WHO of an anthrax outbreak in humans. The first human cases were reported from the Dengeza Health Post in the Sinazongwe District of the Southern Province on 5 May 2023. Around the same time period, domestic (cattle and goats) and wild animals (hippopotami) were reportedly dying from an unknown cause in the surrounding areas. In June 2023, human and animal cases were reported in the Kanchindu and Siameja veterinary camps of Sinazongwe District.  Twenty-six human cases developed sores on their face, arms, and fingers after consuming meat from three wild hippopotamus carcasses. The first human case was reported on 16 June 2023 and laboratory confirmed by culture at the Lusaka Central Veterinary Research Institute (CVRI). \r\nAs of 20 November 2023, 684 suspected human cases, including four deaths, a Case Fatality Ratio (CFR)of  0.6%, were reported from 44 out of 116 districts in nine of Zambia’s 10 provinces. Sinazongwe district is the epicenter, accounting for 287 cases (42% of total 684 cases) and two deaths (50% of total the four deaths).  The most affected provinces are the Southern (370 cases; 54 %), Western (88; 13%), Lusaka (82; 12%), Eastern (66; 10%) and Muchinga (47; 7 %) Provinces. The majority of symptomatic cases were epidemiologically linked to confirmed cases and not tested. \r\nThis unprecedented outbreak marks the first major occurrence spanning nine out of 10 country provinces. The latest large-scale outbreak reported in Zambia occurred in 2011 with a total of 511 suspected cases.\r\nResponse activities have been taken from both human and animal sides, such as active surveillance, case management, laboratory diagnosis, health promotion, and Risk Communication and Community Engagement (RCCE), meat inspection and livestock vaccination.\r\nAnthrax is a zoonotic disease caused by a bacteria called Bacillus anthracis that typically affects ruminants (such as cows, sheep, and goats). The bacteria produce extremely potent toxins which are responsible for the symptoms, causing a high lethality rate in the pulmonary form. Humans can develop the disease from infected animals or through contaminated animal products. Hospitalization is required for all human cases identified. Vaccines are available for livestock and humans in limited supply.\r\nThe risk of the event spreading within Zambia is assessed to be high due to the unrestricted animal movement and carcasses within and between provinces. The risk at the regional level is also considered high due to the frequent movement of both animals and people between Zambia and its neighbouring countries (such as Angola, Botswana, the Democratic Republic of the Congo, Malawi, Mozambique, Namibia, Tanzania, Uganda and Zimbabwe)."
-        ]
-      },
-      {
-        "heading": "Description of the situation",
-        "content": [
-          "On 1 November 2023, the IHR National Focal Point of Zambia notified WHO of an anthrax outbreak in humans. The first human cases were reported from the Dengeza Health Post in the Sinazongwe District of the Southern Province on 5 May 2023. Around the same period, domestic (cattle and goats) and wild animals (hippopotami) were reportedly dying from an unknown cause in the surrounding areas. While Zambia typically reports sporadic cases of anthrax annually, the investigation revealed that from September 2022 to January 2023, 42 suspected cases of anthrax in humans had been recorded at the Dengeza Health Post. All the cases presented at health facilities with skin sores and ulcers, and some of them developed nonspecific symptoms (e.g., nausea, vomiting, difficulty in breathing). Human specimens were collected during the investigation and sent to the Lusaka Central Veterinary Research Institute (CVRI) for testing. The initial samples collected and tested by culture returned negative for anthrax.",
-          "In June 2023, human and animal cases were reported in the Kanchindu and Siameja veterinary camps of Sinazongwe district.  Twenty-six human cases developed sores on their face, arms, and fingers after consuming meat from three wild hippopotamus carcasses. The first human case was reported on 16 June 2023 and laboratory confirmed by culture at the Lusaka CVRI. On the animal side, 13 domestic animals including cattle (10) and goats (3) out of Sinazongwe district susceptible population of 65 000 (30 000 cattle and 35 000 goats), under free range extensive traditional management, died of suspected anthrax. Cattle and goat specimens tested by culture at the Lusaka CVRI returned positive for anthrax on 17 July 2023. Until 1 November, anthrax outbreaks affecting animals and humans were reported in other Southern, Northwestern, and Western provinces.",
-          "As of 20 November 2023, 684 suspected human cases, including four deaths (CFR 0.6%) were reported from 44 out of 116 districts in nine of Zambia’s 10 provinces. Sinazongwe district is the epicenter, accounting for 287 cases (42% of total 684 cases) and two deaths (50% of total the four deaths).  The most affected provinces are the Southern (370 cases; 54 %), Western (84; 12%), Lusaka (82; 12%), Eastern (66; 10%) and Muchinga (47; 7 %) Provinces. The majority of symptomatic cases were epidemiologically linked to confirmed cases and not tested.",
-          "On the animal side, as of 21 November 2023, 568 domestic and wild animal cases were reported across 11 districts in Eastern, Southern, and Western provinces, with (344; 61%) occurring in the Southern province, ( 132; 23%) in the Muchinga province and (62, 11%) in the Western Province. Cases in wildlife, primarily hippos, were reported in the Eastern and Southern provinces.",
-          "This outbreak marks the first major occurrence spanning nine out of 10 country provinces. Previous outbreaks were confined to Northwest and Western provinces, with sporadic cases over the years. Of note, Zambia reported anthrax outbreaks in both human and animals in Western Province in 2017 and in Eastern Province in 2016 and 2011.",
-          "Figure 1. Distribution of anthrax cases by province, Zambia, as of 20 November 2023"
-        ],
-        "images": [
-          "https://cdn.who.int/media/images/default-source/emergencies/disease-outbreak-news/anthrax_zambia7534c99b-2453-4d23-b77f-321bf1682835.jpg?sfvrsn=3670dd6d_3"
-        ]
-      },
-      {
-        "heading": "Epidemiology",
-        "content": [
-          "Anthrax is a disease caused by a spore-forming bacteria called Bacillus anthracis. It is a zoonosis (disease transmissible from animals to humans) that affects ruminants (such as cows, sheep, and goats). Anthrax does not typically spread from animal to animal or human to human.  When anthrax spores are ingested from contaminated animal products, inhaled, or enter the body through skin abrasions or cuts, they can germinate, multiply and produce toxins.",
-          {
-            "text": "Depending on the type of exposure, within a few hours to three weeks, individuals may present one of the three clinical presentations of anthrax.",
-            "bullets": [
-              "Cutaneous or skin anthrax is the most common presenting with an itchy bump in the exposed area that rapidly develops into a black sore. Some people then develop headaches, muscle aches, fever, and vomiting.",
-              "Gastrointestinal anthrax causes initial symptoms similar to food poisoning, but can worsen to produce severe abdominal pain, vomiting of blood and severe diarrhoea."
-            ]
-          },
-          "Pulmonary anthrax, the most severe presentation, has initial symptomatology of a common cold but can rapidly progress to severe breathing difficulties and shock. Diagnosis can be made through polychrome methylene blue-stained blood smears, polymerase chain reaction (PCR) or enzyme-linked immunosorbent assay (ELISA). Hospitalization is required for all human cases identified. Individuals exposed may receive prophylactic treatment. Antibiotics, particularly penicillin, are effective against this disease. Prompt treatment can reduce case-fatality rate to <1%. Vaccines are also available for livestock and humans in limited supply.  Human vaccines are limited to those with possible occupational exposure."
-        ]
-      },
-      {
-        "heading": "Public health response",
-        "content": [
-          "Response activities have been taken from both human and animal sides.",
-          "Actions taken for animals",
-          "With the support of the Food and Agriculture Organization of the United Nations (FAO), livestock vaccination is ongoing. In total 338 000 doses of anthrax vaccine have been distributed up to 19 November 2023. Vaccination campaigns have been initiated at the outbreak epicentre, Sinazongwe district, and is extended to other affected districts. A joint One Health task force comprising the Ministry of Health and the Ministry of Local Government has been conducting case finding in animals and humans. Meat inspection is enhanced by the veterinary department.  Additionally, the Department of Wildlife and Parks has been actively involved, conducting patrols to monitor illegal animal movements and ensuring proper disposal of carcasses. WHO is working closely with FAO and the Ministry of Agriculture on animal health activities like vaccination.",
-          "Actions implemented for humans",
-          "WHO is supporting and working closely with the Ministry of Health in the following activities.",
-          "For case management, health workers have undergone orientation to enhance their capacities to identify potential cases early on. Efforts have been made to strengthen event-based surveillance (EBS) and early detection mechanisms. Provision of essential medical supplies has been prioritized, in addition to public sensitization. Active surveillance is ongoing across healthcare facilities and within communities, including contact tracing.",
-          "Meat inspections are being conducted in abattoirs and butcher shops. Preparedness plans are in place, including the mobilization of additional healthcare personnel to districts, foreseeing a potential surge in anthrax cases. Moreover, specialized training sessions for provincial practitioners aim to improve case management proficiency in the provinces.",
-          "The laboratory continues to operate under a unified One Health approach for diagnostics. Procurement efforts for laboratory reagents are underway due to shortages. Strict protocols for disinfection and decontamination remain ongoing to ensure safety.",
-          "Extensive health promotion and Risk Communication and Community Engagement (RCCE) activities are ongoing, including press briefings by Ministry of Health, social media campaigns, radio broadcasts, and the distribution of informative brochures and posters."
-        ]
-      },
-      {
-        "heading": "WHO risk assessment",
-        "content": [
-          "Anthrax is endemic in Zambia, usually occurring between May and January, with a peak toward the end of the dry season (between October and November). Although sporadic cases are reported yearly in animals and humans across the country, a large-scale outbreak like the current one has not been reported since 2011, when there were 511 suspected human cases.",
-          "The epidemic is spreading along the provinces located along the basin of the Zambezi, Kafue, and Luangwa rivers, which is an additional problem because these rivers also flow into Lake Kariba in Zimbabwe, Kahora Bassa in Mozambique and Lake Malawi, and the risk of anthrax transmission to neighbouring countries is increased.",
-          "Other affected districts and provinces of Zambia have reported sporadic suspected cases and deaths since June 2023. In addition, the Bacillus anthracis bacteria can form highly resistant spores that survive in the environment for decades",
-          "The risk for human health is high given the known population’s multiple exposures from handling the carcasses of animals that had died suddenly and eating meat from infected animals with resultant associated cutaneous and gastrointestinal anthrax.",
-          "The risk of the event spreading within Zambia has increased due to the unrestricted animal movement and carcasses within and between provinces. Since September 2023, there has been a significant rise in the number of affected districts. Moreover, a low index of suspicion, socio-cultural norms, community resistance, limited community knowledge regarding anthrax transmission, high levels of poverty and food insecurity, a shortage of available vaccines and laboratory reagents, inadequate carcass disposal and decontamination practices significantly contribute to hampering the containment of the anthrax outbreak.",
-          "There is an absence of robust engagement with local communities involved in breeding and handling cattle and livestock, including farmers, heads of cattle markets, and butchers. Among these communities, the fear of losing livelihoods often outweighs concerns about contracting anthrax. The risk of insufficient control capacities is considered high in Zambia due to concurrent public health emergencies in the country (cholera, measles, COVID-19) that limit the country’s human and financial capacities to respond to the current anthrax outbreak adequately.",
-          "The risk at the regional level is also considered high due to the frequent movement of both animals and people between Zambia and its neighbouring countries (such as Angola, Botswana, the Democratic Republic of the Congo, Malawi, Mozambique, Namibia, Tanzania, Uganda and Zimbabwe). This is compounded by the confirmed cases of anthrax spreading in provinces located along the basin of the Zambezi, Kafue, and Luangwa rivers. These rivers ultimately flow into Lake Kariba in Zimbabwe, the Kahora Bassa lake in Mozambique, and Lake Malawi.",
-          "Unburied carcasses of wild animals that float on the river increase the risk of international spread to neighbouring countries. They can spread the bacterium and infections to other regions, including neighbouring countries, and be eaten by other animals, which can further perpetuate the spread."
-        ]
-      },
-      {
-        "heading": "WHO advice",
-        "content": [
-          "Humans usually acquire the infection after exposure to infected animals, carcasses, or animal products. More than 95% of human anthrax cases take the cutaneous form and result from handling infected carcasses or hides, hair, meat or bones from such carcasses. The public should avoid handling and consumption of meat from animals that died suddenly, meat obtained via emergency slaughter, and meat of uncertain origin. Anthrax can also be an occupational hazard for veterinarians, agriculture and wildlife workers, or workers who butcher animals or process meat, hides, hair, and wool and should wear preventive clothing and gloves or personal protection equipment (PPE).",
-          "In health-care settings, it is crucial to enhance screening procedures specifically in areas where there is a known epidemiological risk of anthrax. It is imperative to anticipate and implement infection prevention and control measures promptly when cases are suspected. When caring for patients with draining anthrax lesions, implementing contact precautions is vital. This includes placing the patient in a private room and the use of PPE (such as examination gloves and a fluid resistant gown). Additionally, dressings may be used to contain drainage and reduce the risk of environmental contamination. These dressings should be disposed of as infectious waste after use. The WHO’s 5 Moments for hand hygiene should be practiced using soap and water when caring for suspected and confirmed cases, as alcohol-based hand rub has weakened effect against spores. For areas where patients with suspected or confirmed exposure to anthrax spores are being cared for, it is recommended to implement enhanced cleaning and disinfection protocols.",
-          "Individuals potentially exposed to anthrax spores should receive prophylactic treatment. Anthrax responds well to antibiotics, which need to be prescribed by a medical professional. Strict adherence to the full course of treatment is vital. Human vaccines are in limited supply and used primarily for the protection of selected individuals with possible occupational exposure to anthrax.",
-          "International travelers to anthrax endemic countries should be aware of regulations concerning the importation of prohibited animal products, trophies, and souvenirs.",
-          "Anthrax is controlled through animal vaccination programs, rapid detection and reporting, quarantine, treatment of sub clinically affected animals (postexposure prophylaxis) and burning or burial of suspect and confirmed animal cases. The carcass should not be opened since exposure to oxygen will allow the bacteria to form spores. The general public and at-risk individuals should immediately report instances of sick or unexpected deaths in animals to veterinary authorities. Veterinary vaccines are used for control of anthrax in livestock. Vaccination protocols for livestock should be strictly followed to curb anthrax spread. Preventing the disease in animals will protect human health.",
-          "WHO advises against implementing any travel or trade restrictions based on the current information available on this event."
-        ]
-      },
-      {
-        "heading": "Further information",
-        "content": [
-          {
-            "text": null,
-            "bullets": [
-              "Ministry of health of Zambia. Press statement on Anthrax, 1 November 2023. Available from https://www.moh.gov.zm",
-              "Ministry of Health in Malawi. Press release. 3 November 2023. https://www.facebook.com/photo/?fbid=647772487535028&set=a.234388385540109",
-              "World Health Organization, United Nations Food and Agriculture Organization, World Organisation for Animal health. Anthrax in humans and animals - 4 th ed, Geneva Switzerland: World Health Organization; 2008. Available from: https://www.who.int/publications/i/item/9789241547536",
-              "World Health Organization. Guidelines for the surveillance and control of Anthrax in humans and animals – 3 rd ed, Geneva Switzerland: World Health Organization; 1998. Available from https://www.who.int/publications/i/item/guidelines-for-the-surveillance-and-control-of-anthrax-in-humans-and-animals",
-              "World Health Organization. Anthrax questions and answers, 18 November 2016. Available from: https://www.who.int/europe/news-room/questions-and-answers/item/anthrax",
-              "World Health Organization. Standard precautions for the prevention and control of infections: aide-memoire. Available from: https://www.who.int/publications/i/item/WHO-UHL-IHS-IPC-2022.1",
-              "World Health Organization. Transmission-based precautions for the prevention and control of infections: aide-memoire. Available from: https://www.who.int/publications/i/item/WHO-UHL-IHS-IPC-2022.2",
-              "World Organisation for Animal Health. Report preview-Zambia-Anthrax-immediate notification, 2023. Available from: https://wahis.woah.org/#/in-review/5329",
-              "FAO: Stopping an anthrax outbreak through One Health in Zambia. Available from: https://www.fao.org/africa/news/detail-news/en/c/1653125/",
-              "Centers for Disease Control and Prevention , National Center for Emerging and Zoonotic Infectious Diseases (NCEZID) , Division of High-Consequence Pathogens and Pathology (DHCPP) .",
-              "What is Anthrax, United States of America: CDC; 2022. Available from https://www.cdc.gov/anthrax/basics/index.html"
-            ]
-          },
-          "Citable reference : World Health Organization (8 December 2023). Disease Outbreak News; Anthrax in Zambia. Available at: https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON497"
-        ]
-      }
-    ],
-    "references": [
-      {
-        "text": "See all DONs related to this event",
-        "url": "https://www.who.int/emergencies/emergency-events/item/2023-e000433"
-      },
-      {
-        "text": "WHO’s 5 Moments for hand hygiene",
-        "url": "https://www.who.int/publications/m/item/five-moments-for-hand-hygiene"
-      },
-      {
-        "text": "https://www.moh.gov.zm",
-        "url": "https://www.moh.gov.zm/"
-      },
-      {
-        "text": "https://www.facebook.com/photo/?fbid=647772487535028&set=a.234388385540109",
-        "url": "https://www.facebook.com/photo/?fbid=647772487535028&set=a.234388385540109"
-      },
-      {
-        "text": "https://www.who.int/publications/i/item/9789241547536",
-        "url": "https://www.who.int/publications/i/item/9789241547536"
-      },
-      {
-        "text": "https://www.who.int/publications/i/item/guidelines-for-the-surveillance-and-control-of-anthrax-in-humans-and-animals",
-        "url": "https://www.who.int/publications/i/item/guidelines-for-the-surveillance-and-control-of-anthrax-in-humans-and-animals"
-      },
-      {
-        "text": "https://www.who.int/europe/news-room/questions-and-answers/item/anthrax",
-        "url": "https://www.who.int/europe/news-room/questions-and-answers/item/anthrax"
-      },
-      {
-        "text": "https://www.who.int/publications/i/item/WHO-UHL-IHS-IPC-2022.1",
-        "url": "https://www.who.int/publications/i/item/WHO-UHL-IHS-IPC-2022.1"
-      },
-      {
-        "text": "https://www.who.int/publications/i/item/WHO-UHL-IHS-IPC-2022.2",
-        "url": "https://www.who.int/publications/i/item/WHO-UHL-IHS-IPC-2022.2"
-      },
-      {
-        "text": "https://wahis.woah.org/#/in-review/5329",
-        "url": "https://wahis.woah.org/#/in-review/5329"
-      },
-      {
-        "text": "https://www.fao.org/africa/news/detail-news/en/c/1653125/",
-        "url": "https://www.fao.org/africa/news/detail-news/en/c/1653125/"
-      },
-      {
-        "text": "Centers for Disease Control and Prevention",
-        "url": "https://www.cdc.gov/"
-      },
-      {
-        "text": "National Center for Emerging and Zoonotic Infectious Diseases (NCEZID)",
-        "url": "https://www.cdc.gov/ncezid/"
-      },
-      {
-        "text": "Division of High-Consequence Pathogens and Pathology (DHCPP)",
-        "url": "https://www.cdc.gov/ncezid/dhcpp/index.html"
-      },
-      {
-        "text": "https://www.cdc.gov/anthrax/basics/index.html",
-        "url": "https://www.cdc.gov/anthrax/basics/index.html"
-      },
-      {
-        "text": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON497",
-        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON497"
-      }
-    ],
-    "images": [],
-    "tags": [
-      "WHO",
-      "Disease Outbreak"
-    ],
-    "scraped_at": "2026-01-29T09:46:39.076926",
-    "first_seen_utc": "2026-01-29T04:01:39.076943"
+    "scraped_at": "2026-01-29T21:41:02.246036",
+    "first_seen_utc": "2026-01-29T15:56:02.246057"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON496",
     "title": "Influenza A(H1N2) variant virus infection - United Kingdom of Great Britain and Northern Ireland",
     "published_date": "2023-12-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -764,17 +426,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A(H1N2) variant virus infection - United Kingdom of Great Britain and Northern Ireland"
     ],
-    "scraped_at": "2026-01-29T09:46:40.563921",
-    "first_seen_utc": "2026-01-29T04:01:40.563936"
+    "scraped_at": "2026-01-29T21:41:06.504291",
+    "first_seen_utc": "2026-01-29T15:56:06.504312"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON495",
     "title": "Avian Influenza A (H5N1) - Cambodia",
     "published_date": "2023-11-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -909,17 +573,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A (H5N1) - Cambodia"
     ],
-    "scraped_at": "2026-01-29T09:46:42.072200",
-    "first_seen_utc": "2026-01-29T04:01:42.072216"
+    "scraped_at": "2026-01-29T21:41:07.644549",
+    "first_seen_utc": "2026-01-29T15:56:07.644566"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON494",
     "title": "Upsurge of respiratory illnesses among children-Northern China",
     "published_date": "2023-11-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1005,17 +671,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Upsurge of respiratory illnesses among children-Northern China"
     ],
-    "scraped_at": "2026-01-29T09:46:43.499230",
-    "first_seen_utc": "2026-01-29T04:01:43.499248"
+    "scraped_at": "2026-01-29T21:41:08.718769",
+    "first_seen_utc": "2026-01-29T15:56:08.718785"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON493",
     "title": "Mpox (monkeypox) - Democratic Republic of the Congo",
     "published_date": "2023-11-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -1306,17 +974,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Mpox (monkeypox) - Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:46:45.546804",
-    "first_seen_utc": "2026-01-29T04:01:45.546818"
+    "scraped_at": "2026-01-29T21:41:10.897582",
+    "first_seen_utc": "2026-01-29T15:56:10.897598"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON492",
     "title": "Diphtheria - Guinea",
     "published_date": "2023-10-18",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -1445,17 +1115,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Diphtheria - Guinea"
     ],
-    "scraped_at": "2026-01-29T09:46:47.831388",
-    "first_seen_utc": "2026-01-29T04:01:47.831411"
+    "scraped_at": "2026-01-29T21:41:11.984783",
+    "first_seen_utc": "2026-01-29T15:56:11.984806"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON491",
     "title": "Dengue - Chad",
     "published_date": "2023-10-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -1586,17 +1258,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue - Chad"
     ],
-    "scraped_at": "2026-01-29T09:46:49.356009",
-    "first_seen_utc": "2026-01-29T04:01:49.356024"
+    "scraped_at": "2026-01-29T21:41:13.041685",
+    "first_seen_utc": "2026-01-29T15:56:13.041701"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON490",
     "title": "Nipah virus infection - India",
     "published_date": "2023-10-03",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -1770,17 +1444,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Nipah virus infection - India"
     ],
-    "scraped_at": "2026-01-29T09:46:50.912352",
-    "first_seen_utc": "2026-01-29T04:01:50.912366"
+    "scraped_at": "2026-01-29T21:41:14.130410",
+    "first_seen_utc": "2026-01-29T15:56:14.130427"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON488",
     "title": "Suspected triple outbreak of typhoid fever, shigellosis and cholera - Congo",
     "published_date": "2023-09-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -1927,17 +1603,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Suspected triple outbreak of typhoid fever, shigellosis and cholera - Congo"
     ],
-    "scraped_at": "2026-01-29T09:46:53.130624",
-    "first_seen_utc": "2026-01-29T04:01:53.130638"
+    "scraped_at": "2026-01-29T21:41:15.140266",
+    "first_seen_utc": "2026-01-29T15:56:15.140286"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON489",
     "title": "Botulism - France",
     "published_date": "2023-09-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -2085,17 +1763,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Botulism - France"
     ],
-    "scraped_at": "2026-01-29T09:46:54.588885",
-    "first_seen_utc": "2026-01-29T04:01:54.588901"
+    "scraped_at": "2026-01-29T21:41:16.165555",
+    "first_seen_utc": "2026-01-29T15:56:16.165579"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON487",
     "title": "Legionellosis - Poland",
     "published_date": "2023-09-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -2234,17 +1914,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Legionellosis - Poland"
     ],
-    "scraped_at": "2026-01-29T09:46:56.647107",
-    "first_seen_utc": "2026-01-29T04:01:56.647123"
+    "scraped_at": "2026-01-29T21:41:17.251973",
+    "first_seen_utc": "2026-01-29T15:56:17.251991"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON485",
     "title": "Diphtheria - Nigeria",
     "published_date": "2023-09-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -2401,17 +2083,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Diphtheria - Nigeria"
     ],
-    "scraped_at": "2026-01-29T09:46:58.742263",
-    "first_seen_utc": "2026-01-29T04:01:58.742279"
+    "scraped_at": "2026-01-29T21:41:18.335212",
+    "first_seen_utc": "2026-01-29T15:56:18.335231"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON486",
     "title": "Influenza A (H1N1) variant virus - the Netherlands",
     "published_date": "2023-09-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -2628,17 +2312,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A (H1N1) variant virus - the Netherlands"
     ],
-    "scraped_at": "2026-01-29T09:47:00.934015",
-    "first_seen_utc": "2026-01-29T04:02:00.934032"
+    "scraped_at": "2026-01-29T21:41:19.373804",
+    "first_seen_utc": "2026-01-29T15:56:19.373820"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON484",
     "title": "Middle East respiratory syndrome coronavirus - Saudi Arabia",
     "published_date": "2023-08-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -2775,17 +2461,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus - Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:47:03.174156",
-    "first_seen_utc": "2026-01-29T04:02:03.174171"
+    "scraped_at": "2026-01-29T21:41:20.433567",
+    "first_seen_utc": "2026-01-29T15:56:20.433584"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON483",
     "title": "Measles - Chile",
     "published_date": "2023-08-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -2936,17 +2624,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Measles - Chile"
     ],
-    "scraped_at": "2026-01-29T09:47:04.701803",
-    "first_seen_utc": "2026-01-29T04:02:04.701819"
+    "scraped_at": "2026-01-29T21:41:21.998292",
+    "first_seen_utc": "2026-01-29T15:56:21.998307"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON482",
     "title": "Influenza A (H1N2) variant virus-United States of America",
     "published_date": "2023-08-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3109,17 +2799,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A (H1N2) variant virus-United States of America"
     ],
-    "scraped_at": "2026-01-29T09:47:07.065897",
-    "first_seen_utc": "2026-01-29T04:02:07.065918"
+    "scraped_at": "2026-01-29T21:41:23.146148",
+    "first_seen_utc": "2026-01-29T15:56:23.146169"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON481",
     "title": "Dengue - Bangladesh",
     "published_date": "2023-08-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3271,17 +2963,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue - Bangladesh"
     ],
-    "scraped_at": "2026-01-29T09:47:09.391957",
-    "first_seen_utc": "2026-01-29T04:02:09.391976"
+    "scraped_at": "2026-01-29T21:41:24.242338",
+    "first_seen_utc": "2026-01-29T15:56:24.242354"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON479",
     "title": "Circulating vaccine-derived poliovirus type 2 (cVDPV2) - Kenya",
     "published_date": "2023-07-28",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3432,17 +3126,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 2 (cVDPV2) - Kenya"
     ],
-    "scraped_at": "2026-01-29T09:47:10.765510",
-    "first_seen_utc": "2026-01-29T04:02:10.765527"
+    "scraped_at": "2026-01-29T21:41:25.395757",
+    "first_seen_utc": "2026-01-29T15:56:25.395772"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON480",
     "title": "Circulating vaccine-derived poliovirus type 2 (cVDPV2) - United Republic of Tanzania",
     "published_date": "2023-07-28",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3597,17 +3293,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 2 (cVDPV2) - United Republic of Tanzania"
     ],
-    "scraped_at": "2026-01-29T09:47:12.125899",
-    "first_seen_utc": "2026-01-29T04:02:12.125914"
+    "scraped_at": "2026-01-29T21:41:26.485090",
+    "first_seen_utc": "2026-01-29T15:56:26.485112"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON477",
     "title": "Guillain-Barré Syndrome - Peru",
     "published_date": "2023-07-25",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3745,17 +3443,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Guillain-Barré Syndrome - Peru"
     ],
-    "scraped_at": "2026-01-29T09:47:14.324104",
-    "first_seen_utc": "2026-01-29T04:02:14.324118"
+    "scraped_at": "2026-01-29T21:41:27.596045",
+    "first_seen_utc": "2026-01-29T15:56:27.596062"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON478",
     "title": "Middle East respiratory syndrome coronavirus –United Arab Emirates",
     "published_date": "2023-07-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3896,17 +3596,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus –United Arab Emirates"
     ],
-    "scraped_at": "2026-01-29T09:47:15.715713",
-    "first_seen_utc": "2026-01-29T04:02:15.715730"
+    "scraped_at": "2026-01-29T21:41:28.687139",
+    "first_seen_utc": "2026-01-29T15:56:28.687157"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON475",
     "title": "Dengue – the Region of the Americas",
     "published_date": "2023-07-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4192,17 +3894,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue – the Region of the Americas"
     ],
-    "scraped_at": "2026-01-29T09:47:17.769851",
-    "first_seen_utc": "2026-01-29T04:02:17.769866"
+    "scraped_at": "2026-01-29T21:41:29.736363",
+    "first_seen_utc": "2026-01-29T15:56:29.736381"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON476",
     "title": "Influenza A(H5N1) in cats – Poland",
     "published_date": "2023-07-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4393,17 +4097,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A(H5N1) in cats – Poland"
     ],
-    "scraped_at": "2026-01-29T09:47:19.313430",
-    "first_seen_utc": "2026-01-29T04:02:19.313445"
+    "scraped_at": "2026-01-29T21:41:30.829871",
+    "first_seen_utc": "2026-01-29T15:56:30.829893"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON474",
     "title": "Enterovirus-Echovirus 11 Infection - the European Region",
     "published_date": "2023-07-07",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4580,17 +4286,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Enterovirus-Echovirus 11 Infection - the European Region"
     ],
-    "scraped_at": "2026-01-29T09:47:21.279077",
-    "first_seen_utc": "2026-01-29T04:02:21.279093"
+    "scraped_at": "2026-01-29T21:41:31.922348",
+    "first_seen_utc": "2026-01-29T15:56:31.922365"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON473",
     "title": "Influenza A H1N1 variant virus - Brazil",
     "published_date": "2023-06-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4770,17 +4478,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H1N1 variant virus - Brazil"
     ],
-    "scraped_at": "2026-01-29T09:47:23.420157",
-    "first_seen_utc": "2026-01-29T04:02:23.420173"
+    "scraped_at": "2026-01-29T21:41:33.017137",
+    "first_seen_utc": "2026-01-29T15:56:33.017157"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON472",
     "title": "Marburg virus disease - Equatorial Guinea",
     "published_date": "2023-06-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -5058,17 +4768,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Marburg virus disease - Equatorial Guinea"
     ],
-    "scraped_at": "2026-01-29T09:47:25.407695",
-    "first_seen_utc": "2026-01-29T04:02:25.407710"
+    "scraped_at": "2026-01-29T21:41:34.036130",
+    "first_seen_utc": "2026-01-29T15:56:34.036148"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON471",
     "title": "Marburg virus disease - United Republic of Tanzania",
     "published_date": "2023-06-02",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -5212,17 +4924,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Marburg virus disease - United Republic of Tanzania"
     ],
-    "scraped_at": "2026-01-29T09:47:27.819898",
-    "first_seen_utc": "2026-01-29T04:02:27.819913"
+    "scraped_at": "2026-01-29T21:41:35.104593",
+    "first_seen_utc": "2026-01-29T15:56:35.104610"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON470",
     "title": "Outbreak of suspected fungal meningitis associated with surgical procedures performed under spinal anaesthesia – the United States of America and Mexico",
     "published_date": "2023-06-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -5390,17 +5104,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Outbreak of suspected fungal meningitis associated with surgical procedures performed under spinal anaesthesia – the United States of America and Mexico"
     ],
-    "scraped_at": "2026-01-29T09:47:29.199637",
-    "first_seen_utc": "2026-01-29T04:02:29.199664"
+    "scraped_at": "2026-01-29T21:41:36.156765",
+    "first_seen_utc": "2026-01-29T15:56:36.156782"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON469",
     "title": "Enterovirus Infection - France",
     "published_date": "2023-05-31",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -5521,17 +5237,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Enterovirus Infection - France"
     ],
-    "scraped_at": "2026-01-29T09:47:30.718109",
-    "first_seen_utc": "2026-01-29T04:02:30.718131"
+    "scraped_at": "2026-01-29T21:41:37.319180",
+    "first_seen_utc": "2026-01-29T15:56:37.319198"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON468",
     "title": "Avian Influenza A H5N1 - United Kingdom of Great Britain and Northern Ireland",
     "published_date": "2023-05-30",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -5664,17 +5382,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A H5N1 - United Kingdom of Great Britain and Northern Ireland"
     ],
-    "scraped_at": "2026-01-29T09:47:32.379796",
-    "first_seen_utc": "2026-01-29T04:02:32.379811"
+    "scraped_at": "2026-01-29T21:41:38.398632",
+    "first_seen_utc": "2026-01-29T15:56:38.398651"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON465",
     "title": "Myocarditis - United Kingdom of Great Britain and Northern Ireland",
     "published_date": "2023-05-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -5773,17 +5493,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Myocarditis - United Kingdom of Great Britain and Northern Ireland"
     ],
-    "scraped_at": "2026-01-29T09:47:33.865807",
-    "first_seen_utc": "2026-01-29T04:02:33.865823"
+    "scraped_at": "2026-01-29T21:41:39.450011",
+    "first_seen_utc": "2026-01-29T15:56:39.450030"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON467",
     "title": "Marburg virus disease - Equatorial Guinea and the United Republic of Tanzania",
     "published_date": "2023-05-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -6082,17 +5804,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Marburg virus disease - Equatorial Guinea and the United Republic of Tanzania"
     ],
-    "scraped_at": "2026-01-29T09:47:35.981540",
-    "first_seen_utc": "2026-01-29T04:02:35.981556"
+    "scraped_at": "2026-01-29T21:41:40.533589",
+    "first_seen_utc": "2026-01-29T15:56:40.533608"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON466",
     "title": "Acute hepatitis E – South Sudan",
     "published_date": "2023-05-05",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -6282,17 +6006,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Acute hepatitis E – South Sudan"
     ],
-    "scraped_at": "2026-01-29T09:47:37.811083",
-    "first_seen_utc": "2026-01-29T04:02:37.811099"
+    "scraped_at": "2026-01-29T21:41:41.649693",
+    "first_seen_utc": "2026-01-29T15:56:41.649714"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON460",
     "title": "Measles - Ethiopia",
     "published_date": "2023-05-04",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -6446,17 +6172,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Measles - Ethiopia"
     ],
-    "scraped_at": "2026-01-29T09:47:39.783912",
-    "first_seen_utc": "2026-01-29T04:02:39.783930"
+    "scraped_at": "2026-01-29T21:41:42.742442",
+    "first_seen_utc": "2026-01-29T15:56:42.742457"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON463",
     "title": "Lassa fever - Nigeria",
     "published_date": "2023-05-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -6572,17 +6300,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa fever - Nigeria"
     ],
-    "scraped_at": "2026-01-29T09:47:41.171987",
-    "first_seen_utc": "2026-01-29T04:02:41.172003"
+    "scraped_at": "2026-01-29T21:41:43.852336",
+    "first_seen_utc": "2026-01-29T15:56:43.852353"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON462",
     "title": "Measles - Indonesia",
     "published_date": "2023-04-28",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -6711,17 +6441,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Measles - Indonesia"
     ],
-    "scraped_at": "2026-01-29T09:47:43.268860",
-    "first_seen_utc": "2026-01-29T04:02:43.268878"
+    "scraped_at": "2026-01-29T21:41:44.934323",
+    "first_seen_utc": "2026-01-29T15:56:44.934343"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON452",
     "title": "Diphtheria - Nigeria",
     "published_date": "2023-04-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -6850,17 +6582,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Diphtheria - Nigeria"
     ],
-    "scraped_at": "2026-01-29T09:47:45.732979",
-    "first_seen_utc": "2026-01-29T04:02:45.732995"
+    "scraped_at": "2026-01-29T21:41:46.014804",
+    "first_seen_utc": "2026-01-29T15:56:46.014823"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON454",
     "title": "Meningitis - Nigeria",
     "published_date": "2023-04-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -6985,17 +6719,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Meningitis - Nigeria"
     ],
-    "scraped_at": "2026-01-29T09:47:48.039474",
-    "first_seen_utc": "2026-01-29T04:02:48.039504"
+    "scraped_at": "2026-01-29T21:41:47.104623",
+    "first_seen_utc": "2026-01-29T15:56:47.104644"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON461",
     "title": "Human Infection caused by Avian Influenza A (H5N1) - Chile",
     "published_date": "2023-04-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -7181,17 +6917,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Human Infection caused by Avian Influenza A (H5N1) - Chile"
     ],
-    "scraped_at": "2026-01-29T09:47:50.322442",
-    "first_seen_utc": "2026-01-29T04:02:50.322472"
+    "scraped_at": "2026-01-29T21:41:48.401144",
+    "first_seen_utc": "2026-01-29T15:56:48.401162"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON457",
     "title": "Circulating vaccine-derived poliovirus type 2 – Burundi",
     "published_date": "2023-04-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -7345,17 +7083,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 2 – Burundi"
     ],
-    "scraped_at": "2026-01-29T09:47:51.817144",
-    "first_seen_utc": "2026-01-29T04:02:51.817173"
+    "scraped_at": "2026-01-29T21:41:49.737330",
+    "first_seen_utc": "2026-01-29T15:56:49.737347"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON458",
     "title": "Circulating vaccine-derived poliovirus type 2 - Indonesia",
     "published_date": "2023-04-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -7489,17 +7229,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 2 - Indonesia"
     ],
-    "scraped_at": "2026-01-29T09:47:53.489815",
-    "first_seen_utc": "2026-01-29T04:02:53.489834"
+    "scraped_at": "2026-01-29T21:41:51.059637",
+    "first_seen_utc": "2026-01-29T15:56:51.059651"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON459",
     "title": "Marburg virus disease - Equatorial Guinea",
     "published_date": "2023-04-15",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -7738,17 +7480,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Marburg virus disease - Equatorial Guinea"
     ],
-    "scraped_at": "2026-01-29T09:47:56.184269",
-    "first_seen_utc": "2026-01-29T04:02:56.184287"
+    "scraped_at": "2026-01-29T21:41:52.912539",
+    "first_seen_utc": "2026-01-29T15:56:52.912558"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON456",
     "title": "Avian Influenza A(H3N8) - China",
     "published_date": "2023-04-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -7857,17 +7601,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A(H3N8) - China"
     ],
-    "scraped_at": "2026-01-29T09:47:57.635430",
-    "first_seen_utc": "2026-01-29T04:02:57.635446"
+    "scraped_at": "2026-01-29T21:41:54.223290",
+    "first_seen_utc": "2026-01-29T15:56:54.223303"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON455",
     "title": "Pneumococcal meningitis - Togo",
     "published_date": "2023-04-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -8026,17 +7772,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Pneumococcal meningitis - Togo"
     ],
-    "scraped_at": "2026-01-29T09:47:59.635406",
-    "first_seen_utc": "2026-01-29T04:02:59.635437"
+    "scraped_at": "2026-01-29T21:41:55.615602",
+    "first_seen_utc": "2026-01-29T15:56:55.615619"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON453",
     "title": "Human infection caused by Avian Influenza A (H5) - Chile",
     "published_date": "2023-04-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -8214,17 +7962,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Human infection caused by Avian Influenza A (H5) - Chile"
     ],
-    "scraped_at": "2026-01-29T09:48:01.900948",
-    "first_seen_utc": "2026-01-29T04:03:01.900982"
+    "scraped_at": "2026-01-29T21:41:56.935685",
+    "first_seen_utc": "2026-01-29T15:56:56.935711"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON450",
     "title": "Iatrogenic Botulism- European Region",
     "published_date": "2023-03-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -8322,17 +8072,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Iatrogenic Botulism- European Region"
     ],
-    "scraped_at": "2026-01-29T09:48:03.387194",
-    "first_seen_utc": "2026-01-29T04:03:03.387222"
+    "scraped_at": "2026-01-29T21:41:58.276295",
+    "first_seen_utc": "2026-01-29T15:56:58.276311"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON451",
     "title": "Marburg virus disease - United Republic of Tanzania",
     "published_date": "2023-03-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -8461,17 +8213,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Marburg virus disease - United Republic of Tanzania"
     ],
-    "scraped_at": "2026-01-29T09:48:05.334574",
-    "first_seen_utc": "2026-01-29T04:03:05.334594"
+    "scraped_at": "2026-01-29T21:41:59.534440",
+    "first_seen_utc": "2026-01-29T15:56:59.534458"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON448",
     "title": "Geographical expansion of cases of dengue and chikungunya beyond the historical areas of transmission in the Region of the Americas",
     "published_date": "2023-03-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -8731,17 +8485,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Geographical expansion of cases of dengue and chikungunya beyond the historical areas of transmission in the Region of the Americas"
     ],
-    "scraped_at": "2026-01-29T09:48:07.333221",
-    "first_seen_utc": "2026-01-29T04:03:07.333245"
+    "scraped_at": "2026-01-29T21:42:00.819252",
+    "first_seen_utc": "2026-01-29T15:57:00.819269"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON449",
     "title": "Marburg virus disease - Equatorial Guinea",
     "published_date": "2023-03-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -8874,17 +8630,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Marburg virus disease - Equatorial Guinea"
     ],
-    "scraped_at": "2026-01-29T09:48:08.871068",
-    "first_seen_utc": "2026-01-29T04:03:08.871084"
+    "scraped_at": "2026-01-29T21:42:02.108737",
+    "first_seen_utc": "2026-01-29T15:57:02.108751"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON447",
     "title": "Measles - South Africa",
     "published_date": "2023-03-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9049,17 +8807,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Measles - South Africa"
     ],
-    "scraped_at": "2026-01-29T09:48:11.009875",
-    "first_seen_utc": "2026-01-29T04:03:11.009892"
+    "scraped_at": "2026-01-29T21:42:03.424677",
+    "first_seen_utc": "2026-01-29T15:57:03.424692"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON446",
     "title": "Measles - Nepal",
     "published_date": "2023-03-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9171,17 +8931,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Measles - Nepal"
     ],
-    "scraped_at": "2026-01-29T09:48:13.070459",
-    "first_seen_utc": "2026-01-29T04:03:13.070474"
+    "scraped_at": "2026-01-29T21:42:04.715853",
+    "first_seen_utc": "2026-01-29T15:57:04.715873"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON445",
     "title": "Avian Influenza A (H5N1) - Cambodia",
     "published_date": "2023-02-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9326,17 +9088,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A (H5N1) - Cambodia"
     ],
-    "scraped_at": "2026-01-29T09:48:14.440953",
-    "first_seen_utc": "2026-01-29T04:03:14.440982"
+    "scraped_at": "2026-01-29T21:42:05.996113",
+    "first_seen_utc": "2026-01-29T15:57:05.996136"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON444",
     "title": "Marburg virus disease - Equatorial Guinea",
     "published_date": "2023-02-25",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9456,17 +9220,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Marburg virus disease - Equatorial Guinea"
     ],
-    "scraped_at": "2026-01-29T09:48:15.921410",
-    "first_seen_utc": "2026-01-29T04:03:15.921437"
+    "scraped_at": "2026-01-29T21:42:07.253800",
+    "first_seen_utc": "2026-01-29T15:57:07.253816"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON443",
     "title": "Cholera - Mozambique",
     "published_date": "2023-02-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9631,17 +9397,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera - Mozambique"
     ],
-    "scraped_at": "2026-01-29T09:48:18.058505",
-    "first_seen_utc": "2026-01-29T04:03:18.058520"
+    "scraped_at": "2026-01-29T21:42:09.154163",
+    "first_seen_utc": "2026-01-29T15:57:09.154181"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON442",
     "title": "Nipah virus infection - Bangladesh",
     "published_date": "2023-02-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9795,17 +9563,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Nipah virus infection - Bangladesh"
     ],
-    "scraped_at": "2026-01-29T09:48:20.506434",
-    "first_seen_utc": "2026-01-29T04:03:20.506450"
+    "scraped_at": "2026-01-29T21:42:10.384604",
+    "first_seen_utc": "2026-01-29T15:57:10.384621"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON437",
     "title": "Cholera – Global situation",
     "published_date": "2023-02-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -10020,17 +9790,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – Global situation"
     ],
-    "scraped_at": "2026-01-29T09:48:23.266142",
-    "first_seen_utc": "2026-01-29T04:03:23.266156"
+    "scraped_at": "2026-01-29T21:42:32.125871",
+    "first_seen_utc": "2026-01-29T15:57:32.125888"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON440",
     "title": "Measles - South Sudan",
     "published_date": "2023-02-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -10155,17 +9927,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Measles - South Sudan"
     ],
-    "scraped_at": "2026-01-29T09:48:25.289570",
-    "first_seen_utc": "2026-01-29T04:03:25.289584"
+    "scraped_at": "2026-01-29T21:42:34.185062",
+    "first_seen_utc": "2026-01-29T15:57:34.185079"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON441",
     "title": "Cholera - Democratic Republic of the Congo",
     "published_date": "2023-02-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -10299,17 +10073,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera - Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:48:27.228073",
-    "first_seen_utc": "2026-01-29T04:03:27.228086"
+    "scraped_at": "2026-01-29T21:42:35.561836",
+    "first_seen_utc": "2026-01-29T15:57:35.561856"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON435",
     "title": "Cholera - Malawi",
     "published_date": "2023-02-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -10575,17 +10351,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera - Malawi"
     ],
-    "scraped_at": "2026-01-29T09:48:29.255500",
-    "first_seen_utc": "2026-01-29T04:03:29.255515"
+    "scraped_at": "2026-01-29T21:42:36.897987",
+    "first_seen_utc": "2026-01-29T15:57:36.898008"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON436",
     "title": "Middle East respiratory syndrome coronavirus –Oman",
     "published_date": "2023-02-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -10740,17 +10518,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus –Oman"
     ],
-    "scraped_at": "2026-01-29T09:48:30.659180",
-    "first_seen_utc": "2026-01-29T04:03:30.659194"
+    "scraped_at": "2026-01-29T21:42:38.196719",
+    "first_seen_utc": "2026-01-29T15:57:38.196737"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON439",
     "title": "Meningitis - Niger",
     "published_date": "2023-02-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -10888,17 +10668,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Meningitis - Niger"
     ],
-    "scraped_at": "2026-01-29T09:48:32.832736",
-    "first_seen_utc": "2026-01-29T04:03:32.832757"
+    "scraped_at": "2026-01-29T21:42:39.519341",
+    "first_seen_utc": "2026-01-29T15:57:39.519357"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON438",
     "title": "Measles - Paraguay",
     "published_date": "2023-02-02",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -11035,17 +10817,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Measles - Paraguay"
     ],
-    "scraped_at": "2026-01-29T09:48:34.256136",
-    "first_seen_utc": "2026-01-29T04:03:34.256232"
+    "scraped_at": "2026-01-29T21:42:40.941093",
+    "first_seen_utc": "2026-01-29T15:57:40.941110"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON434",
     "title": "Human infection caused by avian influenza A(H5) - Ecuador",
     "published_date": "2023-01-18",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -11202,17 +10986,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Human infection caused by avian influenza A(H5) - Ecuador"
     ],
-    "scraped_at": "2026-01-29T09:48:36.513049",
-    "first_seen_utc": "2026-01-29T04:03:36.513068"
+    "scraped_at": "2026-01-29T21:42:42.173496",
+    "first_seen_utc": "2026-01-29T15:57:42.173516"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON433",
     "title": "Ebola disease caused by Sudan ebolavirus – Uganda",
     "published_date": "2023-01-14",
-    "disease": null,
-    "location": null,
+    "author": "Preparedness in neighboring countries:",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -11472,17 +11258,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola disease caused by Sudan ebolavirus – Uganda"
     ],
-    "scraped_at": "2026-01-29T09:48:38.651679",
-    "first_seen_utc": "2026-01-29T04:03:38.651694"
+    "scraped_at": "2026-01-29T21:42:43.475224",
+    "first_seen_utc": "2026-01-29T15:57:43.475240"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON362",
     "title": "Circulating vaccine-derived poliovirus type 2 – Sudan",
     "published_date": "2023-01-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -11609,17 +11397,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 2 – Sudan"
     ],
-    "scraped_at": "2026-01-29T09:48:39.974431",
-    "first_seen_utc": "2026-01-29T04:03:39.974447"
+    "scraped_at": "2026-01-29T21:42:44.768550",
+    "first_seen_utc": "2026-01-29T15:57:44.768573"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON431",
     "title": "Yellow fever - African Region (AFRO)",
     "published_date": "2023-01-03",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -11807,9 +11597,10 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow fever - African Region (AFRO)"
     ],
-    "scraped_at": "2026-01-29T09:48:42.030555",
-    "first_seen_utc": "2026-01-29T04:03:42.030573"
+    "scraped_at": "2026-01-29T21:42:46.900044",
+    "first_seen_utc": "2026-01-29T15:57:46.900062"
   }
 ]

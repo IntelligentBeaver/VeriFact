@@ -257,12 +257,26 @@ def main():
         default=None,
         help="Maximum number of pages to scrape (default: all pages)"
     )
+    parser.add_argument(
+        "--max-age-days",
+        type=int,
+        default=None,
+        help="Only include articles from last N days (overrides min-year)"
+    )
     args = parser.parse_args()
     
     print("="*60)
     print("WHO Disease Outbreak News Scraper")
     print("="*60)
-    print(f"Min year: {args.min_year}")
+    if args.max_age_days:
+        print(f"Max age: {args.max_age_days} days")
+        # Override min_year based on max_age_days
+        from datetime import datetime, timedelta
+        cutoff_date = datetime.now() - timedelta(days=args.max_age_days)
+        args.min_year = cutoff_date.year
+        print(f"Adjusted min year: {args.min_year}")
+    else:
+        print(f"Min year: {args.min_year}")
     if args.max_pages:
         print(f"Max pages: {args.max_pages}")
     

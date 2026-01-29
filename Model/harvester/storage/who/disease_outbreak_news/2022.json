@@ -3,8 +3,9 @@
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON430",
     "title": "Circulating vaccine-derived poliovirus type 2-Indonesia",
     "published_date": "2022-12-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -139,17 +140,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 2-Indonesia"
     ],
-    "scraped_at": "2026-01-29T09:46:37.556540",
-    "first_seen_utc": "2026-01-29T04:01:37.556556"
+    "scraped_at": "2026-01-29T21:41:02.734036",
+    "first_seen_utc": "2026-01-29T15:56:02.734056"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON426",
     "title": "Cholera – Global situation",
     "published_date": "2022-12-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -355,17 +358,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – Global situation"
     ],
-    "scraped_at": "2026-01-29T09:46:38.987163",
-    "first_seen_utc": "2026-01-29T04:01:38.987179"
+    "scraped_at": "2026-01-29T21:41:03.919576",
+    "first_seen_utc": "2026-01-29T15:56:03.919596"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON429",
     "title": "Increased incidence of scarlet fever and invasive Group A Streptococcus infection - multi-country",
     "published_date": "2022-12-15",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -507,17 +512,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Increased incidence of scarlet fever and invasive Group A Streptococcus infection - multi-country"
     ],
-    "scraped_at": "2026-01-29T09:46:40.430359",
-    "first_seen_utc": "2026-01-29T04:01:40.430374"
+    "scraped_at": "2026-01-29T21:41:05.011599",
+    "first_seen_utc": "2026-01-29T15:56:05.011618"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON427",
     "title": "Cholera - Haiti",
     "published_date": "2022-12-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -720,17 +727,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera - Haiti"
     ],
-    "scraped_at": "2026-01-29T09:46:42.669528",
-    "first_seen_utc": "2026-01-29T04:01:42.669547"
+    "scraped_at": "2026-01-29T21:41:06.627102",
+    "first_seen_utc": "2026-01-29T15:56:06.627118"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON428",
     "title": "Ebola disease caused by Sudan ebolavirus – Uganda",
     "published_date": "2022-12-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -953,17 +962,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola disease caused by Sudan ebolavirus – Uganda"
     ],
-    "scraped_at": "2026-01-29T09:46:44.774881",
-    "first_seen_utc": "2026-01-29T04:01:44.774897"
+    "scraped_at": "2026-01-29T21:41:08.887072",
+    "first_seen_utc": "2026-01-29T15:56:08.887091"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON424",
     "title": "Dengue - Bangladesh",
     "published_date": "2022-11-28",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -1102,17 +1113,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue - Bangladesh"
     ],
-    "scraped_at": "2026-01-29T09:46:46.676422",
-    "first_seen_utc": "2026-01-29T04:01:46.676441"
+    "scraped_at": "2026-01-29T21:41:10.595575",
+    "first_seen_utc": "2026-01-29T15:56:10.595596"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON425",
     "title": "Ebola disease caused by Sudan ebolavirus – Uganda",
     "published_date": "2022-11-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1321,17 +1334,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola disease caused by Sudan ebolavirus – Uganda"
     ],
-    "scraped_at": "2026-01-29T09:46:49.026080",
-    "first_seen_utc": "2026-01-29T04:01:49.026096"
+    "scraped_at": "2026-01-29T21:41:11.676726",
+    "first_seen_utc": "2026-01-29T15:56:11.676742"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON422",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2022-11-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -1469,17 +1484,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:46:51.036673",
-    "first_seen_utc": "2026-01-29T04:01:51.036687"
+    "scraped_at": "2026-01-29T21:41:13.360454",
+    "first_seen_utc": "2026-01-29T15:56:13.360472"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON423",
     "title": "Ebola disease caused by Sudan ebolavirus – Uganda",
     "published_date": "2022-11-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1644,17 +1661,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola disease caused by Sudan ebolavirus – Uganda"
     ],
-    "scraped_at": "2026-01-29T09:46:53.062095",
-    "first_seen_utc": "2026-01-29T04:01:53.062109"
+    "scraped_at": "2026-01-29T21:41:14.519502",
+    "first_seen_utc": "2026-01-29T15:56:14.519521"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON419",
     "title": "Cholera - Malawi",
     "published_date": "2022-11-07",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -1814,17 +1833,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera - Malawi"
     ],
-    "scraped_at": "2026-01-29T09:46:55.028852",
-    "first_seen_utc": "2026-01-29T04:01:55.028865"
+    "scraped_at": "2026-01-29T21:41:15.597350",
+    "first_seen_utc": "2026-01-29T15:56:15.597371"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON420",
     "title": "Avian Influenza A (H5N1) - Spain",
     "published_date": "2022-11-03",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -1970,17 +1991,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A (H5N1) - Spain"
     ],
-    "scraped_at": "2026-01-29T09:46:56.496784",
-    "first_seen_utc": "2026-01-29T04:01:56.496801"
+    "scraped_at": "2026-01-29T21:41:16.714197",
+    "first_seen_utc": "2026-01-29T15:56:16.714214"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON421",
     "title": "Ebola Disease caused by Sudan virus - Uganda",
     "published_date": "2022-10-28",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2121,17 +2144,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola Disease caused by Sudan virus - Uganda"
     ],
-    "scraped_at": "2026-01-29T09:46:58.680709",
-    "first_seen_utc": "2026-01-29T04:01:58.680723"
+    "scraped_at": "2026-01-29T21:41:17.809089",
+    "first_seen_utc": "2026-01-29T15:56:17.809105"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON417",
     "title": "Rift Valley Fever - Mauritania",
     "published_date": "2022-10-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -2268,17 +2293,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Rift Valley Fever - Mauritania"
     ],
-    "scraped_at": "2026-01-29T09:47:00.813702",
-    "first_seen_utc": "2026-01-29T04:02:00.813717"
+    "scraped_at": "2026-01-29T21:41:18.923440",
+    "first_seen_utc": "2026-01-29T15:56:18.923455"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON416",
     "title": "Cholera - Lebanon",
     "published_date": "2022-10-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -2426,17 +2453,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera - Lebanon"
     ],
-    "scraped_at": "2026-01-29T09:47:02.992214",
-    "first_seen_utc": "2026-01-29T04:02:02.992229"
+    "scraped_at": "2026-01-29T21:41:19.993695",
+    "first_seen_utc": "2026-01-29T15:56:19.993714"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON413",
     "title": "Malaria - Pakistan",
     "published_date": "2022-10-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -2549,17 +2578,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Malaria - Pakistan"
     ],
-    "scraped_at": "2026-01-29T09:47:04.568855",
-    "first_seen_utc": "2026-01-29T04:02:04.568870"
+    "scraped_at": "2026-01-29T21:41:21.047717",
+    "first_seen_utc": "2026-01-29T15:56:21.047734"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON414",
     "title": "Dengue - Pakistan",
     "published_date": "2022-10-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -2683,17 +2714,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue - Pakistan"
     ],
-    "scraped_at": "2026-01-29T09:47:06.890530",
-    "first_seen_utc": "2026-01-29T04:02:06.890554"
+    "scraped_at": "2026-01-29T21:41:22.149699",
+    "first_seen_utc": "2026-01-29T15:56:22.149715"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON415",
     "title": "Cholera - Haiti",
     "published_date": "2022-10-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -2878,17 +2911,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera - Haiti"
     ],
-    "scraped_at": "2026-01-29T09:47:09.116202",
-    "first_seen_utc": "2026-01-29T04:02:09.116221"
+    "scraped_at": "2026-01-29T21:41:23.295582",
+    "first_seen_utc": "2026-01-29T15:56:23.295597"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON412",
     "title": "Dengue - Nepal",
     "published_date": "2022-10-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3017,17 +3052,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue - Nepal"
     ],
-    "scraped_at": "2026-01-29T09:47:11.323939",
-    "first_seen_utc": "2026-01-29T04:02:11.323954"
+    "scraped_at": "2026-01-29T21:41:24.360394",
+    "first_seen_utc": "2026-01-29T15:56:24.360411"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON411",
     "title": "Ebola virus disease –Democratic Republic of the Congo",
     "published_date": "2022-09-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3159,17 +3196,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease –Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:47:12.682044",
-    "first_seen_utc": "2026-01-29T04:02:12.682064"
+    "scraped_at": "2026-01-29T21:41:25.498550",
+    "first_seen_utc": "2026-01-29T15:56:25.498581"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON409",
     "title": "Marburg virus disease - Ghana",
     "published_date": "2022-09-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3321,17 +3360,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Marburg virus disease - Ghana"
     ],
-    "scraped_at": "2026-01-29T09:47:14.108542",
-    "first_seen_utc": "2026-01-29T04:02:14.108559"
+    "scraped_at": "2026-01-29T21:41:26.632272",
+    "first_seen_utc": "2026-01-29T15:56:26.632289"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON410",
     "title": "Ebola Disease caused by Sudan virus - Uganda",
     "published_date": "2022-09-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3497,17 +3538,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola Disease caused by Sudan virus - Uganda"
     ],
-    "scraped_at": "2026-01-29T09:47:15.459767",
-    "first_seen_utc": "2026-01-29T04:02:15.459782"
+    "scraped_at": "2026-01-29T21:41:27.803454",
+    "first_seen_utc": "2026-01-29T15:56:27.803472"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON408",
     "title": "Detection of circulating vaccine derived polio virus 2 (cVDPV2) in environmental samples– the United Kingdom of Great Britain and Northern Ireland and the United States of America",
     "published_date": "2022-09-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3713,17 +3756,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Detection of circulating vaccine derived polio virus 2 (cVDPV2) in environmental samples– the United Kingdom of Great Britain and Northern Ireland and the United States of America"
     ],
-    "scraped_at": "2026-01-29T09:47:18.054013",
-    "first_seen_utc": "2026-01-29T04:02:18.054031"
+    "scraped_at": "2026-01-29T21:41:28.902850",
+    "first_seen_utc": "2026-01-29T15:56:28.902869"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON406",
     "title": "Circulating vaccine-derived poliovirus type 2 - Algeria",
     "published_date": "2022-09-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3859,17 +3904,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 2 - Algeria"
     ],
-    "scraped_at": "2026-01-29T09:47:20.137631",
-    "first_seen_utc": "2026-01-29T04:02:20.137646"
+    "scraped_at": "2026-01-29T21:41:29.963446",
+    "first_seen_utc": "2026-01-29T15:56:29.963466"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON407",
     "title": "Legionellosis - Argentina",
     "published_date": "2022-09-05",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4004,17 +4051,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Legionellosis - Argentina"
     ],
-    "scraped_at": "2026-01-29T09:47:21.570712",
-    "first_seen_utc": "2026-01-29T04:02:21.570738"
+    "scraped_at": "2026-01-29T21:41:31.078455",
+    "first_seen_utc": "2026-01-29T15:56:31.078476"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON405",
     "title": "Yellow fever - African Region (AFRO)",
     "published_date": "2022-09-02",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4214,17 +4263,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow fever - African Region (AFRO)"
     ],
-    "scraped_at": "2026-01-29T09:47:23.888171",
-    "first_seen_utc": "2026-01-29T04:02:23.888187"
+    "scraped_at": "2026-01-29T21:41:32.220086",
+    "first_seen_utc": "2026-01-29T15:56:32.220104"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON404",
     "title": "Ebola virus disease - Democratic Republic of the Congo",
     "published_date": "2022-08-25",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4380,17 +4431,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease - Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:47:25.216852",
-    "first_seen_utc": "2026-01-29T04:02:25.216868"
+    "scraped_at": "2026-01-29T21:41:33.324449",
+    "first_seen_utc": "2026-01-29T15:56:33.324466"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON403",
     "title": "Leptospirosis - United Republic of Tanzania",
     "published_date": "2022-08-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4524,17 +4577,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Leptospirosis - United Republic of Tanzania"
     ],
-    "scraped_at": "2026-01-29T09:47:27.667153",
-    "first_seen_utc": "2026-01-29T04:02:27.667173"
+    "scraped_at": "2026-01-29T21:41:34.392826",
+    "first_seen_utc": "2026-01-29T15:56:34.392841"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON401",
     "title": "Dengue in Rohingya refugee/Forcibly Displaced Myanmar Nationals (FDMN) camps in Cox’s Bazar - Bangladesh",
     "published_date": "2022-08-03",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4667,17 +4722,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue in Rohingya refugee/Forcibly Displaced Myanmar Nationals (FDMN) camps in Cox’s Bazar - Bangladesh"
     ],
-    "scraped_at": "2026-01-29T09:47:29.779416",
-    "first_seen_utc": "2026-01-29T04:02:29.779434"
+    "scraped_at": "2026-01-29T21:41:35.473068",
+    "first_seen_utc": "2026-01-29T15:56:35.473092"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON402",
     "title": "Marburg virus disease - Ghana",
     "published_date": "2022-07-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4826,17 +4883,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Marburg virus disease - Ghana"
     ],
-    "scraped_at": "2026-01-29T09:47:31.702575",
-    "first_seen_utc": "2026-01-29T04:02:31.702602"
+    "scraped_at": "2026-01-29T21:41:36.571883",
+    "first_seen_utc": "2026-01-29T15:56:36.571900"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON398_1",
     "title": "Cholera - Somalia",
     "published_date": "2022-07-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4991,17 +5050,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera - Somalia"
     ],
-    "scraped_at": "2026-01-29T09:47:33.797139",
-    "first_seen_utc": "2026-01-29T04:02:33.797154"
+    "scraped_at": "2026-01-29T21:41:37.649885",
+    "first_seen_utc": "2026-01-29T15:56:37.649902"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON400",
     "title": "Severe acute hepatitis of unknown aetiology in children - Multi-country",
     "published_date": "2022-07-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -5687,17 +5748,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Severe acute hepatitis of unknown aetiology in children - Multi-country"
     ],
-    "scraped_at": "2026-01-29T09:47:37.041201",
-    "first_seen_utc": "2026-01-29T04:02:37.041218"
+    "scraped_at": "2026-01-29T21:41:38.761981",
+    "first_seen_utc": "2026-01-29T15:56:38.762000"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON398",
     "title": "Ebola virus disease - Democratic Republic of the Congo",
     "published_date": "2022-07-04",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -5847,17 +5910,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease - Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:47:38.910346",
-    "first_seen_utc": "2026-01-29T04:02:38.910363"
+    "scraped_at": "2026-01-29T21:41:39.804271",
+    "first_seen_utc": "2026-01-29T15:56:39.804288"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON396",
     "title": "Multi-country monkeypox outbreak: situation update",
     "published_date": "2022-06-27",
-    "disease": null,
-    "location": null,
+    "author": "One Health",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -6226,17 +6291,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Multi-country monkeypox outbreak: situation update"
     ],
-    "scraped_at": "2026-01-29T09:47:41.422970",
-    "first_seen_utc": "2026-01-29T04:02:41.422985"
+    "scraped_at": "2026-01-29T21:41:40.878399",
+    "first_seen_utc": "2026-01-29T15:56:40.878415"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON394",
     "title": "Severe acute hepatitis of unknown aetiology in children - Multi-country",
     "published_date": "2022-06-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -6397,17 +6464,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Severe acute hepatitis of unknown aetiology in children - Multi-country"
     ],
-    "scraped_at": "2026-01-29T09:47:43.437157",
-    "first_seen_utc": "2026-01-29T04:02:43.437177"
+    "scraped_at": "2026-01-29T21:41:42.057636",
+    "first_seen_utc": "2026-01-29T15:56:42.057666"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON395",
     "title": "Wild poliovirus type 1 – Mozambique",
     "published_date": "2022-06-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -6550,17 +6619,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Wild poliovirus type 1 – Mozambique"
     ],
-    "scraped_at": "2026-01-29T09:47:45.332605",
-    "first_seen_utc": "2026-01-29T04:02:45.332621"
+    "scraped_at": "2026-01-29T21:41:43.133232",
+    "first_seen_utc": "2026-01-29T15:56:43.133249"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON393",
     "title": "Multi-country monkeypox outbreak: situation update",
     "published_date": "2022-06-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -6972,17 +7043,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Multi-country monkeypox outbreak: situation update"
     ],
-    "scraped_at": "2026-01-29T09:47:47.827836",
-    "first_seen_utc": "2026-01-29T04:02:47.827852"
+    "scraped_at": "2026-01-29T21:41:44.240501",
+    "first_seen_utc": "2026-01-29T15:56:44.240518"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON391",
     "title": "Cholera - Pakistan",
     "published_date": "2022-06-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -7109,17 +7182,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera - Pakistan"
     ],
-    "scraped_at": "2026-01-29T09:47:49.854051",
-    "first_seen_utc": "2026-01-29T04:02:49.854075"
+    "scraped_at": "2026-01-29T21:41:45.279950",
+    "first_seen_utc": "2026-01-29T15:56:45.279966"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON392",
     "title": "Multi-country monkeypox outbreak: situation update",
     "published_date": "2022-06-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -7534,17 +7609,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Multi-country monkeypox outbreak: situation update"
     ],
-    "scraped_at": "2026-01-29T09:47:52.024125",
-    "first_seen_utc": "2026-01-29T04:02:52.024169"
+    "scraped_at": "2026-01-29T21:41:46.388206",
+    "first_seen_utc": "2026-01-29T15:56:46.388224"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON390",
     "title": "Multi-country monkeypox outbreak: situation update",
     "published_date": "2022-06-04",
-    "disease": null,
-    "location": null,
+    "author": "Infection, prevention and control in health care settings",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -7948,17 +8025,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Multi-country monkeypox outbreak: situation update"
     ],
-    "scraped_at": "2026-01-29T09:47:54.526636",
-    "first_seen_utc": "2026-01-29T04:02:54.526654"
+    "scraped_at": "2026-01-29T21:41:47.799204",
+    "first_seen_utc": "2026-01-29T15:56:47.799224"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON386",
     "title": "Crimean-Congo hemorrhagic fever - Iraq",
     "published_date": "2022-06-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -8068,17 +8147,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Crimean-Congo hemorrhagic fever - Iraq"
     ],
-    "scraped_at": "2026-01-29T09:47:56.629960",
-    "first_seen_utc": "2026-01-29T04:02:56.629988"
+    "scraped_at": "2026-01-29T21:41:49.560175",
+    "first_seen_utc": "2026-01-29T15:56:49.560190"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON388",
     "title": "Multi-country monkeypox outbreak in non-endemic countries: Update",
     "published_date": "2022-05-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -8426,17 +8507,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Multi-country monkeypox outbreak in non-endemic countries: Update"
     ],
-    "scraped_at": "2026-01-29T09:47:58.746241",
-    "first_seen_utc": "2026-01-29T04:02:58.746261"
+    "scraped_at": "2026-01-29T21:41:50.932821",
+    "first_seen_utc": "2026-01-29T15:56:50.932837"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/DON-389",
     "title": "Acute hepatitis of unknown aetiology in children - Multi-country",
     "published_date": "2022-05-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -8604,17 +8687,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Acute hepatitis of unknown aetiology in children - Multi-country"
     ],
-    "scraped_at": "2026-01-29T09:48:01.119898",
-    "first_seen_utc": "2026-01-29T04:03:01.119919"
+    "scraped_at": "2026-01-29T21:41:52.938971",
+    "first_seen_utc": "2026-01-29T15:56:52.938986"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON387",
     "title": "Dengue - Sao Tome and Principe",
     "published_date": "2022-05-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -8700,17 +8785,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue - Sao Tome and Principe"
     ],
-    "scraped_at": "2026-01-29T09:48:03.165731",
-    "first_seen_utc": "2026-01-29T04:03:03.165756"
+    "scraped_at": "2026-01-29T21:41:54.762899",
+    "first_seen_utc": "2026-01-29T15:56:54.762913"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON385",
     "title": "Multi-country monkeypox outbreak in non-endemic countries",
     "published_date": "2022-05-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9033,17 +9120,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Multi-country monkeypox outbreak in non-endemic countries"
     ],
-    "scraped_at": "2026-01-29T09:48:05.990658",
-    "first_seen_utc": "2026-01-29T04:03:05.990702"
+    "scraped_at": "2026-01-29T21:41:56.023402",
+    "first_seen_utc": "2026-01-29T15:56:56.023418"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON384",
     "title": "Influenza A H1N1 - Germany",
     "published_date": "2022-05-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9159,17 +9248,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H1N1 - Germany"
     ],
-    "scraped_at": "2026-01-29T09:48:07.424823",
-    "first_seen_utc": "2026-01-29T04:03:07.424843"
+    "scraped_at": "2026-01-29T21:41:57.339552",
+    "first_seen_utc": "2026-01-29T15:56:57.339572"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON383",
     "title": "Monkeypox - United Kingdom of Great Britain and Northern Ireland",
     "published_date": "2022-05-18",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9310,17 +9401,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Monkeypox - United Kingdom of Great Britain and Northern Ireland"
     ],
-    "scraped_at": "2026-01-29T09:48:10.147799",
-    "first_seen_utc": "2026-01-29T04:03:10.147818"
+    "scraped_at": "2026-01-29T21:41:59.403019",
+    "first_seen_utc": "2026-01-29T15:56:59.403036"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON380",
     "title": "Middle East respiratory syndrome coronavirus - Oman",
     "published_date": "2022-05-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9443,17 +9536,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus - Oman"
     ],
-    "scraped_at": "2026-01-29T09:48:11.518618",
-    "first_seen_utc": "2026-01-29T04:03:11.518633"
+    "scraped_at": "2026-01-29T21:42:00.721258",
+    "first_seen_utc": "2026-01-29T15:57:00.721276"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON381",
     "title": "Monkeypox - United Kingdom of Great Britain and Northern Ireland",
     "published_date": "2022-05-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9585,17 +9680,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Monkeypox - United Kingdom of Great Britain and Northern Ireland"
     ],
-    "scraped_at": "2026-01-29T09:48:13.460282",
-    "first_seen_utc": "2026-01-29T04:03:13.460299"
+    "scraped_at": "2026-01-29T21:42:02.028196",
+    "first_seen_utc": "2026-01-29T15:57:02.028210"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON374",
     "title": "Cholera - Cameroon",
     "published_date": "2022-05-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9705,17 +9802,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera - Cameroon"
     ],
-    "scraped_at": "2026-01-29T09:48:15.419654",
-    "first_seen_utc": "2026-01-29T04:03:15.419676"
+    "scraped_at": "2026-01-29T21:42:04.306790",
+    "first_seen_utc": "2026-01-29T15:57:04.306809"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON382",
     "title": "Lassa fever - Guinea",
     "published_date": "2022-05-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9853,17 +9952,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa fever - Guinea"
     ],
-    "scraped_at": "2026-01-29T09:48:17.058594",
-    "first_seen_utc": "2026-01-29T04:03:17.058615"
+    "scraped_at": "2026-01-29T21:42:05.757145",
+    "first_seen_utc": "2026-01-29T15:57:05.757159"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON370",
     "title": "Middle East respiratory syndrome coronavirus – Qatar",
     "published_date": "2022-05-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9967,17 +10068,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Qatar"
     ],
-    "scraped_at": "2026-01-29T09:48:18.609926",
-    "first_seen_utc": "2026-01-29T04:03:18.609941"
+    "scraped_at": "2026-01-29T21:42:07.037299",
+    "first_seen_utc": "2026-01-29T15:57:07.037323"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON378",
     "title": "Avian Influenza A(H3N8) - China",
     "published_date": "2022-05-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -10114,17 +10217,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A(H3N8) - China"
     ],
-    "scraped_at": "2026-01-29T09:48:20.029080",
-    "first_seen_utc": "2026-01-29T04:03:20.029094"
+    "scraped_at": "2026-01-29T21:42:08.701725",
+    "first_seen_utc": "2026-01-29T15:57:08.701741"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON379",
     "title": "Avian Influenza A(H5N1) – United States of America",
     "published_date": "2022-05-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -10271,17 +10376,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A(H5N1) – United States of America"
     ],
-    "scraped_at": "2026-01-29T09:48:21.313424",
-    "first_seen_utc": "2026-01-29T04:03:21.313440"
+    "scraped_at": "2026-01-29T21:42:09.910654",
+    "first_seen_utc": "2026-01-29T15:57:09.910673"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON365",
     "title": "Japanese encephalitis - Australia",
     "published_date": "2022-04-28",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -10397,17 +10504,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Japanese encephalitis - Australia"
     ],
-    "scraped_at": "2026-01-29T09:48:23.477587",
-    "first_seen_utc": "2026-01-29T04:03:23.477602"
+    "scraped_at": "2026-01-29T21:42:29.451087",
+    "first_seen_utc": "2026-01-29T15:57:29.451107"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON377",
     "title": "Ebola virus disease - Democratic Republic of the Congo",
     "published_date": "2022-04-28",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -10533,17 +10642,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease - Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:48:25.527918",
-    "first_seen_utc": "2026-01-29T04:03:25.527931"
+    "scraped_at": "2026-01-29T21:42:31.348809",
+    "first_seen_utc": "2026-01-29T15:57:31.348828"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON371",
     "title": "Measles - Somalia",
     "published_date": "2022-04-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -10667,17 +10778,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Measles - Somalia"
     ],
-    "scraped_at": "2026-01-29T09:48:27.583285",
-    "first_seen_utc": "2026-01-29T04:03:27.583301"
+    "scraped_at": "2026-01-29T21:42:32.726431",
+    "first_seen_utc": "2026-01-29T15:57:32.726445"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON369",
     "title": "Multi-country outbreak of Salmonella Typhimurium linked to chocolate products – Europe and the United States of America",
     "published_date": "2022-04-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -10814,17 +10927,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Multi-country outbreak of Salmonella Typhimurium linked to chocolate products – Europe and the United States of America"
     ],
-    "scraped_at": "2026-01-29T09:48:29.487019",
-    "first_seen_utc": "2026-01-29T04:03:29.487035"
+    "scraped_at": "2026-01-29T21:42:34.727757",
+    "first_seen_utc": "2026-01-29T15:57:34.727772"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON372",
     "title": "Cholera - Malawi",
     "published_date": "2022-04-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -10952,17 +11067,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera - Malawi"
     ],
-    "scraped_at": "2026-01-29T09:48:31.516294",
-    "first_seen_utc": "2026-01-29T04:03:31.516314"
+    "scraped_at": "2026-01-29T21:42:36.523616",
+    "first_seen_utc": "2026-01-29T15:57:36.523634"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON367",
     "title": "Yellow Fever – Uganda",
     "published_date": "2022-04-25",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -11086,17 +11203,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow Fever – Uganda"
     ],
-    "scraped_at": "2026-01-29T09:48:33.075261",
-    "first_seen_utc": "2026-01-29T04:03:33.075284"
+    "scraped_at": "2026-01-29T21:42:37.814855",
+    "first_seen_utc": "2026-01-29T15:57:37.814874"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON376",
     "title": "Severe acute hepatitis of unknown origin in children - Multicountry",
     "published_date": "2022-04-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -11214,17 +11333,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Severe acute hepatitis of unknown origin in children - Multicountry"
     ],
-    "scraped_at": "2026-01-29T09:48:34.455307",
-    "first_seen_utc": "2026-01-29T04:03:34.455322"
+    "scraped_at": "2026-01-29T21:42:39.134163",
+    "first_seen_utc": "2026-01-29T15:57:39.134188"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON366",
     "title": "Circulating vaccine-derived poliovirus type 3 – Israel",
     "published_date": "2022-04-15",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -11369,17 +11490,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 3 – Israel"
     ],
-    "scraped_at": "2026-01-29T09:48:35.840669",
-    "first_seen_utc": "2026-01-29T04:03:35.840685"
+    "scraped_at": "2026-01-29T21:42:40.491660",
+    "first_seen_utc": "2026-01-29T15:57:40.491676"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON368",
     "title": "Acute hepatitis of unknown aetiology – the United Kingdom of Great Britain and Northern Ireland",
     "published_date": "2022-04-15",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -11454,17 +11577,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Acute hepatitis of unknown aetiology – the United Kingdom of Great Britain and Northern Ireland"
     ],
-    "scraped_at": "2026-01-29T09:48:37.232640",
-    "first_seen_utc": "2026-01-29T04:03:37.232655"
+    "scraped_at": "2026-01-29T21:42:41.730759",
+    "first_seen_utc": "2026-01-29T15:57:41.730778"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON363",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2022-04-07",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -11596,17 +11721,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:48:40.168511",
-    "first_seen_utc": "2026-01-29T04:03:40.168526"
+    "scraped_at": "2026-01-29T21:42:44.422914",
+    "first_seen_utc": "2026-01-29T15:57:44.422932"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON361",
     "title": "Yellow fever - Kenya",
     "published_date": "2022-03-25",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -11734,17 +11861,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow fever - Kenya"
     ],
-    "scraped_at": "2026-01-29T09:48:42.356938",
-    "first_seen_utc": "2026-01-29T04:03:42.356953"
+    "scraped_at": "2026-01-29T21:42:45.686576",
+    "first_seen_utc": "2026-01-29T15:57:45.686594"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON364",
     "title": "Extensively drug-resistant Shigella sonnei infections - Europe - European Region (EURO)",
     "published_date": "2022-03-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -11929,17 +12058,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Extensively drug-resistant Shigella sonnei infections - Europe - European Region (EURO)"
     ],
-    "scraped_at": "2026-01-29T09:48:44.333866",
-    "first_seen_utc": "2026-01-29T04:03:44.333881"
+    "scraped_at": "2026-01-29T21:42:46.957675",
+    "first_seen_utc": "2026-01-29T15:57:46.957695"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON362",
     "title": "Lassa fever - Togo",
     "published_date": "2022-03-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -12060,17 +12191,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa fever - Togo"
     ],
-    "scraped_at": "2026-01-29T09:48:46.490803",
-    "first_seen_utc": "2026-01-29T04:03:46.490819"
+    "scraped_at": "2026-01-29T21:42:49.331318",
+    "first_seen_utc": "2026-01-29T15:57:49.331335"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/wild-poliovirus-type-1-(WPV1)-malawi",
     "title": "Wild poliovirus type 1 - Malawi",
     "published_date": "2022-03-03",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -12194,17 +12327,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Wild poliovirus type 1 - Malawi"
     ],
-    "scraped_at": "2026-01-29T09:48:48.246333",
-    "first_seen_utc": "2026-01-29T04:03:48.246351"
+    "scraped_at": "2026-01-29T21:42:50.668983",
+    "first_seen_utc": "2026-01-29T15:57:50.668999"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/lassa-fever-united-kingdom-of-great-britain-and-northern-ireland",
     "title": "Lassa Fever – United Kingdom of Great Britain and Northern Ireland",
     "published_date": "2022-02-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -12278,17 +12413,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa Fever – United Kingdom of Great Britain and Northern Ireland"
     ],
-    "scraped_at": "2026-01-29T09:48:49.615795",
-    "first_seen_utc": "2026-01-29T04:03:49.615810"
+    "scraped_at": "2026-01-29T21:42:51.885711",
+    "first_seen_utc": "2026-01-29T15:57:51.885727"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/lassa-fever---nigeria",
     "title": "Lassa Fever - Nigeria",
     "published_date": "2022-02-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -12389,17 +12526,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa Fever - Nigeria"
     ],
-    "scraped_at": "2026-01-29T09:48:51.085034",
-    "first_seen_utc": "2026-01-29T04:03:51.085048"
+    "scraped_at": "2026-01-29T21:42:53.180703",
+    "first_seen_utc": "2026-01-29T15:57:53.180724"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/measles-afghanistan",
     "title": "Measles – Afghanistan",
     "published_date": "2022-02-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -12542,17 +12681,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Measles – Afghanistan"
     ],
-    "scraped_at": "2026-01-29T09:48:53.190712",
-    "first_seen_utc": "2026-01-29T04:03:53.190727"
+    "scraped_at": "2026-01-29T21:42:55.419637",
+    "first_seen_utc": "2026-01-29T15:57:55.419659"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/dengue---timor-leste",
     "title": "Dengue - Timor-Leste",
     "published_date": "2022-02-04",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -12641,17 +12782,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue - Timor-Leste"
     ],
-    "scraped_at": "2026-01-29T09:48:55.701879",
-    "first_seen_utc": "2026-01-29T04:03:55.701898"
+    "scraped_at": "2026-01-29T21:42:57.629382",
+    "first_seen_utc": "2026-01-29T15:57:57.629404"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/cholera-benin",
     "title": "Cholera – Benin",
     "published_date": "2022-01-25",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -12783,17 +12926,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – Benin"
     ],
-    "scraped_at": "2026-01-29T09:48:57.040256",
-    "first_seen_utc": "2026-01-29T04:03:57.040271"
+    "scraped_at": "2026-01-29T21:42:59.022273",
+    "first_seen_utc": "2026-01-29T15:57:59.022293"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON352",
     "title": "Hepatitis E - Chad",
     "published_date": "2022-01-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -12908,17 +13053,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Hepatitis E - Chad"
     ],
-    "scraped_at": "2026-01-29T09:48:58.450310",
-    "first_seen_utc": "2026-01-29T04:03:58.450325"
+    "scraped_at": "2026-01-29T21:43:00.243624",
+    "first_seen_utc": "2026-01-29T15:58:00.243644"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/influenza-a-(h5)---united-kingdom-of-great-britain-and-northern-ireland",
     "title": "Influenza A(H5) - United Kingdom of Great Britain and Northern Ireland",
     "published_date": "2022-01-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -13027,9 +13174,10 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A(H5) - United Kingdom of Great Britain and Northern Ireland"
     ],
-    "scraped_at": "2026-01-29T09:48:59.812664",
-    "first_seen_utc": "2026-01-29T04:03:59.812680"
+    "scraped_at": "2026-01-29T21:43:01.632986",
+    "first_seen_utc": "2026-01-29T15:58:01.633004"
   }
 ]

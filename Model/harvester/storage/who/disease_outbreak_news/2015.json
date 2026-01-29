@@ -3,8 +3,9 @@
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-december-2015-zika-panama-en",
     "title": "Zika virus disease–Panama",
     "published_date": "2015-12-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -45,17 +46,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease–Panama"
     ],
-    "scraped_at": "2026-01-29T09:51:05.980100",
-    "first_seen_utc": "2026-01-29T04:06:05.980117"
+    "scraped_at": "2026-01-29T21:54:47.881431",
+    "first_seen_utc": "2026-01-29T16:09:47.881447"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-december-2015-zika-honduras-en",
     "title": "Zika virus disease–Honduras",
     "published_date": "2015-12-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -82,17 +85,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease–Honduras"
     ],
-    "scraped_at": "2026-01-29T09:51:07.462905",
-    "first_seen_utc": "2026-01-29T04:06:07.462921"
+    "scraped_at": "2026-01-29T21:54:49.263720",
+    "first_seen_utc": "2026-01-29T16:09:49.263734"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-december-2015-polio-myanmar-en",
     "title": "Circulating vaccine-derived poliovirus type 2– Myanmar",
     "published_date": "2015-12-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -129,17 +134,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 2– Myanmar"
     ],
-    "scraped_at": "2026-01-29T09:51:08.816997",
-    "first_seen_utc": "2026-01-29T04:06:08.817014"
+    "scraped_at": "2026-01-29T21:54:50.722679",
+    "first_seen_utc": "2026-01-29T16:09:50.722697"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-december-2015-zika-cape-verde-en",
     "title": "Zika virus infection – Cabo Verde",
     "published_date": "2015-12-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -188,17 +195,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus infection – Cabo Verde"
     ],
-    "scraped_at": "2026-01-29T09:51:10.233477",
-    "first_seen_utc": "2026-01-29T04:06:10.233498"
+    "scraped_at": "2026-01-29T21:54:52.028826",
+    "first_seen_utc": "2026-01-29T16:09:52.028841"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/17-december-2015-avian-influenza-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2015-12-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -245,17 +254,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:51:11.801733",
-    "first_seen_utc": "2026-01-29T04:06:11.801747"
+    "scraped_at": "2026-01-29T21:54:53.385469",
+    "first_seen_utc": "2026-01-29T16:09:53.385487"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/15-december-2015-polio-lao-en",
     "title": "Circulating vaccine-derived poliovirus type1 – Lao People’s Democratic Republic",
     "published_date": "2015-12-15",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -300,17 +311,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type1 – Lao People’s Democratic Republic"
     ],
-    "scraped_at": "2026-01-29T09:51:13.249504",
-    "first_seen_utc": "2026-01-29T04:06:13.249519"
+    "scraped_at": "2026-01-29T21:54:54.674974",
+    "first_seen_utc": "2026-01-29T16:09:54.674995"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/15-december-2015-microcephaly-brazil-en",
     "title": "Microcephaly – Brazil",
     "published_date": "2015-12-15",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -336,17 +349,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Microcephaly – Brazil"
     ],
-    "scraped_at": "2026-01-29T09:51:14.740258",
-    "first_seen_utc": "2026-01-29T04:06:14.740274"
+    "scraped_at": "2026-01-29T21:54:55.953394",
+    "first_seen_utc": "2026-01-29T16:09:55.953412"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/15-december-2015-cholera-drc-en",
     "title": "Cholera – Democratic Republic of the Congo",
     "published_date": "2015-12-15",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -379,17 +394,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:51:16.753869",
-    "first_seen_utc": "2026-01-29T04:06:16.753895"
+    "scraped_at": "2026-01-29T21:54:57.290481",
+    "first_seen_utc": "2026-01-29T16:09:57.290502"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/05-december-2015-zika-panama-en",
     "title": "Zika virus disease – Panama",
     "published_date": "2015-12-05",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -426,17 +443,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Panama"
     ],
-    "scraped_at": "2026-01-29T09:51:18.179138",
-    "first_seen_utc": "2026-01-29T04:06:18.179161"
+    "scraped_at": "2026-01-29T21:54:58.525000",
+    "first_seen_utc": "2026-01-29T16:09:58.525016"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/4-december-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-12-04",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -474,17 +493,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:51:19.556940",
-    "first_seen_utc": "2026-01-29T04:06:19.556956"
+    "scraped_at": "2026-01-29T21:54:59.793844",
+    "first_seen_utc": "2026-01-29T16:09:59.793870"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/03-december-2015-zika-paraguay-en",
     "title": "Zika virus disease – Paraguay",
     "published_date": "2015-12-03",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -509,17 +530,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Paraguay"
     ],
-    "scraped_at": "2026-01-29T09:51:21.893711",
-    "first_seen_utc": "2026-01-29T04:06:21.893727"
+    "scraped_at": "2026-01-29T21:55:01.056500",
+    "first_seen_utc": "2026-01-29T16:10:01.056519"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/03-december-2015-zika-venezuela-en",
     "title": "Zika virus disease – Venezuela (Bolivarian Republic of)",
     "published_date": "2015-12-03",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -543,17 +566,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Venezuela (Bolivarian Republic of)"
     ],
-    "scraped_at": "2026-01-29T09:51:23.307489",
-    "first_seen_utc": "2026-01-29T04:06:23.307505"
+    "scraped_at": "2026-01-29T21:55:02.315438",
+    "first_seen_utc": "2026-01-29T16:10:02.315453"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/03-december-2015-zika-mexico-en",
     "title": "Zika virus disease – Mexico",
     "published_date": "2015-12-03",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -577,17 +602,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Mexico"
     ],
-    "scraped_at": "2026-01-29T09:51:24.660286",
-    "first_seen_utc": "2026-01-29T04:06:24.660301"
+    "scraped_at": "2026-01-29T21:55:03.614705",
+    "first_seen_utc": "2026-01-29T16:10:03.614719"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-november-2015-zika-guatemala-en",
     "title": "Zika virus disease – Guatemala",
     "published_date": "2015-11-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -611,17 +638,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Guatemala"
     ],
-    "scraped_at": "2026-01-29T09:51:26.022838",
-    "first_seen_utc": "2026-01-29T04:06:26.022854"
+    "scraped_at": "2026-01-29T21:55:04.959877",
+    "first_seen_utc": "2026-01-29T16:10:04.959894"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-november-2015-microcephaly-en",
     "title": "Microcephaly – Brazil",
     "published_date": "2015-11-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -661,17 +690,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Microcephaly – Brazil"
     ],
-    "scraped_at": "2026-01-29T09:51:27.594547",
-    "first_seen_utc": "2026-01-29T04:06:27.594561"
+    "scraped_at": "2026-01-29T21:55:06.267774",
+    "first_seen_utc": "2026-01-29T16:10:06.267792"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-november-2015-zika-el-salvador-en",
     "title": "Zika virus disease – El Salvador",
     "published_date": "2015-11-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -695,17 +726,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – El Salvador"
     ],
-    "scraped_at": "2026-01-29T09:51:29.400477",
-    "first_seen_utc": "2026-01-29T04:06:29.400492"
+    "scraped_at": "2026-01-29T21:55:07.533914",
+    "first_seen_utc": "2026-01-29T16:10:07.533935"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-november-2015-cholera-tanzania-en",
     "title": "Cholera – United Republic of Tanzania",
     "published_date": "2015-11-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -740,17 +773,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – United Republic of Tanzania"
     ],
-    "scraped_at": "2026-01-29T09:51:31.277235",
-    "first_seen_utc": "2026-01-29T04:06:31.277250"
+    "scraped_at": "2026-01-29T21:55:08.803652",
+    "first_seen_utc": "2026-01-29T16:10:08.803668"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-november-2015-iraq-cholera-en",
     "title": "Cholera – Iraq",
     "published_date": "2015-11-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -795,17 +830,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – Iraq"
     ],
-    "scraped_at": "2026-01-29T09:51:32.702960",
-    "first_seen_utc": "2026-01-29T04:06:32.702981"
+    "scraped_at": "2026-01-29T21:55:10.125263",
+    "first_seen_utc": "2026-01-29T16:10:10.125283"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-november-2015-microcephaly-en",
     "title": "Microcephaly – Brazil",
     "published_date": "2015-11-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -836,17 +873,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Microcephaly – Brazil"
     ],
-    "scraped_at": "2026-01-29T09:51:35.585537",
-    "first_seen_utc": "2026-01-29T04:06:35.585559"
+    "scraped_at": "2026-01-29T21:55:11.430627",
+    "first_seen_utc": "2026-01-29T16:10:11.430645"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/16-november-2015-acute-respiratory-syndrome-en",
     "title": "Acute respiratory syndrome – Republic of Korea",
     "published_date": "2015-11-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -885,17 +924,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Acute respiratory syndrome – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:51:37.745565",
-    "first_seen_utc": "2026-01-29T04:06:37.745581"
+    "scraped_at": "2026-01-29T21:55:12.721764",
+    "first_seen_utc": "2026-01-29T16:10:12.721780"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/13-november-2015-zika-en",
     "title": "Zika virus disease – Suriname",
     "published_date": "2015-11-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -919,17 +960,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Suriname"
     ],
-    "scraped_at": "2026-01-29T09:51:39.749554",
-    "first_seen_utc": "2026-01-29T04:06:39.749571"
+    "scraped_at": "2026-01-29T21:55:13.978804",
+    "first_seen_utc": "2026-01-29T16:10:13.978818"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/13-november-2015-avian-influenza-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2015-11-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -974,17 +1017,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:51:41.085411",
-    "first_seen_utc": "2026-01-29T04:06:41.085428"
+    "scraped_at": "2026-01-29T21:55:15.242318",
+    "first_seen_utc": "2026-01-29T16:10:15.242335"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/13-november-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-11-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1027,17 +1072,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:51:42.510657",
-    "first_seen_utc": "2026-01-29T04:06:42.510674"
+    "scraped_at": "2026-01-29T21:55:16.523424",
+    "first_seen_utc": "2026-01-29T16:10:16.523443"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-november-2015-dengue-en",
     "title": "Dengue– Egypt",
     "published_date": "2015-11-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1063,17 +1110,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue– Egypt"
     ],
-    "scraped_at": "2026-01-29T09:51:43.878112",
-    "first_seen_utc": "2026-01-29T04:06:43.878127"
+    "scraped_at": "2026-01-29T21:55:17.740779",
+    "first_seen_utc": "2026-01-29T16:10:17.740793"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-november-2015-zika-en",
     "title": "Zika virus disease – Suriname",
     "published_date": "2015-11-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1097,17 +1146,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Suriname"
     ],
-    "scraped_at": "2026-01-29T09:51:45.252822",
-    "first_seen_utc": "2026-01-29T04:06:45.252836"
+    "scraped_at": "2026-01-29T21:55:19.070242",
+    "first_seen_utc": "2026-01-29T16:10:19.070258"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-october-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-10-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1153,17 +1204,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:51:47.560074",
-    "first_seen_utc": "2026-01-29T04:06:47.560088"
+    "scraped_at": "2026-01-29T21:55:20.394702",
+    "first_seen_utc": "2026-01-29T16:10:20.394716"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/25-october-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-10-25",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1197,17 +1250,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:51:50.184218",
-    "first_seen_utc": "2026-01-29T04:06:50.184233"
+    "scraped_at": "2026-01-29T21:55:21.849485",
+    "first_seen_utc": "2026-01-29T16:10:21.849504"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-october-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-10-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1247,17 +1302,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:51:51.544481",
-    "first_seen_utc": "2026-01-29T04:06:51.544496"
+    "scraped_at": "2026-01-29T21:55:23.195677",
+    "first_seen_utc": "2026-01-29T16:10:23.195693"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-october-2015-cholera-en",
     "title": "Cholera – United Republic of Tanzania",
     "published_date": "2015-10-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1290,17 +1347,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – United Republic of Tanzania"
     ],
-    "scraped_at": "2026-01-29T09:51:52.934630",
-    "first_seen_utc": "2026-01-29T04:06:52.934646"
+    "scraped_at": "2026-01-29T21:55:24.499217",
+    "first_seen_utc": "2026-01-29T16:10:24.499235"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-october-2015-zika-en",
     "title": "Zika virus disease – Brazil and Colombia",
     "published_date": "2015-10-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1329,17 +1388,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Zika virus disease – Brazil and Colombia"
     ],
-    "scraped_at": "2026-01-29T09:51:54.436726",
-    "first_seen_utc": "2026-01-29T04:06:54.436739"
+    "scraped_at": "2026-01-29T21:55:25.867845",
+    "first_seen_utc": "2026-01-29T16:10:25.867863"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-october-2015-avian-influenza-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2015-10-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1379,17 +1440,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:51:56.337750",
-    "first_seen_utc": "2026-01-29T04:06:56.337772"
+    "scraped_at": "2026-01-29T21:55:27.318010",
+    "first_seen_utc": "2026-01-29T16:10:27.318028"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-october-2015-cholera-en",
     "title": "Cholera – Iraq",
     "published_date": "2015-10-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1423,17 +1486,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – Iraq"
     ],
-    "scraped_at": "2026-01-29T09:51:57.631035",
-    "first_seen_utc": "2026-01-29T04:06:57.631051"
+    "scraped_at": "2026-01-29T21:55:28.762399",
+    "first_seen_utc": "2026-01-29T16:10:28.762412"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-october-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-10-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1465,17 +1530,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:51:58.973725",
-    "first_seen_utc": "2026-01-29T04:06:58.973741"
+    "scraped_at": "2026-01-29T21:55:30.089435",
+    "first_seen_utc": "2026-01-29T16:10:30.089451"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-october-2015-mers-jordan-en",
     "title": "Middle East respiratory syndrome coronavirus – Jordan",
     "published_date": "2015-10-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1506,17 +1573,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Jordan"
     ],
-    "scraped_at": "2026-01-29T09:52:00.359095",
-    "first_seen_utc": "2026-01-29T04:07:00.359110"
+    "scraped_at": "2026-01-29T21:55:31.420832",
+    "first_seen_utc": "2026-01-29T16:10:31.420848"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-october-2015-polio-en",
     "title": "Circulating vaccine-derived poliovirus type 1 – Lao People’s Democratic Republic",
     "published_date": "2015-10-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1559,17 +1628,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 1 – Lao People’s Democratic Republic"
     ],
-    "scraped_at": "2026-01-29T09:52:02.883991",
-    "first_seen_utc": "2026-01-29T04:07:02.884009"
+    "scraped_at": "2026-01-29T21:55:32.733675",
+    "first_seen_utc": "2026-01-29T16:10:32.733694"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/01-october-2015-mers-jordan-en",
     "title": "Middle East respiratory syndrome coronavirus – Jordan",
     "published_date": "2015-10-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1608,17 +1679,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Jordan"
     ],
-    "scraped_at": "2026-01-29T09:52:04.451567",
-    "first_seen_utc": "2026-01-29T04:07:04.451582"
+    "scraped_at": "2026-01-29T21:55:34.072129",
+    "first_seen_utc": "2026-01-29T16:10:34.072143"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/30-september-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-09-30",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1659,17 +1732,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:05.967062",
-    "first_seen_utc": "2026-01-29T04:07:05.967077"
+    "scraped_at": "2026-01-29T21:55:35.278861",
+    "first_seen_utc": "2026-01-29T16:10:35.278875"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/28-september-2015-cholera-en",
     "title": "Cholera – Iraq",
     "published_date": "2015-09-28",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1700,17 +1775,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – Iraq"
     ],
-    "scraped_at": "2026-01-29T09:52:07.334579",
-    "first_seen_utc": "2026-01-29T04:07:07.334592"
+    "scraped_at": "2026-01-29T21:55:36.528796",
+    "first_seen_utc": "2026-01-29T16:10:36.528809"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-september-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-09-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1754,17 +1831,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:08.647956",
-    "first_seen_utc": "2026-01-29T04:07:08.647972"
+    "scraped_at": "2026-01-29T21:55:37.839221",
+    "first_seen_utc": "2026-01-29T16:10:37.839234"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-september-2015-mers-kuwait-en",
     "title": "Middle East respiratory syndrome coronavirus – Kuwait",
     "published_date": "2015-09-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1795,17 +1874,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Kuwait"
     ],
-    "scraped_at": "2026-01-29T09:52:10.021622",
-    "first_seen_utc": "2026-01-29T04:07:10.021638"
+    "scraped_at": "2026-01-29T21:55:39.093520",
+    "first_seen_utc": "2026-01-29T16:10:39.093540"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/18-september-2015-mers-jordan-en",
     "title": "Middle East respiratory syndrome coronavirus – Jordan",
     "published_date": "2015-09-18",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1848,17 +1929,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Jordan"
     ],
-    "scraped_at": "2026-01-29T09:52:11.414909",
-    "first_seen_utc": "2026-01-29T04:07:11.414925"
+    "scraped_at": "2026-01-29T21:55:40.412673",
+    "first_seen_utc": "2026-01-29T16:10:40.412690"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/17-september-2015-wnv-en",
     "title": "West Nile virus – Portugal",
     "published_date": "2015-09-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1900,17 +1983,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "West Nile virus – Portugal"
     ],
-    "scraped_at": "2026-01-29T09:52:12.795049",
-    "first_seen_utc": "2026-01-29T04:07:12.795065"
+    "scraped_at": "2026-01-29T21:55:41.684846",
+    "first_seen_utc": "2026-01-29T16:10:41.684865"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/17-september-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-09-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1968,17 +2053,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:14.308157",
-    "first_seen_utc": "2026-01-29T04:07:14.308177"
+    "scraped_at": "2026-01-29T21:55:43.036940",
+    "first_seen_utc": "2026-01-29T16:10:43.036957"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/17-september-2015-chikungunya-en",
     "title": "Chikungunya – Spain",
     "published_date": "2015-09-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1999,17 +2086,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Chikungunya – Spain"
     ],
-    "scraped_at": "2026-01-29T09:52:15.761525",
-    "first_seen_utc": "2026-01-29T04:07:15.761539"
+    "scraped_at": "2026-01-29T21:55:44.529821",
+    "first_seen_utc": "2026-01-29T16:10:44.529836"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-september-2015-chikungunya-en",
     "title": "Chikungunya – Senegal",
     "published_date": "2015-09-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2046,17 +2135,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Chikungunya – Senegal"
     ],
-    "scraped_at": "2026-01-29T09:52:17.510237",
-    "first_seen_utc": "2026-01-29T04:07:17.510252"
+    "scraped_at": "2026-01-29T21:55:45.827834",
+    "first_seen_utc": "2026-01-29T16:10:45.827848"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-september-2015-cholera-en",
     "title": "Cholera – United Republic of Tanzania",
     "published_date": "2015-09-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2092,17 +2183,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – United Republic of Tanzania"
     ],
-    "scraped_at": "2026-01-29T09:52:19.112576",
-    "first_seen_utc": "2026-01-29T04:07:19.112593"
+    "scraped_at": "2026-01-29T21:55:47.115616",
+    "first_seen_utc": "2026-01-29T16:10:47.115631"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/09-september-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-09-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2158,17 +2251,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:20.474685",
-    "first_seen_utc": "2026-01-29T04:07:20.474701"
+    "scraped_at": "2026-01-29T21:55:48.379347",
+    "first_seen_utc": "2026-01-29T16:10:48.379361"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/08-september-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-09-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2226,17 +2321,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:22.844104",
-    "first_seen_utc": "2026-01-29T04:07:22.844119"
+    "scraped_at": "2026-01-29T22:00:49.166839",
+    "first_seen_utc": "2026-01-29T16:15:49.166856"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/06-september-2015-mers-jordan-en",
     "title": "Middle East respiratory syndrome coronavirus – Jordan",
     "published_date": "2015-09-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2273,17 +2370,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Jordan"
     ],
-    "scraped_at": "2026-01-29T09:52:24.856607",
-    "first_seen_utc": "2026-01-29T04:07:24.856622"
+    "scraped_at": "2026-01-29T22:00:50.426023",
+    "first_seen_utc": "2026-01-29T16:15:50.426041"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/06-september-2015-plague-en",
     "title": "Plague – Madagascar",
     "published_date": "2015-09-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2319,17 +2418,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Plague – Madagascar"
     ],
-    "scraped_at": "2026-01-29T09:52:26.193112",
-    "first_seen_utc": "2026-01-29T04:07:26.193127"
+    "scraped_at": "2026-01-29T22:00:51.716645",
+    "first_seen_utc": "2026-01-29T16:15:51.716662"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/02-september-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-09-02",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2380,17 +2481,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:28.117713",
-    "first_seen_utc": "2026-01-29T04:07:28.117728"
+    "scraped_at": "2026-01-29T22:00:53.177122",
+    "first_seen_utc": "2026-01-29T16:15:53.177143"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/01-september-2015-mers-jordan-en",
     "title": "Middle East respiratory syndrome coronavirus – Jordan",
     "published_date": "2015-09-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2429,17 +2532,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Jordan"
     ],
-    "scraped_at": "2026-01-29T09:52:29.615360",
-    "first_seen_utc": "2026-01-29T04:07:29.615372"
+    "scraped_at": "2026-01-29T22:00:54.582359",
+    "first_seen_utc": "2026-01-29T16:15:54.582377"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/01-september-2015-polio-en",
     "title": "Circulating vaccine-derived poliovirus type 1 – Ukraine",
     "published_date": "2015-09-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2478,17 +2583,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 1 – Ukraine"
     ],
-    "scraped_at": "2026-01-29T09:52:31.468714",
-    "first_seen_utc": "2026-01-29T04:07:31.468729"
+    "scraped_at": "2026-01-29T22:00:55.816487",
+    "first_seen_utc": "2026-01-29T16:15:55.816501"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-august-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-08-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2532,17 +2639,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:32.786124",
-    "first_seen_utc": "2026-01-29T04:07:32.786140"
+    "scraped_at": "2026-01-29T22:00:57.074443",
+    "first_seen_utc": "2026-01-29T16:15:57.074477"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-august-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-08-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2604,17 +2713,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:34.490771",
-    "first_seen_utc": "2026-01-29T04:07:34.490791"
+    "scraped_at": "2026-01-29T22:00:58.504988",
+    "first_seen_utc": "2026-01-29T16:15:58.505007"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-august-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-08-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2669,17 +2780,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:35.940604",
-    "first_seen_utc": "2026-01-29T04:07:35.940619"
+    "scraped_at": "2026-01-29T22:00:59.762609",
+    "first_seen_utc": "2026-01-29T16:15:59.762627"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/18-august-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-08-18",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2722,17 +2835,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:37.368392",
-    "first_seen_utc": "2026-01-29T04:07:37.368407"
+    "scraped_at": "2026-01-29T22:01:01.125901",
+    "first_seen_utc": "2026-01-29T16:16:01.125922"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-august-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-08-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2780,17 +2895,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:38.769798",
-    "first_seen_utc": "2026-01-29T04:07:38.769818"
+    "scraped_at": "2026-01-29T22:01:02.411465",
+    "first_seen_utc": "2026-01-29T16:16:02.411485"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/10-august-2015-chikungunya-en",
     "title": "Chikungunya – Spain",
     "published_date": "2015-08-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2821,17 +2938,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Chikungunya – Spain"
     ],
-    "scraped_at": "2026-01-29T09:52:40.971678",
-    "first_seen_utc": "2026-01-29T04:07:40.971693"
+    "scraped_at": "2026-01-29T22:01:03.695080",
+    "first_seen_utc": "2026-01-29T16:16:03.695101"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/06-august-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-08-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2869,17 +2988,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:45.231273",
-    "first_seen_utc": "2026-01-29T04:07:45.231288"
+    "scraped_at": "2026-01-29T22:01:05.141293",
+    "first_seen_utc": "2026-01-29T16:16:05.141313"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-july-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-07-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2918,17 +3039,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:49.543346",
-    "first_seen_utc": "2026-01-29T04:07:49.543361"
+    "scraped_at": "2026-01-29T22:01:06.891828",
+    "first_seen_utc": "2026-01-29T16:16:06.891847"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/24-july-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-07-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2964,17 +3087,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:52:50.871885",
-    "first_seen_utc": "2026-01-29T04:07:50.871904"
+    "scraped_at": "2026-01-29T22:01:08.180069",
+    "first_seen_utc": "2026-01-29T16:16:08.180089"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/24-july-2015-polio-en",
     "title": "Circulating vaccine-derived poliovirus type 1 - Madagascar",
     "published_date": "2015-07-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3010,17 +3135,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 1 - Madagascar"
     ],
-    "scraped_at": "2026-01-29T09:52:52.956222",
-    "first_seen_utc": "2026-01-29T04:07:52.956237"
+    "scraped_at": "2026-01-29T22:01:09.375072",
+    "first_seen_utc": "2026-01-29T16:16:09.375094"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-july-2015-niger-en",
     "title": "Meningococcal meningitis – Niger",
     "published_date": "2015-07-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3049,17 +3176,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Meningococcal meningitis – Niger"
     ],
-    "scraped_at": "2026-01-29T09:52:54.232226",
-    "first_seen_utc": "2026-01-29T04:07:54.232238"
+    "scraped_at": "2026-01-29T22:01:10.755159",
+    "first_seen_utc": "2026-01-29T16:16:10.755181"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-july-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-07-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3098,17 +3227,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:53:06.785406",
-    "first_seen_utc": "2026-01-29T04:08:06.785421"
+    "scraped_at": "2026-01-29T22:01:12.099829",
+    "first_seen_utc": "2026-01-29T16:16:12.099857"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/18-july-2015-avian-influenza-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2015-07-18",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3150,17 +3281,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:53:08.121486",
-    "first_seen_utc": "2026-01-29T04:08:08.121501"
+    "scraped_at": "2026-01-29T22:01:13.410269",
+    "first_seen_utc": "2026-01-29T16:16:13.410288"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/17-july-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-07-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3199,17 +3332,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:53:11.606862",
-    "first_seen_utc": "2026-01-29T04:08:11.606876"
+    "scraped_at": "2026-01-29T22:01:14.682071",
+    "first_seen_utc": "2026-01-29T16:16:14.682088"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-july-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-07-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3248,17 +3383,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:53:12.958127",
-    "first_seen_utc": "2026-01-29T04:08:12.958142"
+    "scraped_at": "2026-01-29T22:01:15.936177",
+    "first_seen_utc": "2026-01-29T16:16:15.936197"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-july-2015-avian-influenza-en",
     "title": "Influenza A H5N6 virus – China",
     "published_date": "2015-07-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3297,17 +3434,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H5N6 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:53:14.367479",
-    "first_seen_utc": "2026-01-29T04:08:14.367502"
+    "scraped_at": "2026-01-29T22:01:17.240065",
+    "first_seen_utc": "2026-01-29T16:16:17.240083"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/10-july-2015-mers-thailand-en",
     "title": "Middle East respiratory syndrome coronavirus – Thailand",
     "published_date": "2015-07-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3339,17 +3478,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Thailand"
     ],
-    "scraped_at": "2026-01-29T09:53:16.263745",
-    "first_seen_utc": "2026-01-29T04:08:16.263765"
+    "scraped_at": "2026-01-29T22:01:18.528601",
+    "first_seen_utc": "2026-01-29T16:16:18.528619"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/10-july-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-07-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3388,17 +3529,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:53:17.611763",
-    "first_seen_utc": "2026-01-29T04:08:17.611778"
+    "scraped_at": "2026-01-29T22:01:19.799953",
+    "first_seen_utc": "2026-01-29T16:16:19.799968"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/10-july-2015-mers-philippines-en",
     "title": "Middle East respiratory syndrome coronavirus – Philippines",
     "published_date": "2015-07-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3436,17 +3579,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Philippines"
     ],
-    "scraped_at": "2026-01-29T09:53:19.403403",
-    "first_seen_utc": "2026-01-29T04:08:19.403418"
+    "scraped_at": "2026-01-29T22:01:21.082454",
+    "first_seen_utc": "2026-01-29T16:16:21.082476"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/08-july-2015-mers-philippines-en",
     "title": "Middle East respiratory syndrome coronavirus – Philippines",
     "published_date": "2015-07-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3494,17 +3639,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Philippines"
     ],
-    "scraped_at": "2026-01-29T09:53:23.752592",
-    "first_seen_utc": "2026-01-29T04:08:23.752608"
+    "scraped_at": "2026-01-29T22:01:22.313356",
+    "first_seen_utc": "2026-01-29T16:16:22.313373"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/07-july-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-07-07",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3545,17 +3692,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:53:25.093061",
-    "first_seen_utc": "2026-01-29T04:08:25.093077"
+    "scraped_at": "2026-01-29T22:01:23.522729",
+    "first_seen_utc": "2026-01-29T16:16:23.522749"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/03-july-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-07-03",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3594,17 +3743,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:53:26.430932",
-    "first_seen_utc": "2026-01-29T04:08:26.430947"
+    "scraped_at": "2026-01-29T22:01:24.761226",
+    "first_seen_utc": "2026-01-29T16:16:24.761244"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/03-july-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-07-03",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3646,17 +3797,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:53:27.826012",
-    "first_seen_utc": "2026-01-29T04:08:27.826027"
+    "scraped_at": "2026-01-29T22:01:26.082010",
+    "first_seen_utc": "2026-01-29T16:16:26.082029"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/30-june-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-06-30",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3696,17 +3849,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:53:29.904724",
-    "first_seen_utc": "2026-01-29T04:08:29.904740"
+    "scraped_at": "2026-01-29T22:01:27.340929",
+    "first_seen_utc": "2026-01-29T16:16:27.340946"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-june-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-06-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3745,17 +3900,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:53:32.348676",
-    "first_seen_utc": "2026-01-29T04:08:32.348691"
+    "scraped_at": "2026-01-29T22:01:28.660907",
+    "first_seen_utc": "2026-01-29T16:16:28.660925"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-june-2015-mers-are-en",
     "title": "Middle East respiratory syndrome coronavirus – United Arab Emirates",
     "published_date": "2015-06-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3792,17 +3949,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – United Arab Emirates"
     ],
-    "scraped_at": "2026-01-29T09:53:33.859064",
-    "first_seen_utc": "2026-01-29T04:08:33.859094"
+    "scraped_at": "2026-01-29T22:01:31.631101",
+    "first_seen_utc": "2026-01-29T16:16:31.631118"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-june-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-06-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3836,17 +3995,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:53:35.203575",
-    "first_seen_utc": "2026-01-29T04:08:35.203592"
+    "scraped_at": "2026-01-29T22:01:33.030768",
+    "first_seen_utc": "2026-01-29T16:16:33.030788"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-june-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-06-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3888,17 +4049,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:53:36.582337",
-    "first_seen_utc": "2026-01-29T04:08:36.582350"
+    "scraped_at": "2026-01-29T22:01:34.410538",
+    "first_seen_utc": "2026-01-29T16:16:34.410558"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-june-2015-mers-thailand-en",
     "title": "Middle East respiratory syndrome coronavirus – Thailand",
     "published_date": "2015-06-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3942,17 +4105,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Thailand"
     ],
-    "scraped_at": "2026-01-29T09:53:39.400859",
-    "first_seen_utc": "2026-01-29T04:08:39.400877"
+    "scraped_at": "2026-01-29T22:01:35.725210",
+    "first_seen_utc": "2026-01-29T16:16:35.725228"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-june-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-06-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3990,17 +4155,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:53:40.947459",
-    "first_seen_utc": "2026-01-29T04:08:40.947475"
+    "scraped_at": "2026-01-29T22:01:37.084774",
+    "first_seen_utc": "2026-01-29T16:16:37.084794"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/16-june-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-06-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4038,17 +4205,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:53:42.748227",
-    "first_seen_utc": "2026-01-29T04:08:42.748242"
+    "scraped_at": "2026-01-29T22:01:38.410503",
+    "first_seen_utc": "2026-01-29T16:16:38.410522"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/16-june-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-06-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4086,17 +4255,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:53:44.421017",
-    "first_seen_utc": "2026-01-29T04:08:44.421034"
+    "scraped_at": "2026-01-29T22:01:39.754743",
+    "first_seen_utc": "2026-01-29T16:16:39.754762"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/16-june-2015-mers-are-en",
     "title": "Middle East respiratory syndrome coronavirus – United Arab Emirates",
     "published_date": "2015-06-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4126,17 +4297,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – United Arab Emirates"
     ],
-    "scraped_at": "2026-01-29T09:53:48.883695",
-    "first_seen_utc": "2026-01-29T04:08:48.883755"
+    "scraped_at": "2026-01-29T22:01:41.035445",
+    "first_seen_utc": "2026-01-29T16:16:41.035462"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/15-june-2015-avian-influenza-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2015-06-15",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4170,17 +4343,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:53:50.285210",
-    "first_seen_utc": "2026-01-29T04:08:50.285227"
+    "scraped_at": "2026-01-29T22:01:42.281282",
+    "first_seen_utc": "2026-01-29T16:16:42.281299"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-june-2015-measles-en",
     "title": "Measles – Chile",
     "published_date": "2015-06-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4213,17 +4388,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Measles – Chile"
     ],
-    "scraped_at": "2026-01-29T09:53:52.402050",
-    "first_seen_utc": "2026-01-29T04:08:52.402065"
+    "scraped_at": "2026-01-29T22:01:43.502209",
+    "first_seen_utc": "2026-01-29T16:16:43.502226"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-june-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-06-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4264,17 +4441,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:53:54.190792",
-    "first_seen_utc": "2026-01-29T04:08:54.190809"
+    "scraped_at": "2026-01-29T22:01:44.702327",
+    "first_seen_utc": "2026-01-29T16:16:44.702346"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-june-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-06-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4312,17 +4491,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:53:55.553061",
-    "first_seen_utc": "2026-01-29T04:08:55.553077"
+    "scraped_at": "2026-01-29T22:01:45.957926",
+    "first_seen_utc": "2026-01-29T16:16:45.957945"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/09-june-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-06-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4371,17 +4552,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:53:57.050041",
-    "first_seen_utc": "2026-01-29T04:08:57.050057"
+    "scraped_at": "2026-01-29T22:01:47.178556",
+    "first_seen_utc": "2026-01-29T16:16:47.178569"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/09-june-2015-mers-are-en",
     "title": "Middle East respiratory syndrome coronavirus – United Arab Emirates",
     "published_date": "2015-06-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4407,17 +4590,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – United Arab Emirates"
     ],
-    "scraped_at": "2026-01-29T09:53:58.400045",
-    "first_seen_utc": "2026-01-29T04:08:58.400067"
+    "scraped_at": "2026-01-29T22:01:48.417206",
+    "first_seen_utc": "2026-01-29T16:16:48.417225"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/08-june-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-06-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4457,17 +4642,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:53:59.745873",
-    "first_seen_utc": "2026-01-29T04:08:59.745891"
+    "scraped_at": "2026-01-29T22:01:49.871591",
+    "first_seen_utc": "2026-01-29T16:16:49.871611"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/06-june-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-06-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4507,17 +4694,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:54:01.137960",
-    "first_seen_utc": "2026-01-29T04:09:01.137975"
+    "scraped_at": "2026-01-29T22:01:51.222811",
+    "first_seen_utc": "2026-01-29T16:16:51.222825"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/06-june-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-06-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4558,17 +4747,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:54:02.479171",
-    "first_seen_utc": "2026-01-29T04:09:02.479186"
+    "scraped_at": "2026-01-29T22:01:52.547598",
+    "first_seen_utc": "2026-01-29T16:16:52.547612"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/05-june-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-06-05",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4609,17 +4800,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:54:03.960722",
-    "first_seen_utc": "2026-01-29T04:09:03.960739"
+    "scraped_at": "2026-01-29T22:01:53.832557",
+    "first_seen_utc": "2026-01-29T16:16:53.832571"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/04-june-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-06-04",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4670,17 +4863,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:54:05.829649",
-    "first_seen_utc": "2026-01-29T04:09:05.829673"
+    "scraped_at": "2026-01-29T22:01:55.088936",
+    "first_seen_utc": "2026-01-29T16:16:55.088958"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/04-june-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-06-04",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4724,17 +4919,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:54:07.655755",
-    "first_seen_utc": "2026-01-29T04:09:07.655777"
+    "scraped_at": "2026-01-29T22:01:56.460734",
+    "first_seen_utc": "2026-01-29T16:16:56.460759"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/04-june-2015-mers-oman-en",
     "title": "Middle East respiratory syndrome coronavirus – Oman",
     "published_date": "2015-06-04",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4760,17 +4957,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Oman"
     ],
-    "scraped_at": "2026-01-29T09:54:09.706343",
-    "first_seen_utc": "2026-01-29T04:09:09.706361"
+    "scraped_at": "2026-01-29T22:01:57.702136",
+    "first_seen_utc": "2026-01-29T16:16:57.702155"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/01-june-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-06-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4802,17 +5001,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:54:11.441718",
-    "first_seen_utc": "2026-01-29T04:09:11.441732"
+    "scraped_at": "2026-01-29T22:01:58.954264",
+    "first_seen_utc": "2026-01-29T16:16:58.954288"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/01-june-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-06-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4849,17 +5050,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:54:13.211135",
-    "first_seen_utc": "2026-01-29T04:09:13.211159"
+    "scraped_at": "2026-01-29T22:02:00.383473",
+    "first_seen_utc": "2026-01-29T16:17:00.383491"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/31-may-2015-mers-qatar-en",
     "title": "Middle East respiratory syndrome coronavirus – Qatar",
     "published_date": "2015-05-31",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4891,17 +5094,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Qatar"
     ],
-    "scraped_at": "2026-01-29T09:54:14.618398",
-    "first_seen_utc": "2026-01-29T04:09:14.618417"
+    "scraped_at": "2026-01-29T22:02:01.726072",
+    "first_seen_utc": "2026-01-29T16:17:01.726088"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/31-may-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-05-31",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4931,17 +5136,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:54:15.997956",
-    "first_seen_utc": "2026-01-29T04:09:15.997971"
+    "scraped_at": "2026-01-29T22:02:02.932281",
+    "first_seen_utc": "2026-01-29T16:17:02.932300"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/30-may-2015-mers-china-en",
     "title": "Middle East respiratory syndrome coronavirus – China",
     "published_date": "2015-05-30",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4981,17 +5188,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – China"
     ],
-    "scraped_at": "2026-01-29T09:54:17.333143",
-    "first_seen_utc": "2026-01-29T04:09:17.333168"
+    "scraped_at": "2026-01-29T22:02:04.207890",
+    "first_seen_utc": "2026-01-29T16:17:04.207909"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/30-may-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-05-30",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5036,17 +5245,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:54:19.106415",
-    "first_seen_utc": "2026-01-29T04:09:19.106432"
+    "scraped_at": "2026-01-29T22:02:05.727105",
+    "first_seen_utc": "2026-01-29T16:17:05.727129"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/28-may-2015-lassa-fever-usa-en",
     "title": "Lassa Fever – United States of America",
     "published_date": "2015-05-28",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5071,17 +5282,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa Fever – United States of America"
     ],
-    "scraped_at": "2026-01-29T09:54:20.475353",
-    "first_seen_utc": "2026-01-29T04:09:20.475373"
+    "scraped_at": "2026-01-29T22:02:07.054137",
+    "first_seen_utc": "2026-01-29T16:17:07.054157"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/25-may-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-05-25",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5120,17 +5333,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:54:21.794715",
-    "first_seen_utc": "2026-01-29T04:09:21.794732"
+    "scraped_at": "2026-01-29T22:02:08.318551",
+    "first_seen_utc": "2026-01-29T16:17:08.318571"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/24-may-2015-mers-korea-en",
     "title": "Middle East respiratory syndrome coronavirus – Republic of Korea",
     "published_date": "2015-05-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5162,17 +5377,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:54:23.103655",
-    "first_seen_utc": "2026-01-29T04:09:23.103669"
+    "scraped_at": "2026-01-29T22:02:09.567613",
+    "first_seen_utc": "2026-01-29T16:17:09.567634"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/24-may-2015-mers-qatar-en",
     "title": "Middle East respiratory syndrome coronavirus – Qatar",
     "published_date": "2015-05-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5202,17 +5419,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Qatar"
     ],
-    "scraped_at": "2026-01-29T09:54:24.425066",
-    "first_seen_utc": "2026-01-29T04:09:24.425082"
+    "scraped_at": "2026-01-29T22:02:10.825547",
+    "first_seen_utc": "2026-01-29T16:17:10.825561"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/24-may-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-05-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5259,17 +5478,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:54:26.229512",
-    "first_seen_utc": "2026-01-29T04:09:26.229531"
+    "scraped_at": "2026-01-29T22:02:12.041764",
+    "first_seen_utc": "2026-01-29T16:17:12.041779"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/24-may-2015-mers-are-en",
     "title": "Middle East respiratory syndrome coronavirus – United Arab Emirates",
     "published_date": "2015-05-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5300,17 +5521,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – United Arab Emirates"
     ],
-    "scraped_at": "2026-01-29T09:54:28.246700",
-    "first_seen_utc": "2026-01-29T04:09:28.246715"
+    "scraped_at": "2026-01-29T22:02:13.316094",
+    "first_seen_utc": "2026-01-29T16:17:13.316115"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/18-may-2015-mers-are-en",
     "title": "Middle East respiratory syndrome coronavirus – United Arab Emirates",
     "published_date": "2015-05-18",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5341,17 +5564,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – United Arab Emirates"
     ],
-    "scraped_at": "2026-01-29T09:54:29.613726",
-    "first_seen_utc": "2026-01-29T04:09:29.613742"
+    "scraped_at": "2026-01-29T22:02:14.554021",
+    "first_seen_utc": "2026-01-29T16:17:14.554041"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/17-may-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-05-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5392,17 +5617,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:54:30.986878",
-    "first_seen_utc": "2026-01-29T04:09:30.986896"
+    "scraped_at": "2026-01-29T22:02:15.865660",
+    "first_seen_utc": "2026-01-29T16:17:15.865675"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/15-may-2015-niger-en",
     "title": "Meningococcal meningitis - Niger",
     "published_date": "2015-05-15",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5441,17 +5668,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Meningococcal meningitis - Niger"
     ],
-    "scraped_at": "2026-01-29T09:54:32.372778",
-    "first_seen_utc": "2026-01-29T04:09:32.372796"
+    "scraped_at": "2026-01-29T22:02:17.154461",
+    "first_seen_utc": "2026-01-29T16:17:17.154478"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-May-2015-avian-influenza-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2015-05-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5487,17 +5716,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:54:33.819126",
-    "first_seen_utc": "2026-01-29T04:09:33.819150"
+    "scraped_at": "2026-01-29T22:02:18.447580",
+    "first_seen_utc": "2026-01-29T16:17:18.447603"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/13-may-2015-ebola-en",
     "title": "Ebola virus disease – Italy",
     "published_date": "2015-05-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5530,17 +5761,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Italy"
     ],
-    "scraped_at": "2026-01-29T09:54:35.279025",
-    "first_seen_utc": "2026-01-29T04:09:35.279043"
+    "scraped_at": "2026-01-29T22:02:19.756236",
+    "first_seen_utc": "2026-01-29T16:17:19.756253"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-may-2015-mers-iran-en",
     "title": "Middle East Respiratory Syndrome coronavirus - The Islamic Republic of Iran",
     "published_date": "2015-05-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5571,17 +5804,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East Respiratory Syndrome coronavirus - The Islamic Republic of Iran"
     ],
-    "scraped_at": "2026-01-29T09:54:36.601039",
-    "first_seen_utc": "2026-01-29T04:09:36.601057"
+    "scraped_at": "2026-01-29T22:02:20.999797",
+    "first_seen_utc": "2026-01-29T16:17:20.999823"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-may-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-05-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5611,17 +5846,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:54:37.959334",
-    "first_seen_utc": "2026-01-29T04:09:37.959352"
+    "scraped_at": "2026-01-29T22:02:22.213183",
+    "first_seen_utc": "2026-01-29T16:17:22.213204"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-april-2015-niger-en",
     "title": "Meningococcal meningitis - Niger",
     "published_date": "2015-04-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5647,17 +5884,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Meningococcal meningitis - Niger"
     ],
-    "scraped_at": "2026-01-29T09:54:39.503642",
-    "first_seen_utc": "2026-01-29T04:09:39.503658"
+    "scraped_at": "2026-01-29T22:02:23.480802",
+    "first_seen_utc": "2026-01-29T16:17:23.480816"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-april-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-04-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5691,17 +5930,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:54:41.665131",
-    "first_seen_utc": "2026-01-29T04:09:41.665145"
+    "scraped_at": "2026-01-29T22:02:24.725219",
+    "first_seen_utc": "2026-01-29T16:17:24.725238"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/16-april-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-04-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5736,17 +5977,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:54:43.156506",
-    "first_seen_utc": "2026-01-29T04:09:43.156522"
+    "scraped_at": "2026-01-29T22:02:26.003900",
+    "first_seen_utc": "2026-01-29T16:17:26.003921"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-April-2015-avian-influenza-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2015-04-15",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5781,17 +6024,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:54:45.639984",
-    "first_seen_utc": "2026-01-29T04:09:45.640002"
+    "scraped_at": "2026-01-29T22:02:27.225502",
+    "first_seen_utc": "2026-01-29T16:17:27.225517"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/9-april-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-04-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5834,17 +6079,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:54:47.020357",
-    "first_seen_utc": "2026-01-29T04:09:47.020372"
+    "scraped_at": "2026-01-29T22:02:28.543618",
+    "first_seen_utc": "2026-01-29T16:17:28.543633"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-march-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-03-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5894,17 +6141,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:54:48.391717",
-    "first_seen_utc": "2026-01-29T04:09:48.391732"
+    "scraped_at": "2026-01-29T22:02:29.765460",
+    "first_seen_utc": "2026-01-29T16:17:29.765480"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-march-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-03-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5950,17 +6199,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:54:49.799785",
-    "first_seen_utc": "2026-01-29T04:09:49.799829"
+    "scraped_at": "2026-01-29T22:02:31.012335",
+    "first_seen_utc": "2026-01-29T16:17:31.012353"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/17-march-2015-uganda-en",
     "title": "Typhoid fever – Uganda",
     "published_date": "2015-03-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5997,17 +6248,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Typhoid fever – Uganda"
     ],
-    "scraped_at": "2026-01-29T09:54:51.107996",
-    "first_seen_utc": "2026-01-29T04:09:51.108014"
+    "scraped_at": "2026-01-29T22:02:32.284953",
+    "first_seen_utc": "2026-01-29T16:17:32.284972"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/13-march-2015-nigeria-en",
     "title": "Meningococcal meningitis - Nigeria",
     "published_date": "2015-03-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6044,17 +6297,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Meningococcal meningitis - Nigeria"
     ],
-    "scraped_at": "2026-01-29T09:54:52.475640",
-    "first_seen_utc": "2026-01-29T04:09:52.475653"
+    "scraped_at": "2026-01-29T22:02:33.619709",
+    "first_seen_utc": "2026-01-29T16:17:33.619743"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-march-2015-mers-qatar-en",
     "title": "Middle East respiratory syndrome coronavirus – Qatar",
     "published_date": "2015-03-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6085,17 +6340,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Qatar"
     ],
-    "scraped_at": "2026-01-29T09:54:53.813037",
-    "first_seen_utc": "2026-01-29T04:09:53.813053"
+    "scraped_at": "2026-01-29T22:02:34.952471",
+    "first_seen_utc": "2026-01-29T16:17:34.952495"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-march-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-03-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6148,17 +6405,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:54:55.264079",
-    "first_seen_utc": "2026-01-29T04:09:55.264096"
+    "scraped_at": "2026-01-29T22:02:36.257912",
+    "first_seen_utc": "2026-01-29T16:17:36.257927"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-march-2015-avian-influenza-china-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2015-03-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6203,17 +6462,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:54:56.625547",
-    "first_seen_utc": "2026-01-29T04:09:56.625563"
+    "scraped_at": "2026-01-29T22:02:37.630467",
+    "first_seen_utc": "2026-01-29T16:17:37.630486"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/9-march-2015-mers-germany-en",
     "title": "Middle East respiratory syndrome coronavirus – Germany",
     "published_date": "2015-03-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6245,17 +6506,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Germany"
     ],
-    "scraped_at": "2026-01-29T09:54:58.528910",
-    "first_seen_utc": "2026-01-29T04:09:58.528926"
+    "scraped_at": "2026-01-29T22:02:38.953346",
+    "first_seen_utc": "2026-01-29T16:17:38.953365"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/6-march-2015-measles-en",
     "title": "Measles – European Region",
     "published_date": "2015-03-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6281,17 +6544,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Measles – European Region"
     ],
-    "scraped_at": "2026-01-29T09:55:01.521244",
-    "first_seen_utc": "2026-01-29T04:10:01.521261"
+    "scraped_at": "2026-01-29T22:02:40.195946",
+    "first_seen_utc": "2026-01-29T16:17:40.195967"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/6-march-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-03-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6336,17 +6601,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:55:03.465357",
-    "first_seen_utc": "2026-01-29T04:10:03.465374"
+    "scraped_at": "2026-01-29T22:02:41.511123",
+    "first_seen_utc": "2026-01-29T16:17:41.511141"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-february-2015-avian-influenza-en",
     "title": "Influenza A H7N9 virus – China",
     "published_date": "2015-02-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6375,17 +6642,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A H7N9 virus – China"
     ],
-    "scraped_at": "2026-01-29T09:55:04.787992",
-    "first_seen_utc": "2026-01-29T04:10:04.788007"
+    "scraped_at": "2026-01-29T22:02:42.823138",
+    "first_seen_utc": "2026-01-29T16:17:42.823155"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-february-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-02-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6424,17 +6693,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:55:06.082879",
-    "first_seen_utc": "2026-01-29T04:10:06.082895"
+    "scraped_at": "2026-01-29T22:02:44.093675",
+    "first_seen_utc": "2026-01-29T16:17:44.093691"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-february-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-02-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6512,17 +6783,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:55:07.474042",
-    "first_seen_utc": "2026-01-29T04:10:07.474058"
+    "scraped_at": "2026-01-29T22:02:45.472593",
+    "first_seen_utc": "2026-01-29T16:17:45.472609"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/16-february-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-02-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6562,17 +6835,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:55:08.813154",
-    "first_seen_utc": "2026-01-29T04:10:08.813169"
+    "scraped_at": "2026-01-29T22:02:46.769141",
+    "first_seen_utc": "2026-01-29T16:17:46.769159"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/13-february-2015-measles-en",
     "title": "Measles – Region of the Americas",
     "published_date": "2015-02-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6626,17 +6901,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Measles – Region of the Americas"
     ],
-    "scraped_at": "2026-01-29T09:55:10.181836",
-    "first_seen_utc": "2026-01-29T04:10:10.181851"
+    "scraped_at": "2026-01-29T22:02:48.279391",
+    "first_seen_utc": "2026-01-29T16:17:48.279411"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/13-february-2015-mers-en",
     "title": "Middle East respiratory syndrome coronavirus - Philippines",
     "published_date": "2015-02-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6669,17 +6946,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus - Philippines"
     ],
-    "scraped_at": "2026-01-29T09:55:11.560908",
-    "first_seen_utc": "2026-01-29T04:10:11.560924"
+    "scraped_at": "2026-01-29T22:02:49.833894",
+    "first_seen_utc": "2026-01-29T16:17:49.833913"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-february-2015-avian-influenza-en",
     "title": "Influenza A(H5N6) virus – China",
     "published_date": "2015-02-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6714,17 +6993,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A(H5N6) virus – China"
     ],
-    "scraped_at": "2026-01-29T09:55:13.271917",
-    "first_seen_utc": "2026-01-29T04:10:13.271933"
+    "scraped_at": "2026-01-29T22:02:51.128158",
+    "first_seen_utc": "2026-01-29T16:17:51.128270"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-february-2015-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-02-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6768,17 +7049,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:55:14.610930",
-    "first_seen_utc": "2026-01-29T04:10:14.610945"
+    "scraped_at": "2026-01-29T22:02:52.369989",
+    "first_seen_utc": "2026-01-29T16:17:52.370015"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-february-2015-mers-qatar-en",
     "title": "Middle East respiratory syndrome coronavirus – Qatar",
     "published_date": "2015-02-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6809,17 +7092,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Qatar"
     ],
-    "scraped_at": "2026-01-29T09:55:16.013447",
-    "first_seen_utc": "2026-01-29T04:10:16.013467"
+    "scraped_at": "2026-01-29T22:02:53.627293",
+    "first_seen_utc": "2026-01-29T16:17:53.627306"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-february-2015-mers-are-en",
     "title": "Middle East respiratory syndrome coronavirus – United Arab Emirates",
     "published_date": "2015-02-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6850,17 +7135,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – United Arab Emirates"
     ],
-    "scraped_at": "2026-01-29T09:55:17.523755",
-    "first_seen_utc": "2026-01-29T04:10:17.523778"
+    "scraped_at": "2026-01-29T22:02:54.980230",
+    "first_seen_utc": "2026-01-29T16:17:54.980254"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-february-2015-avian-influenza-en",
     "title": "Influenza A(H7N9) virus – China",
     "published_date": "2015-02-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6908,17 +7195,75 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A(H7N9) virus – China"
     ],
-    "scraped_at": "2026-01-29T09:55:20.267187",
-    "first_seen_utc": "2026-01-29T04:10:20.267202"
+    "scraped_at": "2026-01-29T22:02:56.293477",
+    "first_seen_utc": "2026-01-29T16:17:56.293517"
+  },
+  {
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/03-february-2015-mers-en",
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "published_date": "2015-02-03",
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
+    "sections": [
+      {
+        "heading": "Description of the situation",
+        "content": [
+          {
+            "text": "Between 14 and 22 January 2015, the IHR National Focal Point for the Kingdom of Saudi Arabia (SAU) notified WHO of 9 additional cases of Middle East respiratory syndrome coronavirus (MERS-CoV) infection, including 4 deaths. Cases are listed by date of reporting, with the most recent case listed first.",
+            "bullets": [
+              "An 84-year-old female from Riyadh city developed symptoms on 19 January and was admitted to a private hospital on 20 January. The patient has comorbidities but no history of exposure to any known risk factors in the 14 days prior to the onset of symptoms. The patient was in ICU in critical condition. Since then, she recovered and was discharged on 27 January.",
+              "A 77-year-old male from Riyadh city developed symptoms on 18 January and was admitted to a private hospital on 21 January. The patient has comorbidities but no history of exposure to any known risk factors in the 14 days prior to the onset of symptoms. The patient was in ICU in critical condition. Since then, he recovered and was discharged on 28 January.",
+              "An 80-year-old male from Riyadh city developed symptoms on 26 December and was admitted to hospital on the same day. The patient had comorbidities. On 26 December, he was in an emergency room where two previously reported MERS-CoV cases had been treated, although the patient had no direct contact with either case. He had no history of exposure to other known risk factors in the 14 days prior to the onset of initial symptoms. The patient was in ICU and passed away on 23 January.",
+              "A 38-year-old male from Riyadh city developed symptoms on 14 January. The patient, who has comorbidities, was initially admitted to hospital on 1 January for a surgical procedure. On 7 January, during his admission, he went out on a day-release where he visited his family in Aldawadmi city. On 12 January, the patient underwent surgery in a hospital where a laboratory confirmed MERS-CoV case had also been treated, although there is no history of contact between the patient and the case. He has no history of exposure to other known risk factors in the 14 days prior to the onset of symptoms. Currently, the patient is in stable condition and remains in isolation.",
+              "A 76-year-old male from Riyadh city developed symptoms on 12 January. The patient, who had comorbidities, was initially admitted to hospital for an unrelated medical condition on 3 November. He received care in a hospital where a laboratory confirmed MERS-CoV case had also been treated. The patient had no history of exposure to other known risk factors in the 14 days prior to the onset of symptoms. He was in critical condition and passed away on 18 January.",
+              "A 67-year-old male from Riyadh city developed symptoms on 12 January and was admitted to hospital on 16 January. The patient has comorbidities. He frequently visited a health-care facility in Riyadh to treat his unrelated medical condition but has no history of contact with patients with respiratory symptoms. The facility is not associated with previous known MERS-CoV cases. There is no history of exposure to any known risk factors in the 14 days prior to the onset of symptoms. Currently, the patient is in stable condition and remains in an isolation ward.",
+              "A 62-year-old male from Riyadh city developed symptoms on 14 January and was admitted to hospital on 16 January. The patient has comorbidities. He has no history of exposure to any known risk factors in the 14 days prior to the onset of symptoms. Currently, the patient is in stable condition and remains in an isolation ward.",
+              "A 67-year-old male from Taif city developed symptoms on 5 January and was admitted to hospital on 9 January. The patient had comorbidities. He had no history of direct contact with camels or consumption of camel products but lived in an area with heavy presence of camels. The patient had no history of exposure to other known risk factors in the 14 days prior to the onset of symptoms. He was in critical condition and passed away on 21 January.",
+              "A 93-year-old male from Riyadh city developed symptoms on 11 January. The patient, who had comorbidities, was initially admitted to hospital for an acute injury on 28 December. At that time, the hospital was treating a laboratory confirmed MERS-CoV case. The patient had no history of exposure to other known risk factors in the 14 days prior to the onset of symptoms. The patient was in critical condition in ICU and passed away on 15 January."
+            ]
+          },
+          "Contact tracing of household contacts and healthcare contacts is ongoing for these cases.",
+          "The IHR National Focal Point for the Kingdom of Saudi Arabia also notified WHO of the death of 2 previously reported MERS-CoV cases. The cases were reported in previous DONs on 5 January (Case n. 2) and on 15 January (Case n. 3).",
+          "Globally, WHO has been notified of 965 laboratory-confirmed cases of infection with MERS-CoV, including at least 357 related deaths."
+        ]
+      },
+      {
+        "heading": "WHO advice",
+        "content": [
+          "Based on the current situation and available information, WHO encourages all Member States to continue their surveillance for acute respiratory infections and to carefully review any unusual patterns.",
+          "Infection prevention and control measures are critical to prevent the possible spread of MERS-CoV in health care facilities. It is not always possible to identify patients with MERS-CoV early because like other respiratory infections, the early symptoms of MERS-CoV are non-specific. Therefore, health-care workers should always apply standard precautions consistently with all patients, regardless of their diagnosis. Droplet precautions should be added to the standard precautions when providing care to patients with symptoms of acute respiratory infection; contact precautions and eye protection should be added when caring for probable or confirmed cases of MERS-CoV infection; airborne precautions should be applied when performing aerosol generating procedures.",
+          "Until more is understood about MERS-CoV, people with diabetes, renal failure, chronic lung disease, and immunocompromised persons are considered to be at high risk of severe disease from MERS‐CoV infection. Therefore, these people should avoid close contact with animals, particularly camels, when visiting farms, markets, or barn areas where the virus is known to be potentially circulating. General hygiene measures, such as regular hand washing before and after touching animals and avoiding contact with sick animals, should be adhered to.",
+          "Food hygiene practices should be observed. People should avoid drinking raw camel milk or camel urine, or eating meat that has not been properly cooked.",
+          "WHO does not advise special screening at points of entry with regard to this event nor does it currently recommend the application of any travel or trade restrictions."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "text": "See all DONs related to this event",
+        "url": "https://www.who.int/emergencies/emergency-events/item/2015"
+      }
+    ],
+    "images": [],
+    "tags": [
+      "WHO",
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
+    ],
+    "scraped_at": "2026-01-29T22:02:57.619233",
+    "first_seen_utc": "2026-01-29T16:17:57.619253"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/01-february-2015-avian-influenza-en",
     "title": "Influenza A(H7N9) virus – Canada",
     "published_date": "2015-02-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6956,17 +7301,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A(H7N9) virus – Canada"
     ],
-    "scraped_at": "2026-01-29T09:55:37.173615",
-    "first_seen_utc": "2026-01-29T04:10:37.173633"
+    "scraped_at": "2026-01-29T22:02:58.944033",
+    "first_seen_utc": "2026-01-29T16:17:58.944050"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-january-2015-avian-influenza-en",
     "title": "Influenza A(H7N9) virus – China",
     "published_date": "2015-01-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6994,17 +7341,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A(H7N9) virus – China"
     ],
-    "scraped_at": "2026-01-29T09:55:39.199446",
-    "first_seen_utc": "2026-01-29T04:10:39.199463"
+    "scraped_at": "2026-01-29T22:03:00.373605",
+    "first_seen_utc": "2026-01-29T16:18:00.373622"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-january-2015-mers-oman-en",
     "title": "Middle East respiratory syndrome coronavirus – Oman",
     "published_date": "2015-01-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7035,17 +7384,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Oman"
     ],
-    "scraped_at": "2026-01-29T09:55:40.561052",
-    "first_seen_utc": "2026-01-29T04:10:40.561068"
+    "scraped_at": "2026-01-29T22:03:01.615592",
+    "first_seen_utc": "2026-01-29T16:18:01.615612"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-january-2015-mers-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-01-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7085,17 +7436,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:55:42.465964",
-    "first_seen_utc": "2026-01-29T04:10:42.465992"
+    "scraped_at": "2026-01-29T22:03:02.851431",
+    "first_seen_utc": "2026-01-29T16:18:02.851449"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-january-2015-avian-influenza-en",
     "title": "Influenza A(H7N9) virus – China",
     "published_date": "2015-01-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7147,17 +7500,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A(H7N9) virus – China"
     ],
-    "scraped_at": "2026-01-29T09:55:44.519583",
-    "first_seen_utc": "2026-01-29T04:10:44.519601"
+    "scraped_at": "2026-01-29T22:03:04.055362",
+    "first_seen_utc": "2026-01-29T16:18:04.055380"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/16-january-2015-mers-oman-en",
     "title": "Middle East respiratory syndrome coronavirus – Oman",
     "published_date": "2015-01-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7189,17 +7544,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Oman"
     ],
-    "scraped_at": "2026-01-29T09:55:46.154315",
-    "first_seen_utc": "2026-01-29T04:10:46.154332"
+    "scraped_at": "2026-01-29T22:03:05.343684",
+    "first_seen_utc": "2026-01-29T16:18:05.343700"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/15-january-2015-mers-en",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-01-15",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7234,17 +7591,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:55:48.246705",
-    "first_seen_utc": "2026-01-29T04:10:48.246723"
+    "scraped_at": "2026-01-29T22:03:06.575360",
+    "first_seen_utc": "2026-01-29T16:18:06.575380"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/middle-east-respiratory-syndrome-coronavirus---saudi-arabia",
     "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
     "published_date": "2015-01-05",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7281,17 +7640,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:55:49.633764",
-    "first_seen_utc": "2026-01-29T04:10:49.633780"
+    "scraped_at": "2026-01-29T22:03:07.781064",
+    "first_seen_utc": "2026-01-29T16:18:07.781080"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/05-january-2015-mers-jordan-en",
     "title": "Middle East respiratory syndrome coronavirus – Jordan",
     "published_date": "2015-01-05",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7325,9 +7686,10 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus – Jordan"
     ],
-    "scraped_at": "2026-01-29T09:55:51.454365",
-    "first_seen_utc": "2026-01-29T04:10:51.454381"
+    "scraped_at": "2026-01-29T22:03:09.040516",
+    "first_seen_utc": "2026-01-29T16:18:09.040534"
   }
 ]

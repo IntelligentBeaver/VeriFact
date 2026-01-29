@@ -1,178 +1,11 @@
 [
   {
-    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON547",
-    "title": "Acute respiratory infections complicated by malaria (previously undiagnosed disease) - Democratic Republic of the Congo",
-    "published_date": "2024-12-27",
-    "disease": null,
-    "location": null,
-    "sections": [
-      {
-        "heading": "Situation at a glance",
-        "content": [
-          "This is an update to the Disease Outbreak News on Undiagnosed disease in the Democratic Republic of the Congo published on 8 December 2024 (now named acute respiratory infections complicated by malaria). It includes updated epidemiological investigation information and preliminary laboratory results. \r\nOn 29 November, an alert was raised by local health zone authorities of Panzi health zone in Kwango province after an increase in deaths, particularly among children under five years of age, following febrile illness. Enhanced epidemiological surveillance was rapidly implemented, which in the absence of a clear diagnosis was based on the detection of syndromic cases of febrile illnesses with cough, body weakness, with one of a number of other symptoms compatible with acute respiratory and febrile illnesses. This resulted in a rapid increase in the number of cases meeting the definition, with a total of 891 cases reported as of 16 December. However, the weekly number of reported deaths (48 deaths reported over the period) has remained relatively stable. \r\nAs of 16 December, laboratory results from a total of 430 samples indicated positive results for malaria, common respiratory viruses (Influenza A (H1N1, pdm09), rhinoviruses, SARS-COV-2, Human coronaviruses, parainfluenza viruses, and Human Adenovirus).\r\nWhile further laboratory tests are ongoing, together these findings suggest that a combination of common and seasonal viral respiratory infections and falciparum malaria, compounded by acute malnutrition led to an increase in severe infections and deaths, disproportionally affecting children under five years of age. \r\nMultidisciplinary rapid response teams have been deployed to investigate the event and strengthen the response. Efforts are ongoing to address the health needs in Panzi health zone. Enhanced surveillance in the community and within health facilities continues. The teams have also been providing support for diagnosis, the treatment of patients as well as with risk communication and community engagement. \r\nThis event highlights the severe burden from common infectious diseases (acute respiratory infections and malaria) in a context of vulnerable populations facing food insecurity. It emphasizes the need to strengthen access to health care and address underlying causes of vulnerability, particularly malnutrition, given the worsening food insecurity."
-        ]
-      },
-      {
-        "heading": "Description of the situation",
-        "content": [
-          "Since the last Disease Outbreak News on this event was published on 8 December 2024, 485 additional suspected cases and 17 additional deaths have been reported from Panzi health zone in Kwango Province, Democratic Republic of the Congo, across 25 out of the 30 health areas in Panzi. These cases were identified as a result of enhanced surveillance put in place following the report of deaths in the context of febrile illness with acute respiratory symptoms and anaemia, first reported on 29 November. While the number of reported cases was not deemed particularly unusual in a context of high burden of pneumonia, malaria and acute respiratory infections, particularly at the start of the rainy season, it is the increase in the number of deaths that triggered the alert on 29 November.",
-          "In the absence of diagnosis, a broad surveillance case definition was used, with the resulting case numbers reflecting the detection of any febrile illness occurring in Panzi and thus representing a range of diseases and clinical syndromes. The case definition includes: a ny person living in the Panzi health zone from September 2024 to date, presenting with fever, cough, body weakness, runny nose, with or without one of the following symptoms and signs: chills, headache, difficulty breathing, malnutrition, body aches . This was done to better understand the epidemiology and characteristics of deaths and to collect a range of clinical samples for laboratory testing.",
-          "Between 24 October and 16 December 2024, 48 deaths and a total of 891 cases across 25/30 health areas of Panzi health zone met the case definition. Children under five years of age are disproportionally affected, representing 47% of all cases and 54% of all deaths, while they represent around 18% of the population, likely reflecting the vulnerability of young children to severe disease and death in this context. The main symptoms associated with death include difficulty in breathing, anaemia, and signs of acute malnutrition.",
-          "A total of 430 samples including blood samples, oropharyngeal and nasopharyngeal swabs, urine and breastmilk samples were collected from suspected cases in Panzi health zone and transported to the laboratory at the INRB. Out of 88 rapid diagnostics tests for malaria performed in the field, 55 (62%) samples tested positive. In addition, out of 26 samples analyzed by PCR BioFire Global Fever Panel test (which tests 18 different pathogens including some of the viral hemorrhagic fevers), 17 (65%) samples tested positive for Plasmodium falciparum.  In addition, a total of 89 samples were tested at INRB Respiratory Disease Surveillance Laboratory. Of the 89 samples, 64 samples were positive for common respiratory viruses including Influenza A (H1N1, pdm09) (n=25), rhinoviruses (n=18), SARS-COV-2 (n=15), Human coronaviruses (n=3), parainfluenza viruses (n=2), and Human adenovirus (n=1).",
-          "Other laboratory tests on the collected samples, including virological and bacterial analysis, are still ongoing. The ongoing investigations and preliminary laboratory findings suggest that a combination of common viral respiratory infections and falciparum malaria, compounded by acute malnutrition led to an increase in severe infections and deaths.",
-          "Enhanced surveillance will continue, alongside response activities. The number of weekly reported suspected cases has remained steady with the exception of an increase in epidemiological week 50 (week ending 15 December 2024, Figure 1). While this may partly reflect an increase in transmission of respiratory viruses and malaria with the rainy season, it is driven by an increase in surveillance and case finding following the deployment of the rapid response teams. Notably, the increase in cases is not matched with a comparable increase in deaths.",
-          "Figure 1: Weekly epidemiological curve showing suspected cases and deaths reported between 24 October to 16 December 2024, Panzi health zone in Kwango Province, Democratic Republic of the Congo",
-          "* Data\r\nfor the epidemiological week 51 is not complete at the time of publication.",
-          "There are proportionally more cases reported among females (58%, 514/889), particularly among adults (66% female, 173/262). While data is lacking to better understand this difference, it may stem from contact patterns of respiratory virus transmission within households, particularly a close interaction between mothers and children during acute respiratory illnesses.",
-          "Figure 2: Geographic description of the affected health zone in Kwango Province, Democratic Republic of the Congo",
-          "The affected area experienced deterioration in food security in recent months, with increasing levels of acute malnutrition. Between July and December 2024, which coincides with a drop in acute malnutrition, Kwango province was in Integrated Food Security Phase Classification (IPC) Acute Malnutrition (AMN) Phase 3 (Serious). Between January and June 2025, an increase in cases of malnutrition is projected in the province with a significant deterioration in the nutritional situation expected, moving to IPC AMN Phase 4 (Critical). Between July 2024 and June 2025, nearly 4.5 million children aged 6 to 59 months in the DRC are facing or expected to face acute malnutrition, including approximately 1.4 million cases of severe acute malnutrition and 3.1 million cases of moderate acute malnutrition. It is also estimated that 3.7 million pregnant and breastfeeding women are facing or expected to face acute malnutrition over the same period. [1]",
-          "Severe acute malnutrition is a life-threatening condition that requires medical treatment. In addition, disease and malnutrition combine to worsen each other. The area has low routine vaccination coverage. There is also very limited access to diagnostics and quality case management, and a lack of supplies and transportation, shortage of health staff in the area, as well as financial and geographical barriers to access to health care. Increasing malaria trends are expected with the start of the rainy season, however, malaria control measures in the area are very limited. Together, these factors may increase the severity of malaria, and common respiratory infections.",
-          "Overall, this event highlights the severe burden from common infectious diseases (acute respiratory infections and malaria) in a context of vulnerable populations facing food insecurity and emphasizes the need to strengthen access and quality of health care."
-        ],
-        "images": [
-          "https://cdn.who.int/media/images/default-source/emergencies/disease-outbreak-news/drc-epi.jpg?sfvrsn=b1fb26cf_4",
-          "https://cdn.who.int/media/images/default-source/emergencies/disease-outbreak-news/drc-map.png?sfvrsn=4a9617ab_4"
-        ]
-      },
-      {
-        "heading": "Public health response",
-        "content": [
-          {
-            "text": null,
-            "bullets": [
-              "Leadership and coordination: Daily coordination meetings are being held at the national level, with provincial teams actively participating in ongoing planning and response. National rapid response team (RRT) composed of experts from Ministry of Health (MoH), INRB and WHO deployed from Kinshasa on 7 December and arrived in Panzi on 10 December. Following the departure of the national team, a joint MoH-Africa CDC rapid response team has been deployed with support from WHO.",
-              "Daily coordination meetings are being held at the national level, with provincial teams actively participating in ongoing planning and response.",
-              "National rapid response team (RRT) composed of experts from Ministry of Health (MoH), INRB and WHO deployed from Kinshasa on 7 December and arrived in Panzi on 10 December. Following the departure of the national team, a joint MoH-Africa CDC rapid response team has been deployed with support from WHO."
-            ]
-          },
-          {
-            "text": "2. Surveillance:",
-            "bullets": [
-              "A case definition has been developed based on clinical symptoms observed, guiding surveillance and reporting efforts.",
-              "Active case search is continuing in health facilities and the community.",
-              "Data collection is ongoing, focusing on preparing a line list and detailed epidemiological analysis.",
-              "Community deaths are being investigated to better understand the context of deaths and vulnerability factors.",
-              "WHO is deploying a senior epidemiologist and a data manager to support the ongoing surveillance activities and improve data collection."
-            ]
-          },
-          {
-            "text": "3. Case Management:",
-            "bullets": [
-              "Provincial and national RRTs, including WHO, UNICEF and Médecins Sans Frontières, have been deployed to the affected areas and are strengthening case management in health facilities as well as providing medical supplies including medication. The teams carried medication and medical equipment to support case management and prevent more deaths.",
-              "Efforts are underway to strengthen the capacity of healthcare providers to ensure the best possible care for patients.",
-              "Six oxygen concentrators are being installed at the Panzi General Referral Hospital and three hotspot health centers to support patient care."
-            ]
-          },
-          {
-            "text": "4. Laboratory:",
-            "bullets": [
-              "Laboratory equipment was transported to collect samples from cases and send samples for testing at the INRB in Kinshasa. Additionally, RDTs for malaria and COVID-19 have been provided to assist in diagnosis.",
-              "Laboratory reagents have been procured to continue facilitating the ongoing testing at INRB."
-            ]
-          },
-          {
-            "text": "5. Risk communication and community engagement:",
-            "bullets": [
-              "Key messages were developed to enhance public awareness and encourage general preventive behaviors. These messages are being disseminated through community engagement, with sensitization campaigns underway."
-            ]
-          },
-          {
-            "text": "6. Infection prevention and control:",
-            "bullets": [
-              "Infection prevention and control measures are being reinforced. Health workers have been briefed on key practices, including the proper use of masks, hand washing, and gloves, to reduce the risk of transmission of respiratory and other pathogens."
-            ]
-          },
-          {
-            "text": "7. Logistics",
-            "bullets": [
-              "Logistical support is being provided for effective case management, including the transportation of samples to INRB Kinshasa for laboratory testing. Health facilities and hospitals in the most affected health areas are being supplied with appropriate medications and sampling kits to support the response.",
-              "Medical kits for malaria, IPC kits, blood transfusion kits as well as additional medical supplies to support treatment efforts have been provided.",
-              "A mobile internet kit is being deployed to address some of the telecommunication challenges in the affected health zone."
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "WHO risk assessment",
-        "content": [
-          "Symptoms such as fever, cough, headache, and body aches have been observed since 24 October, primarily through health worker reports, and an uptick in deaths was observed in epi week 47, which triggered the signal. Since the alert was reported, there has not been any significant increase in reported deaths.",
-          "The epidemiological information together with the early laboratory result indicate an event triggered by an increase in acute respiratory virus cases associated with malaria, with a background of a worsening of the nutritional situation in Panzi, disproportionally affecting young children. The WHO African Region accounts for about 94% of all malaria cases and 95% of deaths globally (World Malaria Report 2024). Children under five account for about 76% of all malaria deaths in the Region. Over half of these deaths occurred in four countries: Nigeria (30.9%), the Democratic Republic of the Congo (11.3%), Niger (5.9%) and United Republic of Tanzania (4.3%). Support is being provided for laboratory diagnosis and strengthening case management including the treatment of malaria cases with appropriate medication.",
-          "An increase in common respiratory viruses and malaria is expected at this time of year in Panzi with the rainy season, however it is the increase in deaths that triggered the initial signal. There has been an increase in influenza and SARS-CoV-2 activity reported from Kinshasa through sentinel sites since mid-October. WHO and UNICEF estimates of national immunization coverage for 2023 show DTP3 and PCV3 coverage at 60% and 59%, respectively, however, no data is currently available for the affected health zone, leading to uncertainties about vaccine-derived population immunity.",
-          "The Integrated Food Security Phase Classification (IPC) for acute food insecurity levels in Kwango province increased from IPC 1 (acceptable) in April 2024 to IPC 3 (Crisis Level) in September 2024. This suggests a significant phase of increase in food insecurity and risk of severe acute malnutrition. In Addition, the IPC acute malnutrition classification currently classifies Panzi health zone as IPC acute malnutrition phase 3 (serious), projected to move to phase 4 (critical) from January 2025.",
-          "While mortality from common infectious diseases is expected to increase as transmission increases, this event highlights that mortality from known and expected infectious diseases can be high in a context of vulnerability and malnutrition, emphasizing the need to strengthen malaria control, clinical management, improve access to care and reduce the prevalence of malnutrition.",
-          "Gaps in case management have also been identified. Stock-outs of medications for treating common diseases frequently occur, and care is not provided free of charge, which could limit access to treatment for vulnerable populations and increase severity and mortality of known and treatable infections.",
-          "The affected area’s remoteness and logistical barriers, including a two-day or longer road journey from Kinshasa due to the rainy season affecting the roads and limited telecommunication network coverage across the health areas, have hampered the rapid deployment of response teams and resources. Furthermore, there is no functional laboratory in the health zone or province, requiring the collection and shipment of samples to Kinshasa for analysis. This has delayed diagnosis and can continue to impact the ongoing response efforts.",
-          "Insecurity in the region adds another layer of complexity to the response. The potential for attacks by armed groups poses a direct risk to response teams and communities, which could further disrupt the response.",
-          "Based on the above rationale, the overall public health risk level to the affected communities is assessed as high , and requires an integrated public health approach to reduce mortality from infections, improve nutritional status and strengthen malaria control, among others.",
-          "At the national level , the risk is considered low due to the localized nature of the event and that it is caused by a range of illnesses whose severity is compounded by the vulnerability of the population in the local context. However, many other areas of DRC are seeing increasing levels of malnutrition, and what has been witnessed in Panzi could also happen elsewhere in the country.",
-          "As such, efforts need to continue to prevent similar situation in other vulnerable parts of the country.  At the regional and global levels , the risk remains low at this time."
-        ]
-      },
-      {
-        "heading": "WHO advice",
-        "content": [
-          "To reduce the impact of the ongoing event in the Panzi health zone, WHO advises the following measures:",
-          "Strengthening coordination mechanisms at all levels—national, provincial, zonal, and local—is critical for a unified response. Enhanced communication infrastructure, such as satellite phones, is required to overcome the limited network coverage in affected areas.",
-          "Improving surveillance efforts is a priority to better understand disease trends and mortality. Active case searches should continue in both health facilities and communities, with a particular focus on areas reporting deaths and family clusters. Community-based surveillance must be strengthened to ensure early case detection and rapid response.",
-          "Careful characterization of the clinical syndrome and outcomes and an improved case definition based on the information collected will be necessary to understand the situation. In particular, data which clarify possibility of coinfection and multiple pathologies, and uncertainties in outcomes among vulnerable groups should be collected. The WHO has established the Global Clinical Platform to provide rapid turnaround of structured data analysis using anonymized case records; its use is recommended in the detailed capture of patient syndromes and outcomes.",
-          "Effective case management requires ensuring an adequate supply of essential medications, access to oxygen therapy, and training of healthcare workers including basic emergency and critical care to support treatment and prevent more deaths. RDTs for malaria should be distributed to facilitate early diagnosis and prompt treatment. Long-term laboratory capacity strengthening, and decentralization will be important in provision of diagnostic capability in the affected health zone and detect cause of deaths early.",
-          "Infection prevention and control measures must be reinforced across all health facilities. Healthcare workers should receive training on best practices, including the proper use of personal protective equipment such as masks and gloves, as well as strict hand hygiene protocols. These measures will reduce transmission risks within health facilities and improve the safety of healthcare delivery.",
-          "The role and added value of the health sector during food crises is crucial to prevent, reduce and reverse the causal relationship between poor nutrition, disease and death – before, during and after the onset of severe food shortages. As needs and vulnerabilities during food crises are complex, interlinked and multidimensional, intersectoral coordination and collaboration, especially between the health, nutrition, water, sanitation and hygiene (WASH) and food security clusters, should be stepped up as part of the overall humanitarian response. Data collection and analysis should be strengthened to inform the overall response.",
-          "Risk communication and community engagement are essential to raising public awareness. Targeted messages should be disseminated to educate the public on respiratory illness symptoms, preventive measures, and the importance of seeking care early. Community leaders must be engaged to build trust and encourage adherence to public health guidance. Addressing misinformation and fears within the community is critical to ensuring effective collaboration in the response.",
-          "Logistical and security challenges also require attention. Strengthening logistical support for the deployment of teams and supplies will ensure timely access to affected areas. Contingency plans should be developed to address potential insecurity posed by armed groups, safeguarding response personnel and maintaining continuity in response activities."
-        ]
-      },
-      {
-        "heading": "Further information",
-        "content": [
-          {
-            "text": null,
-            "bullets": [
-              "Democratic Republic of the Congo Ministry of Health Press Release: https://x.com/i/broadcasts/1YqGovjjrwAKv?s=09",
-              "Democratic Republic of the Congo: Acute Malnutrition Situation For July - December 2024 and Projection for January - June 2025 https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1157190/?iso3=COD"
-            ]
-          },
-          "[1] Democratic Republic of the Congo: Acute Malnutrition Situation For July - December 2024 and Projection for January - June 2025 https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1157190/?iso3=COD",
-          "Citable reference: World Health Organization (27 December 2024). Disease Outbreak News; Acute respiratory infections complicated by malaria (previously undiagnosed disease) – Democratic Republic of the Congo. Available at: https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON547"
-        ]
-      }
-    ],
-    "references": [
-      {
-        "text": "Disease Outbreak News",
-        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON546"
-      },
-      {
-        "text": "https://x.com/i/broadcasts/1YqGovjjrwAKv?s=09",
-        "url": "https://x.com/i/broadcasts/1YqGovjjrwAKv?s=09"
-      },
-      {
-        "text": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1157190/?iso3=COD",
-        "url": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1157190/?iso3=COD"
-      },
-      {
-        "text": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1157190/?iso3=COD",
-        "url": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1157190/?iso3=COD"
-      },
-      {
-        "text": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON547",
-        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON547"
-      }
-    ],
-    "images": [],
-    "tags": [
-      "WHO",
-      "Disease Outbreak"
-    ],
-    "scraped_at": "2026-01-29T09:46:34.009196",
-    "first_seen_utc": "2026-01-29T04:01:34.009755"
-  },
-  {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON548",
     "title": "Marburg virus disease - Rwanda",
     "published_date": "2024-12-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -500,17 +333,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Marburg virus disease - Rwanda"
     ],
-    "scraped_at": "2026-01-29T09:46:35.060852",
-    "first_seen_utc": "2026-01-29T04:01:35.060868"
+    "scraped_at": "2026-01-29T21:41:01.697568",
+    "first_seen_utc": "2026-01-29T15:56:01.698285"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON546",
     "title": "Undiagnosed disease - Democratic Republic of the Congo",
     "published_date": "2024-12-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -645,17 +480,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Undiagnosed disease - Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:46:36.212266",
-    "first_seen_utc": "2026-01-29T04:01:36.212280"
+    "scraped_at": "2026-01-29T21:41:02.873090",
+    "first_seen_utc": "2026-01-29T15:56:02.873110"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON545",
     "title": "Oropouche virus disease - Region of the Americas",
     "published_date": "2024-12-05",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -889,17 +726,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Oropouche virus disease - Region of the Americas"
     ],
-    "scraped_at": "2026-01-29T09:46:38.198128",
-    "first_seen_utc": "2026-01-29T04:01:38.198142"
+    "scraped_at": "2026-01-29T21:41:04.608514",
+    "first_seen_utc": "2026-01-29T15:56:04.608532"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON544",
     "title": "Marburg virus disease - Rwanda",
     "published_date": "2024-11-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -1283,17 +1122,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Marburg virus disease - Rwanda"
     ],
-    "scraped_at": "2026-01-29T09:46:39.323267",
-    "first_seen_utc": "2026-01-29T04:01:39.323280"
+    "scraped_at": "2026-01-29T21:41:06.171155",
+    "first_seen_utc": "2026-01-29T15:56:06.171175"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON543",
     "title": "Marburg virus disease - Rwanda",
     "published_date": "2024-11-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -1679,17 +1520,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Marburg virus disease - Rwanda"
     ],
-    "scraped_at": "2026-01-29T09:46:40.496139",
-    "first_seen_utc": "2026-01-29T04:01:40.496154"
+    "scraped_at": "2026-01-29T21:41:08.353053",
+    "first_seen_utc": "2026-01-29T15:56:08.353071"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON542",
     "title": "Malaria - Ethiopia",
     "published_date": "2024-10-31",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -1808,17 +1651,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Malaria - Ethiopia"
     ],
-    "scraped_at": "2026-01-29T09:46:41.731617",
-    "first_seen_utc": "2026-01-29T04:01:41.731634"
+    "scraped_at": "2026-01-29T21:41:09.423348",
+    "first_seen_utc": "2026-01-29T15:56:09.423364"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON541",
     "title": "Marburg virus disease - Rwanda",
     "published_date": "2024-10-25",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -2187,17 +2032,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Marburg virus disease - Rwanda"
     ],
-    "scraped_at": "2026-01-29T09:46:43.984662",
-    "first_seen_utc": "2026-01-29T04:01:43.984684"
+    "scraped_at": "2026-01-29T21:41:11.534413",
+    "first_seen_utc": "2026-01-29T15:56:11.534437"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON540",
     "title": "Marburg virus disease - Rwanda",
     "published_date": "2024-10-18",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -2509,17 +2356,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Marburg virus disease - Rwanda"
     ],
-    "scraped_at": "2026-01-29T09:46:45.211229",
-    "first_seen_utc": "2026-01-29T04:01:45.211245"
+    "scraped_at": "2026-01-29T21:41:13.102542",
+    "first_seen_utc": "2026-01-29T15:56:13.102562"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON539",
     "title": "Marburg virus disease - Rwanda",
     "published_date": "2024-10-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -2827,17 +2676,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Marburg virus disease - Rwanda"
     ],
-    "scraped_at": "2026-01-29T09:46:46.367924",
-    "first_seen_utc": "2026-01-29T04:01:46.367939"
+    "scraped_at": "2026-01-29T21:41:14.768599",
+    "first_seen_utc": "2026-01-29T15:56:14.768619"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON538",
     "title": "West Nile virus - Barbados",
     "published_date": "2024-10-03",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -2936,17 +2787,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "West Nile virus - Barbados"
     ],
-    "scraped_at": "2026-01-29T09:46:47.897755",
-    "first_seen_utc": "2026-01-29T04:01:47.897826"
+    "scraped_at": "2026-01-29T21:41:15.876551",
+    "first_seen_utc": "2026-01-29T15:56:15.876570"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON536",
     "title": "Middle East respiratory syndrome coronavirus - Kingdom of Saudi Arabia",
     "published_date": "2024-10-02",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3108,17 +2961,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus - Kingdom of Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:46:49.284030",
-    "first_seen_utc": "2026-01-29T04:01:49.284044"
+    "scraped_at": "2026-01-29T21:41:16.987160",
+    "first_seen_utc": "2026-01-29T15:56:16.987177"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON537",
     "title": "Marburg virus disease - Rwanda",
     "published_date": "2024-09-30",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3375,17 +3230,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Marburg virus disease - Rwanda"
     ],
-    "scraped_at": "2026-01-29T09:46:50.979020",
-    "first_seen_utc": "2026-01-29T04:01:50.979035"
+    "scraped_at": "2026-01-29T21:41:18.082554",
+    "first_seen_utc": "2026-01-29T15:56:18.082570"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON534",
     "title": "Avian Influenza A(H9N2) - Ghana",
     "published_date": "2024-09-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3505,17 +3362,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A(H9N2) - Ghana"
     ],
-    "scraped_at": "2026-01-29T09:46:52.466083",
-    "first_seen_utc": "2026-01-29T04:01:52.466097"
+    "scraped_at": "2026-01-29T21:41:19.165645",
+    "first_seen_utc": "2026-01-29T15:56:19.165661"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON532",
     "title": "Influenza A(H1N1) variant virus - Viet Nam",
     "published_date": "2024-09-04",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3705,17 +3564,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A(H1N1) variant virus - Viet Nam"
     ],
-    "scraped_at": "2026-01-29T09:46:53.856024",
-    "first_seen_utc": "2026-01-29T04:01:53.856039"
+    "scraped_at": "2026-01-29T21:41:20.296874",
+    "first_seen_utc": "2026-01-29T15:56:20.296893"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON533",
     "title": "Avian Influenza A(H5N1) - Cambodia",
     "published_date": "2024-09-02",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3866,17 +3727,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A(H5N1) - Cambodia"
     ],
-    "scraped_at": "2026-01-29T09:46:55.255428",
-    "first_seen_utc": "2026-01-29T04:01:55.255448"
+    "scraped_at": "2026-01-29T21:41:21.390550",
+    "first_seen_utc": "2026-01-29T15:56:21.390565"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON531",
     "title": "Mpox - Sweden",
     "published_date": "2024-08-30",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4070,17 +3933,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Mpox - Sweden"
     ],
-    "scraped_at": "2026-01-29T09:46:56.719080",
-    "first_seen_utc": "2026-01-29T04:01:56.719096"
+    "scraped_at": "2026-01-29T21:41:23.512904",
+    "first_seen_utc": "2026-01-29T15:56:23.512926"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON530",
     "title": "Oropouche virus disease - Region of the Americas",
     "published_date": "2024-08-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4215,17 +4080,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Oropouche virus disease - Region of the Americas"
     ],
-    "scraped_at": "2026-01-29T09:46:58.605517",
-    "first_seen_utc": "2026-01-29T04:01:58.605532"
+    "scraped_at": "2026-01-29T21:41:24.564733",
+    "first_seen_utc": "2026-01-29T15:56:24.564749"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON529",
     "title": "Acute encephalitis syndrome due to Chandipura virus - India",
     "published_date": "2024-08-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4360,17 +4227,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Acute encephalitis syndrome due to Chandipura virus - India"
     ],
-    "scraped_at": "2026-01-29T09:47:00.088488",
-    "first_seen_utc": "2026-01-29T04:02:00.088503"
+    "scraped_at": "2026-01-29T21:41:25.662620",
+    "first_seen_utc": "2026-01-29T15:56:25.662635"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON528",
     "title": "Mpox – African Region",
     "published_date": "2024-08-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4749,17 +4618,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Mpox – African Region"
     ],
-    "scraped_at": "2026-01-29T09:47:01.553955",
-    "first_seen_utc": "2026-01-29T04:02:01.553974"
+    "scraped_at": "2026-01-29T21:41:26.838239",
+    "first_seen_utc": "2026-01-29T15:56:26.838259"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON527",
     "title": "Antimicrobial Resistance, Hypervirulent Klebsiella pneumoniae - Global situation",
     "published_date": "2024-07-31",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4961,17 +4832,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Antimicrobial Resistance, Hypervirulent Klebsiella pneumoniae - Global situation"
     ],
-    "scraped_at": "2026-01-29T09:47:03.090581",
-    "first_seen_utc": "2026-01-29T04:02:03.090597"
+    "scraped_at": "2026-01-29T21:41:28.008104",
+    "first_seen_utc": "2026-01-29T15:56:28.008121"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON526",
     "title": "Dengue - Iran (Islamic Republic of)",
     "published_date": "2024-07-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -5142,17 +5015,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue - Iran (Islamic Republic of)"
     ],
-    "scraped_at": "2026-01-29T09:47:04.641920",
-    "first_seen_utc": "2026-01-29T04:02:04.641937"
+    "scraped_at": "2026-01-29T21:41:29.119781",
+    "first_seen_utc": "2026-01-29T15:56:29.119800"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON525",
     "title": "Mpox - South Africa",
     "published_date": "2024-07-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -5448,17 +5323,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Mpox - South Africa"
     ],
-    "scraped_at": "2026-01-29T09:47:07.002101",
-    "first_seen_utc": "2026-01-29T04:02:07.002121"
+    "scraped_at": "2026-01-29T21:41:30.243490",
+    "first_seen_utc": "2026-01-29T15:56:30.243507"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON524",
     "title": "Avian Influenza A(H5N2) - Mexico",
     "published_date": "2024-06-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -5804,17 +5681,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A(H5N2) - Mexico"
     ],
-    "scraped_at": "2026-01-29T09:47:08.363225",
-    "first_seen_utc": "2026-01-29T04:02:08.363244"
+    "scraped_at": "2026-01-29T21:41:31.315110",
+    "first_seen_utc": "2026-01-29T15:56:31.315127"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON522",
     "title": "Mpox - Democratic Republic of the Congo",
     "published_date": "2024-06-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -6121,17 +6000,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Mpox - Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:47:10.387115",
-    "first_seen_utc": "2026-01-29T04:02:10.387134"
+    "scraped_at": "2026-01-29T21:41:32.494979",
+    "first_seen_utc": "2026-01-29T15:56:32.494996"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON523",
     "title": "Avian Influenza A (H9N2) - India",
     "published_date": "2024-06-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -6274,17 +6155,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A (H9N2) - India"
     ],
-    "scraped_at": "2026-01-29T09:47:11.856995",
-    "first_seen_utc": "2026-01-29T04:02:11.857014"
+    "scraped_at": "2026-01-29T21:41:33.598613",
+    "first_seen_utc": "2026-01-29T15:56:33.598629"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON521",
     "title": "Oropouche virus disease - Cuba",
     "published_date": "2024-06-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -6423,17 +6306,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Oropouche virus disease - Cuba"
     ],
-    "scraped_at": "2026-01-29T09:47:13.769059",
-    "first_seen_utc": "2026-01-29T04:02:13.769075"
+    "scraped_at": "2026-01-29T21:41:34.727999",
+    "first_seen_utc": "2026-01-29T15:56:34.728016"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON519",
     "title": "Avian Influenza A (H5N1) - Australia",
     "published_date": "2024-06-07",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -6589,17 +6474,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A (H5N1) - Australia"
     ],
-    "scraped_at": "2026-01-29T09:47:15.115930",
-    "first_seen_utc": "2026-01-29T04:02:15.115944"
+    "scraped_at": "2026-01-29T21:41:35.838732",
+    "first_seen_utc": "2026-01-29T15:56:35.838751"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON520",
     "title": "Avian Influenza A(H5N2) - Mexico",
     "published_date": "2024-06-05",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -6791,17 +6678,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A(H5N2) - Mexico"
     ],
-    "scraped_at": "2026-01-29T09:47:16.697605",
-    "first_seen_utc": "2026-01-29T04:02:16.697619"
+    "scraped_at": "2026-01-29T21:41:36.931351",
+    "first_seen_utc": "2026-01-29T15:56:36.931367"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON518",
     "title": "Dengue - Global situation",
     "published_date": "2024-05-30",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -7140,17 +7029,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue - Global situation"
     ],
-    "scraped_at": "2026-01-29T09:47:18.347436",
-    "first_seen_utc": "2026-01-29T04:02:18.347452"
+    "scraped_at": "2026-01-29T21:41:37.983230",
+    "first_seen_utc": "2026-01-29T15:56:37.983250"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON517",
     "title": "Hepatitis E - Chad",
     "published_date": "2024-05-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -7289,17 +7180,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Hepatitis E - Chad"
     ],
-    "scraped_at": "2026-01-29T09:47:19.815711",
-    "first_seen_utc": "2026-01-29T04:02:19.815727"
+    "scraped_at": "2026-01-29T21:41:39.027349",
+    "first_seen_utc": "2026-01-29T15:56:39.027367"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON516",
     "title": "Middle East respiratory syndrome coronavirus-Kingdom of Saudi Arabia",
     "published_date": "2024-05-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -7455,17 +7348,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus-Kingdom of Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:47:21.865180",
-    "first_seen_utc": "2026-01-29T04:02:21.865215"
+    "scraped_at": "2026-01-29T21:41:40.062602",
+    "first_seen_utc": "2026-01-29T15:56:40.062620"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON514",
     "title": "Avian Influenza A(H9N2) - Viet Nam",
     "published_date": "2024-04-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -7581,17 +7476,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A(H9N2) - Viet Nam"
     ],
-    "scraped_at": "2026-01-29T09:47:23.304994",
-    "first_seen_utc": "2026-01-29T04:02:23.305009"
+    "scraped_at": "2026-01-29T21:41:41.100134",
+    "first_seen_utc": "2026-01-29T15:56:41.100152"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON513",
     "title": "Rabies - Timor-Leste",
     "published_date": "2024-04-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -7743,17 +7640,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Rabies - Timor-Leste"
     ],
-    "scraped_at": "2026-01-29T09:47:24.762358",
-    "first_seen_utc": "2026-01-29T04:02:24.762374"
+    "scraped_at": "2026-01-29T21:41:42.212052",
+    "first_seen_utc": "2026-01-29T15:56:42.212071"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON512",
     "title": "Avian Influenza A(H5N1) - United States of America",
     "published_date": "2024-04-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -7988,17 +7887,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A(H5N1) - United States of America"
     ],
-    "scraped_at": "2026-01-29T09:47:26.154431",
-    "first_seen_utc": "2026-01-29T04:02:26.154446"
+    "scraped_at": "2026-01-29T21:41:43.265075",
+    "first_seen_utc": "2026-01-29T15:56:43.265092"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON511",
     "title": "Avian Influenza A(H5N1) - Viet Nam",
     "published_date": "2024-04-02",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -8132,17 +8033,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A(H5N1) - Viet Nam"
     ],
-    "scraped_at": "2026-01-29T09:47:27.511240",
-    "first_seen_utc": "2026-01-29T04:02:27.511255"
+    "scraped_at": "2026-01-29T21:41:44.342013",
+    "first_seen_utc": "2026-01-29T15:56:44.342030"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON510",
     "title": "Yellow fever – African Region (AFRO)",
     "published_date": "2024-03-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -8318,17 +8221,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow fever – African Region (AFRO)"
     ],
-    "scraped_at": "2026-01-29T09:47:28.970367",
-    "first_seen_utc": "2026-01-29T04:02:28.970382"
+    "scraped_at": "2026-01-29T21:41:45.419230",
+    "first_seen_utc": "2026-01-29T15:56:45.419247"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON509",
     "title": "Psittacosis – European region",
     "published_date": "2024-03-05",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -8455,17 +8360,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Psittacosis – European region"
     ],
-    "scraped_at": "2026-01-29T09:47:30.392278",
-    "first_seen_utc": "2026-01-29T04:02:30.392303"
+    "scraped_at": "2026-01-29T21:41:46.487283",
+    "first_seen_utc": "2026-01-29T15:56:46.487301"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON508",
     "title": "Nipah virus infection - Bangladesh",
     "published_date": "2024-02-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -8613,17 +8520,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Nipah virus infection - Bangladesh"
     ],
-    "scraped_at": "2026-01-29T09:47:32.765909",
-    "first_seen_utc": "2026-01-29T04:02:32.765925"
+    "scraped_at": "2026-01-29T21:41:47.518171",
+    "first_seen_utc": "2026-01-29T15:56:47.518190"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON506",
     "title": "Middle East Respiratory Syndrome Coronavirus  - Kingdom of Saudi Arabia",
     "published_date": "2024-02-16",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -8760,17 +8669,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East Respiratory Syndrome Coronavirus  - Kingdom of Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:47:34.767197",
-    "first_seen_utc": "2026-01-29T04:02:34.767214"
+    "scraped_at": "2026-01-29T21:41:48.644945",
+    "first_seen_utc": "2026-01-29T15:56:48.644960"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON504",
     "title": "Avian Influenza A(H10N5) and Influenza A(H3N2) coinfection - China",
     "published_date": "2024-02-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -8899,17 +8810,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A(H10N5) and Influenza A(H3N2) coinfection - China"
     ],
-    "scraped_at": "2026-01-29T09:47:36.143637",
-    "first_seen_utc": "2026-01-29T04:02:36.143652"
+    "scraped_at": "2026-01-29T21:41:49.675730",
+    "first_seen_utc": "2026-01-29T15:56:49.675761"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON503",
     "title": "Influenza A(H1N1) variant virus - Spain",
     "published_date": "2024-02-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9096,17 +9009,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A(H1N1) variant virus - Spain"
     ],
-    "scraped_at": "2026-01-29T09:47:37.873153",
-    "first_seen_utc": "2026-01-29T04:02:37.873175"
+    "scraped_at": "2026-01-29T21:41:50.846078",
+    "first_seen_utc": "2026-01-29T15:56:50.846096"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON505",
     "title": "Western Equine Encephalitis - Uruguay",
     "published_date": "2024-02-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9283,17 +9198,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Western Equine Encephalitis - Uruguay"
     ],
-    "scraped_at": "2026-01-29T09:47:39.462055",
-    "first_seen_utc": "2026-01-29T04:02:39.462074"
+    "scraped_at": "2026-01-29T21:41:51.982970",
+    "first_seen_utc": "2026-01-29T15:56:51.983001"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON501",
     "title": "Avian Influenza A (H5N1) - Cambodia",
     "published_date": "2024-02-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9441,17 +9358,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Avian Influenza A (H5N1) - Cambodia"
     ],
-    "scraped_at": "2026-01-29T09:47:40.819781",
-    "first_seen_utc": "2026-01-29T04:02:40.819799"
+    "scraped_at": "2026-01-29T21:41:53.036419",
+    "first_seen_utc": "2026-01-29T15:56:53.036439"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON502",
     "title": "Influenza A (H1N1) variant virus - Brazil",
     "published_date": "2024-02-07",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9631,17 +9550,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A (H1N1) variant virus - Brazil"
     ],
-    "scraped_at": "2026-01-29T09:47:42.741123",
-    "first_seen_utc": "2026-01-29T04:02:42.741140"
+    "scraped_at": "2026-01-29T21:41:54.380508",
+    "first_seen_utc": "2026-01-29T15:56:54.380525"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2024-DON500",
     "title": "Circulating vaccine-derived poliovirus type 2 (cVDPV2) - Indonesia",
     "published_date": "2024-01-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -9772,9 +9693,10 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 2 (cVDPV2) - Indonesia"
     ],
-    "scraped_at": "2026-01-29T09:47:44.217933",
-    "first_seen_utc": "2026-01-29T04:02:44.217948"
+    "scraped_at": "2026-01-29T21:41:55.669767",
+    "first_seen_utc": "2026-01-29T15:56:55.669786"
   }
 ]

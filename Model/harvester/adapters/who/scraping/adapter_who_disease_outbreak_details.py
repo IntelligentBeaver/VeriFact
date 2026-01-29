@@ -2,6 +2,7 @@ import json
 import os
 import argparse
 import time
+import re
 from datetime import datetime
 from urllib.parse import urljoin
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -24,6 +25,37 @@ articles_by_year_lock = Lock()
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
+def fetch_with_retries(url, headers, timeout=15, max_retries=5, backoff_base=2.0, backoff_min=2.0, backoff_max=60.0):
+    """Fetch a URL with retry/backoff support for 429 and transient errors."""
+    last_err = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            resp = requests.get(url, headers=headers, timeout=timeout)
+            if resp.status_code == 429:
+                retry_after = resp.headers.get("Retry-After")
+                if retry_after:
+                    try:
+                        sleep_for = float(retry_after)
+                    except ValueError:
+                        sleep_for = backoff_min
+                else:
+                    sleep_for = min(backoff_max, max(backoff_min, backoff_base ** (attempt - 1)))
+                time.sleep(sleep_for)
+                last_err = requests.HTTPError(f"429 Too Many Requests for url: {url}")
+                continue
+            resp.raise_for_status()
+            return resp
+        except (requests.Timeout, requests.ConnectionError, requests.HTTPError) as e:
+            last_err = e
+            if attempt >= max_retries:
+                break
+            sleep_for = min(backoff_max, max(backoff_min, backoff_base ** (attempt - 1)))
+            time.sleep(sleep_for)
+    if last_err:
+        raise last_err
+    raise requests.HTTPError(f"Failed to fetch url: {url}")
+
+
 def load_existing_items(filepath):
     """Load existing articles from a year JSON file."""
     if not os.path.exists(filepath):
@@ -32,11 +64,40 @@ def load_existing_items(filepath):
         return json.load(f)
 
 
+def extract_media_contacts(block):
+    """Extract media contacts from a BeautifulSoup element block."""
+    contacts = []
+    if not block:
+        return contacts
+    
+    raw = block.get_text("\n", strip=True)
+    # split into persons by double newlines or by occurrence of 'Spokesperson'/'Communication Officer'
+    persons = re.split(r'\n{2,}', raw)
+    for p in persons:
+        p = p.strip()
+        if not p:
+            continue
+        # find emails and phones
+        emails = re.findall(r'[\w\.-]+@[\w\.-]+', p)
+        phones = re.findall(r'(\+?\d[\d\s\-\(\)]+)', p)
+        # first line as name (approx)
+        lines = [l.strip() for l in p.splitlines() if l.strip()]
+        name = lines[0] if lines else None
+        role = lines[1] if len(lines) > 1 else None
+        contacts.append({
+            "name": name,
+            "role": role,
+            "emails": emails or None,
+            "phones": phones or None,
+            "raw": p
+        })
+    return contacts
+
+
 def extract_year_from_date(date_str):
     """Extract year from date string."""
     if not date_str:
         return None
-    import re
     match = re.search(r'\b(19|20)\d{2}\b', str(date_str))
     if match:
         return int(match.group(0))
@@ -167,8 +228,7 @@ def scrape_disease_outbreak_article(url):
     Extracts sections using the don-revamp structure.
     """
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=15)
-        resp.raise_for_status()
+        resp = fetch_with_retries(url, headers=HEADERS, timeout=15)
         base = resp.url
         soup = BeautifulSoup(resp.text, "html.parser")
         
@@ -180,12 +240,6 @@ def scrape_disease_outbreak_article(url):
         date_el = soup.select_one(".sf-item-header-wrapper span.timestamp") or soup.select_one("span.timestamp")
         date_text = date_el.get_text(strip=True) if date_el else None
         date = parse_date_str(date_text) if date_text else None
-        
-        # Extract disease/location from title or header tags
-        header_tag_items = [t.get_text(strip=True) for t in soup.select(".sf-item-header-wrapper .sf-tags-list-item")]
-        header_tag_items = [t for t in header_tag_items if t]
-        disease = header_tag_items[0] if header_tag_items else None
-        location = " | ".join(header_tag_items[1:]) if len(header_tag_items) > 1 else None
         
         # Find main article container
         article_container = soup.select_one("article.sf-detail-body-wrapper.don-revamp")
@@ -219,17 +273,61 @@ def scrape_disease_outbreak_article(url):
         if og and og.get("content"):
             images.append(urljoin(base, og["content"]))
         
+        # Extract media contacts and author
+        contacts = []
+        mc_header = soup.find(lambda tag: tag.name in ("h2", "h3", "strong", "p")
+                              and re.search(r"\bmedia\b", tag.get_text(), re.I))
+        if mc_header:
+            block = mc_header.find_next_sibling()
+            nodes = []
+            cur = block
+            # collect until next h2/h3/hr or until we've collected a few nodes
+            while cur and not (cur.name in ("h2", "h3") or cur.name == "hr"):
+                nodes.append(cur)
+                cur = cur.find_next_sibling()
+            if nodes:
+                bs = BeautifulSoup("<div>" + "".join(str(n) for n in nodes) + "</div>", "html.parser")
+                contacts = extract_media_contacts(bs.div)
+        
+        # Author: use media contact names (comma-separated if multiple)
+        author = None
+        if contacts:
+            names = [c.get("name") for c in contacts if c.get("name")]
+            author = ", ".join(names) if names else None
+        
+        # Default to WHO if no author or if author looks like malformed data
+        if not author:
+            author = "WHO"
+        else:
+            # Validate author - replace with WHO if it looks like malformed data
+            author_stripped = author.strip()
+            
+            is_invalid = (
+                re.search(r'\d{4}[-/]\d{1,2}[-/]\d{1,2}', author_stripped) or  # Date: YYYY-MM-DD
+                re.search(r'\d{1,2}[-/]\d{1,2}[-/]\d{4}', author_stripped) or  # Date: DD-MM-YYYY
+                re.search(r'\d{2}:\d{2}', author_stripped) or  # Time: HH:MM
+                re.search(r'@[\w\.-]+\.\w+', author_stripped) or  # Email domain
+                re.search(r'https?://', author_stripped, re.I) or  # URL
+                re.search(r'^(contact|media|information|unknown|n/a|none)$', author_stripped, re.I) or  # Generic text
+                len(author_stripped) < 2 or  # Too short
+                len(author_stripped) > 150 or  # Suspiciously long
+                sum(c.isdigit() for c in author_stripped) / max(len(author_stripped), 1) > 0.5  # >50% digits
+            )
+            
+            if is_invalid:
+                author = "WHO"
+        
         result = {
             "url": base,
             "title": title,
             "published_date": date,
-            "disease": disease,
-            "location": location,
-            # "lead": lead,
+            "author": author,
+            "medically_reviewed_by": "World Health Organization (WHO)",
+            "topics": "Disease Outbreak",
             "sections": sections,
             "references": references,
             "images": images,
-            "tags": [t for t in ["WHO", "Disease Outbreak", disease] if t],
+            "tags": [t for t in ["WHO", "Disease Outbreak", title] if t],
             "scraped_at": datetime.now().isoformat(),
             "first_seen_utc": datetime.utcnow().isoformat()
         }
@@ -396,8 +494,8 @@ def main():
     parser.add_argument(
         "--min-year",
         type=int,
-        default=2015,
-        help="Minimum year to extract (default: 2015)"
+        default=2000,
+        help="Minimum year to extract (default: 2000)"
     )
     parser.add_argument(
         "--max-articles",

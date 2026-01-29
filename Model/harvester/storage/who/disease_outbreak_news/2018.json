@@ -3,8 +3,9 @@
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/28-december-2018-mers-saudi-arabia-en",
     "title": "Middle east respiratory syndrome coronavirus (MERS-CoV) – Saudi Arabia",
     "published_date": "2018-12-28",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -48,17 +49,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle east respiratory syndrome coronavirus (MERS-CoV) – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:48:43.354272",
-    "first_seen_utc": "2026-01-29T04:03:43.354289"
+    "scraped_at": "2026-01-29T21:42:48.147433",
+    "first_seen_utc": "2026-01-29T15:57:48.147451"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/28-december-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-12-28",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -160,17 +163,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:48:44.753756",
-    "first_seen_utc": "2026-01-29T04:03:44.753772"
+    "scraped_at": "2026-01-29T21:42:49.383649",
+    "first_seen_utc": "2026-01-29T15:57:49.383666"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-december-2018-typhoid-pakistan-en",
     "title": "Typhoid fever – Pakistan",
     "published_date": "2018-12-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -275,17 +280,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Typhoid fever – Pakistan"
     ],
-    "scraped_at": "2026-01-29T09:48:46.186881",
-    "first_seen_utc": "2026-01-29T04:03:46.186895"
+    "scraped_at": "2026-01-29T21:42:50.776335",
+    "first_seen_utc": "2026-01-29T15:57:50.776353"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-december-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-12-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -388,17 +395,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:48:47.985607",
-    "first_seen_utc": "2026-01-29T04:03:47.985624"
+    "scraped_at": "2026-01-29T21:42:52.113441",
+    "first_seen_utc": "2026-01-29T15:57:52.113460"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/18-December-2018-yellowfever-netherlands-en",
     "title": "Yellow Fever – Netherlands",
     "published_date": "2018-12-18",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -467,17 +476,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow Fever – Netherlands"
     ],
-    "scraped_at": "2026-01-29T09:48:49.336791",
-    "first_seen_utc": "2026-01-29T04:03:49.336806"
+    "scraped_at": "2026-01-29T21:42:53.382504",
+    "first_seen_utc": "2026-01-29T15:57:53.382529"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/13-December-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-12-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -579,17 +590,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:48:50.719072",
-    "first_seen_utc": "2026-01-29T04:03:50.719086"
+    "scraped_at": "2026-01-29T21:42:54.747917",
+    "first_seen_utc": "2026-01-29T15:57:54.747944"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/06-December-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-12-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -693,17 +706,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:48:52.057499",
-    "first_seen_utc": "2026-01-29T04:03:52.057513"
+    "scraped_at": "2026-01-29T21:42:56.000757",
+    "first_seen_utc": "2026-01-29T15:57:56.000792"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-november-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-11-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -800,17 +815,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:48:53.967142",
-    "first_seen_utc": "2026-01-29T04:03:53.967158"
+    "scraped_at": "2026-01-29T21:42:57.253987",
+    "first_seen_utc": "2026-01-29T15:57:57.254007"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-november-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-11-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -910,17 +927,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:48:55.344217",
-    "first_seen_utc": "2026-01-29T04:03:55.344231"
+    "scraped_at": "2026-01-29T21:42:58.540318",
+    "first_seen_utc": "2026-01-29T15:57:58.540340"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-november-2018-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus (MERS-CoV) – Saudi Arabia",
     "published_date": "2018-11-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -963,17 +982,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus (MERS-CoV) – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:48:56.769023",
-    "first_seen_utc": "2026-01-29T04:03:56.769040"
+    "scraped_at": "2026-01-29T21:42:59.805691",
+    "first_seen_utc": "2026-01-29T15:57:59.805710"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/15-november-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-11-15",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1068,17 +1089,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:48:58.220878",
-    "first_seen_utc": "2026-01-29T04:03:58.220893"
+    "scraped_at": "2026-01-29T21:43:01.030428",
+    "first_seen_utc": "2026-01-29T15:58:01.030451"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/08-november-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-11-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1175,17 +1198,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:48:59.682646",
-    "first_seen_utc": "2026-01-29T04:03:59.682659"
+    "scraped_at": "2026-01-29T21:43:02.349228",
+    "first_seen_utc": "2026-01-29T15:58:02.349247"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/01-november-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-11-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1282,17 +1307,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:01.652812",
-    "first_seen_utc": "2026-01-29T04:04:01.652826"
+    "scraped_at": "2026-01-29T21:43:03.639422",
+    "first_seen_utc": "2026-01-29T15:58:03.639438"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/01-november-2018-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus (MERS-CoV) – Saudi Arabia",
     "published_date": "2018-11-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1336,17 +1363,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus (MERS-CoV) – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:49:03.301334",
-    "first_seen_utc": "2026-01-29T04:04:03.301350"
+    "scraped_at": "2026-01-29T21:43:04.931519",
+    "first_seen_utc": "2026-01-29T15:58:04.931538"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/30-october-2018-polio-niger-en",
     "title": "Circulating vaccine-derived poliovirus type 2 – Niger",
     "published_date": "2018-10-30",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1397,17 +1426,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 2 – Niger"
     ],
-    "scraped_at": "2026-01-29T09:49:04.882002",
-    "first_seen_utc": "2026-01-29T04:04:04.882020"
+    "scraped_at": "2026-01-29T21:43:06.188756",
+    "first_seen_utc": "2026-01-29T15:58:06.188779"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/25-october-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-10-25",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1499,17 +1530,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:06.365832",
-    "first_seen_utc": "2026-01-29T04:04:06.365849"
+    "scraped_at": "2026-01-29T21:43:07.502512",
+    "first_seen_utc": "2026-01-29T15:58:07.502554"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/18-october-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-10-18",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1599,17 +1632,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:07.755120",
-    "first_seen_utc": "2026-01-29T04:04:07.755135"
+    "scraped_at": "2026-01-29T21:43:08.918101",
+    "first_seen_utc": "2026-01-29T15:58:08.918126"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/15-october-2018-chikungunya-sudan-en",
     "title": "Chikungunya – Sudan",
     "published_date": "2018-10-15",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1669,17 +1704,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Chikungunya – Sudan"
     ],
-    "scraped_at": "2026-01-29T09:49:09.101237",
-    "first_seen_utc": "2026-01-29T04:04:09.101251"
+    "scraped_at": "2026-01-29T21:43:10.175113",
+    "first_seen_utc": "2026-01-29T15:58:10.175130"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-october-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-10-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1767,17 +1804,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:10.658588",
-    "first_seen_utc": "2026-01-29T04:04:10.658603"
+    "scraped_at": "2026-01-29T21:43:11.411224",
+    "first_seen_utc": "2026-01-29T15:58:11.411238"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/05-october-2018-cholera-zimbabwe-en",
     "title": "Cholera – Zimbabwe",
     "published_date": "2018-10-05",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1856,17 +1895,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – Zimbabwe"
     ],
-    "scraped_at": "2026-01-29T09:49:12.174845",
-    "first_seen_utc": "2026-01-29T04:04:12.174860"
+    "scraped_at": "2026-01-29T21:43:12.703948",
+    "first_seen_utc": "2026-01-29T15:58:12.703963"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/05-october-2018-monkeypox-nigeria-en",
     "title": "Monkeypox – Nigeria",
     "published_date": "2018-10-05",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -1930,17 +1971,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Monkeypox – Nigeria"
     ],
-    "scraped_at": "2026-01-29T09:49:13.645594",
-    "first_seen_utc": "2026-01-29T04:04:13.645611"
+    "scraped_at": "2026-01-29T21:43:13.928966",
+    "first_seen_utc": "2026-01-29T15:58:13.928984"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/05-october-2018-cholera-niger-en",
     "title": "Cholera – Niger",
     "published_date": "2018-10-05",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2006,17 +2049,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – Niger"
     ],
-    "scraped_at": "2026-01-29T09:49:15.558308",
-    "first_seen_utc": "2026-01-29T04:04:15.558323"
+    "scraped_at": "2026-01-29T21:43:15.159142",
+    "first_seen_utc": "2026-01-29T15:58:15.159161"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/04-october-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-10-04",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2111,17 +2156,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:17.082374",
-    "first_seen_utc": "2026-01-29T04:04:17.082388"
+    "scraped_at": "2026-01-29T21:43:16.375752",
+    "first_seen_utc": "2026-01-29T15:58:16.375769"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/03-october-2018-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus (MERS-CoV) – Saudi Arabia",
     "published_date": "2018-10-03",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2184,17 +2231,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus (MERS-CoV) – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:49:18.482563",
-    "first_seen_utc": "2026-01-29T04:04:18.482576"
+    "scraped_at": "2026-01-29T21:43:17.583617",
+    "first_seen_utc": "2026-01-29T15:58:17.583634"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-september-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-09-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2288,17 +2337,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:20.137326",
-    "first_seen_utc": "2026-01-29T04:04:20.137343"
+    "scraped_at": "2026-01-29T21:43:18.818736",
+    "first_seen_utc": "2026-01-29T15:58:18.818753"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-september-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-09-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2387,17 +2438,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:21.628177",
-    "first_seen_utc": "2026-01-29T04:04:21.628193"
+    "scraped_at": "2026-01-29T21:43:20.139564",
+    "first_seen_utc": "2026-01-29T15:58:20.139583"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-september-2018-cholera-zimbabwe-en",
     "title": "Cholera – Zimbabwe",
     "published_date": "2018-09-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2468,17 +2521,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – Zimbabwe"
     ],
-    "scraped_at": "2026-01-29T09:49:23.048792",
-    "first_seen_utc": "2026-01-29T04:04:23.048807"
+    "scraped_at": "2026-01-29T21:43:21.356977",
+    "first_seen_utc": "2026-01-29T15:58:21.356994"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-september-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-09-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2569,17 +2624,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:24.473737",
-    "first_seen_utc": "2026-01-29T04:04:24.473752"
+    "scraped_at": "2026-01-29T21:43:22.586115",
+    "first_seen_utc": "2026-01-29T15:58:22.586130"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-september-2018-cholera-algeria-en",
     "title": "Cholera – Algeria",
     "published_date": "2018-09-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2656,17 +2713,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – Algeria"
     ],
-    "scraped_at": "2026-01-29T09:49:25.817294",
-    "first_seen_utc": "2026-01-29T04:04:25.817308"
+    "scraped_at": "2026-01-29T21:43:23.796277",
+    "first_seen_utc": "2026-01-29T15:58:23.796295"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-september-2018-mers-republic-of-korea-en",
     "title": "Middle East respiratory syndrome coronavirus (MERS-CoV) – Republic of Korea",
     "published_date": "2018-09-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2716,17 +2775,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus (MERS-CoV) – Republic of Korea"
     ],
-    "scraped_at": "2026-01-29T09:49:27.267900",
-    "first_seen_utc": "2026-01-29T04:04:27.267915"
+    "scraped_at": "2026-01-29T21:48:25.604554",
+    "first_seen_utc": "2026-01-29T16:03:25.604570"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/7-september-2018-yellow-fever-congo-en",
     "title": "Yellow fever – Republic of the Congo",
     "published_date": "2018-09-07",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2771,17 +2832,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow fever – Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:28.849367",
-    "first_seen_utc": "2026-01-29T04:04:28.849384"
+    "scraped_at": "2026-01-29T21:48:26.894306",
+    "first_seen_utc": "2026-01-29T16:03:26.894320"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/7-september-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-09-07",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2873,17 +2936,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:30.302220",
-    "first_seen_utc": "2026-01-29T04:04:30.302239"
+    "scraped_at": "2026-01-29T21:48:28.114276",
+    "first_seen_utc": "2026-01-29T16:03:28.114293"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/05-september-2018-ah7n9-china-en",
     "title": "Human infection with avian influenza A(H7N9) virus – China",
     "published_date": "2018-09-05",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -2950,17 +3015,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Human infection with avian influenza A(H7N9) virus – China"
     ],
-    "scraped_at": "2026-01-29T09:49:31.763189",
-    "first_seen_utc": "2026-01-29T04:04:31.763208"
+    "scraped_at": "2026-01-29T21:48:29.428153",
+    "first_seen_utc": "2026-01-29T16:03:29.428167"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/31-august-2018-mers-united-kingdom-en",
     "title": "Middle East respiratory syndrome coronavirus (MERS-CoV) – United Kingdom of Great Britain and Northern Ireland",
     "published_date": "2018-08-31",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3012,17 +3079,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus (MERS-CoV) – United Kingdom of Great Britain and Northern Ireland"
     ],
-    "scraped_at": "2026-01-29T09:49:33.108136",
-    "first_seen_utc": "2026-01-29T04:04:33.108151"
+    "scraped_at": "2026-01-29T21:48:30.694907",
+    "first_seen_utc": "2026-01-29T16:03:30.694921"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/31-august-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-08-31",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3123,17 +3192,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:35.076346",
-    "first_seen_utc": "2026-01-29T04:04:35.076366"
+    "scraped_at": "2026-01-29T21:48:31.998138",
+    "first_seen_utc": "2026-01-29T16:03:31.998156"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/24-august-2018-yellow-fever-french-guiana-en",
     "title": "Yellow fever – France (French Guiana)",
     "published_date": "2018-08-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3191,17 +3262,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow fever – France (French Guiana)"
     ],
-    "scraped_at": "2026-01-29T09:49:36.581374",
-    "first_seen_utc": "2026-01-29T04:04:36.581389"
+    "scraped_at": "2026-01-29T21:48:33.279441",
+    "first_seen_utc": "2026-01-29T16:03:33.279454"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/24-august-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-08-24",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3316,17 +3389,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:38.355142",
-    "first_seen_utc": "2026-01-29T04:04:38.355159"
+    "scraped_at": "2026-01-29T21:48:34.554952",
+    "first_seen_utc": "2026-01-29T16:03:34.554969"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/17-august-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-08-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3427,17 +3502,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:40.653534",
-    "first_seen_utc": "2026-01-29T04:04:40.653555"
+    "scraped_at": "2026-01-29T21:48:37.289727",
+    "first_seen_utc": "2026-01-29T16:03:37.289742"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-august-2018-ebola-drc-en",
     "title": "Ebola virus disease - Democratic Republic of the Congo",
     "published_date": "2018-08-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -3577,17 +3654,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease - Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:42.218587",
-    "first_seen_utc": "2026-01-29T04:04:42.218601"
+    "scraped_at": "2026-01-29T21:48:38.524655",
+    "first_seen_utc": "2026-01-29T16:03:38.524672"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/9-august-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-08-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3673,17 +3752,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:43.694883",
-    "first_seen_utc": "2026-01-29T04:04:43.694898"
+    "scraped_at": "2026-01-29T21:48:39.793606",
+    "first_seen_utc": "2026-01-29T16:03:39.793622"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/08-august-2018-polio-nigeria-en",
     "title": "Circulating vaccine-derived poliovirus type 2 – Nigeria",
     "published_date": "2018-08-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3721,17 +3802,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 2 – Nigeria"
     ],
-    "scraped_at": "2026-01-29T09:49:45.145975",
-    "first_seen_utc": "2026-01-29T04:04:45.145991"
+    "scraped_at": "2026-01-29T21:48:41.079585",
+    "first_seen_utc": "2026-01-29T16:03:41.079600"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/07-august-2018-nipah-virus-india-en",
     "title": "Nipah virus – India",
     "published_date": "2018-08-07",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3798,17 +3881,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Nipah virus – India"
     ],
-    "scraped_at": "2026-01-29T09:49:46.629079",
-    "first_seen_utc": "2026-01-29T04:04:46.629096"
+    "scraped_at": "2026-01-29T21:48:42.387056",
+    "first_seen_utc": "2026-01-29T16:03:42.387073"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/4-august-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-08-04",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3876,17 +3961,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:47.953211",
-    "first_seen_utc": "2026-01-29T04:04:47.953225"
+    "scraped_at": "2026-01-29T21:48:43.728162",
+    "first_seen_utc": "2026-01-29T16:03:43.728179"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/25-july-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-07-25",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -3972,17 +4059,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:49.278526",
-    "first_seen_utc": "2026-01-29T04:04:49.278545"
+    "scraped_at": "2026-01-29T21:48:44.999583",
+    "first_seen_utc": "2026-01-29T16:03:44.999603"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/10-july-2018-polio-drc-en",
     "title": "Circulating vaccine-derived poliovirus type 2 – Democratic Republic of the Congo",
     "published_date": "2018-07-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4029,17 +4118,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 2 – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:50.614951",
-    "first_seen_utc": "2026-01-29T04:04:50.614971"
+    "scraped_at": "2026-01-29T21:48:46.334200",
+    "first_seen_utc": "2026-01-29T16:03:46.334220"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/06-july-2018-ebola-drc-en",
     "title": "2018 - Democratic Republic of the Congo",
     "published_date": "2018-07-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4111,17 +4202,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "2018 - Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:52.068697",
-    "first_seen_utc": "2026-01-29T04:04:52.068715"
+    "scraped_at": "2026-01-29T21:48:47.788387",
+    "first_seen_utc": "2026-01-29T16:03:47.788404"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/02-July-2018-polio-png-en",
     "title": "Circulating vaccine derived poliovirus – Papua New Guinea",
     "published_date": "2018-07-02",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4176,17 +4269,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine derived poliovirus – Papua New Guinea"
     ],
-    "scraped_at": "2026-01-29T09:49:53.579621",
-    "first_seen_utc": "2026-01-29T04:04:53.579642"
+    "scraped_at": "2026-01-29T21:48:49.007757",
+    "first_seen_utc": "2026-01-29T16:03:49.007772"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-june-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-06-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4249,17 +4344,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:49:54.940414",
-    "first_seen_utc": "2026-01-29T04:04:54.940428"
+    "scraped_at": "2026-01-29T21:48:50.290697",
+    "first_seen_utc": "2026-01-29T16:03:50.290730"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-june-2018-measles-japan-en",
     "title": "Measles – Japan",
     "published_date": "2018-06-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4330,17 +4427,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Measles – Japan"
     ],
-    "scraped_at": "2026-01-29T09:49:56.359918",
-    "first_seen_utc": "2026-01-29T04:04:56.359938"
+    "scraped_at": "2026-01-29T21:48:51.525599",
+    "first_seen_utc": "2026-01-29T16:03:51.525614"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/18-june-2018-rift-valley-fever-kenya-en",
     "title": "Rift Valley fever – Kenya",
     "published_date": "2018-06-18",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4408,17 +4507,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Rift Valley fever – Kenya"
     ],
-    "scraped_at": "2026-01-29T09:49:57.828390",
-    "first_seen_utc": "2026-01-29T04:04:57.828405"
+    "scraped_at": "2026-01-29T21:48:52.807332",
+    "first_seen_utc": "2026-01-29T16:03:52.807347"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/18-june-2018-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus (MERS-CoV) – Saudi Arabia",
     "published_date": "2018-06-18",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4474,17 +4575,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus (MERS-CoV) – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:49:59.298682",
-    "first_seen_utc": "2026-01-29T04:04:59.298697"
+    "scraped_at": "2026-01-29T21:48:54.125250",
+    "first_seen_utc": "2026-01-29T16:03:54.125265"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-june-2018-cholera-cameroon-en",
     "title": "Cholera – Cameroon",
     "published_date": "2018-06-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4559,17 +4662,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – Cameroon"
     ],
-    "scraped_at": "2026-01-29T09:50:00.962904",
-    "first_seen_utc": "2026-01-29T04:05:00.962919"
+    "scraped_at": "2026-01-29T21:48:55.419280",
+    "first_seen_utc": "2026-01-29T16:03:55.419297"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/13-june-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-06-13",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4636,17 +4741,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:50:02.296567",
-    "first_seen_utc": "2026-01-29T04:05:02.296582"
+    "scraped_at": "2026-01-29T21:48:56.639315",
+    "first_seen_utc": "2026-01-29T16:03:56.639330"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-june-2018-ebola-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-06-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -4783,17 +4890,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:50:03.811116",
-    "first_seen_utc": "2026-01-29T04:05:03.811138"
+    "scraped_at": "2026-01-29T21:48:57.890693",
+    "first_seen_utc": "2026-01-29T16:03:57.890710"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-june-2018-measles-brazil-en",
     "title": "Measles – Brazil",
     "published_date": "2018-06-11",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4870,17 +4979,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Measles – Brazil"
     ],
-    "scraped_at": "2026-01-29T09:50:05.734027",
-    "first_seen_utc": "2026-01-29T04:05:05.734054"
+    "scraped_at": "2026-01-29T21:48:59.189695",
+    "first_seen_utc": "2026-01-29T16:03:59.189710"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/06-june-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-06-06",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -4961,17 +5072,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:50:07.135531",
-    "first_seen_utc": "2026-01-29T04:05:07.135547"
+    "scraped_at": "2026-01-29T21:49:00.493446",
+    "first_seen_utc": "2026-01-29T16:04:00.493461"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/05-june-2018-monkeypox-cameroon-en",
     "title": "Monkeypox – Cameroon",
     "published_date": "2018-06-05",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5043,17 +5156,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Monkeypox – Cameroon"
     ],
-    "scraped_at": "2026-01-29T09:50:08.529508",
-    "first_seen_utc": "2026-01-29T04:05:08.529522"
+    "scraped_at": "2026-01-29T21:49:01.758280",
+    "first_seen_utc": "2026-01-29T16:04:01.758295"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/05-june-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-06-05",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -5150,17 +5265,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:50:09.989380",
-    "first_seen_utc": "2026-01-29T04:05:09.989394"
+    "scraped_at": "2026-01-29T21:49:03.046717",
+    "first_seen_utc": "2026-01-29T16:04:03.046733"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/31-may-2018-nipah-virus-india-en",
     "title": "Nipah virus - India",
     "published_date": "2018-05-31",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5227,17 +5344,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Nipah virus - India"
     ],
-    "scraped_at": "2026-01-29T09:50:11.397887",
-    "first_seen_utc": "2026-01-29T04:05:11.397901"
+    "scraped_at": "2026-01-29T21:49:04.325035",
+    "first_seen_utc": "2026-01-29T16:04:04.325051"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/30-may-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-05-30",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5318,17 +5437,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:50:12.862469",
-    "first_seen_utc": "2026-01-29T04:05:12.862490"
+    "scraped_at": "2026-01-29T21:49:05.566485",
+    "first_seen_utc": "2026-01-29T16:04:05.566507"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/28-may-2018-mers-uae-en",
     "title": "Middle East respiratory syndrome coronavirus (MERS-CoV) – United Arab Emirates",
     "published_date": "2018-05-28",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5381,17 +5502,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus (MERS-CoV) – United Arab Emirates"
     ],
-    "scraped_at": "2026-01-29T09:50:14.231989",
-    "first_seen_utc": "2026-01-29T04:05:14.232003"
+    "scraped_at": "2026-01-29T21:49:06.954504",
+    "first_seen_utc": "2026-01-29T16:04:06.954520"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-may-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-05-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5484,17 +5607,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:50:15.713427",
-    "first_seen_utc": "2026-01-29T04:05:15.713442"
+    "scraped_at": "2026-01-29T21:49:08.175312",
+    "first_seen_utc": "2026-01-29T16:04:08.175328"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-may-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-05-21",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5531,17 +5656,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:50:17.238574",
-    "first_seen_utc": "2026-01-29T04:05:17.238588"
+    "scraped_at": "2026-01-29T21:49:09.456423",
+    "first_seen_utc": "2026-01-29T16:04:09.456440"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/17-may-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-05-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5609,17 +5736,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:50:18.778154",
-    "first_seen_utc": "2026-01-29T04:05:18.778168"
+    "scraped_at": "2026-01-29T21:49:10.718349",
+    "first_seen_utc": "2026-01-29T16:04:10.718370"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/17-May-2018-polio-somalia-kenya-en",
     "title": "Circulating vaccine-derived poliovirus – Horn of Africa",
     "published_date": "2018-05-17",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5657,17 +5786,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus – Horn of Africa"
     ],
-    "scraped_at": "2026-01-29T09:50:20.345935",
-    "first_seen_utc": "2026-01-29T04:05:20.345951"
+    "scraped_at": "2026-01-29T21:49:12.006352",
+    "first_seen_utc": "2026-01-29T16:04:12.006373"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-may-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-05-14",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5727,17 +5858,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:50:21.877794",
-    "first_seen_utc": "2026-01-29T04:05:21.877809"
+    "scraped_at": "2026-01-29T21:49:13.310606",
+    "first_seen_utc": "2026-01-29T16:04:13.310623"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/10-may-2018-ebola-drc-en",
     "title": "Ebola virus disease – Democratic Republic of the Congo",
     "published_date": "2018-05-10",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5795,17 +5928,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Ebola virus disease – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:50:23.386001",
-    "first_seen_utc": "2026-01-29T04:05:23.386022"
+    "scraped_at": "2026-01-29T21:49:14.583765",
+    "first_seen_utc": "2026-01-29T16:04:14.583785"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/02-may-2018-listeriosis-south-africa-en",
     "title": "Listeriosis – South Africa",
     "published_date": "2018-05-02",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -5895,17 +6030,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Listeriosis – South Africa"
     ],
-    "scraped_at": "2026-01-29T09:50:24.895166",
-    "first_seen_utc": "2026-01-29T04:05:24.895182"
+    "scraped_at": "2026-01-29T21:49:15.896421",
+    "first_seen_utc": "2026-01-29T16:04:15.896435"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/01-may-2018-dengue-reunion-en",
     "title": "Dengue – Réunion, France",
     "published_date": "2018-05-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6004,17 +6141,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Dengue – Réunion, France"
     ],
-    "scraped_at": "2026-01-29T09:50:26.299820",
-    "first_seen_utc": "2026-01-29T04:05:26.299834"
+    "scraped_at": "2026-01-29T21:49:17.171157",
+    "first_seen_utc": "2026-01-29T16:04:17.171174"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-april-2018-lassa-fever-nigeria-en",
     "title": "Lassa Fever – Nigeria",
     "published_date": "2018-04-20",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6089,17 +6228,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa Fever – Nigeria"
     ],
-    "scraped_at": "2026-01-29T09:50:27.682786",
-    "first_seen_utc": "2026-01-29T04:05:27.682801"
+    "scraped_at": "2026-01-29T21:49:18.374139",
+    "first_seen_utc": "2026-01-29T16:04:18.374156"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/09-april-2018-listeriosis-australia-en",
     "title": "Listeriosis – Australia",
     "published_date": "2018-04-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6143,17 +6284,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Listeriosis – Australia"
     ],
-    "scraped_at": "2026-01-29T09:50:29.160488",
-    "first_seen_utc": "2026-01-29T04:05:29.160506"
+    "scraped_at": "2026-01-29T21:49:19.663440",
+    "first_seen_utc": "2026-01-29T16:04:19.663471"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-march-2018-cholera-somalia-en",
     "title": "Cholera – Somalia",
     "published_date": "2018-03-29",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6238,17 +6381,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – Somalia"
     ],
-    "scraped_at": "2026-01-29T09:50:30.590843",
-    "first_seen_utc": "2026-01-29T04:05:30.590861"
+    "scraped_at": "2026-01-29T21:49:20.990978",
+    "first_seen_utc": "2026-01-29T16:04:20.990997"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/28-march-2018-listeriosis-south-africa-en",
     "title": "Listeriosis – South Africa",
     "published_date": "2018-03-28",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6341,17 +6486,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Listeriosis – South Africa"
     ],
-    "scraped_at": "2026-01-29T09:50:32.111945",
-    "first_seen_utc": "2026-01-29T04:05:32.111964"
+    "scraped_at": "2026-01-29T21:49:22.221632",
+    "first_seen_utc": "2026-01-29T16:04:22.221650"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-march-2018-lassa-fever-nigeria-en",
     "title": "Lassa Fever – Nigeria",
     "published_date": "2018-03-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6419,17 +6566,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa Fever – Nigeria"
     ],
-    "scraped_at": "2026-01-29T09:50:33.522439",
-    "first_seen_utc": "2026-01-29T04:05:33.522455"
+    "scraped_at": "2026-01-29T21:49:23.495375",
+    "first_seen_utc": "2026-01-29T16:04:23.495392"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-march-2018-seasonal-reassortant-ah1n2-netherlands-en",
     "title": "Influenza A(H1N2) virus – Netherlands",
     "published_date": "2018-03-23",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6487,17 +6636,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A(H1N2) virus – Netherlands"
     ],
-    "scraped_at": "2026-01-29T09:50:34.898738",
-    "first_seen_utc": "2026-01-29T04:05:34.898763"
+    "scraped_at": "2026-01-29T21:49:24.768649",
+    "first_seen_utc": "2026-01-29T16:04:24.768665"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/15-march-2018-mers-oman-en",
     "title": "Middle East respiratory syndrome coronavirus (MERS-CoV) – Oman",
     "published_date": "2018-03-15",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6552,17 +6703,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus (MERS-CoV) – Oman"
     ],
-    "scraped_at": "2026-01-29T09:50:36.344732",
-    "first_seen_utc": "2026-01-29T04:05:36.344750"
+    "scraped_at": "2026-01-29T21:49:26.049665",
+    "first_seen_utc": "2026-01-29T16:04:26.049683"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/09-march-2018-yellow-fever-brazil-en",
     "title": "Yellow fever – Brazil",
     "published_date": "2018-03-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6651,17 +6804,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow fever – Brazil"
     ],
-    "scraped_at": "2026-01-29T09:50:37.806773",
-    "first_seen_utc": "2026-01-29T04:05:37.806790"
+    "scraped_at": "2026-01-29T21:49:27.358298",
+    "first_seen_utc": "2026-01-29T16:04:27.358312"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2018-DON23",
     "title": "Circulating vaccine-derived poliovirus type 2 – Somalia",
     "published_date": "2018-03-09",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6702,17 +6857,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Circulating vaccine-derived poliovirus type 2 – Somalia"
     ],
-    "scraped_at": "2026-01-29T09:50:39.431801",
-    "first_seen_utc": "2026-01-29T04:05:39.431817"
+    "scraped_at": "2026-01-29T21:49:29.059464",
+    "first_seen_utc": "2026-01-29T16:04:29.059478"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/02-march-2018-cholera-drc-en",
     "title": "Cholera – Democratic Republic of the Congo",
     "published_date": "2018-03-02",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6791,17 +6948,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – Democratic Republic of the Congo"
     ],
-    "scraped_at": "2026-01-29T09:50:40.936513",
-    "first_seen_utc": "2026-01-29T04:05:40.936529"
+    "scraped_at": "2026-01-29T21:49:30.388813",
+    "first_seen_utc": "2026-01-29T16:04:30.388833"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/01-march-2018-lassa-fever-nigeria-en",
     "title": "Lassa Fever – Nigeria",
     "published_date": "2018-03-01",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6864,17 +7023,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa Fever – Nigeria"
     ],
-    "scraped_at": "2026-01-29T09:50:43.049598",
-    "first_seen_utc": "2026-01-29T04:05:43.049612"
+    "scraped_at": "2026-01-29T21:49:31.752809",
+    "first_seen_utc": "2026-01-29T16:04:31.752824"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-february-2018-chikungunya-kenya-en",
     "title": "Chikungunya – Kenya",
     "published_date": "2018-02-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -6939,17 +7100,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Chikungunya – Kenya"
     ],
-    "scraped_at": "2026-01-29T09:50:48.998836",
-    "first_seen_utc": "2026-01-29T04:05:48.998852"
+    "scraped_at": "2026-01-29T21:49:33.159975",
+    "first_seen_utc": "2026-01-29T16:04:33.159990"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-february-2018-yellow-fever-brazil-en",
     "title": "Yellow fever – Brazil",
     "published_date": "2018-02-27",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7018,17 +7181,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow fever – Brazil"
     ],
-    "scraped_at": "2026-01-29T09:50:50.674230",
-    "first_seen_utc": "2026-01-29T04:05:50.674249"
+    "scraped_at": "2026-01-29T21:49:34.682390",
+    "first_seen_utc": "2026-01-29T16:04:34.682408"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-february-2018-rift-valley-fever-gambia-en",
     "title": "Rift Valley fever – Gambia",
     "published_date": "2018-02-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7096,17 +7261,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Rift Valley fever – Gambia"
     ],
-    "scraped_at": "2026-01-29T09:50:52.024661",
-    "first_seen_utc": "2026-01-29T04:05:52.024680"
+    "scraped_at": "2026-01-29T21:49:35.957392",
+    "first_seen_utc": "2026-01-29T16:04:35.957406"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-february-2018-ah7n4-china-en",
     "title": "Influenza A(H7N4) virus – China",
     "published_date": "2018-02-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7149,17 +7316,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Influenza A(H7N4) virus – China"
     ],
-    "scraped_at": "2026-01-29T09:50:53.556391",
-    "first_seen_utc": "2026-01-29T04:05:53.556409"
+    "scraped_at": "2026-01-29T21:49:37.262044",
+    "first_seen_utc": "2026-01-29T16:04:37.262060"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-february-2018-lassa-fever-liberia-en",
     "title": "Lassa Fever – Liberia",
     "published_date": "2018-02-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7222,17 +7391,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Lassa Fever – Liberia"
     ],
-    "scraped_at": "2026-01-29T09:50:55.013514",
-    "first_seen_utc": "2026-01-29T04:05:55.013529"
+    "scraped_at": "2026-01-29T21:49:38.591425",
+    "first_seen_utc": "2026-01-29T16:04:38.591443"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-february-2018-cholera-mozambique-en",
     "title": "Cholera – Mozambique",
     "published_date": "2018-02-19",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7304,17 +7475,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – Mozambique"
     ],
-    "scraped_at": "2026-01-29T09:50:56.473550",
-    "first_seen_utc": "2026-01-29T04:05:56.473567"
+    "scraped_at": "2026-01-29T21:49:39.917913",
+    "first_seen_utc": "2026-01-29T16:04:39.917930"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-january-2018-mers-saudi-arabia-en",
     "title": "Middle East respiratory syndrome coronavirus (MERS-CoV) – Saudi Arabia",
     "published_date": "2018-01-26",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Situation at a glance",
@@ -7366,17 +7539,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus (MERS-CoV) – Saudi Arabia"
     ],
-    "scraped_at": "2026-01-29T09:50:57.847038",
-    "first_seen_utc": "2026-01-29T04:05:57.847053"
+    "scraped_at": "2026-01-29T21:49:41.228651",
+    "first_seen_utc": "2026-01-29T16:04:41.228665"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-january-2018-yellow-fever-brazil-en",
     "title": "Yellow fever – Brazil",
     "published_date": "2018-01-22",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7462,17 +7637,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Yellow fever – Brazil"
     ],
-    "scraped_at": "2026-01-29T09:50:59.661813",
-    "first_seen_utc": "2026-01-29T04:05:59.661827"
+    "scraped_at": "2026-01-29T21:54:42.015127",
+    "first_seen_utc": "2026-01-29T16:09:42.015144"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/15-january-2018-hepatitis-e-namibia-en",
     "title": "Hepatitis E – Namibia",
     "published_date": "2018-01-15",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7526,17 +7703,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Hepatitis E – Namibia"
     ],
-    "scraped_at": "2026-01-29T09:51:01.225042",
-    "first_seen_utc": "2026-01-29T04:06:01.225059"
+    "scraped_at": "2026-01-29T21:54:43.518905",
+    "first_seen_utc": "2026-01-29T16:09:43.518923"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-january-2018-cholera-tanzania-en",
     "title": "Cholera – United Republic of Tanzania",
     "published_date": "2018-01-12",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7604,17 +7783,19 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Cholera – United Republic of Tanzania"
     ],
-    "scraped_at": "2026-01-29T09:51:02.602909",
-    "first_seen_utc": "2026-01-29T04:06:02.602930"
+    "scraped_at": "2026-01-29T21:54:45.095971",
+    "first_seen_utc": "2026-01-29T16:09:45.095990"
   },
   {
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/08-january-2018-mers-cov-malaysia-en",
     "title": "Middle East respiratory syndrome coronavirus (MERS-CoV) – Malaysia",
     "published_date": "2018-01-08",
-    "disease": null,
-    "location": null,
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Disease Outbreak",
     "sections": [
       {
         "heading": "Description of the situation",
@@ -7676,9 +7857,10 @@
     "images": [],
     "tags": [
       "WHO",
-      "Disease Outbreak"
+      "Disease Outbreak",
+      "Middle East respiratory syndrome coronavirus (MERS-CoV) – Malaysia"
     ],
-    "scraped_at": "2026-01-29T09:51:04.326608",
-    "first_seen_utc": "2026-01-29T04:06:04.326630"
+    "scraped_at": "2026-01-29T21:54:46.497191",
+    "first_seen_utc": "2026-01-29T16:09:46.497208"
   }
 ]
