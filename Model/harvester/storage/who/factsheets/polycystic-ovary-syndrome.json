@@ -2,66 +2,105 @@
   "url": "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome",
   "title": "Polycystic ovary syndrome",
   "slug": "polycystic-ovary-syndrome",
-  "published_date": "7 February 2025",
+  "published_date": "22 January 2026",
+  "author": "World Health Organization (WHO)",
   "first_letter": "P",
   "sections": [
     {
       "heading": "Key facts",
-      "content": null,
-      "bullets": [
-        "Polycystic ovary syndrome (PCOS) affects an estimated 6–13% of reproductive-aged women.",
-        "Up to 70% of affected women remain undiagnosed worldwide.",
-        "PCOS is the commonest cause of anovulation and a leading cause of infertility.",
-        "PCOS is associated with a variety of long-term health problems that affect physical and emotional well-being.",
-        "PCOS runs in families, but there are ethnic variations in how PCOS manifests itself and how it affects people."
+      "content": [
+        {
+          "text": null,
+          "bullets": [
+            "Polycystic ovary syndrome (PCOS) is a common hormonal disorder in which higher than normal androgen levels lead to irregular menstrual periods, abnormal ovulation, infertility, excess facial or body hair and/or acne in women (1).",
+            "PCOS affects an estimated 10–13% of reproductive-aged women. It is estimated that up 70% of women with PCOS worldwide do not know they have this condition.",
+            "PCOS is the most common cause of anovulation among women globally and a leading cause of infertility.",
+            "PCOS runs in families but can cause a range of different symptoms and affect women in different ways. PCOS is a chronic metabolic condition that persists beyond the reproductive years.",
+            "Women with PCOS are at higher risk for a variety of longer-term health problems that affect physical and emotional well-being compared to women without PCOS, including insulin resistance, type 2 diabetes mellitus and obesity."
+          ]
+        }
       ]
     },
     {
       "heading": "Overview",
-      "content": "Polycystic ovary syndrome (PCOS) is a common hormonal condition that affects women of reproductive age. It usually starts during adolescence, but symptoms may fluctuate over time. PCOS can cause hormonal imbalances, irregular periods, excess androgen levels and cysts in the ovaries. Irregular periods, usually with a lack of ovulation, can make it difficult to become pregnant. PCOS is a leading cause of infertility. PCOS is a chronic condition and cannot be cured. However, some symptoms can be improved through lifestyle changes, medications and fertility treatments. The cause of PCOS is unknown but women with a family history or type 2 diabetes are at higher risk."
+      "content": [
+        "Polycystic ovary syndrome (PCOS) is a common hormonal disorder that affects women during their reproductive years and beyond, into later stages of life.",
+        "PCOS occurs when inappropriate hormonal signaling leads to higher than normal androgen levels and other hormonal imbalances. As a result, women with PCOS may experience irregular or infrequent menstrual periods, pain – including pain with heavy menstrual bleeding, abnormal ovulation, changes in hair (either excessive facial or body hair or female-pattern baldness), oilier skin, acne and/or cysts in the ovaries.",
+        "PCOS is a leading cause of irregular menstrual periods and one of the most common causes of infertility. Irregular or infrequent menstrual periods among women with PCOS may also raise their risk for endometrial hyperplasia and/or endometrial cancer. PCOS can start as early as during adolescence but is most commonly detected or diagnosed when women struggle to become pregnant.",
+        "Further, PCOS is a chronic metabolic condition associated with heightened long-term risk for insulin resistance, type 2 diabetes mellitus and obesity. There is currently no cure for PCOS, but lifestyle changes, medications and fertility treatments can reduce symptoms, increase fertility rates and protect longer-term health.",
+        "The cause of PCOS is unknown, but women with a family history of PCOS or type 2 diabetes are at higher risk."
+      ]
     },
     {
       "heading": "Scope of the problem",
-      "content": "PCOS is a significant public health problem and is one of the commonest hormonal disturbances affecting women of reproductive age. The condition affects an estimated 6–13% of women of reproductive age, and up to 70% of cases are undiagnosed. The prevalence of PCOS is higher among some ethnicities and these groups often experience more complications, in particular related to metabolic problems. The biological and psychological effects of PCOS, particularly those related to obesity, body image and infertility, can lead to mental health challenges and social stigma."
+      "content": [
+        "PCOS a significant global public health problem and is one of the most common hormonal disorders affecting women, often becoming apparent during the reproductive years. An estimated 10–13% of women globally are thought to have PCOS, but up to 70% of affected women are undiagnosed.",
+        "The prevalence of PCOS may be higher among women in some racial or ethnic groups than others, and some women have higher genetic propensity for metabolic complications. However, structural racism and other social determinants of health shape the extent to which different groups of women with PCOS seek and receive quality health services."
+      ]
     },
     {
       "heading": "Symptoms",
-      "content": "Symptoms of polycystic ovary syndrome can differ from person to person. Symptoms may change over time and often occur without a clear trigger. Possible symptoms include: People with PCOS are more likely to have other health conditions including: PCOS can also cause anxiety, depression and a negative body image. Some symptoms such as infertility, obesity and unwanted hair growth can lead to social stigma. This can affect other life areas such as family, relationships, work and involvement in the community.",
-      "bullets": [
-        "heavy, long, intermittent, unpredictable or absent periods",
-        "infertility",
-        "acne or oily skin",
-        "excessive hair on the face or body",
-        "male-pattern baldness or hair thinning",
-        "weight gain, especially around the belly.",
-        "type 2 diabetes",
-        "hypertension (high blood pressure)",
-        "high cholesterol",
-        "heart disease",
-        "endometrial cancer (cancer of the inner lining of the uterus)."
+      "content": [
+        "Symptoms of PCOS can differ from person to person, and an individual’s symptoms may change over time.",
+        {
+          "text": "Possible symptoms include:",
+          "bullets": [
+            "intermittent, unpredictable or absent periods; or, for some women, heavy or long and/or painful periods",
+            "difficulty conceiving or infertility",
+            "excessive hair on the face or body",
+            "female-pattern baldness or hair thinning",
+            "acne or oily skin."
+          ]
+        },
+        {
+          "text": "Women with PCOS have an increased risk of developing other health conditions including:",
+          "bullets": [
+            "gestational diabetes or high blood pressure in pregnancy",
+            "weight gain, especially around the belly",
+            "type 2 diabetes",
+            "hypertension (high blood pressure)",
+            "high cholesterol",
+            "cardiovascular disease",
+            "obesity",
+            "sleep apnea",
+            "metabolic steatohepatitis",
+            "endometrial hyperplasia or endometrial cancer (abnormal growth or cancer, respectively, of the inner lining of the uterus)."
+          ]
+        },
+        "PCOS can adversely impact quality of life in substantial ways, and women with PCOS may experience anxiety, depression, eating disorders and/or a negative body image. Symptoms such as infertility, obesity and unwanted hair growth are subject to social stigma in many settings. This can affect social and family relationships, work, a sense of belonging in one’s community, mental health and other aspects of well-being."
       ]
     },
     {
       "heading": "Diagnosis",
-      "content": "Polycystic ovary syndrome is diagnosed by the presence of at least two out of the following: Blood tests can be used to identify characteristic changes in hormone levels, although these changes are not universal. Women with polycystic ovary syndrome may have elevated levels of: When making a diagnosis, doctors also take into account that irregular periods and ovulation can be a normal part of puberty or menopause, having polycystic ovaries may run in families, and women with a family history of PCOS or type 2 diabetes are at higher risk of PCOS. In addition, the ultrasound picture is not always clear and some women with PCOS may have an ultrasound scan that does not demonstrate polycystic ovaries.",
-      "bullets": [
-        "signs or symptoms of high androgens (unwanted facial or bodily hair, loss of hair from the head, acne or an elevated blood level of testosterone) – after other causes for this have been excluded;",
-        "irregular or absent menstrual periods – after other causes for this have been excluded; and",
-        "polycystic ovaries on an ultrasound scan.",
-        "testosterone (an ovarian androgen hormone that influences hair growth);",
-        "oestrogen (an ovarian hormone that stimulates growth of the womb lining (endometrium);",
-        "luteinising hormone (LH, a pituitary hormone which influences hormone production by the ovaries and is important for normal ovulation);",
-        "insulin (a hormone that is principally involved in utilization of energy from food); and",
-        "anti-müllerian hormone (which is measures the fertility level of the ovaries)."
+      "content": [
+        {
+          "text": "PCOS is diagnosed by the presence of at least two of the following, once other causes for these symptoms have been excluded:",
+          "bullets": [
+            "signs or symptoms of high androgens (excess facial or bodily hair, loss of hair from the head, acne or oily skin) or an elevated blood level of testosterone;",
+            "irregular or absent menstrual periods; and",
+            "polycystic ovaries on an ultrasound in women."
+          ]
+        },
+        "This means that some women with PCOS do not have polycystic ovaries, and ovarian cysts are not required for PCOS diagnosis. Blood tests can be used to identify higher than normal levels of androgen steroids in women who do not have visible excess hair or acne or to check whether ovulation is occurring normally in women who might have PCOS but who have regular menstrual cycles. When making a PCOS diagnosis, health workers consider genetic risk factors since women with a family history of PCOS or type 2 diabetes are at higher risk of PCOS. Health workers also take life stage into account because irregular periods can be normal at either the beginning (menarche) or end (perimenopause) of the reproductive years.",
+        "Women who are newly diagnosed with PCOS are recommended to have additional blood testing to evaluate for underlying insulin resistance and to assess their overall cardiovascular risk."
       ]
     },
     {
       "heading": "Treatment",
-      "content": "There is no cure for PCOS, but treatments can improve symptoms. People who have irregular periods, trouble getting pregnant or excessive acne and hair growth should speak to a healthcare professional. Some symptoms of PCOS can be reduced through lifestyle changes. Eating a healthy diet and getting enough exercise can help reduce weight and reduce the risk of type 2 diabetes. Birth control medicines (contraceptive pill) can help regulate the menstrual cycle and reduce symptoms. Other medicines can reduce acne or unwanted hair growth caused by PCOS. Treatments for infertility due to PCOS include lifestyle changes, medicines or surgery to stimulate regular ovulation. In-vitro fertilization (IVF) may be used but it has some risks."
+      "content": [
+        "There is no cure for PCOS, but treatments can improve quality of life, assist with fertility, reduce the risk of endometrial hyperplasia and/or endometrial cancer and help prevent long-term cardiovascular events. Seeking health care early to manage symptoms of PCOS can help women protect their health and well-being during and beyond their reproductive years.",
+        "Healthy lifestyle behaviors, including healthy eating and physical activity, are important for all women with PCOS, even if they do not lead to weight loss.",
+        "Combined oral contraceptive pills can help regulate the menstrual cycle and may reduce acne or excess facial and body hair. Androgen receptor blockers may also be used to treat excess hair or acne. Treatment choices should be based on shared decision-making, taking every individual’s unique values and preferences into account.",
+        "Treatments for infertility due to PCOS include lifestyle changes, medicines or surgery to stimulate ovulation. In-vitro fertilization (IVF) and other assistive reproductive technologies may also be used. Women with PCOS can be supported to become pregnant but generally have higher risk of pregnancy complications that warrants additional monitoring."
+      ]
     },
     {
       "heading": "WHO response",
-      "content": "WHO works with Member States and partners to address PCOS as part of its efforts to improve women’s health and reproductive well-being globally. WHO works with governmental and non-governmental partners to enhance public awareness related to PCOS, and to generate guidance to healthcare providers on how it can be identified and treated. In addition, WHO promotes research related to the most effective ways of preventing, diagnosing and treating infertility due to PCOS, and identifies the most important unanswered questions related to it. WHO supports the generation of statistics on how common infertility and its causes (such as PCOS) are. WHO helps member states to pay more attention to infertility and its causes within national health policies, services and financing to ensure that everyone who needs healthcare related to infertility is able to obtain it without financial hardship."
+      "content": [
+        "WHO promotes research regarding prevention, diagnosis and treatment of infertility for women with PCOS as well as broader menstrual health, seeking to identify and elevate the most important unanswered related questions. WHO works with Member States and partners to address PCOS as part of its broad efforts to improve women’s health and well-being globally. WHO works with governmental and nongovernmental partners to enhance public awareness related to PCOS, and to generate guidance for health-care providers on how it can be recognized and treated.",
+        "WHO supports the generation of statistics on how common infertility and its causes (such as PCOS) are. WHO also helps Member States to pay more attention to infertility and its causes within national health policies, services and financing to ensure that everyone who needs health care related to infertility is able to obtain it without financial hardship.",
+        "1) In this fact sheet, the term “women” is used inclusively to refer to all women, girls and gender-diverse individuals who menstruate and who may therefore be at risk of developing PCOS at some point in their life."
+      ]
     }
   ],
   "pdfs": [],
@@ -76,5 +115,11 @@
     "https://www.who.int/images/default-source/fallback/maps/south-east-asia1c6bd1d9eb5b4cf0b5ad5da36ff3912d.png?sfvrsn=68e76dc2_17",
     "https://www.who.int/images/default-source/fallback/maps/western-pacifice1e576200c9b4fe59078eb28958428a9.png?sfvrsn=88cbdcd5_19"
   ],
-  "scrape_timestamp_utc": "2026-01-21T18:08:29Z"
+  "tags": [
+    "Health Fact",
+    "polycystic-ovary-syndrome",
+    "Polycystic ovary syndrome",
+    "WHO"
+  ],
+  "scrape_timestamp_utc": "2026-01-27T17:24:55Z"
 }

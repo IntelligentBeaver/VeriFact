@@ -3,31 +3,50 @@
   "title": "Schistosomiasis",
   "slug": "schistosomiasis",
   "published_date": "1 February 2023",
+  "author": "World Health Organization (WHO)",
   "first_letter": "S",
   "sections": [
     {
       "heading": "Key facts",
-      "content": null,
-      "bullets": [
-        "Lack of hygiene and certain play habits of school-aged children such as swimming or fishing in infested water make them especially vulnerable to infection.",
-        "In 2021, the COVID-19 pandemic and work to mitigate its impacts decreased the provision of neglected tropical disease (NTD) interventions and the treatment coverage for schistosomiasis.",
-        "Schistosomiasis is an acute and chronic disease caused by parasitic worms.",
-        "People are infected during routine agricultural, domestic, occupational and recreational activities which expose them to infested water.",
-        "Estimates show that at least 251.4 million people required preventive treatment for schistosomiasis in 2021, out of which more than 75.3 million people were reported to have been treated.",
-        "Schistosomiasis control focuses on reducing disease through periodic, large-scale population treatment with praziquantel; a more comprehensive approach including potable water, adequate sanitation, and snail control would also reduce transmission."
+      "content": [
+        {
+          "text": null,
+          "bullets": [
+            "Lack of hygiene and certain play habits of school-aged children such as swimming or fishing in infested water make them especially vulnerable to infection.",
+            "In 2021, the COVID-19 pandemic and work to mitigate its impacts decreased the provision of neglected tropical disease (NTD) interventions and the treatment coverage for schistosomiasis.",
+            "Schistosomiasis is an acute and chronic disease caused by parasitic worms.",
+            "People are infected during routine agricultural, domestic, occupational and recreational activities which expose them to infested water.",
+            "Estimates show that at least 251.4 million people required preventive treatment for schistosomiasis in 2021, out of which more than 75.3 million people were reported to have been treated.",
+            "Schistosomiasis control focuses on reducing disease through periodic, large-scale population treatment with praziquantel; a more comprehensive approach including potable water, adequate sanitation, and snail control would also reduce transmission."
+          ]
+        }
       ]
     },
     {
       "heading": "Overview",
-      "content": "Schistosomiasis is an acute and chronic parasitic disease caused by blood flukes (trematode worms) of the genus Schistosoma . Estimates show that at least 251.4 million people required preventive treatment in 2021. Preventive treatment, which\r\n    should be repeated over a number of years, will reduce and prevent morbidity. Schistosomiasis transmission has been reported from 78 countries. However, preventive chemotherapy for schistosomiasis, where people and communities are targeted for large-scale\r\n    treatment, is only required in 51 endemic countries with moderate-to-high transmission."
+      "content": [
+        "Schistosomiasis is an acute and chronic parasitic disease caused by blood flukes (trematode worms) of the genus Schistosoma . Estimates show that at least 251.4 million people required preventive treatment in 2021. Preventive treatment, which\r\n    should be repeated over a number of years, will reduce and prevent morbidity. Schistosomiasis transmission has been reported from 78 countries. However, preventive chemotherapy for schistosomiasis, where people and communities are targeted for large-scale\r\n    treatment, is only required in 51 endemic countries with moderate-to-high transmission."
+      ]
     },
     {
       "heading": "Infection and transmission",
-      "content": "People become infected when larval forms of the parasite – released by freshwater snails – penetrate the skin during contact with infested water. Transmission occurs when people suffering from schistosomiasis contaminate freshwater sources with faeces or urine containing parasite eggs, which hatch in water. In the body, the larvae develop into adult schistosomes. Adult worms live in the blood vessels where the females release eggs. Some of the eggs are passed out of the body in the faeces or urine to continue the parasite’s lifecycle. Others become\r\n    trapped in body tissues, causing immune reactions and progressive damage to organs."
+      "content": [
+        "People become infected when larval forms of the parasite – released by freshwater snails – penetrate the skin during contact with infested water.",
+        "Transmission occurs when people suffering from schistosomiasis contaminate freshwater sources with faeces or urine containing parasite eggs, which hatch in water.",
+        "In the body, the larvae develop into adult schistosomes. Adult worms live in the blood vessels where the females release eggs. Some of the eggs are passed out of the body in the faeces or urine to continue the parasite’s lifecycle. Others become\r\n    trapped in body tissues, causing immune reactions and progressive damage to organs."
+      ]
     },
     {
       "heading": "Epidemiology",
-      "content": "Schistosomiasis is prevalent in tropical and subtropical areas, especially in poor communities without access to safe drinking water and adequate sanitation. It is estimated that at least 90% of those requiring treatment for schistosomiasis live in Africa. There are 2 major forms of schistosomiasis – intestinal and urogenital – caused by 5 main species of blood fluke. Table: Parasite species and geographical distribution of schistosomiasis Schistosomiasis mostly affects poor and rural communities, particularly agricultural and fishing populations. Women doing domestic chores in infested water, such as washing clothes, are also at risk and can develop female genital schistosomiasis . Inadequate hygiene and contact with infected water make children especially vulnerable to infection. Migration to urban areas and population movements are introducing the disease to new areas. Increasing population size and the corresponding needs for power and water often result in development schemes, and environmental modifications facilitate transmission. With the rise in eco-tourism and travel to remote areas, increasing numbers of tourists are contracting schistosomiasis. At times, tourists present severe acute infection and unusual problems including paralysis. Urogenital schistosomiasis is also considered to be a risk factor for HIV infection, especially in women.",
+      "content": [
+        "Schistosomiasis is prevalent in tropical and subtropical areas, especially in poor communities without access to safe drinking water and adequate sanitation. It is estimated that at least 90% of those requiring treatment for schistosomiasis live in Africa.",
+        "There are 2 major forms of schistosomiasis – intestinal and urogenital – caused by 5 main species of blood fluke.",
+        "Table: Parasite species and geographical distribution of schistosomiasis",
+        "Schistosomiasis mostly affects poor and rural communities, particularly agricultural and fishing populations. Women doing domestic chores in infested water, such as washing clothes, are also at risk and can develop female genital schistosomiasis . Inadequate hygiene and contact with infected water make children especially vulnerable to infection.",
+        "Migration to urban areas and population movements are introducing the disease to new areas. Increasing population size and the corresponding needs for power and water often result in development schemes, and environmental modifications facilitate transmission.",
+        "With the rise in eco-tourism and travel to remote areas, increasing numbers of tourists are contracting schistosomiasis. At times, tourists present severe acute infection and unusual problems including paralysis.",
+        "Urogenital schistosomiasis is also considered to be a risk factor for HIV infection, especially in women."
+      ],
       "tables": [
         [
           [
@@ -65,27 +84,58 @@
     },
     {
       "heading": "Symptoms",
-      "content": "Symptoms of schistosomiasis are caused mainly by the body’s reaction to the worms’ eggs. Intestinal schistosomiasis can result in abdominal pain, diarrhoea, and blood in the stool. Liver enlargement is common in advanced cases and is frequently associated with an accumulation of fluid in the peritoneal cavity and hypertension of the abdominal\r\n    blood vessels. In such cases there may also be enlargement of the spleen. The classic sign of urogenital schistosomiasis is haematuria (blood in urine). Kidney damage and fibrosis of the bladder and ureter are sometimes diagnosed in advanced cases. Bladder cancer is another possible complication in the later stages. In women,\r\n    urogenital schistosomiasis may present with genital lesions, vaginal bleeding, pain during sexual intercourse and nodules in the vulva. In men, urogenital schistosomiasis can induce pathology of the seminal vesicles, prostate and other organs. This\r\n    disease may also have other long-term irreversible consequences, including infertility. The economic and health effects of schistosomiasis are considerable and the disease disables more than it kills. In children, schistosomiasis can cause anaemia, stunting and a reduced ability to learn, although the effects are usually reversible with\r\n    treatment. Chronic schistosomiasis may affect people’s ability to work and in some cases can result in death. The number of deaths due to schistosomiasis is difficult to estimate because of hidden pathologies such as liver and kidney failure,\r\n    bladder cancer and ectopic pregnancies due to female genital schistosomiasis. Deaths due to schistosomiasis are currently estimated at 11 792 globally per year. However, these figures are likely underestimated and need to be reassessed."
+      "content": [
+        "Symptoms of schistosomiasis are caused mainly by the body’s reaction to the worms’ eggs.",
+        "Intestinal schistosomiasis can result in abdominal pain, diarrhoea, and blood in the stool. Liver enlargement is common in advanced cases and is frequently associated with an accumulation of fluid in the peritoneal cavity and hypertension of the abdominal\r\n    blood vessels. In such cases there may also be enlargement of the spleen.",
+        "The classic sign of urogenital schistosomiasis is haematuria (blood in urine). Kidney damage and fibrosis of the bladder and ureter are sometimes diagnosed in advanced cases. Bladder cancer is another possible complication in the later stages. In women,\r\n    urogenital schistosomiasis may present with genital lesions, vaginal bleeding, pain during sexual intercourse and nodules in the vulva. In men, urogenital schistosomiasis can induce pathology of the seminal vesicles, prostate and other organs. This\r\n    disease may also have other long-term irreversible consequences, including infertility.",
+        "The economic and health effects of schistosomiasis are considerable and the disease disables more than it kills. In children, schistosomiasis can cause anaemia, stunting and a reduced ability to learn, although the effects are usually reversible with\r\n    treatment. Chronic schistosomiasis may affect people’s ability to work and in some cases can result in death. The number of deaths due to schistosomiasis is difficult to estimate because of hidden pathologies such as liver and kidney failure,\r\n    bladder cancer and ectopic pregnancies due to female genital schistosomiasis.",
+        "Deaths due to schistosomiasis are currently estimated at 11 792 globally per year. However, these figures are likely underestimated and need to be reassessed."
+      ]
     },
     {
       "heading": "Diagnosis",
-      "content": "Schistosomiasis is diagnosed through the detection of parasite eggs in stool or urine specimens. Antibodies and/or antigens detected in blood or urine samples are also indications of infection. For urogenital schistosomiasis, a filtration technique using nylon, paper or polycarbonate filters is the standard diagnostic technique. Children with S. haematobium almost always have microscopic blood in their urine which can be detected\r\n    by chemical reagent strips. The eggs of intestinal schistosomiasis can be detected in faecal specimens through a technique using methylene blue-stained cellophane soaked in glycerin or glass slides, known as the Kato-Katz technique. In S. mansoni transmission\r\n areas, the circulating cathodic antigen (CCA) test can also be used. For people living in non-endemic or low-transmission areas, serological and immunological tests may be useful in showing exposure to infection and the need for thorough examination, treatment and follow-up."
+      "content": [
+        "Schistosomiasis is diagnosed through the detection of parasite eggs in stool or urine specimens. Antibodies and/or antigens detected in blood or urine samples are also indications of infection.",
+        "For urogenital schistosomiasis, a filtration technique using nylon, paper or polycarbonate filters is the standard diagnostic technique. Children with S. haematobium almost always have microscopic blood in their urine which can be detected\r\n    by chemical reagent strips.",
+        "The eggs of intestinal schistosomiasis can be detected in faecal specimens through a technique using methylene blue-stained cellophane soaked in glycerin or glass slides, known as the Kato-Katz technique. In S. mansoni transmission\r\n areas, the circulating cathodic antigen (CCA) test can also be used.",
+        "For people living in non-endemic or low-transmission areas, serological and immunological tests may be useful in showing exposure to infection and the need for thorough examination, treatment and follow-up."
+      ]
     },
     {
       "heading": "Prevention and control",
-      "content": "The control of schistosomiasis is based on large-scale treatment of at-risk population groups, access to safe water, improved sanitation, hygiene education and behaviour change, and snail control and environmental management. The new neglected tropical diseases road map 2021–2030 , adopted by the World Health Assembly, set as global\r\n    goals the elimination of schistosomiasis as a public health problem in all endemic countries and the interruption of its transmission (absence of infection in humans) in selected countries. The WHO strategy for schistosomiasis control focuses on reducing disease through periodic, targeted treatment with praziquantel through the large-scale treatment (preventive chemotherapy) of affected populations. It involves regular treatment of all at-risk\r\n    groups. In a few countries, where there is low transmission, the interruption of the transmission of the disease should be aimed for. Groups targeted for treatment are: WHO recommends treatment of infected preschool aged children based on diagnostic and clinical judgment and their inclusion in large-scale treatment using the paediatric praziquantel formulation. The frequency of treatment is determined by the prevalence of infection in school-age children. In high-transmission areas, treatment may have to be repeated every year for several years. Monitoring is essential to determine the impact of control interventions. The aim is to reduce disease morbidity and transmission towards the elimination of the disease as public health problem. Periodic treatment of at-risk populations will cure mild symptoms and prevent infected people from developing severe, late-stage chronic\r\n    disease. However, a major limitation to schistosomiasis control has been the limited availability of praziquantel, particularly for the treatment of adults. Data for 2021 show that 29.9% of people requiring treatment were reached globally, with a\r\n    proportion of 43.3% of school-aged children requiring preventive chemotherapy for schistosomiasis being treated. A drop of 38% compared to 2019, due to the COVID-19 pandemic which suspended treatment campaigns in many endemic areas. Praziquantel is the recommended treatment against all forms of schistosomiasis. It is effective, safe and low-cost. Even though re-infection may occur after treatment, the risk of developing severe disease is diminished and even reversed when treatment\r\n    is initiated and repeated in childhood. Schistosomiasis control has been successfully implemented over the past 40 years in several countries, including Brazil, Cambodia, China, Egypt, Mauritius, Islamic Republic of Iran, Oman, Jordan, Saudi Arabia, Morocco, Tunisia and others. In many countries\r\n    it has been possible to scale-up schistosomiasis treatment to the national level and have an impact on the disease in a few years. An assessment of the status of transmission is required in several countries. Over the past 10 years there has been scale-up of treatment campaigns in a number of sub-Saharan countries, where most of those at risk live. These treatments campaigns resulted in the decrease of prevalence of schistosomiasis in school age children by\r\n    almost 60% (1) .",
-      "bullets": [
-        "pre-school-aged children;",
-        "school-aged children;",
-        "adults considered to be at risk in endemic areas and people with occupations involving contact with infested water, such as fishermen, farmers, irrigation workers and women whose domestic tasks bring them in contact with infested water; and",
-        "entire communities living in highly endemic areas."
+      "content": [
+        "The control of schistosomiasis is based on large-scale treatment of at-risk population groups, access to safe water, improved sanitation, hygiene education and behaviour change, and snail control and environmental management.",
+        "The new neglected tropical diseases road map 2021–2030 , adopted by the World Health Assembly, set as global\r\n    goals the elimination of schistosomiasis as a public health problem in all endemic countries and the interruption of its transmission (absence of infection in humans) in selected countries.",
+        "The WHO strategy for schistosomiasis control focuses on reducing disease through periodic, targeted treatment with praziquantel through the large-scale treatment (preventive chemotherapy) of affected populations. It involves regular treatment of all at-risk\r\n    groups. In a few countries, where there is low transmission, the interruption of the transmission of the disease should be aimed for.",
+        {
+          "text": "Groups targeted for treatment are:",
+          "bullets": [
+            "pre-school-aged children;",
+            "school-aged children;",
+            "adults considered to be at risk in endemic areas and people with occupations involving contact with infested water, such as fishermen, farmers, irrigation workers and women whose domestic tasks bring them in contact with infested water; and",
+            "entire communities living in highly endemic areas."
+          ]
+        },
+        "WHO recommends treatment of infected preschool aged children based on diagnostic and clinical judgment and their inclusion in large-scale treatment using the paediatric praziquantel formulation.",
+        "The frequency of treatment is determined by the prevalence of infection in school-age children. In high-transmission areas, treatment may have to be repeated every year for several years. Monitoring is essential to determine the impact of control interventions.",
+        "The aim is to reduce disease morbidity and transmission towards the elimination of the disease as public health problem. Periodic treatment of at-risk populations will cure mild symptoms and prevent infected people from developing severe, late-stage chronic\r\n    disease. However, a major limitation to schistosomiasis control has been the limited availability of praziquantel, particularly for the treatment of adults. Data for 2021 show that 29.9% of people requiring treatment were reached globally, with a\r\n    proportion of 43.3% of school-aged children requiring preventive chemotherapy for schistosomiasis being treated. A drop of 38% compared to 2019, due to the COVID-19 pandemic which suspended treatment campaigns in many endemic areas.",
+        "Praziquantel is the recommended treatment against all forms of schistosomiasis. It is effective, safe and low-cost. Even though re-infection may occur after treatment, the risk of developing severe disease is diminished and even reversed when treatment\r\n    is initiated and repeated in childhood.",
+        "Schistosomiasis control has been successfully implemented over the past 40 years in several countries, including Brazil, Cambodia, China, Egypt, Mauritius, Islamic Republic of Iran, Oman, Jordan, Saudi Arabia, Morocco, Tunisia and others. In many countries\r\n    it has been possible to scale-up schistosomiasis treatment to the national level and have an impact on the disease in a few years. An assessment of the status of transmission is required in several countries.",
+        "Over the past 10 years there has been scale-up of treatment campaigns in a number of sub-Saharan countries, where most of those at risk live. These treatments campaigns resulted in the decrease of prevalence of schistosomiasis in school age children by\r\n    almost 60% (1) ."
       ]
     },
     {
       "heading": "WHO response",
-      "content": "WHO’s work on schistosomiasis is part of an integrated approach to the control of neglected tropical diseases. Although medically diverse, neglected tropical diseases share features that allow them to persist in conditions of poverty, where they\r\n    cluster and frequently overlap. WHO coordinates the strategy of preventive chemotherapy in consultation with collaborating centres and partners from academic and research institutions, the private sector, nongovernmental organizations, international development agencies and other United\r\n    Nations organizations. WHO develops technical guidelines and tools for use by national control programmes. Working with partners and the private sector, WHO has advocated for increased access to praziquantel and resources for implementation. A significant amount of praziquantel – enough to treat more than 100 million children of the school age per year\r\n    – has been pledged by the private sector and development partners. References",
-      "bullets": [
-        "Kokaliaris C, Garba A, Matuska M, Bronzan RN, Colley DG, et al. Effect of preventive chemotherapy with praziquantel on schistosomiasis among school-aged children in sub-Saharan Africa: a spatiotemporal modelling study. Lancet Infect Dis. 2022 Jan;22(1):136-149.\r\n        doi: 10.1016/S1473-3099(21)00090-6. Epub 2021 Dec 2. Erratum in: Lancet Infect Dis. 2022 Jan;22(1):e1."
+      "content": [
+        "WHO’s work on schistosomiasis is part of an integrated approach to the control of neglected tropical diseases. Although medically diverse, neglected tropical diseases share features that allow them to persist in conditions of poverty, where they\r\n    cluster and frequently overlap.",
+        "WHO coordinates the strategy of preventive chemotherapy in consultation with collaborating centres and partners from academic and research institutions, the private sector, nongovernmental organizations, international development agencies and other United\r\n    Nations organizations. WHO develops technical guidelines and tools for use by national control programmes.",
+        "Working with partners and the private sector, WHO has advocated for increased access to praziquantel and resources for implementation. A significant amount of praziquantel – enough to treat more than 100 million children of the school age per year\r\n    – has been pledged by the private sector and development partners.",
+        {
+          "text": "References",
+          "bullets": [
+            "Kokaliaris C, Garba A, Matuska M, Bronzan RN, Colley DG, et al. Effect of preventive chemotherapy with praziquantel on schistosomiasis among school-aged children in sub-Saharan Africa: a spatiotemporal modelling study. Lancet Infect Dis. 2022 Jan;22(1):136-149.\r\n        doi: 10.1016/S1473-3099(21)00090-6. Epub 2021 Dec 2. Erratum in: Lancet Infect Dis. 2022 Jan;22(1):e1."
+          ]
+        }
       ]
     }
   ],
@@ -101,5 +151,11 @@
     "https://www.who.int/images/default-source/fallback/maps/south-east-asia1c6bd1d9eb5b4cf0b5ad5da36ff3912d.png?sfvrsn=68e76dc2_17",
     "https://www.who.int/images/default-source/fallback/maps/western-pacifice1e576200c9b4fe59078eb28958428a9.png?sfvrsn=88cbdcd5_19"
   ],
-  "scrape_timestamp_utc": "2026-01-21T18:08:34Z"
+  "tags": [
+    "Health Fact",
+    "schistosomiasis",
+    "Schistosomiasis",
+    "WHO"
+  ],
+  "scrape_timestamp_utc": "2026-01-27T17:25:04Z"
 }

@@ -3,23 +3,30 @@
   "title": "Ionizing radiation and health effects",
   "slug": "ionizing-radiation-and-health-effects",
   "published_date": "27 July 2023",
+  "author": "World Health Organization (WHO)",
   "first_letter": "I",
   "sections": [
     {
       "heading": "Key facts",
-      "content": null,
-      "bullets": [
-        "Ionizing radiation is a type of energy released by atoms in the form of electromagnetic waves or particles.",
-        "People are exposed to natural sources of ionizing radiation, such as in soil, water, and vegetation, as well as in human-made sources, such as x-rays in medical devices.",
-        "Ionizing radiation has many beneficial applications, including uses in medicine, industry, agriculture and research.",
-        "As the use of ionizing radiation increases, so does the potential for health hazards if not properly used or contained.",
-        "Acute health effects such as skin burns or acute radiation syndrome can occur when doses of radiation exceed very high levels.",
-        "Low doses of ionizing radiation can increase the risk of longer term effects such as cancer."
+      "content": [
+        {
+          "text": null,
+          "bullets": [
+            "Ionizing radiation is a type of energy released by atoms in the form of electromagnetic waves or particles.",
+            "People are exposed to natural sources of ionizing radiation, such as in soil, water, and vegetation, as well as in human-made sources, such as x-rays in medical devices.",
+            "Ionizing radiation has many beneficial applications, including uses in medicine, industry, agriculture and research.",
+            "As the use of ionizing radiation increases, so does the potential for health hazards if not properly used or contained.",
+            "Acute health effects such as skin burns or acute radiation syndrome can occur when doses of radiation exceed very high levels.",
+            "Low doses of ionizing radiation can increase the risk of longer term effects such as cancer."
+          ]
+        }
       ]
     },
     {
       "heading": "What is ionizing radiation?",
-      "content": "Ionizing radiation is a type of energy released by atoms that travels in the form of electromagnetic waves (gamma or X-rays) or particles (neutrons, beta or alpha). The spontaneous disintegration of atoms is called radioactivity, and the excess energy emitted is a form of ionizing radiation. Unstable elements which disintegrate and emit ionizing radiation are called radionuclides."
+      "content": [
+        "Ionizing radiation is a type of energy released by atoms that travels in the form of electromagnetic waves (gamma or X-rays) or particles (neutrons, beta or alpha). The spontaneous disintegration of atoms is called radioactivity, and the excess energy emitted is a form of ionizing radiation. Unstable elements which disintegrate and emit ionizing radiation are called radionuclides."
+      ]
     },
     {
       "heading": "Radiation sources",
@@ -31,7 +38,9 @@
     },
     {
       "heading": "Health effects of ionizing radiation",
-      "content": "Radiation damage to tissue and/or organs depends on the dose of radiation received, or the absorbed dose which is expressed in a unit called the gray (Gy). The potential damage from an absorbed dose depends on the type of radiation and the sensitivity of the different tissues and organs."
+      "content": [
+        "Radiation damage to tissue and/or organs depends on the dose of radiation received, or the absorbed dose which is expressed in a unit called the gray (Gy). The potential damage from an absorbed dose depends on the type of radiation and the sensitivity of the different tissues and organs."
+      ]
     },
     {
       "heading": "WHO response",
@@ -50,5 +59,11 @@
     "https://www.who.int/images/default-source/fallback/maps/south-east-asia1c6bd1d9eb5b4cf0b5ad5da36ff3912d.png?sfvrsn=68e76dc2_17",
     "https://www.who.int/images/default-source/fallback/maps/western-pacifice1e576200c9b4fe59078eb28958428a9.png?sfvrsn=88cbdcd5_19"
   ],
-  "scrape_timestamp_utc": "2026-01-21T18:08:17Z"
+  "tags": [
+    "Health Fact",
+    "ionizing-radiation-and-health-effects",
+    "Ionizing radiation and health effects",
+    "WHO"
+  ],
+  "scrape_timestamp_utc": "2026-01-27T17:24:32Z"
 }
