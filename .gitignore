@@ -18,3 +18,4 @@ Model/harvester/storage/seeds/embeddings/metadata.json
 Model/harvester/storage/webmd/allarticles
 Model/harvester/storage/webmd/articles
 Model/harvester/storage/webmd/healthtopics
+Model/harvester/storage/outputs/webmd/faiss/sapbert_embeddings.npy
