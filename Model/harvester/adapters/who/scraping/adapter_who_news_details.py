@@ -1,19 +1,22 @@
 import json
 import os
+import argparse
 
 import requests, re
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-from datetime import datetime
+from datetime import datetime, timedelta
 import time
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (WHO-scraper/1.0)"}
 HEADLINES_DIR = "../../../storage/who/headlines"
 OUTPUT_DIR = "../../../storage/who/news"
+NEW_ARTICLES_DIR = "../../../storage/who/new_articles"  # For periodic runs
 
 SAVE_EVERY = 5  # save every 5 articles
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+os.makedirs(NEW_ARTICLES_DIR, exist_ok=True)
 
 from bs4 import BeautifulSoup, Tag, NavigableString
 from urllib.parse import urljoin
@@ -122,9 +125,20 @@ def load_existing_items(filepath):
     with open(filepath, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def load_urls_from_year_file(filepath, min_year=2020):
+def load_urls_from_year_file(filepath, min_year=2020, recent_days=None):
+    """Load URLs from year file, optionally filtered by recent date.
+    
+    Args:
+        filepath: Path to the year JSON file
+        min_year: Minimum year to include
+        recent_days: If set, only include articles from last N days
+    """
     with open(filepath, "r", encoding="utf-8") as f:
         items = json.load(f)
+
+    cutoff_date = None
+    if recent_days:
+        cutoff_date = (datetime.now() - timedelta(days=recent_days)).date()
 
     urls = []
     for item in items:
@@ -135,6 +149,15 @@ def load_urls_from_year_file(filepath, min_year=2020):
         year = int(date[:4])
         if year < min_year:
             continue
+
+        # Filter by recent date if specified
+        if cutoff_date:
+            try:
+                article_date = datetime.strptime(date, "%Y-%m-%d").date()
+                if article_date < cutoff_date:
+                    continue
+            except:
+                continue
 
         urls.append(item["url"])
 
@@ -296,6 +319,36 @@ def scrape_who_news_item(url):
     if contacts:
         names = [c.get("name") for c in contacts if c.get("name")]
         author = ", ".join(names) if names else None
+    
+    # Default to WHO if no author or if author looks like malformed data
+    if not author:
+        author = "WHO"
+    else:
+        # Validate author - replace with WHO if it looks like malformed data
+        author_stripped = author.strip()
+        
+        # Patterns indicating malformed data:
+        # - Date formats: 2024-01-29, 29/01/2024, etc.
+        # - Time formats: 14:30, 23:59
+        # - URLs or emails
+        # - Generic placeholder text
+        # - Mostly numeric content
+        # - Too short (< 2 chars) or suspiciously long (> 150 chars)
+        
+        is_invalid = (
+            re.search(r'\d{4}[-/]\d{1,2}[-/]\d{1,2}', author_stripped) or  # Date: YYYY-MM-DD
+            re.search(r'\d{1,2}[-/]\d{1,2}[-/]\d{4}', author_stripped) or  # Date: DD-MM-YYYY
+            re.search(r'\d{2}:\d{2}', author_stripped) or  # Time: HH:MM
+            re.search(r'@[\w\.-]+\.\w+', author_stripped) or  # Email domain
+            re.search(r'https?://', author_stripped, re.I) or  # URL
+            re.search(r'^(contact|media|information|unknown|n/a|none)$', author_stripped, re.I) or  # Generic text
+            len(author_stripped) < 2 or  # Too short
+            len(author_stripped) > 150 or  # Suspiciously long
+            sum(c.isdigit() for c in author_stripped) / max(len(author_stripped), 1) > 0.5  # >50% digits
+        )
+        
+        if is_invalid:
+            author = "WHO"
 
     # Images: try og:image first, then data-image/style/src within article/content
     og_image = None
@@ -334,11 +387,42 @@ def scrape_who_news_item(url):
         "references": references,
         "images": images,
         "tags": [t for t in ["WHO", title, item_type] if t],
-        "scrape_timestamp_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+        "scrape_timestamp_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "first_seen_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())  # When first discovered
     }
     return result
 
 def main():
+    parser = argparse.ArgumentParser(description="Scrape WHO news articles")
+    parser.add_argument(
+        "--recent-days",
+        type=int,
+        default=None,
+        help="Only process articles from the last N days (for periodic runs)"
+    )
+    parser.add_argument(
+        "--min-year",
+        type=int,
+        default=2006,
+        help="Minimum year to process (default: 2006)"
+    )
+    args = parser.parse_args()
+
+    run_timestamp = time.strftime("%Y%m%d_%H%M%S")
+    new_articles_this_run = []
+    total_new = 0
+    total_skipped = 0
+
+    print(f"\n{'='*60}")
+    print(f"WHO News Scraper - Run started at {time.strftime('%Y-%m-%d %H:%M:%S')}")
+    if args.recent_days:
+        print(f"Mode: PERIODIC (last {args.recent_days} days only)")
+        cutoff = datetime.now() - timedelta(days=args.recent_days)
+        print(f"Cutoff date: {cutoff.strftime('%Y-%m-%d')}")
+    else:
+        print(f"Mode: FULL (all articles from {args.min_year} onwards)")
+    print(f"{'='*60}\n")
+
     for filename in sorted(os.listdir(HEADLINES_DIR)):
         if not filename.endswith(".json"):
             continue
@@ -347,18 +431,26 @@ def main():
         input_path = os.path.join(HEADLINES_DIR, filename)
         output_path = os.path.join(OUTPUT_DIR, f"{year}.json")
 
-        print(f"\nProcessing year {year}...")
+        print(f"\n📂 Processing year {year}...")
 
-        urls = load_urls_from_year_file(input_path, min_year=2006)
+        urls = load_urls_from_year_file(input_path, min_year=args.min_year, recent_days=args.recent_days)
+
+        if not urls:
+            print(f"  No URLs to process for {year}")
+            continue
 
         year_results = load_existing_items(output_path)
         existing_urls = {item["url"] for item in year_results if "url" in item}
+        year_new_count = 0
+        year_skip_count = 0
 
         for i, url in enumerate(urls, 1):
             print(f"  [{i}/{len(urls)}] {url}")
 
             if url in existing_urls:
-                print("⏭️ Skipped (already scraped)")
+                print("  ⏭️  Skipped (already scraped)")
+                total_skipped += 1
+                year_skip_count += 1
                 continue
 
             try:
@@ -368,21 +460,46 @@ def main():
 
                 year_results.append(data)
                 existing_urls.add(url)
+                new_articles_this_run.append(data)
+                year_new_count += 1
+                total_new += 1
+
+                print(f"  ✅ NEW article scraped")
 
                 if len(year_results) % SAVE_EVERY == 0:
                     with open(output_path, "w", encoding="utf-8") as f:
                         json.dump(year_results, f, ensure_ascii=False, indent=2)
-                    print("💾 Progress saved")
+                    print("  💾 Progress saved")
 
             except Exception as e:
-                print(f"❌ Error: {e}")
+                print(f"  ❌ Error: {e}")
 
             time.sleep(0.1)
 
+        # Save year file
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(year_results, f, ensure_ascii=False, indent=2)
 
-        print(f"Saved {len(year_results)} articles for {year}")
+        print(f"\n  Year {year} summary: {year_new_count} new, {year_skip_count} skipped, {len(year_results)} total")
+
+    # Save new articles from this run to a separate file
+    if new_articles_this_run:
+        new_articles_file = os.path.join(NEW_ARTICLES_DIR, f"new_articles_{run_timestamp}.json")
+        with open(new_articles_file, "w", encoding="utf-8") as f:
+            json.dump(new_articles_this_run, f, ensure_ascii=False, indent=2)
+        print(f"\n📄 Saved {len(new_articles_this_run)} new articles to: {new_articles_file}")
+
+    # Print final summary
+    print(f"\n{'='*60}")
+    print(f"RUN SUMMARY")
+    print(f"{'='*60}")
+    print(f"✅ New articles discovered: {total_new}")
+    print(f"⏭️  Already existing (skipped): {total_skipped}")
+    print(f"📊 Total processed: {total_new + total_skipped}")
+    if args.recent_days:
+        print(f"🔄 Periodic mode: last {args.recent_days} days")
+    print(f"⏰ Completed at: {time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"{'='*60}\n")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,520 @@
+[
+  {
+    "title": "Circulating vaccine-derived poliovirus type 2-Indonesia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON430",
+    "date": "2022-12-19",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.224175"
+  },
+  {
+    "title": "Cholera – Global situation",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON426",
+    "date": "2022-12-16",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.224328"
+  },
+  {
+    "title": "Increased incidence of scarlet fever and invasive Group A Streptococcus infection - multi-country",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON429",
+    "date": "2022-12-15",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.224477"
+  },
+  {
+    "title": "Cholera - Haiti",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON427",
+    "date": "2022-12-13",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.224623"
+  },
+  {
+    "title": "Ebola disease caused by Sudan ebolavirus – Uganda",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON428",
+    "date": "2022-12-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.224769"
+  },
+  {
+    "title": "Dengue - Bangladesh",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON424",
+    "date": "2022-11-28",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.224917"
+  },
+  {
+    "title": "Ebola disease caused by Sudan ebolavirus – Uganda",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON425",
+    "date": "2022-11-24",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.225077"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON422",
+    "date": "2022-11-16",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.225223"
+  },
+  {
+    "title": "Ebola disease caused by Sudan ebolavirus – Uganda",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON423",
+    "date": "2022-11-10",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.225368"
+  },
+  {
+    "title": "Cholera - Malawi",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON419",
+    "date": "2022-11-07",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.225513"
+  },
+  {
+    "title": "Avian Influenza A (H5N1) - Spain",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON420",
+    "date": "2022-11-03",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.225662"
+  },
+  {
+    "title": "Ebola Disease caused by Sudan virus - Uganda",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON421",
+    "date": "2022-10-28",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.225807"
+  },
+  {
+    "title": "Rift Valley Fever - Mauritania",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON417",
+    "date": "2022-10-20",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.225954"
+  },
+  {
+    "title": "Cholera - Lebanon",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON416",
+    "date": "2022-10-19",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.445546"
+  },
+  {
+    "title": "Malaria - Pakistan",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON413",
+    "date": "2022-10-17",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.445710"
+  },
+  {
+    "title": "Dengue - Pakistan",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON414",
+    "date": "2022-10-13",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.445858"
+  },
+  {
+    "title": "Cholera - Haiti",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON415",
+    "date": "2022-10-12",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.446008"
+  },
+  {
+    "title": "Dengue - Nepal",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON412",
+    "date": "2022-10-10",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.446154"
+  },
+  {
+    "title": "Ebola virus disease –Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON411",
+    "date": "2022-09-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.446313"
+  },
+  {
+    "title": "Marburg virus disease - Ghana",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON409",
+    "date": "2022-09-26",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.446474"
+  },
+  {
+    "title": "Ebola Disease caused by Sudan virus - Uganda",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON410",
+    "date": "2022-09-26",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.446619"
+  },
+  {
+    "title": "Detection of circulating vaccine derived polio virus 2 (cVDPV2) in environmental samples– the United Kingdom of Great Britain and Northern Ireland and the United States of America",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON408",
+    "date": "2022-09-14",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.446767"
+  },
+  {
+    "title": "Circulating vaccine-derived poliovirus type 2 - Algeria",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON406",
+    "date": "2022-09-13",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.446914"
+  },
+  {
+    "title": "Legionellosis - Argentina",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON407",
+    "date": "2022-09-05",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.447070"
+  },
+  {
+    "title": "Yellow fever - African Region (AFRO)",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON405",
+    "date": "2022-09-02",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.447214"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON404",
+    "date": "2022-08-25",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.447361"
+  },
+  {
+    "title": "Leptospirosis - United Republic of Tanzania",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON403",
+    "date": "2022-08-12",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.447518"
+  },
+  {
+    "title": "Dengue in Rohingya refugee/Forcibly Displaced Myanmar Nationals (FDMN) camps in Cox’s Bazar - Bangladesh",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON401",
+    "date": "2022-08-03",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.447672"
+  },
+  {
+    "title": "Marburg virus disease - Ghana",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON402",
+    "date": "2022-07-22",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.447826"
+  },
+  {
+    "title": "Cholera - Somalia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON398_1",
+    "date": "2022-07-20",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.447969"
+  },
+  {
+    "title": "Severe acute hepatitis of unknown aetiology in children - Multi-country",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON400",
+    "date": "2022-07-12",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.448114"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON398",
+    "date": "2022-07-04",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.448259"
+  },
+  {
+    "title": "Multi-country monkeypox outbreak: situation update",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON396",
+    "date": "2022-06-27",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.448403"
+  },
+  {
+    "title": "Severe acute hepatitis of unknown aetiology in children - Multi-country",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON394",
+    "date": "2022-06-24",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.448548"
+  },
+  {
+    "title": "Wild poliovirus type 1 – Mozambique",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON395",
+    "date": "2022-06-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.448696"
+  },
+  {
+    "title": "Multi-country monkeypox outbreak: situation update",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON393",
+    "date": "2022-06-17",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.448841"
+  },
+  {
+    "title": "Cholera - Pakistan",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON391",
+    "date": "2022-06-17",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.448984"
+  },
+  {
+    "title": "Multi-country monkeypox outbreak: situation update",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON392",
+    "date": "2022-06-10",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.449127"
+  },
+  {
+    "title": "Multi-country monkeypox outbreak: situation update",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON390",
+    "date": "2022-06-04",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.449276"
+  },
+  {
+    "title": "Crimean-Congo hemorrhagic fever - Iraq",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON386",
+    "date": "2022-06-01",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.449420"
+  },
+  {
+    "title": "Multi-country monkeypox outbreak in non-endemic countries: Update",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON388",
+    "date": "2022-05-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:12.449570"
+  },
+  {
+    "title": "Acute hepatitis of unknown aetiology in children - Multi-country",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/DON-389",
+    "date": "2022-05-27",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.681621"
+  },
+  {
+    "title": "Dengue - Sao Tome and Principe",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON387",
+    "date": "2022-05-26",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.681786"
+  },
+  {
+    "title": "Multi-country monkeypox outbreak in non-endemic countries",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON385",
+    "date": "2022-05-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.681944"
+  },
+  {
+    "title": "Influenza A H1N1 - Germany",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON384",
+    "date": "2022-05-19",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.682097"
+  },
+  {
+    "title": "Monkeypox - United Kingdom of Great Britain and Northern Ireland",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON383",
+    "date": "2022-05-18",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.682245"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus - Oman",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON380",
+    "date": "2022-05-17",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.682399"
+  },
+  {
+    "title": "Monkeypox - United Kingdom of Great Britain and Northern Ireland",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON381",
+    "date": "2022-05-16",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.682546"
+  },
+  {
+    "title": "Cholera - Cameroon",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON374",
+    "date": "2022-05-16",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.682692"
+  },
+  {
+    "title": "Lassa fever - Guinea",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON382",
+    "date": "2022-05-13",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.682838"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Qatar",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON370",
+    "date": "2022-05-12",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.682985"
+  },
+  {
+    "title": "Avian Influenza A(H3N8) - China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON378",
+    "date": "2022-05-09",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.683143"
+  },
+  {
+    "title": "Avian Influenza A(H5N1) – United States of America",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON379",
+    "date": "2022-05-06",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.683291"
+  },
+  {
+    "title": "Japanese encephalitis - Australia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON365",
+    "date": "2022-04-28",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.683439"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON377",
+    "date": "2022-04-28",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.683588"
+  },
+  {
+    "title": "Measles - Somalia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON371",
+    "date": "2022-04-27",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.683742"
+  },
+  {
+    "title": "Multi-country outbreak of Salmonella Typhimurium linked to chocolate products – Europe and the United States of America",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON369",
+    "date": "2022-04-27",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.683889"
+  },
+  {
+    "title": "Cholera - Malawi",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON372",
+    "date": "2022-04-27",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.684039"
+  },
+  {
+    "title": "Yellow Fever – Uganda",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON367",
+    "date": "2022-04-25",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.684201"
+  },
+  {
+    "title": "Severe acute hepatitis of unknown origin in children - Multicountry",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON376",
+    "date": "2022-04-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.684346"
+  },
+  {
+    "title": "Circulating vaccine-derived poliovirus type 3 – Israel",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON366",
+    "date": "2022-04-15",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.684490"
+  },
+  {
+    "title": "Acute hepatitis of unknown aetiology – the United Kingdom of Great Britain and Northern Ireland",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON368",
+    "date": "2022-04-15",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.684640"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON363",
+    "date": "2022-04-07",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.684785"
+  },
+  {
+    "title": "Yellow fever - Kenya",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON361",
+    "date": "2022-03-25",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.684930"
+  },
+  {
+    "title": "Extensively drug-resistant Shigella sonnei infections - Europe - European Region (EURO)",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON364",
+    "date": "2022-03-24",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.685075"
+  },
+  {
+    "title": "Lassa fever - Togo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON362",
+    "date": "2022-03-24",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.685221"
+  },
+  {
+    "title": "Wild poliovirus type 1 - Malawi",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/wild-poliovirus-type-1-(WPV1)-malawi",
+    "date": "2022-03-03",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.685367"
+  },
+  {
+    "title": "Lassa Fever – United Kingdom of Great Britain and Northern Ireland",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/lassa-fever-united-kingdom-of-great-britain-and-northern-ireland",
+    "date": "2022-02-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.685514"
+  },
+  {
+    "title": "Lassa Fever - Nigeria",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/lassa-fever---nigeria",
+    "date": "2022-02-14",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:18.685660"
+  },
+  {
+    "title": "Measles – Afghanistan",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/measles-afghanistan",
+    "date": "2022-02-10",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:24.927705"
+  },
+  {
+    "title": "Dengue - Timor-Leste",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/dengue---timor-leste",
+    "date": "2022-02-04",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:24.927870"
+  },
+  {
+    "title": "Cholera – Benin",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/cholera-benin",
+    "date": "2022-01-25",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:24.928025"
+  },
+  {
+    "title": "Hepatitis E - Chad",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON352",
+    "date": "2022-01-17",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:24.928176"
+  },
+  {
+    "title": "Influenza A(H5) - United Kingdom of Great Britain and Northern Ireland",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/influenza-a-(h5)---united-kingdom-of-great-britain-and-northern-ireland",
+    "date": "2022-01-14",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:24.928323"
+  }
+]

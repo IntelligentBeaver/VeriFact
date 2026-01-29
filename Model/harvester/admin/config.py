@@ -27,7 +27,7 @@ STANCE_MODEL = "roberta-large-mnli"  # NLI model for stance
 CONCEPT_LABELS_DIR = HARVESTER_DIR / "storage" / "seeds" / "embeddings"
 CONCEPT_LABELS_VECTORS = CONCEPT_LABELS_DIR / "sapbert_embeddings.npy"
 CONCEPT_LABELS_METADATA = CONCEPT_LABELS_DIR / "metadata.json"
-CONCEPT_TOPK = 8
+CONCEPT_TOPK = 5
 
 # Default retrieval parameters
 DEFAULT_TOPK_FAISS = 100

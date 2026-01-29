@@ -1,0 +1,478 @@
+[
+  {
+    "title": "Western equine encephalitis - Argentina",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON499",
+    "date": "2023-12-28",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.754865"
+  },
+  {
+    "title": "Dengue - Global situation",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON498",
+    "date": "2023-12-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.755015"
+  },
+  {
+    "title": "Anthrax - Zambia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON497",
+    "date": "2023-12-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.755169"
+  },
+  {
+    "title": "Influenza A(H1N2) variant virus infection - United Kingdom of Great Britain and Northern Ireland",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON496",
+    "date": "2023-12-01",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.755343"
+  },
+  {
+    "title": "Avian Influenza A (H5N1) - Cambodia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON495",
+    "date": "2023-11-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.755522"
+  },
+  {
+    "title": "Upsurge of respiratory illnesses among children-Northern China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON494",
+    "date": "2023-11-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.755673"
+  },
+  {
+    "title": "Mpox (monkeypox) - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON493",
+    "date": "2023-11-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.755826"
+  },
+  {
+    "title": "Diphtheria - Guinea",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON492",
+    "date": "2023-10-18",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.755978"
+  },
+  {
+    "title": "Dengue - Chad",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON491",
+    "date": "2023-10-16",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.756141"
+  },
+  {
+    "title": "Nipah virus infection - India",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON490",
+    "date": "2023-10-03",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.756307"
+  },
+  {
+    "title": "Suspected triple outbreak of typhoid fever, shigellosis and cholera - Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON488",
+    "date": "2023-09-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.756461"
+  },
+  {
+    "title": "Botulism - France",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON489",
+    "date": "2023-09-20",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.756614"
+  },
+  {
+    "title": "Legionellosis - Poland",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON487",
+    "date": "2023-09-14",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.756765"
+  },
+  {
+    "title": "Diphtheria - Nigeria",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON485",
+    "date": "2023-09-13",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.756914"
+  },
+  {
+    "title": "Influenza A (H1N1) variant virus - the Netherlands",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON486",
+    "date": "2023-09-13",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.757067"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus - Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON484",
+    "date": "2023-08-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.757232"
+  },
+  {
+    "title": "Measles - Chile",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON483",
+    "date": "2023-08-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.757541"
+  },
+  {
+    "title": "Influenza A (H1N2) variant virus-United States of America",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON482",
+    "date": "2023-08-11",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.757990"
+  },
+  {
+    "title": "Dengue - Bangladesh",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON481",
+    "date": "2023-08-11",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.758159"
+  },
+  {
+    "title": "Circulating vaccine-derived poliovirus type 2 (cVDPV2) - Kenya",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON479",
+    "date": "2023-07-28",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.758343"
+  },
+  {
+    "title": "Circulating vaccine-derived poliovirus type 2 (cVDPV2) - United Republic of Tanzania",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON480",
+    "date": "2023-07-28",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.758503"
+  },
+  {
+    "title": "Guillain-Barré Syndrome - Peru",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON477",
+    "date": "2023-07-25",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.758661"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus –United Arab Emirates",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON478",
+    "date": "2023-07-24",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.758824"
+  },
+  {
+    "title": "Dengue – the Region of the Americas",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON475",
+    "date": "2023-07-19",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.758973"
+  },
+  {
+    "title": "Influenza A(H5N1) in cats – Poland",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON476",
+    "date": "2023-07-16",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:53.759122"
+  },
+  {
+    "title": "Enterovirus-Echovirus 11 Infection - the European Region",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON474",
+    "date": "2023-07-07",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.992683"
+  },
+  {
+    "title": "Influenza A H1N1 variant virus - Brazil",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON473",
+    "date": "2023-06-16",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.992842"
+  },
+  {
+    "title": "Marburg virus disease - Equatorial Guinea",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON472",
+    "date": "2023-06-09",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.992989"
+  },
+  {
+    "title": "Marburg virus disease - United Republic of Tanzania",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON471",
+    "date": "2023-06-02",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.993155"
+  },
+  {
+    "title": "Outbreak of suspected fungal meningitis associated with surgical procedures performed under spinal anaesthesia – the United States of America and Mexico",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON470",
+    "date": "2023-06-01",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.993334"
+  },
+  {
+    "title": "Enterovirus Infection - France",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON469",
+    "date": "2023-05-31",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.993491"
+  },
+  {
+    "title": "Avian Influenza A H5N1 - United Kingdom of Great Britain and Northern Ireland",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON468",
+    "date": "2023-05-30",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.993637"
+  },
+  {
+    "title": "Myocarditis - United Kingdom of Great Britain and Northern Ireland",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON465",
+    "date": "2023-05-17",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.993790"
+  },
+  {
+    "title": "Marburg virus disease - Equatorial Guinea and the United Republic of Tanzania",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON467",
+    "date": "2023-05-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.994005"
+  },
+  {
+    "title": "Acute hepatitis E – South Sudan",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON466",
+    "date": "2023-05-05",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.994222"
+  },
+  {
+    "title": "Measles - Ethiopia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON460",
+    "date": "2023-05-04",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.994381"
+  },
+  {
+    "title": "Lassa fever - Nigeria",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON463",
+    "date": "2023-05-01",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.994556"
+  },
+  {
+    "title": "Measles - Indonesia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON462",
+    "date": "2023-04-28",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.994803"
+  },
+  {
+    "title": "Diphtheria - Nigeria",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON452",
+    "date": "2023-04-27",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.995043"
+  },
+  {
+    "title": "Meningitis - Nigeria",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON454",
+    "date": "2023-04-27",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.995236"
+  },
+  {
+    "title": "Human Infection caused by Avian Influenza A (H5N1) - Chile",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON461",
+    "date": "2023-04-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.995393"
+  },
+  {
+    "title": "Circulating vaccine-derived poliovirus type 2 – Burundi",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON457",
+    "date": "2023-04-20",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.995543"
+  },
+  {
+    "title": "Circulating vaccine-derived poliovirus type 2 - Indonesia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON458",
+    "date": "2023-04-17",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.995692"
+  },
+  {
+    "title": "Marburg virus disease - Equatorial Guinea",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON459",
+    "date": "2023-04-15",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.995838"
+  },
+  {
+    "title": "Avian Influenza A(H3N8) - China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON456",
+    "date": "2023-04-11",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.995985"
+  },
+  {
+    "title": "Pneumococcal meningitis - Togo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON455",
+    "date": "2023-04-11",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.996138"
+  },
+  {
+    "title": "Human infection caused by Avian Influenza A (H5) - Chile",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON453",
+    "date": "2023-04-06",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.996305"
+  },
+  {
+    "title": "Iatrogenic Botulism- European Region",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON450",
+    "date": "2023-03-24",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.996484"
+  },
+  {
+    "title": "Marburg virus disease - United Republic of Tanzania",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON451",
+    "date": "2023-03-24",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.996635"
+  },
+  {
+    "title": "Geographical expansion of cases of dengue and chikungunya beyond the historical areas of transmission in the Region of the Americas",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON448",
+    "date": "2023-03-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.996782"
+  },
+  {
+    "title": "Marburg virus disease - Equatorial Guinea",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON449",
+    "date": "2023-03-22",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.996934"
+  },
+  {
+    "title": "Measles - South Africa",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON447",
+    "date": "2023-03-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.997092"
+  },
+  {
+    "title": "Measles - Nepal",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON446",
+    "date": "2023-03-14",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:15:59.997239"
+  },
+  {
+    "title": "Avian Influenza A (H5N1) - Cambodia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON445",
+    "date": "2023-02-26",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.221884"
+  },
+  {
+    "title": "Marburg virus disease - Equatorial Guinea",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON444",
+    "date": "2023-02-25",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.222049"
+  },
+  {
+    "title": "Cholera - Mozambique",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON443",
+    "date": "2023-02-24",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.222200"
+  },
+  {
+    "title": "Nipah virus infection - Bangladesh",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON442",
+    "date": "2023-02-17",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.222346"
+  },
+  {
+    "title": "Cholera – Global situation",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON437",
+    "date": "2023-02-11",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.222490"
+  },
+  {
+    "title": "Measles - South Sudan",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON440",
+    "date": "2023-02-10",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.222635"
+  },
+  {
+    "title": "Cholera - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON441",
+    "date": "2023-02-10",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.222812"
+  },
+  {
+    "title": "Cholera - Malawi",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON435",
+    "date": "2023-02-09",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.222977"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus –Oman",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON436",
+    "date": "2023-02-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.223128"
+  },
+  {
+    "title": "Meningitis - Niger",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON439",
+    "date": "2023-02-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.223274"
+  },
+  {
+    "title": "Measles - Paraguay",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON438",
+    "date": "2023-02-02",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.223420"
+  },
+  {
+    "title": "Human infection caused by avian influenza A(H5) - Ecuador",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON434",
+    "date": "2023-01-18",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.223572"
+  },
+  {
+    "title": "Ebola disease caused by Sudan ebolavirus – Uganda",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON433",
+    "date": "2023-01-14",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.223722"
+  },
+  {
+    "title": "Circulating vaccine-derived poliovirus type 2 – Sudan",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON362",
+    "date": "2023-01-12",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.223871"
+  },
+  {
+    "title": "Yellow fever - African Region (AFRO)",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON431",
+    "date": "2023-01-03",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:06.224018"
+  }
+]

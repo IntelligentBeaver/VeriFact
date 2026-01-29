@@ -1,0 +1,527 @@
+[
+  {
+    "title": "COVID-19 - Global",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON305",
+    "date": "2020-12-31",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:31.228282"
+  },
+  {
+    "title": "Yellow Fever - Senegal",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON303",
+    "date": "2020-12-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:31.228430"
+  },
+  {
+    "title": "Yellow Fever - Guinea",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON302",
+    "date": "2020-12-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:31.228578"
+  },
+  {
+    "title": "COVID-19 - United Kingdom of Great Britain and Northern Ireland",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON304",
+    "date": "2020-12-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:31.228724"
+  },
+  {
+    "title": "COVID-19 - Denmark",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON301",
+    "date": "2020-12-03",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:31.228870"
+  },
+  {
+    "title": "Acute hepatitis E - Burkina Faso",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON300",
+    "date": "2020-11-27",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:31.229017"
+  },
+  {
+    "title": "Yellow Fever - Nigeria",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON299",
+    "date": "2020-11-24",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:31.229163"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/ebola-virus-disease-democratic-republic-of-the-congo-draft",
+    "date": "2020-11-18",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:31.229310"
+  },
+  {
+    "title": "Avian Influenza A(H5N1) - Lao People’s Democratic Republic",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/avian-influenza-a(h5n1)--lao-people-s-democratic-republic",
+    "date": "2020-11-17",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:31.229456"
+  },
+  {
+    "title": "Rift valley fever - Mauritania",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/rift-valley-fever-mauritania",
+    "date": "2020-11-13",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:31.229603"
+  },
+  {
+    "title": "COVID-19 - Denmark",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON297",
+    "date": "2020-11-06",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:31.229753"
+  },
+  {
+    "title": "Mayaro virus disease - French Guiana",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/mayaro-virus-disease---french-guiana-france",
+    "date": "2020-10-24",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:31.229903"
+  },
+  {
+    "title": "Oropouche virus disease - French Guiana",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/oropouche-virus-disease---french-guiana-france",
+    "date": "2020-10-13",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:31.230051"
+  },
+  {
+    "title": "Monkeypox - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/monkeypox-democratic-republic-of-the-congo",
+    "date": "2020-10-01",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.453635"
+  },
+  {
+    "title": "Chikungunya – Chad",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/chikungunya-chad",
+    "date": "2020-09-24",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.453795"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/ebola-virus-disease-democratic-republic-of-the-congo",
+    "date": "2020-09-03",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.453944"
+  },
+  {
+    "title": "Circulating vaccine-derived poliovirus type 2 - Sudan",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/circulating-vaccine-derived-poliovirus-type-2-sudan",
+    "date": "2020-09-01",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.454090"
+  },
+  {
+    "title": "Yellow Fever - French Guiana",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON288",
+    "date": "2020-08-01",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.454234"
+  },
+  {
+    "title": "Plague - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/plague-democratic-republic-of-the-congo",
+    "date": "2020-07-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.454381"
+  },
+  {
+    "title": "Influenza A(H1N2) variant virus - Brazil",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON286",
+    "date": "2020-07-09",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.454527"
+  },
+  {
+    "title": "Influenza A(H1N2) - Brazil",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/influenza-a(h1n2)-variant-virus-brazil",
+    "date": "2020-07-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.454671"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON285",
+    "date": "2020-07-02",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.454815"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON284",
+    "date": "2020-06-26",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.454966"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON283",
+    "date": "2020-06-18",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.455110"
+  },
+  {
+    "title": "Yellow fever – Gabon",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON282",
+    "date": "2020-06-17",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.455260"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON281",
+    "date": "2020-06-11",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.455406"
+  },
+  {
+    "title": "Yellow Fever - Togo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON279",
+    "date": "2020-06-05",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.455560"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON278",
+    "date": "2020-06-04",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.455715"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON277",
+    "date": "2020-06-03",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.455860"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON276",
+    "date": "2020-05-28",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.456004"
+  },
+  {
+    "title": "Dracunculiasis (Guinea worm disease) – Ethiopia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON273",
+    "date": "2020-05-25",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.456167"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON275",
+    "date": "2020-05-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.456325"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON274",
+    "date": "2020-05-14",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.456476"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON272",
+    "date": "2020-05-07",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.456631"
+  },
+  {
+    "title": "Measles - Burundi",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON264",
+    "date": "2020-05-06",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.456776"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON270",
+    "date": "2020-05-05",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.456938"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON271",
+    "date": "2020-04-30",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.457083"
+  },
+  {
+    "title": "Measles - Mexico",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON267",
+    "date": "2020-04-24",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.457228"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON269",
+    "date": "2020-04-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.457373"
+  },
+  {
+    "title": "Dengue Fever - France",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON265",
+    "date": "2020-04-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.457528"
+  },
+  {
+    "title": "Yellow Fever - Ethiopia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON263",
+    "date": "2020-04-22",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:37.457674"
+  },
+  {
+    "title": "Yellow Fever - South Sudan",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON262",
+    "date": "2020-04-18",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.693393"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON268",
+    "date": "2020-04-16",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.693560"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON266",
+    "date": "2020-04-09",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.693713"
+  },
+  {
+    "title": "MERS-CoV - Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON261",
+    "date": "2020-04-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.693859"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON260",
+    "date": "2020-04-02",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.694006"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON259",
+    "date": "2020-03-26",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.694153"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON258",
+    "date": "2020-03-19",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.694297"
+  },
+  {
+    "title": "MERS-CoV - Qatar",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON254",
+    "date": "2020-03-12",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.694441"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON255",
+    "date": "2020-03-12",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.694585"
+  },
+  {
+    "title": "Dengue Fever - Region of the Americas (PAHO) - French Guiana, Guadeloupe, Martinique, Saint-Martin, and Saint-Barthélemy",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON251",
+    "date": "2020-03-10",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.694730"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON253",
+    "date": "2020-03-05",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.694879"
+  },
+  {
+    "title": "Measles - Central African Republic",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON246",
+    "date": "2020-03-04",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.695031"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON252",
+    "date": "2020-02-27",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.695181"
+  },
+  {
+    "title": "MERS-CoV - Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON247",
+    "date": "2020-02-24",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.695330"
+  },
+  {
+    "title": "Dengue Fever - Chile",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON250",
+    "date": "2020-02-22",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.695475"
+  },
+  {
+    "title": "Yellow Fever - Uganda",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON249",
+    "date": "2020-02-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.695621"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON248",
+    "date": "2020-02-20",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.695769"
+  },
+  {
+    "title": "Lassa Fever - Nigeria",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON245",
+    "date": "2020-02-20",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.695915"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON244",
+    "date": "2020-02-13",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.696059"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON243",
+    "date": "2020-02-06",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.696204"
+  },
+  {
+    "title": "MERS-CoV - United Arab Emirates",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON239",
+    "date": "2020-01-31",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.696349"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON242",
+    "date": "2020-01-30",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.696496"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON241",
+    "date": "2020-01-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.696640"
+  },
+  {
+    "title": "COVID-19 - Republic of Korea - (ex-China)",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON238",
+    "date": "2020-01-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.696786"
+  },
+  {
+    "title": "Disease outbreak news - Japan",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON237",
+    "date": "2020-01-17",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.696939"
+  },
+  {
+    "title": "COVID-19 - Japan - (ex-China)",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON236",
+    "date": "2020-01-16",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.697086"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON235",
+    "date": "2020-01-16",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.697231"
+  },
+  {
+    "title": "Novel Coronavirus – Thailand (ex-China)",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON234",
+    "date": "2020-01-14",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:43.697377"
+  },
+  {
+    "title": "COVID-19 - China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON233",
+    "date": "2020-01-12",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:49.945415"
+  },
+  {
+    "title": "Measles - occupied Palestinian territory",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON232",
+    "date": "2020-01-10",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:49.945690"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON230",
+    "date": "2020-01-09",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:49.945848"
+  },
+  {
+    "title": "MERS-CoV - United Arab Emirates",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON231",
+    "date": "2020-01-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:49.945996"
+  },
+  {
+    "title": "Pneumonia of unknown cause – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON229",
+    "date": "2020-01-05",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:49.946142"
+  },
+  {
+    "title": "Ebola virus disease - Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON228",
+    "date": "2020-01-02",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:16:49.946289"
+  }
+]
