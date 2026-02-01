@@ -15,6 +15,7 @@ from models import ModelManager
 from scoring import PassageScorer, PassageFilter, AutoLabeler
 from stance_detector import StanceDetector, StanceAutoLabeler
 from persistence import LabeledDataStore, ClaimsLoader, ProcessedClaimTracker
+from retrieval import IndexRetriever
 
 from config import (
     INDEX_DIR, 
@@ -38,6 +39,7 @@ class PassageLabeler:
         
         # Initialize modular components
         self.model_manager = None
+        self.index_retriever = None
         self.passage_scorer = PassageScorer()
         self.passage_filter = PassageFilter()
         self.auto_labeler = AutoLabeler(
@@ -66,7 +68,6 @@ class PassageLabeler:
         
         self.session_start = datetime.now()
         self.models_initialized = False
-        self.last_query_concepts = []
         self.auto_labeling_mode = AUTO_LABELING_MODE
 
     def _load_fake_claims_labeled(self):
@@ -99,6 +100,7 @@ class PassageLabeler:
         success = self.model_manager.initialize_all(skip_stance=skip_stance)
         
         if success:
+            self.index_retriever = IndexRetriever(self.model_manager, self.index_dir)
             self.stance_detector = StanceDetector(
                 nli_cross_encoder=self.model_manager.nli_cross_encoder
             )
@@ -112,98 +114,22 @@ class PassageLabeler:
             return self.initialize_models(skip_stance=skip_stance)
         return True
 
-    def search(self, query, topk=DEFAULT_TOPK_FAISS):
-        """Search for passages using FAISS via ModelManager."""
-        if self.model_manager is None:
-            raise RuntimeError("Models not initialized")
-        
-        # Build query vector with concept expansion
-        self.last_query_concepts = []
-        expanded_query = query
-        
-        concepts = self.get_top_concepts(query, topk=CONCEPT_TOPK)
-        if concepts:
-            self.last_query_concepts = concepts
-            expanded_query = f"{query}; " + "; ".join(concepts)
-        
-        # Embed and search
-        query_vector = self.model_manager.embed_text(expanded_query, normalize=True)
-        query_vector = np.expand_dims(query_vector.astype(np.float32), axis=0)
-        scores, indices = self.model_manager.index.search(query_vector, topk)
-        return scores[0], indices[0]
-
-    def rerank_results(self, query, passages):
-        """Rerank passages using cross-encoder via ModelManager."""
-        if self.model_manager is None or self.model_manager.cross_encoder is None:
-            return [0.0] * len(passages)
-        
-        texts = [p.get('text', '') for p in passages]
-        pairs = [[query, t] for t in texts]
-        scores = self.model_manager.cross_encoder.predict(pairs)
-        
-        # Normalize to [0, 1] using sigmoid
-        try:
-            arr = np.array(scores, dtype=np.float32)
-            normalized = 1.0 / (1.0 + np.exp(-arr))
-            return normalized.tolist()
-        except Exception:
-            return [0.0] * len(passages)
-
-    def compute_sapbert_similarities(self, query, passage_indices):
-        """Compute SapBERT medical entity similarities."""
-        if self.model_manager is None or self.model_manager.sapbert_embeddings is None:
-            return [None] * len(passage_indices)
-        
-        query_emb = self.model_manager.embed_with_sapbert(query, normalize=True)
-        if query_emb is None:
-            return [None] * len(passage_indices)
-        
-        scores = []
-        for idx in passage_indices:
-            if idx >= 0 and idx < len(self.model_manager.sapbert_embeddings):
-                passage_emb = self.model_manager.sapbert_embeddings[idx]
-                passage_emb = passage_emb / (np.linalg.norm(passage_emb) + 1e-8)
-                similarity = np.dot(query_emb, passage_emb)
-                scores.append(max(0.0, similarity))
-            else:
-                scores.append(None)
-        
-        return scores
+    @property
+    def last_query_concepts(self):
+        """Get concepts from retriever."""
+        if self.index_retriever:
+            return self.index_retriever.last_query_concepts
+        return []
 
     def get_top_concepts(self, query, topk=CONCEPT_TOPK):
         """Retrieve top concept labels related to query."""
-        if (self.model_manager is None or 
-            self.model_manager.sapbert_model is None or 
-            self.model_manager.concept_label_vectors is None):
-            return []
-        
-        try:
-            q_emb = self.model_manager.embed_with_sapbert(query, normalize=True)
-            if q_emb is None:
-                return []
-            
-            sims = self.model_manager.concept_label_vectors.dot(q_emb)
-            top_idxs = np.argsort(-sims)[: max(topk * 5, topk)]
-            
-            labels = []
-            seen = set()
-            for i in top_idxs:
-                if i < len(self.model_manager.concept_label_meta):
-                    meta = self.model_manager.concept_label_meta[i]
-                    label = (
-                        meta.get("canonical_label") or meta.get("canonical") or
-                        meta.get("label") or meta.get("preferred_label") or
-                        meta.get("name") or meta.get("original_text") or
-                        meta.get("mesh_id")
-                    )
-                    if label and label not in seen:
-                        labels.append(label)
-                        seen.add(label)
-                    if len(labels) >= topk:
-                        break
-            return labels
-        except Exception:
-            return []
+        if self.index_retriever:
+            return self.index_retriever._get_top_concepts(query, topk=topk)
+        return []
+
+
+
+
 
     def display_passage(self, idx, passage, query, faiss_score, cross_score, 
                        sapbert_score, combined_score, auto_label, 
@@ -343,32 +269,78 @@ class PassageLabeler:
         
         return labeled_item
 
+    def search_and_view(self, query, num_results=DEFAULT_DISPLAY_RESULTS, topk=DEFAULT_TOPK_FAISS):
+        """Search and view passages without labeling - read-only mode."""
+        print(f"\nSearching for passages related to: '{query}'")
+        print("Please wait...\n")
+        
+        # Use retriever to search and score
+        scored_results = self.index_retriever.search_and_score(query, num_results=num_results, topk=topk)
+        
+        if self.last_query_concepts:
+            print(f"Concept expansion: {', '.join(self.last_query_concepts)}")
+        
+        print(f"Found {len(scored_results)} passages\n")
+        
+        # Display sorted results
+        for i, result in enumerate(scored_results, 1):
+            passage = result['passage']
+            faiss_score = result['faiss_score']
+            cross_score = result['cross_score']
+            sapbert_score = result['sapbert_score']
+            lexical_score = result['lexical_score']
+            combined_score = result['combined_score']
+            
+            # Display full passage details
+            print(f"\n{'='*70}")
+            print(f"[{i}] {passage.get('title', 'Untitled')}")
+            print(f"URL: {passage.get('url', 'N/A')}")
+            print(f"Section: {passage.get('section_heading', 'N/A')}")
+            print(f"Author: {passage.get('author', 'N/A')}")
+            print(f"Medically Reviewed By: {passage.get('medically_reviewed_by', 'N/A')}")
+            print(f"Published Date: {passage.get('published_date', 'N/A')}")
+            print(f"\nScores:")
+            print(f"  FAISS: {faiss_score:.4f}")
+            print(f"  Cross-Encoder: {cross_score:.4f}")
+            print(f"  SapBERT: {sapbert_score:.4f}")
+            print(f"  Lexical: {lexical_score:.4f}")
+            print(f"  Combined: {combined_score:.4f}")
+            
+            # Display sources if available
+            sources = passage.get('sources', [])
+            if sources:
+                print(f"\nSources ({len(sources)}):")
+                for src in sources[:5]:  # Limit to first 5 sources
+                    print(f"  - {src}")
+                if len(sources) > 5:
+                    print(f"  ... and {len(sources) - 5} more")
+            
+            # Display full text
+            text = (passage.get('text', '') or '').strip()
+            if text:
+                print(f"\nFull Text:")
+                print(text)
+            else:
+                print(f"\n[NO TEXT AVAILABLE]")
+            
+            print(f"{'='*70}")
+        
+        print(f"\n{'='*70}")
+        print(f"Search completed. Displayed {len(scored_results)} passages.")
+        print(f"{'='*70}\n")
+
     def label_session(self, query, num_results=DEFAULT_DISPLAY_RESULTS, topk=DEFAULT_TOPK_FAISS):
         """Interactive labeling session for a query."""
         print(f"\nSearching for passages related to: '{query}'")
         print("Please wait...\n")
         
-        faiss_scores, indices = self.search(query, topk=topk)
+        # Use retriever to search and score
+        scored_results = self.index_retriever.search_and_score(query, num_results=num_results, topk=topk)
+        
         if self.last_query_concepts:
             print(f"Concept expansion: {', '.join(self.last_query_concepts)}")
         
-        # Filter valid results
-        candidates = []
-        for score, idx in zip(faiss_scores, indices):
-            if idx >= 0 and idx < len(self.model_manager.metadata):
-                capped_score = min(0.95, float(score))
-                candidates.append((idx, capped_score))
-        
-        top_candidates = candidates[:num_results]
-        passages = [self.model_manager.metadata[idx] for idx, _ in top_candidates]
-        faiss_scores_top = [score for _, score in top_candidates]
-        
-        print(f"Found {len(candidates)} passages, displaying top {len(top_candidates)}\n")
-        
-        # Get scores
-        rerank_scores = self.rerank_results(query, passages)
-        passage_indices = [idx for idx, _ in top_candidates]
-        sapbert_scores = self.compute_sapbert_similarities(query, passage_indices)
+        print(f"Found {len(scored_results)} passages\n")
         
         session_data = {
             'query': query,
@@ -382,29 +354,21 @@ class PassageLabeler:
         auto_question_count = 0
         human_review_count = 0
         
-        for i, (passage, faiss_score, rerank_score, sapbert_score) in enumerate(
-            zip(passages, faiss_scores_top, rerank_scores, sapbert_scores), 1
-        ):
-            # Check substantiveness
-            if not self.passage_filter.is_substantive(passage.get('text', '')):
-                print(f"[{i}] {passage.get('title', 'Untitled')} [SKIPPED: Insufficient text content]")
-                continue
+        # Display and label sorted results (already sorted by retriever)
+        for i, result in enumerate(scored_results, 1):
+            passage = result['passage']
+            faiss_score = result['faiss_score']
+            cross_score = result['cross_score']
+            sapbert_score = result['sapbert_score']
+            lexical_score = result['lexical_score']
+            combined_score = result['combined_score']
             
-            lexical_score = self.passage_scorer.compute_lexical_overlap(query, passage.get('text', ''))
-            
-            is_reviewed = bool(passage.get('medically_reviewed_by'))
-            has_author = bool(passage.get('author'))
-            combined_score = self.passage_scorer.calculate_combined_score(
-                faiss_score, rerank_score, sapbert_score, lexical_score,
-                is_medically_reviewed=is_reviewed,
-                has_author=has_author
-            )
             all_scores.append(combined_score)
             
             # Determine auto-label
             is_question = self.passage_filter.is_question(passage.get('text', ''))
             auto_label, auto_label_reason = self.auto_labeler.determine_label(
-                combined_score, rerank_score, lexical_score, is_question
+                combined_score, cross_score, lexical_score, is_question
             )
             
             if auto_label == 'relevant':
@@ -416,7 +380,7 @@ class PassageLabeler:
             else:
                 human_review_count += 1
             
-            self.display_passage(i, passage, query, faiss_score, rerank_score, 
+            self.display_passage(i, passage, query, faiss_score, cross_score, 
                                sapbert_score, combined_score, auto_label,
                                lexical_score, auto_label_reason)
             
@@ -446,7 +410,7 @@ class PassageLabeler:
                     else:
                         stance, stance_confidence = self.get_stance_decision(stance_suggest, stance_conf)
             
-            self.save_labeled_passage(passage, query, decision, rerank_score, faiss_score, 
+            self.save_labeled_passage(passage, query, decision, cross_score, faiss_score, 
                                      stance, stance_confidence, from_fake_claim=False)
             session_data['labeled_passages'].append({
                 'passage_id': passage.get('passage_id'),
@@ -469,6 +433,66 @@ class PassageLabeler:
             print(f"  Min: {min(all_scores):.4f}, Max: {max(all_scores):.4f}, Avg: {np.mean(all_scores):.4f}")
         
         self.data_store.save_session(session_data)
+
+    def search_and_view(self, query, num_results=DEFAULT_DISPLAY_RESULTS, topk=DEFAULT_TOPK_FAISS):
+        """Search and view passages without labeling - read-only mode."""
+        print(f"\nSearching for passages related to: '{query}'")
+        print("Please wait...\n")
+        
+        # Use retriever to search and score
+        scored_results = self.index_retriever.search_and_score(query, num_results=num_results, topk=topk)
+        
+        if self.last_query_concepts:
+            print(f"Concept expansion: {', '.join(self.last_query_concepts)}")
+        
+        print(f"Found {len(scored_results)} passages\n")
+        
+        # Display sorted results
+        for i, result in enumerate(scored_results, 1):
+            passage = result['passage']
+            faiss_score = result['faiss_score']
+            cross_score = result['cross_score']
+            sapbert_score = result['sapbert_score']
+            lexical_score = result['lexical_score']
+            combined_score = result['combined_score']
+            
+            # Display full passage details
+            print(f"\n{'='*70}")
+            print(f"[{i}] {passage.get('title', 'Untitled')}")
+            print(f"URL: {passage.get('url', 'N/A')}")
+            print(f"Section: {passage.get('section_heading', 'N/A')}")
+            print(f"Author: {passage.get('author', 'N/A')}")
+            print(f"Medically Reviewed By: {passage.get('medically_reviewed_by', 'N/A')}")
+            print(f"Published Date: {passage.get('published_date', 'N/A')}")
+            print(f"\nScores:")
+            print(f"  FAISS: {faiss_score:.4f}")
+            print(f"  Cross-Encoder: {cross_score:.4f}")
+            print(f"  SapBERT: {sapbert_score:.4f}")
+            print(f"  Lexical: {lexical_score:.4f}")
+            print(f"  Combined: {combined_score:.4f}")
+            
+            # Display sources if available
+            sources = passage.get('sources', [])
+            if sources:
+                print(f"\nSources ({len(sources)}):")
+                for src in sources[:5]:  # Limit to first 5 sources
+                    print(f"  - {src}")
+                if len(sources) > 5:
+                    print(f"  ... and {len(sources) - 5} more")
+            
+            # Display full text
+            text = (passage.get('text', '') or '').strip()
+            if text:
+                print(f"\nFull Text:")
+                print(text)
+            else:
+                print(f"\n[NO TEXT AVAILABLE]")
+            
+            print(f"{'='*70}")
+        
+        print(f"\n{'='*70}")
+        print(f"Search completed. Displayed {len(scored_results)} passages.")
+        print(f"{'='*70}\n")
 
     def _load_verified_claims(self):
         """Load verified claims from file."""
@@ -538,47 +562,27 @@ class PassageLabeler:
         print(f"Searching for passages that refute: '{query}'")
         print("Please wait...\n")
         
-        faiss_scores, indices = self.search(query, topk=topk)
+        # Use retriever to search and score
+        scored_results = self.index_retriever.search_and_score(query, num_results=num_results, topk=topk)
         
-        candidates = []
-        for score, idx in zip(faiss_scores, indices):
-            if idx >= 0 and idx < len(self.model_manager.metadata):
-                capped_score = min(0.95, float(score))
-                candidates.append((idx, capped_score))
+        print(f"Found {len(scored_results)} passages\n")
         
-        top_candidates = candidates[:num_results]
-        passages = [self.model_manager.metadata[idx] for idx, _ in top_candidates]
-        faiss_scores_top = [score for _, score in top_candidates]
-        
-        print(f"Found {len(candidates)} passages, displaying top {len(top_candidates)}\n")
-        
-        rerank_scores = self.rerank_results(query, passages)
-        passage_indices = [idx for idx, _ in top_candidates]
-        sapbert_scores = self.compute_sapbert_similarities(query, passage_indices)
-        
-        for i, (passage, faiss_score, rerank_score, sapbert_score) in enumerate(
-            zip(passages, faiss_scores_top, rerank_scores, sapbert_scores), 1
-        ):
-            if not self.passage_filter.is_substantive(passage.get('text', '')):
-                print(f"[{i}] {passage.get('title', 'Untitled')} [SKIPPED: Insufficient text content]")
-                continue
+        # Display and label sorted results (already sorted by retriever)
+        for i, result in enumerate(scored_results, 1):
+            passage = result['passage']
+            faiss_score = result['faiss_score']
+            cross_score = result['cross_score']
+            sapbert_score = result['sapbert_score']
+            lexical_score = result['lexical_score']
+            combined_score = result['combined_score']
             
-            lexical_score = self.passage_scorer.compute_lexical_overlap(query, passage.get('text', ''))
-            
-            is_reviewed = bool(passage.get('medically_reviewed_by'))
-            has_author = bool(passage.get('author'))
-            combined_score = self.passage_scorer.calculate_combined_score(
-                faiss_score, rerank_score, sapbert_score, lexical_score,
-                is_medically_reviewed=is_reviewed,
-                has_author=has_author
-            )
-            
+            # Determine auto-label
             is_question = self.passage_filter.is_question(passage.get('text', ''))
             auto_label, auto_label_reason = self.auto_labeler.determine_label(
-                combined_score, rerank_score, lexical_score, is_question
+                combined_score, cross_score, lexical_score, is_question
             )
             
-            self.display_passage(i, passage, query, faiss_score, rerank_score, 
+            self.display_passage(i, passage, query, faiss_score, cross_score,
                                sapbert_score, combined_score, auto_label,
                                lexical_score, auto_label_reason)
             
@@ -588,7 +592,7 @@ class PassageLabeler:
             stance = 'refutes'
             stance_confidence = 0.95
             
-            self.save_labeled_passage(passage, query, decision, rerank_score, faiss_score,
+            self.save_labeled_passage(passage, query, decision, cross_score, faiss_score,
                                      stance, stance_confidence, from_fake_claim=True)
 
     def _collect_labels(self, subset="all"):
@@ -633,29 +637,35 @@ def main():
         print("\n" + "="*70)
         print("Main Menu")
         print("="*70)
-        print("1. Label passages from a query")
-        print("2. Auto-label from verified claims")
-        print("3. Auto-label REFUTES from fake claims")
-        print("4. View statistics")
-        print("5. Exit")
+        print("1. Search articles (view mode)")
+        print("2. Label passages from a query")
+        print("3. Auto-label from verified claims")
+        print("4. Auto-label REFUTES from fake claims")
+        print("5. View statistics")
+        print("6. Exit")
         print("="*70)
         
-        choice = input("Select option (1-5): ").strip()
+        choice = input("Select option (1-6): ").strip()
         
         if choice == '1':
+            query = input("\nEnter search query: ").strip()
+            if query:
+                labeler.ensure_models_initialized()
+                labeler.search_and_view(query)
+        elif choice == '2':
             query = input("\nEnter query/claim: ").strip()
             if query:
                 labeler.ensure_models_initialized()
                 labeler.label_session(query)
-        elif choice == '2':
+        elif choice == '3':
             labeler.ensure_models_initialized(skip_stance=False)
             labeler.auto_label_from_claims()
-        elif choice == '3':
+        elif choice == '4':
             labeler.ensure_models_initialized(skip_stance=True)
             labeler.auto_label_refutes_from_fake_claims()
-        elif choice == '4':
-            labeler.view_statistics()
         elif choice == '5':
+            labeler.view_statistics()
+        elif choice == '6':
             print("\nGoodbye!")
             break
         else:

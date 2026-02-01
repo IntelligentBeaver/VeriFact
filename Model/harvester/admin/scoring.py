@@ -1,10 +1,11 @@
 """
 Scoring Module
 Handles relevance scoring calculations for passage ranking.
+Includes hybrid FAISS + ElasticSearch RRF fusion and domain-aware scoring.
 """
 
 import re
-from typing import Optional, List, Tuple
+from typing import Optional, List, Tuple, Dict, Any
 import numpy as np
 
 
@@ -317,3 +318,173 @@ class AutoLabeler:
         
         # Middle zone → needs human review
         return 'review', None
+
+
+class RRFFusion:
+    """
+    Reciprocal Rank Fusion (RRF) for combining multiple rankers.
+    Fuses FAISS dense retrieval with ElasticSearch BM25 lexical search.
+    """
+    
+    @staticmethod
+    def compute_rrf_score(
+        faiss_rank: Optional[int],
+        es_rank: Optional[int],
+        k: int = 60,
+        faiss_weight: float = 0.5,
+        es_weight: float = 0.5
+    ) -> float:
+        """
+        Compute RRF score for a passage ranked by multiple systems.
+        
+        RRF formula: score = Σ(weight_i / (k + rank_i))
+        
+        Args:
+            faiss_rank: FAISS ranking position (1-indexed) or None if not ranked
+            es_rank: ElasticSearch ranking position (1-indexed) or None if not ranked
+            k: RRF constant (default 60) - higher k smooths differences
+            faiss_weight: Weight for FAISS component
+            es_weight: Weight for ElasticSearch component
+            
+        Returns:
+            RRF score [0, ∞) - higher is better
+        """
+        score = 0.0
+        
+        if faiss_rank is not None and faiss_rank > 0:
+            score += faiss_weight / (k + faiss_rank)
+        
+        if es_rank is not None and es_rank > 0:
+            score += es_weight / (k + es_rank)
+        
+        return score
+    
+    @staticmethod
+    def fuse_rankings(
+        faiss_results: List[Dict[str, Any]],
+        es_results: List[Dict[str, Any]],
+        k: int = 60,
+        faiss_weight: float = 0.5,
+        es_weight: float = 0.5,
+        normalize: bool = True
+    ) -> List[Dict[str, Any]]:
+        """
+        Fuse FAISS and ElasticSearch rankings using RRF.
+        
+        Args:
+            faiss_results: List of FAISS results with 'passage_id' and optionally 'rank'
+            es_results: List of ES results with 'passage_id' and optionally 'rank'
+            k: RRF constant
+            faiss_weight: Weight for FAISS
+            es_weight: Weight for ElasticSearch
+            normalize: If True, normalize RRF scores to [0, 1]
+            
+        Returns:
+            Fused and sorted results list
+        """
+        # Build passage score map
+        passage_scores = {}
+        
+        # Add FAISS results
+        for rank, result in enumerate(faiss_results, 1):
+            passage_id = result.get('passage_id')
+            if passage_id:
+                if passage_id not in passage_scores:
+                    passage_scores[passage_id] = {
+                        'passage_id': passage_id,
+                        'faiss_rank': None,
+                        'es_rank': None,
+                        'source': result
+                    }
+                passage_scores[passage_id]['faiss_rank'] = rank
+                passage_scores[passage_id]['source'] = result
+        
+        # Add ElasticSearch results
+        for rank, result in enumerate(es_results, 1):
+            passage_id = result.get('passage_id')
+            if passage_id:
+                if passage_id not in passage_scores:
+                    passage_scores[passage_id] = {
+                        'passage_id': passage_id,
+                        'faiss_rank': None,
+                        'es_rank': None,
+                        'source': result
+                    }
+                passage_scores[passage_id]['es_rank'] = rank
+                if 'source' not in passage_scores[passage_id]:
+                    passage_scores[passage_id]['source'] = result
+        
+        # Compute RRF scores
+        fused_results = []
+        for passage_id, data in passage_scores.items():
+            rrf_score = RRFFusion.compute_rrf_score(
+                data['faiss_rank'],
+                data['es_rank'],
+                k=k,
+                faiss_weight=faiss_weight,
+                es_weight=es_weight
+            )
+            
+            fused_results.append({
+                'passage_id': passage_id,
+                'rrf_score': rrf_score,
+                'faiss_rank': data['faiss_rank'],
+                'es_rank': data['es_rank'],
+                'source': data['source']
+            })
+        
+        # Sort by RRF score (descending)
+        fused_results.sort(key=lambda x: x['rrf_score'], reverse=True)
+        
+        # Normalize RRF scores if requested
+        if normalize and fused_results:
+            max_score = max(r['rrf_score'] for r in fused_results)
+            if max_score > 0:
+                for result in fused_results:
+                    result['rrf_score_normalized'] = result['rrf_score'] / max_score
+        
+        return fused_results
+    
+    @staticmethod
+    def explain_fusion(
+        passage_id: str,
+        faiss_rank: Optional[int],
+        es_rank: Optional[int],
+        k: int = 60,
+        faiss_weight: float = 0.5,
+        es_weight: float = 0.5
+    ) -> Dict[str, Any]:
+        """
+        Explain RRF score calculation for a passage.
+        
+        Args:
+            passage_id: Passage ID
+            faiss_rank: FAISS rank
+            es_rank: ElasticSearch rank
+            k: RRF constant
+            faiss_weight: FAISS weight
+            es_weight: ES weight
+            
+        Returns:
+            Dictionary explaining score components
+        """
+        faiss_component = 0.0
+        if faiss_rank is not None and faiss_rank > 0:
+            faiss_component = faiss_weight / (k + faiss_rank)
+        
+        es_component = 0.0
+        if es_rank is not None and es_rank > 0:
+            es_component = es_weight / (k + es_rank)
+        
+        total_score = faiss_component + es_component
+        
+        return {
+            'passage_id': passage_id,
+            'faiss_rank': faiss_rank,
+            'es_rank': es_rank,
+            'faiss_component': faiss_component,
+            'es_component': es_component,
+            'total_rrf_score': total_score,
+            'explanation': f"RRF = {faiss_weight}/(60+{faiss_rank or 'N/A'}) + {es_weight}/(60+{es_rank or 'N/A'})"
+        }
+

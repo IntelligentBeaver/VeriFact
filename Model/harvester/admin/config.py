@@ -27,12 +27,12 @@ STANCE_MODEL = "roberta-large-mnli"  # NLI model for stance
 CONCEPT_LABELS_DIR = HARVESTER_DIR / "storage" / "seeds" / "embeddings"
 CONCEPT_LABELS_VECTORS = CONCEPT_LABELS_DIR / "sapbert_embeddings.npy"
 CONCEPT_LABELS_METADATA = CONCEPT_LABELS_DIR / "metadata.json"
-CONCEPT_TOPK = 5
+CONCEPT_TOPK = 8
 
 # Default retrieval parameters
 DEFAULT_TOPK_FAISS = 100
-DEFAULT_RERANK_K = 20
-DEFAULT_DISPLAY_RESULTS = 5  # Show top 5 by default
+DEFAULT_RERANK_K = 40
+DEFAULT_DISPLAY_RESULTS = 10  # Show top 5 by default
 
 # Auto-labeling thresholds (0.0-1.0 scale)
 # Tip: After substantive passage filtering + FAISS capping + CE normalization,

@@ -1,5 +1,36 @@
 {
-  "query": "News and Events",
-  "session_start": "2026-01-28T13:45:42.344124",
-  "labeled_passages": []
+  "query": "WHO claims staying safe",
+  "session_start": "2026-01-30T01:25:47.104068",
+  "labeled_passages": [
+    {
+      "passage_id": "2babc7c0ab3867b166571133ad4b1a6b837ae740_s0_b1",
+      "decision": "unrelated",
+      "stance": null,
+      "auto_label": "unrelated"
+    },
+    {
+      "passage_id": "8dd15de5c3c02f794156764086b51366bc422268_s0_b2",
+      "decision": "unrelated",
+      "stance": null,
+      "auto_label": "unrelated"
+    },
+    {
+      "passage_id": "2babc7c0ab3867b166571133ad4b1a6b837ae740_s0_b0",
+      "decision": "unrelated",
+      "stance": null,
+      "auto_label": "unrelated"
+    },
+    {
+      "passage_id": "a6fd66a54dbdbb3621c7b480bc92cd27d679a3bf_s18_b2",
+      "decision": "relevant",
+      "stance": "supports",
+      "auto_label": "relevant"
+    },
+    {
+      "passage_id": "dd59196694c9fb8f81d6e1ef25d350c04553e550_s6_b1",
+      "decision": "relevant",
+      "stance": "supports",
+      "auto_label": "relevant"
+    }
+  ]
 }

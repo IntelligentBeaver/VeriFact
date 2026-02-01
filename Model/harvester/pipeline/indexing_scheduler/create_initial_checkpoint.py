@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-OUTPUT_DIR = ROOT / "storage" / "outputs" / "combined"
+OUTPUT_DIR = ROOT / "storage" / "outputs" / "webmd" / "faiss"
 METADATA_FILE = OUTPUT_DIR / "metadata.json"
 CHECKPOINT_FILE = OUTPUT_DIR / "checkpoint.json"
 
