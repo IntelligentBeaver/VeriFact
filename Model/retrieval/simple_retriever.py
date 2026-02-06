@@ -151,9 +151,9 @@ class SimpleRetriever:
     ES_INDEX = "medical_passages"
     
     # Retrieval settings
-    FAISS_TOPK = 200          # Get 200 candidates from FAISS
-    ES_TOPK = 200             # Get 200 candidates from ElasticSearch
-    FINAL_TOPK = 10           # Return top 10 results
+    FAISS_TOPK = 100          # Get 50 candidates from FAISS
+    ES_TOPK = 200           # Get 50 candidates from ElasticSearch
+    FINAL_TOPK = 10          # Return top 10 results
     
     # RRF Fusion settings
     RRF_K = 60
@@ -404,7 +404,6 @@ class SimpleRetriever:
     def _rrf_fusion(self, faiss_results: List[Dict], es_results: List[Dict]) -> List[Dict]:
         """
         RRF (Reciprocal Rank Fusion) - combines FAISS and ES rankings.
-        
         Formula: score = w1/(k+rank_faiss) + w2/(k+rank_es)
         """
         # Build passage lookup
