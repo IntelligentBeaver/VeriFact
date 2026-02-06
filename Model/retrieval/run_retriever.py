@@ -29,7 +29,7 @@ def setup_elasticsearch():
     
     # Load passages from your data
     print("\nLoading passages from storage...")
-    passages_file = Path("../../storage/outputs/combined/metadata.json")
+    passages_file = Path("storage/metadata.json")
     
     if not passages_file.exists():
         print(f"✗ File not found: {passages_file}")
@@ -153,8 +153,8 @@ if __name__ == "__main__":
         from simple_retriever import SimpleRetriever, MinimalModelManager
         
         print("\nInitializing models (one-time)...")
-        model_manager = MinimalModelManager(Path("../../storage/outputs/combined"))
-        retriever = SimpleRetriever(model_manager, "../../storage/outputs/combined")
+        model_manager = MinimalModelManager(Path("storage"))
+        retriever = SimpleRetriever(model_manager, "storage")
         print("Models loaded! Ready to search.\n")
         
         while True:
