@@ -1,12 +1,31 @@
-"""Simple CLI for the QA system."""
+"""Interactive CLI for the QA system with top-level config."""
 
 from pathlib import Path
 
-from qa_system import QASystem, default_config, save_answer
+from qa_system import QAConfig, QASystem, save_answer
+
+
+# =========================
+# CONFIGURATION (edit here)
+# =========================
+INDEX_DIR = Path("..") / "retrieval" / "storage"
+OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_MODEL = "llama3.1:8b"
+TOP_K = 6
+MIN_SCORE = 0.4
+MAX_CONTEXT_CHARS = 12000
+SAVE_DIR = Path("qa_outputs")
 
 
 def main() -> None:
-    cfg = default_config()
+    cfg = QAConfig(
+        index_dir=INDEX_DIR.resolve(),
+        top_k=TOP_K,
+        min_score=MIN_SCORE,
+        ollama_url=OLLAMA_URL,
+        ollama_model=OLLAMA_MODEL,
+        max_context_chars=MAX_CONTEXT_CHARS,
+    )
     qa = QASystem(cfg)
 
     print("QA system ready. Type a question or 'exit'.")
@@ -23,7 +42,7 @@ def main() -> None:
 
         save = input("\nSave JSON output? (y/n): ").strip().lower()
         if save == "y":
-            out_path = Path("qa_outputs") / "last_answer.json"
+            out_path = SAVE_DIR / "last_answer.json"
             save_answer(out_path, result)
             print(f"Saved: {out_path}")
 

@@ -6,6 +6,7 @@ Process: Query → [FAISS + ElasticSearch] → RRF Fusion → Cross-Encoder → 
 """
 
 import json
+import os
 import numpy as np
 from pathlib import Path
 from typing import List, Dict, Any, Set
@@ -221,6 +222,11 @@ class SimpleRetriever:
         
         self.model_manager = model_manager
         self.index_dir = Path(index_dir)
+
+        # Allow env overrides for containerized deployments
+        self.ES_HOST = os.getenv("ES_HOST", self.ES_HOST)
+        self.ES_PORT = int(os.getenv("ES_PORT", str(self.ES_PORT)))
+        self.ES_INDEX = os.getenv("ES_INDEX", self.ES_INDEX)
         
         # Cache for entity extraction (avoid re-extracting same text)
         self._entity_cache = {}

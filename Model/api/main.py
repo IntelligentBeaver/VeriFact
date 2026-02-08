@@ -4,16 +4,17 @@ from __future__ import annotations
 
 import sys
 from pathlib import Path
+import os
 from typing import Any, Dict, List, Optional
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
 # ---------------------------------------------------------------------------
-# Path setup: allow importing from harvester/admin/retrieval
+# Path setup: allow importing from retrieval
 # ---------------------------------------------------------------------------
 MODEL_DIR = Path(__file__).resolve().parents[1]
-RETRIEVAL_DIR = MODEL_DIR / "harvester" / "admin" / "retrieval"
+RETRIEVAL_DIR = MODEL_DIR / "retrieval"
 
 if str(RETRIEVAL_DIR) not in sys.path:
     sys.path.insert(0, str(RETRIEVAL_DIR))
@@ -58,7 +59,9 @@ def _init_retriever() -> None:
     if retriever is not None:
         return
 
-    index_dir = MODEL_DIR / "harvester" / "storage" / "outputs" / "combined"
+    index_dir = Path(
+        os.getenv("INDEX_DIR", str(MODEL_DIR / "retrieval" / "storage"))
+    ).resolve()
     model_manager = MinimalModelManager(index_dir)
     retriever = SimpleRetriever(model_manager, index_dir)
 
@@ -74,7 +77,7 @@ def health() -> Dict[str, Any]:
         return {"status": "initializing"}
     return {
         "status": "ok",
-        "index_dir": str(MODEL_DIR / "harvester" / "storage" / "outputs" / "combined"),
+        "index_dir": os.getenv("INDEX_DIR", str(MODEL_DIR / "retrieval" / "storage")),
     }
 
 

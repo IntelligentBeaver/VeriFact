@@ -5,8 +5,15 @@ This directory provides a QA layer on top of the existing retriever.
 ## Requirements
 
 - ElasticSearch running (per retrieval docs)
-- Ollama running locally
+- Ollama running (local or Docker)
 - Llama 3.1 8B model pulled in Ollama
+
+## Ollama (Docker) Setup
+
+```bash
+docker run -d --name ollama -p 11434:11434 ollama/ollama
+docker exec ollama ollama pull llama3.1:8b
+```
 
 ## Quick Start
 
@@ -17,22 +24,15 @@ cd qa
 python run_qa.py
 ```
 
-Or run a single question and save output:
-
-```bash
-python qa_system.py "Are vaccines safe during pregnancy?" --out qa_outputs/answer.json
-```
+Configuration is at the top of `run_qa.py`.
 
 ## Configuration
 
-Defaults are in `qa_system.py`:
+Edit the variables at the top of `run_qa.py`:
 
-- Index: `retrieval/storage`
-- Model: `meta-llama/Meta-Llama-3.1-8B-Instruct`
-- Ollama URL: `http://localhost:11434/api/generate`
-
-You can override:
-
-```bash
-python qa_system.py "Your question" --model llama3.1:8b --index /path/to/index
-```
+- `INDEX_DIR`
+- `OLLAMA_URL`
+- `OLLAMA_MODEL`
+- `TOP_K`
+- `MIN_SCORE`
+- `MAX_CONTEXT_CHARS`

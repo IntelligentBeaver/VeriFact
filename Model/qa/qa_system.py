@@ -7,7 +7,6 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List
 import json
-import os
 import sys
 
 import requests
@@ -28,7 +27,7 @@ class QAConfig:
     top_k: int = 6
     min_score: float = 0.4
     ollama_url: str = "http://localhost:11434/api/generate"
-    ollama_model: str = "meta-llama/Meta-Llama-3.1-8B-Instruct"
+    ollama_model: str = "llama3.1:8b"
     max_context_chars: int = 12000
 
 
@@ -49,10 +48,24 @@ class OllamaClient:
             response.raise_for_status()
             data = response.json()
             return data.get("response", "").strip()
+        except requests.exceptions.HTTPError as exc:
+            details = ""
+            try:
+                details = response.text.strip()
+            except Exception:
+                details = ""
+            detail_msg = f" Details: {details}" if details else ""
+            raise RuntimeError(
+                "Ollama returned an HTTP error. Check the model tag and server logs."
+                + detail_msg
+            ) from exc
         except requests.exceptions.ConnectionError as exc:
             raise RuntimeError(
                 "Ollama is not reachable at http://localhost:11434. "
-                "Start Ollama and ensure the model is pulled, or set --model/OLLAMA_URL."
+                "Start Ollama (local or Docker) and ensure the model is pulled. "
+                "Example: docker run -d --name ollama -p 11434:11434 ollama/ollama; "
+                "docker exec ollama ollama pull llama3.1:8b. "
+                "Or set --model / OLLAMA_URL."
             ) from exc
         except requests.exceptions.Timeout as exc:
             raise RuntimeError(
@@ -146,11 +159,6 @@ class QASystem:
         )
 
 
-def default_config() -> QAConfig:
-    index_dir = BASE_DIR / "retrieval" / "storage"
-    return QAConfig(index_dir=index_dir)
-
-
 def save_answer(output_path: Path, payload: Dict[str, Any]) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
@@ -158,29 +166,4 @@ def save_answer(output_path: Path, payload: Dict[str, Any]) -> None:
 
 
 if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser(description="QA over existing retrieval index.")
-    parser.add_argument("question", nargs="+", help="Question to answer")
-    parser.add_argument("--model", default=None, help="Ollama model name")
-    parser.add_argument("--index", default=None, help="Index directory path")
-    parser.add_argument("--out", default=None, help="Save JSON output to file")
-
-    args = parser.parse_args()
-
-    cfg = default_config()
-    if args.model:
-        cfg.ollama_model = args.model
-    if args.index:
-        cfg.index_dir = Path(args.index).resolve()
-
-    qa = QASystem(cfg)
-    question_text = " ".join(args.question)
-    result = qa.answer(question_text)
-
-    print("\nAnswer:\n")
-    print(result["answer"])
-
-    if args.out:
-        save_answer(Path(args.out), result)
-        print(f"\nSaved: {args.out}")
+    print("Run qa/run_qa.py for interactive usage.")
