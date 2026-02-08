@@ -62,7 +62,7 @@ class MinimalModelManager:
         
         # Load MeSH concepts from storage/seeds directory
         print("  Loading MeSH medical concepts...")
-        mesh_concepts_path = Path(__file__).parent.parent.parent / "storage" / "mesh_concepts.json"
+        mesh_concepts_path = Path(__file__).parent.parent / "storage" / "mesh_concepts.json"
         self.mesh_concepts = {}
         self.mesh_keywords = {}  # Map keywords to MeSH IDs
         
@@ -97,7 +97,7 @@ class MinimalModelManager:
         
         # Load pre-computed SapBERT embeddings if available
         self.sapbert_embeddings = None
-        embeddings_path = Path(__file__).parent.parent.parent / "storage" / "seeds" / "embeddings" / "sapbert_embeddings.npy"
+        embeddings_path = Path(__file__).parent.parent / "storage" / "seeds" / "embeddings" / "sapbert_embeddings.npy"
         try:
             if embeddings_path.exists():
                 self.sapbert_embeddings = np.load(str(embeddings_path))
@@ -147,14 +147,14 @@ class SimpleRetriever:
     # ============================================================================
     
     # ElasticSearch settings
-    ES_HOST = "localhost"
+    ES_HOST = "127.0.0.1"
     ES_PORT = 9200
     ES_INDEX = "medical_passages"
     
     # Retrieval settings
     FAISS_TOPK = 100          # Get 50 candidates from FAISS
-    ES_TOPK = 200           # Get 50 candidates from ElasticSearch
-    FINAL_TOPK = 10          # Return top 10 results
+    ES_TOPK = 100           # Get 50 candidates from ElasticSearch
+    FINAL_TOPK = 5          # Return top 10 results
     
     # RRF Fusion settings
     RRF_K = 60
@@ -171,7 +171,6 @@ class SimpleRetriever:
     
     # Quality filters
     MIN_SCORE = 0.4
-    DEDUP_THRESHOLD = 0.92
     
     # Bonuses
     MEDICAL_REVIEW_BONUS = 0.10
@@ -314,14 +313,9 @@ class SimpleRetriever:
         scored_results = self._compute_scores(query, reranked_results)
         print(f"  ✓ Scored {len(scored_results)} passages")
         
-        # Step 6: Deduplication
-        print(f"\n[6/7] Deduplication...")
-        deduped_results = self._deduplicate(scored_results)
-        print(f"  ✓ Removed {len(scored_results) - len(deduped_results)} duplicates")
-        
-        # Step 7: Filter and return top results
-        print(f"\n[7/7] Final filtering...")
-        final_results = [r for r in deduped_results if r['final_score'] >= self.MIN_SCORE]
+        # Step 6: Final filtering
+        print(f"\n[6/6] Final filtering...")
+        final_results = [r for r in scored_results if r['final_score'] >= self.MIN_SCORE]
         final_results = final_results[:self.FINAL_TOPK]
         print(f"  ✓ Returning {len(final_results)} results (min_score={self.MIN_SCORE})")
         
@@ -744,55 +738,13 @@ class SimpleRetriever:
             return 0.5
     
     
-    def _deduplicate(self, results: List[Dict]) -> List[Dict]:
-        """Remove near-duplicate passages using semantic similarity."""
-        if len(results) <= 1:
-            return results
-        
-        # Get embeddings for all passages
-        embeddings = []
-        for result in results:
-            text = result['passage']['text']
-            emb = self.model_manager.embedding_model.encode(
-                text[:512],
-                convert_to_numpy=True,
-                normalize_embeddings=True
-            )
-            embeddings.append(emb)
-        
-        embeddings = np.array(embeddings)
-        
-        # Keep track of which to keep
-        keep = [True] * len(results)
-        
-        # Compare each pair
-        for i in range(len(results)):
-            if not keep[i]:
-                continue
-            for j in range(i + 1, len(results)):
-                if not keep[j]:
-                    continue
-                
-                # Compute similarity
-                sim = float(np.dot(embeddings[i], embeddings[j]))
-                
-                # If too similar, keep the higher scoring one
-                if sim > self.DEDUP_THRESHOLD:
-                    if results[j]['final_score'] > results[i]['final_score']:
-                        keep[i] = False
-                        break
-                    else:
-                        keep[j] = False
-        
-        # Return deduplicated results
-        return [r for i, r in enumerate(results) if keep[i]]
 
 
 # ============================================================================
 # SETUP UTILITIES
 # ============================================================================
 
-def create_elasticsearch_index(es_host="localhost", es_port=9200, index_name="medical_passages"):
+def create_elasticsearch_index(es_host="127.0.0.1", es_port=9200, index_name="medical_passages"):
     """Create ElasticSearch index with medical analyzer."""
     
     # First, test with basic HTTP request
@@ -887,7 +839,7 @@ def create_elasticsearch_index(es_host="localhost", es_port=9200, index_name="me
         print(f"       -e \"discovery.type=single-node\" \\")
         print(f"       -e \"xpack.security.enabled=false\" \\")
         print(f"       -p 9200:9200 \\")
-        print(f"       docker.elastic.co/elasticsearch/elasticsearch:8.5.0")
+        print(f"       docker.elastic.co/elasticsearch/elasticsearch:9.2.4")
         print(f"  3. Wait 20-30 seconds for it to fully start")
         print(f"  4. Check it's running:")
         print(f"     docker ps | grep elasticsearch")
@@ -895,7 +847,7 @@ def create_elasticsearch_index(es_host="localhost", es_port=9200, index_name="me
         return False
 
 
-def index_passages_to_elasticsearch(passages: List[Dict], es_host="localhost", es_port=9200, 
+def index_passages_to_elasticsearch(passages: List[Dict], es_host="127.0.0.1", es_port=9200,
                                      index_name="medical_passages", batch_size=1000):
     """
     Index passages to ElasticSearch with bulk API.

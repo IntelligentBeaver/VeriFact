@@ -2,19 +2,12 @@ version: "3.9"
 
 services:
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:8.5.0
+    image: docker.elastic.co/elasticsearch/elasticsearch:9.2.4
     environment:
       - discovery.type=single-node
       - xpack.security.enabled=false
     ports:
       - "9200:9200"
-
-  ollama:
-    image: ollama/ollama
-    ports:
-      - "11434:11434"
-    volumes:
-      - ollama_data:/root/.ollama
 
   retriever:
     build:
@@ -32,22 +25,3 @@ services:
     ports:
       - "8000:8000"
 
-  qa:
-    build:
-      context: .
-      dockerfile: Dockerfile.qa
-    environment:
-      - RETRIEVER_URL=http://retriever:8000
-      - OLLAMA_URL=http://ollama:11434/api/generate
-      - OLLAMA_MODEL=llama3.1:8b
-      - TOP_K=6
-      - MIN_SCORE=0.4
-      - MAX_CONTEXT_CHARS=12000
-    depends_on:
-      - retriever
-      - ollama
-    ports:
-      - "8001:8001"
-
-volumes:
-  ollama_data:
