@@ -38,7 +38,7 @@ FAISS_INDEXING = {
     "sapbert_model": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
     
     # Processing
-    "skip_sapbert": False,  # Set to True to skip SapBERT computation (faster)
+    "skip_sapbert": True,  # Set to True to skip SapBERT computation (faster)
 }
 
 # ============================================================================

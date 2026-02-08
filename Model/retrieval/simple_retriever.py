@@ -848,7 +848,7 @@ def create_elasticsearch_index(es_host="127.0.0.1", es_port=9200, index_name="me
 
 
 def index_passages_to_elasticsearch(passages: List[Dict], es_host="127.0.0.1", es_port=9200,
-                                     index_name="medical_passages", batch_size=1000):
+                                     index_name="medical_passages", batch_size=500):
     """
     Index passages to ElasticSearch with bulk API.
     
@@ -864,9 +864,11 @@ def index_passages_to_elasticsearch(passages: List[Dict], es_host="127.0.0.1", e
     # Create client
     es = Elasticsearch(
         [f"http://{es_host}:{es_port}"],
-        request_timeout=30,
+        request_timeout=120,
         verify_certs=False,
-        ssl_show_warn=False
+        ssl_show_warn=False,
+        retry_on_timeout=True,
+        max_retries=3
     )
     
     print(f"\nIndexing {len(passages)} passages to ElasticSearch...")
@@ -875,8 +877,28 @@ def index_passages_to_elasticsearch(passages: List[Dict], es_host="127.0.0.1", e
     actions = []
     total_failures = 0
     failure_reasons = {}
+    skipped = 0
     
     for i, passage in enumerate(passages):
+        text = passage.get("text") or ""
+        title = passage.get("title") or ""
+        section_heading = passage.get("section_heading") or ""
+        if not text and not title:
+            skipped += 1
+            continue
+
+        published_date = passage.get("published_date")
+        if published_date:
+            try:
+                if isinstance(published_date, str):
+                    datetime.fromisoformat(published_date.replace("Z", "+00:00"))
+            except Exception:
+                passage.pop("published_date", None)
+
+        passage["text"] = str(text)
+        passage["title"] = str(title)
+        passage["section_heading"] = str(section_heading)
+
         action = {
             "_index": index_name,
             "_id": passage.get('id', i),
@@ -918,8 +940,16 @@ def index_passages_to_elasticsearch(passages: List[Dict], es_host="127.0.0.1", e
                     failure_reasons[error_type] += 1
         except Exception as e:
             print(f"  ✗ Error indexing final batch: {e}")
+
+    try:
+        es.indices.refresh(index=index_name)
+        print(f"✓ Refreshed index: {index_name}")
+    except Exception as e:
+        print(f"  Note: Could not refresh index: {e}")
     
-    print(f"\n✓ Indexing complete: {len(passages)} passages indexed")
+    print(f"\n✓ Indexing complete: {len(passages) - skipped} passages indexed")
+    if skipped:
+        print(f"  Skipped {skipped} passages with empty text/title")
     if total_failures > 0:
         print(f"\nFailure Summary:")
         print(f"  Total failures: {total_failures}")
