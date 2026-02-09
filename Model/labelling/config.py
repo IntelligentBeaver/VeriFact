@@ -17,7 +17,7 @@ CLAIM_INPUT_DIR = ADMIN_DIR / "input"
 VERIFIED_CLAIMS_FILE = CLAIM_INPUT_DIR / "claims_mixture_unproven.json"
 
 # Default retrieval parameters
-DEFAULT_DISPLAY_RESULTS = 10  # Show top 5 by default
+DEFAULT_DISPLAY_RESULTS = 5  # Show top 5 by default
 
 # Auto-labeling thresholds (0.0-1.0 scale)
 # Tip: After substantive passage filtering + FAISS capping + CE normalization,
@@ -42,6 +42,7 @@ UNRELATED_PASSAGES_FILE = OUTPUT_DIR / "labeled_unrelated_passages.json"
 QUESTION_PASSAGES_FILE = OUTPUT_DIR / "labeled_question_passages.json"
 LABELING_SESSION_FILE = OUTPUT_DIR / "labeling_session.json"
 CLAIMS_OUTPUT_FILE = OUTPUT_DIR / "generated_claims.json"
+CLAIMS_EXPORT_STATE_FILE = OUTPUT_DIR / "claims_export_state.json"
 
 # Create output directory if not exists
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

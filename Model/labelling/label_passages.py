@@ -31,7 +31,8 @@ from config import (
     
     OUTPUT_DIR,
     VERIFIED_CLAIMS_FILE,
-    CLAIMS_OUTPUT_FILE
+    CLAIMS_OUTPUT_FILE,
+    CLAIMS_EXPORT_STATE_FILE
 )
 
 
@@ -128,10 +129,37 @@ class PassageLabeler:
         except Exception:
             return []
 
+    def _load_existing_claim_ids(self):
+        return {
+            item.get('claim_id') for item in self._load_existing_claims()
+            if item.get('claim_id')
+        }
+
+    def _load_export_state(self):
+        if not CLAIMS_EXPORT_STATE_FILE.exists():
+            return set()
+        try:
+            with CLAIMS_EXPORT_STATE_FILE.open('r', encoding='utf-8') as f:
+                data = json.load(f)
+            if isinstance(data, list):
+                return set(str(item) for item in data)
+        except Exception:
+            pass
+        return set()
+
+    def _save_export_state(self, exported_ids):
+        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+        with CLAIMS_EXPORT_STATE_FILE.open('w', encoding='utf-8') as f:
+            json.dump(sorted(exported_ids), f, indent=2, ensure_ascii=False)
+
     def _save_claims_output(self, items):
         OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
         existing = self._load_existing_claims()
-        existing.extend(items)
+        existing_ids = {item.get('claim_id') for item in existing if item.get('claim_id')}
+        new_items = [item for item in items if item.get('claim_id') not in existing_ids]
+        if not new_items:
+            return
+        existing.extend(new_items)
         with CLAIMS_OUTPUT_FILE.open('w', encoding='utf-8') as f:
             json.dump(existing, f, indent=2, ensure_ascii=False)
 
@@ -166,6 +194,7 @@ class PassageLabeler:
         processed_ids = self._load_processed_claim_ids()
         generated = []
         seen = set()
+        existing_ids = self._load_existing_claim_ids()
 
         total_sentences = 0
         kept_sentences = 0
@@ -228,8 +257,13 @@ class PassageLabeler:
                             stance = 'neutral'
                             stance_confidence = 0.50
 
+                        claim_id = self._claim_id(passage_id, claim_text, 'supports')
+                        if claim_id in existing_ids:
+                            continue
+                        existing_ids.add(claim_id)
+
                         generated.append({
-                            'claim_id': self._claim_id(passage_id, claim_text, 'supports'),
+                            'claim_id': claim_id,
                             'query': query,
                             'source_passage_id': passage_id,
                             'source_title': passage.get('title'),
@@ -249,8 +283,13 @@ class PassageLabeler:
                                 continue
                             seen.add(refute_key)
 
+                            refute_id = self._claim_id(passage_id, refute, 'refutes')
+                            if refute_id in existing_ids:
+                                continue
+                            existing_ids.add(refute_id)
+
                             generated.append({
-                                'claim_id': self._claim_id(passage_id, refute, 'refutes'),
+                                'claim_id': refute_id,
                                 'query': query,
                                 'source_passage_id': passage_id,
                                 'source_title': passage.get('title'),
@@ -265,6 +304,10 @@ class PassageLabeler:
                             refutes_count += 1
 
             processed_ids.add(claim_id)
+
+            if generated:
+                self._save_claims_output(generated)
+                generated = []
 
         if generated:
             self._save_claims_output(generated)
@@ -305,27 +348,41 @@ class PassageLabeler:
             print("Unsupported format. Use json, csv, or tsv.")
             return
 
+        exported_ids = self._load_export_state()
+        items_to_export = [
+            item for item in items
+            if item.get('claim_id') and item.get('claim_id') not in exported_ids
+        ]
+
+        if not items_to_export:
+            print("No new claims to export.")
+            return
+
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         file_name = f"claims_export_{timestamp}.{export_format}"
         out_path = OUTPUT_DIR / file_name
 
         if export_format == "json":
             with out_path.open("w", encoding="utf-8") as f:
-                json.dump(items, f, indent=2, ensure_ascii=False)
+                json.dump(items_to_export, f, indent=2, ensure_ascii=False)
+            exported_ids.update(item.get('claim_id') for item in items_to_export)
+            self._save_export_state(exported_ids)
             print(f"Exported to {out_path}")
             return
 
         fieldnames = sorted({
-            key for item in items for key in item.keys()
+            key for item in items_to_export for key in item.keys()
         })
         delimiter = "\t" if export_format == "tsv" else ","
 
         with out_path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter=delimiter)
             writer.writeheader()
-            for item in items:
+            for item in items_to_export:
                 writer.writerow(item)
 
+        exported_ids.update(item.get('claim_id') for item in items_to_export)
+        self._save_export_state(exported_ids)
         print(f"Exported to {out_path}")
 
 
