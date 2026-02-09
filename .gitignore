@@ -1,5 +1,8 @@
-App/
-Model/
-Assets/
-Reports/
-Miscellaneous/
+index_output/
+.env
+__pycache__\
+venv\
+index_output/
+.env
+__pycache__\
+venv\
