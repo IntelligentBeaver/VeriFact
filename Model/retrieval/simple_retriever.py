@@ -152,8 +152,8 @@ class SimpleRetriever:
     ES_INDEX = "medical_passages"
     
     # Retrieval settings
-    FAISS_TOPK = 100          # Get 50 candidates from FAISS
-    ES_TOPK = 100           # Get 50 candidates from ElasticSearch
+    FAISS_TOPK = 50          # Get 50 candidates from FAISS
+    ES_TOPK = 50           # Get 50 candidates from ElasticSearch
     FINAL_TOPK = 5          # Return top 10 results
     
     # RRF Fusion settings
