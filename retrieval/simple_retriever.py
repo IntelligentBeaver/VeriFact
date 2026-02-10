@@ -387,6 +387,8 @@ class SimpleRetriever:
             results = []
             for rank, hit in enumerate(response['hits']['hits']):
                 passage = hit['_source']
+                if 'passage_id' not in passage:
+                    passage['passage_id'] = hit['_id']
                 results.append({
                     'passage': passage,
                     'es_score': hit['_score'],
@@ -411,7 +413,11 @@ class SimpleRetriever:
         
         # Add FAISS results
         for r in faiss_results:
-            pid = r['passage'].get('id') or r['passage'].get('url')
+            pid = (
+                r['passage'].get('passage_id')
+                or r['passage'].get('id')
+                or r['passage'].get('url')
+            )
             passage_map[pid] = {
                 'passage': r['passage'],
                 'faiss_rank': r['faiss_rank'],
@@ -422,7 +428,12 @@ class SimpleRetriever:
         
         # Add ES results
         for r in es_results:
-            pid = r['passage'].get('id') or r['passage'].get('url')
+            pid = (
+                r['passage'].get('passage_id')
+                or r['passage'].get('id')
+                or r['passage'].get('url')
+                or r.get('passage_id')
+            )
             if pid in passage_map:
                 passage_map[pid]['es_rank'] = r['es_rank']
                 passage_map[pid]['es_score'] = r['es_score']
