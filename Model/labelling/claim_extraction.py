@@ -5,11 +5,14 @@ Claim extraction utilities for generating atomic claims from passages.
 from __future__ import annotations
 
 import re
+import threading
 from typing import List
 
 
 _NLP = None
 _NEGATOR = None
+_NEGATOR_FAILED = False
+_NEGATOR_MODEL = "google/flan-t5-base"
 
 
 def _get_nlp():
@@ -36,25 +39,44 @@ def _get_nlp():
     return _NLP
 
 
-def _get_negator():
-    global _NEGATOR
+def _get_negator(timeout_sec: int = 45):
+    global _NEGATOR, _NEGATOR_FAILED
     if _NEGATOR is not None:
         return _NEGATOR
+    if _NEGATOR_FAILED:
+        return None
 
-    try:
-        from transformers import pipeline
-    except Exception as exc:
-        raise RuntimeError("transformers is required for T5 negation.") from exc
+    result = {"value": None, "error": None}
 
-    try:
-        _NEGATOR = pipeline(
-            "text2text-generation",
-            model="t5-base",
-            device=-1
-        )
-    except Exception as exc:
-        raise RuntimeError("Failed to load t5-base for negation.") from exc
+    def _load():
+        try:
+            from transformers import pipeline
+        except Exception as exc:
+            result["error"] = RuntimeError("transformers is required for T5 negation.")
+            return
 
+        try:
+            result["value"] = pipeline(
+                "text2text-generation",
+                model=_NEGATOR_MODEL,
+                device=-1
+            )
+        except Exception as exc:
+            result["error"] = RuntimeError("Failed to load negation model.")
+
+    thread = threading.Thread(target=_load, daemon=True)
+    thread.start()
+    thread.join(timeout=timeout_sec)
+
+    if thread.is_alive():
+        _NEGATOR_FAILED = True
+        return None
+
+    if result["error"]:
+        _NEGATOR_FAILED = True
+        return None
+
+    _NEGATOR = result["value"]
     return _NEGATOR
 
 
@@ -249,6 +271,27 @@ class RefuteGenerator:
         (r" is an ", " is not an "),
     ]
 
+    AUX_VERBS = (
+        "is",
+        "are",
+        "was",
+        "were",
+        "has",
+        "have",
+        "had",
+        "can",
+        "could",
+        "will",
+        "would",
+        "should",
+        "may",
+        "might",
+        "must",
+        "do",
+        "does",
+        "did",
+    )
+
     def __init__(self, use_model: bool = True):
         self.use_model = use_model
 
@@ -292,22 +335,44 @@ class RefuteGenerator:
         for needle, replacement in self.RULES:
             if needle in lower:
                 return self._apply_replacement(claim, needle, replacement)
-        return None
+        return self._negate_with_aux(claim)
+
+    def _negate_with_aux(self, text: str) -> str | None:
+        lower = f" {text.lower()} "
+        if any(cue in lower for cue in self.NEGATION_CUES):
+            return None
+
+        pattern = re.compile(r"\b(" + "|".join(self.AUX_VERBS) + r")\b", flags=re.IGNORECASE)
+        match = pattern.search(text)
+        if not match:
+            return None
+
+        def _repl(m):
+            return f"{m.group(1)} not"
+
+        updated = pattern.sub(_repl, text, count=1)
+        updated = re.sub(r"\s+", " ", updated).strip()
+        if not updated.endswith("."):
+            updated += "."
+        return updated
 
     def _negate_with_t5(self, claim: str) -> str | None:
         try:
             negator = _get_negator()
+            if not negator:
+                return None
             prompts = [
-                f"negate: {claim}",
-                f"rewrite as negation: {claim}",
+                f"negate the claim: {claim}",
+                f"rewrite with negation: {claim}",
+                f"make this statement false: {claim}",
             ]
 
             for prompt in prompts:
                 output = negator(
                     prompt,
-                    max_new_tokens=32,
+                    max_new_tokens=64,
                     min_length=0,
-                    num_beams=4,
+                    num_beams=5,
                     do_sample=False
                 )
                 if not output:

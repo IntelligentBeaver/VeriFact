@@ -8,9 +8,13 @@ import csv
 import hashlib
 import json
 import sys
+import threading
 from datetime import datetime
 from pathlib import Path
 from typing import Optional, Tuple
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+from sentence_transformers.cross_encoder import CrossEncoder
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -20,6 +24,7 @@ if str(PROJECT_ROOT) not in sys.path:
 from retrieval.simple_retriever import SimpleRetriever, MinimalModelManager
 from claim_extraction import SentenceSplitter, ClaimSentenceFilter, ClaimExtractor, RefuteGenerator
 from persistence import ClaimsLoader, ProcessedClaimTracker
+from stance_detector import StanceDetector
 
 from config import (
     INDEX_DIR,
@@ -30,6 +35,9 @@ from config import (
     
     OUTPUT_DIR,
     VERIFIED_CLAIMS_FILE,
+    UNLABELED_CLAIMS_OUTPUT_FILE,
+    UNLABELED_TOPK,
+    NLI_CROSS_ENCODER_MODEL,
     CLAIMS_OUTPUT_FILE,
     CLAIMS_EXPORT_STATE_FILE,
     QUERIES_OUTPUT_FILE,
@@ -91,6 +99,10 @@ class PassageLabeler:
         self.claim_filter = ClaimSentenceFilter()
         self.claim_extractor = ClaimExtractor()
         self.refute_generator = RefuteGenerator()
+        self._retriever_local = threading.local()
+        self._nlp_lock = threading.Lock()
+        self._nli_model = None
+        self._stance_detector = None
         
         self.session_start = datetime.now()
         self.models_initialized = False
@@ -111,6 +123,18 @@ class PassageLabeler:
         if not self.models_initialized:
             return self.initialize_models(skip_stance=skip_stance)
         return True
+
+    def _ensure_stance_detector(self) -> bool:
+        if self._stance_detector is not None:
+            return True
+        try:
+            self._nli_model = CrossEncoder(NLI_CROSS_ENCODER_MODEL)
+            self._stance_detector = StanceDetector(self._nli_model)
+            return True
+        except Exception as e:
+            print(f"Warning: Failed to load NLI model ({NLI_CROSS_ENCODER_MODEL}): {e}")
+            self._stance_detector = StanceDetector(None)
+            return False
 
     def _load_existing_claims(self):
         if not CLAIMS_OUTPUT_FILE.exists():
@@ -160,6 +184,27 @@ class PassageLabeler:
         """Load verified claims from file."""
         return ClaimsLoader.load_claims(VERIFIED_CLAIMS_FILE)
 
+    def _load_unlabeled_labeled_claims(self):
+        if not UNLABELED_CLAIMS_OUTPUT_FILE.exists():
+            return []
+        try:
+            with UNLABELED_CLAIMS_OUTPUT_FILE.open('r', encoding='utf-8') as f:
+                data = json.load(f)
+            return data if isinstance(data, list) else []
+        except Exception:
+            return []
+
+    def _save_unlabeled_labeled_claims(self, items):
+        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+        existing = self._load_unlabeled_labeled_claims()
+        existing_ids = {item.get('claim_id') for item in existing if item.get('claim_id')}
+        new_items = [item for item in items if item.get('claim_id') not in existing_ids]
+        if not new_items:
+            return
+        existing.extend(new_items)
+        with UNLABELED_CLAIMS_OUTPUT_FILE.open('w', encoding='utf-8') as f:
+            json.dump(existing, f, indent=2, ensure_ascii=False)
+
     def _load_processed_claim_ids(self):
         """Load set of processed claim IDs."""
         tracker = ProcessedClaimTracker(OUTPUT_DIR)
@@ -175,6 +220,9 @@ class PassageLabeler:
         raw = f"{passage_id}|{label}|{query_text}|{claim_text}".encode("utf-8")
         return hashlib.sha1(raw).hexdigest()
 
+    def _claim_text_id(self, claim_text: str) -> str:
+        return hashlib.sha1(claim_text.encode("utf-8")).hexdigest()
+
     def _negate_query(self, query: str) -> str:
         negated = self.refute_generator.negate_text(query, allow_rules=False)
         return negated or ""
@@ -184,8 +232,217 @@ class PassageLabeler:
         with out_path.open("w", encoding="utf-8") as f:
             json.dump(queries, f, indent=2, ensure_ascii=False)
 
+    def _load_negated_query_pairs(self):
+        if not QUERIES_NEGATED_OUTPUT_FILE.exists():
+            print(f"Missing file: {QUERIES_NEGATED_OUTPUT_FILE}")
+            return []
+        try:
+            with QUERIES_NEGATED_OUTPUT_FILE.open("r", encoding="utf-8") as f:
+                data = json.load(f)
+            if not isinstance(data, list):
+                return []
+        except Exception:
+            return []
+
+        pairs = []
+        for item in data:
+            if not isinstance(item, dict):
+                continue
+            query = (item.get("query") or "").strip()
+            negated = (item.get("negated_query") or "").strip()
+            if not query:
+                continue
+            pairs.append((query, negated))
+        return pairs
+
+    def _get_thread_retriever(self):
+        if not hasattr(self._retriever_local, "retriever"):
+            model_manager = MinimalModelManager(str(self.index_dir))
+            self._retriever_local.retriever = SimpleRetriever(model_manager, str(self.index_dir))
+        return self._retriever_local.retriever
+
+    def _export_simple_labels_csv(self, items):
+        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        out_path = OUTPUT_DIR / f"query_labels_{timestamp}.csv"
+        with out_path.open("w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=["claim_id", "query", "label"])
+            writer.writeheader()
+            for item in items:
+                writer.writerow(item)
+        return out_path
+
+    def label_from_extracted_queries_csv(self):
+        """Label extracted queries without retrieval and export to CSV."""
+        pairs = self._load_negated_query_pairs()
+        if not pairs:
+            print("No query pairs found.")
+            return
+
+        rows = []
+        seen = set()
+
+        for query, negated in pairs:
+            query_text = (query or "").strip()
+            if query_text:
+                claim_id = self._claim_id("query", query_text, "supports", query_text)
+                if claim_id not in seen:
+                    rows.append({
+                        "claim_id": claim_id,
+                        "query": query_text,
+                        "label": "supports"
+                    })
+                    seen.add(claim_id)
+
+            negated_text = (negated or "").strip()
+            if negated_text:
+                claim_id = self._claim_id("negated_query", negated_text, "refutes", negated_text)
+                if claim_id not in seen:
+                    rows.append({
+                        "claim_id": claim_id,
+                        "query": negated_text,
+                        "label": "refutes"
+                    })
+                    seen.add(claim_id)
+
+        out_path = self._export_simple_labels_csv(rows)
+        print("\nLabel export complete.")
+        print(f"Total rows: {len(rows)}")
+        print(f"CSV saved: {out_path}")
+
+    def label_unlabeled_claims_with_nli(self, top_k: int = UNLABELED_TOPK):
+        """Label claims from claims_unlabeled.json using retrieval + NLI stance."""
+        if not self.ensure_models_initialized(skip_stance=True):
+            return
+
+        self._ensure_stance_detector()
+        claims = self._load_verified_claims()
+        if not claims:
+            print("No claims found in claims_unlabeled.json.")
+            return
+
+        processed_ids = self._load_processed_claim_ids()
+        output_items = []
+
+        if self.retriever and top_k:
+            self.retriever.FINAL_TOPK = int(top_k)
+
+        for claim in claims:
+            claim_text = (claim.get("claim") or "").strip()
+            if not claim_text:
+                continue
+
+            claim_id = claim.get("id") or self._claim_text_id(claim_text)
+            if claim_id in processed_ids:
+                continue
+
+            results = self.retriever.search(claim_text)
+            best = None
+            best_conf = -1.0
+            best_stance = None
+            best_reason = "nli"
+
+            for result in results:
+                passage = result.get("passage", {})
+                passage_text = (passage.get("text") or "").strip()
+                if not passage_text:
+                    continue
+
+                stance, confidence = self._stance_detector.detect_stance_nli(
+                    claim_text,
+                    passage_text
+                )
+                if stance is None:
+                    stance, confidence = self._stance_detector.detect_stance(
+                        claim_text,
+                        passage_text
+                    )
+                    best_reason = "heuristic"
+
+                if stance is None:
+                    continue
+
+                if stance == "neutral":
+                    if best is None:
+                        best = result
+                        best_conf = confidence or 0.5
+                        best_stance = "neutral"
+                    continue
+
+                conf_val = confidence if confidence is not None else 0.0
+                if conf_val > best_conf:
+                    best = result
+                    best_conf = conf_val
+                    best_stance = stance
+
+            if best is None:
+                best = results[0] if results else {}
+                best_stance = "neutral"
+                best_conf = 0.5
+                best_reason = "fallback"
+
+            passage = best.get("passage", {}) if isinstance(best, dict) else {}
+            scores = best.get("scores", {}) if isinstance(best, dict) else {}
+            output_items.append({
+                "claim_id": claim_id,
+                "claim": claim_text,
+                "label": best_stance,
+                "stance_confidence": float(best_conf) if best_conf is not None else None,
+                "evidence": {
+                    "passage_id": passage.get("passage_id") or passage.get("id"),
+                    "title": passage.get("title"),
+                    "url": passage.get("url"),
+                    "text": passage.get("text"),
+                    "scores": {
+                        "final_score": float(best.get("final_score", 0.0)) if isinstance(best, dict) else 0.0,
+                        "cross_encoder": float(scores.get("cross_encoder", 0.0)) if isinstance(scores, dict) else 0.0,
+                        "lexical": float(scores.get("lexical", 0.0)) if isinstance(scores, dict) else 0.0
+                    }
+                },
+                "stance_method": best_reason,
+                "created_at": datetime.now().isoformat()
+            })
+
+            processed_ids.add(claim_id)
+
+            if len(output_items) >= 25:
+                self._save_unlabeled_labeled_claims(output_items)
+                output_items = []
+
+        if output_items:
+            self._save_unlabeled_labeled_claims(output_items)
+
+        self._save_processed_claim_ids(processed_ids)
+        print("\nUnlabeled claim stance labeling complete.")
+        print(f"Output: {UNLABELED_CLAIMS_OUTPUT_FILE}")
+
     def extract_queries_and_negations(self):
         """Extract query list and a negated-claims list without indexing/labeling."""
+        def _load_list(path: Path):
+            if not path.exists():
+                return []
+            try:
+                with path.open("r", encoding="utf-8") as f:
+                    data = json.load(f)
+                return data if isinstance(data, list) else []
+            except Exception:
+                return []
+
+        def _fallback_negation(text: str) -> str:
+            cleaned = (text or "").strip()
+            if not cleaned:
+                return ""
+            if cleaned.endswith("."):
+                cleaned = cleaned[:-1]
+            return f"There is no evidence that {cleaned}."
+
+        use_model_choice = input("Use T5 model for negation? (y/N): ").strip().lower()
+        use_model = use_model_choice == "y"
+        if use_model:
+            print("Loading T5 negation model (may take a while)...")
+
+        negator = self.refute_generator if use_model else RefuteGenerator(use_model=False)
+
         claims = self._load_verified_claims()
         if not claims:
             print("No verified claims found.")
@@ -207,18 +464,56 @@ class PassageLabeler:
             print("No valid query text found.")
             return
 
-        negated_items = []
-        for query in queries:
-            negated = self.refute_generator.negate_text(query, allow_rules=True)
-            if not negated:
-                continue
-            negated_items.append({
-                "query": query,
-                "negated_query": negated
-            })
+        existing_queries = _load_list(QUERIES_OUTPUT_FILE)
+        existing_query_set = {str(item).strip().lower() for item in existing_queries}
+        existing_negated = _load_list(QUERIES_NEGATED_OUTPUT_FILE)
+        existing_negated_map = {}
+        for item in existing_negated:
+            if isinstance(item, dict) and item.get("query"):
+                existing_negated_map[item["query"].strip().lower()] = item
 
-        self._save_query_list(queries, QUERIES_OUTPUT_FILE)
-        self._save_query_list(negated_items, QUERIES_NEGATED_OUTPUT_FILE)
+        all_queries = list(existing_queries)
+        for query in queries:
+            key = query.lower()
+            if key in existing_query_set:
+                continue
+            existing_query_set.add(key)
+            all_queries.append(query)
+
+        negated_items = list(existing_negated)
+        total = len(queries)
+        processed = 0
+        saved_negations = 0
+        skipped = 0
+        fallback_used = 0
+        batch_size = 25
+
+        for query in queries:
+            processed += 1
+            key = query.lower()
+            if key in existing_negated_map:
+                skipped += 1
+            else:
+                negated = negator.negate_text(query, allow_rules=True)
+                if not negated:
+                    negated = _fallback_negation(query)
+                    fallback_used += 1
+                negated_items.append({
+                    "query": query,
+                    "negated_query": negated
+                })
+                existing_negated_map[key] = negated_items[-1]
+                saved_negations += 1
+
+            if processed % batch_size == 0 or processed == total:
+                self._save_query_list(all_queries, QUERIES_OUTPUT_FILE)
+                self._save_query_list(negated_items, QUERIES_NEGATED_OUTPUT_FILE)
+                print(
+                    f"Processed {processed}/{total} | "
+                    f"negated new: {saved_negations} | "
+                    f"skipped: {skipped} | "
+                    f"fallback: {fallback_used}"
+                )
 
         print("\nQuery extraction complete.")
         print(f"Queries saved: {QUERIES_OUTPUT_FILE}")
@@ -451,26 +746,32 @@ def main():
         print("\n" + "="*70)
         print("Main Menu")
         print("="*70)
-        print("1. Generate claims from verified queries")
-        print("2. Extract queries + negated queries")
-        print("3. View statistics")
-        print("4. Export claims (json/csv/tsv)")
-        print("5. Exit")
+        print("1. Label unlabeled claims (NLI stance)")
+        print("2. Generate claims from verified queries")
+        print("3. Extract queries + negated queries")
+        print("4. View statistics")
+        print("5. Export claims (json/csv/tsv)")
+        print("6. Export query labels (csv)")
+        print("7. Exit")
         print("="*70)
         
-        choice = input("Select option (1-5): ").strip()
+        choice = input("Select option (1-7): ").strip()
         
         if choice == '1':
+            labeler.label_unlabeled_claims_with_nli()
+        elif choice == '2':
             labeler.ensure_models_initialized(skip_stance=False)
             labeler.generate_claims_from_verified_claims()
-        elif choice == '2':
-            labeler.extract_queries_and_negations()
         elif choice == '3':
-            labeler.view_statistics()
+            labeler.extract_queries_and_negations()
         elif choice == '4':
+            labeler.view_statistics()
+        elif choice == '5':
             export_format = input("Export format (json/csv/tsv): ").strip().lower()
             labeler.export_claims(export_format)
-        elif choice == '5':
+        elif choice == '6':
+            labeler.label_from_extracted_queries_csv()
+        elif choice == '7':
             print("\nGoodbye!")
             break
         else:

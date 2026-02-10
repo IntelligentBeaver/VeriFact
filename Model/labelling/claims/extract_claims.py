@@ -1,9 +1,22 @@
-import argparse
 import csv
 import json
 import os
 from typing import List, Dict
 
+# Configuration (edit these variables instead of using CLI arguments)
+# Input files may be TSV or CSV and are resolved relative to this script.
+INPUT_FILES = [
+    "dev.tsv",
+    "test.tsv",
+    "train.tsv",
+    "healthver_dev.csv",
+    "healthver_test.csv",
+    "healthver_train.csv",
+]
+# Output file name (written into the labelling `input` directory by default)
+OUTPUT_FILE = "claims_unlabeled.json"
+# Labels to exclude (we only keep rows whose label is NOT one of these)
+EXCLUDE_LABELS = {"supports", "refutes"}
 
 def clean_claim_text(text: str) -> str:
     cleaned = text.strip()
@@ -12,56 +25,52 @@ def clean_claim_text(text: str) -> str:
     return cleaned
 
 
-def read_claims_from_tsv(file_path: str, labels: List[str]) -> List[str]:
-    claims: List[str] = []
+def read_claims_from_file(file_path: str, exclude_labels: set) -> List[Dict[str, str]]:
+    items: List[Dict[str, str]] = []
+    # Choose delimiter based on extension
+    delimiter = "\t" if file_path.lower().endswith(".tsv") else ","
     with open(file_path, "r", encoding="utf-8", newline="") as handle:
-        reader = csv.DictReader(handle, delimiter="\t")
+        reader = csv.DictReader(handle, delimiter=delimiter)
         for row in reader:
-            label = (row.get("label") or "").strip().lower()
-            if label in labels:
-                claim = clean_claim_text(row.get("claim") or "")
-                if claim and "?" not in claim:
-                    claims.append(claim)
-    return claims
+            raw_label = (row.get("label") or "").strip()
+            label = raw_label.lower()
+            # keep rows whose label is NOT one of the excluded (Supports/Refutes)
+            if label in exclude_labels:
+                continue
+            claim = clean_claim_text(row.get("claim") or "")
+            if claim and "?" not in claim:
+                items.append({"claim": claim, "label": raw_label})
+    return items
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(
-        description="Extract claims with label 'mixture' or 'unproven' from TSV files."
-    )
-    parser.add_argument(
-        "--inputs",
-        nargs="*",
-        default=["dev.tsv", "test.tsv", "train.tsv"],
-        help="Input TSV files (default: dev.tsv test.tsv train.tsv)",
-    )
-    parser.add_argument(
-        "--output",
-        default=os.path.join("output", "claims_mixture_unproven.json"),
-        help="Output JSON file path",
-    )
-    args = parser.parse_args()
-
+    # Use top-level configuration variables defined above
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    labels = {"mixture", "unproven"}
+    labelling_dir = os.path.dirname(base_dir)
+    default_output_dir = os.path.join(labelling_dir, "input")
 
-    all_claims: List[str] = []
-    for input_name in args.inputs:
+    all_items: List[Dict[str, str]] = []
+    for input_name in INPUT_FILES:
         input_path = input_name
         if not os.path.isabs(input_path):
             input_path = os.path.join(base_dir, input_name)
         if not os.path.exists(input_path):
             continue
-        all_claims.extend(read_claims_from_tsv(input_path, labels))
+        all_items.extend(read_claims_from_file(input_path, EXCLUDE_LABELS))
 
-    output_path = args.output
-    if not os.path.isabs(output_path):
-        output_path = os.path.join(base_dir, output_path)
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    # Generate deterministic IDs for combined claims: UL000001, UL000002, ...
+    output_items: List[Dict[str, object]] = []
+    for idx, item in enumerate(all_items, start=1):
+        uid = f"UL{idx:06d}"
+        output_items.append({"id": uid, "claim": item["claim"], "label": item["label"]})
 
-    output_items: List[Dict[str, object]] = [
-        {"id": idx, "claim": claim} for idx, claim in enumerate(all_claims, start=1)
-    ]
+    output_name = OUTPUT_FILE
+    if not os.path.isabs(output_name):
+        os.makedirs(default_output_dir, exist_ok=True)
+        output_path = os.path.join(default_output_dir, output_name)
+    else:
+        os.makedirs(os.path.dirname(output_name), exist_ok=True)
+        output_path = output_name
 
     with open(output_path, "w", encoding="utf-8") as handle:
         json.dump(output_items, handle, ensure_ascii=False, indent=2)

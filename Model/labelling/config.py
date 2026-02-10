@@ -14,7 +14,12 @@ INDEXING_DIR = HARVESTER_DIR / "adapters" / "webmd" / "indexing"
 INDEX_DIR = PROJECT_ROOT / "storage"
 OUTPUT_DIR = ADMIN_DIR / "output"
 CLAIM_INPUT_DIR = ADMIN_DIR / "input"
-VERIFIED_CLAIMS_FILE = CLAIM_INPUT_DIR / "claims_mixture_unproven.json"
+VERIFIED_CLAIMS_FILE = CLAIM_INPUT_DIR / "claims_unlabeled.json"
+
+# Unlabeled-claim stance labeling
+UNLABELED_CLAIMS_OUTPUT_FILE = OUTPUT_DIR / "labeled_unlabeled_claims.json"
+UNLABELED_TOPK = 10
+NLI_CROSS_ENCODER_MODEL = "cross-encoder/nli-deberta-v3-base"
 
 # Default retrieval parameters
 DEFAULT_DISPLAY_RESULTS = 5  # Show top 5 by default
