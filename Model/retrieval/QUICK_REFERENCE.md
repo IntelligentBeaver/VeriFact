@@ -31,7 +31,7 @@ docker run -d --name elasticsearch \
   -e "discovery.type=single-node" \
   -e "xpack.security.enabled=false" \
   -p 9200:9200 \
-  docker.elastic.co/elasticsearch/elasticsearch:8.5.0
+  docker.elastic.co/elasticsearch/elasticsearch:9.2.4
 
 # Setup indexing
 python run_retriever.py setup

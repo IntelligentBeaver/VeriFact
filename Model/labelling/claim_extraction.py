@@ -9,6 +9,7 @@ from typing import List
 
 
 _NLP = None
+_NEGATOR = None
 
 
 def _get_nlp():
@@ -33,6 +34,28 @@ def _get_nlp():
         _NLP.add_pipe("sentencizer")
 
     return _NLP
+
+
+def _get_negator():
+    global _NEGATOR
+    if _NEGATOR is not None:
+        return _NEGATOR
+
+    try:
+        from transformers import pipeline
+    except Exception as exc:
+        raise RuntimeError("transformers is required for T5 negation.") from exc
+
+    try:
+        _NEGATOR = pipeline(
+            "text2text-generation",
+            model="t5-base",
+            device=-1
+        )
+    except Exception as exc:
+        raise RuntimeError("Failed to load t5-base for negation.") from exc
+
+    return _NEGATOR
 
 
 class SentenceSplitter:
@@ -198,6 +221,22 @@ class ClaimExtractor:
 class RefuteGenerator:
     """Generate simple REFUTES edits for a claim."""
 
+    NEGATION_CUES = (
+        " not ",
+        " no ",
+        " never ",
+        " without ",
+        " does not ",
+        " do not ",
+        " cannot ",
+        " can't ",
+        " isn't ",
+        " aren't ",
+        " didn't ",
+        " wasn't ",
+        " weren't ",
+    )
+
     RULES = [
         (r" is caused by ", " is not caused by "),
         (r" causes ", " does not cause "),
@@ -210,22 +249,97 @@ class RefuteGenerator:
         (r" is an ", " is not an "),
     ]
 
+    def __init__(self, use_model: bool = True):
+        self.use_model = use_model
+
     def generate(self, claim: str) -> List[str]:
         claim = (claim or "").strip()
         if not claim:
             return []
 
-        lower = claim.lower()
-        refutes = []
+        refutes: List[str] = []
 
-        for needle, replacement in self.RULES:
-            if needle in lower:
-                refute = self._apply_replacement(claim, needle, replacement)
-                if refute:
-                    refutes.append(refute)
-                break
+        if self.use_model:
+            model_refute = self._negate_with_t5(claim)
+            if model_refute:
+                refutes.append(model_refute)
+
+        if not refutes:
+            rule_refute = self._negate_with_rules(claim)
+            if rule_refute:
+                refutes.append(rule_refute)
 
         return refutes
+
+    def negate_text(self, text: str, allow_rules: bool = True) -> str | None:
+        """Negate arbitrary text (used for query negation)."""
+        text = (text or "").strip()
+        if not text:
+            return None
+
+        if self.use_model:
+            model_refute = self._negate_with_t5(text)
+            if model_refute:
+                return model_refute
+
+        if allow_rules:
+            return self._negate_with_rules(text)
+
+        return None
+
+    def _negate_with_rules(self, claim: str) -> str | None:
+        lower = claim.lower()
+        for needle, replacement in self.RULES:
+            if needle in lower:
+                return self._apply_replacement(claim, needle, replacement)
+        return None
+
+    def _negate_with_t5(self, claim: str) -> str | None:
+        try:
+            negator = _get_negator()
+            prompts = [
+                f"negate: {claim}",
+                f"rewrite as negation: {claim}",
+            ]
+
+            for prompt in prompts:
+                output = negator(
+                    prompt,
+                    max_new_tokens=32,
+                    min_length=0,
+                    num_beams=4,
+                    do_sample=False
+                )
+                if not output:
+                    continue
+
+                text = (output[0].get("generated_text") or "").strip()
+                text = re.sub(r"^negate:\s*", "", text, flags=re.IGNORECASE)
+                text = re.sub(r"^rewrite as negation:\s*", "", text, flags=re.IGNORECASE)
+                text = text.replace("negate:", "")
+                if ":" in text:
+                    text = text.split(":")[-1]
+                text = text.lstrip(": ")
+                text = re.sub(r"\s+", " ", text).strip()
+                if not text:
+                    continue
+
+                lower_text = f" {text.lower()} "
+                lower_claim = claim.strip().lower()
+                if lower_claim in lower_text and lower_text.count(lower_claim) > 1:
+                    continue
+                if lower_text.strip() == lower_claim:
+                    continue
+                if not any(cue in lower_text for cue in self.NEGATION_CUES):
+                    continue
+
+                if not text.endswith("."):
+                    text += "."
+                return text
+
+            return None
+        except Exception:
+            return None
 
     def _apply_replacement(self, text: str, needle: str, replacement: str) -> str:
         pattern = re.compile(re.escape(needle), flags=re.IGNORECASE)

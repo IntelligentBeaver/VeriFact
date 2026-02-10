@@ -8,6 +8,9 @@ Step 3: Search with queries (run anytime)
 import json
 from pathlib import Path
 
+ROOT_DIR = Path(__file__).resolve().parents[1]
+STORAGE_DIR = ROOT_DIR / "storage"
+
 # ============================================================================
 # STEP 2: INDEX PASSAGES TO ELASTICSEARCH (Run this once)
 # ============================================================================
@@ -29,7 +32,7 @@ def setup_elasticsearch():
     
     # Load passages from your data
     print("\nLoading passages from storage...")
-    passages_file = Path("storage/metadata.json")
+    passages_file = STORAGE_DIR / "metadata.json"
     
     if not passages_file.exists():
         print(f"✗ File not found: {passages_file}")
@@ -133,8 +136,12 @@ if __name__ == "__main__":
                 print("Example: python run_retriever.py search 'vaccine safety during pregnancy'")
                 sys.exit(1)
             
+            from simple_retriever import SimpleRetriever, MinimalModelManager
+
             query = " ".join(sys.argv[2:])
-            search_and_display(query)
+            model_manager = MinimalModelManager(str(STORAGE_DIR))
+            retriever = SimpleRetriever(model_manager, str(STORAGE_DIR))
+            search_and_display(query, retriever)
         
         else:
             print(f"\nUnknown command: {command}")
@@ -153,8 +160,8 @@ if __name__ == "__main__":
         from simple_retriever import SimpleRetriever, MinimalModelManager
         
         print("\nInitializing models (one-time)...")
-        model_manager = MinimalModelManager(Path("storage"))
-        retriever = SimpleRetriever(model_manager, "storage")
+        model_manager = MinimalModelManager(str(STORAGE_DIR))
+        retriever = SimpleRetriever(model_manager, str(STORAGE_DIR))
         print("Models loaded! Ready to search.\n")
         
         while True:

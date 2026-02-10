@@ -33,9 +33,6 @@ AUTO_LABELING_MODE = False
 AUTO_UNRELATED_CE_MAX = 0.10
 AUTO_UNRELATED_LEX_MAX = 0.40
 
-# Stance auto-labeling threshold (0.0-1.0). Above this, stance is auto-assigned.
-STANCE_AUTO_THRESHOLD = 0.66
-
 # Labeling output files
 RELEVANT_PASSAGES_FILE = OUTPUT_DIR / "labeled_relevant_passages.json"
 UNRELATED_PASSAGES_FILE = OUTPUT_DIR / "labeled_unrelated_passages.json"
@@ -43,6 +40,8 @@ QUESTION_PASSAGES_FILE = OUTPUT_DIR / "labeled_question_passages.json"
 LABELING_SESSION_FILE = OUTPUT_DIR / "labeling_session.json"
 CLAIMS_OUTPUT_FILE = OUTPUT_DIR / "generated_claims.json"
 CLAIMS_EXPORT_STATE_FILE = OUTPUT_DIR / "claims_export_state.json"
+QUERIES_OUTPUT_FILE = OUTPUT_DIR / "extracted_queries.json"
+QUERIES_NEGATED_OUTPUT_FILE = OUTPUT_DIR / "extracted_queries_negated.json"
 
 # Create output directory if not exists
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

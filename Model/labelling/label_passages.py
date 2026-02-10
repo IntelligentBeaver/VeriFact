@@ -18,21 +18,22 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.append(str(PROJECT_ROOT))
 
 from retrieval.simple_retriever import SimpleRetriever, MinimalModelManager
-from stance_detector import StanceDetector
 from claim_extraction import SentenceSplitter, ClaimSentenceFilter, ClaimExtractor, RefuteGenerator
 from persistence import ClaimsLoader, ProcessedClaimTracker
 
 from config import (
     INDEX_DIR,
     DEFAULT_DISPLAY_RESULTS,
-    AUTO_RELEVANT_THRESHOLD, AUTO_UNRELATED_THRESHOLD, STANCE_AUTO_THRESHOLD,
+    AUTO_RELEVANT_THRESHOLD, AUTO_UNRELATED_THRESHOLD,
     
     AUTO_UNRELATED_CE_MAX, AUTO_UNRELATED_LEX_MAX,
     
     OUTPUT_DIR,
     VERIFIED_CLAIMS_FILE,
     CLAIMS_OUTPUT_FILE,
-    CLAIMS_EXPORT_STATE_FILE
+    CLAIMS_EXPORT_STATE_FILE,
+    QUERIES_OUTPUT_FILE,
+    QUERIES_NEGATED_OUTPUT_FILE
 )
 
 
@@ -85,7 +86,6 @@ class PassageLabeler:
             ce_max_unrelated=AUTO_UNRELATED_CE_MAX,
             lex_max_unrelated=AUTO_UNRELATED_LEX_MAX
         )
-        self.stance_detector = None
 
         self.sentence_splitter = SentenceSplitter()
         self.claim_filter = ClaimSentenceFilter()
@@ -100,7 +100,6 @@ class PassageLabeler:
         try:
             self.model_manager = MinimalModelManager(str(self.index_dir))
             self.retriever = SimpleRetriever(self.model_manager, str(self.index_dir))
-            self.stance_detector = StanceDetector()
             self.models_initialized = True
             return True
         except Exception as e:
@@ -112,12 +111,6 @@ class PassageLabeler:
         if not self.models_initialized:
             return self.initialize_models(skip_stance=skip_stance)
         return True
-
-    def predict_stance(self, query, passage_text):
-        """Predict stance using heuristic detection."""
-        if self.stance_detector is None:
-            return None, None
-        return self.stance_detector.detect_stance(query, passage_text)
 
     def _load_existing_claims(self):
         if not CLAIMS_OUTPUT_FILE.exists():
@@ -178,9 +171,58 @@ class PassageLabeler:
         tracker.processed_ids = ids_set
         tracker.save()
 
-    def _claim_id(self, passage_id, claim_text, label):
-        raw = f"{passage_id}|{label}|{claim_text}".encode("utf-8")
+    def _claim_id(self, passage_id, claim_text, label, query_text):
+        raw = f"{passage_id}|{label}|{query_text}|{claim_text}".encode("utf-8")
         return hashlib.sha1(raw).hexdigest()
+
+    def _negate_query(self, query: str) -> str:
+        negated = self.refute_generator.negate_text(query, allow_rules=False)
+        return negated or ""
+
+    def _save_query_list(self, queries, out_path: Path):
+        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+        with out_path.open("w", encoding="utf-8") as f:
+            json.dump(queries, f, indent=2, ensure_ascii=False)
+
+    def extract_queries_and_negations(self):
+        """Extract query list and a negated-claims list without indexing/labeling."""
+        claims = self._load_verified_claims()
+        if not claims:
+            print("No verified claims found.")
+            return
+
+        seen = set()
+        queries = []
+        for claim in claims:
+            text = (claim.get("claim") or "").strip()
+            if not text:
+                continue
+            key = text.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            queries.append(text)
+
+        if not queries:
+            print("No valid query text found.")
+            return
+
+        negated_items = []
+        for query in queries:
+            negated = self.refute_generator.negate_text(query, allow_rules=True)
+            if not negated:
+                continue
+            negated_items.append({
+                "query": query,
+                "negated_query": negated
+            })
+
+        self._save_query_list(queries, QUERIES_OUTPUT_FILE)
+        self._save_query_list(negated_items, QUERIES_NEGATED_OUTPUT_FILE)
+
+        print("\nQuery extraction complete.")
+        print(f"Queries saved: {QUERIES_OUTPUT_FILE}")
+        print(f"Negated queries saved: {QUERIES_NEGATED_OUTPUT_FILE}")
 
     def generate_claims_from_verified_claims(self, num_results=DEFAULT_DISPLAY_RESULTS):
         """Generate atomic claims from retrieved passages for verified queries."""
@@ -210,98 +252,109 @@ class PassageLabeler:
             if not query:
                 continue
 
-            print(f"\nProcessing query: {query}")
-            if self.retriever and num_results:
-                self.retriever.FINAL_TOPK = int(num_results)
+            negated_query = self._negate_query(query)
 
-            results = self.retriever.search(query)
+            query_variants = [(query, "positive")]
+            if negated_query:
+                query_variants.append((negated_query, "negative"))
 
-            for result in results:
-                passage = result.get('passage', {})
-                passage_text = passage.get('text', '') or ''
-                if not passage_text.strip():
+            for query_text, query_polarity in query_variants:
+                if not query_text:
                     continue
 
-                scores = result.get('scores', {})
-                final_score = float(result.get('final_score', 0.0))
-                cross_score = float(scores.get('cross_encoder', 0.0))
-                lexical_score = float(scores.get('lexical', 0.0))
+                print(f"\nProcessing query: {query_text}")
+                if self.retriever and num_results:
+                    self.retriever.FINAL_TOPK = int(num_results)
 
-                decision, _reason = self.auto_labeler.determine_label(
-                    final_score,
-                    cross_score,
-                    lexical_score
-                )
+                results = self.retriever.search(query_text)
 
-                if decision != 'relevant':
-                    continue
-
-                passage_id = passage.get('passage_id') or passage.get('id') or passage.get('url')
-                sentences = self.sentence_splitter.split(passage_text)
-                total_sentences += len(sentences)
-
-                for sentence in sentences:
-                    if not self.claim_filter.is_claim_worthy(sentence):
+                for result in results:
+                    passage = result.get('passage', {})
+                    passage_text = passage.get('text', '') or ''
+                    if not passage_text.strip():
                         continue
-                    kept_sentences += 1
 
-                    extracted = self.claim_extractor.extract(sentence)
-                    for claim_text in extracted:
-                        claim_key = (passage_id, claim_text, 'supports')
-                        if claim_key in seen:
+                    scores = result.get('scores', {})
+                    final_score = float(result.get('final_score', 0.0))
+                    cross_score = float(scores.get('cross_encoder', 0.0))
+                    lexical_score = float(scores.get('lexical', 0.0))
+
+                    decision, _reason = self.auto_labeler.determine_label(
+                        final_score,
+                        cross_score,
+                        lexical_score
+                    )
+
+                    if decision != 'relevant':
+                        continue
+
+                    passage_id = passage.get('passage_id') or passage.get('id') or passage.get('url')
+                    sentences = self.sentence_splitter.split(passage_text)
+                    total_sentences += len(sentences)
+
+                    for sentence in sentences:
+                        if not self.claim_filter.is_claim_worthy(sentence):
                             continue
-                        seen.add(claim_key)
+                        kept_sentences += 1
 
-                        stance, stance_confidence = self.predict_stance(claim_text, passage_text)
-                        if stance is None:
-                            stance = 'neutral'
-                            stance_confidence = 0.50
-
-                        claim_id = self._claim_id(passage_id, claim_text, 'supports')
-                        if claim_id in existing_ids:
-                            continue
-                        existing_ids.add(claim_id)
-
-                        generated.append({
-                            'claim_id': claim_id,
-                            'query': query,
-                            'source_passage_id': passage_id,
-                            'source_title': passage.get('title'),
-                            'source_url': passage.get('url'),
-                            'sentence': sentence,
-                            'claim': claim_text,
-                            'label': 'supports',
-                            'stance': stance,
-                            'stance_confidence': float(stance_confidence),
-                            'created_at': datetime.now().isoformat()
-                        })
-                        supports_count += 1
-
-                        for refute in self.refute_generator.generate(claim_text):
-                            refute_key = (passage_id, refute, 'refutes')
-                            if refute_key in seen:
+                        extracted = self.claim_extractor.extract(sentence)
+                        for claim_text in extracted:
+                            claim_key = (query_text, passage_id, claim_text, 'supports')
+                            if claim_key in seen:
                                 continue
-                            seen.add(refute_key)
+                            seen.add(claim_key)
 
-                            refute_id = self._claim_id(passage_id, refute, 'refutes')
-                            if refute_id in existing_ids:
+                            claim_id = self._claim_id(passage_id, claim_text, 'supports', query_text)
+                            if claim_id in existing_ids:
                                 continue
-                            existing_ids.add(refute_id)
+                            existing_ids.add(claim_id)
 
                             generated.append({
-                                'claim_id': refute_id,
-                                'query': query,
+                                'claim_id': claim_id,
+                                'query': query_text,
+                                'query_negated': negated_query,
+                                'query_polarity': query_polarity,
+                                'source_query': query,
                                 'source_passage_id': passage_id,
                                 'source_title': passage.get('title'),
                                 'source_url': passage.get('url'),
                                 'sentence': sentence,
-                                'claim': refute,
-                                'label': 'refutes',
-                                'stance': 'refutes',
-                                'stance_confidence': 0.0,
+                                'claim': claim_text,
+                                'label': 'supports',
+                                'is_negated': False,
+                                'source_claim': None,
                                 'created_at': datetime.now().isoformat()
                             })
-                            refutes_count += 1
+                            supports_count += 1
+
+                            for refute in self.refute_generator.generate(claim_text):
+                                refute_key = (query_text, passage_id, refute, 'refutes')
+                                if refute_key in seen:
+                                    continue
+                                seen.add(refute_key)
+
+                                refute_id = self._claim_id(passage_id, refute, 'refutes', query_text)
+                                if refute_id in existing_ids:
+                                    continue
+                                existing_ids.add(refute_id)
+
+                                generated.append({
+                                    'claim_id': refute_id,
+                                    'query': query_text,
+                                    'query_negated': negated_query,
+                                    'query_polarity': query_polarity,
+                                    'source_query': query,
+                                    'source_passage_id': passage_id,
+                                    'source_title': passage.get('title'),
+                                    'source_url': passage.get('url'),
+                                    'sentence': sentence,
+                                    'claim': refute,
+                                    'label': 'refutes',
+                                    'is_negated': True,
+                                    'source_claim': claim_text,
+                                    'created_at': datetime.now().isoformat()
+                                })
+                                refutes_count += 1
 
             processed_ids.add(claim_id)
 
@@ -399,22 +452,25 @@ def main():
         print("Main Menu")
         print("="*70)
         print("1. Generate claims from verified queries")
-        print("2. View statistics")
-        print("3. Export claims (json/csv/tsv)")
-        print("4. Exit")
+        print("2. Extract queries + negated queries")
+        print("3. View statistics")
+        print("4. Export claims (json/csv/tsv)")
+        print("5. Exit")
         print("="*70)
         
-        choice = input("Select option (1-4): ").strip()
+        choice = input("Select option (1-5): ").strip()
         
         if choice == '1':
             labeler.ensure_models_initialized(skip_stance=False)
             labeler.generate_claims_from_verified_claims()
         elif choice == '2':
-            labeler.view_statistics()
+            labeler.extract_queries_and_negations()
         elif choice == '3':
+            labeler.view_statistics()
+        elif choice == '4':
             export_format = input("Export format (json/csv/tsv): ").strip().lower()
             labeler.export_claims(export_format)
-        elif choice == '4':
+        elif choice == '5':
             print("\nGoodbye!")
             break
         else:
