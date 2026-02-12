@@ -4,6 +4,7 @@ from pathlib import Path
 from fastapi import FastAPI
 
 from retrieval.simple_retriever import MinimalModelManager, SimpleRetriever
+from routes.qa import router as qa_router
 from routes.retrieval import router as retrieval_router
 
 app = FastAPI(title="Verifact Retrieval API")
@@ -43,3 +44,4 @@ def health():
 
 
 app.include_router(retrieval_router)
+app.include_router(qa_router)
