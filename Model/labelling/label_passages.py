@@ -9,20 +9,24 @@ import hashlib
 import json
 import sys
 import threading
+import os
 from datetime import datetime
 from pathlib import Path
 from typing import Optional, Tuple
 from concurrent.futures import ThreadPoolExecutor, as_completed
-
-from sentence_transformers.cross_encoder import CrossEncoder
-
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.append(str(PROJECT_ROOT))
 
 from retrieval.simple_retriever import SimpleRetriever, MinimalModelManager
-from claim_extraction import SentenceSplitter, ClaimSentenceFilter, ClaimExtractor, RefuteGenerator
+from claim_extraction import (
+    SentenceSplitter,
+    ClaimSentenceFilter,
+    ClaimExtractor,
+    RefuteGenerator,
+    set_negator_model
+)
 from persistence import ClaimsLoader, ProcessedClaimTracker
 from stance_detector import StanceDetector
 
@@ -35,13 +39,27 @@ from config import (
     
     OUTPUT_DIR,
     VERIFIED_CLAIMS_FILE,
+    LABELED_CLAIMS_FILE,
+    LABELED_CLAIMS_NEGATED_FILE,
     UNLABELED_CLAIMS_OUTPUT_FILE,
     UNLABELED_TOPK,
+    UNLABELED_FILTER_TOPK,
+    UNLABELED_FILTER_MIN_SCORE,
+    UNLABELED_FILTER_SAVE_EVERY,
+    UNLABELED_FILTER_WORKERS,
+    UNLABELED_FILTER_CHECKPOINT_FILE,
     NLI_CROSS_ENCODER_MODEL,
+    UNLABELED_MIN_CONFIDENCE,
+    UNLABELED_SAVE_EVERY,
+    NLI_MIN_CONFIDENCE,
+    NLI_MIN_MARGIN,
+    NLI_MIN_RELEVANCE,
     CLAIMS_OUTPUT_FILE,
     CLAIMS_EXPORT_STATE_FILE,
     QUERIES_OUTPUT_FILE,
     QUERIES_NEGATED_OUTPUT_FILE
+    ,
+    NEGATION_MODEL_LARGE
 )
 
 
@@ -103,6 +121,8 @@ class PassageLabeler:
         self._nlp_lock = threading.Lock()
         self._nli_model = None
         self._stance_detector = None
+        self._nli_local = threading.local()
+        self._stance_local = threading.local()
         
         self.session_start = datetime.now()
         self.models_initialized = False
@@ -128,13 +148,40 @@ class PassageLabeler:
         if self._stance_detector is not None:
             return True
         try:
-            self._nli_model = CrossEncoder(NLI_CROSS_ENCODER_MODEL)
-            self._stance_detector = StanceDetector(self._nli_model)
+            from sentence_transformers.cross_encoder import CrossEncoder
+            self._nli_model = CrossEncoder(
+                NLI_CROSS_ENCODER_MODEL,
+                device="cpu",
+                model_kwargs={"low_cpu_mem_usage": False}
+            )
+            self._stance_detector = StanceDetector(
+                self._nli_model,
+                min_confidence=NLI_MIN_CONFIDENCE,
+                min_margin=NLI_MIN_MARGIN
+            )
             return True
         except Exception as e:
             print(f"Warning: Failed to load NLI model ({NLI_CROSS_ENCODER_MODEL}): {e}")
             self._stance_detector = StanceDetector(None)
             return False
+
+    def _get_thread_stance_detector(self) -> StanceDetector:
+        if not hasattr(self._stance_local, "detector"):
+            try:
+                from sentence_transformers.cross_encoder import CrossEncoder
+                self._stance_local.detector = StanceDetector(
+                    CrossEncoder(
+                        NLI_CROSS_ENCODER_MODEL,
+                        device="cpu",
+                        model_kwargs={"low_cpu_mem_usage": False}
+                    ),
+                    min_confidence=NLI_MIN_CONFIDENCE,
+                    min_margin=NLI_MIN_MARGIN
+                )
+            except Exception as e:
+                print(f"Warning: Failed to load NLI model ({NLI_CROSS_ENCODER_MODEL}): {e}")
+                self._stance_local.detector = StanceDetector(None)
+        return self._stance_local.detector
 
     def _load_existing_claims(self):
         if not CLAIMS_OUTPUT_FILE.exists():
@@ -184,6 +231,19 @@ class PassageLabeler:
         """Load verified claims from file."""
         return ClaimsLoader.load_claims(VERIFIED_CLAIMS_FILE)
 
+    def _load_labeled_claims(self):
+        """Load labeled claims from file."""
+        if not LABELED_CLAIMS_FILE.exists():
+            print(f"Claims file not found at {LABELED_CLAIMS_FILE}")
+            return []
+        try:
+            with LABELED_CLAIMS_FILE.open("r", encoding="utf-8") as f:
+                data = json.load(f)
+            return data if isinstance(data, list) else []
+        except Exception as exc:
+            print(f"Failed to read claims from {LABELED_CLAIMS_FILE}: {exc}")
+            return []
+
     def _load_unlabeled_labeled_claims(self):
         if not UNLABELED_CLAIMS_OUTPUT_FILE.exists():
             return []
@@ -215,6 +275,38 @@ class PassageLabeler:
         tracker = ProcessedClaimTracker(OUTPUT_DIR)
         tracker.processed_ids = ids_set
         tracker.save()
+
+    def _unlabeled_claim_key(self, item) -> str:
+        claim_id = (item.get("id") or "").strip()
+        if claim_id:
+            return claim_id
+        claim_text = (item.get("claim") or "").strip()
+        if claim_text:
+            return self._claim_text_id(claim_text)
+        return hashlib.sha1(json.dumps(item, sort_keys=True).encode("utf-8")).hexdigest()
+
+    def _load_filter_checkpoint(self):
+        if not UNLABELED_FILTER_CHECKPOINT_FILE.exists():
+            return set()
+        try:
+            with UNLABELED_FILTER_CHECKPOINT_FILE.open("r", encoding="utf-8") as f:
+                data = json.load(f)
+            if isinstance(data, dict):
+                processed = data.get("processed_ids") or []
+                return {str(item) for item in processed}
+        except Exception:
+            pass
+        return set()
+
+    def _save_filter_checkpoint(self, processed_ids, stats):
+        payload = {
+            "processed_ids": sorted(processed_ids),
+            "stats": stats,
+            "saved_at": datetime.now().isoformat()
+        }
+        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+        with UNLABELED_FILTER_CHECKPOINT_FILE.open("w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, ensure_ascii=False)
 
     def _claim_id(self, passage_id, claim_text, label, query_text):
         raw = f"{passage_id}|{label}|{query_text}|{claim_text}".encode("utf-8")
@@ -315,106 +407,326 @@ class PassageLabeler:
         if not self.ensure_models_initialized(skip_stance=True):
             return
 
-        self._ensure_stance_detector()
         claims = self._load_verified_claims()
         if not claims:
             print("No claims found in claims_unlabeled.json.")
             return
 
         processed_ids = self._load_processed_claim_ids()
-        output_items = []
-
-        if self.retriever and top_k:
-            self.retriever.FINAL_TOPK = int(top_k)
-
-        for claim in claims:
-            claim_text = (claim.get("claim") or "").strip()
+        existing_items = self._load_unlabeled_labeled_claims()
+        existing_claim_texts = {
+            (item.get("claim") or "").strip().lower()
+            for item in existing_items
+            if (item.get("claim") or "").strip()
+        }
+        pending_claims = []
+        for item in claims:
+            claim_text = (item.get("claim") or "").strip()
             if not claim_text:
                 continue
-
-            claim_id = claim.get("id") or self._claim_text_id(claim_text)
+            if claim_text.lower() in existing_claim_texts:
+                continue
+            claim_id = item.get("id") or self._claim_text_id(claim_text)
             if claim_id in processed_ids:
                 continue
+            pending_claims.append({"claim_id": claim_id, "claim": claim_text})
 
-            results = self.retriever.search(claim_text)
-            best = None
-            best_conf = -1.0
-            best_stance = None
-            best_reason = "nli"
+        if not pending_claims:
+            print("All claims already processed.")
+            return
+        output_items = []
+        processed_count = 0
+        successful_count = 0
+        skipped_count = 0
+        save_period = 5  # Log progress every 5 claims
 
-            for result in results:
-                passage = result.get("passage", {})
-                passage_text = (passage.get("text") or "").strip()
-                if not passage_text:
-                    continue
+        def _process_claim(item):
+            try:
+                claim_text = item.get("claim")
+                claim_id = item.get("claim_id")
+                if not claim_text or not claim_id:
+                    return None
 
-                stance, confidence = self._stance_detector.detect_stance_nli(
-                    claim_text,
-                    passage_text
-                )
-                if stance is None:
-                    stance, confidence = self._stance_detector.detect_stance(
+                retriever = self._get_thread_retriever()
+                if retriever and top_k:
+                    retriever.FINAL_TOPK = int(top_k)
+
+                results = retriever.search(claim_text)
+                if top_k:
+                    results = results[:int(top_k)]
+                stance_detector = self._get_thread_stance_detector()
+
+                best = None
+                best_conf = -1.0
+                best_stance = None
+
+                print("\n" + "-" * 70)
+                print(f"Claim: {claim_text}")
+                print(f"Processing {len(results)} retrieved passages...")
+                passages_processed = 0
+                passages_filtered = 0
+
+                for result in results:
+                    passage = result.get("passage", {})
+                    passage_text = (passage.get("text") or "").strip()
+                    if not passage_text:
+                        continue
+
+                    final_score = float(result.get("final_score", 0.0))
+                    title = (passage.get("title") or "").strip()
+                    passage_id = passage.get("passage_id") or passage.get("id")
+                    
+                    if final_score < NLI_MIN_RELEVANCE:
+                        passages_filtered += 1
+                        print(f"  [SKIP] Passage {passage_id} | score={final_score:.3f} < threshold {NLI_MIN_RELEVANCE}")
+                        continue
+                    
+                    passages_processed += 1
+                    stance, confidence = stance_detector.detect_stance_nli(
                         claim_text,
                         passage_text
                     )
-                    best_reason = "heuristic"
+                    if stance is None:
+                        stance, confidence = stance_detector.detect_stance(
+                            claim_text,
+                            passage_text
+                        )
+                        
 
-                if stance is None:
-                    continue
+                    conf_display = f"{confidence:.3f}" if confidence is not None else "n/a"
+                    stance_display = stance or "unknown"
+                    print(f"  - Passage {passage_id} | {title[:60]} | stance={stance_display} | conf={conf_display} | score={final_score:.3f}")
 
-                if stance == "neutral":
-                    if best is None:
+                    if stance is None:
+                        continue
+
+                    if stance == "neutral":
+                        if best is None:
+                            best = result
+                            best_conf = confidence or 0.5
+                            best_stance = "neutral"
+                        continue
+
+                    conf_val = confidence if confidence is not None else 0.0
+                    # Use NLI confidence primarily, use retrieval score as tiebreaker
+                    # Don't multiply (kills high NLI confidence), instead blend them
+                    weighted_conf = 0.85 * conf_val + 0.15 * max(final_score, 0.0)
+                    print(f"    → NLI={conf_val:.3f}, retrieval={final_score:.3f}, weighted={weighted_conf:.3f}")
+                    if weighted_conf > best_conf:
                         best = result
-                        best_conf = confidence or 0.5
-                        best_stance = "neutral"
-                    continue
+                        best_conf = weighted_conf
+                        best_stance = stance
+                        print(f"    ✓ New best: {stance} ({weighted_conf:.3f})")
 
-                conf_val = confidence if confidence is not None else 0.0
-                if conf_val > best_conf:
-                    best = result
-                    best_conf = conf_val
-                    best_stance = stance
+                if best is None:
+                    best = results[0] if results else {}
+                    best_stance = "neutral"
+                    best_conf = 0.5
 
-            if best is None:
-                best = results[0] if results else {}
-                best_stance = "neutral"
-                best_conf = 0.5
-                best_reason = "fallback"
+                final_conf = best_conf if best_conf is not None else 0.0
+                print(f"\n[Summary] Processed {passages_processed}, Filtered {passages_filtered}, Final: {best_stance} ({final_conf:.3f})")
+                
+                if final_conf < UNLABELED_MIN_CONFIDENCE:
+                    final_label = "unproven"
+                elif best_stance in {"supports", "refutes"}:
+                    final_label = best_stance
+                else:
+                    final_label = "unproven"
 
-            passage = best.get("passage", {}) if isinstance(best, dict) else {}
-            scores = best.get("scores", {}) if isinstance(best, dict) else {}
-            output_items.append({
-                "claim_id": claim_id,
-                "claim": claim_text,
-                "label": best_stance,
-                "stance_confidence": float(best_conf) if best_conf is not None else None,
-                "evidence": {
-                    "passage_id": passage.get("passage_id") or passage.get("id"),
-                    "title": passage.get("title"),
-                    "url": passage.get("url"),
-                    "text": passage.get("text"),
-                    "scores": {
-                        "final_score": float(best.get("final_score", 0.0)) if isinstance(best, dict) else 0.0,
-                        "cross_encoder": float(scores.get("cross_encoder", 0.0)) if isinstance(scores, dict) else 0.0,
-                        "lexical": float(scores.get("lexical", 0.0)) if isinstance(scores, dict) else 0.0
-                    }
-                },
-                "stance_method": best_reason,
-                "created_at": datetime.now().isoformat()
-            })
+                print(f"=> Final label: {final_label} (threshold: {UNLABELED_MIN_CONFIDENCE})")
 
-            processed_ids.add(claim_id)
+                return {
+                    "claim_id": claim_id,
+                    "claim": claim_text,
+                    "label": final_label
+                }
+            except Exception as exc:
+                print(f"Error processing claim: {exc}")
+                import traceback
+                traceback.print_exc()
+                return None
 
-            if len(output_items) >= 25:
+        for item in pending_claims:
+            processed_count += 1
+            result = _process_claim(item)
+            
+            if not result:
+                skipped_count += 1
+                if processed_count % save_period == 0:
+                    print(f"\n[Progress] Processed {processed_count}, successful {successful_count}, skipped {skipped_count}")
+                continue
+
+            if result["claim_id"] in processed_ids:
+                skipped_count += 1
+                continue
+            processed_ids.add(result["claim_id"])
+            successful_count += 1
+
+            output_items.append(result)
+            if len(output_items) >= UNLABELED_SAVE_EVERY:
                 self._save_unlabeled_labeled_claims(output_items)
+                print(f"Saved {len(output_items)} items to {UNLABELED_CLAIMS_OUTPUT_FILE}")
                 output_items = []
+            elif processed_count % save_period == 0:
+                print(f"\n[Progress] Processed {processed_count}, successful {successful_count}, skipped {skipped_count}")
 
         if output_items:
             self._save_unlabeled_labeled_claims(output_items)
+            print(f"Saved {len(output_items)} items to {UNLABELED_CLAIMS_OUTPUT_FILE}")
 
         self._save_processed_claim_ids(processed_ids)
         print("\nUnlabeled claim stance labeling complete.")
         print(f"Output: {UNLABELED_CLAIMS_OUTPUT_FILE}")
+
+    def remove_irrelevant_unlabeled_claims(
+        self,
+        top_k: int = UNLABELED_FILTER_TOPK,
+        min_score: float = UNLABELED_FILTER_MIN_SCORE,
+        reset_checkpoint: bool = False
+    ):
+        """Remove claims with weak retrieval scores and overwrite claims_unlabeled.json."""
+        if not self.ensure_models_initialized(skip_stance=True):
+            return
+
+        claims = self._load_verified_claims()
+        if not claims:
+            print("No claims found in claims_unlabeled.json.")
+            return
+
+        processed_ids = set()
+        if not reset_checkpoint:
+            processed_ids = self._load_filter_checkpoint()
+        else:
+            if UNLABELED_FILTER_CHECKPOINT_FILE.exists():
+                try:
+                    UNLABELED_FILTER_CHECKPOINT_FILE.unlink()
+                except Exception:
+                    pass
+        current_keys = {self._unlabeled_claim_key(item) for item in claims}
+        processed_ids = processed_ids.intersection(current_keys)
+
+        status_map = {}
+        for item in claims:
+            key = self._unlabeled_claim_key(item)
+            if key in processed_ids:
+                status_map[key] = True
+
+        total = len(claims)
+        processed = len(processed_ids)
+        score_sum = 0.0
+        score_count = 0
+
+        if not processed_ids:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            backup_path = OUTPUT_DIR / f"claims_unlabeled_backup_{timestamp}.json"
+            OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+            with backup_path.open("w", encoding="utf-8") as f:
+                json.dump(claims, f, indent=2, ensure_ascii=False)
+        else:
+            backup_path = None
+
+        pending = []
+        for item in claims:
+            key = self._unlabeled_claim_key(item)
+            if key in processed_ids:
+                continue
+            claim_text = (item.get("claim") or "").strip()
+            if not claim_text:
+                processed_ids.add(key)
+                status_map[key] = True
+                continue
+            pending.append((key, item, claim_text))
+
+        if not pending and processed_ids:
+            print(
+                "All claims already processed. "
+                "Run with reset to reprocess using retrieval."
+            )
+            return
+
+        def _process_claim(key, item, claim_text):
+            try:
+                retriever = self._get_thread_retriever()
+                if retriever and top_k:
+                    retriever.FINAL_TOPK = int(top_k)
+                results = retriever.search(claim_text)
+                if top_k:
+                    results = results[:int(top_k)]
+                best_score = max(
+                    (float(result.get("final_score", 0.0)) for result in results),
+                    default=0.0
+                )
+                return key, item, best_score
+            except Exception:
+                return key, item, 0.0
+
+        save_every = max(int(UNLABELED_FILTER_SAVE_EVERY), 1)
+        max_workers = max(int(UNLABELED_FILTER_WORKERS), 1)
+        def _build_updated_list():
+            return [
+                item for item in claims
+                if status_map.get(self._unlabeled_claim_key(item)) is not False
+            ]
+
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            futures = [
+                executor.submit(_process_claim, key, item, claim_text)
+                for key, item, claim_text in pending
+            ]
+
+            for future in as_completed(futures):
+                key, item, best_score = future.result()
+                processed_ids.add(key)
+                processed += 1
+                score_sum += best_score
+                score_count += 1
+
+                status_map[key] = best_score >= min_score
+
+                if processed % save_every == 0 or processed == total:
+                    updated_claims = _build_updated_list()
+                    with VERIFIED_CLAIMS_FILE.open("w", encoding="utf-8") as f:
+                        json.dump(updated_claims, f, indent=2, ensure_ascii=False)
+
+                    kept_count = sum(1 for val in status_map.values() if val is True)
+                    removed_count = sum(1 for val in status_map.values() if val is False)
+                    stats = {
+                        "total": total,
+                        "processed": processed,
+                        "pending": max(total - processed, 0),
+                        "kept": kept_count,
+                        "removed": removed_count,
+                        "avg_best_score": (
+                            score_sum / score_count if score_count else 0.0
+                        )
+                    }
+                    self._save_filter_checkpoint(processed_ids, stats)
+                    print(
+                        f"Processed {processed}/{total} | kept: {kept_count} | "
+                        f"removed: {removed_count} | avg_score: {stats['avg_best_score']:.3f}"
+                    )
+
+        updated_claims = _build_updated_list()
+        with VERIFIED_CLAIMS_FILE.open("w", encoding="utf-8") as f:
+            json.dump(updated_claims, f, indent=2, ensure_ascii=False)
+
+        kept_count = sum(1 for val in status_map.values() if val is True)
+        removed_count = sum(1 for val in status_map.values() if val is False)
+        stats = {
+            "total": total,
+            "processed": processed,
+            "pending": max(total - processed, 0),
+            "kept": kept_count,
+            "removed": removed_count,
+            "avg_best_score": score_sum / score_count if score_count else 0.0
+        }
+        self._save_filter_checkpoint(processed_ids, stats)
+
+        print("\nIrrelevant claim removal complete.")
+        print(f"Kept: {kept_count} | Removed: {removed_count}")
+        if backup_path is not None:
+            print(f"Backup saved: {backup_path}")
+        print(f"Updated file: {VERIFIED_CLAIMS_FILE}")
 
     def extract_queries_and_negations(self):
         """Extract query list and a negated-claims list without indexing/labeling."""
@@ -450,6 +762,15 @@ class PassageLabeler:
 
         seen = set()
         queries = []
+        label_map = {
+            "true": "false",
+            "false": "true",
+            "supports": "refutes",
+            "support": "refute",
+            "refutes": "supports",
+            "refute": "support",
+        }
+
         for claim in claims:
             text = (claim.get("claim") or "").strip()
             if not text:
@@ -458,6 +779,10 @@ class PassageLabeler:
             if key in seen:
                 continue
             seen.add(key)
+
+            raw_label = (claim.get("label") or "").strip()
+            label_key = raw_label.lower()
+            negated_label = label_map.get(label_key)
             queries.append(text)
 
         if not queries:
@@ -518,6 +843,78 @@ class PassageLabeler:
         print("\nQuery extraction complete.")
         print(f"Queries saved: {QUERIES_OUTPUT_FILE}")
         print(f"Negated queries saved: {QUERIES_NEGATED_OUTPUT_FILE}")
+
+    def generate_negations_from_labeled_claims(self):
+        """Generate opposite-polarity sentences from claims_labeled.json."""
+        claims = self._load_labeled_claims()
+        if not claims:
+            print("No labeled claims found in claims_labeled.json.")
+            return
+
+        set_negator_model(NEGATION_MODEL_LARGE)
+        negator = RefuteGenerator(use_model=True)
+
+        items = []
+        seen = set()
+        total = len(claims)
+        processed = 0
+        saved = 0
+        save_every = 10
+        label_map = {
+            "true": "false",
+            "false": "true",
+            "supports": "refutes",
+            "support": "refute",
+            "refutes": "supports",
+            "refute": "support",
+        }
+        for claim in claims:
+            text = (claim.get("claim") or "").strip()
+            if not text:
+                continue
+            processed += 1
+            key = text.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+
+            raw_label = (claim.get("label") or "").strip()
+            label_key = raw_label.lower()
+            negated_label = label_map.get(label_key)
+
+            negated = negator.negate_text(text, allow_rules=True)
+            if not negated:
+                continue
+
+            items.append({
+                "id": claim.get("id"),
+                "claim": text,
+                "negated_claim": negated,
+                "label_original": raw_label or None,
+                "label_negated": negated_label
+            })
+
+            if len(items) >= save_every:
+                OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+                with LABELED_CLAIMS_NEGATED_FILE.open("w", encoding="utf-8") as f:
+                    json.dump(items, f, indent=2, ensure_ascii=False)
+                saved = len(items)
+                print(f"Saved {saved} items to {LABELED_CLAIMS_NEGATED_FILE}")
+
+            if processed % 25 == 0 or processed == total:
+                print(
+                    f"Processed {processed}/{total} | "
+                    f"negated: {len(items)} | saved: {saved}"
+                )
+
+        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+        with LABELED_CLAIMS_NEGATED_FILE.open("w", encoding="utf-8") as f:
+            json.dump(items, f, indent=2, ensure_ascii=False)
+        saved = len(items)
+        print(f"Saved {saved} items to {LABELED_CLAIMS_NEGATED_FILE}")
+
+        print("\nNegation generation complete.")
+        print(f"Negated claims saved: {LABELED_CLAIMS_NEGATED_FILE}")
 
     def generate_claims_from_verified_claims(self, num_results=DEFAULT_DISPLAY_RESULTS):
         """Generate atomic claims from retrieved passages for verified queries."""
@@ -748,14 +1145,16 @@ def main():
         print("="*70)
         print("1. Label unlabeled claims (NLI stance)")
         print("2. Generate claims from verified queries")
-        print("3. Extract queries + negated queries")
-        print("4. View statistics")
-        print("5. Export claims (json/csv/tsv)")
-        print("6. Export query labels (csv)")
-        print("7. Exit")
+        print("3. Generate negations from labeled claims")
+        print("4. Extract queries + negated queries")
+        print("5. View statistics")
+        print("6. Export claims (json/csv/tsv)")
+        print("7. Export query labels (csv)")
+        print("8. Remove irrelevant unlabeled claims")
+        print("9. Exit")
         print("="*70)
         
-        choice = input("Select option (1-7): ").strip()
+        choice = input("Select option (1-9): ").strip()
         
         if choice == '1':
             labeler.label_unlabeled_claims_with_nli()
@@ -763,15 +1162,47 @@ def main():
             labeler.ensure_models_initialized(skip_stance=False)
             labeler.generate_claims_from_verified_claims()
         elif choice == '3':
-            labeler.extract_queries_and_negations()
+            labeler.generate_negations_from_labeled_claims()
         elif choice == '4':
-            labeler.view_statistics()
+            labeler.extract_queries_and_negations()
         elif choice == '5':
+            labeler.view_statistics()
+        elif choice == '6':
             export_format = input("Export format (json/csv/tsv): ").strip().lower()
             labeler.export_claims(export_format)
-        elif choice == '6':
-            labeler.label_from_extracted_queries_csv()
         elif choice == '7':
+            labeler.label_from_extracted_queries_csv()
+        elif choice == '8':
+            threshold_raw = input(
+                f"Min retrieval score (default {UNLABELED_FILTER_MIN_SCORE}): "
+            ).strip()
+            top_k_raw = input(
+                f"Top-k results (default {UNLABELED_FILTER_TOPK}): "
+            ).strip()
+            reset_raw = input("Reset filter checkpoint? (y/N): ").strip().lower()
+
+            min_score = UNLABELED_FILTER_MIN_SCORE
+            top_k = UNLABELED_FILTER_TOPK
+            reset_checkpoint = reset_raw == "y"
+
+            if threshold_raw:
+                try:
+                    min_score = float(threshold_raw)
+                except ValueError:
+                    print("Invalid score; using default.")
+
+            if top_k_raw:
+                try:
+                    top_k = int(top_k_raw)
+                except ValueError:
+                    print("Invalid top-k; using default.")
+
+            labeler.remove_irrelevant_unlabeled_claims(
+                top_k=top_k,
+                min_score=min_score,
+                reset_checkpoint=reset_checkpoint
+            )
+        elif choice == '9':
             print("\nGoodbye!")
             break
         else:

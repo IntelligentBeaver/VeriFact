@@ -41,13 +41,21 @@ class MinimalModelManager:
         
         # Load embedding model
         print("  Loading embedding model (all-mpnet-base-v2)...")
-        self.embedding_model = SentenceTransformer('sentence-transformers/all-mpnet-base-v2')
+        self.embedding_model = SentenceTransformer(
+            'sentence-transformers/all-mpnet-base-v2',
+            device="cpu",
+            model_kwargs={"low_cpu_mem_usage": False}
+        )
         
         # Load cross-encoder for reranking (use public ranking model)
         print("  Loading cross-encoder...")
         try:
             # Try to load the better model first
-            self.cross_encoder = CrossEncoder('cross-encoder/ms-marco-MiniLM-L6-v2')
+            self.cross_encoder = CrossEncoder(
+                'cross-encoder/ms-marco-MiniLM-L6-v2',
+                device="cpu",
+                model_kwargs={"low_cpu_mem_usage": False}
+            )
         except Exception as e:
             print(f"  Warning: Could not load cross-encoder, using fallback...")
             self.cross_encoder = None
@@ -55,7 +63,11 @@ class MinimalModelManager:
         # Load SapBERT for medical entity extraction
         print("  Loading SapBERT for entity extraction...")
         try:
-            self.sapbert_model = SentenceTransformer('cambridgeltl/SapBERT-from-PubMedBERT-fulltext-mean-token')
+            self.sapbert_model = SentenceTransformer(
+                'cambridgeltl/SapBERT-from-PubMedBERT-fulltext-mean-token',
+                device="cpu",
+                model_kwargs={"low_cpu_mem_usage": False}
+            )
         except Exception as e:
             print(f"  Warning: Could not load SapBERT, entity extraction will be keyword-based...")
             self.sapbert_model = None
@@ -155,6 +167,11 @@ class SimpleRetriever:
     FAISS_TOPK = 50          # Get 50 candidates from FAISS
     ES_TOPK = 50           # Get 50 candidates from ElasticSearch
     FINAL_TOPK = 5          # Return top 10 results
+
+    # Feature flags (performance vs quality)
+    ENABLE_CROSS_ENCODER = True
+    ENABLE_ENTITY_MATCH = False
+    ENABLE_SAPBERT_SEMANTIC = True  # Set True for higher accuracy (slower)
     
     # RRF Fusion settings
     RRF_K = 60
@@ -462,7 +479,7 @@ class SimpleRetriever:
     
     def _cross_encoder_rerank(self, query: str, results: List[Dict]) -> List[Dict]:
         """Cross-encoder reranking for relevance."""
-        if not results or not self.model_manager.cross_encoder:
+        if not results or not self.ENABLE_CROSS_ENCODER or not self.model_manager.cross_encoder:
             # If no cross-encoder, just return results as-is
             for result in results:
                 result['cross_score'] = 0.5  # Neutral score
@@ -504,8 +521,8 @@ class SimpleRetriever:
         # Get query tokens for lexical matching
         query_tokens = set(query.lower().split())
         
-        # Extract medical entities from query using SapBERT
-        query_entities = self._extract_medical_entities(query)
+        # Extract medical entities from query
+        query_entities = self._extract_medical_entities(query) if self.ENABLE_ENTITY_MATCH else set()
         
         for result in results:
             passage = result['passage']
@@ -523,8 +540,11 @@ class SimpleRetriever:
             cross_score = 1 / (1 + np.exp(-cross_score))  # sigmoid
             
             # 3. Medical entity matching using SapBERT entity extraction
-            passage_entities = self._extract_medical_entities(text)
-            entity_match_score = self._compute_entity_match_score(query_entities, passage_entities)
+            if self.ENABLE_ENTITY_MATCH:
+                passage_entities = self._extract_medical_entities(text)
+                entity_match_score = self._compute_entity_match_score(query_entities, passage_entities)
+            else:
+                entity_match_score = 0.5
             
             # 4. Lexical overlap
             passage_tokens = set(text.lower().split())
@@ -604,7 +624,7 @@ class SimpleRetriever:
                 matched_mesh_ids.update(mesh_ids)
         
         # Step 2: SapBERT-based semantic matching (optional, more accurate)
-        if self.model_manager.sapbert_model is not None and self.model_manager.mesh_concepts:
+        if self.ENABLE_SAPBERT_SEMANTIC and self.model_manager.sapbert_model is not None and self.model_manager.mesh_concepts:
             try:
                 # Encode text using SapBERT
                 text_embedding = self.model_manager.sapbert_model.encode(

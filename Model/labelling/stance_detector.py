@@ -69,7 +69,7 @@ class StanceDetector:
         'caution', 'cautious'
     ]
     
-    def __init__(self, nli_cross_encoder=None):
+    def __init__(self, nli_cross_encoder=None, min_confidence: float = 0.0, min_margin: float = 0.0):
         """
         Initialize stance detector.
         
@@ -77,6 +77,8 @@ class StanceDetector:
             nli_cross_encoder: Optional NLI cross-encoder model
         """
         self.nli_cross_encoder = nli_cross_encoder
+        self.min_confidence = min_confidence
+        self.min_margin = min_margin
     
     def detect_stance(
         self,
@@ -121,26 +123,27 @@ class StanceDetector:
         try:
             pair = [[query, passage_text]]
             scores = self.nli_cross_encoder.predict(pair)[0]
-            
-            # Handle scalar scores
-            if isinstance(scores, np.ndarray) and len(scores.shape) == 0:
+
+            probs = self._scores_to_probs(scores)
+            if probs is None:
                 return None, None
-            
-            # Extract entailment, neutral, contradiction (standard NLI order)
-            if isinstance(scores, np.ndarray) and scores.shape[0] >= 3:
-                entail_score = float(scores[2])  # ENTAILMENT
-                contra_score = float(scores[0])  # CONTRADICTION
-                
-                if entail_score > contra_score:
-                    confidence = float(np.tanh(entail_score / 2.0))
-                    return 'supports', confidence
-                elif contra_score > entail_score:
-                    confidence = float(np.tanh(contra_score / 2.0))
-                    return 'refutes', confidence
-                else:
-                    return 'neutral', 0.5
-            else:
+
+            entail_p, contra_p, neutral_p = probs
+
+            best_label = max(
+                [("supports", entail_p), ("refutes", contra_p), ("neutral", neutral_p)],
+                key=lambda x: x[1]
+            )
+            label, confidence = best_label
+
+            # Require minimum confidence and margin between top two labels
+            sorted_probs = sorted([entail_p, contra_p, neutral_p], reverse=True)
+            margin = sorted_probs[0] - sorted_probs[1] if len(sorted_probs) > 1 else 0.0
+
+            if confidence < self.min_confidence or margin < self.min_margin:
                 return None, None
+
+            return label, float(confidence)
         except Exception:
             return None, None
     
@@ -225,6 +228,51 @@ class StanceDetector:
         """
         pattern = r'\b' + re.escape(word) + r'\b'
         return len(re.findall(pattern, text))
+
+    def _scores_to_probs(self, scores) -> Optional[Tuple[float, float, float]]:
+        if isinstance(scores, np.ndarray) and len(scores.shape) == 0:
+            return None
+
+        arr = np.array(scores, dtype=float)
+        if arr.ndim == 0:
+            return None
+        if arr.ndim > 1:
+            arr = arr[0]
+        if arr.shape[0] < 3:
+            return None
+
+        exp = np.exp(arr - np.max(arr))
+        probs = exp / (exp.sum() + 1e-8)
+
+        # Try to map using model's id2label if available
+        id2label = None
+        try:
+            id2label = getattr(self.nli_cross_encoder.model.config, "id2label", None)
+        except Exception:
+            id2label = None
+
+        if isinstance(id2label, dict):
+            label_map = {int(k): str(v).lower() for k, v in id2label.items()}
+            entail_idx = self._find_label_index(label_map, ["entailment", "entails"])
+            contra_idx = self._find_label_index(label_map, ["contradiction", "contradict"])
+            neutral_idx = self._find_label_index(label_map, ["neutral"])
+            if None not in (entail_idx, contra_idx, neutral_idx):
+                return (
+                    float(probs[entail_idx]),
+                    float(probs[contra_idx]),
+                    float(probs[neutral_idx])
+                )
+
+        # Fallback to common ordering: [contradiction, neutral, entailment]
+        return float(probs[2]), float(probs[0]), float(probs[1])
+
+    @staticmethod
+    def _find_label_index(label_map: dict, tokens: list) -> Optional[int]:
+        for idx, name in label_map.items():
+            for token in tokens:
+                if token in name:
+                    return idx
+        return None
 
 
 class StanceAutoLabeler:

@@ -80,6 +80,15 @@ def _get_negator(timeout_sec: int = 45):
     return _NEGATOR
 
 
+def set_negator_model(model_name: str) -> None:
+    """Override the T5 model used for negation and reset cache."""
+    global _NEGATOR_MODEL, _NEGATOR, _NEGATOR_FAILED
+    if model_name and model_name != _NEGATOR_MODEL:
+        _NEGATOR_MODEL = model_name
+        _NEGATOR = None
+        _NEGATOR_FAILED = False
+
+
 class SentenceSplitter:
     """Split text into sentences using spaCy."""
 

@@ -2,18 +2,19 @@
 
 from pathlib import Path
 
+from config import QAConfigDefaults
 from qa_system import QAConfig, QASystem, save_answer
 
 
 # =========================
 # CONFIGURATION (edit here)
 # =========================
-INDEX_DIR = Path("..") / "retrieval" / "storage"
-OLLAMA_URL = "http://localhost:11434/api/generate"
-OLLAMA_MODEL = "llama3.1:8b"
-TOP_K = 6
-MIN_SCORE = 0.4
-MAX_CONTEXT_CHARS = 12000
+INDEX_DIR = Path("..") / "storage"
+OLLAMA_URL = QAConfigDefaults.ollama_url
+OLLAMA_MODEL = QAConfigDefaults.ollama_model
+TOP_K = QAConfigDefaults.top_k
+MIN_SCORE = QAConfigDefaults.min_score
+MAX_CONTEXT_CHARS = QAConfigDefaults.max_context_chars
 SAVE_DIR = Path("qa_outputs")
 
 

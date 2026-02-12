@@ -11,6 +11,7 @@ import sys
 
 import requests
 
+from config import QAConfigDefaults
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 RETRIEVAL_DIR = BASE_DIR / "retrieval"
@@ -24,11 +25,11 @@ from simple_retriever import MinimalModelManager, SimpleRetriever  # noqa: E402
 @dataclass
 class QAConfig:
     index_dir: Path
-    top_k: int = 6
-    min_score: float = 0.4
-    ollama_url: str = "http://localhost:11434/api/generate"
-    ollama_model: str = "llama3.1:8b"
-    max_context_chars: int = 12000
+    top_k: int = QAConfigDefaults.top_k
+    min_score: float = QAConfigDefaults.min_score
+    ollama_url: str = QAConfigDefaults.ollama_url
+    ollama_model: str = QAConfigDefaults.ollama_model
+    max_context_chars: int = QAConfigDefaults.max_context_chars
 
 
 class OllamaClient:
@@ -152,6 +153,14 @@ class QASystem:
         return (
             "You are a careful medical QA assistant. Answer using only the provided sources. "
             "If the sources do not support an answer, say you do not have enough evidence. "
+            "If at least one source indicates an association, risk, or link, answer with that "
+            "association even if causation is not proven. "
+            "If sources explicitly state transmission or causation, you may say it causes or transmits. "
+            "If sources show association or risk but not causation, say 'associated with increased risk' "
+            "and avoid claiming it causes the outcome. "
+            "Use this format: 'Conclusion: ...' then 'Evidence: ...'. "
+            "Limit to 2 sentences total. "
+            "Only cite sources that explicitly mention diabetes or prediabetes risk/link. "
             "Cite sources like [Source 1], [Source 2].\n\n"
             f"Question: {question}\n\n"
             f"Sources:\n{context}\n\n"

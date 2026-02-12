@@ -10,6 +10,8 @@ import requests
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
+from config import QAConfigDefaults, load_env_float, load_env_int, load_env_str
+
 
 @dataclass
 class QAServiceConfig:
@@ -35,12 +37,12 @@ class AnswerResponse(BaseModel):
 
 def load_config() -> QAServiceConfig:
     return QAServiceConfig(
-        retriever_url=os.getenv("RETRIEVER_URL", "http://retriever:8000"),
-        ollama_url=os.getenv("OLLAMA_URL", "http://ollama:11434/api/generate"),
-        ollama_model=os.getenv("OLLAMA_MODEL", "llama3.1:8b"),
-        top_k=int(os.getenv("TOP_K", "6")),
-        min_score=float(os.getenv("MIN_SCORE", "0.4")),
-        max_context_chars=int(os.getenv("MAX_CONTEXT_CHARS", "12000")),
+        retriever_url=load_env_str("RETRIEVER_URL", QAConfigDefaults.retriever_url),
+        ollama_url=load_env_str("OLLAMA_URL", QAConfigDefaults.ollama_url),
+        ollama_model=load_env_str("OLLAMA_MODEL", QAConfigDefaults.ollama_model),
+        top_k=load_env_int("TOP_K", QAConfigDefaults.top_k),
+        min_score=load_env_float("MIN_SCORE", QAConfigDefaults.min_score),
+        max_context_chars=load_env_int("MAX_CONTEXT_CHARS", QAConfigDefaults.max_context_chars),
     )
 
 
@@ -139,6 +141,14 @@ def _build_prompt(question: str, context: str) -> str:
     return (
         "You are a careful medical QA assistant. Answer using only the provided sources. "
         "If the sources do not support an answer, say you do not have enough evidence. "
+        "If at least one source indicates an association, risk, or link, answer with that "
+        "association even if causation is not proven. "
+        "If sources explicitly state transmission or causation, you may say it causes or transmits. "
+        "If sources show association or risk but not causation, say 'associated with increased risk' "
+        "and avoid claiming it causes the outcome. "
+        "Use this format: 'Conclusion: ...' then 'Evidence: ...'. "
+        "Limit to 2 sentences total. "
+        "Only cite sources that explicitly mention diabetes or prediabetes risk/link. "
         "Cite sources like [Source 1], [Source 2].\n\n"
         f"Question: {question}\n\n"
         f"Sources:\n{context}\n\n"
