@@ -154,7 +154,7 @@ class RetrieverConfigDefaults:
     es_index: str = "medical_passages"
     faiss_topk: int = 50
     es_topk: int = 50
-    final_topk: int = 5
+    final_topk: int = 10
     rrf_k: int = 60
     rrf_weight_faiss: float = 0.5
     rrf_weight_es: float = 0.5

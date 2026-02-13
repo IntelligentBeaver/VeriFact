@@ -17,6 +17,9 @@ import time
 import requests
 from config import load_retriever_config
 
+# Load centralized retriever config once at module import
+_RETRIEVER_CFG = load_retriever_config()
+
 
 class MinimalModelManager:
     """Minimal model manager for the simplified retriever."""
@@ -144,74 +147,51 @@ class SimpleRetriever:
     """
     
     # ============================================================================
-    # CONFIGURATION - All settings in one place
+    # CONFIGURATION - values are loaded from central config.py (see load_retriever_config)
+    # These attributes are intentionally thin wrappers around the central config
+    # so they can be tuned via environment variables without editing this file.
     # ============================================================================
-    
-    # ElasticSearch settings
-    ES_HOST = "127.0.0.1"
-    ES_PORT = 9200
-    ES_INDEX = "medical_passages"
-    
-    # Retrieval settings
-    FAISS_TOPK = 50          # Get 50 candidates from FAISS
-    ES_TOPK = 50           # Get 50 candidates from ElasticSearch
-    FINAL_TOPK = 5          # Return top 10 results
 
-    # Feature flags (performance vs quality)
+    ES_HOST = _RETRIEVER_CFG.es_host
+    ES_PORT = _RETRIEVER_CFG.es_port
+    ES_INDEX = _RETRIEVER_CFG.es_index
+
+    FAISS_TOPK = _RETRIEVER_CFG.faiss_topk
+    ES_TOPK = _RETRIEVER_CFG.es_topk
+    FINAL_TOPK = _RETRIEVER_CFG.final_topk
+
+    # Feature flags (keep defaults here; move to config if you want env overrides)
     ENABLE_CROSS_ENCODER = True
     ENABLE_ENTITY_MATCH = False
-    ENABLE_SAPBERT_SEMANTIC = True  # Set True for higher accuracy (slower)
-    
+    ENABLE_SAPBERT_SEMANTIC = True
+
     # RRF Fusion settings
-    RRF_K = 60
-    RRF_WEIGHT_FAISS = 0.5
-    RRF_WEIGHT_ES = 0.5
-    
-    # Scoring weights (must sum to 1.0)
-    WEIGHT_FAISS = 0.25
-    WEIGHT_CROSS_ENCODER = 0.40
-    WEIGHT_ENTITY_MATCH = 0.10    # Medical entity matching bonus (was SapBERT embedding)
-    WEIGHT_LEXICAL = 0.10
-    WEIGHT_DOMAIN = 0.10
-    WEIGHT_FRESHNESS = 0.05
-    
+    RRF_K = _RETRIEVER_CFG.rrf_k
+    RRF_WEIGHT_FAISS = _RETRIEVER_CFG.rrf_weight_faiss
+    RRF_WEIGHT_ES = _RETRIEVER_CFG.rrf_weight_es
+
+    # Scoring weights (must sum to ~1.0)
+    WEIGHT_FAISS = _RETRIEVER_CFG.weight_faiss
+    WEIGHT_CROSS_ENCODER = _RETRIEVER_CFG.weight_cross_encoder
+    WEIGHT_ENTITY_MATCH = _RETRIEVER_CFG.weight_entity_match
+    WEIGHT_LEXICAL = _RETRIEVER_CFG.weight_lexical
+    WEIGHT_DOMAIN = _RETRIEVER_CFG.weight_domain
+    WEIGHT_FRESHNESS = _RETRIEVER_CFG.weight_freshness
+
     # Quality filters
-    MIN_SCORE = 0.4
-    
+    MIN_SCORE = _RETRIEVER_CFG.min_score
+
     # Bonuses
-    MEDICAL_REVIEW_BONUS = 0.10
-    AUTHOR_BONUS = 0.02
-    
-    # Domain authority (3-tier system)
-    DOMAIN_SCORES = {
-        # Gold tier - Maximum authority
-        'who.int': 1.0,
-        'cdc.gov': 1.0,
-        'nih.gov': 1.0,
-        'fda.gov': 1.0,
-        
-        # Silver tier - High authority
-        'mayoclinic.org': 0.95,
-        'hopkinsmedicine.org': 0.95,
-        'health.harvard.edu': 0.95,
-        'clevelandclinic.org': 0.90,
-        'jamanetwork.com': 0.90,
-        
-        # Bronze tier - Good authority
-        'webmd.com': 0.85,
-        'healthline.com': 0.80,
-        'medicalnewstoday.com': 0.80,
-        'medlineplus.gov': 0.85,
-        
-        # Default for unknown sources
-        'default': 0.60
-    }
-    
+    MEDICAL_REVIEW_BONUS = _RETRIEVER_CFG.medical_review_bonus
+    AUTHOR_BONUS = _RETRIEVER_CFG.author_bonus
+
+    # Domain authority map (from central config)
+    DOMAIN_SCORES = _RETRIEVER_CFG.domain_scores or {}
+
     # Freshness thresholds (days)
-    FRESHNESS_RECENT = 365      # < 1 year = recent (score 1.0)
-    FRESHNESS_MODERATE = 1095   # < 3 years = moderate (score 0.7)
-    FRESHNESS_OLD = 1825        # < 5 years = old (score 0.4)
-    # > 5 years = very old (score 0.1)
+    FRESHNESS_RECENT = _RETRIEVER_CFG.freshness_recent
+    FRESHNESS_MODERATE = _RETRIEVER_CFG.freshness_moderate
+    FRESHNESS_OLD = _RETRIEVER_CFG.freshness_old
     
     
     def __init__(self, model_manager, index_dir: str):
