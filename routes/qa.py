@@ -102,7 +102,7 @@ def get_ollama(request: Request) -> OllamaClient:
     return client
 
 
-def _build_context(results: List[Dict[str, Any]], max_chars: int) -> (str, List[Dict[str, Any]]):
+def _build_context(results: List[Dict[str, Any]], max_chars: int) -> tuple[str, List[Dict[str, Any]]]:
     context_blocks = []
     sources = []
     total_chars = 0
@@ -178,7 +178,7 @@ def answer(
     top_k = request.top_k or cfg.top_k
     min_score = request.min_score if request.min_score is not None else cfg.min_score
 
-    results = retriever.search(request.question)
+    results = retriever.search(request.question, deduplicate=False)
     results = [r for r in results if r.get("final_score", 0.0) >= min_score]
     results = results[:top_k]
 

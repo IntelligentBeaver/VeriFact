@@ -171,6 +171,7 @@ class RetrieverConfigDefaults:
     freshness_recent: int = 365
     freshness_moderate: int = 1095
     freshness_old: int = 1825
+    enable_deduplication: bool = True
 
 
 def load_qa_config() -> QAConfigDefaults:
@@ -227,4 +228,5 @@ def load_retriever_config() -> RetrieverConfigDefaults:
         freshness_recent=load_env_int("FRESHNESS_RECENT", defaults.freshness_recent),
         freshness_moderate=load_env_int("FRESHNESS_MODERATE", defaults.freshness_moderate),
         freshness_old=load_env_int("FRESHNESS_OLD", defaults.freshness_old),
+        enable_deduplication=load_env_bool("ENABLE_DEDUPLICATION", defaults.enable_deduplication),
     )

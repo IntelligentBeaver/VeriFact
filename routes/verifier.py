@@ -65,7 +65,7 @@ def verify_claim(
     retriever=Depends(get_retriever),
     verifier: PickleVerifier = Depends(get_verifier),
 ) -> VerifyResponse:
-    results = retriever.search(payload.claim)
+    results = retriever.search(payload.claim, deduplicate=False)
 
     min_score = payload.min_score if payload.min_score is not None else verifier_api_config.default_min_score
     results = [r for r in results if r.get("final_score", 0.0) >= min_score]
