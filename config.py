@@ -142,8 +142,8 @@ class QAConfigDefaults:
     top_k: int = 10
     min_score: float = 0.35
     ollama_url: str = "http://localhost:11434/api/generate"
-    ollama_model: str = "llama3.2:3b"
-    max_context_chars: int = 5000
+    ollama_model: str = "llama3.2:1b"
+    max_context_chars: int = 3000
     retriever_url: str = "http://retriever:8000"
 
 
@@ -152,8 +152,8 @@ class RetrieverConfigDefaults:
     es_host: str = "127.0.0.1"
     es_port: int = 9200
     es_index: str = "medical_passages"
-    faiss_topk: int = 50
-    es_topk: int = 50
+    faiss_topk: int = 30
+    es_topk: int = 30
     final_topk: int = 10
     rrf_k: int = 60
     rrf_weight_faiss: float = 0.5

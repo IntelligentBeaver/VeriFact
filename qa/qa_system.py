@@ -155,6 +155,7 @@ class QASystem:
                     "id": i,
                     "title": title,
                     "url": url,
+                    "text": text,
                     "score": score,
                 }
             )

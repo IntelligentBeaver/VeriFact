@@ -132,6 +132,7 @@ def _build_context(results: List[Dict[str, Any]], max_chars: int) -> tuple[str, 
                 "id": i,
                 "title": title,
                 "url": url,
+                "text": text,
                 "score": score,
             }
         )
