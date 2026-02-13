@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:skeletonizer/skeletonizer.dart';
+import 'package:speech_to_text/speech_to_text.dart' as stt;
 import 'package:verifact_app/extensions/context_extensions.dart';
 import 'package:verifact_app/models/qa_model.dart';
 import 'package:verifact_app/models/retriever_model.dart';
@@ -12,7 +13,6 @@ import 'package:verifact_app/utils/helpers/helper_functions.dart';
 import 'package:verifact_app/utils/notifiers/home_search_notifier.dart';
 import 'package:verifact_app/utils/notifiers/qa_notifier.dart';
 import 'package:verifact_app/utils/notifiers/retriever_notifier.dart';
-import 'package:verifact_app/widgets/home/chat_input_bar.dart';
 import 'package:verifact_app/widgets/home/home_bottom_nav.dart';
 import 'package:verifact_app/widgets/home/quick_menu_sheet.dart';
 import 'package:verifact_app/widgets/results/custom_doc_result_card_skeleton.dart';
@@ -137,7 +137,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       behavior: HitTestBehavior.translucent,
       onTap: () => FocusScope.of(context).unfocus(),
       child: Scaffold(
-        backgroundColor: context.color.background,
+        backgroundColor: context.theme.scaffoldBackgroundColor,
         bottomNavigationBar: HomeBottomNav(
           currentIndex: _currentIndex,
           onTap: (index) => setState(() => _currentIndex = index),
@@ -372,15 +372,50 @@ class _SearchBarContainer extends ConsumerStatefulWidget {
 }
 
 class _SearchBarContainerState extends ConsumerState<_SearchBarContainer> {
+  late stt.SpeechToText _speech;
+  bool _listening = false;
+
   @override
   void initState() {
     super.initState();
     widget.focusNode.addListener(_onFocusChange);
+    _speech = stt.SpeechToText();
+    _initSpeech();
+  }
+
+  Future<void> _initSpeech() async {
+    try {
+      await _speech.initialize();
+    } catch (_) {}
+  }
+
+  Future<void> _toggleListening() async {
+    if (!_listening) {
+      final available = await _speech.initialize();
+      if (!available) return;
+      setState(() => _listening = true);
+      _speech.listen(
+        onResult: (result) {
+          final String text = result.recognizedWords;
+          widget.controller.text = text;
+          widget.controller.selection = TextSelection.fromPosition(
+            TextPosition(offset: text.length),
+          );
+          setState(() {});
+        },
+        localeId: 'en_US',
+      );
+    } else {
+      await _speech.stop();
+      setState(() => _listening = false);
+      widget.onSubmitted(widget.controller.text.trim());
+    }
   }
 
   @override
   void dispose() {
     widget.focusNode.removeListener(_onFocusChange);
+    _speech.stop();
     super.dispose();
   }
 
@@ -402,9 +437,9 @@ class _SearchBarContainerState extends ConsumerState<_SearchBarContainer> {
         Container(
           padding: EdgeInsets.fromLTRB(
             AppSizes.smMd,
+            AppSizes.xsSm,
             AppSizes.xs,
-            AppSizes.xs,
-            AppSizes.xs,
+            AppSizes.xsSm,
           ),
           decoration: BoxDecoration(
             color: context.color.surface,
@@ -424,40 +459,64 @@ class _SearchBarContainerState extends ConsumerState<_SearchBarContainer> {
               ),
               SizedBox(width: AppSizes.sm),
               Expanded(
-                child: ChatInputBar(
+                child: TextField(
                   controller: widget.controller,
-                  hintText: mode == HomeSearchMode.verifier
-                      ? 'Verify claim...'
-                      : mode == HomeSearchMode.qa
-                      ? 'Ask a question...'
-                      : 'Search documents...',
-                  onPlusTap: widget.onPlusTap,
+                  focusNode: widget.focusNode,
                   onSubmitted: widget.onSubmitted,
-                ),
-              ),
-              SizedBox(width: AppSizes.smMd),
-              InkWell(
-                onTap: widget.onPlusTap,
-                borderRadius: BorderRadius.circular(
-                  AppSizes.borderRadiusXl + 8.r,
-                ),
-                child: SizedBox(
-                  width: AppSizes.iconLg,
-                  height: AppSizes.iconLg,
-                  // decoration: BoxDecoration(
-                  //   color: context.color.surfaceContainer,
-                  //   borderRadius: BorderRadius.circular(
-                  //     AppSizes.borderRadiusXl,
-                  //   ),
-                  // ),
-                  child: Icon(
-                    LucideIcons.plus,
-                    size: AppSizes.iconMd,
-                    color: context.color.onSurfaceVariant,
+                  textInputAction: TextInputAction.search,
+                  style: context.text.bodyMedium?.copyWith(
+                    color: context.color.onSurface,
+                  ),
+                  decoration: InputDecoration(
+                    hintText: 'Enter your query here',
+                    hintStyle: context.text.bodySmall?.copyWith(
+                      color: context.color.onSurfaceVariant,
+                    ),
+                    isDense: true,
+                    border: InputBorder.none,
                   ),
                 ),
               ),
+              // SizedBox(width: AppSizes.smMd),
+              // InkWell(
+              //   onTap: widget.onPlusTap,
+              //   borderRadius: BorderRadius.circular(
+              //     AppSizes.borderRadiusXl + 8.r,
+              //   ),
+              //   child: SizedBox(
+              //     width: AppSizes.iconLg,
+              //     height: AppSizes.iconLg,
+              //     // decoration: BoxDecoration(
+              //     //   color: context.color.surfaceContainer,
+              //     //   borderRadius: BorderRadius.circular(
+              //     //     AppSizes.borderRadiusXl,
+              //     //   ),
+              //     // ),
+              //     child: Icon(
+              //       LucideIcons.plus,
+              //       size: AppSizes.iconMd,
+              //       color: context.color.onSurfaceVariant,
+              //     ),
+              //   ),
+              // ),
               SizedBox(width: AppSizes.smMd),
+              GestureDetector(
+                onTap: _toggleListening,
+                child: CircleAvatar(
+                  radius: AppSizes.iconXl / 2,
+                  backgroundColor: _listening
+                      ? context.color.primary
+                      : context.color.surfaceContainer,
+                  child: Icon(
+                    LucideIcons.mic,
+                    size: AppSizes.iconSm,
+                    color: _listening
+                        ? context.color.onPrimary
+                        : context.color.onSurfaceVariant,
+                  ),
+                ),
+              ),
+              SizedBox(width: AppSizes.sm),
               // Submit (up arrow) button — enabled when there is text
               ValueListenableBuilder<TextEditingValue>(
                 valueListenable: widget.controller,
@@ -469,8 +528,8 @@ class _SearchBarContainerState extends ConsumerState<_SearchBarContainer> {
                               widget.onSubmitted(widget.controller.text.trim())
                         : null,
                     child: Container(
-                      width: AppSizes.iconLg,
-                      height: AppSizes.iconLg,
+                      width: AppSizes.iconXl,
+                      height: AppSizes.iconXl,
                       decoration: BoxDecoration(
                         color: enabled
                             ? context.color.primary
