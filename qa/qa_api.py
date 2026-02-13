@@ -10,7 +10,7 @@ import requests
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
-from config import QAConfigDefaults, load_env_float, load_env_int, load_env_str
+from config import load_qa_config
 
 
 @dataclass
@@ -36,13 +36,14 @@ class AnswerResponse(BaseModel):
 
 
 def load_config() -> QAServiceConfig:
+    defaults = load_qa_config()
     return QAServiceConfig(
-        retriever_url=load_env_str("RETRIEVER_URL", QAConfigDefaults.retriever_url),
-        ollama_url=load_env_str("OLLAMA_URL", QAConfigDefaults.ollama_url),
-        ollama_model=load_env_str("OLLAMA_MODEL", QAConfigDefaults.ollama_model),
-        top_k=load_env_int("TOP_K", QAConfigDefaults.top_k),
-        min_score=load_env_float("MIN_SCORE", QAConfigDefaults.min_score),
-        max_context_chars=load_env_int("MAX_CONTEXT_CHARS", QAConfigDefaults.max_context_chars),
+        retriever_url=defaults.retriever_url,
+        ollama_url=defaults.ollama_url,
+        ollama_model=defaults.ollama_model,
+        top_k=defaults.top_k,
+        min_score=defaults.min_score,
+        max_context_chars=defaults.max_context_chars,
     )
 
 

@@ -11,7 +11,7 @@ import sys
 
 import requests
 
-from config import QAConfigDefaults
+from config import load_qa_config
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 RETRIEVAL_DIR = BASE_DIR / "retrieval"
@@ -25,11 +25,23 @@ from simple_retriever import MinimalModelManager, SimpleRetriever  # noqa: E402
 @dataclass
 class QAConfig:
     index_dir: Path
-    top_k: int = QAConfigDefaults.top_k
-    min_score: float = QAConfigDefaults.min_score
-    ollama_url: str = QAConfigDefaults.ollama_url
-    ollama_model: str = QAConfigDefaults.ollama_model
-    max_context_chars: int = QAConfigDefaults.max_context_chars
+    top_k: int
+    min_score: float
+    ollama_url: str
+    ollama_model: str
+    max_context_chars: int
+
+    @classmethod
+    def from_index_dir(cls, index_dir: Path) -> "QAConfig":
+        defaults = load_qa_config()
+        return cls(
+            index_dir=index_dir.resolve(),
+            top_k=defaults.top_k,
+            min_score=defaults.min_score,
+            ollama_url=defaults.ollama_url,
+            ollama_model=defaults.ollama_model,
+            max_context_chars=defaults.max_context_chars,
+        )
 
 
 class OllamaClient:

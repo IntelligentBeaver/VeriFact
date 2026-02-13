@@ -15,6 +15,7 @@ from urllib.parse import urlparse
 from elasticsearch import Elasticsearch
 import time
 import requests
+from config import load_retriever_config
 
 
 class MinimalModelManager:
@@ -155,6 +156,11 @@ class SimpleRetriever:
     FAISS_TOPK = 50          # Get 50 candidates from FAISS
     ES_TOPK = 50           # Get 50 candidates from ElasticSearch
     FINAL_TOPK = 5          # Return top 10 results
+
+    # Feature flags (performance vs quality)
+    ENABLE_CROSS_ENCODER = True
+    ENABLE_ENTITY_MATCH = False
+    ENABLE_SAPBERT_SEMANTIC = True  # Set True for higher accuracy (slower)
     
     # RRF Fusion settings
     RRF_K = 60
@@ -222,10 +228,50 @@ class SimpleRetriever:
         self.model_manager = model_manager
         self.index_dir = Path(index_dir)
 
-        # Allow env overrides for containerized deployments
-        self.ES_HOST = os.getenv("ES_HOST", self.ES_HOST)
-        self.ES_PORT = int(os.getenv("ES_PORT", str(self.ES_PORT)))
-        self.ES_INDEX = os.getenv("ES_INDEX", self.ES_INDEX)
+        # Load centralized retriever config (env vars are respected by loader)
+        try:
+            cfg = load_retriever_config()
+        except Exception:
+            cfg = None
+
+        if cfg is not None:
+            self.ES_HOST = cfg.es_host
+            self.ES_PORT = int(cfg.es_port)
+            self.ES_INDEX = cfg.es_index
+
+            # Retrieval tuning
+            self.FAISS_TOPK = cfg.faiss_topk
+            self.ES_TOPK = cfg.es_topk
+            self.FINAL_TOPK = cfg.final_topk
+
+            # RRF
+            self.RRF_K = cfg.rrf_k
+            self.RRF_WEIGHT_FAISS = cfg.rrf_weight_faiss
+            self.RRF_WEIGHT_ES = cfg.rrf_weight_es
+
+            # Scoring weights & thresholds
+            self.WEIGHT_FAISS = cfg.weight_faiss
+            self.WEIGHT_CROSS_ENCODER = cfg.weight_cross_encoder
+            self.WEIGHT_ENTITY_MATCH = cfg.weight_entity_match
+            self.WEIGHT_LEXICAL = cfg.weight_lexical
+            self.WEIGHT_DOMAIN = cfg.weight_domain
+            self.WEIGHT_FRESHNESS = cfg.weight_freshness
+            self.MIN_SCORE = cfg.min_score
+
+            # Bonuses
+            self.MEDICAL_REVIEW_BONUS = cfg.medical_review_bonus
+            self.AUTHOR_BONUS = cfg.author_bonus
+
+            # Domain scores & freshness
+            self.DOMAIN_SCORES = cfg.domain_scores or self.DOMAIN_SCORES
+            self.FRESHNESS_RECENT = cfg.freshness_recent
+            self.FRESHNESS_MODERATE = cfg.freshness_moderate
+            self.FRESHNESS_OLD = cfg.freshness_old
+        else:
+            # fallback to env vars if loader isn't available
+            self.ES_HOST = os.getenv("ES_HOST", self.ES_HOST)
+            self.ES_PORT = int(os.getenv("ES_PORT", str(self.ES_PORT)))
+            self.ES_INDEX = os.getenv("ES_INDEX", self.ES_INDEX)
         
         # Cache for entity extraction (avoid re-extracting same text)
         self._entity_cache = {}
@@ -473,7 +519,7 @@ class SimpleRetriever:
     
     def _cross_encoder_rerank(self, query: str, results: List[Dict]) -> List[Dict]:
         """Cross-encoder reranking for relevance."""
-        if not results or not self.model_manager.cross_encoder:
+        if not results or not self.ENABLE_CROSS_ENCODER or not self.model_manager.cross_encoder:
             # If no cross-encoder, just return results as-is
             for result in results:
                 result['cross_score'] = 0.5  # Neutral score
@@ -515,8 +561,8 @@ class SimpleRetriever:
         # Get query tokens for lexical matching
         query_tokens = set(query.lower().split())
         
-        # Extract medical entities from query using SapBERT
-        query_entities = self._extract_medical_entities(query)
+        # Extract medical entities from query using SapBERT when enabled
+        query_entities = self._extract_medical_entities(query) if self.ENABLE_ENTITY_MATCH else set()
         
         for result in results:
             passage = result['passage']
@@ -533,9 +579,12 @@ class SimpleRetriever:
                 cross_score = 0.0
             cross_score = 1 / (1 + np.exp(-cross_score))  # sigmoid
             
-            # 3. Medical entity matching using SapBERT entity extraction
-            passage_entities = self._extract_medical_entities(text)
-            entity_match_score = self._compute_entity_match_score(query_entities, passage_entities)
+            # 3. Medical entity matching using SapBERT entity extraction (if enabled)
+            if self.ENABLE_ENTITY_MATCH:
+                passage_entities = self._extract_medical_entities(text)
+                entity_match_score = self._compute_entity_match_score(query_entities, passage_entities)
+            else:
+                entity_match_score = 0.0
             
             # 4. Lexical overlap
             passage_tokens = set(text.lower().split())
@@ -615,7 +664,8 @@ class SimpleRetriever:
                 matched_mesh_ids.update(mesh_ids)
         
         # Step 2: SapBERT-based semantic matching (optional, more accurate)
-        if self.model_manager.sapbert_model is not None and self.model_manager.mesh_concepts:
+        # Only run SapBERT semantic matching when the flag is enabled and the model exists
+        if self.ENABLE_SAPBERT_SEMANTIC and self.model_manager.sapbert_model is not None and self.model_manager.mesh_concepts:
             try:
                 # Encode text using SapBERT
                 text_embedding = self.model_manager.sapbert_model.encode(
