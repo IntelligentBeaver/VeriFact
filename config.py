@@ -29,10 +29,10 @@ class VerifierModelConfigDefaults:
 @dataclass(frozen=True)
 class VerifierApiConfigDefaults:
     min_top_k: int = 1
-    max_top_k: int = 10
-    default_top_k: int = 3
+    max_top_k: int = 12
+    default_top_k: int = 10
     default_min_score: float = 0.35
-    no_evidence_verdict: str = "NOT_ENOUGH_EVIDENCE"
+    no_evidence_verdict: str = "Not Enough Evidence"
     # Threshold below which predictions are considered insufficiently confident
     confidence_threshold: float = 0.68
 

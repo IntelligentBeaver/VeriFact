@@ -1,4 +1,4 @@
-from typing import Any, Dict, Optional
+from typing import Any, Dict, Optional, List
 
 from fastapi import APIRouter, Depends, HTTPException, Request
 from pydantic import BaseModel, Field
@@ -35,7 +35,7 @@ class VerifyResponse(BaseModel):
     verdict: str
     confidence: Optional[float]
     scores: Dict[str, float]
-    evidence: Optional[EvidenceInfo]
+    evidence: Optional[List[EvidenceInfo]]
     retriever_candidates: int
 
 
@@ -65,7 +65,7 @@ def verify_claim(
     retriever=Depends(get_retriever),
     verifier: PickleVerifier = Depends(get_verifier),
 ) -> VerifyResponse:
-    results = retriever.search(payload.claim, deduplicate=False)
+    results = retriever.search(payload.claim, deduplicate=True)
 
     min_score = payload.min_score if payload.min_score is not None else verifier_api_config.default_min_score
     results = [r for r in results if r.get("final_score", 0.0) >= min_score]
@@ -103,13 +103,19 @@ def verify_claim(
         raise HTTPException(status_code=500, detail=f"Verifier inference error: {exc}") from exc
     except Exception as exc:
         raise HTTPException(status_code=500, detail="Verifier inference failed") from exc
-    evidence = EvidenceInfo(
-        title=passage.get("title"),
-        url=passage.get("url"),
-        text=evidence_text,
-        score=best.get("final_score"),
-        passage_id=passage.get("passage_id"),
-    )
+    # Build list of evidences from the top-k retriever results
+    evidence_list: List[EvidenceInfo] = []
+    for r in results:
+        p = r.get("passage", {})
+        evidence_list.append(
+            EvidenceInfo(
+                title=p.get("title"),
+                url=p.get("url"),
+                text=p.get("text"),
+                score=r.get("final_score"),
+                passage_id=p.get("passage_id"),
+            )
+        )
 
     # Apply configurable confidence threshold: map low-confidence predictions
     # to the no-evidence verdict while preserving scores and reported confidence.
@@ -128,6 +134,6 @@ def verify_claim(
         verdict=verdict,
         confidence=result.confidence,
         scores=result.scores,
-        evidence=evidence,
+        evidence=evidence_list,
         retriever_candidates=len(results),
     )
