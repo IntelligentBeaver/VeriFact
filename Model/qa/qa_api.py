@@ -10,7 +10,8 @@ import requests
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
-from config import QAConfigDefaults, load_env_float, load_env_int, load_env_str
+from config import QAConfigDefaults, load_env_float, load_env_int, load_env_str, PROMPT_TEMPLATE
+from qa_system import QASystem
 
 
 @dataclass
@@ -138,22 +139,7 @@ def _build_context(results: List[Dict[str, Any]], max_chars: int) -> (str, List[
 
 
 def _build_prompt(question: str, context: str) -> str:
-    return (
-        "You are a careful medical QA assistant. Answer using only the provided sources. "
-        "If the sources do not support an answer, say you do not have enough evidence. "
-        "If at least one source indicates an association, risk, or link, answer with that "
-        "association even if causation is not proven. "
-        "If sources explicitly state transmission or causation, you may say it causes or transmits. "
-        "If sources show association or risk but not causation, say 'associated with increased risk' "
-        "and avoid claiming it causes the outcome. "
-        "Use this format: 'Conclusion: ...' then 'Evidence: ...'. "
-        "Limit to 2 sentences total. "
-        "Only cite sources that explicitly mention diabetes or prediabetes risk/link. "
-        "Cite sources like [Source 1], [Source 2].\n\n"
-        f"Question: {question}\n\n"
-        f"Sources:\n{context}\n\n"
-        "Answer:"
-    )
+    return PROMPT_TEMPLATE.format(question=question, context=context)
 
 
 @app.post("/answer", response_model=AnswerResponse)

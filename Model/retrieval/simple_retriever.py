@@ -170,7 +170,7 @@ class SimpleRetriever:
 
     # Feature flags (performance vs quality)
     ENABLE_CROSS_ENCODER = True
-    ENABLE_ENTITY_MATCH = False
+    ENABLE_ENTITY_MATCH = True
     ENABLE_SAPBERT_SEMANTIC = True  # Set True for higher accuracy (slower)
     
     # RRF Fusion settings
@@ -187,7 +187,7 @@ class SimpleRetriever:
     WEIGHT_FRESHNESS = 0.05
     
     # Quality filters
-    MIN_SCORE = 0.4
+    MIN_SCORE = float(os.getenv('RETRIEVER_MIN_SCORE', '0.4'))
     
     # Bonuses
     MEDICAL_REVIEW_BONUS = 0.10
@@ -243,6 +243,14 @@ class SimpleRetriever:
         self.ES_HOST = os.getenv("ES_HOST", self.ES_HOST)
         self.ES_PORT = int(os.getenv("ES_PORT", str(self.ES_PORT)))
         self.ES_INDEX = os.getenv("ES_INDEX", self.ES_INDEX)
+        # Override retrieval knobs via env
+        try:
+            self.FAISS_TOPK = int(os.getenv('FAISS_TOPK', str(self.FAISS_TOPK)))
+            self.ES_TOPK = int(os.getenv('ES_TOPK', str(self.ES_TOPK)))
+            self.FINAL_TOPK = int(os.getenv('FINAL_TOPK', str(self.FINAL_TOPK)))
+            self.MIN_SCORE = float(os.getenv('RETRIEVER_MIN_SCORE', str(self.MIN_SCORE)))
+        except Exception:
+            pass
         
         # Cache for entity extraction (avoid re-extracting same text)
         self._entity_cache = {}

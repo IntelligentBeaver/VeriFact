@@ -8,10 +8,12 @@ from pathlib import Path
 from typing import Any, Dict, List
 import json
 import sys
+import re
+import string
 
 import requests
 
-from config import QAConfigDefaults
+from config import QAConfigDefaults, PROMPT_TEMPLATE
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 RETRIEVAL_DIR = BASE_DIR / "retrieval"
@@ -94,8 +96,8 @@ class QASystem:
                 "raw_results": results,
             }
 
-        context, sources = self._build_context(top_results)
-        prompt = self._build_prompt(question, context)
+        context, sources = self._build_context(question, top_results)
+        prompt = PROMPT_TEMPLATE.format(question=question, context=context)
         try:
             answer = self.llm.generate(prompt)
         except RuntimeError as exc:
@@ -106,17 +108,24 @@ class QASystem:
                 "raw_results": results,
             }
 
+        # Post-process / enforce format and filter citations
+        final_answer = self._enforce_answer_format(answer, question, sources)
+
         return {
             "question": question,
-            "answer": answer,
+            "answer": final_answer,
             "sources": sources,
             "raw_results": results,
         }
 
-    def _build_context(self, results: List[Dict[str, Any]]) -> (str, List[Dict[str, Any]]):
+    def _build_context(self, question: str, results: List[Dict[str, Any]]) -> (str, List[Dict[str, Any]]):
         context_blocks = []
         sources = []
         total_chars = 0
+
+        # Build keyword set from question for eligibility filtering
+        keywords = self._extract_keywords(question)
+        matched_any = False
 
         for i, result in enumerate(results, 1):
             passage = result.get("passage", {})
@@ -133,6 +142,19 @@ class QASystem:
                 f"Text: {text}\n"
             )
 
+            # eligibility: include passage if it contains any keyword (or include as fallback)
+            eligible = False
+            passage_text_lower = text.lower()
+            for kw in keywords:
+                if kw in passage_text_lower:
+                    eligible = True
+                    matched_any = True
+                    break
+
+            if not eligible and keywords:
+                # skip this passage — it's not relevant by keyword
+                continue
+
             if total_chars + len(block) > self.config.max_context_chars:
                 break
 
@@ -148,6 +170,51 @@ class QASystem:
             )
 
         return "\n".join(context_blocks), sources
+
+    def _extract_keywords(self, text: str) -> List[str]:
+        # Simple keyword extraction: split, remove punctuation, filter stopwords and short tokens
+        stopwords = {
+            'the', 'is', 'in', 'and', 'or', 'of', 'a', 'an', 'to', 'for', 'with', 'on', 'by', 'that', 'does', 'do'
+        }
+        text = text.lower()
+        # remove punctuation
+        text = text.translate(str.maketrans(string.punctuation, ' ' * len(string.punctuation)))
+        tokens = [t.strip() for t in text.split() if t and len(t) > 2 and t not in stopwords]
+        # return up to 8 keywords
+        return tokens[:8]
+
+    def _enforce_answer_format(self, answer: str, question: str, sources: List[Dict[str, Any]]) -> str:
+        # Ensure answer follows 'Conclusion: ...' and 'Evidence: ...' format.
+        if isinstance(answer, str) and answer.strip().lower().startswith('conclusion:') and 'evidence:' in answer.lower():
+            return answer.strip()
+
+        # Attempt to synthesize a short deterministic conclusion from sources
+        # Scan sources' texts for causal/transmission/association hints
+        hints = []
+        for s in sources:
+            txt = (s.get('title', '') + ' ' + s.get('url', '')).lower()
+            # if raw_results include passage text, it will be present in raw_results; but sources here are metadata
+            # Use title/url and score as fallback; better hints come from raw_results when available
+            if any(w in txt for w in ('transmit', 'transmission', 'transmitted', 'cause', 'causes', 'caused')):
+                hints.append('cause')
+            elif any(w in txt for w in ('associate', 'associated', 'link', 'linked', 'risk')):
+                hints.append('associate')
+
+        if 'cause' in hints:
+            conclusion = 'Conclusion: The sources indicate transmission/causation as stated in the cited sources.'
+        elif 'associate' in hints:
+            conclusion = 'Conclusion: The sources indicate an association or increased risk.'
+        else:
+            # fallback to the original LLM answer's first sentence if nothing found
+            first_sentence = re.split(r'\n|\.|!|\?', answer.strip())[0]
+            if first_sentence:
+                conclusion = f'Conclusion: {first_sentence.strip()}'
+            else:
+                conclusion = 'Conclusion: I do not have enough evidence to answer from the provided sources.'
+
+        evidence_ids = [str(s.get('id')) for s in sources][:5]
+        evidence_line = 'Evidence: Sources [' + ', '.join(f'Source {i}' for i in evidence_ids) + '].'
+        return conclusion + '\n\n' + evidence_line
 
     def _build_prompt(self, question: str, context: str) -> str:
         return (

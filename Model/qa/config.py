@@ -15,6 +15,22 @@ class QAConfigDefaults:
     max_context_chars: int = 5000
     retriever_url: str = "http://retriever:8000"
 
+# Prompt template uses {question} and {context} placeholders
+PROMPT_TEMPLATE = (
+    "You are a careful medical QA assistant. Answer using only the provided sources. "
+    "If the sources do not support an answer, say you do not have enough evidence. "
+    "If at least one source indicates an association, risk, or link, answer with that "
+    "association even if causation is not proven. "
+    "If sources explicitly state transmission or causation, you may say it causes or transmits. "
+    "If sources show association or risk but not causation, say 'associated with increased risk' "
+    "and avoid claiming it causes the outcome. "
+    "Use this format: 'Conclusion: ...' then 'Evidence: ...'. Limit to 2 sentences total. "
+    "Cite only sources that explicitly support the Conclusion.\n\n"
+    "Question: {question}\n\n"
+    "Sources:\n{context}\n\n"
+    "Answer:"
+)
+
 
 def load_env_int(key: str, default: int) -> int:
     raw = os.getenv(key)
