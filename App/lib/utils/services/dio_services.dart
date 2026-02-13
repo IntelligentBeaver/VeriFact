@@ -1,10 +1,7 @@
 import 'dart:async';
 
 import 'package:dio/dio.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
 import 'package:verifact_app/flavors/flavor_config.dart';
-import 'package:verifact_app/utils/helpers/helper_functions.dart';
 import 'package:verifact_app/utils/services/app_loggger_services.dart';
 
 /// Class for Using the DioClient for managing HTTP networking.
@@ -52,50 +49,6 @@ class DioClient {
     );
     dio.interceptors.add(LoggerInterceptor());
     return dio;
-  }
-
-  static Future<void> checkDioError(DioException e) async {
-    var errorMessage = 'An unexpected error occurred'; // default
-    final response = e.response;
-    var message = '';
-
-    if (response != null) {
-      final data = response.data;
-
-      if (data is Map<String, dynamic>) {
-        // Base message
-        message = data['message']?.toString() ?? '';
-
-        // Collect all validation errors if present
-        if (data['errors'] is Map<String, dynamic>) {
-          final errors = data['errors'] as Map<String, dynamic>;
-          final buffer = StringBuffer();
-
-          errors.forEach((key, value) {
-            if (value is List && value.isNotEmpty) {
-              buffer.writeln('$key: ${value.join(", ")}');
-            } else {
-              buffer.writeln('$key: $value');
-            }
-          });
-
-          errorMessage = '$message\n${buffer.toString().trim()}';
-        } else {
-          // No validation errors, just use the message
-          errorMessage = message.isNotEmpty ? message : 'Unknown server error';
-        }
-        // Optionally show a snackbar
-      } else {
-        errorMessage = 'Unexpected response format: $data';
-      }
-      showErrorSnackbar(errorMessage);
-    } else {
-      errorMessage = e.message ?? 'No response received';
-      showErrorSnackbar(errorMessage);
-    }
-
-    // Log to console
-    debugPrint('❌ Dio Error: $errorMessage');
   }
 }
 
