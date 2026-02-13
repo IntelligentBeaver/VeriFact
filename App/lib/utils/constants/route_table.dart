@@ -10,6 +10,4 @@ final Map<String, WidgetBuilder> appRoutes = {
       sensorOrientation: 0,
     ),
   ),
-
-  
 };

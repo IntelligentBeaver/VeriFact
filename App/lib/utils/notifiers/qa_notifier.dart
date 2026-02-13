@@ -9,14 +9,8 @@ part 'qa_notifier.g.dart';
 @riverpod
 class QaNotifier extends _$QaNotifier {
   @override
-  FutureOr<QAResponse> build(
-    String question, {
-    int topK = 10,
-    double minScore = 0.4,
-  }) {
-    return ref
-        .read(qaRepositoryProvider)
-        .fetchAnswer(question, topK: topK, minScore: minScore);
+  FutureOr<QAModel?> build() {
+    return null;
   }
 
   Future<void> fetchAnswer(
@@ -24,11 +18,16 @@ class QaNotifier extends _$QaNotifier {
     int topK = 10,
     double minScore = 0.4,
   }) async {
-    state = AsyncValue<QAResponse>.loading();
-    state = await AsyncValue.guard<QAResponse>(
+    if (!ref.mounted) return;
+    state = const AsyncValue.loading();
+
+    final result = await AsyncValue.guard<QAModel>(
       () => ref
           .read(qaRepositoryProvider)
           .fetchAnswer(question, topK: topK, minScore: minScore),
     );
+
+    if (!ref.mounted) return;
+    state = result;
   }
 }

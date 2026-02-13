@@ -31,89 +31,89 @@ class RetrieverController {
   Dio? _dio;
 
   // Use centralized URL constants
-  static final String _searchPath = UrlStrings.retrievalSearch;
+  static const String _searchPath = UrlStrings.retrievalSearch;
 
   Future<void> _ensureClient() async {
     _dio ??= await DioClient.initClient();
   }
 
-  /// Search convenience wrapper. Uses `top_k` and optional `min_score`.
-  Future<RetrieverResponse> search(
-    String query, {
+  /// Search the retriever backend.
+  ///
+  /// Provide either a `body` map (pre-built request) or `query` (+ optional
+  /// `topK`/`minScore`). If `body` is provided it takes precedence.
+  Future<RetrieverResponse> search({
+    Map<String, dynamic>? body,
+    String? query,
     int topK = 10,
     double? minScore,
   }) async {
-    final body = <String, dynamic>{'query': query, 'top_k': topK};
-    if (minScore != null) body['min_score'] = minScore;
-    return searchWithBody(body);
-  }
-
-  /// Low-level search that accepts any JSON-serializable map.
-  Future<RetrieverResponse> searchWithBody(Map<String, dynamic> body) async {
     await _ensureClient();
+
+    final req = body != null
+        ? Map<String, dynamic>.from(body)
+        : <String, dynamic>{'query': query, 'top_k': topK};
+
+    if (body == null && minScore != null) req['min_score'] = minScore;
+
+    if (req['query'] == null || req['query'].toString().isEmpty) {
+      throw ApiException('Missing required `query` parameter');
+    }
+
     try {
       final Response<dynamic> response = await _dio!.post(
         _searchPath,
-        data: body,
+        data: req,
       );
 
-      return _parseResponse(response);
+      final status = response.statusCode ?? 0;
+      if (status != 200 && status != 201) {
+        throw ApiException(
+          'Unexpected response from server',
+          statusCode: status,
+        );
+      }
+
+      dynamic data = response.data;
+      if (data is String) data = jsonDecode(data);
+
+      if (data is Map<String, dynamic>) {
+        return RetrieverResponse.fromJson(data);
+      }
+      if (data is Map) {
+        return RetrieverResponse.fromJson(Map<String, dynamic>.from(data));
+      }
+
+      throw ApiException(
+        'Invalid JSON response from server',
+        statusCode: status,
+      );
     } on DioError catch (err) {
-      throw _mapDioError(err);
+      // Inline error mapping
+      if (err.type == DioErrorType.connectionTimeout ||
+          err.type == DioErrorType.sendTimeout ||
+          err.type == DioErrorType.receiveTimeout) {
+        throw ApiException('Request timed out. Check your connection.');
+      }
+
+      final resp = err.response;
+      if (resp != null) {
+        final status = resp.statusCode;
+        var message = 'Server error';
+        try {
+          final d = resp.data;
+          if (d is Map && d.containsKey('message'))
+            message = d['message'].toString();
+          else if (d is String)
+            message = d;
+          else if (d is Map && d.isNotEmpty)
+            message = d.toString();
+        } catch (_) {}
+        throw ApiException(message, statusCode: status);
+      }
+
+      throw ApiException(err.message ?? 'Network error');
     } catch (e) {
-      // Unexpected parsing/other error
       throw ApiException(e.toString());
     }
-  }
-
-  RetrieverResponse _parseResponse(Response<dynamic> response) {
-    final status = response.statusCode ?? 0;
-    if (status != 200 && status != 201) {
-      throw ApiException('Unexpected response from server', statusCode: status);
-    }
-
-    dynamic data = response.data;
-    if (data is String) {
-      data = jsonDecode(data);
-    }
-
-    if (data is Map<String, dynamic>) {
-      return RetrieverResponse.fromJson(data);
-    }
-
-    if (data is Map) {
-      return RetrieverResponse.fromJson(Map<String, dynamic>.from(data));
-    }
-
-    throw ApiException('Invalid JSON response from server', statusCode: status);
-  }
-
-  ApiException _mapDioError(DioError err) {
-    // Timeouts
-    if (err.type == DioErrorType.connectionTimeout ||
-        err.type == DioErrorType.sendTimeout ||
-        err.type == DioErrorType.receiveTimeout) {
-      return ApiException('Request timed out. Check your connection.');
-    }
-
-    // Server responded with error payload
-    final resp = err.response;
-    if (resp != null) {
-      final status = resp.statusCode;
-      var message = 'Server error';
-      try {
-        final d = resp.data;
-        if (d is Map && d.containsKey('message'))
-          message = d['message'].toString();
-        else if (d is String)
-          message = d;
-        else if (d is Map && d.isNotEmpty)
-          message = d.toString();
-      } catch (_) {}
-      return ApiException(message, statusCode: status);
-    }
-
-    // Network or cancellation
-    return ApiException(err.message ?? 'Network error');
   }
 }

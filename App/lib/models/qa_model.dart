@@ -35,18 +35,18 @@ class QASource {
   String toString() => jsonEncode(toJson());
 }
 
-class QAResponse {
+class QAModel {
   final String question;
   final String answer;
   final List<QASource> sources;
 
-  QAResponse({
+  QAModel({
     required this.question,
     required this.answer,
     required this.sources,
   });
 
-  factory QAResponse.fromJson(Map<String, dynamic> json) {
+  factory QAModel.fromJson(Map<String, dynamic> json) {
     final rawSources = json['sources'];
     final List<QASource> parsed = [];
     if (rawSources is List) {
@@ -59,7 +59,7 @@ class QAResponse {
       }
     }
 
-    return QAResponse(
+    return QAModel(
       question: json['question']?.toString() ?? '',
       answer: json['answer']?.toString() ?? '',
       sources: parsed,
@@ -72,11 +72,11 @@ class QAResponse {
     'sources': sources.map((s) => s.toJson()).toList(),
   };
 
-  QAResponse copyWith({
+  QAModel copyWith({
     String? question,
     String? answer,
     List<QASource>? sources,
-  }) => QAResponse(
+  }) => QAModel(
     question: question ?? this.question,
     answer: answer ?? this.answer,
     sources: sources ?? this.sources,

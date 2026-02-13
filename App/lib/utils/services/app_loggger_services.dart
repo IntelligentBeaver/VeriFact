@@ -16,5 +16,6 @@ class AppLogger {
   static void error(String msg, [Object? e, StackTrace? st]) =>
       _logger.e('[ERROR] $msg', error: e, stackTrace: st);
 }
+
 // Use this filter in VS code debug console ti filter logs:
 // [API],[UI],[STATE],[ERROR],[WARN]

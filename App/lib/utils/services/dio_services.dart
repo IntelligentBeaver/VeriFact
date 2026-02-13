@@ -43,7 +43,9 @@ class DioClient {
         sendTimeout: const Duration(seconds: 30),
         headers: {
           'Accept': 'application/json',
-          'Content-Type': 'multipart/form-data',
+          // Use JSON for public requests by default. Form-data should be set
+          // explicitly when uploading files via `FormData`.
+          'Content-Type': 'application/json',
         },
       ),
     );

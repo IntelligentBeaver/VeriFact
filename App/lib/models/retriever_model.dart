@@ -3,7 +3,7 @@
 class RetrieverResponse {
   final String? query;
   final int? count;
-  final List<RetrieverResult> results;
+  final List<RetrieverModel> results;
 
   RetrieverResponse({required this.results, this.query, this.count});
 
@@ -18,7 +18,7 @@ class RetrieverResponse {
       results:
           (json['results'] as List<dynamic>?)
               ?.map(
-                (e) => RetrieverResult.fromJson(
+                (e) => RetrieverModel.fromJson(
                   Map<String, dynamic>.from(e as Map),
                 ),
               )
@@ -34,7 +34,7 @@ class RetrieverResponse {
   };
 }
 
-class RetrieverResult {
+class RetrieverModel {
   final Passage? passage;
   final double? rrfScore;
   final double? faissScore;
@@ -46,7 +46,7 @@ class RetrieverResult {
   final String? domainTier;
   final Map<String, dynamic>? scores;
 
-  RetrieverResult({
+  RetrieverModel({
     this.passage,
     this.rrfScore,
     this.faissScore,
@@ -59,7 +59,7 @@ class RetrieverResult {
     this.scores,
   });
 
-  factory RetrieverResult.fromJson(Map<String, dynamic> json) {
+  factory RetrieverModel.fromJson(Map<String, dynamic> json) {
     double? toDouble(dynamic v) {
       if (v == null) return null;
       if (v is double) return v;
@@ -73,7 +73,7 @@ class RetrieverResult {
       return int.tryParse(v.toString());
     }
 
-    return RetrieverResult(
+    return RetrieverModel(
       passage: json['passage'] != null
           ? Passage.fromJson(Map<String, dynamic>.from(json['passage'] as Map))
           : null,

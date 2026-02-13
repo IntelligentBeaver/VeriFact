@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:verifact_app/screens/ocr_page.dart';
+import 'package:verifact_app/screens/response_test_screen.dart';
 import 'package:verifact_app/utils/constants/app_globals.dart';
 import 'package:verifact_app/utils/constants/route_table.dart';
 
@@ -68,7 +68,7 @@ class _AppState extends State<App> {
         title: 'Verifact',
         scaffoldMessengerKey: scaffoldMessengerKey,
         navigatorKey: navigatorKey,
-        home: const OcrScreen(),
+        home: const ResponseTestScreen(),
       ),
     );
   }

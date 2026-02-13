@@ -19,11 +19,11 @@ class RetrieverRepository {
     int topK = 10,
     double? minScore,
   }) {
-    return _controller.search(query, topK: topK, minScore: minScore);
+    return _controller.search(query: query, topK: topK, minScore: minScore);
   }
 
   Future<RetrieverResponse> searchWithBody(Map<String, dynamic> body) {
-    return _controller.searchWithBody(body);
+    return _controller.search(body: body);
   }
 }
 

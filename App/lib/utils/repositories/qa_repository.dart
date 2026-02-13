@@ -11,7 +11,7 @@ class QARepository {
     : _controller = controller ?? QAController.instance;
   final QAController _controller;
 
-  Future<QAResponse> fetchAnswer(
+  Future<QAModel> fetchAnswer(
     String question, {
     int topK = 10,
     double minScore = 0.4,

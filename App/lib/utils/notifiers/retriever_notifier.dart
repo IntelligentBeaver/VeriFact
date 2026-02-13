@@ -9,29 +9,37 @@ part 'retriever_notifier.g.dart';
 @riverpod
 class RetrieverNotifier extends _$RetrieverNotifier {
   @override
-  FutureOr<RetrieverResponse> build(
-    String query, {
-    int topK = 10,
-    double? minScore,
-  }) {
-    return ref
-        .read(retrieverRepositoryProvider)
-        .search(query, topK: topK, minScore: minScore);
+  FutureOr<RetrieverResponse?> build() {
+    return null;
   }
 
   Future<void> search(String query, {int topK = 10, double? minScore}) async {
-    state = AsyncValue<RetrieverResponse>.loading();
-    state = await AsyncValue.guard<RetrieverResponse>(
+    if (!ref.mounted) return;
+    state = const AsyncValue.loading();
+
+    final result = await AsyncValue.guard<RetrieverResponse>(
       () => ref
           .read(retrieverRepositoryProvider)
-          .search(query, topK: topK, minScore: minScore),
+          .search(
+            query,
+            topK: topK,
+            minScore: minScore,
+          ),
     );
+
+    if (!ref.mounted) return;
+    state = result;
   }
 
   Future<void> searchWithBody(Map<String, dynamic> body) async {
-    state = AsyncValue<RetrieverResponse>.loading();
-    state = await AsyncValue.guard<RetrieverResponse>(
+    if (!ref.mounted) return;
+    state = const AsyncValue.loading();
+
+    final result = await AsyncValue.guard(
       () => ref.read(retrieverRepositoryProvider).searchWithBody(body),
     );
+
+    if (!ref.mounted) return;
+    state = result;
   }
 }
