@@ -12,6 +12,9 @@ import 'package:verifact_app/utils/helpers/helper_functions.dart';
 import 'package:verifact_app/utils/notifiers/home_search_notifier.dart';
 import 'package:verifact_app/utils/notifiers/qa_notifier.dart';
 import 'package:verifact_app/utils/notifiers/retriever_notifier.dart';
+import 'package:verifact_app/widgets/home/chat_input_bar.dart';
+import 'package:verifact_app/widgets/home/home_bottom_nav.dart';
+import 'package:verifact_app/widgets/home/quick_menu_sheet.dart';
 import 'package:verifact_app/widgets/results/custom_doc_result_card_skeleton.dart';
 import 'package:verifact_app/widgets/results/custom_doc_search_result_card.dart';
 import 'package:verifact_app/widgets/results/custom_qa_result_card.dart';
@@ -102,8 +105,15 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       case HomeSearchMode.doc:
         return 'Doc Search';
       case HomeSearchMode.verifier:
-        return 'Good morning, Alex';
+        return _greeting();
     }
+  }
+
+  String _greeting() {
+    final hour = DateTime.now().hour;
+    if (hour < 12) return 'Good morning';
+    if (hour < 18) return 'Good afternoon';
+    return 'Good evening';
   }
 
   String _subtitleForMode(HomeSearchMode mode) {
@@ -347,7 +357,6 @@ class _SearchBarContainer extends ConsumerStatefulWidget {
     required this.onModeCleared,
     required this.onPlusTap,
     required this.onSubmitted,
-    super.key,
   });
 
   final HomeSearchMode mode;
@@ -415,28 +424,15 @@ class _SearchBarContainerState extends ConsumerState<_SearchBarContainer> {
               ),
               SizedBox(width: AppSizes.sm),
               Expanded(
-                child: TextField(
-                  focusNode: widget.focusNode,
+                child: ChatInputBar(
                   controller: widget.controller,
+                  hintText: mode == HomeSearchMode.verifier
+                      ? 'Verify claim...'
+                      : mode == HomeSearchMode.qa
+                      ? 'Ask a question...'
+                      : 'Search documents...',
+                  onPlusTap: widget.onPlusTap,
                   onSubmitted: widget.onSubmitted,
-                  textInputAction: TextInputAction.search,
-                  style: context.text.bodyMedium?.copyWith(
-                    color: context.color.onSurface,
-                  ),
-                  decoration: InputDecoration(
-                    focusColor: context.color.primary,
-                    hoverColor: context.color.primary,
-                    hintText: mode == HomeSearchMode.verifier
-                        ? 'Verify claim...'
-                        : mode == HomeSearchMode.qa
-                        ? 'Ask a question...'
-                        : 'Search documents...',
-                    hintStyle: context.text.bodySmall?.copyWith(
-                      color: context.color.onSurfaceVariant,
-                    ),
-                    isDense: true,
-                    border: InputBorder.none,
-                  ),
                 ),
               ),
               SizedBox(width: AppSizes.smMd),
@@ -445,7 +441,7 @@ class _SearchBarContainerState extends ConsumerState<_SearchBarContainer> {
                 borderRadius: BorderRadius.circular(
                   AppSizes.borderRadiusXl + 8.r,
                 ),
-                child: Container(
+                child: SizedBox(
                   width: AppSizes.iconLg,
                   height: AppSizes.iconLg,
                   // decoration: BoxDecoration(
@@ -558,201 +554,11 @@ class _ModeChip extends StatelessWidget {
   }
 }
 
-class ChatInputBar extends StatelessWidget {
-  const ChatInputBar({
-    required this.controller,
-    required this.hintText,
-    required this.onPlusTap,
-    required this.onSubmitted,
-    super.key,
-  });
+// ChatInputBar moved to widgets/home/chat_input_bar.dart
 
-  final TextEditingController controller;
-  final String hintText;
-  final VoidCallback onPlusTap;
-  final ValueChanged<String> onSubmitted;
+// HomeBottomNav moved to widgets/home/home_bottom_nav.dart
 
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.symmetric(
-        horizontal: AppSizes.md,
-        vertical: AppSizes.smMd,
-      ),
-      decoration: BoxDecoration(
-        color: context.color.surface,
-        borderRadius: BorderRadius.circular(AppSizes.borderRadiusLg),
-        border: Border.all(color: context.color.outlineVariant),
-      ),
-      child: Row(
-        children: [
-          Icon(
-            LucideIcons.search,
-            size: AppSizes.iconSm,
-            color: context.color.onSurfaceVariant,
-          ),
-          SizedBox(width: AppSizes.smMd),
-          Expanded(
-            child: TextField(
-              controller: controller,
-              onSubmitted: onSubmitted,
-              textInputAction: TextInputAction.search,
-              style: context.text.bodyMedium?.copyWith(
-                color: context.color.onSurface,
-              ),
-              decoration: InputDecoration(
-                hintText: hintText,
-                hintStyle: context.text.bodySmall?.copyWith(
-                  color: context.color.onSurfaceVariant,
-                ),
-                isDense: true,
-                border: InputBorder.none,
-              ),
-            ),
-          ),
-          SizedBox(width: AppSizes.smMd),
-          InkWell(
-            onTap: onPlusTap,
-            borderRadius: BorderRadius.circular(AppSizes.borderRadiusMd),
-            child: Container(
-              width: AppSizes.iconLg,
-              height: AppSizes.iconLg,
-              decoration: BoxDecoration(
-                color: context.color.surfaceVariant,
-                borderRadius: BorderRadius.circular(AppSizes.borderRadiusMd),
-              ),
-              child: Icon(
-                LucideIcons.plus,
-                size: AppSizes.iconSm,
-                color: context.color.onSurfaceVariant,
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class HomeBottomNav extends StatelessWidget {
-  const HomeBottomNav({
-    required this.currentIndex,
-    required this.onTap,
-    super.key,
-  });
-
-  final int currentIndex;
-  final ValueChanged<int> onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    return BottomNavigationBar(
-      currentIndex: currentIndex,
-      onTap: onTap,
-      type: BottomNavigationBarType.fixed,
-      selectedItemColor: context.color.primary,
-      unselectedItemColor: context.color.onSurfaceVariant,
-      selectedLabelStyle: context.text.labelSmall?.copyWith(
-        fontWeight: FontWeight.w600,
-      ),
-      unselectedLabelStyle: context.text.labelSmall,
-      items: const [
-        BottomNavigationBarItem(
-          icon: Icon(LucideIcons.house),
-          label: 'Home',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(LucideIcons.history),
-          label: 'History',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(LucideIcons.compass),
-          label: 'Explore',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(LucideIcons.user),
-          label: 'Profile',
-        ),
-      ],
-    );
-  }
-}
-
-class QuickMenuSheet extends StatelessWidget {
-  const QuickMenuSheet({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: EdgeInsets.fromLTRB(
-        AppSizes.lg,
-        AppSizes.mdLg,
-        AppSizes.lg,
-        AppSizes.lg,
-      ),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            'Quick Actions',
-            style: context.text.titleMedium?.copyWith(
-              fontWeight: FontWeight.w700,
-              color: context.color.onSurface,
-            ),
-          ),
-          SizedBox(height: AppSizes.smMd),
-          const _MenuTile(
-            icon: LucideIcons.messagesSquare,
-            label: 'QA System',
-          ),
-          const _MenuTile(
-            icon: LucideIcons.fileSearch,
-            label: 'Doc Search',
-          ),
-          const _MenuTile(
-            icon: LucideIcons.scan,
-            label: 'Scan Image',
-          ),
-          const _MenuTile(
-            icon: LucideIcons.upload,
-            label: 'Upload Image',
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class _MenuTile extends StatelessWidget {
-  const _MenuTile({required this.icon, required this.label});
-
-  final IconData icon;
-  final String label;
-
-  @override
-  Widget build(BuildContext context) {
-    return ListTile(
-      contentPadding: EdgeInsets.zero,
-      leading: Container(
-        width: AppSizes.iconLg,
-        height: AppSizes.iconLg,
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(AppSizes.borderRadiusMd),
-        ),
-        child: Icon(icon, color: context.color.primary),
-      ),
-      title: Text(
-        label,
-        style: context.text.labelMedium?.copyWith(
-          fontWeight: FontWeight.w600,
-          color: context.color.onSurface,
-        ),
-      ),
-      onTap: () => Navigator.pop(context),
-    );
-  }
-}
+// QuickMenuSheet and MenuTile moved to widgets/home/quick_menu_sheet.dart
 
 class _ResultsSection extends StatelessWidget {
   const _ResultsSection({
@@ -783,7 +589,6 @@ class _ResultsSection extends StatelessWidget {
   Widget _qaResults(BuildContext context, AsyncValue<QAModel?> state) {
     return state.when(
       loading: () => Skeletonizer(
-        enabled: true,
         child: _qaSkeletonLoader(context),
       ),
       error: (err, _) => _errorCard(context, err.toString()),
