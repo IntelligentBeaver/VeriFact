@@ -1,20 +1,26 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:verifact_app/screens/response_test_screen.dart';
+import 'package:verifact_app/screens/home_screen.dart';
 import 'package:verifact_app/utils/constants/app_globals.dart';
 import 'package:verifact_app/utils/constants/route_table.dart';
+import 'package:verifact_app/utils/notifiers/theme_notifier.dart';
+import 'package:verifact_app/utils/theme/dark_theme.dart';
+import 'package:verifact_app/utils/theme/light_theme.dart';
 
-class App extends StatefulWidget {
+class App extends ConsumerStatefulWidget {
   const App({super.key});
 
   @override
-  State<App> createState() => _AppState();
+  ConsumerState<App> createState() => _AppState();
 }
 
-class _AppState extends State<App> {
+class _AppState extends ConsumerState<App> {
   @override
   Widget build(BuildContext context) {
+    final themeState = ref.watch(themeProvider);
+    final themeMode = themeState.value ?? ThemeMode.light;
     Route<dynamic>? onGenerateRoute(RouteSettings routeSettings) {
       final name = routeSettings.name;
       final pageBuilder = (name != null) ? appRoutes[name] : null;
@@ -58,6 +64,10 @@ class _AppState extends State<App> {
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, child) => MaterialApp(
+        theme: lightTheme,
+        darkTheme: darkTheme,
+        themeMode: themeMode,
+        onGenerateRoute: onGenerateRoute,
         onUnknownRoute: (settings) => MaterialPageRoute(
           builder: (_) => Scaffold(
             appBar: AppBar(title: const Text('Unknown route')),
@@ -68,7 +78,7 @@ class _AppState extends State<App> {
         title: 'Verifact',
         scaffoldMessengerKey: scaffoldMessengerKey,
         navigatorKey: navigatorKey,
-        home: const ResponseTestScreen(),
+        home: const HomeScreen(),
       ),
     );
   }

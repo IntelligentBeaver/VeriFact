@@ -98,7 +98,7 @@ class TopSnackbar {
             Expanded(
               child: Text(
                 message,
-                style: navigatorKey.currentContext!.text.bodySmall?.copyWith(
+                style: navigatorKey.currentContext!.text.bodyMedium?.copyWith(
                   color: color,
                 ),
               ),

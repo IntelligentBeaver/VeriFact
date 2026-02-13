@@ -54,5 +54,6 @@ flutter:
     - assets/
     - assets/icons/
     - assets/icons/brands/
+    - assets/logos/
     - assets/icons/verified.png
     - .env

@@ -60,7 +60,7 @@ class RetrieverController {
     }
 
     try {
-      final Response<dynamic> response = await _dio!.post(
+      final response = await _dio!.post(
         _searchPath,
         data: req,
       );

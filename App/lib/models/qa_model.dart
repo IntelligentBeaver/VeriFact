@@ -4,12 +4,14 @@ class QASource {
   final int id;
   final String title;
   final String url;
+  final String text;
   final double score;
 
   QASource({
     required this.id,
     required this.title,
     required this.url,
+    required this.text,
     required this.score,
   });
 
@@ -19,6 +21,7 @@ class QASource {
         : int.tryParse('${json['id']}') ?? 0,
     title: json['title']?.toString() ?? '',
     url: json['url']?.toString() ?? '',
+    text: json['text']?.toString() ?? '',
     score: (json['score'] is num)
         ? (json['score'] as num).toDouble()
         : double.tryParse('${json['score']}') ?? 0.0,
@@ -28,6 +31,7 @@ class QASource {
     'id': id,
     'title': title,
     'url': url,
+    'text': text,
     'score': score,
   };
 

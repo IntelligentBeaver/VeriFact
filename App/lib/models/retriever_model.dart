@@ -1,4 +1,5 @@
 // Models for retriever responses
+import 'dart:convert';
 
 class RetrieverResponse {
   final String? query;
@@ -8,6 +9,32 @@ class RetrieverResponse {
   RetrieverResponse({required this.results, this.query, this.count});
 
   factory RetrieverResponse.fromJson(Map<String, dynamic> json) {
+    // Normalize results which may be a JSON string, a List, or a single Map
+    dynamic rawResults = json['results'];
+    List<RetrieverModel> parsedResults = [];
+    try {
+      if (rawResults is String) {
+        final decoded = rawResults.isEmpty ? null : jsonDecode(rawResults);
+        if (decoded is List) rawResults = decoded;
+        if (decoded is Map) rawResults = [decoded];
+      }
+
+      if (rawResults is List) {
+        parsedResults = rawResults
+            .map(
+              (e) =>
+                  RetrieverModel.fromJson(Map<String, dynamic>.from(e as Map)),
+            )
+            .toList();
+      } else if (rawResults is Map) {
+        parsedResults = [
+          RetrieverModel.fromJson(Map<String, dynamic>.from(rawResults)),
+        ];
+      }
+    } catch (_) {
+      parsedResults = [];
+    }
+
     return RetrieverResponse(
       query: json['query'] as String?,
       count: json['count'] is int
@@ -15,15 +42,7 @@ class RetrieverResponse {
           : (json['count'] != null
                 ? int.tryParse(json['count'].toString())
                 : null),
-      results:
-          (json['results'] as List<dynamic>?)
-              ?.map(
-                (e) => RetrieverModel.fromJson(
-                  Map<String, dynamic>.from(e as Map),
-                ),
-              )
-              .toList() ??
-          [],
+      results: parsedResults,
     );
   }
 
@@ -165,11 +184,51 @@ class Passage {
       medicallyReviewedBy:
           json['medically_reviewed_by'] as String? ??
           json['medicallyReviewedBy'] as String?,
-      sources: (json['sources'] as List<dynamic>?)
-          ?.map((s) => s.toString())
-          .toList(),
+      // `sources` may sometimes be a JSON string or a list; handle both.
+      sources: (() {
+        final raw = json['sources'];
+        try {
+          if (raw == null) return null;
+          if (raw is List) return raw.map((s) => s.toString()).toList();
+          if (raw is String) {
+            final decoded = raw.isEmpty ? null : jsonDecode(raw);
+            if (decoded is List)
+              return (decoded as List)
+                  .map((dynamic s) => s.toString())
+                  .toList();
+            // fallback: treat the string as a single source
+            return [raw];
+          }
+          // fallback: attempt to coerce to list
+          return [raw.toString()];
+        } catch (_) {
+          return null;
+        }
+      })(),
       location: json['location'],
-      tags: (json['tags'] as List<dynamic>?)?.map((s) => s.toString()).toList(),
+      tags: (() {
+        final raw = json['tags'];
+        try {
+          if (raw == null) return null;
+          if (raw is List) return raw.map((s) => s.toString()).toList();
+          if (raw is String) {
+            final decoded = raw.isEmpty ? null : jsonDecode(raw);
+            if (decoded is List)
+              return (decoded as List)
+                  .map((dynamic s) => s.toString())
+                  .toList();
+            // fallback: split by comma
+            return raw
+                .split(',')
+                .map((s) => s.trim())
+                .where((s) => s.isNotEmpty)
+                .toList();
+          }
+          return [raw.toString()];
+        } catch (_) {
+          return null;
+        }
+      })(),
       domainTier:
           json['domain_tier'] as String? ?? json['domainTier'] as String?,
     );

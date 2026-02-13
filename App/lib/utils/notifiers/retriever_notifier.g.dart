@@ -33,7 +33,7 @@ final class RetrieverNotifierProvider
   RetrieverNotifier create() => RetrieverNotifier();
 }
 
-String _$retrieverNotifierHash() => r'00902a93e1dafb2f534f47ae5dcb57a7ceff0e2b';
+String _$retrieverNotifierHash() => r'7d829b64df34f0061443092fbe3990974a32ffa5';
 
 abstract class _$RetrieverNotifier extends $AsyncNotifier<RetrieverResponse?> {
   FutureOr<RetrieverResponse?> build();

@@ -1,4 +1,3 @@
-// Self Explainatory
 // ignore_for_file: public_member_api_docs
 
 import 'package:flutter/material.dart';
@@ -6,122 +5,103 @@ import 'package:flutter/material.dart';
 class AppColors {
   AppColors._();
 
-  //? Only Dark mode colors have been confirmed
-  //* Primary Brand Colors
-  static const Color primary = Color(0xFFFF6B6B); //?unconfirmed
-  static const Color onPrimary = Color(0xFFFFFFFF); //?unconfirmed
+  // Brand
+  static const Color primary = Color(0xFF0587FF);
+  static const Color primaryDark = Color(0xFF045BB2);
+  static const Color onPrimary = Color(0xFFFFFFFF);
 
-  static const Color primaryDark = Color(0xFFFF6B6B);
-  static const Color primaryDark10 = Color(0x1AFF6B6B);
-  static const Color onPrimaryDark = Color(0xFFFFFFFF);
+  static const Color primaryHover = Color(0x140587FF);
+  static const Color primaryPressed = Color(0xFF0469C9);
+  static const Color primaryDisabled = Color(0xFFB3D9FF);
 
-  static const Color primaryClicked = Color(0xFF2E6634);
-  static const Color primaryDisabled = Color(0xFFF4F4F5);
+  static const Color primaryHoverDark = Color(0x1A0587FF);
+  static const Color primaryPressedDark = Color(0xFF044E99);
+  static const Color primaryDisabledDark = Color(0xFF1E3A8A);
 
-  static const Color primaryClickedDark = Color(0xFF2E6634);
-  static const Color primaryDisabledDark = Color(0xFFF4F4F5);
+  static const Color secondary = Color(0xFF008080);
+  static const Color secondaryDark = Color(0xFF006666);
+  static const Color onSecondary = Color(0xFFFFFFFF);
 
-  //* Secondary Colors
-  static const Color secondary = Color(0xFF4ECDC4); //?unconfirmed
-  static const Color secondaryDisabled = Color(0xFF497C78);
-  static const Color onSecondary = AppColors.textPrimary; //?unconfirmed
+  static const Color secondaryHover = Color(0x14008080);
+  static const Color secondaryPressed = Color(0xFF006B6B);
+  static const Color secondaryDisabled = Color(0xFF99CCCC);
 
-  static const Color secondaryDark = Color(0xFF4ECDC4);
-  static const Color secondaryDisabledDark = Color(0xFF497C78);
-  static const Color onSecondaryDark = AppColors.textPrimary; //?unconfirmed
+  static const Color secondaryHoverDark = Color(0x1A008080);
+  static const Color secondaryPressedDark = Color(0xFF005050);
+  static const Color secondaryDisabledDark = Color(0xFF1F4F4F);
 
-  //* Tertiary Colors
-  static const Color tertiary = Color(0xFF8B7419);
-  static const Color onTertiary = AppColors.textPrimary; //?unconfirmed
-  // Dark
-  static const Color tertiaryDark = Color(0xFFFFE066);
-  static const Color onTertiaryDark = AppColors.textPrimary; //?unconfirmed
+  static const Color tertiary = Color(0xFF0F766E);
+  static const Color tertiaryDark = Color(0xFF0B4F4F);
+  static const Color onTertiary = Color(0xFFFFFFFF);
 
-  //* Info Button
-  static const Color info = Color(0xFF1E99DC); //?unconfirmed
-  static const Color infoDark = Color(0xFF239FE1);
+  // Neutrals
+  static const Color textPrimary = Color(0xFF111827);
+  static const Color textSecondary = Color(0xFF9CA3AF);
+  static const Color textPrimaryDark = Color(0xFFF9FAFB);
+  static const Color textSecondaryDark = Color(0xFF9CA3AF);
 
-  //* Error
-  static const Color error = Color(0xFFE5484D);
-  static const Color errorContainer = Color(0xFFF4D8DB);
-  static const Color onErrorContainer = Color(0xFF5F2128);
+  static const Color iconPrimary = Color(0xFF111827);
+  static const Color iconSecondary = Color(0xFF9CA3AF);
+  static const Color iconPrimaryDark = Color(0xFFF9FAFB);
+  static const Color iconSecondaryDark = Color(0xFF9CA3AF);
 
-  static const Color errorDark = Color(0xFFFE2F51);
-  static const Color onErrorDark = Color(0xFF5F2128);
-
-  //* Success
-  static const Color success = Color(0xFFD8F4E1);
-  static const Color onSuccess = Color(0xFF215F27);
-
-  static const Color successDark = Color(0xFFD8F4E1);
-  static const Color onSuccessDark = Color(0xFF215F27);
-
-  //* Background / Surface
-  //Light
+  // Surface and background
   static const Color background = Color(0xFFFFFFFF);
-  static const Color surface = Color(0xFFFFFFFF); //?unconfirmed
-  static const Color primaryBackground = Color(0x4DFF6B6B);
-  // Dark
-  static const Color backgroundDark = Color(0xFF070D1A);
-  static const Color surfaceDark = Color(0xFF0F1727);
-  static const Color primaryBackgroundDark = Color(0x33FF5940);
+  static const Color backgroundDark = Color(0xFF0B1220);
 
-  //* Tile / Hover / Selector
-  static const Color tile = Color(0x14007E6E); // 8% opacity
-  static const Color tabDividerColor = Color(0xFFEEEEEE);
-  static const Color tileDark = Color(0x1480FFEE); // 8% opacity
-  static const Color tabDividerColorDark = Color(0xFFEEEEEE);
+  static const Color surface = Color(0xFFFFFFFF);
+  static const Color surfaceDark = Color(0xFF0F172A);
 
-  //* Icon Colors
-  // Light
-  static const Color icon = Color(0xFF212121);
-  static const Color icon70 = Color(0xFF4A4A4A);
-  // Dark
-  static const Color iconDark = Color(0xFFFFFFFF);
-  static const Color iconDark70 = Color(0xB2FFFFFF);
+  static const Color surfaceVariant = Color(0xFFF3F4F6);
+  static const Color surfaceVariantDark = Color(0xFF111827);
 
-  //* Text Colors
-  // Light
-  static const Color textPrimary = Color(0xFF1E1E1E);
-  static const Color textSecondary = Color(0xFF5A5A5A);
-  // Dark
-  static const Color textPrimaryDark = Color(0xFFEDEDED);
-  static const Color textSecondaryDark = Color(0xFF96A1AF);
+  static const Color surfaceContainerLowest = Color(0xFFFFFFFF);
+  static const Color surfaceContainerHighest = Color(0xFFE5E7EB);
+  static const Color surfaceContainerLowestDark = Color(0xFF0B1220);
+  static const Color surfaceContainerHighestDark = Color(0xFF1F2937);
 
-  //* Button Colors
-  // Light
-  static const Color buttonPrimary = AppColors.primary;
-  static const Color buttonPrimaryDisabled = AppColors.primaryDisabled;
-  // static const Color buttonPrimaryPressed;
+  static const Color outline = Color(0xFFE5E7EB);
+  static const Color outlineVariant = Color(0xFFD1D5DB);
+  static const Color outlineDark = Color(0xFF374151);
+  static const Color outlineVariantDark = Color(0xFF1F2937);
 
-  static const Color buttonSecondary = AppColors.secondary;
-  static const Color buttonSecondaryDisabled = AppColors.secondaryDisabled;
-  // static const Color buttoSecondaryPressed;
+  static const Color inverseSurface = Color(0xFF111827);
+  static const Color onInverseSurface = Color(0xFFF9FAFB);
+  static const Color inverseSurfaceDark = Color(0xFFE5E7EB);
+  static const Color onInverseSurfaceDark = Color(0xFF0B1220);
 
-  static const Color buttonBackground = AppColors.surface;
+  static const Color shadow = Color(0x1A111827);
+  static const Color scrim = Color(0x66000000);
 
-  // Dark
-  static const Color buttonPrimaryDark = AppColors.primaryDark;
-  static const Color buttonPrimaryDisabledDark = AppColors.primaryDisabledDark;
+  static const Color disabled = Color(0xFFCBD5E1);
+  static const Color disabledDark = Color(0xFF475569);
 
-  static const Color buttonSecondaryDark = AppColors.secondaryDark;
-  static const Color buttonSecondaryDisabledDark =
-      AppColors.secondaryDisabledDark;
+  // Containers
+  static const Color primaryContainer = Color(0xFFDBEDFF);
+  static const Color onPrimaryContainer = Color(0xFF001B3D);
+  static const Color primaryContainerDark = Color(0xFF002C5F);
+  static const Color onPrimaryContainerDark = Color(0xFFDBEDFF);
 
-  static const Color buttonBackgroundDark = AppColors.surfaceDark;
+  static const Color secondaryContainer = Color(0xFFCCEDED);
+  static const Color onSecondaryContainer = Color(0xFF002B2B);
+  static const Color secondaryContainerDark = Color(0xFF003D3D);
+  static const Color onSecondaryContainerDark = Color(0xFFB8EEEE);
 
-  //* Extra
-  // Light
-  static const Color stroke1 = Color(0xFFC9C8CC);
-  static const Color stroke2 = Color(0xFF233146);
+  static const Color tertiaryContainer = Color(0xFFD6F4F0);
+  static const Color onTertiaryContainer = Color(0xFF003B36);
+  static const Color tertiaryContainerDark = Color(0xFF004C47);
+  static const Color onTertiaryContainerDark = Color(0xFFBCEAE6);
 
-  // Dark
-  static const Color strokeDark1 = Color(0xFF58565C);
-  static const Color strokeDark2 = Color(0xFF233146);
+  // Status
+  static const Color error = Color(0xFFEF4444);
+  static const Color onError = Color(0xFFFFFFFF);
+  static const Color errorContainer = Color(0xFFFEE2E2);
+  static const Color onErrorContainer = Color(0xFF7F1D1D);
+  static const Color errorContainerDark = Color(0xFF7F1D1D);
+  static const Color onErrorContainerDark = Color(0xFFFEE2E2);
 
-  static const Color textField = Color(0xFFF5F5F5);
-  static const Color textFieldDark = Color(0xFF1A1A1A);
+  static const Color success = Color(0xFF22C55E);
+  static const Color onSuccess = Color(0xFFFFFFFF);
 
-  static const Color hint = Color(0xFF4A4A4A);
-  static const Color hintDark = Color(0xB2FFFFFF);
+  static const Color info = Color(0xFF0587FF);
 }

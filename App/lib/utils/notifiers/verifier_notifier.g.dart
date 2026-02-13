@@ -33,7 +33,7 @@ final class VerifierNotifierProvider
   VerifierNotifier create() => VerifierNotifier();
 }
 
-String _$verifierNotifierHash() => r'f4200013cffbb619544d1f4f6fdd04b7881d7d50';
+String _$verifierNotifierHash() => r'ccb396daadc9c7955cb9ecb4701caa2d81bcff50';
 
 abstract class _$VerifierNotifier extends $AsyncNotifier<VerifierModel?> {
   FutureOr<VerifierModel?> build();

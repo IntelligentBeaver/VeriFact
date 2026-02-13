@@ -16,9 +16,26 @@ class VerifierModel {
       verdict: json['verdict']?.toString() ?? '',
       confidence: parseDouble(json['confidence']),
       scores: Scores.fromJson(json['scores'] as Map<String, dynamic>? ?? {}),
-      evidence: json['evidence'] != null
-          ? Evidence.fromJson(json['evidence'] as Map<String, dynamic>)
-          : null,
+      evidence: (() {
+        final ev = json['evidence'];
+        if (ev == null) return null;
+        if (ev is List) {
+          return ev
+              .map((e) => Evidence.fromJson(e as Map<String, dynamic>))
+              .toList();
+        }
+        if (ev is String) {
+          try {
+            final decoded = jsonDecode(ev);
+            if (decoded is List) {
+              return decoded
+                  .map((e) => Evidence.fromJson(e as Map<String, dynamic>))
+                  .toList();
+            }
+          } catch (_) {}
+        }
+        return null;
+      })(),
       retrieverCandidates:
           (json['retriever_candidates'] ?? json['retrieverCandidates'] ?? 0)
               as int,
@@ -28,7 +45,7 @@ class VerifierModel {
   final String verdict;
   final double? confidence;
   final Scores scores;
-  final Evidence? evidence;
+  final List<Evidence>? evidence;
   final int retrieverCandidates;
 
   Map<String, dynamic> toJson() => {
@@ -36,7 +53,7 @@ class VerifierModel {
     'verdict': verdict,
     'confidence': confidence,
     'scores': scores.toJson(),
-    'evidence': evidence?.toJson(),
+    'evidence': evidence?.map((e) => e.toJson()).toList(),
     'retriever_candidates': retrieverCandidates,
   };
 

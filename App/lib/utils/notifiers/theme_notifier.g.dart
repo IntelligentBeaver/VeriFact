@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'qa_notifier.dart';
+part of 'theme_notifier.dart';
 
 // **************************************************************************
 // RiverpodGenerator
@@ -9,43 +9,43 @@ part of 'qa_notifier.dart';
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint, type=warning
 
-@ProviderFor(QaNotifier)
-final qaProvider = QaNotifierProvider._();
+@ProviderFor(ThemeNotifier)
+final themeProvider = ThemeNotifierProvider._();
 
-final class QaNotifierProvider
-    extends $AsyncNotifierProvider<QaNotifier, QAModel?> {
-  QaNotifierProvider._()
+final class ThemeNotifierProvider
+    extends $AsyncNotifierProvider<ThemeNotifier, ThemeMode> {
+  ThemeNotifierProvider._()
     : super(
         from: null,
         argument: null,
         retry: null,
-        name: r'qaProvider',
+        name: r'themeProvider',
         isAutoDispose: true,
         dependencies: null,
         $allTransitiveDependencies: null,
       );
 
   @override
-  String debugGetCreateSourceHash() => _$qaNotifierHash();
+  String debugGetCreateSourceHash() => _$themeNotifierHash();
 
   @$internal
   @override
-  QaNotifier create() => QaNotifier();
+  ThemeNotifier create() => ThemeNotifier();
 }
 
-String _$qaNotifierHash() => r'687f0f0862cd00d6c9e8016ea3f4b372bf82d271';
+String _$themeNotifierHash() => r'978b51208ac2e17e0d5fb47dab639ba45bdd5f5f';
 
-abstract class _$QaNotifier extends $AsyncNotifier<QAModel?> {
-  FutureOr<QAModel?> build();
+abstract class _$ThemeNotifier extends $AsyncNotifier<ThemeMode> {
+  FutureOr<ThemeMode> build();
   @$mustCallSuper
   @override
   void runBuild() {
-    final ref = this.ref as $Ref<AsyncValue<QAModel?>, QAModel?>;
+    final ref = this.ref as $Ref<AsyncValue<ThemeMode>, ThemeMode>;
     final element =
         ref.element
             as $ClassProviderElement<
-              AnyNotifier<AsyncValue<QAModel?>, QAModel?>,
-              AsyncValue<QAModel?>,
+              AnyNotifier<AsyncValue<ThemeMode>, ThemeMode>,
+              AsyncValue<ThemeMode>,
               Object?,
               Object?
             >;

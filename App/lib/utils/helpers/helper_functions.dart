@@ -181,7 +181,7 @@ ThemeMode mapToThemeMode(String value) {
 }
 
 /// Allows to open a URL by sepcifying the URL String.
-Future<void> launchUrl(String url) async {
+Future<void> launchUrl(String url, {required mode}) async {
   if (!await launchUrlString(url, mode: LaunchMode.externalApplication)) {
     throw Exception('Could not launch $url');
   }

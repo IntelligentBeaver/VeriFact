@@ -20,9 +20,9 @@ class DioClient {
     final dio = Dio(
       BaseOptions(
         baseUrl: FlavorConfig.instance.baseUrl,
-        connectTimeout: const Duration(seconds: 20),
-        receiveTimeout: const Duration(seconds: 20),
-        sendTimeout: const Duration(seconds: 30),
+        connectTimeout: const Duration(seconds: 40),
+        receiveTimeout: const Duration(seconds: 40),
+        sendTimeout: const Duration(seconds: 40),
         headers: {
           'Accept': 'application/json',
         },
@@ -38,9 +38,9 @@ class DioClient {
     final dio = Dio(
       BaseOptions(
         baseUrl: FlavorConfig.instance.baseUrl,
-        connectTimeout: const Duration(seconds: 20),
-        receiveTimeout: const Duration(seconds: 20),
-        sendTimeout: const Duration(seconds: 30),
+        connectTimeout: const Duration(seconds: 30),
+        receiveTimeout: const Duration(seconds: 50),
+        sendTimeout: const Duration(seconds: 40),
         headers: {
           'Accept': 'application/json',
           // Use JSON for public requests by default. Form-data should be set
