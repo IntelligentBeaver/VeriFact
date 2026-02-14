@@ -1,9 +1,3 @@
-# Backend branch: track backend only
-App/
-Backend/
-Assets/
-Miscellaneous/
-Reports/
 Model/harvester/desc2026.xml
 Model/harvester/seeders/mesh/storage/
 Model/harvester/storage/seeds/mesh_seed_D.json
