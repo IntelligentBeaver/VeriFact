@@ -102,7 +102,7 @@ def get_ollama(request: Request) -> OllamaClient:
     return client
 
 
-def _build_context(results: List[Dict[str, Any]], max_chars: int) -> (str, List[Dict[str, Any]]):
+def _build_context(results: List[Dict[str, Any]], max_chars: int) -> tuple[str, List[Dict[str, Any]]]:
     context_blocks = []
     sources = []
     total_chars = 0
@@ -132,6 +132,7 @@ def _build_context(results: List[Dict[str, Any]], max_chars: int) -> (str, List[
                 "id": i,
                 "title": title,
                 "url": url,
+                "text": text,
                 "score": score,
             }
         )
@@ -150,7 +151,6 @@ def _build_prompt(question: str, context: str) -> str:
         "and avoid claiming it causes the outcome. "
         "Use this format: 'Conclusion: ...' then 'Evidence: ...'. "
         "Limit to 2 sentences total. "
-        "Only cite sources that explicitly mention diabetes or prediabetes risk/link. "
         "Cite sources like [Source 1], [Source 2].\n\n"
         f"Question: {question}\n\n"
         f"Sources:\n{context}\n\n"
@@ -178,7 +178,7 @@ def answer(
     top_k = request.top_k or cfg.top_k
     min_score = request.min_score if request.min_score is not None else cfg.min_score
 
-    results = retriever.search(request.question)
+    results = retriever.search(request.question, deduplicate=False)
     results = [r for r in results if r.get("final_score", 0.0) >= min_score]
     results = results[:top_k]
 

@@ -9,7 +9,7 @@ import json
 import os
 import numpy as np
 from pathlib import Path
-from typing import List, Dict, Any, Set
+from typing import List, Dict, Any, Set, Optional
 from datetime import datetime
 from urllib.parse import urlparse
 from elasticsearch import Elasticsearch
@@ -164,6 +164,7 @@ class SimpleRetriever:
     ENABLE_CROSS_ENCODER = True
     ENABLE_ENTITY_MATCH = False
     ENABLE_SAPBERT_SEMANTIC = True
+    ENABLE_DEDUPLICATION = _RETRIEVER_CFG.enable_deduplication
 
     # RRF Fusion settings
     RRF_K = _RETRIEVER_CFG.rrf_k
@@ -247,6 +248,9 @@ class SimpleRetriever:
             self.FRESHNESS_RECENT = cfg.freshness_recent
             self.FRESHNESS_MODERATE = cfg.freshness_moderate
             self.FRESHNESS_OLD = cfg.freshness_old
+            
+            # Feature flags from config
+            self.ENABLE_DEDUPLICATION = cfg.enable_deduplication
         else:
             # fallback to env vars if loader isn't available
             self.ES_HOST = os.getenv("ES_HOST", self.ES_HOST)
@@ -291,7 +295,7 @@ class SimpleRetriever:
             self.es = None
     
     
-    def search(self, query: str) -> List[Dict[str, Any]]:
+    def search(self, query: str, deduplicate: Optional[bool] = None) -> List[Dict[str, Any]]:
         """
         Main search method - single, clear process flow.
         
@@ -301,11 +305,12 @@ class SimpleRetriever:
         3. RRF fusion to combine rankings
         4. Cross-encoder reranking
         5. Multi-signal scoring (6 components)
-        6. Deduplication
-        7. Return top 10 results
+        6. Deduplication (remove duplicate articles)
+        7. Final filtering and return top results
         
         Args:
             query: Search query string
+            deduplicate: Override deduplication setting (None = use config default)
             
         Returns:
             List of scored results with metadata
@@ -339,9 +344,19 @@ class SimpleRetriever:
         scored_results = self._compute_scores(query, reranked_results)
         print(f"  ✓ Scored {len(scored_results)} passages")
         
-        # Step 6: Final filtering
-        print(f"\n[6/6] Final filtering...")
-        final_results = [r for r in scored_results if r['final_score'] >= self.MIN_SCORE]
+        # Step 6: Deduplication (optional, configurable)
+        should_deduplicate = deduplicate if deduplicate is not None else self.ENABLE_DEDUPLICATION
+        if should_deduplicate:
+            print(f"\n[6/7] Deduplication...")
+            deduplicated_results = self._deduplicate_results(scored_results)
+            print(f"  ✓ Deduplicated from {len(scored_results)} to {len(deduplicated_results)} unique articles")
+        else:
+            print(f"\n[6/7] Deduplication... SKIPPED (disabled)")
+            deduplicated_results = scored_results
+        
+        # Step 7: Final filtering
+        print(f"\n[7/7] Final filtering...")
+        final_results = [r for r in deduplicated_results if r['final_score'] >= self.MIN_SCORE]
         final_results = final_results[:self.FINAL_TOPK]
         print(f"  ✓ Returning {len(final_results)} results (min_score={self.MIN_SCORE})")
         
@@ -614,6 +629,105 @@ class SimpleRetriever:
         # Sort by final score
         results.sort(key=lambda x: x['final_score'], reverse=True)
         return results
+    
+    
+    def _deduplicate_results(self, results: List[Dict]) -> List[Dict]:
+        """
+        Deduplicate results to ensure only unique articles are shown.
+        
+        Deduplication criteria (in priority order):
+        1. Exact URL match (same article)
+        2. Same title + same domain (likely duplicate)
+        3. Very similar title (>90% similarity) + same domain
+        
+        When duplicates are found, keeps the result with the highest score.
+        
+        Args:
+            results: List of scored results
+            
+        Returns:
+            Deduplicated list of results
+        """
+        if not results:
+            return results
+        
+        seen_urls = {}
+        seen_titles = {}
+        deduplicated = []
+        
+        for result in results:
+            passage = result['passage']
+            url = passage.get('url', '').strip().lower()
+            title = passage.get('title', '').strip().lower()
+            
+            # Extract domain for title-based deduplication
+            domain = ''
+            if url:
+                try:
+                    domain = urlparse(url).netloc.lower().replace('www.', '')
+                except:
+                    pass
+            
+            # Check 1: Exact URL match
+            if url and url in seen_urls:
+                # Keep the one with higher score
+                if result['final_score'] > seen_urls[url]['final_score']:
+                    # Replace with higher-scoring version
+                    deduplicated.remove(seen_urls[url])
+                    deduplicated.append(result)
+                    seen_urls[url] = result
+                continue
+            
+            # Check 2: Same title + same domain
+            title_domain_key = f"{title}||{domain}" if title and domain else None
+            if title_domain_key and title_domain_key in seen_titles:
+                # Keep the one with higher score
+                if result['final_score'] > seen_titles[title_domain_key]['final_score']:
+                    deduplicated.remove(seen_titles[title_domain_key])
+                    deduplicated.append(result)
+                    seen_titles[title_domain_key] = result
+                    if url:
+                        seen_urls[url] = result
+                continue
+            
+            # Check 3: Very similar title on same domain (fuzzy match)
+            is_duplicate = False
+            if title and domain and len(title) > 10:  # Only check meaningful titles
+                for existing_key, existing_result in list(seen_titles.items()):
+                    existing_title, existing_domain = existing_key.split('||')
+                    
+                    # Only compare within same domain
+                    if existing_domain == domain:
+                        # Compute simple character overlap similarity
+                        overlap = len(set(title) & set(existing_title))
+                        union = len(set(title) | set(existing_title))
+                        similarity = overlap / union if union > 0 else 0
+                        
+                        if similarity > 0.90:  # 90% similarity threshold
+                            # Found similar title on same domain
+                            if result['final_score'] > existing_result['final_score']:
+                                # Replace with higher-scoring version
+                                deduplicated.remove(existing_result)
+                                deduplicated.append(result)
+                                # Update tracking
+                                del seen_titles[existing_key]
+                                seen_titles[title_domain_key] = result
+                                if url:
+                                    seen_urls[url] = result
+                            is_duplicate = True
+                            break
+            
+            if is_duplicate:
+                continue
+            
+            # Not a duplicate - add to results
+            deduplicated.append(result)
+            if url:
+                seen_urls[url] = result
+            if title_domain_key:
+                seen_titles[title_domain_key] = result
+        
+        return deduplicated
     
     
     def _extract_medical_entities(self, text: str) -> Set[str]:
@@ -952,10 +1066,11 @@ def index_passages_to_elasticsearch(passages: List[Dict], es_host="127.0.0.1", e
                 success, failed = bulk(es, actions, raise_on_error=False)
                 print(f"  ✓ Indexed {len(actions)} passages (progress: {i+1}/{len(passages)})")
                 if failed:
-                    total_failures += len(failed)
-                    print(f"    Warning: {len(failed)} failures in this batch")
+                    failed_list = failed if isinstance(failed, list) else []
+                    total_failures += len(failed_list)
+                    print(f"    Warning: {len(failed_list)} failures in this batch")
                     # Log failure reasons
-                    for fail_item in failed:
+                    for fail_item in failed_list:
                         error_type = fail_item.get('error', {}).get('type', 'unknown')
                         reason = fail_item.get('error', {}).get('reason', 'unknown')
                         if error_type not in failure_reasons:
@@ -972,9 +1087,10 @@ def index_passages_to_elasticsearch(passages: List[Dict], es_host="127.0.0.1", e
             success, failed = bulk(es, actions, raise_on_error=False)
             print(f"  ✓ Indexed {len(actions)} passages (final batch)")
             if failed:
-                total_failures += len(failed)
-                print(f"    Warning: {len(failed)} failures in final batch")
-                for fail_item in failed:
+                failed_list = failed if isinstance(failed, list) else []
+                total_failures += len(failed_list)
+                print(f"    Warning: {len(failed_list)} failures in final batch")
+                for fail_item in failed_list:
                     error_type = fail_item.get('error', {}).get('type', 'unknown')
                     if error_type not in failure_reasons:
                         failure_reasons[error_type] = 0

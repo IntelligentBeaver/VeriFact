@@ -29,10 +29,10 @@ class VerifierModelConfigDefaults:
 @dataclass(frozen=True)
 class VerifierApiConfigDefaults:
     min_top_k: int = 1
-    max_top_k: int = 10
-    default_top_k: int = 3
+    max_top_k: int = 12
+    default_top_k: int = 10
     default_min_score: float = 0.35
-    no_evidence_verdict: str = "NOT_ENOUGH_EVIDENCE"
+    no_evidence_verdict: str = "Not Enough Evidence"
     # Threshold below which predictions are considered insufficiently confident
     confidence_threshold: float = 0.68
 
@@ -142,8 +142,8 @@ class QAConfigDefaults:
     top_k: int = 10
     min_score: float = 0.35
     ollama_url: str = "http://localhost:11434/api/generate"
-    ollama_model: str = "llama3.2:3b"
-    max_context_chars: int = 5000
+    ollama_model: str = "llama3.2:1b"
+    max_context_chars: int = 3000
     retriever_url: str = "http://retriever:8000"
 
 
@@ -152,8 +152,8 @@ class RetrieverConfigDefaults:
     es_host: str = "127.0.0.1"
     es_port: int = 9200
     es_index: str = "medical_passages"
-    faiss_topk: int = 50
-    es_topk: int = 50
+    faiss_topk: int = 30
+    es_topk: int = 30
     final_topk: int = 10
     rrf_k: int = 60
     rrf_weight_faiss: float = 0.5
@@ -171,6 +171,7 @@ class RetrieverConfigDefaults:
     freshness_recent: int = 365
     freshness_moderate: int = 1095
     freshness_old: int = 1825
+    enable_deduplication: bool = True
 
 
 def load_qa_config() -> QAConfigDefaults:
@@ -227,4 +228,5 @@ def load_retriever_config() -> RetrieverConfigDefaults:
         freshness_recent=load_env_int("FRESHNESS_RECENT", defaults.freshness_recent),
         freshness_moderate=load_env_int("FRESHNESS_MODERATE", defaults.freshness_moderate),
         freshness_old=load_env_int("FRESHNESS_OLD", defaults.freshness_old),
+        enable_deduplication=load_env_bool("ENABLE_DEDUPLICATION", defaults.enable_deduplication),
     )

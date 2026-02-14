@@ -5,7 +5,7 @@ Uses Ollama for Llama 3.1 8B by default.
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Tuple
 import json
 import sys
 
@@ -19,7 +19,7 @@ RETRIEVAL_DIR = BASE_DIR / "retrieval"
 if str(RETRIEVAL_DIR) not in sys.path:
     sys.path.insert(0, str(RETRIEVAL_DIR))
 
-from simple_retriever import MinimalModelManager, SimpleRetriever  # noqa: E402
+from simple_retriever import MinimalModelManager, SimpleRetriever  # noqa: E402,F401
 
 
 @dataclass
@@ -94,7 +94,7 @@ class QASystem:
         self.llm = OllamaClient(config.ollama_url, config.ollama_model)
 
     def answer(self, question: str) -> Dict[str, Any]:
-        results = self.retriever.search(question)
+        results = self.retriever.search(question, deduplicate=False)
         filtered = [r for r in results if r.get("final_score", 0) >= self.config.min_score]
         top_results = filtered[: self.config.top_k]
 
@@ -125,7 +125,7 @@ class QASystem:
             "raw_results": results,
         }
 
-    def _build_context(self, results: List[Dict[str, Any]]) -> (str, List[Dict[str, Any]]):
+    def _build_context(self, results: List[Dict[str, Any]]) -> Tuple[str, List[Dict[str, Any]]]:
         context_blocks = []
         sources = []
         total_chars = 0
@@ -155,6 +155,7 @@ class QASystem:
                     "id": i,
                     "title": title,
                     "url": url,
+                    "text": text,
                     "score": score,
                 }
             )
@@ -172,7 +173,6 @@ class QASystem:
             "and avoid claiming it causes the outcome. "
             "Use this format: 'Conclusion: ...' then 'Evidence: ...'. "
             "Limit to 2 sentences total. "
-            "Only cite sources that explicitly mention diabetes or prediabetes risk/link. "
             "Cite sources like [Source 1], [Source 2].\n\n"
             f"Question: {question}\n\n"
             f"Sources:\n{context}\n\n"
