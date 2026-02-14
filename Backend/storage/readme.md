@@ -1,0 +1,5 @@
+Add the files manually:
+storage/embeddings.npy
+storage/index.faiss
+storage/mesh_concepts.json
+storage/metadata.json
