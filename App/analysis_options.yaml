@@ -1,0 +1,29 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+  errors:
+    public_member_api_docs: ignore # Ignore public_member_api_docs warnings
+  exclude:
+    - build/**
+    - "**/*.env"
+    - ".env"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+
+linter:
+  rules:
+    # Explicitly enable the rules you specified
+    avoid_print: true
+    prefer_single_quotes: true
+    prefer_final_fields: true
+    avoid_unnecessary_containers: true
+    unnecessary_lambdas: true
+    prefer_const_constructors: true
+    sort_constructors_first: true
+    always_declare_return_types: true
+    unnecessary_brace_in_string_interps: true
+    lines_longer_than_80_chars: false
+    avoid_catches_without_on_clauses: false
+    comment_references: false
+    prefer_typing_uninitialized_variables: false
+    do_not_use_environment: false
