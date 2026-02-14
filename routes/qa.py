@@ -151,7 +151,6 @@ def _build_prompt(question: str, context: str) -> str:
         "and avoid claiming it causes the outcome. "
         "Use this format: 'Conclusion: ...' then 'Evidence: ...'. "
         "Limit to 2 sentences total. "
-        "Only cite sources that explicitly mention diabetes or prediabetes risk/link. "
         "Cite sources like [Source 1], [Source 2].\n\n"
         f"Question: {question}\n\n"
         f"Sources:\n{context}\n\n"
