@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:skeletonizer/skeletonizer.dart';
+import 'package:verifact_app/extensions/context_extensions.dart';
 import 'package:verifact_app/utils/constants/app_globals.dart';
 import 'package:verifact_app/utils/constants/image_strings.dart';
 import 'package:verifact_app/utils/constants/sizes.dart';
-import 'package:verifact_app/extensions/context_extensions.dart';
 
 /// Renders an avatar image for a given [avatar] URL or asset fallback.
 ///

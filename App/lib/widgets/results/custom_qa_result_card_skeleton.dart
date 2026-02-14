@@ -21,24 +21,24 @@ class CustomQAResultCardSkeleton extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              height: 12.0,
-              width: 80.0,
+              height: 12,
+              width: 80,
               color: context.color.outlineVariant,
             ),
             SizedBox(height: AppSizes.xsSm),
             Container(
-              height: 16.0,
+              height: 16,
               color: context.color.outlineVariant,
             ),
             SizedBox(height: AppSizes.md),
             Container(
-              height: 12.0,
-              width: 70.0,
+              height: 12,
+              width: 70,
               color: context.color.outlineVariant,
             ),
             SizedBox(height: AppSizes.xsSm),
             Container(
-              height: 14.0,
+              height: 14,
               color: context.color.outlineVariant,
             ),
           ],

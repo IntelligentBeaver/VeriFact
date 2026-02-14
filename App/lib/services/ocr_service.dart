@@ -1,7 +1,6 @@
 import 'dart:io';
 
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
 import 'package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart'
     as ml_kit;
 import 'package:image_picker/image_picker.dart';
@@ -24,13 +23,13 @@ class OcrPickerResult {
 }
 
 class OcrService {
-  final ImagePicker _picker = ImagePicker();
-  late ml_kit.TextRecognizer _textRecognizer;
-  bool _isInitialized = false;
 
   OcrService() {
     _initializeTextRecognizer();
   }
+  final ImagePicker _picker = ImagePicker();
+  late ml_kit.TextRecognizer _textRecognizer;
+  bool _isInitialized = false;
 
   void _initializeTextRecognizer() {
     if (!_isInitialized) {
@@ -194,7 +193,6 @@ class OcrService {
   Future<List<TextBlock>> recognizeTextWithBlocks(XFile imageFile) async {
     try {
       final inputImage = ml_kit.InputImage.fromFilePath(imageFile.path);
-
       final recognizedText = await _textRecognizer.processImage(inputImage);
 
       // Get image dimensions from the decoded image
@@ -209,7 +207,6 @@ class OcrService {
         '[OCR Recognition] Image dimensions: $imageWidth x $imageHeight',
       );
 
-      // Extract text blocks with their bounding boxes
       final textBlocks = <TextBlock>[];
 
       for (final block in recognizedText.blocks) {
@@ -258,7 +255,7 @@ class OcrService {
 
   /// Extract dimensions from JPEG
   Map<String, int>? _getJpegDimensions(List<int> bytes) {
-    int i = 2;
+    var i = 2;
     while (i < bytes.length) {
       if (bytes[i] == 0xFF) {
         if (bytes[i + 1] == 0xC0 || bytes[i + 1] == 0xC2) {
@@ -290,7 +287,6 @@ class OcrService {
   Future<String> recognizeText(XFile imageFile) async {
     try {
       final inputImage = ml_kit.InputImage.fromFilePath(imageFile.path);
-
       final recognizedText = await _textRecognizer.processImage(inputImage);
 
       debugPrint(
@@ -342,7 +338,4 @@ class OcrService {
       _isInitialized = false;
     }
   }
-
-  /// Get text recognizer for advanced usage
-  ml_kit.TextRecognizer get textRecognizer => _textRecognizer;
 }

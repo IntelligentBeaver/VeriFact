@@ -4,9 +4,9 @@ import 'package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart
 
 /// `Result from text recognition model, including image path and recognized text.`
 class RecognizeResult {
+  RecognizeResult(this.imagePath, this.text);
   final String imagePath;
   final String text;
-  RecognizeResult(this.imagePath, this.text);
 }
 
 class CameraScreen extends StatefulWidget {
@@ -55,7 +55,7 @@ class _CameraScreenState extends State<CameraScreen> {
       setState(() => _isProcessing = true);
       final pic = await _controller.takePicture();
       final inputImage = InputImage.fromFilePath(pic.path);
-      final RecognizedText recognizedText = await _textRecognizer.processImage(
+      final recognizedText = await _textRecognizer.processImage(
         inputImage,
       );
 

@@ -25,7 +25,7 @@ class CustomDocSearchResultCard extends StatelessWidget {
     final borderRadius = BorderRadius.circular(AppSizes.borderRadiusLg);
 
     // derive a small logo url for known domains (use Google's favicon service)
-    String? _logoUrl() {
+    String? logoUrl() {
       try {
         if (url == null) return null;
         final host = Uri.parse(url!).host.toLowerCase();
@@ -39,7 +39,7 @@ class CustomDocSearchResultCard extends StatelessWidget {
       return null;
     }
 
-    final logo = _logoUrl();
+    final logo = logoUrl();
 
     return GestureDetector(
       onTap: () async {

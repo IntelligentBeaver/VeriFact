@@ -11,7 +11,7 @@ class ImagePickerService {
   /// Pick an image from the device gallery. Returns an [XFile] or null.
   static Future<XFile?> pickFromGallery({int imageQuality = 85}) async {
     try {
-      final XFile? file = await _picker.pickImage(
+      final file = await _picker.pickImage(
         source: ImageSource.gallery,
         imageQuality: imageQuality,
       );
@@ -24,7 +24,7 @@ class ImagePickerService {
   /// Pick an image using the camera. Returns an [XFile] or null.
   static Future<XFile?> pickFromCamera({int imageQuality = 85}) async {
     try {
-      final XFile? file = await _picker.pickImage(
+      final file = await _picker.pickImage(
         source: ImageSource.camera,
         imageQuality: imageQuality,
       );

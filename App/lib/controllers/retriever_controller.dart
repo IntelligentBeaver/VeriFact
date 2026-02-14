@@ -7,10 +7,10 @@ import 'package:verifact_app/utils/services/dio_services.dart';
 
 /// Generic API exception returned to the UI layer.
 class ApiException implements Exception {
-  final String message;
-  final int? statusCode;
 
   ApiException(this.message, {this.statusCode});
+  final String message;
+  final int? statusCode;
 
   @override
   String toString() => 'ApiException(status: $statusCode, message: $message)';
@@ -87,11 +87,11 @@ class RetrieverController {
         'Invalid JSON response from server',
         statusCode: status,
       );
-    } on DioError catch (err) {
+    } on DioException catch (err) {
       // Inline error mapping
-      if (err.type == DioErrorType.connectionTimeout ||
-          err.type == DioErrorType.sendTimeout ||
-          err.type == DioErrorType.receiveTimeout) {
+      if (err.type == DioExceptionType.connectionTimeout ||
+          err.type == DioExceptionType.sendTimeout ||
+          err.type == DioExceptionType.receiveTimeout) {
         throw ApiException('Request timed out. Check your connection.');
       }
 
@@ -101,9 +101,9 @@ class RetrieverController {
         var message = 'Server error';
         try {
           final d = resp.data;
-          if (d is Map && d.containsKey('message'))
+          if (d is Map && d.containsKey('message')) {
             message = d['message'].toString();
-          else if (d is String)
+          } else if (d is String)
             message = d;
           else if (d is Map && d.isNotEmpty)
             message = d.toString();

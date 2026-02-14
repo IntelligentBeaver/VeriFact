@@ -10,12 +10,14 @@ class TextBlock {
     required this.boundingBox,
     required this.imageWidth,
     required this.imageHeight,
+    this.angle = 0.0,
   });
 
   final String text;
   final Rect boundingBox; // Absolute pixel coordinates from MLkit
   final double imageWidth;
   final double imageHeight;
+  final double angle; // Radians, clockwise
 
   /// Get normalized coordinates (0-1) for rendering
   Rect get normalizedBoundingBox {
@@ -29,7 +31,7 @@ class TextBlock {
 
   @override
   String toString() =>
-      'TextBlock(text: $text, box: $boundingBox, size: ${imageWidth}x$imageHeight)';
+      'TextBlock(text: $text, box: $boundingBox, size: ${imageWidth}x$imageHeight, angle: $angle)';
 }
 
 /// State model for OCR screen
@@ -101,7 +103,7 @@ class OcrNotifier extends Notifier<OcrState> {
 
   /// Pick image from gallery or camera and recognize text
   Future<void> pickAndRecognizeImage(ImageSource source) async {
-    state = state.copyWith(isProcessing: true, error: null);
+    state = state.copyWith(isProcessing: true);
 
     try {
       final result = await _ocrService.pickImageAndRecognizeText(source);
@@ -137,15 +139,13 @@ class OcrNotifier extends Notifier<OcrState> {
 
   /// Clear only the error message
   void clearError() {
-    state = state.copyWith(error: null);
+    state = state.copyWith();
   }
 
   /// Select a text block by index
   void selectTextBlock(int? index) {
     state = state.copyWith(
       selectedBlockIndex: index,
-      selectedTextStart: null,
-      selectedTextEnd: null,
     );
   }
 
@@ -157,7 +157,7 @@ class OcrNotifier extends Notifier<OcrState> {
       final e = start < end ? end : start;
       state = state.copyWith(selectedTextStart: s, selectedTextEnd: e);
     } else {
-      state = state.copyWith(selectedTextStart: null, selectedTextEnd: null);
+      state = state.copyWith();
     }
   }
 
@@ -194,13 +194,8 @@ class OcrNotifier extends Notifier<OcrState> {
   /// Retake image (reset but keep processing state if needed)
   void retakeImage() {
     state = state.copyWith(
-      imageFile: null,
       recognizedText: '',
       textBlocks: const [],
-      selectedBlockIndex: null,
-      selectedTextStart: null,
-      selectedTextEnd: null,
-      error: null,
     );
   }
 

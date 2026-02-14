@@ -21,25 +21,25 @@ class CustomDocResultCardSkeleton extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              height: 16.0,
+              height: 16,
               color: context.color.outlineVariant,
             ),
             SizedBox(height: AppSizes.xsSm),
             Container(
-              height: 14.0,
+              height: 14,
               width: double.infinity,
               color: context.color.outlineVariant,
             ),
             SizedBox(height: AppSizes.xsSm),
             Container(
-              height: 14.0,
-              width: 200.0,
+              height: 14,
+              width: 200,
               color: context.color.outlineVariant,
             ),
             SizedBox(height: AppSizes.xsSm),
             Container(
-              height: 12.0,
-              width: 100.0,
+              height: 12,
+              width: 100,
               color: context.color.outlineVariant,
             ),
           ],

@@ -2,16 +2,13 @@
 import 'dart:convert';
 
 class RetrieverResponse {
-  final String? query;
-  final int? count;
-  final List<RetrieverModel> results;
 
   RetrieverResponse({required this.results, this.query, this.count});
 
   factory RetrieverResponse.fromJson(Map<String, dynamic> json) {
     // Normalize results which may be a JSON string, a List, or a single Map
     dynamic rawResults = json['results'];
-    List<RetrieverModel> parsedResults = [];
+    var parsedResults = <RetrieverModel>[];
     try {
       if (rawResults is String) {
         final decoded = rawResults.isEmpty ? null : jsonDecode(rawResults);
@@ -45,6 +42,9 @@ class RetrieverResponse {
       results: parsedResults,
     );
   }
+  final String? query;
+  final int? count;
+  final List<RetrieverModel> results;
 
   Map<String, dynamic> toJson() => {
     'query': query,
@@ -54,16 +54,6 @@ class RetrieverResponse {
 }
 
 class RetrieverModel {
-  final Passage? passage;
-  final double? rrfScore;
-  final double? faissScore;
-  final double? esScore;
-  final int? faissRank;
-  final int? esRank;
-  final double? crossScore;
-  final double? finalScore;
-  final String? domainTier;
-  final Map<String, dynamic>? scores;
 
   RetrieverModel({
     this.passage,
@@ -110,6 +100,16 @@ class RetrieverModel {
           : null,
     );
   }
+  final Passage? passage;
+  final double? rrfScore;
+  final double? faissScore;
+  final double? esScore;
+  final int? faissRank;
+  final int? esRank;
+  final double? crossScore;
+  final double? finalScore;
+  final String? domainTier;
+  final Map<String, dynamic>? scores;
 
   Map<String, dynamic> toJson() => {
     'passage': passage?.toJson(),
@@ -126,21 +126,6 @@ class RetrieverModel {
 }
 
 class Passage {
-  final String? passageId;
-  final String? docId;
-  final String? sectionHeading;
-  final int? blockIndex;
-  final String? text;
-  final String? url;
-  final String? title;
-  final String? publishedDate;
-  final String? scrapeTimestampUtc;
-  final String? author;
-  final String? medicallyReviewedBy;
-  final List<String>? sources;
-  final dynamic location;
-  final List<String>? tags;
-  final String? domainTier;
 
   Passage({
     this.passageId,
@@ -192,10 +177,11 @@ class Passage {
           if (raw is List) return raw.map((s) => s.toString()).toList();
           if (raw is String) {
             final decoded = raw.isEmpty ? null : jsonDecode(raw);
-            if (decoded is List)
-              return (decoded as List)
+            if (decoded is List) {
+              return decoded
                   .map((dynamic s) => s.toString())
                   .toList();
+            }
             // fallback: treat the string as a single source
             return [raw];
           }
@@ -213,10 +199,11 @@ class Passage {
           if (raw is List) return raw.map((s) => s.toString()).toList();
           if (raw is String) {
             final decoded = raw.isEmpty ? null : jsonDecode(raw);
-            if (decoded is List)
-              return (decoded as List)
+            if (decoded is List) {
+              return decoded
                   .map((dynamic s) => s.toString())
                   .toList();
+            }
             // fallback: split by comma
             return raw
                 .split(',')
@@ -233,6 +220,21 @@ class Passage {
           json['domain_tier'] as String? ?? json['domainTier'] as String?,
     );
   }
+  final String? passageId;
+  final String? docId;
+  final String? sectionHeading;
+  final int? blockIndex;
+  final String? text;
+  final String? url;
+  final String? title;
+  final String? publishedDate;
+  final String? scrapeTimestampUtc;
+  final String? author;
+  final String? medicallyReviewedBy;
+  final List<String>? sources;
+  final dynamic location;
+  final List<String>? tags;
+  final String? domainTier;
 
   Map<String, dynamic> toJson() => {
     'passage_id': passageId,

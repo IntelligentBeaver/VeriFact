@@ -9,10 +9,10 @@ part 'retriever_repository.g.dart';
 /// Designed for use with Riverpod v3 code generation. Use the
 /// generated provider `retrieverRepositoryProvider` to obtain an instance.
 class RetrieverRepository {
-  final RetrieverController _controller;
 
   RetrieverRepository([RetrieverController? controller])
     : _controller = controller ?? RetrieverController.instance;
+  final RetrieverController _controller;
 
   Future<RetrieverResponse> search(
     String query, {

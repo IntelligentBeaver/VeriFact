@@ -34,7 +34,7 @@ class TextBoxOverlayPainter extends CustomPainter {
       ..style = PaintingStyle.fill;
 
     // Draw all text boxes
-    for (int i = 0; i < textBlocks.length; i++) {
+    for (var i = 0; i < textBlocks.length; i++) {
       final block = textBlocks[i];
       final isSelected = i == selectedIndex;
 
@@ -312,7 +312,7 @@ class OcrScreen extends ConsumerWidget {
                             state.selectedBlockIndex == index,
                           );
                         },
-                      ).toList(),
+                      ),
                     ],
                   ),
                 ),
@@ -469,7 +469,7 @@ class OcrScreen extends ConsumerWidget {
     // Calculate font size based on box dimensions and number of lines
     // For single line: use full height
     // For multiple lines: reduce proportionally
-    final lineHeight = 1.2; // Line spacing multiplier
+    const lineHeight = 1.2; // Line spacing multiplier
     final totalLineHeight = lines * lineHeight;
     final fontSize = (boxHeight / totalLineHeight) * 1;
 
@@ -519,7 +519,7 @@ class OcrScreen extends ConsumerWidget {
     if (state.textBlocks.isEmpty) return null;
 
     // Check which text block was tapped by converting position to normalized coordinates
-    for (int i = 0; i < state.textBlocks.length; i++) {
+    for (var i = 0; i < state.textBlocks.length; i++) {
       final block = state.textBlocks[i];
 
       // Get normalized bounding box

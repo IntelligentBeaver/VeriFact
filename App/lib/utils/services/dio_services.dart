@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:dio/dio.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:verifact_app/flavors/flavor_config.dart';
 import 'package:verifact_app/utils/services/app_loggger_services.dart';
 
@@ -17,9 +18,14 @@ class DioClient {
 
   /// Initialize the Dio Client with default parameters.
   static Future<Dio> initClient() async {
+    // allow runtime override via SharedPreferences (key: 'override_base_url')
+    final prefs = await SharedPreferences.getInstance();
+    final override = prefs.getString('override_base_url');
     final dio = Dio(
       BaseOptions(
-        baseUrl: FlavorConfig.instance.baseUrl,
+        baseUrl: override?.isNotEmpty ?? false
+            ? override!
+            : FlavorConfig.instance.baseUrl,
         connectTimeout: const Duration(seconds: 40),
         receiveTimeout: const Duration(seconds: 40),
         sendTimeout: const Duration(seconds: 40),
@@ -35,9 +41,13 @@ class DioClient {
 
   /// Initialize the Dio Client for public access without authentication (like for login).
   static Future<Dio> initPublicClient() async {
+    final prefs = await SharedPreferences.getInstance();
+    final override = prefs.getString('override_base_url');
     final dio = Dio(
       BaseOptions(
-        baseUrl: FlavorConfig.instance.baseUrl,
+        baseUrl: override?.isNotEmpty ?? false
+            ? override!
+            : FlavorConfig.instance.baseUrl,
         connectTimeout: const Duration(seconds: 30),
         receiveTimeout: const Duration(seconds: 50),
         sendTimeout: const Duration(seconds: 40),

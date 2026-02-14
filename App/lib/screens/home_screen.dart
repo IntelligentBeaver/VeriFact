@@ -1,14 +1,25 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:skeletonizer/skeletonizer.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
 import 'package:verifact_app/extensions/context_extensions.dart';
+import 'package:verifact_app/models/history_record.dart';
 import 'package:verifact_app/models/qa_model.dart';
 import 'package:verifact_app/models/retriever_model.dart';
+import 'package:verifact_app/screens/history_screen.dart';
+import 'package:verifact_app/screens/settings_screen.dart';
 import 'package:verifact_app/screens/verifier_result_screen.dart';
+import 'package:verifact_app/services/camera_service.dart';
+import 'package:verifact_app/services/history_service.dart';
+import 'package:verifact_app/services/image_picker_service.dart';
 import 'package:verifact_app/utils/constants/sizes.dart';
+import 'package:verifact_app/utils/helpers/device_utility.dart';
 import 'package:verifact_app/utils/helpers/helper_functions.dart';
 import 'package:verifact_app/utils/notifiers/home_search_notifier.dart';
 import 'package:verifact_app/utils/notifiers/qa_notifier.dart';
@@ -35,6 +46,31 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   int _currentIndex = 0;
   bool _hasSubmitted = false;
   HomeSearchMode _lastSubmittedMode = HomeSearchMode.verifier;
+  bool _showInfoBanner = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadBannerPref();
+  }
+
+  Future<void> _loadBannerPref() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final hidden = prefs.getBool('hide_info_banner') ?? false;
+      setState(() => _showInfoBanner = !hidden);
+    } catch (_) {
+      setState(() => _showInfoBanner = true);
+    }
+  }
+
+  Future<void> _closeBanner() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setBool('hide_info_banner', true);
+    } catch (_) {}
+    setState(() => _showInfoBanner = false);
+  }
 
   @override
   void dispose() {
@@ -47,7 +83,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     final query = _searchController.text.trim();
     if (query.isEmpty) return;
 
-    var mode = ref.read(homeSearchProvider);
+    final mode = ref.read(homeSearchProvider);
     // If verifier mode (default) — navigate to verifier results page
     if (mode == HomeSearchMode.verifier) {
       Navigator.of(context).push(
@@ -67,10 +103,31 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     switch (mode) {
       case HomeSearchMode.qa:
         await ref.read(qaProvider.notifier).fetchAnswer(query);
-        break;
+        try {
+          final qaState = ref.read(qaProvider).value;
+          final rec = HistoryRecord(
+            type: 'qa',
+            query: query,
+            conclusion: qaState?.answer,
+            sources: qaState?.sources.map((s) => s.url ?? '').toList(),
+            payload: qaState?.toString(),
+            timestamp: DateTime.now().millisecondsSinceEpoch,
+          );
+          HistoryService().addRecord(rec);
+        } catch (_) {}
       case HomeSearchMode.doc:
         await ref.read(retrieverProvider.notifier).search(query);
-        break;
+        try {
+          final resp = ref.read(retrieverProvider).value;
+          final rec = HistoryRecord(
+            type: 'doc',
+            query: query,
+            conclusion: resp == null ? null : '${resp.results.length} results',
+            payload: resp == null ? null : jsonEncode(resp.toJson()),
+            timestamp: DateTime.now().millisecondsSinceEpoch,
+          );
+          HistoryService().addRecord(rec);
+        } catch (_) {}
       default:
         break;
     }
@@ -142,69 +199,165 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           currentIndex: _currentIndex,
           onTap: (index) => setState(() => _currentIndex = index),
         ),
-        body: SafeArea(
-          child: Padding(
-            padding: EdgeInsets.symmetric(
-              horizontal: AppSizes.smMd,
-              vertical: AppSizes.md,
+        appBar: AppBar(
+          elevation: 0,
+          toolbarHeight: AppSizes.appBarHeight,
+          backgroundColor: Colors.transparent,
+          foregroundColor: context.color.onSurface,
+          actionsPadding: EdgeInsets.only(right: AppSizes.smMd),
+          actions: [
+            IconButton(
+              padding: EdgeInsets.zero,
+              constraints: const BoxConstraints(),
+              icon: Icon(
+                LucideIcons.settings300,
+                size: AppSizes.iconMd,
+                color: context.color.onSurface,
+              ),
+              onPressed: () => Navigator.of(context).push(
+                MaterialPageRoute<void>(
+                  builder: (_) => const SettingsScreen(),
+                ),
+              ),
             ),
-            child: Column(
-              children: [
-                Expanded(
-                  child: AnimatedSwitcher(
-                    duration: const Duration(milliseconds: 300),
-                    transitionBuilder: (child, animation) => FadeTransition(
-                      opacity: animation,
-                      child: FadeTransition(
-                        opacity: Tween<double>(
-                          begin: 0.5,
-                          end: 1,
-                        ).animate(animation),
-                        child: child,
-                      ),
+          ],
+          title: Row(
+            children: [
+              Row(
+                spacing: AppSizes.xsSm,
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  SizedBox(
+                    width: 30,
+                    height: 30,
+                    child: Image.asset(
+                      'assets/icons/verified.png',
                     ),
-                    child: _hasSubmitted
-                        ? _ResultsSection(
-                            key: const ValueKey('results'),
-                            hasSubmitted: _hasSubmitted,
-                            mode: _lastSubmittedMode,
-                            qaState: qaState,
-                            retrieverState: retrieverState,
-                          )
-                        : Column(
-                            key: const ValueKey('header'),
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              _HomeHeader(
-                                title: _titleForMode(mode),
-                                subtitle: _subtitleForMode(mode),
-                              ),
-                              SizedBox(height: AppSizes.lg),
-                              _QuickActionsSection(
-                                onModeSelected: (selected) => ref
-                                    .read(homeSearchProvider.notifier)
-                                    .selectMode(selected),
-                                onTap: (label) {
-                                  showInfoSnackbar('$label tapped');
-                                },
-                              ),
-                            ],
-                          ),
                   ),
-                ),
-                _SearchBarContainer(
-                  mode: mode,
-                  controller: _searchController,
-                  focusNode: _searchFocus,
-                  onModeCleared: _resetSearch,
-                  onPlusTap: () => _showQuickMenu(context),
-                  onSubmitted: (_) => _submitSearch(),
-                ),
-                SizedBox(height: AppSizes.smMd),
-              ],
-            ),
+
+                  Text(
+                    'VeriFact App',
+                    style: context.text.headlineLarge?.copyWith(
+                      fontWeight: FontWeight.w900,
+                    ),
+                  ),
+                ],
+              ),
+            ],
           ),
         ),
+        body: _currentIndex == 1
+            ? const HistoryScreen()
+            : SafeArea(
+                child: Padding(
+                  padding: EdgeInsets.symmetric(
+                    horizontal: AppSizes.smMd,
+                    vertical: AppSizes.md,
+                  ),
+                  child: Stack(
+                    children: [
+                      Column(
+                        children: [
+                          Expanded(
+                            child: AnimatedSwitcher(
+                              duration: const Duration(milliseconds: 300),
+                              transitionBuilder: (child, animation) =>
+                                  FadeTransition(
+                                    opacity: animation,
+                                    child: FadeTransition(
+                                      opacity: Tween<double>(
+                                        begin: 0.5,
+                                        end: 1,
+                                      ).animate(animation),
+                                      child: child,
+                                    ),
+                                  ),
+                              child: _hasSubmitted
+                                  ? _ResultsSection(
+                                      key: const ValueKey('results'),
+                                      hasSubmitted: _hasSubmitted,
+                                      mode: _lastSubmittedMode,
+                                      qaState: qaState,
+                                      retrieverState: retrieverState,
+                                    )
+                                  : Column(
+                                      key: const ValueKey('header'),
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: [
+                                        _HomeHeader(
+                                          title: _titleForMode(mode),
+                                          subtitle: _subtitleForMode(mode),
+                                        ),
+                                        SizedBox(height: AppSizes.lg),
+                                        _QuickActionsSection(
+                                          onModeSelected: (selected) => ref
+                                              .read(homeSearchProvider.notifier)
+                                              .selectMode(selected),
+                                          onTap: (label) {
+                                            showInfoSnackbar('$label tapped');
+                                          },
+                                        ),
+                                      ],
+                                    ),
+                            ),
+                          ),
+                          if (_showInfoBanner) ...[
+                            Container(
+                              padding: EdgeInsets.symmetric(
+                                horizontal: AppSizes.md,
+                                vertical: AppSizes.sm,
+                              ),
+                              margin: EdgeInsets.only(bottom: AppSizes.sm),
+                              decoration: BoxDecoration(
+                                color: context.color.secondaryContainer,
+                                borderRadius: BorderRadius.circular(
+                                  AppSizes.borderRadiusLg,
+                                ),
+                              ),
+                              child: Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "This app retrieves evidence from reputed articles but shouldn't be relied on completely. Seek professional medical advice.",
+                                      style: context.text.labelSmall?.copyWith(
+                                        color:
+                                            context.color.onSecondaryContainer,
+                                      ),
+                                      maxLines: 3,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  SizedBox(width: AppSizes.sm),
+                                  GestureDetector(
+                                    onTap: _closeBanner,
+                                    child: Icon(
+                                      LucideIcons.x,
+                                      size: AppSizes.iconSm,
+                                      color: context.color.onSecondaryContainer,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                          _SearchBarContainer(
+                            mode: mode,
+                            controller: _searchController,
+                            focusNode: _searchFocus,
+                            onModeCleared: _resetSearch,
+                            onPlusTap: () => _showQuickMenu(context),
+                            onSubmitted: (_) => _submitSearch(),
+                          ),
+                          SizedBox(height: AppSizes.smMd),
+                        ],
+                      ),
+
+                      // Settings button top-right
+                    ],
+                  ),
+                ),
+              ),
       ),
     );
   }
@@ -311,9 +464,34 @@ class _QuickActionButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Future<void> handleAction() async {
+      try {
+        if (data.label == 'Scan Image') {
+          await CameraService.openCameraAndShow(context);
+          return;
+        }
+
+        if (data.label == 'Upload Image') {
+          final file = await ImagePickerService.pickFromGallery(
+            
+          );
+          if (file == null) return;
+          await CameraService.openPreview(context, file.path);
+          return;
+        }
+
+        // default fallback: call provided onTap
+        onTap();
+      } catch (_) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('Could not access image.')),
+        );
+      }
+    }
+
     return InkWell(
       borderRadius: BorderRadius.circular(AppSizes.borderRadiusXl),
-      onTap: onTap,
+      onTap: handleAction,
       child: Container(
         padding: EdgeInsets.symmetric(
           horizontal: AppSizes.md,
@@ -393,10 +571,13 @@ class _SearchBarContainerState extends ConsumerState<_SearchBarContainer> {
     if (!_listening) {
       final available = await _speech.initialize();
       if (!available) return;
+      try {
+        SystemSound.play(SystemSoundType.click);
+      } catch (_) {}
       setState(() => _listening = true);
       _speech.listen(
         onResult: (result) {
-          final String text = result.recognizedWords;
+          final text = result.recognizedWords;
           widget.controller.text = text;
           widget.controller.selection = TextSelection.fromPosition(
             TextPosition(offset: text.length),
@@ -407,6 +588,9 @@ class _SearchBarContainerState extends ConsumerState<_SearchBarContainer> {
       );
     } else {
       await _speech.stop();
+      try {
+        SystemSound.play(SystemSoundType.alert);
+      } catch (_) {}
       setState(() => _listening = false);
       widget.onSubmitted(widget.controller.text.trim());
     }
@@ -468,7 +652,7 @@ class _SearchBarContainerState extends ConsumerState<_SearchBarContainer> {
                     color: context.color.onSurface,
                   ),
                   decoration: InputDecoration(
-                    hintText: 'Enter your query here',
+                    hintText: 'Enter your Claim...',
                     hintStyle: context.text.bodySmall?.copyWith(
                       color: context.color.onSurfaceVariant,
                     ),
@@ -524,8 +708,10 @@ class _SearchBarContainerState extends ConsumerState<_SearchBarContainer> {
                   final enabled = value.text.trim().isNotEmpty;
                   return InkWell(
                     onTap: enabled
-                        ? () =>
-                              widget.onSubmitted(widget.controller.text.trim())
+                        ? () {
+                            DeviceUtility.hideKeyboard(context);
+                            widget.onSubmitted(widget.controller.text.trim());
+                          }
                         : null,
                     child: Container(
                       width: AppSizes.iconXl,
@@ -714,16 +900,16 @@ class _ResultsSection extends StatelessWidget {
       padding: EdgeInsets.zero,
       children: [
         Container(
-          height: 32.0,
-          width: 200.0,
+          height: 32,
+          width: 200,
           color: context.color.outlineVariant,
         ),
         SizedBox(height: AppSizes.mdLg),
         const CustomQAResultCardSkeleton(),
         SizedBox(height: AppSizes.lg),
         Container(
-          height: 20.0,
-          width: 100.0,
+          height: 20,
+          width: 100,
           color: context.color.outlineVariant,
         ),
         SizedBox(height: AppSizes.mdLg),
@@ -804,7 +990,7 @@ class _ResultsSection extends StatelessWidget {
             padding: EdgeInsets.zero,
             itemCount: 6,
             separatorBuilder: (_, __) => SizedBox(height: AppSizes.smMd),
-            itemBuilder: (_, __) => CustomDocResultCardSkeleton(),
+            itemBuilder: (_, __) => const CustomDocResultCardSkeleton(),
           ),
         ),
       ],

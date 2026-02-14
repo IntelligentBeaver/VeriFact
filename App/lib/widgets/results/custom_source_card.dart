@@ -28,7 +28,7 @@ class CustomSourceCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // derive a small logo url for known domains (use Google's favicon service)
-    String? _logoUrl() {
+    String? logoUrl() {
       try {
         final host = Uri.parse(url).host.toLowerCase();
         if (host.contains('webmd')) {
@@ -41,7 +41,7 @@ class CustomSourceCard extends StatelessWidget {
       return null;
     }
 
-    final logo = _logoUrl();
+    final logo = logoUrl();
     return Card(
       margin: EdgeInsets.zero,
       color: context.color.surface,

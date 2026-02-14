@@ -7,10 +7,10 @@ part 'verifier_repository.g.dart';
 /// Repository wrapper around `VerifierController`.
 /// Use the generated provider `verifierRepositoryProvider` to access an instance.
 class VerifierRepository {
-  final VerifierController _controller;
 
   VerifierRepository([VerifierController? controller])
     : _controller = controller ?? VerifierController.instance;
+  final VerifierController _controller;
 
   Future<VerifierModel> verifyClaim(String claim) {
     return _controller.verifyClaim(claim);

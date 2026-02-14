@@ -33,14 +33,14 @@ class HomeBottomNav extends StatelessWidget {
           icon: Icon(LucideIcons.history),
           label: 'History',
         ),
-        BottomNavigationBarItem(
-          icon: Icon(LucideIcons.compass),
-          label: 'Explore',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(LucideIcons.user),
-          label: 'Profile',
-        ),
+        // BottomNavigationBarItem(
+        //   icon: Icon(LucideIcons.compass),
+        //   label: 'Explore',
+        // ),
+        // BottomNavigationBarItem(
+        //   icon: Icon(LucideIcons.user),
+        //   label: 'Profile',
+        // ),
       ],
     );
   }

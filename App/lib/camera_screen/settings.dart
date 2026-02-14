@@ -66,15 +66,15 @@ class _PermissionDebugScreenState extends State<PermissionDebugScreen> {
               await Permission.storage.request();
               await _refresh();
             }),
-            ListTile(
-              title: const Text('Open App Settings'),
+            const ListTile(
+              title: Text('Open App Settings'),
               trailing: ElevatedButton(
-                onPressed: () => openAppSettings(),
-                child: const Text('Open'),
+                onPressed: openAppSettings,
+                child: Text('Open'),
               ),
             ),
             const Padding(
-              padding: EdgeInsets.all(12.0),
+              padding: EdgeInsets.all(12),
               child: Text(
                 'If App Settings shows only Siri & Search, the app may not have requested the correct permission string or the OS groups settings differently. Use the Request buttons above to trigger system dialogs where possible.',
               ),

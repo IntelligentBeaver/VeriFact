@@ -51,7 +51,7 @@ class _ResponseTestScreenState extends ConsumerState<ResponseTestScreen>
       children: List.generate(
         3,
         (i) => Padding(
-          padding: const EdgeInsets.symmetric(vertical: 8.0),
+          padding: const EdgeInsets.symmetric(vertical: 8),
           child: Container(
             height: 80,
             decoration: BoxDecoration(
@@ -59,7 +59,7 @@ class _ResponseTestScreenState extends ConsumerState<ResponseTestScreen>
               borderRadius: BorderRadius.circular(8),
             ),
             child: const Padding(
-              padding: EdgeInsets.all(12.0),
+              padding: EdgeInsets.all(12),
               child: Align(
                 alignment: Alignment.centerLeft,
                 child: LinearProgressIndicator(),
@@ -79,11 +79,11 @@ class _ResponseTestScreenState extends ConsumerState<ResponseTestScreen>
       child: state.when(
         data: (data) {
           if (data == null) {
-            return Card(
-              key: const ValueKey('data'),
+            return const Card(
+              key: ValueKey('data'),
               elevation: 2,
-              child: const Padding(
-                padding: EdgeInsets.all(12.0),
+              child: Padding(
+                padding: EdgeInsets.all(12),
                 child: Text('No results', style: TextStyle(fontSize: 14)),
               ),
             );
@@ -94,7 +94,7 @@ class _ResponseTestScreenState extends ConsumerState<ResponseTestScreen>
               key: const ValueKey('retriever'),
               elevation: 2,
               child: Padding(
-                padding: const EdgeInsets.all(12.0),
+                padding: const EdgeInsets.all(12),
                 child: SingleChildScrollView(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -114,7 +114,7 @@ class _ResponseTestScreenState extends ConsumerState<ResponseTestScreen>
                         return Card(
                           elevation: 1,
                           child: Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding: const EdgeInsets.all(8),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
@@ -139,7 +139,7 @@ class _ResponseTestScreenState extends ConsumerState<ResponseTestScreen>
                             ),
                           ),
                         );
-                      }).toList(),
+                      }),
                     ],
                   ),
                 ),
@@ -151,7 +151,7 @@ class _ResponseTestScreenState extends ConsumerState<ResponseTestScreen>
             key: const ValueKey('data'),
             elevation: 2,
             child: Padding(
-              padding: const EdgeInsets.all(12.0),
+              padding: const EdgeInsets.all(12),
               child: SingleChildScrollView(
                 child: Text(
                   data.toString(),
@@ -169,7 +169,7 @@ class _ResponseTestScreenState extends ConsumerState<ResponseTestScreen>
           key: const ValueKey('error'),
           color: Colors.red.shade50,
           child: Padding(
-            padding: const EdgeInsets.all(12.0),
+            padding: const EdgeInsets.all(12),
             child: Text(
               err.toString(),
               style: const TextStyle(color: Colors.red),
@@ -246,15 +246,15 @@ class _ResponseTestScreenState extends ConsumerState<ResponseTestScreen>
 
   @override
   Widget build(BuildContext context) {
-    final AsyncValue<dynamic> qaState = _currentQaQuestion == null
+    final qaState = _currentQaQuestion == null
         ? const AsyncValue.data(null)
         : ref.watch(qaProvider);
 
-    final AsyncValue<dynamic> verifierState = _currentVerifierKey == null
+    final verifierState = _currentVerifierKey == null
         ? const AsyncValue.data(null)
         : ref.watch(verifierProvider);
 
-    final AsyncValue<dynamic> retrieverState = _currentRetrieverKey == null
+    final retrieverState = _currentRetrieverKey == null
         ? const AsyncValue.data(null)
         : ref.watch(retrieverProvider);
     return DefaultTabController(
@@ -274,7 +274,7 @@ class _ResponseTestScreenState extends ConsumerState<ResponseTestScreen>
           children: [
             // QA Tab
             Padding(
-              padding: const EdgeInsets.all(12.0),
+              padding: const EdgeInsets.all(12),
               child: Column(
                 children: [
                   TextField(
@@ -317,7 +317,7 @@ class _ResponseTestScreenState extends ConsumerState<ResponseTestScreen>
                       ),
                       const SizedBox(width: 12),
                       ElevatedButton(
-                        onPressed: () => _qaController.clear(),
+                        onPressed: _qaController.clear,
                         child: const Text('Clear'),
                       ),
                     ],
@@ -330,7 +330,7 @@ class _ResponseTestScreenState extends ConsumerState<ResponseTestScreen>
 
             // Verifier Tab
             Padding(
-              padding: const EdgeInsets.all(12.0),
+              padding: const EdgeInsets.all(12),
               child: Column(
                 children: [
                   SwitchListTile(
@@ -380,7 +380,7 @@ class _ResponseTestScreenState extends ConsumerState<ResponseTestScreen>
 
             // Retriever Tab
             Padding(
-              padding: const EdgeInsets.all(12.0),
+              padding: const EdgeInsets.all(12),
               child: Column(
                 children: [
                   SwitchListTile(

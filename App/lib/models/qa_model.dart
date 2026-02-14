@@ -1,11 +1,6 @@
 import 'dart:convert';
 
 class QASource {
-  final int id;
-  final String title;
-  final String url;
-  final String text;
-  final double score;
 
   QASource({
     required this.id,
@@ -26,6 +21,11 @@ class QASource {
         ? (json['score'] as num).toDouble()
         : double.tryParse('${json['score']}') ?? 0.0,
   );
+  final int id;
+  final String title;
+  final String url;
+  final String text;
+  final double score;
 
   Map<String, dynamic> toJson() => {
     'id': id,
@@ -40,9 +40,6 @@ class QASource {
 }
 
 class QAModel {
-  final String question;
-  final String answer;
-  final List<QASource> sources;
 
   QAModel({
     required this.question,
@@ -52,7 +49,7 @@ class QAModel {
 
   factory QAModel.fromJson(Map<String, dynamic> json) {
     final rawSources = json['sources'];
-    final List<QASource> parsed = [];
+    final parsed = <QASource>[];
     if (rawSources is List) {
       for (final item in rawSources) {
         if (item is Map<String, dynamic>) {
@@ -69,6 +66,9 @@ class QAModel {
       sources: parsed,
     );
   }
+  final String question;
+  final String answer;
+  final List<QASource> sources;
 
   Map<String, dynamic> toJson() => {
     'question': question,

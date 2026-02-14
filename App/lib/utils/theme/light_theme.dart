@@ -12,7 +12,6 @@ ColorScheme get lightColorScheme => _lightColorScheme;
 final ColorScheme _lightColorScheme =
     ColorScheme.fromSeed(
       seedColor: AppColors.primary,
-      brightness: Brightness.light,
     ).copyWith(
       primary: AppColors.primary,
       onPrimary: AppColors.onPrimary,
@@ -30,11 +29,9 @@ final ColorScheme _lightColorScheme =
       onError: AppColors.onError,
       errorContainer: AppColors.errorContainer,
       onErrorContainer: AppColors.onErrorContainer,
-      background: AppColors.background,
-      onBackground: AppColors.textPrimary,
       surface: AppColors.surface,
       onSurface: AppColors.textPrimary,
-      surfaceVariant: AppColors.surfaceVariant,
+      surfaceContainerHighest: AppColors.surfaceVariant,
       onSurfaceVariant: AppColors.textSecondary,
       outline: AppColors.outline,
       outlineVariant: AppColors.outlineVariant,

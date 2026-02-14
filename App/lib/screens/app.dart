@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:verifact_app/screens/home_screen.dart';
+import 'package:verifact_app/screens/splash_screen.dart';
 import 'package:verifact_app/utils/constants/app_globals.dart';
 import 'package:verifact_app/utils/constants/route_table.dart';
 import 'package:verifact_app/utils/notifiers/theme_notifier.dart';
@@ -78,7 +78,7 @@ class _AppState extends ConsumerState<App> {
         title: 'Verifact',
         scaffoldMessengerKey: scaffoldMessengerKey,
         navigatorKey: navigatorKey,
-        home: const HomeScreen(),
+        home: const SplashScreen(),
       ),
     );
   }

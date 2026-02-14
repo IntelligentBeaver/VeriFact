@@ -93,20 +93,15 @@ class Scores {
   };
 
   static double _parse(dynamic v) {
-    if (v == null) return 0.0;
+    if (v == null) return 0;
     if (v is double) return v;
     if (v is int) return v.toDouble();
     if (v is String) return double.tryParse(v) ?? 0.0;
-    return 0.0;
+    return 0;
   }
 }
 
 class Evidence {
-  final String title;
-  final String url;
-  final String text;
-  final double score;
-  final String passageId;
 
   Evidence({
     required this.title,
@@ -124,6 +119,11 @@ class Evidence {
     passageId:
         json['passage_id']?.toString() ?? json['passageId']?.toString() ?? '',
   );
+  final String title;
+  final String url;
+  final String text;
+  final double score;
+  final String passageId;
 
   Map<String, dynamic> toJson() => {
     'title': title,

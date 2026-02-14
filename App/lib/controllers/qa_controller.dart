@@ -8,10 +8,10 @@ import 'package:verifact_app/utils/services/app_loggger_services.dart';
 import 'package:verifact_app/utils/services/dio_services.dart';
 
 class ApiException implements Exception {
-  final String message;
-  final int? statusCode;
 
   ApiException(this.message, {this.statusCode});
+  final String message;
+  final int? statusCode;
 
   @override
   String toString() => 'ApiException: $message (${statusCode ?? 'n/a'})';
@@ -41,7 +41,7 @@ class QAController {
     AppLogger.state('Request body: ${jsonEncode(body)}');
 
     try {
-      final Response<dynamic> response = await dio.post<dynamic>(
+      final response = await dio.post<dynamic>(
         UrlStrings.qaAnswer,
         data: body,
       );
