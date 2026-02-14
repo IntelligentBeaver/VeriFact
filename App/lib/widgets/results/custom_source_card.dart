@@ -20,9 +20,7 @@ class CustomSourceCard extends StatelessWidget {
 
   Future<void> _launchUrl() async {
     final uri = Uri.parse(url);
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri, mode: LaunchMode.externalApplication);
-    }
+    await launchUrl(uri, mode: LaunchMode.externalApplication);
   }
 
   @override
