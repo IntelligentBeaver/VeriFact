@@ -63,7 +63,7 @@ flutter_native_splash:
   # general image for all platform (except android 12+):
   # allows you to specify an image used in the splash screen. It must be a
   # png file and should be sized for 4x pixel density.
-  image:                assets/icons/verified.png
+  image:                assets/icons/verified_splash.png
   #image_dark:          assets/splash-invert.png
   # platform-specific image. will override general image if active:
   #image_android:       assets/splash-android.png

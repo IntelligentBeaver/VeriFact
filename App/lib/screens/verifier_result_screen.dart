@@ -117,6 +117,7 @@ class _VerifierResultScreenState extends ConsumerState<VerifierResultScreen> {
                     child: Padding(
                       padding: EdgeInsets.all(AppSizes.md),
                       child: Stack(
+                        clipBehavior: Clip.none,
                         children: [
                           Column(
                             children: [

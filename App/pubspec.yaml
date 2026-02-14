@@ -59,4 +59,5 @@ flutter:
     - assets/icons/brands/
     - assets/logos/
     - assets/icons/verified.png
+    - assets/icons/verified_splash.png
     - .env
