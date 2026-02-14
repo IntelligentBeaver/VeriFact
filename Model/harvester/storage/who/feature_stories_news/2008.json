@@ -1,0 +1,118 @@
+[
+  {
+    "url": "https://www.who.int/news-room/feature-stories/detail/tackling-tb-a-homeless-man-is-offered-a-cure",
+    "title": "Tackling TB: a homeless man is offered a cure",
+    "published_date": "2008-10-01",
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Feature Story",
+    "location": null,
+    "sections": [
+      {
+        "heading": null,
+        "content": [
+          "Tuberculosis (TB) is an airborne infectious disease that can be prevented and cured. People ill with TB bacteria in their lungs can infect others when they cough. In 2005, the most recent year for which statistics are available, 8.8 million people fell ill with TB and 1.6 million died from it. If TB is detected early and treated correctly, infected people cease to be able to spread the bacteria and can be cured.",
+          "TB is primarily a disease of people living in the developing world: 98% of TB deaths are in low- and medium-income countries. But no country is TB-free.",
+          "In the United States, public health authorities provide a range of services to people with TB. At the heart of these programmes is Directly Observed Treatment, Short-course (DOTS) - WHO's time-honoured approach to treatment combined with patient supervision and support.",
+          "This is a story about Michael Berrian, a homeless man from Newark, New Jersey. He felt unwell for months before severe chest pain prompted him to call for emergency medical help. Rushed to a local hospital, and then diagnosed with TB, he is on his way to a cure with comprehensive care.",
+          "<p><a href=\"https://www.who.int/features/2008/tackling_tb/en/#\" title=\"Opens in a new window\" data-sf-ec-immutable=\"\">Read the photo story about Michael Berrian</a></p>"
+        ]
+      }
+    ],
+    "references": [],
+    "images": [
+      "https://cdn.who.int/media/images/default-source/tuberculosis/tackling-tb-cover.jpg?sfvrsn=ce1a2e50_2"
+    ],
+    "tags": [
+      "WHO",
+      "Feature Story",
+      "Tackling TB: a homeless man is offered a cure",
+      "Feature Story"
+    ],
+    "scrape_timestamp_utc": "2026-01-29T04:57:02Z",
+    "first_seen_utc": "2026-01-29T04:57:02Z"
+  },
+  {
+    "url": "https://www.who.int/news-room/feature-stories/detail/testing-the-who-guidelines-on-hand-hygiene-in-health-care-in-eight-pilot-sites-worldwide",
+    "title": "Testing the WHO Guidelines on hand hygiene in health care in eight pilot sites worldwide",
+    "published_date": "2008-02-29",
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Feature Story",
+    "location": null,
+    "sections": [
+      {
+        "heading": null,
+        "content": [
+          "Hand hygiene is a simple and effective solution to reduce both the spread of infection and multi-resistant germs, and to protect patients from health care-associated infection. The WHO Guidelines on hand hygiene in health care were developed with a global perspective to support hand hygiene promotion and improvement in health-care facilities worldwide. To translate the Guidelines into practice, an implementation strategy was developed to provide users with a ready-to-go approach to initiate hand hygiene promotion at facility level and improve compliance by health-care workers at the bedside."
+        ]
+      },
+      {
+        "heading": "Practical tools for implementation",
+        "content": [
+          {
+            "text": "The WHO Multimodal hand hygiene improvement strategy consists of five key components that need to be integrated together for successful implementation, including:",
+            "bullets": [
+              "system change: alcohol-based handrub at the point of care; access to a safe, continuous water supply, soap and towels;",
+              "training and education;",
+              "evaluation and feedback;",
+              "reminders in the workplace; and",
+              "institutional safety climate."
+            ]
+          },
+          {
+            "text": "A Guide to implementation and a range of tools to facilitate the implementation of each component were developed in parallel. Between 2006 and 2008, the strategy and the associated toolkit were tested in eight pilot sites across the six WHO regions, with different levels of development and cultural environments. The objectives of field testing included:",
+            "bullets": [
+              "generating information on feasibility, validity, and reliability of the recommendations;",
+              "providing local data on the resources required to carry out the recommendations; and",
+              "obtaining useful information for the revision and adaptation of the proposed implementation strategies."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Field testing",
+        "content": [
+          "WHO regional patient safety focal points and the WHO representatives at country level, as well as technical and academic partners and professional associations, made important contributions to the field testing phase.",
+          {
+            "text": "According to the indications of the Guide to implementation and using of the WHO tools, each pilot site implemented core actions related to all the five key strategy components and followed the same approach based on five steps.",
+            "bullets": [
+              "Step 1: Facility preparedness – readiness for action.",
+              "Step 2: Baseline evaluation – assessing the current situation.",
+              "Step 3: Implementation – introducing the improvement activities.",
+              "Step 4: Follow-up evaluation – evaluating the implementation impact.",
+              "Step 5: Ongoing planning and review cycle – developing a plan for the next 5 years."
+            ]
+          },
+          "Pilot testing, from step 1 to 5, lasted about 12-18 months"
+        ]
+      },
+      {
+        "heading": "Overall results of testing",
+        "content": [
+          {
+            "text": "Data from 6 pilot sites were pooled; 2 sites provided results, but the raw data were in a format not suitable for pooling. Main results from 6/8 pilot sites were:",
+            "bullets": [
+              "a significant increase in pooled mean hand hygiene compliance from 39.6% at baseline to 56.9% after an average three-month intervention period with improvement across all professional categories;",
+              "preferred recourse to alcohol-based handrubs in all sites (49.1% of all hand hygiene actions at baseline vs 70.6% at follow-up), with local production of a low-cost WHO formulation in 6/8 sites and national scale-up in 5/6 sites;",
+              "improvement in health-care workers' perception and knowledge about the importance of health care-associated infection and hand hygiene;",
+              "evidence of creation or strengthening of an institutional safety climate; and",
+              "demonstration of implementation feasibility and adaptability of the WHO Multimodal Hand Hygiene Improvement Strategy and its toolkit, considered as successful model also for other infection control interventions."
+            ]
+          },
+          "Lessons learned from the pilot test sites were integrated into the final version of the WHO Guidelines on hand hygiene in health care (Part I, chapters 12.2 and 21.5) and led to the finalization of the current Guide to implementation and Implementation toolkit ."
+        ]
+      }
+    ],
+    "references": [],
+    "images": [],
+    "tags": [
+      "WHO",
+      "Feature Story",
+      "Testing the WHO Guidelines on hand hygiene in health care in eight pilot sites worldwide",
+      "Feature Story"
+    ],
+    "scrape_timestamp_utc": "2026-01-29T04:57:04Z",
+    "first_seen_utc": "2026-01-29T04:57:04Z"
+  }
+]

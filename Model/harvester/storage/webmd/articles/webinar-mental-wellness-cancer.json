@@ -1,0 +1,83 @@
+{
+  "url": "https://www.webmd.com/webinar/webinar-mental-wellness-cancer",
+  "title": "Mental Wellness for Cancer and Beyond",
+  "slug": "webinar-mental-wellness-cancer",
+  "published_date": "",
+  "first_letter": "W",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": "cancer diagnosis",
+      "content": [
+        "In this interactive webinar, you’ll learn how to take back control of your life in the midst of a . Lidia Schapira, MD, outlines the power of going from victim to empowered survivor – and what that involves. She explores fear and purpose, and outlines ways to take charge of your narrative. She also provides strategies for coping with uncertainty – and for finding the support you need and deserve.",
+        "This webinar was originally broadcast on September 26, 2023."
+      ],
+      "bullets": [
+        "How to go from victim to empowered survivor",
+        "About stress paradox (a wake-up call to handle things differently)",
+        "Keys for living with uncertainty and worry",
+        "How to tell – and change – your story",
+        "Way to find support and connection"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "In this interactive webinar, you’ll learn how to take back control of your life in the midst of a . Lidia Schapira, MD, outlines the power of going from victim to empowered survivor – and what that involves. She explores fear and purpose, and outlines ways to take charge of your narrative. She also provides strategies for coping with uncertainty – and for finding the support you need and deserve.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "This webinar was originally broadcast on September 26, 2023.",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "How to go from victim to empowered survivor",
+            "About stress paradox (a wake-up call to handle things differently)",
+            "Keys for living with uncertainty and worry",
+            "How to tell – and change – your story",
+            "Way to find support and connection"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Lidia Schapira MD, FASCO, directs the Cancer Survivorship Program at Stanford Cancer Institute and Comprehensive Cancer Center. An oncologist with 30 years of clinical experience, she focuses her practice on breast cancer. She’s a globally sought-after lecturer who has published over 100 peer-reviewed medical journal articles. Schapira supports research and clinical initiatives to integrate mental health care in oncology – to improve health outcomes for those living with, and beyond, cancer."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lidia Schapira MD, FASCO, directs the Cancer Survivorship Program at Stanford Cancer Institute and Comprehensive Cancer Center. An oncologist with 30 years of clinical experience, she focuses her practice on breast cancer. She’s a globally sought-after lecturer who has published over 100 peer-reviewed medical journal articles. Schapira supports research and clinical initiatives to integrate mental health care in oncology – to improve health outcomes for those living with, and beyond, cancer.",
+          "associated_bullets": null
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/300x300_dr_lidia_schapira.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/webinars/webinar-ondemand-computer-image.png",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/webinars/webinar-transparent-bg.png",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "In this interactive webinar, Lidia Schapira, MD, outlines the power of going from cancer victim to empowered survivor – and what that involves.",
+  "canonical_url": "https://www.webmd.com/webinar/webinar-mental-wellness-cancer",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:29:09.628973Z"
+}

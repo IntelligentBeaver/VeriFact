@@ -1,0 +1,913 @@
+{
+  "url": "https://www.webmd.com/podcasts/20250320/breaking-down-bipolar-disorder-signs-triggers-treatments",
+  "title": "Breaking Down Bipolar Disorder: Signs, Triggers, and Treatments",
+  "slug": "breaking-down-bipolar-disorder-signs-triggers-treatments",
+  "published_date": "",
+  "first_letter": "B",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": null,
+      "content_blocks": []
+    },
+    {
+      "heading": null,
+      "content": [
+        "Mar. 20, 2025 -- Every year on March 30th, World Bipolar Day shines a light on bipolar disorder , a condition often misunderstood. But what exactly is bipolar disorder, and how does it differ from unipolar depression? We spoke with Holly A. Swartz, MD , professor of psychiatry and president of the International Society for Bipolar Disorders, to break it all down. She explains the hallmark signs of mania and hypomania, how stressors can trigger episodes, and the latest treatment options, including therapy and medication. Plus, we explore the powerful impact of stable daily rhythms in managing mood and fostering long-term well-being.",
+        "Resources: ISBD.org IPSRT.org"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mar. 20, 2025 -- Every year on March 30th, World Bipolar Day shines a light on bipolar disorder , a condition often misunderstood. But what exactly is bipolar disorder, and how does it differ from unipolar depression? We spoke with Holly A. Swartz, MD , professor of psychiatry and president of the International Society for Bipolar Disorders, to break it all down. She explains the hallmark signs of mania and hypomania, how stressors can trigger episodes, and the latest treatment options, including therapy and medication. Plus, we explore the powerful impact of stable daily rhythms in managing mood and fostering long-term well-being.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Resources: ISBD.org IPSRT.org",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Neha Pathak, MD, FACP, DipABLM:",
+      "content": [
+        "Welcome to the WebMD Health Discovered podcast. I'm Dr Neha Pathak, WebMD's Chief Physician Editor for Health and Lifestyle Medicine.",
+        "Bipolar disorder is a condition that many of us have heard of, but it's often misunderstood. In this episode, we'll explore what distinguishes bipolar disorder from unipolar depression and why identifying mania or hypomania is crucial to getting the right treatment. We'll also explore the biologic underpinnings that make someone vulnerable to bipolar disorder in the first place, and why routine—even something as simple as going to bed at the same time each night—can become a powerful tool for mood stabilization. Most importantly, we'll learn about the therapies, both medical and behavioral, that can stabilize mood, build resilience, and allow people with bipolar disorder to live life on their own terms."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Welcome to the WebMD Health Discovered podcast. I'm Dr Neha Pathak, WebMD's Chief Physician Editor for Health and Lifestyle Medicine.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Bipolar disorder is a condition that many of us have heard of, but it's often misunderstood. In this episode, we'll explore what distinguishes bipolar disorder from unipolar depression and why identifying mania or hypomania is crucial to getting the right treatment. We'll also explore the biologic underpinnings that make someone vulnerable to bipolar disorder in the first place, and why routine—even something as simple as going to bed at the same time each night—can become a powerful tool for mood stabilization. Most importantly, we'll learn about the therapies, both medical and behavioral, that can stabilize mood, build resilience, and allow people with bipolar disorder to live life on their own terms.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "If you or someone you know has been diagnosed with bipolar disorder, you won't want to miss this conversation.",
+        "First, let me introduce my guest, Dr Holly Swartz. Dr Holly Swartz is a professor of psychiatry at the University of Pittsburgh School of Medicine. Dr Swartz's research focuses on understanding and optimizing treatments for mood disorders. She's well known for her work evaluating interpersonal psychotherapy (IPT) and interpersonal and social rhythm therapy (IPSRT) as treatments for depression and bipolar disorder. She's currently the president of the International Society for Bipolar Disorders.",
+        "Welcome to the WebMD Health Discovered podcast, Dr Swartz."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "If you or someone you know has been diagnosed with bipolar disorder, you won't want to miss this conversation.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "First, let me introduce my guest, Dr Holly Swartz. Dr Holly Swartz is a professor of psychiatry at the University of Pittsburgh School of Medicine. Dr Swartz's research focuses on understanding and optimizing treatments for mood disorders. She's well known for her work evaluating interpersonal psychotherapy (IPT) and interpersonal and social rhythm therapy (IPSRT) as treatments for depression and bipolar disorder. She's currently the president of the International Society for Bipolar Disorders.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Welcome to the WebMD Health Discovered podcast, Dr Swartz.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Holly A. Swartz, MD:",
+      "content": [
+        "Thank you so much for inviting me.",
+        "Pathak : We're very excited to jump into our conversation today, but before we do, I'd love to invite you to share with us your own personal health discovery or aha moment around bipolar disorder and the work that you do.",
+        "Swartz : I'm particularly interested in the effects of circadian rhythms on individuals at risk for and experiencing mood disorders. For the past couple of decades, I've had the opportunity to work with a behavioral intervention for bipolar disorder—interpersonal and social rhythm therapy—to address some of the behavioral aspects of circadian dysregulation in bipolar disorder."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Thank you so much for inviting me.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak : We're very excited to jump into our conversation today, but before we do, I'd love to invite you to share with us your own personal health discovery or aha moment around bipolar disorder and the work that you do.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Swartz : I'm particularly interested in the effects of circadian rhythms on individuals at risk for and experiencing mood disorders. For the past couple of decades, I've had the opportunity to work with a behavioral intervention for bipolar disorder—interpersonal and social rhythm therapy—to address some of the behavioral aspects of circadian dysregulation in bipolar disorder.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "For me, it's been a growing awareness of the importance of circadian dysregulation in bipolar disorder, both from an etiologic standpoint—so, you know, a causal framework—as well as a manifestation of the illness itself. I've been really excited to work with colleagues to hone an intervention that can be put in the hands of people who wish to use it to regulate their behaviors in order to stabilize underlying disturbances in their circadian rhythm.",
+        "The evidence is growing, and it's really exciting to see some neurologic correlates for this intervention, as well as working to disseminate it globally. So, it's just a really exciting time to be able to develop and test a tool and get it into the hands of people who are finding it to be useful.",
+        "Pathak : Wonderful. So before we go further, let's take a step back and define bipolar disorder for our listeners.",
+        "Swartz : Bipolar disorder is definitionally operationalized by diagnostic criteria. Typically, in the United States, we use the DSM—the Diagnostic and Statistical Manual—criteria. We're currently on the fifth version of the DSM (DSM-5) to define what bipolar disorder is."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "For me, it's been a growing awareness of the importance of circadian dysregulation in bipolar disorder, both from an etiologic standpoint—so, you know, a causal framework—as well as a manifestation of the illness itself. I've been really excited to work with colleagues to hone an intervention that can be put in the hands of people who wish to use it to regulate their behaviors in order to stabilize underlying disturbances in their circadian rhythm.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The evidence is growing, and it's really exciting to see some neurologic correlates for this intervention, as well as working to disseminate it globally. So, it's just a really exciting time to be able to develop and test a tool and get it into the hands of people who are finding it to be useful.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak : Wonderful. So before we go further, let's take a step back and define bipolar disorder for our listeners.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Swartz : Bipolar disorder is definitionally operationalized by diagnostic criteria. Typically, in the United States, we use the DSM—the Diagnostic and Statistical Manual—criteria. We're currently on the fifth version of the DSM (DSM-5) to define what bipolar disorder is.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "At this point, it's a clustering of symptoms. There are different types of bipolar disorder: there's bipolar I disorder, bipolar II disorder, bipolar disorder \"other specified,\" and some other ones that are maybe somewhat less common and less well operationalized.",
+        "The way that we define bipolar I disorder is at least one episode of mania. Often, folks also have episodes of depression, but it's not required for us to make the diagnosis. For bipolar II disorder, all that is required is one episode of hypomania—hypo meaning lower than or less than mania—plus at least one depressive episode."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "At this point, it's a clustering of symptoms. There are different types of bipolar disorder: there's bipolar I disorder, bipolar II disorder, bipolar disorder \"other specified,\" and some other ones that are maybe somewhat less common and less well operationalized.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The way that we define bipolar I disorder is at least one episode of mania. Often, folks also have episodes of depression, but it's not required for us to make the diagnosis. For bipolar II disorder, all that is required is one episode of hypomania—hypo meaning lower than or less than mania—plus at least one depressive episode.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "We can talk about how you distinguish between mania and hypomania, but the definitions are set forth by the DSM, and that's what we use to make formal diagnoses of bipolar disorder.",
+        "Pathak : That's really helpful. March 30th is World Bipolar Day—a really critical opportunity for raising awareness and destigmatizing what people commonly think of as bipolar disorder or someone with bipolar disorder."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "We can talk about how you distinguish between mania and hypomania, but the definitions are set forth by the DSM, and that's what we use to make formal diagnoses of bipolar disorder.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak : That's really helpful. March 30th is World Bipolar Day—a really critical opportunity for raising awareness and destigmatizing what people commonly think of as bipolar disorder or someone with bipolar disorder.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Can you talk a little bit about why understanding what bipolar disorder is and destigmatizing our understanding of it is so important?",
+        "Swartz : Yes, thank you for acknowledging World Bipolar Day. The date was actually chosen in honor of the birthday of Vincent van Gogh, who was a renowned artist and is thought to have had bipolar disorder.",
+        "I am part of the International Society for Bipolar Disorders, and we sponsor World Bipolar Day. For the past few years, we've been observing it for the entire month of March rather than just one day because we think it's a really important issue. We want to raise awareness about bipolar disorder, reduce stigma, and support individuals living with it.",
+        "I think it's really important that we undertake this mission because bipolar disorder, like any medical illness, is not the person's fault. It's not a weakness. We're all dealt a biologic hand—some of us are dealt a biologic vulnerability to asthma, high blood pressure, or diabetes, and some people are dealt a biologic hand that predisposes them to bipolar disorder."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Can you talk a little bit about why understanding what bipolar disorder is and destigmatizing our understanding of it is so important?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Swartz : Yes, thank you for acknowledging World Bipolar Day. The date was actually chosen in honor of the birthday of Vincent van Gogh, who was a renowned artist and is thought to have had bipolar disorder.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "I am part of the International Society for Bipolar Disorders, and we sponsor World Bipolar Day. For the past few years, we've been observing it for the entire month of March rather than just one day because we think it's a really important issue. We want to raise awareness about bipolar disorder, reduce stigma, and support individuals living with it.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "I think it's really important that we undertake this mission because bipolar disorder, like any medical illness, is not the person's fault. It's not a weakness. We're all dealt a biologic hand—some of us are dealt a biologic vulnerability to asthma, high blood pressure, or diabetes, and some people are dealt a biologic hand that predisposes them to bipolar disorder.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Unfortunately, in many cultures and settings, illnesses that affect the brain are stigmatized—really, in my mind, inappropriately—compared to other medical illnesses. But this is just another medical illness, like any other. And like most medical illnesses, there's an interaction between your underlying biologic vulnerability and the environment.",
+        "For example, if you've got a biologic vulnerability to asthma and you go rolling around in a hayfield, you're going to have an exacerbation of your asthma. The same thing applies to bipolar disorder: it's a biologic illness, but it can be improved or exacerbated by environmental context.",
+        "So, it's really important to support those living with bipolar disorder by speaking out, informing, and educating the community at large about what this illness is, and helping people accept the fact that this is one of many illnesses that affect our population."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Unfortunately, in many cultures and settings, illnesses that affect the brain are stigmatized—really, in my mind, inappropriately—compared to other medical illnesses. But this is just another medical illness, like any other. And like most medical illnesses, there's an interaction between your underlying biologic vulnerability and the environment.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, if you've got a biologic vulnerability to asthma and you go rolling around in a hayfield, you're going to have an exacerbation of your asthma. The same thing applies to bipolar disorder: it's a biologic illness, but it can be improved or exacerbated by environmental context.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So, it's really important to support those living with bipolar disorder by speaking out, informing, and educating the community at large about what this illness is, and helping people accept the fact that this is one of many illnesses that affect our population.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Pathak",
+      "content": [
+        ": And to your point about educating people, you mentioned hypomania and mania—two terms that can help define or identify whether someone might have bipolar I or bipolar II."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": And to your point about educating people, you mentioned hypomania and mania—two terms that can help define or identify whether someone might have bipolar I or bipolar II.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Can you talk a little bit about those terms?",
+        "Swartz : There are a lot of similarities between hypomania and mania, but hypomania is a less intense version of mania. We recognize mania when somebody is experiencing at least one week of either elevated or irritable mood every day for most of the day.",
+        "It's not just a little blip for an hour here or there. It's accompanied by a bunch of other symptoms like a decreased need for sleep. Many people are more impulsive, which can result in negative consequences like overspending or sexual indiscretions.",
+        "People who are manic may speak really fast, have racing thoughts, or experience suicidal thoughts. Some individuals with mania may also experience psychotic symptoms, such as difficulty distinguishing between what’s real and not real, hearing voices, or feeling paranoid.",
+        "The diagnostic criteria for hypomania are almost identical, with a couple of key differences. If an episode lands you in the hospital, it is by definition mania, not hypomania. Another distinguishing factor is whether it causes significant impairment—this is a rather subjective term, but basically, if you get yourself into real trouble with mania, then it's mania."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Can you talk a little bit about those terms?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Swartz : There are a lot of similarities between hypomania and mania, but hypomania is a less intense version of mania. We recognize mania when somebody is experiencing at least one week of either elevated or irritable mood every day for most of the day.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "It's not just a little blip for an hour here or there. It's accompanied by a bunch of other symptoms like a decreased need for sleep. Many people are more impulsive, which can result in negative consequences like overspending or sexual indiscretions.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "People who are manic may speak really fast, have racing thoughts, or experience suicidal thoughts. Some individuals with mania may also experience psychotic symptoms, such as difficulty distinguishing between what’s real and not real, hearing voices, or feeling paranoid.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The diagnostic criteria for hypomania are almost identical, with a couple of key differences. If an episode lands you in the hospital, it is by definition mania, not hypomania. Another distinguishing factor is whether it causes significant impairment—this is a rather subjective term, but basically, if you get yourself into real trouble with mania, then it's mania.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "If you're just up, not sleeping as much, talking a little fast, and maybe being impulsive but not blowing out your bank account or getting arrested for speeding, then it doesn’t cross the threshold for mania.",
+        "The minimum duration for hypomanic episodes is four days, whereas for mania, it's one week. If symptoms persist for three weeks or a month, that doesn’t necessarily tell us anything one way or the other, but hypomanic episodes can be a little shorter than manic episodes in terms of duration.",
+        "Pathak : Can you talk to us a little bit about the depression side of it? And is it different from major depressive disorder?",
+        "Swartz : That’s a really important question. So, major depressive episodes are identical in those three disorders. And I can talk about what we look for in a major depressive episode, but what we see in major depressive disorder—okay, in bipolar I disorder and in bipolar II disorder—the criteria are identical."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "If you're just up, not sleeping as much, talking a little fast, and maybe being impulsive but not blowing out your bank account or getting arrested for speeding, then it doesn’t cross the threshold for mania.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The minimum duration for hypomanic episodes is four days, whereas for mania, it's one week. If symptoms persist for three weeks or a month, that doesn’t necessarily tell us anything one way or the other, but hypomanic episodes can be a little shorter than manic episodes in terms of duration.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak : Can you talk to us a little bit about the depression side of it? And is it different from major depressive disorder?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Swartz : That’s a really important question. So, major depressive episodes are identical in those three disorders. And I can talk about what we look for in a major depressive episode, but what we see in major depressive disorder—okay, in bipolar I disorder and in bipolar II disorder—the criteria are identical.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "So, cross-sectionally, if you go into a doctor's office in the midst of a major depressive episode, the doctor can't tell if it's bipolar I disorder, bipolar II disorder, or major depressive disorder unless they ask questions about your history, because that's really what determines the diagnosis.",
+        "So this can be really confusing to people because the depressions themselves are pretty much the same in all three disorders. Our duration criteria for depression is two weeks—so at least two weeks of feeling down, having lower interest in things nearly every day, most of the day, and then accompanied by a bunch of symptoms, which, in my mind, are the opposite of mania.",
+        "You can either have more sleep or less sleep in depression, but for folks with bipolar disorder, it's actually usually the more-sleep version of this. It can affect your appetite—having decreased or increased appetite—feeling hopeless, feeling slowed down, often accompanied by suicidal thoughts.",
+        "So these are some of the symptoms that are required, in addition to low mood, to make a diagnosis of a major depressive episode. And it is, as I said, the same across those disorders, although there are some clues that might suggest that the episode is related to bipolar disorder versus major depressive disorder, which we also call unipolar disorder because it's just one pole—just the depression—not the bipolar disorder, which involves both sides of mood dysregulation."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "So, cross-sectionally, if you go into a doctor's office in the midst of a major depressive episode, the doctor can't tell if it's bipolar I disorder, bipolar II disorder, or major depressive disorder unless they ask questions about your history, because that's really what determines the diagnosis.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So this can be really confusing to people because the depressions themselves are pretty much the same in all three disorders. Our duration criteria for depression is two weeks—so at least two weeks of feeling down, having lower interest in things nearly every day, most of the day, and then accompanied by a bunch of symptoms, which, in my mind, are the opposite of mania.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You can either have more sleep or less sleep in depression, but for folks with bipolar disorder, it's actually usually the more-sleep version of this. It can affect your appetite—having decreased or increased appetite—feeling hopeless, feeling slowed down, often accompanied by suicidal thoughts.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So these are some of the symptoms that are required, in addition to low mood, to make a diagnosis of a major depressive episode. And it is, as I said, the same across those disorders, although there are some clues that might suggest that the episode is related to bipolar disorder versus major depressive disorder, which we also call unipolar disorder because it's just one pole—just the depression—not the bipolar disorder, which involves both sides of mood dysregulation.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "And those would be things, as I said, like during depressive episodes, having increased sleep, increased appetite, and really feeling slowed down. Those are some clues that we sometimes look for. It's not an absolute, slam-dunk way to differentiate the disorder types, but these kinds of what we call reverse neurovegetative symptoms—that's what those things are called—help us maybe have a clue as to whether this is bipolar disorder or a unipolar disorder.",
+        "Pathak : So I just want to take another step back and come back to something that you were talking about with regard to what might be stressors—environmental or experiences in your life—that, with that biologic susceptibility, may sort of cause, trigger, or worsen your bipolar disorder. So can you talk a little bit about what those are?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "And those would be things, as I said, like during depressive episodes, having increased sleep, increased appetite, and really feeling slowed down. Those are some clues that we sometimes look for. It's not an absolute, slam-dunk way to differentiate the disorder types, but these kinds of what we call reverse neurovegetative symptoms—that's what those things are called—help us maybe have a clue as to whether this is bipolar disorder or a unipolar disorder.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak : So I just want to take another step back and come back to something that you were talking about with regard to what might be stressors—environmental or experiences in your life—that, with that biologic susceptibility, may sort of cause, trigger, or worsen your bipolar disorder. So can you talk a little bit about what those are?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Swartz",
+      "content": [
+        ": Life stress, bad things happening in your life, trauma—all those things can predispose you to a bipolar episode if you have bipolar disorder. Other common triggering factors include substance use. Cannabis products are notorious for triggering episodes in individuals vulnerable to bipolar disorder."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": Life stress, bad things happening in your life, trauma—all those things can predispose you to a bipolar episode if you have bipolar disorder. Other common triggering factors include substance use. Cannabis products are notorious for triggering episodes in individuals vulnerable to bipolar disorder.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Also, some prescribed medications can sometimes trigger episodes—like stimulants, for instance, or selective serotonin reuptake inhibitors. And then, what I call chronodisruptors—things that disrupt your daily rhythms and routines—like not getting enough sleep, traveling across time zones, and switches in the clock from standard time to daylight savings time. These are things that mess with your routine schedules and circadian rhythms.",
+        "Pathak: And can you talk a little bit about lifespan triggers? Is there a particular age where the prevalence is more common? Is there a particular time period? Are there certain changes that happen in life where you might see more quiescence of these symptoms? Can you talk across the lifespan about where you see bipolar diagnoses emerging more commonly?",
+        "Swartz : The average age of onset of bipolar disorder is late adolescence or early adulthood—so somewhere in the late teens to early twenties is the most common age at which these illnesses emerge.",
+        "I'm an adult psychiatrist, not a child and adolescent psychiatrist, but my colleagues who specialize in the care of children do diagnose kids, and certainly adolescents."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Also, some prescribed medications can sometimes trigger episodes—like stimulants, for instance, or selective serotonin reuptake inhibitors. And then, what I call chronodisruptors—things that disrupt your daily rhythms and routines—like not getting enough sleep, traveling across time zones, and switches in the clock from standard time to daylight savings time. These are things that mess with your routine schedules and circadian rhythms.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak: And can you talk a little bit about lifespan triggers? Is there a particular age where the prevalence is more common? Is there a particular time period? Are there certain changes that happen in life where you might see more quiescence of these symptoms? Can you talk across the lifespan about where you see bipolar diagnoses emerging more commonly?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Swartz : The average age of onset of bipolar disorder is late adolescence or early adulthood—so somewhere in the late teens to early twenties is the most common age at which these illnesses emerge.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "I'm an adult psychiatrist, not a child and adolescent psychiatrist, but my colleagues who specialize in the care of children do diagnose kids, and certainly adolescents.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "We also see it persisting throughout the lifespan. This is a chronic, recurrent illness, so it does not go away. It might look a little bit different depending on one's circumstances.",
+        "We do know that for women, hormonal transitions are periods where worsening of mood symptoms or vulnerability is not uncommon—especially in the postpartum period and the menopausal transition. Those seem to be periods of risk. But this is a lifespan illness, and individuals with bipolar disorder, once diagnosed, continue to be at risk chronically.",
+        "Pathak : So let's talk now about treatment options. You mentioned that treatment is going to be different for unipolar depression versus bipolar disorder. So talk to us a little bit about how you approach treatment in a step-by-step way."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "We also see it persisting throughout the lifespan. This is a chronic, recurrent illness, so it does not go away. It might look a little bit different depending on one's circumstances.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "We do know that for women, hormonal transitions are periods where worsening of mood symptoms or vulnerability is not uncommon—especially in the postpartum period and the menopausal transition. Those seem to be periods of risk. But this is a lifespan illness, and individuals with bipolar disorder, once diagnosed, continue to be at risk chronically.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak : So let's talk now about treatment options. You mentioned that treatment is going to be different for unipolar depression versus bipolar disorder. So talk to us a little bit about how you approach treatment in a step-by-step way.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Swartz",
+      "content": [
+        ": The mainstay of treatment for bipolar disorder is what we call mood stabilizers. The idea is we want to help people stay stable from below and above. We want to prevent depressive episodes and prevent manic or hypomanic episodes. So we want something that ideally targets both poles of the disorder."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": The mainstay of treatment for bipolar disorder is what we call mood stabilizers. The idea is we want to help people stay stable from below and above. We want to prevent depressive episodes and prevent manic or hypomanic episodes. So we want something that ideally targets both poles of the disorder.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "The gold standard for bipolar disorder is lithium. Lithium is a treatment that was discovered in the 1950s and continues to be our first-line treatment for both bipolar I and bipolar II disorder because it has both antidepressant and anti-manic effects. Some people do really well with lithium alone, and that’s always actually a good prognosis.",
+        "There are also a whole host of other medications that we can use to stabilize mood. One that is often thought of as a second-line treatment is valproic acid. That is a medication that has been shown particularly to have anti-manic properties and, to some extent, antidepressant properties.",
+        "There are growing concerns about using valproic acid, especially in women of childbearing years. It has significant teratogenicity—it is not safe to use in pregnancy. There's also emerging evidence that it can reduce male fertility and result in abnormalities in the offspring of men who are taking valproic acid. So there is growing reluctance, honestly, to use valproate as new data emerges about safety concerns. But from an efficacy standpoint, it does work."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The gold standard for bipolar disorder is lithium. Lithium is a treatment that was discovered in the 1950s and continues to be our first-line treatment for both bipolar I and bipolar II disorder because it has both antidepressant and anti-manic effects. Some people do really well with lithium alone, and that’s always actually a good prognosis.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "There are also a whole host of other medications that we can use to stabilize mood. One that is often thought of as a second-line treatment is valproic acid. That is a medication that has been shown particularly to have anti-manic properties and, to some extent, antidepressant properties.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "There are growing concerns about using valproic acid, especially in women of childbearing years. It has significant teratogenicity—it is not safe to use in pregnancy. There's also emerging evidence that it can reduce male fertility and result in abnormalities in the offspring of men who are taking valproic acid. So there is growing reluctance, honestly, to use valproate as new data emerges about safety concerns. But from an efficacy standpoint, it does work.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "The next category of medications we often use are what are technically called second-generation antipsychotics. Not everybody with bipolar disorder has psychosis—some people do—but these medications also have mood-stabilizing properties.",
+        "These include medicines like aripiprazole, quetiapine, lurasidone, cariprazine, and lumateperone. There are many on the market. The tricky thing about these atypical antipsychotics is that some have been well tested in mania, some in depression, and a few in maintenance strategies. So there’s a bit of shuffling or calculating that we do depending on the predominant mood polarity—whether someone is mostly manic, mostly depressed, or in a depressive episode. That might guide us in selecting one or another of those compounds based on the evidence supporting their efficacy in a specific mood state."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The next category of medications we often use are what are technically called second-generation antipsychotics. Not everybody with bipolar disorder has psychosis—some people do—but these medications also have mood-stabilizing properties.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "These include medicines like aripiprazole, quetiapine, lurasidone, cariprazine, and lumateperone. There are many on the market. The tricky thing about these atypical antipsychotics is that some have been well tested in mania, some in depression, and a few in maintenance strategies. So there’s a bit of shuffling or calculating that we do depending on the predominant mood polarity—whether someone is mostly manic, mostly depressed, or in a depressive episode. That might guide us in selecting one or another of those compounds based on the evidence supporting their efficacy in a specific mood state.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Pathak",
+      "content": [
+        ": I'd love to then go back to how we opened our conversation—really talking about your work with interpersonal and social rhythm therapy. Can you talk a little bit about how that works? What are you really targeting? What are you doing? And I imagine you're using this approach in conjunction with medications."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": I'd love to then go back to how we opened our conversation—really talking about your work with interpersonal and social rhythm therapy. Can you talk a little bit about how that works? What are you really targeting? What are you doing? And I imagine you're using this approach in conjunction with medications.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Swartz",
+      "content": [
+        ": Yes, we're typically using it in conjunction with medication. Medications are really important—they can help people and improve outcomes. But the truth is, even with the best treatment available, over a few years—two to three years—upwards of 40% of people still have syndromal mood episodes despite good treatment. Even individuals who don’t have full-on episodes can have subthreshold mood symptoms during inter-episode periods.",
+        "So, medication is hugely important, and I don’t want to dismiss its importance. But it doesn’t solve all the problems associated with bipolar disorder. It doesn’t allow for complete stability of mood, nor does it address the environmental contexts that can precipitate mood episodes or the fallout from mood episodes.",
+        "I’m really interested in the role of bipolar-specific psychotherapies—to hasten recovery from episodes, help prevent recurrences, and address the psychological and psychosocial sequelae of the illness. The area that I’ve been working in, as you mentioned, is interpersonal and social rhythm therapy, which is one of a few evidence-based treatments for bipolar disorder."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": Yes, we're typically using it in conjunction with medication. Medications are really important—they can help people and improve outcomes. But the truth is, even with the best treatment available, over a few years—two to three years—upwards of 40% of people still have syndromal mood episodes despite good treatment. Even individuals who don’t have full-on episodes can have subthreshold mood symptoms during inter-episode periods.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So, medication is hugely important, and I don’t want to dismiss its importance. But it doesn’t solve all the problems associated with bipolar disorder. It doesn’t allow for complete stability of mood, nor does it address the environmental contexts that can precipitate mood episodes or the fallout from mood episodes.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "I’m really interested in the role of bipolar-specific psychotherapies—to hasten recovery from episodes, help prevent recurrences, and address the psychological and psychosocial sequelae of the illness. The area that I’ve been working in, as you mentioned, is interpersonal and social rhythm therapy, which is one of a few evidence-based treatments for bipolar disorder.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "This therapy has two components—an interpersonal component and a social rhythm therapy component, which directly targets the circadian system.",
+        "Pathak : So talk to us a little bit about what this entails. What would a session look like with regard to this type of therapy?",
+        "Swartz : So, the interpersonal therapy part of it actually is a treatment that's also used for unipolar depression and has very good evidence as a treatment for unipolar depression. And we sort of import that more or less wholesale for bipolar disorder, often using that to target the depressive phase of the disorder.",
+        "The social rhythm therapy part of it, I think, is what's novel. It's a behavioral intervention that helps people develop regular daily routines in order to stabilize circadian dysregulation. And so, it's very focused on monitoring and modifying schedules and routines. We pay a lot of attention to the sleep-wake cycle, which is a really important circadian rhythm, helping people learn to get up at the same time every day, even on the weekends."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "This therapy has two components—an interpersonal component and a social rhythm therapy component, which directly targets the circadian system.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak : So talk to us a little bit about what this entails. What would a session look like with regard to this type of therapy?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Swartz : So, the interpersonal therapy part of it actually is a treatment that's also used for unipolar depression and has very good evidence as a treatment for unipolar depression. And we sort of import that more or less wholesale for bipolar disorder, often using that to target the depressive phase of the disorder.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The social rhythm therapy part of it, I think, is what's novel. It's a behavioral intervention that helps people develop regular daily routines in order to stabilize circadian dysregulation. And so, it's very focused on monitoring and modifying schedules and routines. We pay a lot of attention to the sleep-wake cycle, which is a really important circadian rhythm, helping people learn to get up at the same time every day, even on the weekends.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Also, to go to bed at the same time every day. But we also focus on other important circadian inputs—for instance, mealtimes, which have an important feedback mechanism to the brain where the main body clock is located. So, it's located in the central part of the brain, the suprachiasmatic nucleus.",
+        "So, regulating mealtimes, but also regulating things like the time that you start your daily activities, the time that you have contact with people. And so, we monitor a bunch of dimensions and routines, help people see the relationship between regularity or irregularity of routines and daily mood and energy ratings, and then work with them systematically to improve the regularity of those routines, which is associated with, you know, better mood and better outcomes.",
+        "Pathak : Really, really interesting. So, are there many trained therapists that are accessible to people with bipolar disorder who practice this type of treatment approach?",
+        "Swartz : We're doing our best. We do have an online free training website. It's IPSRT.org . It's free to anybody, and a lot of people have accessed that. I recently published a book called The Social Rhythm Therapy Workbook for Bipolar Disorders. That was partly because I wanted to have a way of getting this out to people who couldn't access a therapist."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Also, to go to bed at the same time every day. But we also focus on other important circadian inputs—for instance, mealtimes, which have an important feedback mechanism to the brain where the main body clock is located. So, it's located in the central part of the brain, the suprachiasmatic nucleus.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So, regulating mealtimes, but also regulating things like the time that you start your daily activities, the time that you have contact with people. And so, we monitor a bunch of dimensions and routines, help people see the relationship between regularity or irregularity of routines and daily mood and energy ratings, and then work with them systematically to improve the regularity of those routines, which is associated with, you know, better mood and better outcomes.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak : Really, really interesting. So, are there many trained therapists that are accessible to people with bipolar disorder who practice this type of treatment approach?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Swartz : We're doing our best. We do have an online free training website. It's IPSRT.org . It's free to anybody, and a lot of people have accessed that. I recently published a book called The Social Rhythm Therapy Workbook for Bipolar Disorders. That was partly because I wanted to have a way of getting this out to people who couldn't access a therapist.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "So, it's completely self-guided. People can go through the exercises that allow them to monitor and modify their daily routines. They can do it by themselves, or they can use it with a therapist. It's being used in both ways. And we're working hard to train and certify therapists, but it's not easy.",
+        "I, you know—it's a big world out there, but we're doing our best.",
+        "Pathak : Yeah, that's really helpful. And I think we'll make sure that the link to the website you mentioned is in our show notes as well so people can access it there.",
+        "I mentioned that I'm in primary care and do a lot of work in lifestyle medicine. Thinking about your upcoming conference, the American Psychiatric Association is going to have a big focus on lifestyle psychiatry."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "So, it's completely self-guided. People can go through the exercises that allow them to monitor and modify their daily routines. They can do it by themselves, or they can use it with a therapist. It's being used in both ways. And we're working hard to train and certify therapists, but it's not easy.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "I, you know—it's a big world out there, but we're doing our best.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak : Yeah, that's really helpful. And I think we'll make sure that the link to the website you mentioned is in our show notes as well so people can access it there.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "I mentioned that I'm in primary care and do a lot of work in lifestyle medicine. Thinking about your upcoming conference, the American Psychiatric Association is going to have a big focus on lifestyle psychiatry.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "You mentioned regular mealtimes. Is there also any evidence or data around types of meals, types of foods, or types of physical activity that have been shown to be helpful and beneficial?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "You mentioned regular mealtimes. Is there also any evidence or data around types of meals, types of foods, or types of physical activity that have been shown to be helpful and beneficial?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Swartz",
+      "content": [
+        ": Yeah, I will answer that question, but I just want to take a moment to mention that circadian dysregulation, as I'm sure you know, has been implicated in a host of medical conditions—obesity, other diseases associated with metabolic dysregulation, migraines, cancer. These kinds of lifestyle changes that promote regularity of routines to stabilize circadian rhythms may have applications in a host of medical conditions as well.",
+        "In terms of specific lifestyle recommendations for bipolar disorder, there's no specific lifestyle strategy that has enough data at this point to fully recommend it. I will say there's some really interesting emerging data on ketogenic diets. There have been a bunch of studies published with some pilot data showing preliminary signals for efficacy.",
+        "You know, it's a hard diet to really adhere to, but there are a bunch of randomized trials underway to see if that might be a strategy for stabilizing mood. I think this is a disorder that's associated with metabolic dysregulation—both related to the medications that we prescribe as well as in medication-naïve individuals, who have elevated pro-inflammatory markers."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": Yeah, I will answer that question, but I just want to take a moment to mention that circadian dysregulation, as I'm sure you know, has been implicated in a host of medical conditions—obesity, other diseases associated with metabolic dysregulation, migraines, cancer. These kinds of lifestyle changes that promote regularity of routines to stabilize circadian rhythms may have applications in a host of medical conditions as well.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In terms of specific lifestyle recommendations for bipolar disorder, there's no specific lifestyle strategy that has enough data at this point to fully recommend it. I will say there's some really interesting emerging data on ketogenic diets. There have been a bunch of studies published with some pilot data showing preliminary signals for efficacy.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You know, it's a hard diet to really adhere to, but there are a bunch of randomized trials underway to see if that might be a strategy for stabilizing mood. I think this is a disorder that's associated with metabolic dysregulation—both related to the medications that we prescribe as well as in medication-naïve individuals, who have elevated pro-inflammatory markers.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "And so, diets that have been shown to reduce inflammation more generally—so, a Mediterranean-style diet is part of general recommendations. We have a set of recommendations that we can, I think, with confidence, make to our folks with bipolar disorder.",
+        "And the same thing applies to exercise, which helps with weight management and also inflammatory conditions. Any exercise you're going to do is probably going to be helpful. From a circadian standpoint, we'd probably recommend doing it at the same time every day if possible because that's an important signal to the brain. But I think whatever people can do to help promote living a generally healthy lifestyle is likely to also help mitigate some of the risk factors in bipolar disorder.",
+        "Pathak : How do you involve others in the social rhythm piece of this? In terms of if you're a loved one providing support, can you talk a little bit about that piece?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "And so, diets that have been shown to reduce inflammation more generally—so, a Mediterranean-style diet is part of general recommendations. We have a set of recommendations that we can, I think, with confidence, make to our folks with bipolar disorder.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And the same thing applies to exercise, which helps with weight management and also inflammatory conditions. Any exercise you're going to do is probably going to be helpful. From a circadian standpoint, we'd probably recommend doing it at the same time every day if possible because that's an important signal to the brain. But I think whatever people can do to help promote living a generally healthy lifestyle is likely to also help mitigate some of the risk factors in bipolar disorder.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak : How do you involve others in the social rhythm piece of this? In terms of if you're a loved one providing support, can you talk a little bit about that piece?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Swartz",
+      "content": [
+        ": Humans are social creatures, so people matter, right? From a physiological standpoint, contact and connections with people matter. From a social support standpoint, this is an illness that can be tough to manage, and having social supports around you to help when you're having an episode, stay on a regular schedule, or take your medications—these are all things that can really help people live well with bipolar disorder."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": Humans are social creatures, so people matter, right? From a physiological standpoint, contact and connections with people matter. From a social support standpoint, this is an illness that can be tough to manage, and having social supports around you to help when you're having an episode, stay on a regular schedule, or take your medications—these are all things that can really help people live well with bipolar disorder.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "There's a big advocacy community out there. The Depression and Bipolar Support Alliance is probably the biggest and most prominent one in the United States. They run support groups, online support groups. They have a lot of information available for caregivers of individuals with bipolar disorder, as well as for individuals living with bipolar disorder.",
+        "I've had the opportunity recently to work as a scientific advisor on a film, a documentary that's being produced about bipolar disorder. It's called Brainstorm: The Film. That should be out within the year, and there's actually a 16-minute short version of it that's online. It really explores the experience of individuals living with bipolar disorder, the challenges they face, and the strategies they use to manage their illness—including, as you suggest, invoking social support.",
+        "So, I think there's a lot of information out there, and it's really important for caregivers and individuals living with bipolar disorder to access those support networks—not only to reduce stigma, which is critically important but also to help people manage the illness and spread the word about available resources."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "There's a big advocacy community out there. The Depression and Bipolar Support Alliance is probably the biggest and most prominent one in the United States. They run support groups, online support groups. They have a lot of information available for caregivers of individuals with bipolar disorder, as well as for individuals living with bipolar disorder.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "I've had the opportunity recently to work as a scientific advisor on a film, a documentary that's being produced about bipolar disorder. It's called Brainstorm: The Film. That should be out within the year, and there's actually a 16-minute short version of it that's online. It really explores the experience of individuals living with bipolar disorder, the challenges they face, and the strategies they use to manage their illness—including, as you suggest, invoking social support.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So, I think there's a lot of information out there, and it's really important for caregivers and individuals living with bipolar disorder to access those support networks—not only to reduce stigma, which is critically important but also to help people manage the illness and spread the word about available resources.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Pathak",
+      "content": [
+        ": Can you give us some advice for someone who's newly diagnosed with bipolar disorder? In terms of prognosis and living with the condition, what do you want to make sure our audience understands? Something that might help them have that next conversation with their healthcare provider about moving along in this journey?",
+        "How should someone be thinking about their life moving forward with bipolar disorder?",
+        "Swartz : That's a great question. I mean, I think it's a process. When any of us get a diagnosis of a chronic medical condition, it's going to require some adaptation to optimize our interaction with the medical system and engage in treatment that promotes wellness."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": Can you give us some advice for someone who's newly diagnosed with bipolar disorder? In terms of prognosis and living with the condition, what do you want to make sure our audience understands? Something that might help them have that next conversation with their healthcare provider about moving along in this journey?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "How should someone be thinking about their life moving forward with bipolar disorder?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Swartz : That's a great question. I mean, I think it's a process. When any of us get a diagnosis of a chronic medical condition, it's going to require some adaptation to optimize our interaction with the medical system and engage in treatment that promotes wellness.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "But I think the message I like to give is that this is a disorder that can be managed, that there are lots of people out there living well with bipolar disorder, and that there are many supports available to help people through this journey.",
+        "I think it's quite helpful to advocate for yourself and educate yourself. There are a lot of resources out there. A good starting point, as I mentioned, is DBSA, the Depression and Bipolar Support Alliance, for folks who are new."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "But I think the message I like to give is that this is a disorder that can be managed, that there are lots of people out there living well with bipolar disorder, and that there are many supports available to help people through this journey.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "I think it's quite helpful to advocate for yourself and educate yourself. There are a lot of resources out there. A good starting point, as I mentioned, is DBSA, the Depression and Bipolar Support Alliance, for folks who are new.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "And, more broadly, I think this is really a message for care providers as well. This is a collaborative journey, and there's no one-size-fits-all treatment. Sometimes it takes a couple of different tries to get something that works and is tolerable. Patients should expect—and providers should facilitate—a collaborative process to find a regimen that works.",
+        "Pathak : Thank you again so much for being with us today. I really appreciate you and am thankful for our conversation.",
+        "Swartz : Thank you for inviting me.",
+        "Pathak : There are so many valuable takeaways in our discussion with Dr Swartz. She guided us through a nuanced look into bipolar disorder, where mood swings aren’t just ups and downs but can be signs of either hypomania or full mania.",
+        "We explored how stress, disrupted routines, and even seasonal time changes might trigger or exacerbate symptoms. We learned why catching the unique flags of a manic episode—like a decreased need for sleep, risk-taking behaviors, and racing thoughts—is key to getting the right treatment, especially since many people are initially diagnosed with unipolar depression or simply major depressive disorder."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "And, more broadly, I think this is really a message for care providers as well. This is a collaborative journey, and there's no one-size-fits-all treatment. Sometimes it takes a couple of different tries to get something that works and is tolerable. Patients should expect—and providers should facilitate—a collaborative process to find a regimen that works.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak : Thank you again so much for being with us today. I really appreciate you and am thankful for our conversation.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Swartz : Thank you for inviting me.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak : There are so many valuable takeaways in our discussion with Dr Swartz. She guided us through a nuanced look into bipolar disorder, where mood swings aren’t just ups and downs but can be signs of either hypomania or full mania.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "We explored how stress, disrupted routines, and even seasonal time changes might trigger or exacerbate symptoms. We learned why catching the unique flags of a manic episode—like a decreased need for sleep, risk-taking behaviors, and racing thoughts—is key to getting the right treatment, especially since many people are initially diagnosed with unipolar depression or simply major depressive disorder.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "We also uncovered the powerful role that stable daily rhythms can play in maintaining mood balance. Consistent wake and sleep times, regular meal times, and mindful attention to how social interactions shape our day can all work alongside medication to help keep symptoms in check.",
+        "Above all, we discovered that although bipolar disorder is chronic and long-term, it’s manageable with the right combination of therapies, routines, and open dialogue between a patient and their provider. If any part of today’s conversation resonated with you or someone you love, remember, there are effective treatments and support networks that can make a real difference in day-to-day life."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "We also uncovered the powerful role that stable daily rhythms can play in maintaining mood balance. Consistent wake and sleep times, regular meal times, and mindful attention to how social interactions shape our day can all work alongside medication to help keep symptoms in check.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Above all, we discovered that although bipolar disorder is chronic and long-term, it’s manageable with the right combination of therapies, routines, and open dialogue between a patient and their provider. If any part of today’s conversation resonated with you or someone you love, remember, there are effective treatments and support networks that can make a real difference in day-to-day life.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "To find out more about Dr Holly Swartz, make sure to check out our show notes, where we’ll have a link to ISBD.org and IPSRT.org for more information about interpersonal and social rhythm therapy.",
+        "Thank you so much for listening. Please take a moment to follow, rate, and review this podcast on your favorite listening platform. If you’d like to send me an email about topics you’re interested in or questions for future guests, please send me a note at [email protected] ."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "To find out more about Dr Holly Swartz, make sure to check out our show notes, where we’ll have a link to ISBD.org and IPSRT.org for more information about interpersonal and social rhythm therapy.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Thank you so much for listening. Please take a moment to follow, rate, and review this podcast on your favorite listening platform. If you’d like to send me an email about topics you’re interested in or questions for future guests, please send me a note at [email protected] .",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "This is Dr Neha Pathak for the WebMD Health Discovered podcast."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "This is Dr Neha Pathak for the WebMD Health Discovered podcast.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": null,
+      "bullets": null,
+      "content_blocks": []
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/podcasts/podcast-toc-thumbnails/template_website_holly_swartz.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "Every year on March 30th, World Bipolar Day shines a light on bipolar disorder, a condition often misunderstood. But what exactly is bipolar disorder, and how does it differ from unipolar depression? We spoke with Holly A. Swartz, MD, professor of psychiatry and president of the International Society for Bipolar Disorders, to break it all down. She explains the hallmark signs of mania and hypomania, how stressors can trigger episodes, and the latest treatment options, including therapy and medication. Plus, we explore the powerful impact of stable daily rhythms in managing mood and fostering long-term well-being.",
+  "canonical_url": "https://www.webmd.com/podcasts/20250320/breaking-down-bipolar-disorder-signs-triggers-treatments",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:36:09.810001Z"
+}

@@ -1,0 +1,965 @@
+{
+  "url": "https://www.webmd.com/epilepsy/electroencephalogram-eeg",
+  "title": "What Is an EEG (Electroencephalogram) Test?",
+  "slug": "electroencephalogram-eeg",
+  "published_date": "2023-12-18",
+  "first_letter": "E",
+  "author": "Stephanie Watson",
+  "medically_reviewed_by": "Jabeen  Begum, MD",
+  "read_time": "7 min read",
+  "sections": [
+    {
+      "heading": "What Is an EEG (Electroencephalogram)?",
+      "content": [
+        "An EEG, or electroencephalogram, is a test that records the electrical signals of the brain by using small metal discs (called electrodes) that are attached to your scalp. Your brain cells communicate with each other using electrical impulses. They’re always working, even if you’re asleep. That brain activity will show up on the recording as wavy lines. It’s a snapshot in time of the electrical activity in your brain.",
+        "What’s an EEG machine?",
+        "An EEG machine records the electrical signals sent from the electrodes attached to your scalp. It boosts those signals and displays them as a graph on a screen or a piece of paper so your doctor can read them.",
+        "An EEG provides a snapshot of the electrical activity in your brain. (Photo credit: E+/Getty Images)"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "An EEG, or electroencephalogram, is a test that records the electrical signals of the brain by using small metal discs (called electrodes) that are attached to your scalp. Your brain cells communicate with each other using electrical impulses. They’re always working, even if you’re asleep. That brain activity will show up on the recording as wavy lines. It’s a snapshot in time of the electrical activity in your brain.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "What’s an EEG machine?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "An EEG machine records the electrical signals sent from the electrodes attached to your scalp. It boosts those signals and displays them as a graph on a screen or a piece of paper so your doctor can read them.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "An EEG provides a snapshot of the electrical activity in your brain. (Photo credit: E+/Getty Images)",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "EEG Uses",
+      "content": [
+        "Doctors use this test to diagnose epilepsy and other brain conditions, brain injuries , and sleep disorders. Seizures cause spikes on the EEG graph. Brain tumors or a stroke make the waves slower than usual.",
+        "EEG is also used to find the cause of symptoms like memory loss and fainting. And it can show the brain activity of someone who's in a coma."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Doctors use this test to diagnose epilepsy and other brain conditions, brain injuries , and sleep disorders. Seizures cause spikes on the EEG graph. Brain tumors or a stroke make the waves slower than usual.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "EEG is also used to find the cause of symptoms like memory loss and fainting. And it can show the brain activity of someone who's in a coma.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "10 conditions diagnosed with an EEG",
+      "content": [
+        "EEG helps doctors diagnose these 10 conditions:"
+      ],
+      "bullets": [
+        "Alzheimer’s disease and other types of dementia",
+        "Brain injuries",
+        "Creutzfeldt-Jakob disease, a brain disorder that gets worse over time",
+        "Drug overuse",
+        "Epilepsy",
+        "Infections like encephalitis",
+        "Psychosis, a severe mental illness",
+        "Sleep disorders such as sleep apnea",
+        "Stroke",
+        "Tumor"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "EEG helps doctors diagnose these 10 conditions:",
+          "associated_bullets": [
+            "Alzheimer’s disease and other types of dementia",
+            "Brain injuries",
+            "Creutzfeldt-Jakob disease, a brain disorder that gets worse over time",
+            "Drug overuse",
+            "Epilepsy",
+            "Infections like encephalitis",
+            "Psychosis, a severe mental illness",
+            "Sleep disorders such as sleep apnea",
+            "Stroke",
+            "Tumor"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Types of EEG Tests",
+      "content": [
+        "You can have an EEG in a few different ways.",
+        "Routine EEG",
+        "Doctors often use this kind of EEG to diagnose epilepsy. A routine test takes 20 to 40 minutes. During that time, your doctor might ask you to open or close your eyes, breathe deeply in and out, or look at a flashing light.",
+        "Prolonged EEG",
+        "This test is longer than a routine EEG, but it gives your doctor more information about your seizures . A prolonged EEG takes 1 to 2 hours. Some types last for days.",
+        "Ambulatory EEG",
+        "You do this test at home over 1 to 3 days. The electrodes attach to a portable EEG monitor that you clip to your clothes. The machine records your brain wave patterns while you do your normal activities."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "You can have an EEG in a few different ways.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Routine EEG",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Doctors often use this kind of EEG to diagnose epilepsy. A routine test takes 20 to 40 minutes. During that time, your doctor might ask you to open or close your eyes, breathe deeply in and out, or look at a flashing light.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Prolonged EEG",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "This test is longer than a routine EEG, but it gives your doctor more information about your seizures . A prolonged EEG takes 1 to 2 hours. Some types last for days.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Ambulatory EEG",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You do this test at home over 1 to 3 days. The electrodes attach to a portable EEG monitor that you clip to your clothes. The machine records your brain wave patterns while you do your normal activities.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Is an EEG (Electroencephalogram)?",
+      "content": [
+        "An EEG, or electroencephalogram, is a test that records the electrical signals of the brain by using small metal discs (called electrodes) that are attached to your scalp. Your brain cells communicate with each other using electrical impulses. They’re always working, even if you’re asleep. That brain activity will show up on the recording as wavy lines. It’s a snapshot in time of the electrical activity in your brain.",
+        "What’s an EEG machine?",
+        "An EEG machine records the electrical signals sent from the electrodes attached to your scalp. It boosts those signals and displays them as a graph on a screen or a piece of paper so your doctor can read them.",
+        "An EEG provides a snapshot of the electrical activity in your brain. (Photo credit: E+/Getty Images)"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "An EEG, or electroencephalogram, is a test that records the electrical signals of the brain by using small metal discs (called electrodes) that are attached to your scalp. Your brain cells communicate with each other using electrical impulses. They’re always working, even if you’re asleep. That brain activity will show up on the recording as wavy lines. It’s a snapshot in time of the electrical activity in your brain.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "What’s an EEG machine?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "An EEG machine records the electrical signals sent from the electrodes attached to your scalp. It boosts those signals and displays them as a graph on a screen or a piece of paper so your doctor can read them.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "An EEG provides a snapshot of the electrical activity in your brain. (Photo credit: E+/Getty Images)",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "EEG Uses",
+      "content": [
+        "Doctors use this test to diagnose epilepsy and other brain conditions, brain injuries , and sleep disorders. Seizures cause spikes on the EEG graph. Brain tumors or a stroke make the waves slower than usual.",
+        "EEG is also used to find the cause of symptoms like memory loss and fainting. And it can show the brain activity of someone who's in a coma."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Doctors use this test to diagnose epilepsy and other brain conditions, brain injuries , and sleep disorders. Seizures cause spikes on the EEG graph. Brain tumors or a stroke make the waves slower than usual.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "EEG is also used to find the cause of symptoms like memory loss and fainting. And it can show the brain activity of someone who's in a coma.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "EEG helps doctors diagnose these 10 conditions:"
+      ],
+      "bullets": [
+        "Alzheimer’s disease and other types of dementia",
+        "Brain injuries",
+        "Creutzfeldt-Jakob disease, a brain disorder that gets worse over time",
+        "Drug overuse",
+        "Epilepsy",
+        "Infections like encephalitis",
+        "Psychosis, a severe mental illness",
+        "Sleep disorders such as sleep apnea",
+        "Stroke",
+        "Tumor"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "EEG helps doctors diagnose these 10 conditions:",
+          "associated_bullets": [
+            "Alzheimer’s disease and other types of dementia",
+            "Brain injuries",
+            "Creutzfeldt-Jakob disease, a brain disorder that gets worse over time",
+            "Drug overuse",
+            "Epilepsy",
+            "Infections like encephalitis",
+            "Psychosis, a severe mental illness",
+            "Sleep disorders such as sleep apnea",
+            "Stroke",
+            "Tumor"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Types of EEG Tests",
+      "content": [
+        "You can have an EEG in a few different ways.",
+        "Routine EEG",
+        "Doctors often use this kind of EEG to diagnose epilepsy. A routine test takes 20 to 40 minutes. During that time, your doctor might ask you to open or close your eyes, breathe deeply in and out, or look at a flashing light.",
+        "Prolonged EEG",
+        "This test is longer than a routine EEG, but it gives your doctor more information about your seizures . A prolonged EEG takes 1 to 2 hours. Some types last for days.",
+        "Ambulatory EEG",
+        "You do this test at home over 1 to 3 days. The electrodes attach to a portable EEG monitor that you clip to your clothes. The machine records your brain wave patterns while you do your normal activities."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "You can have an EEG in a few different ways.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Routine EEG",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Doctors often use this kind of EEG to diagnose epilepsy. A routine test takes 20 to 40 minutes. During that time, your doctor might ask you to open or close your eyes, breathe deeply in and out, or look at a flashing light.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Prolonged EEG",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "This test is longer than a routine EEG, but it gives your doctor more information about your seizures . A prolonged EEG takes 1 to 2 hours. Some types last for days.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Ambulatory EEG",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You do this test at home over 1 to 3 days. The electrodes attach to a portable EEG monitor that you clip to your clothes. The machine records your brain wave patterns while you do your normal activities.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Video EEG",
+      "content": [
+        "You have this test in a hospital over a few days. The medical staff take a video of you while the test records your brain activity. The video shows your doctor what happens to your body during a seizure or other brain event. Doctors sometimes call this test EEG monitoring or EEG telemetry.",
+        "Sleep EEG",
+        "A sleep EEG diagnoses sleep disorders . Your doctor might order this test if a routine EEG didn’t offer enough information about your condition. You have a sleep EEG while you're asleep. It picks up the types of brain activity that only happen while you're sleeping."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "You have this test in a hospital over a few days. The medical staff take a video of you while the test records your brain activity. The video shows your doctor what happens to your body during a seizure or other brain event. Doctors sometimes call this test EEG monitoring or EEG telemetry.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Sleep EEG",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "A sleep EEG diagnoses sleep disorders . Your doctor might order this test if a routine EEG didn’t offer enough information about your condition. You have a sleep EEG while you're asleep. It picks up the types of brain activity that only happen while you're sleeping.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "EEG Risks",
+      "content": [
+        "EEGs are safe. If you have a medical condition, talk with the doctor about it before your test.",
+        "If you have a seizure disorder, there’s a slight risk that the flashing lights and deep breathing of the EEG could bring on a seizure. This is rare. A medical team will be on hand to treat you immediately if this happens."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "EEGs are safe. If you have a medical condition, talk with the doctor about it before your test.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If you have a seizure disorder, there’s a slight risk that the flashing lights and deep breathing of the EEG could bring on a seizure. This is rare. A medical team will be on hand to treat you immediately if this happens.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "In other cases, a doctor may trigger a seizure during the test to get a reading. Medical staff will be on hand so the situation is closely monitored.",
+        "Things that could interfere with an EEG reading",
+        "Your doctor will tell you what to avoid before or during this test. A few things can affect the EEG results or make them harder to read, including:"
+      ],
+      "bullets": [
+        "Bright or flashing lights",
+        "Caffeine from drinks like coffee, tea, soda, and energy drinks",
+        "Low blood sugar if you haven't eaten",
+        "Medicines such as sedatives",
+        "Oil or spray in your hair"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "In other cases, a doctor may trigger a seizure during the test to get a reading. Medical staff will be on hand so the situation is closely monitored.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Things that could interfere with an EEG reading",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Your doctor will tell you what to avoid before or during this test. A few things can affect the EEG results or make them harder to read, including:",
+          "associated_bullets": [
+            "Bright or flashing lights",
+            "Caffeine from drinks like coffee, tea, soda, and energy drinks",
+            "Low blood sugar if you haven't eaten",
+            "Medicines such as sedatives",
+            "Oil or spray in your hair"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Preparing for EEG",
+      "content": [
+        "There are some things you should do to prepare for EEG:"
+      ],
+      "bullets": [
+        "Don’t eat or drink anything with caffeine for 8 hours before the test.",
+        "Your doctor may give you instructions on how much to sleep if you’re expected to sleep during the test.",
+        "Eat normally the night before and day of the procedure. Low blood sugar could mean abnormal results.",
+        "Let your doctor know about any medications -- both prescription and over-the-counter -- and supplements that you're taking.",
+        "Wash your hair the night before the test. Don't use any leave-in conditioning or styling products afterward. If you are wearing extensions that use glue, remove them."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "There are some things you should do to prepare for EEG:",
+          "associated_bullets": [
+            "Don’t eat or drink anything with caffeine for 8 hours before the test.",
+            "Your doctor may give you instructions on how much to sleep if you’re expected to sleep during the test.",
+            "Eat normally the night before and day of the procedure. Low blood sugar could mean abnormal results.",
+            "Let your doctor know about any medications -- both prescription and over-the-counter -- and supplements that you're taking.",
+            "Wash your hair the night before the test. Don't use any leave-in conditioning or styling products afterward. If you are wearing extensions that use glue, remove them."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "You have this test in a hospital over a few days. The medical staff take a video of you while the test records your brain activity. The video shows your doctor what happens to your body during a seizure or other brain event. Doctors sometimes call this test EEG monitoring or EEG telemetry.",
+        "Sleep EEG",
+        "A sleep EEG diagnoses sleep disorders . Your doctor might order this test if a routine EEG didn’t offer enough information about your condition. You have a sleep EEG while you're asleep. It picks up the types of brain activity that only happen while you're sleeping."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "You have this test in a hospital over a few days. The medical staff take a video of you while the test records your brain activity. The video shows your doctor what happens to your body during a seizure or other brain event. Doctors sometimes call this test EEG monitoring or EEG telemetry.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Sleep EEG",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "A sleep EEG diagnoses sleep disorders . Your doctor might order this test if a routine EEG didn’t offer enough information about your condition. You have a sleep EEG while you're asleep. It picks up the types of brain activity that only happen while you're sleeping.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "EEG Risks",
+      "content": [
+        "EEGs are safe. If you have a medical condition, talk with the doctor about it before your test.",
+        "If you have a seizure disorder, there’s a slight risk that the flashing lights and deep breathing of the EEG could bring on a seizure. This is rare. A medical team will be on hand to treat you immediately if this happens."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "EEGs are safe. If you have a medical condition, talk with the doctor about it before your test.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If you have a seizure disorder, there’s a slight risk that the flashing lights and deep breathing of the EEG could bring on a seizure. This is rare. A medical team will be on hand to treat you immediately if this happens.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "In other cases, a doctor may trigger a seizure during the test to get a reading. Medical staff will be on hand so the situation is closely monitored.",
+        "Things that could interfere with an EEG reading",
+        "Your doctor will tell you what to avoid before or during this test. A few things can affect the EEG results or make them harder to read, including:"
+      ],
+      "bullets": [
+        "Bright or flashing lights",
+        "Caffeine from drinks like coffee, tea, soda, and energy drinks",
+        "Low blood sugar if you haven't eaten",
+        "Medicines such as sedatives",
+        "Oil or spray in your hair"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "In other cases, a doctor may trigger a seizure during the test to get a reading. Medical staff will be on hand so the situation is closely monitored.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Things that could interfere with an EEG reading",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Your doctor will tell you what to avoid before or during this test. A few things can affect the EEG results or make them harder to read, including:",
+          "associated_bullets": [
+            "Bright or flashing lights",
+            "Caffeine from drinks like coffee, tea, soda, and energy drinks",
+            "Low blood sugar if you haven't eaten",
+            "Medicines such as sedatives",
+            "Oil or spray in your hair"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Preparing for EEG",
+      "content": [
+        "There are some things you should do to prepare for EEG:"
+      ],
+      "bullets": [
+        "Don’t eat or drink anything with caffeine for 8 hours before the test.",
+        "Your doctor may give you instructions on how much to sleep if you’re expected to sleep during the test.",
+        "Eat normally the night before and day of the procedure. Low blood sugar could mean abnormal results.",
+        "Let your doctor know about any medications -- both prescription and over-the-counter -- and supplements that you're taking.",
+        "Wash your hair the night before the test. Don't use any leave-in conditioning or styling products afterward. If you are wearing extensions that use glue, remove them."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "There are some things you should do to prepare for EEG:",
+          "associated_bullets": [
+            "Don’t eat or drink anything with caffeine for 8 hours before the test.",
+            "Your doctor may give you instructions on how much to sleep if you’re expected to sleep during the test.",
+            "Eat normally the night before and day of the procedure. Low blood sugar could mean abnormal results.",
+            "Let your doctor know about any medications -- both prescription and over-the-counter -- and supplements that you're taking.",
+            "Wash your hair the night before the test. Don't use any leave-in conditioning or styling products afterward. If you are wearing extensions that use glue, remove them."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "EEG Procedure",
+      "content": [
+        "How long does an EEG last?",
+        "A routine EEG lasts 20 to 40 minutes. A prolonged test can take more than an hour. Other tests take a whole night or a few days."
+      ],
+      "bullets": [
+        "You will lie down on the exam table or bed.",
+        "A technician puts about 20 small electrodes on your scalp with a sticky material. These sensors pick up electrical activity from your brain and send them to a machine.",
+        "Once the recording begins, the technician may ask you to lie still, open or close your eyes, breathe deeply and quickly, or stare at a flashing light to change your brainwave patterns. The test should not be uncomfortable.",
+        "Your brain activity will appear as a series of lines on paper or displayed on a computer screen.",
+        "If you have a seizure during the test, the technician will note it in your record.",
+        "The test can last for a few hours or overnight while you sleep.",
+        "For an ambulatory EEG, you'll go home with a device, which will either send the data directly back to your doctor's office or record it."
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "You will lie down on the exam table or bed.",
+            "A technician puts about 20 small electrodes on your scalp with a sticky material. These sensors pick up electrical activity from your brain and send them to a machine.",
+            "Once the recording begins, the technician may ask you to lie still, open or close your eyes, breathe deeply and quickly, or stare at a flashing light to change your brainwave patterns. The test should not be uncomfortable.",
+            "Your brain activity will appear as a series of lines on paper or displayed on a computer screen.",
+            "If you have a seizure during the test, the technician will note it in your record.",
+            "The test can last for a few hours or overnight while you sleep.",
+            "For an ambulatory EEG, you'll go home with a device, which will either send the data directly back to your doctor's office or record it."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "How long does an EEG last?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "A routine EEG lasts 20 to 40 minutes. A prolonged test can take more than an hour. Other tests take a whole night or a few days.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "After an EEG",
+      "content": [
+        "Once the EEG is finished:",
+        "Side effects",
+        "An EEG is a safe test. It causes few to no side effects.",
+        "If you had to breathe quickly during the test, you might be a little dizzy and feel some tingling in your lips and fingers afterward. Your skin may look red or irritated where the electrodes were placed. The redness should disappear in a few hours."
+      ],
+      "bullets": [
+        "The technician will remove the electrodes and wash off the glue that held them in place. You can use a little nail polish remover at home to get rid of any leftover stickiness.",
+        "Unless you're actively having seizures or your doctor says you shouldn't drive, you can drive yourself home. But if the test was done overnight, it's better to have someone else drive you.",
+        "You can usually start taking medications you stopped for the test.",
+        "A neurologist , a doctor who specializes in the brain, will look at the recording of your brain wave pattern."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Once the EEG is finished:",
+          "associated_bullets": [
+            "The technician will remove the electrodes and wash off the glue that held them in place. You can use a little nail polish remover at home to get rid of any leftover stickiness.",
+            "Unless you're actively having seizures or your doctor says you shouldn't drive, you can drive yourself home. But if the test was done overnight, it's better to have someone else drive you.",
+            "You can usually start taking medications you stopped for the test.",
+            "A neurologist , a doctor who specializes in the brain, will look at the recording of your brain wave pattern."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Side effects",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "An EEG is a safe test. It causes few to no side effects.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If you had to breathe quickly during the test, you might be a little dizzy and feel some tingling in your lips and fingers afterward. Your skin may look red or irritated where the electrodes were placed. The redness should disappear in a few hours.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "EEG Procedure",
+      "content": [
+        "How long does an EEG last?",
+        "A routine EEG lasts 20 to 40 minutes. A prolonged test can take more than an hour. Other tests take a whole night or a few days."
+      ],
+      "bullets": [
+        "You will lie down on the exam table or bed.",
+        "A technician puts about 20 small electrodes on your scalp with a sticky material. These sensors pick up electrical activity from your brain and send them to a machine.",
+        "Once the recording begins, the technician may ask you to lie still, open or close your eyes, breathe deeply and quickly, or stare at a flashing light to change your brainwave patterns. The test should not be uncomfortable.",
+        "Your brain activity will appear as a series of lines on paper or displayed on a computer screen.",
+        "If you have a seizure during the test, the technician will note it in your record.",
+        "The test can last for a few hours or overnight while you sleep.",
+        "For an ambulatory EEG, you'll go home with a device, which will either send the data directly back to your doctor's office or record it."
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "You will lie down on the exam table or bed.",
+            "A technician puts about 20 small electrodes on your scalp with a sticky material. These sensors pick up electrical activity from your brain and send them to a machine.",
+            "Once the recording begins, the technician may ask you to lie still, open or close your eyes, breathe deeply and quickly, or stare at a flashing light to change your brainwave patterns. The test should not be uncomfortable.",
+            "Your brain activity will appear as a series of lines on paper or displayed on a computer screen.",
+            "If you have a seizure during the test, the technician will note it in your record.",
+            "The test can last for a few hours or overnight while you sleep.",
+            "For an ambulatory EEG, you'll go home with a device, which will either send the data directly back to your doctor's office or record it."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "How long does an EEG last?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "A routine EEG lasts 20 to 40 minutes. A prolonged test can take more than an hour. Other tests take a whole night or a few days.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "After an EEG",
+      "content": [
+        "Once the EEG is finished:",
+        "Side effects",
+        "An EEG is a safe test. It causes few to no side effects.",
+        "If you had to breathe quickly during the test, you might be a little dizzy and feel some tingling in your lips and fingers afterward. Your skin may look red or irritated where the electrodes were placed. The redness should disappear in a few hours."
+      ],
+      "bullets": [
+        "The technician will remove the electrodes and wash off the glue that held them in place. You can use a little nail polish remover at home to get rid of any leftover stickiness.",
+        "Unless you're actively having seizures or your doctor says you shouldn't drive, you can drive yourself home. But if the test was done overnight, it's better to have someone else drive you.",
+        "You can usually start taking medications you stopped for the test.",
+        "A neurologist , a doctor who specializes in the brain, will look at the recording of your brain wave pattern."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Once the EEG is finished:",
+          "associated_bullets": [
+            "The technician will remove the electrodes and wash off the glue that held them in place. You can use a little nail polish remover at home to get rid of any leftover stickiness.",
+            "Unless you're actively having seizures or your doctor says you shouldn't drive, you can drive yourself home. But if the test was done overnight, it's better to have someone else drive you.",
+            "You can usually start taking medications you stopped for the test.",
+            "A neurologist , a doctor who specializes in the brain, will look at the recording of your brain wave pattern."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Side effects",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "An EEG is a safe test. It causes few to no side effects.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If you had to breathe quickly during the test, you might be a little dizzy and feel some tingling in your lips and fingers afterward. Your skin may look red or irritated where the electrodes were placed. The redness should disappear in a few hours.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "EEG Results",
+      "content": [
+        "A neurologist will analyze your EEG results and send them to your doctor, who will go over them with you. An EEG result looks like a series of wavy lines. It looks different if you are awake or asleep.",
+        "Normal result",
+        "The doctor will compare your pattern of brain waves against the normal pattern. A normal EEG should have a steady pattern of peaks and valleys. The waves should all be the same height, width, and speed.",
+        "A normal test doesn't rule out epilepsy. Some types of epilepsy don't show up on this test. Your doctor may do more EEGs or other tests to confirm the diagnosis.",
+        "Abnormal result",
+        "Any change to the pattern of brain waves is an abnormal result. It could be a sign of epilepsy or another brain disorder."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "A neurologist will analyze your EEG results and send them to your doctor, who will go over them with you. An EEG result looks like a series of wavy lines. It looks different if you are awake or asleep.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Normal result",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The doctor will compare your pattern of brain waves against the normal pattern. A normal EEG should have a steady pattern of peaks and valleys. The waves should all be the same height, width, and speed.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "A normal test doesn't rule out epilepsy. Some types of epilepsy don't show up on this test. Your doctor may do more EEGs or other tests to confirm the diagnosis.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Abnormal result",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Any change to the pattern of brain waves is an abnormal result. It could be a sign of epilepsy or another brain disorder.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Happens if You Have an Abnormal EEG?",
+      "content": [
+        "Many conditions can cause an abnormal EEG result, from epilepsy to sleep disorders. To narrow down the diagnosis, your doctor may order other tests like these:"
+      ],
+      "bullets": [
+        "Blood tests",
+        "Electrocardiogram",
+        "Genetic tests if you might have an inherited type of epilepsy",
+        "Magnetic resonance imaging, or MRI"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Many conditions can cause an abnormal EEG result, from epilepsy to sleep disorders. To narrow down the diagnosis, your doctor may order other tests like these:",
+          "associated_bullets": [
+            "Blood tests",
+            "Electrocardiogram",
+            "Genetic tests if you might have an inherited type of epilepsy",
+            "Magnetic resonance imaging, or MRI"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Takeaways",
+      "content": [
+        "An EEG is a test that helps your doctor diagnose brain disorders like epilepsy or a sleep disorder. You can have it in a doctor's office, a sleep lab, or at home. Your doctor will use the results of your EEG and other tests to figure out your diagnosis."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "An EEG is a test that helps your doctor diagnose brain disorders like epilepsy or a sleep disorder. You can have it in a doctor's office, a sleep lab, or at home. Your doctor will use the results of your EEG and other tests to figure out your diagnosis.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "EEG (Electroencephalogram) FAQs",
+      "content": [
+        "Is a normal EEG the same as epilepsy?",
+        "You can have a normal EEG and still have epilepsy. Because the test only records for about 20 minutes at a time, it may not catch a seizure or abnormal brain activity. You may have to repeat the test a few times to get an abnormal result.",
+        "Can an EEG detect multiple sclerosis (MS)?",
+        "Because changes in brain activity could signal damage to brain cells, EEG is a promising way to detect multiple sclerosis. But it's experimental at this point. Magnetic resonance imaging ( MRI ) is still the main test doctors use to diagnose MS.",
+        "What shouldn't you do before an EEG test?",
+        "Wash your hair the night before the test but don't use any conditioner, cream, gel, or spray. These products could make it harder for the electrodes to stick to your scalp. If you are having a sleep EEG, your doctor may tell you not to sleep or to sleep less the night before. Don't have any caffeinated products, such as cola or tea, or any nicotine before the test."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Is a normal EEG the same as epilepsy?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You can have a normal EEG and still have epilepsy. Because the test only records for about 20 minutes at a time, it may not catch a seizure or abnormal brain activity. You may have to repeat the test a few times to get an abnormal result.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Can an EEG detect multiple sclerosis (MS)?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Because changes in brain activity could signal damage to brain cells, EEG is a promising way to detect multiple sclerosis. But it's experimental at this point. Magnetic resonance imaging ( MRI ) is still the main test doctors use to diagnose MS.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "What shouldn't you do before an EEG test?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Wash your hair the night before the test but don't use any conditioner, cream, gel, or spray. These products could make it harder for the electrodes to stick to your scalp. If you are having a sleep EEG, your doctor may tell you not to sleep or to sleep less the night before. Don't have any caffeinated products, such as cola or tea, or any nicotine before the test.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "EEG Results",
+      "content": [
+        "A neurologist will analyze your EEG results and send them to your doctor, who will go over them with you. An EEG result looks like a series of wavy lines. It looks different if you are awake or asleep.",
+        "Normal result",
+        "The doctor will compare your pattern of brain waves against the normal pattern. A normal EEG should have a steady pattern of peaks and valleys. The waves should all be the same height, width, and speed.",
+        "A normal test doesn't rule out epilepsy. Some types of epilepsy don't show up on this test. Your doctor may do more EEGs or other tests to confirm the diagnosis.",
+        "Abnormal result",
+        "Any change to the pattern of brain waves is an abnormal result. It could be a sign of epilepsy or another brain disorder."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "A neurologist will analyze your EEG results and send them to your doctor, who will go over them with you. An EEG result looks like a series of wavy lines. It looks different if you are awake or asleep.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Normal result",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The doctor will compare your pattern of brain waves against the normal pattern. A normal EEG should have a steady pattern of peaks and valleys. The waves should all be the same height, width, and speed.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "A normal test doesn't rule out epilepsy. Some types of epilepsy don't show up on this test. Your doctor may do more EEGs or other tests to confirm the diagnosis.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Abnormal result",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Any change to the pattern of brain waves is an abnormal result. It could be a sign of epilepsy or another brain disorder.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Happens if You Have an Abnormal EEG?",
+      "content": [
+        "Many conditions can cause an abnormal EEG result, from epilepsy to sleep disorders. To narrow down the diagnosis, your doctor may order other tests like these:"
+      ],
+      "bullets": [
+        "Blood tests",
+        "Electrocardiogram",
+        "Genetic tests if you might have an inherited type of epilepsy",
+        "Magnetic resonance imaging, or MRI"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Many conditions can cause an abnormal EEG result, from epilepsy to sleep disorders. To narrow down the diagnosis, your doctor may order other tests like these:",
+          "associated_bullets": [
+            "Blood tests",
+            "Electrocardiogram",
+            "Genetic tests if you might have an inherited type of epilepsy",
+            "Magnetic resonance imaging, or MRI"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Takeaways",
+      "content": [
+        "An EEG is a test that helps your doctor diagnose brain disorders like epilepsy or a sleep disorder. You can have it in a doctor's office, a sleep lab, or at home. Your doctor will use the results of your EEG and other tests to figure out your diagnosis."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "An EEG is a test that helps your doctor diagnose brain disorders like epilepsy or a sleep disorder. You can have it in a doctor's office, a sleep lab, or at home. Your doctor will use the results of your EEG and other tests to figure out your diagnosis.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "EEG (Electroencephalogram) FAQs",
+      "content": [
+        "Is a normal EEG the same as epilepsy?",
+        "You can have a normal EEG and still have epilepsy. Because the test only records for about 20 minutes at a time, it may not catch a seizure or abnormal brain activity. You may have to repeat the test a few times to get an abnormal result.",
+        "Can an EEG detect multiple sclerosis (MS)?",
+        "Because changes in brain activity could signal damage to brain cells, EEG is a promising way to detect multiple sclerosis. But it's experimental at this point. Magnetic resonance imaging ( MRI ) is still the main test doctors use to diagnose MS.",
+        "What shouldn't you do before an EEG test?",
+        "Wash your hair the night before the test but don't use any conditioner, cream, gel, or spray. These products could make it harder for the electrodes to stick to your scalp. If you are having a sleep EEG, your doctor may tell you not to sleep or to sleep less the night before. Don't have any caffeinated products, such as cola or tea, or any nicotine before the test."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Is a normal EEG the same as epilepsy?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You can have a normal EEG and still have epilepsy. Because the test only records for about 20 minutes at a time, it may not catch a seizure or abnormal brain activity. You may have to repeat the test a few times to get an abnormal result.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Can an EEG detect multiple sclerosis (MS)?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Because changes in brain activity could signal damage to brain cells, EEG is a promising way to detect multiple sclerosis. But it's experimental at this point. Magnetic resonance imaging ( MRI ) is still the main test doctors use to diagnose MS.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "What shouldn't you do before an EEG test?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Wash your hair the night before the test but don't use any conditioner, cream, gel, or spray. These products could make it harder for the electrodes to stick to your scalp. If you are having a sleep EEG, your doctor may tell you not to sleep or to sleep less the night before. Don't have any caffeinated products, such as cola or tea, or any nicotine before the test.",
+          "associated_bullets": null
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/BigBead/eeg_bigbead/1800x1200_getty_rf_eeg_bigbead.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/stephanie-watson-382x382.jpg?resize=51px:51px&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/begum_jabeen_382x382.jpg?resize=51px:51px&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/BigBead/eeg_bigbead/1800x1200_getty_rf_eeg_bigbead.jpg?resize=750px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/MoreOn_MensHealth.jpg?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/epilepsy_hpt_toc_redesign/1500x1500_epilepsy_hpt_toc_chapter_1_862274756.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [
+    "Epilepsy Foundation.",
+    "Johns Hopkins Medicine: “Electroencephalogram (EEG).”",
+    "Epilepsy Society: “A Closer Look at EEG.”",
+    "USFC Benioff Children’s Hospital: “Understanding EEG Video Telemetry.”",
+    "Better Health Channel: \"EEG Test.\"",
+    "Cleveland Clinic: \"Electroencephalogram (EEG).\"",
+    "Epilepsy Action: \"Living with Epilepsy.\"",
+    "Epilepsy & Behavior Reports : \"When Should We Obtain a Routine EEG While Managing People With Epilepsy?\"",
+    "Epilepsy Society: \"EEG (Electroencephalogram).\"",
+    "Great Ormond Street Hospital for Children: \"Sleep Electroencephalogram (Sleep EEG).\"",
+    "Hilo Medical Center: \"Patient Preparation Instructions for the EEG Test.\"",
+    "Johns Hopkins Medicine: \"Electroencephalogram (EEG).\"",
+    "Mayo Clinic: \"EEG (Electroencephalogram),\" \"Multiple Sclerosis.\"",
+    "Medicine (Baltimore): \"Electroencephalographic Evidence of Gray Matter Lesions Among Multiple Sclerosis Patients.\"",
+    "NHS: \"Electroencephalogram (EEG).\"",
+    "University of Rochester Medical Center: \"Seizure Disorders and Epilepsy.\""
+  ],
+  "meta_description": "Find out what happens during an EEG, a test that records brain activity. Doctors use it to diagnose epilepsy and sleep disorders.",
+  "canonical_url": "https://www.webmd.com/epilepsy/electroencephalogram-eeg",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:14:44.181648Z"
+}

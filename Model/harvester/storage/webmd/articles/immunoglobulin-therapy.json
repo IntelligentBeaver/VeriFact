@@ -1,0 +1,742 @@
+{
+  "url": "https://www.webmd.com/a-to-z-guides/immunoglobulin-therapy",
+  "title": "Intravenous Immunoglobulin (IVIg) Treatment: What to Know",
+  "slug": "immunoglobulin-therapy",
+  "published_date": "2024-08-25",
+  "first_letter": "I",
+  "author": "Marijke Vroomen Durning, RN, Susan Bernstein",
+  "medically_reviewed_by": "Poonam  Sachdev",
+  "read_time": "6 min read",
+  "sections": [
+    {
+      "heading": "What Is IVIg?",
+      "content": [
+        "Intravenous immunoglobulin (IVIg) treatment can help you fight off infections if you have a weakened immune system or other diseases.",
+        "Some of the diseases and conditions that intravenous immunoglobulin ( IVIg ) can treat include:"
+      ],
+      "bullets": [
+        "Immune deficiencies like immune thrombocytopenia (ITP)",
+        "Kawasaki disease",
+        "Guillain -Barre syndrome",
+        "Chronic inflammatory demyelinating polyneuropathy",
+        "Lupus",
+        "Polymyositis",
+        "Neurological diseases like myasthenia gravis or multiple sclerosis",
+        "After a bone marrow transplant to prevent infections"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Intravenous immunoglobulin (IVIg) treatment can help you fight off infections if you have a weakened immune system or other diseases.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Some of the diseases and conditions that intravenous immunoglobulin ( IVIg ) can treat include:",
+          "associated_bullets": [
+            "Immune deficiencies like immune thrombocytopenia (ITP)",
+            "Kawasaki disease",
+            "Guillain -Barre syndrome",
+            "Chronic inflammatory demyelinating polyneuropathy",
+            "Lupus",
+            "Polymyositis",
+            "Neurological diseases like myasthenia gravis or multiple sclerosis",
+            "After a bone marrow transplant to prevent infections"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "What Is IVIg Used For?",
+      "content": [
+        "Some people may have IVIg instead of other medications (such as immunosuppressants, corticosteroids, or biologic drugs) to help treat their immune system disorders . In some cases, you may have IVIg along with immunosuppressants or other meds.",
+        "Your body’s immune system normally makes enough antibodies to fight germs that cause infections. But if you have an immune deficiency, your body can’t make enough of them. This puts you at greater risk of infections that could make you very sick. IVIg is made up of human antibodies that will supply your body if it’s not making its own. This will help you fight infections.",
+        "You might have IVIg treatment if you have a condition that reduces your immune system function. This treatment can help your body fight off illness. (Photo Credit: iStock/Getty Images)"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Some people may have IVIg instead of other medications (such as immunosuppressants, corticosteroids, or biologic drugs) to help treat their immune system disorders . In some cases, you may have IVIg along with immunosuppressants or other meds.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Your body’s immune system normally makes enough antibodies to fight germs that cause infections. But if you have an immune deficiency, your body can’t make enough of them. This puts you at greater risk of infections that could make you very sick. IVIg is made up of human antibodies that will supply your body if it’s not making its own. This will help you fight infections.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You might have IVIg treatment if you have a condition that reduces your immune system function. This treatment can help your body fight off illness. (Photo Credit: iStock/Getty Images)",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "IVIg therapy for lupus",
+      "content": [
+        "In autoimmune diseases like lupus , the treatment may help your body raise low red-blood-cell and platelet counts. If you don’t have enough red blood cells, you can become anemic and feel very tired. IVIg helps stop the white blood cells from destroying red blood cells . It also keeps them from destroying platelets. If you have too few platelets, which you need for your blood to clot properly, you bruise or bleed very easily.",
+        "IVIg therapy for myositis",
+        "If you have myositis, your immune system is attacking your muscles. IVIg therapy can help stop the destruction of muscle cells.",
+        "IVIg therapy for peripheral neuropathy",
+        "Peripheral neuropathy is a condition where your peripheral nerves – the nerves that aren’t in your spinal cord or brain – are damaged. This can cause weakness, numbness, tingling, and stabbing pain. It most commonly occurs in the hands and feet, but it can happen anywhere in your body. If the neuropathy is making you feel too weak to manage your everyday activities or you’re having trouble keeping your balance, your doctor might prescribe IVIg."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "In autoimmune diseases like lupus , the treatment may help your body raise low red-blood-cell and platelet counts. If you don’t have enough red blood cells, you can become anemic and feel very tired. IVIg helps stop the white blood cells from destroying red blood cells . It also keeps them from destroying platelets. If you have too few platelets, which you need for your blood to clot properly, you bruise or bleed very easily.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "IVIg therapy for myositis",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If you have myositis, your immune system is attacking your muscles. IVIg therapy can help stop the destruction of muscle cells.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "IVIg therapy for peripheral neuropathy",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Peripheral neuropathy is a condition where your peripheral nerves – the nerves that aren’t in your spinal cord or brain – are damaged. This can cause weakness, numbness, tingling, and stabbing pain. It most commonly occurs in the hands and feet, but it can happen anywhere in your body. If the neuropathy is making you feel too weak to manage your everyday activities or you’re having trouble keeping your balance, your doctor might prescribe IVIg.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "IVIg therapy for resistant vasculitic peripheral neuropathy",
+      "content": [
+        "Resistant vasculitic peripheral neuropathy is a rare form of neuropathy. If you have this type of neuropathy and you’re not getting relief from any other treatments or you can’t take other treatments, your doctor may choose to try IVIg."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Resistant vasculitic peripheral neuropathy is a rare form of neuropathy. If you have this type of neuropathy and you’re not getting relief from any other treatments or you can’t take other treatments, your doctor may choose to try IVIg.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Is IVIg?",
+      "content": [
+        "Intravenous immunoglobulin (IVIg) treatment can help you fight off infections if you have a weakened immune system or other diseases.",
+        "Some of the diseases and conditions that intravenous immunoglobulin ( IVIg ) can treat include:"
+      ],
+      "bullets": [
+        "Immune deficiencies like immune thrombocytopenia (ITP)",
+        "Kawasaki disease",
+        "Guillain -Barre syndrome",
+        "Chronic inflammatory demyelinating polyneuropathy",
+        "Lupus",
+        "Polymyositis",
+        "Neurological diseases like myasthenia gravis or multiple sclerosis",
+        "After a bone marrow transplant to prevent infections"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Intravenous immunoglobulin (IVIg) treatment can help you fight off infections if you have a weakened immune system or other diseases.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Some of the diseases and conditions that intravenous immunoglobulin ( IVIg ) can treat include:",
+          "associated_bullets": [
+            "Immune deficiencies like immune thrombocytopenia (ITP)",
+            "Kawasaki disease",
+            "Guillain -Barre syndrome",
+            "Chronic inflammatory demyelinating polyneuropathy",
+            "Lupus",
+            "Polymyositis",
+            "Neurological diseases like myasthenia gravis or multiple sclerosis",
+            "After a bone marrow transplant to prevent infections"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "What Is IVIg Used For?",
+      "content": [
+        "Some people may have IVIg instead of other medications (such as immunosuppressants, corticosteroids, or biologic drugs) to help treat their immune system disorders . In some cases, you may have IVIg along with immunosuppressants or other meds.",
+        "Your body’s immune system normally makes enough antibodies to fight germs that cause infections. But if you have an immune deficiency, your body can’t make enough of them. This puts you at greater risk of infections that could make you very sick. IVIg is made up of human antibodies that will supply your body if it’s not making its own. This will help you fight infections.",
+        "You might have IVIg treatment if you have a condition that reduces your immune system function. This treatment can help your body fight off illness. (Photo Credit: iStock/Getty Images)"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Some people may have IVIg instead of other medications (such as immunosuppressants, corticosteroids, or biologic drugs) to help treat their immune system disorders . In some cases, you may have IVIg along with immunosuppressants or other meds.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Your body’s immune system normally makes enough antibodies to fight germs that cause infections. But if you have an immune deficiency, your body can’t make enough of them. This puts you at greater risk of infections that could make you very sick. IVIg is made up of human antibodies that will supply your body if it’s not making its own. This will help you fight infections.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You might have IVIg treatment if you have a condition that reduces your immune system function. This treatment can help your body fight off illness. (Photo Credit: iStock/Getty Images)",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "In autoimmune diseases like lupus , the treatment may help your body raise low red-blood-cell and platelet counts. If you don’t have enough red blood cells, you can become anemic and feel very tired. IVIg helps stop the white blood cells from destroying red blood cells . It also keeps them from destroying platelets. If you have too few platelets, which you need for your blood to clot properly, you bruise or bleed very easily.",
+        "IVIg therapy for myositis",
+        "If you have myositis, your immune system is attacking your muscles. IVIg therapy can help stop the destruction of muscle cells.",
+        "IVIg therapy for peripheral neuropathy",
+        "Peripheral neuropathy is a condition where your peripheral nerves – the nerves that aren’t in your spinal cord or brain – are damaged. This can cause weakness, numbness, tingling, and stabbing pain. It most commonly occurs in the hands and feet, but it can happen anywhere in your body. If the neuropathy is making you feel too weak to manage your everyday activities or you’re having trouble keeping your balance, your doctor might prescribe IVIg."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "In autoimmune diseases like lupus , the treatment may help your body raise low red-blood-cell and platelet counts. If you don’t have enough red blood cells, you can become anemic and feel very tired. IVIg helps stop the white blood cells from destroying red blood cells . It also keeps them from destroying platelets. If you have too few platelets, which you need for your blood to clot properly, you bruise or bleed very easily.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "IVIg therapy for myositis",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If you have myositis, your immune system is attacking your muscles. IVIg therapy can help stop the destruction of muscle cells.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "IVIg therapy for peripheral neuropathy",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Peripheral neuropathy is a condition where your peripheral nerves – the nerves that aren’t in your spinal cord or brain – are damaged. This can cause weakness, numbness, tingling, and stabbing pain. It most commonly occurs in the hands and feet, but it can happen anywhere in your body. If the neuropathy is making you feel too weak to manage your everyday activities or you’re having trouble keeping your balance, your doctor might prescribe IVIg.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Resistant vasculitic peripheral neuropathy is a rare form of neuropathy. If you have this type of neuropathy and you’re not getting relief from any other treatments or you can’t take other treatments, your doctor may choose to try IVIg."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Resistant vasculitic peripheral neuropathy is a rare form of neuropathy. If you have this type of neuropathy and you’re not getting relief from any other treatments or you can’t take other treatments, your doctor may choose to try IVIg.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "How Does IVIg Work?",
+      "content": [
+        "Immunoglobulin is part of your blood’s plasma. It has antibodies in it to fight germs or disease. When people donate blood, this part can be separated out. Then it can be given to you through a vein in your arm, or IV. If you get IVIg, it can help strengthen your immune system so you can fight infections and stay healthy.",
+        "Liquid immunoglobulin is taken from the blood plasma of donors who are screened to make sure they are healthy. The plasma is tested for serious infections like hepatitis and HIV . The plasma is purified before it's used for IVIg therapy.",
+        "During the therapy, prepared immunoglobulin is put into your veins. A health care provider uses a needle to get into your vein. Then the medicine can flow from a bag through a tube into your arm. This takes about 2 to 4 hours."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Immunoglobulin is part of your blood’s plasma. It has antibodies in it to fight germs or disease. When people donate blood, this part can be separated out. Then it can be given to you through a vein in your arm, or IV. If you get IVIg, it can help strengthen your immune system so you can fight infections and stay healthy.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Liquid immunoglobulin is taken from the blood plasma of donors who are screened to make sure they are healthy. The plasma is tested for serious infections like hepatitis and HIV . The plasma is purified before it's used for IVIg therapy.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "During the therapy, prepared immunoglobulin is put into your veins. A health care provider uses a needle to get into your vein. Then the medicine can flow from a bag through a tube into your arm. This takes about 2 to 4 hours.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "You'll probably go to an infusion center, hospital, clinic, or doctor’s office to get the treatment. Sometimes you can have treatments done at your home by a medical professional.",
+        "How often you get the treatment depends on many things. There could be a few weeks between treatments or just a few days. The average is every 3 or 4 weeks."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "You'll probably go to an infusion center, hospital, clinic, or doctor’s office to get the treatment. Sometimes you can have treatments done at your home by a medical professional.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "How often you get the treatment depends on many things. There could be a few weeks between treatments or just a few days. The average is every 3 or 4 weeks.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "IVIg Side Effects",
+      "content": [
+        "Most people tolerate IVIg well, but side effects can happen, usually just after your IV. People who do have side effects tend to have them with the first dose or if the brand they get is different from the one they’re used to having. They include:",
+        "You might feel your best soon after your treatment, when the highest amount of immunoglobulin is in your body. But as your body absorbs it, you may start to feel more weak or tired. You might feel your worst just before your next treatment.",
+        "Serious side effects are rare, but if you have any, contact your doctor right away. If you have any signs of an allergic reaction (if you get hives , a tight feeling in your chest, or you wheeze), get emergency help right away. Some of the more serious side effects include:"
+      ],
+      "bullets": [
+        "Skin blisters, crusting, or  irritation",
+        "Itching or reddening of the skin",
+        "Cracked, dry, scaly skin",
+        "Swelling",
+        "Upper stomach pain",
+        "Coughing",
+        "Mucus when you cough",
+        "Fever",
+        "Headache",
+        "Pain in your face, especially around your eyes and cheekbones",
+        "Pale skin",
+        "Stuffy or runny nose",
+        "Trouble breathing",
+        "Tightness in your chest",
+        "Unusual bruising",
+        "Unusual bleeding",
+        "Unusual fatigue or weakness"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Most people tolerate IVIg well, but side effects can happen, usually just after your IV. People who do have side effects tend to have them with the first dose or if the brand they get is different from the one they’re used to having. They include:",
+          "associated_bullets": [
+            "Skin blisters, crusting, or  irritation",
+            "Itching or reddening of the skin",
+            "Cracked, dry, scaly skin",
+            "Swelling",
+            "Upper stomach pain"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "You might feel your best soon after your treatment, when the highest amount of immunoglobulin is in your body. But as your body absorbs it, you may start to feel more weak or tired. You might feel your worst just before your next treatment.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Serious side effects are rare, but if you have any, contact your doctor right away. If you have any signs of an allergic reaction (if you get hives , a tight feeling in your chest, or you wheeze), get emergency help right away. Some of the more serious side effects include:",
+          "associated_bullets": [
+            "Coughing",
+            "Mucus when you cough",
+            "Fever",
+            "Headache",
+            "Pain in your face, especially around your eyes and cheekbones",
+            "Pale skin",
+            "Stuffy or runny nose",
+            "Trouble breathing",
+            "Tightness in your chest",
+            "Unusual bruising",
+            "Unusual bleeding",
+            "Unusual fatigue or weakness"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "How Does IVIg Work?",
+      "content": [
+        "Immunoglobulin is part of your blood’s plasma. It has antibodies in it to fight germs or disease. When people donate blood, this part can be separated out. Then it can be given to you through a vein in your arm, or IV. If you get IVIg, it can help strengthen your immune system so you can fight infections and stay healthy.",
+        "Liquid immunoglobulin is taken from the blood plasma of donors who are screened to make sure they are healthy. The plasma is tested for serious infections like hepatitis and HIV . The plasma is purified before it's used for IVIg therapy.",
+        "During the therapy, prepared immunoglobulin is put into your veins. A health care provider uses a needle to get into your vein. Then the medicine can flow from a bag through a tube into your arm. This takes about 2 to 4 hours."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Immunoglobulin is part of your blood’s plasma. It has antibodies in it to fight germs or disease. When people donate blood, this part can be separated out. Then it can be given to you through a vein in your arm, or IV. If you get IVIg, it can help strengthen your immune system so you can fight infections and stay healthy.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Liquid immunoglobulin is taken from the blood plasma of donors who are screened to make sure they are healthy. The plasma is tested for serious infections like hepatitis and HIV . The plasma is purified before it's used for IVIg therapy.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "During the therapy, prepared immunoglobulin is put into your veins. A health care provider uses a needle to get into your vein. Then the medicine can flow from a bag through a tube into your arm. This takes about 2 to 4 hours.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "You'll probably go to an infusion center, hospital, clinic, or doctor’s office to get the treatment. Sometimes you can have treatments done at your home by a medical professional.",
+        "How often you get the treatment depends on many things. There could be a few weeks between treatments or just a few days. The average is every 3 or 4 weeks."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "You'll probably go to an infusion center, hospital, clinic, or doctor’s office to get the treatment. Sometimes you can have treatments done at your home by a medical professional.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "How often you get the treatment depends on many things. There could be a few weeks between treatments or just a few days. The average is every 3 or 4 weeks.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "IVIg Side Effects",
+      "content": [
+        "Most people tolerate IVIg well, but side effects can happen, usually just after your IV. People who do have side effects tend to have them with the first dose or if the brand they get is different from the one they’re used to having. They include:",
+        "You might feel your best soon after your treatment, when the highest amount of immunoglobulin is in your body. But as your body absorbs it, you may start to feel more weak or tired. You might feel your worst just before your next treatment.",
+        "Serious side effects are rare, but if you have any, contact your doctor right away. If you have any signs of an allergic reaction (if you get hives , a tight feeling in your chest, or you wheeze), get emergency help right away. Some of the more serious side effects include:"
+      ],
+      "bullets": [
+        "Skin blisters, crusting, or  irritation",
+        "Itching or reddening of the skin",
+        "Cracked, dry, scaly skin",
+        "Swelling",
+        "Upper stomach pain",
+        "Coughing",
+        "Mucus when you cough",
+        "Fever",
+        "Headache",
+        "Pain in your face, especially around your eyes and cheekbones",
+        "Pale skin",
+        "Stuffy or runny nose",
+        "Trouble breathing",
+        "Tightness in your chest",
+        "Unusual bruising",
+        "Unusual bleeding",
+        "Unusual fatigue or weakness"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Most people tolerate IVIg well, but side effects can happen, usually just after your IV. People who do have side effects tend to have them with the first dose or if the brand they get is different from the one they’re used to having. They include:",
+          "associated_bullets": [
+            "Skin blisters, crusting, or  irritation",
+            "Itching or reddening of the skin",
+            "Cracked, dry, scaly skin",
+            "Swelling",
+            "Upper stomach pain"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "You might feel your best soon after your treatment, when the highest amount of immunoglobulin is in your body. But as your body absorbs it, you may start to feel more weak or tired. You might feel your worst just before your next treatment.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Serious side effects are rare, but if you have any, contact your doctor right away. If you have any signs of an allergic reaction (if you get hives , a tight feeling in your chest, or you wheeze), get emergency help right away. Some of the more serious side effects include:",
+          "associated_bullets": [
+            "Coughing",
+            "Mucus when you cough",
+            "Fever",
+            "Headache",
+            "Pain in your face, especially around your eyes and cheekbones",
+            "Pale skin",
+            "Stuffy or runny nose",
+            "Trouble breathing",
+            "Tightness in your chest",
+            "Unusual bruising",
+            "Unusual bleeding",
+            "Unusual fatigue or weakness"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "IVIg Therapy Cost",
+      "content": [
+        "Unfortunately, IVIg therapy is not cheap. But if you have health insurance, it may be covered. Call your insurance company to see how much they cover and what steps you must take to ensure the coverage. In the U.S., IVIg therapy can cost around $10,000 for just one treatment. While some people may need IVIg only once a month, others need it more often."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Unfortunately, IVIg therapy is not cheap. But if you have health insurance, it may be covered. Call your insurance company to see how much they cover and what steps you must take to ensure the coverage. In the U.S., IVIg therapy can cost around $10,000 for just one treatment. While some people may need IVIg only once a month, others need it more often.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "How to Get Ready for IVIg Treatment",
+      "content": [
+        "If you are about to have IVIg treatment, here are some things you can do to prepare yourself for the intravenous (IV) infusion."
+      ],
+      "bullets": [
+        "Follow all your doctor's instructions for before your treatment.",
+        "Be as hydrated as you can. Drink plenty of water or other fluids the day before, the day of, and the day after having IVIg treatment. This helps reduce the chances of getting a headache and other side effects.",
+        "If you take medications, ask your doctor or nurse if you should take them the day of your treatment.",
+        "Bring something to keep yourself busy, as the treatment can take between 2 and 4 hours.",
+        "If the room is kept cool or you get cold easily, bring a blanket or a sweater to keep yourself warm.",
+        "Wear comfortable clothing, and be sure the IV site or port is easy to get to.",
+        "If you would like to have someone with you, ask before the treatment if you can bring a companion.",
+        "If you had any side effects from an earlier treatment, tell the nurse so everyone is aware."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "If you are about to have IVIg treatment, here are some things you can do to prepare yourself for the intravenous (IV) infusion.",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Follow all your doctor's instructions for before your treatment.",
+            "Be as hydrated as you can. Drink plenty of water or other fluids the day before, the day of, and the day after having IVIg treatment. This helps reduce the chances of getting a headache and other side effects.",
+            "If you take medications, ask your doctor or nurse if you should take them the day of your treatment.",
+            "Bring something to keep yourself busy, as the treatment can take between 2 and 4 hours.",
+            "If the room is kept cool or you get cold easily, bring a blanket or a sweater to keep yourself warm.",
+            "Wear comfortable clothing, and be sure the IV site or port is easy to get to.",
+            "If you would like to have someone with you, ask before the treatment if you can bring a companion.",
+            "If you had any side effects from an earlier treatment, tell the nurse so everyone is aware."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Takeaways",
+      "content": [
+        "If you have a disease that affects your immune system, like lupus or multiple sclerosis, your doctor might recommend IVIg treatments to help raise red blood cells and platelets. This will make you feel better, because if it works, you should have fewer infections and bleeding episodes if you had them. IVIg is given by IV, and the procedure can take a few hours, so you’ll be away from home for a good part of the day. If you go prepared, the time may pass faster."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "If you have a disease that affects your immune system, like lupus or multiple sclerosis, your doctor might recommend IVIg treatments to help raise red blood cells and platelets. This will make you feel better, because if it works, you should have fewer infections and bleeding episodes if you had them. IVIg is given by IV, and the procedure can take a few hours, so you’ll be away from home for a good part of the day. If you go prepared, the time may pass faster.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "IVIg Therapy Cost",
+      "content": [
+        "Unfortunately, IVIg therapy is not cheap. But if you have health insurance, it may be covered. Call your insurance company to see how much they cover and what steps you must take to ensure the coverage. In the U.S., IVIg therapy can cost around $10,000 for just one treatment. While some people may need IVIg only once a month, others need it more often."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Unfortunately, IVIg therapy is not cheap. But if you have health insurance, it may be covered. Call your insurance company to see how much they cover and what steps you must take to ensure the coverage. In the U.S., IVIg therapy can cost around $10,000 for just one treatment. While some people may need IVIg only once a month, others need it more often.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "How to Get Ready for IVIg Treatment",
+      "content": [
+        "If you are about to have IVIg treatment, here are some things you can do to prepare yourself for the intravenous (IV) infusion."
+      ],
+      "bullets": [
+        "Follow all your doctor's instructions for before your treatment.",
+        "Be as hydrated as you can. Drink plenty of water or other fluids the day before, the day of, and the day after having IVIg treatment. This helps reduce the chances of getting a headache and other side effects.",
+        "If you take medications, ask your doctor or nurse if you should take them the day of your treatment.",
+        "Bring something to keep yourself busy, as the treatment can take between 2 and 4 hours.",
+        "If the room is kept cool or you get cold easily, bring a blanket or a sweater to keep yourself warm.",
+        "Wear comfortable clothing, and be sure the IV site or port is easy to get to.",
+        "If you would like to have someone with you, ask before the treatment if you can bring a companion.",
+        "If you had any side effects from an earlier treatment, tell the nurse so everyone is aware."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "If you are about to have IVIg treatment, here are some things you can do to prepare yourself for the intravenous (IV) infusion.",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Follow all your doctor's instructions for before your treatment.",
+            "Be as hydrated as you can. Drink plenty of water or other fluids the day before, the day of, and the day after having IVIg treatment. This helps reduce the chances of getting a headache and other side effects.",
+            "If you take medications, ask your doctor or nurse if you should take them the day of your treatment.",
+            "Bring something to keep yourself busy, as the treatment can take between 2 and 4 hours.",
+            "If the room is kept cool or you get cold easily, bring a blanket or a sweater to keep yourself warm.",
+            "Wear comfortable clothing, and be sure the IV site or port is easy to get to.",
+            "If you would like to have someone with you, ask before the treatment if you can bring a companion.",
+            "If you had any side effects from an earlier treatment, tell the nurse so everyone is aware."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Takeaways",
+      "content": [
+        "If you have a disease that affects your immune system, like lupus or multiple sclerosis, your doctor might recommend IVIg treatments to help raise red blood cells and platelets. This will make you feel better, because if it works, you should have fewer infections and bleeding episodes if you had them. IVIg is given by IV, and the procedure can take a few hours, so you’ll be away from home for a good part of the day. If you go prepared, the time may pass faster."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "If you have a disease that affects your immune system, like lupus or multiple sclerosis, your doctor might recommend IVIg treatments to help raise red blood cells and platelets. This will make you feel better, because if it works, you should have fewer infections and bleeding episodes if you had them. IVIg is given by IV, and the procedure can take a few hours, so you’ll be away from home for a good part of the day. If you go prepared, the time may pass faster.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "IVIg FAQs",
+      "content": [
+        "Who can get IVIg?",
+        "People with a weakened immune system from an autoimmune disease or who don’t have enough platelets might benefit from getting IVIg.",
+        "Is IVIg a lifelong treatment?",
+        "IVIg is most often used to treat chronic diseases that have no cure. So if the treatment is working, usually people take them for the rest of their life.",
+        "Is IVIg a high-risk medication?",
+        "Serious side effects from IVIg are not common, but they can happen."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Who can get IVIg?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "People with a weakened immune system from an autoimmune disease or who don’t have enough platelets might benefit from getting IVIg.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Is IVIg a lifelong treatment?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "IVIg is most often used to treat chronic diseases that have no cure. So if the treatment is working, usually people take them for the rest of their life.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Is IVIg a high-risk medication?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Serious side effects from IVIg are not common, but they can happen.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "How does IVIg work for autoimmune diseases?",
+      "content": [
+        "One of the most serious problems for people with autoimmune diseases is they have a higher risk of getting infections because their immune system can’t fight off bacteria and viruses as well as it should. IVIg helps rebuild their immune system by replenishing their antibodies."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "One of the most serious problems for people with autoimmune diseases is they have a higher risk of getting infections because their immune system can’t fight off bacteria and viruses as well as it should. IVIg helps rebuild their immune system by replenishing their antibodies.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "IVIg FAQs",
+      "content": [
+        "Who can get IVIg?",
+        "People with a weakened immune system from an autoimmune disease or who don’t have enough platelets might benefit from getting IVIg.",
+        "Is IVIg a lifelong treatment?",
+        "IVIg is most often used to treat chronic diseases that have no cure. So if the treatment is working, usually people take them for the rest of their life.",
+        "Is IVIg a high-risk medication?",
+        "Serious side effects from IVIg are not common, but they can happen."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Who can get IVIg?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "People with a weakened immune system from an autoimmune disease or who don’t have enough platelets might benefit from getting IVIg.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Is IVIg a lifelong treatment?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "IVIg is most often used to treat chronic diseases that have no cure. So if the treatment is working, usually people take them for the rest of their life.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Is IVIg a high-risk medication?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Serious side effects from IVIg are not common, but they can happen.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "One of the most serious problems for people with autoimmune diseases is they have a higher risk of getting infections because their immune system can’t fight off bacteria and viruses as well as it should. IVIg helps rebuild their immune system by replenishing their antibodies."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "One of the most serious problems for people with autoimmune diseases is they have a higher risk of getting infections because their immune system can’t fight off bacteria and viruses as well as it should. IVIg helps rebuild their immune system by replenishing their antibodies.",
+          "associated_bullets": null
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/other/man_getting_iv_drip_treatment_other/1800x1200_getty_rf_man_getting_iv_drip_treatment_other.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/sachdev_poonam_382x382.jpg?resize=51px:51px&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/other/man_getting_iv_drip_treatment_other/1800x1200_getty_rf_man_getting_iv_drip_treatment_other.jpg?resize=750px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [
+    "Immune Deficiency Foundation: “Immunoglobulin Therapy & Other Medical Therapies for Antibody Deficiencies,” “Protecting access to immunoglobulin therapy,” “Safety important for successful immunoglobulin replacement therapy.”",
+    "American Academy of Allergy, Asthma and Immunology: “Eight Guiding Principles for Effective Use of IVIG for Patients with Primary Immunodeficiency.”",
+    "Lupus Foundation of America: “What do I need to know about IVIg treatment and lupus?” “Intravenous immune globulin (IVIg) therapy.”",
+    "UpToDate: “Patient education: Intravenous immune globulin (IVIG) (Beyond the Basics).”",
+    "StatPearls: “Intravenous Immunoglobulin (IVIG).”",
+    "American Red Cross: “The Function of Platelets: 5 Things You Might Not Know,” “Infectious Disease, HLA and ABO Donor Qualification Testing.”",
+    "Cleveland Clinic: “Myositis.”",
+    "Mayo Clinic: “Peripheral neuropathy,” “Immune Globulin-Ifas (Intravenous Route).”",
+    "Oxford Academic: “Chapter 13 Vasculitic neuropathy.”",
+    "Annals of the New York Academy of Sciences : “Response of vasculitic peripheral neuropathy to intravenous immunoglobulin.”",
+    "The Lancet; Neurology : “Familial amyloid polyneuropathy.”",
+    "Jean Walter Infusion Center: “IVIG Therapy Cost in Baltimore, MD.”",
+    "Ameripharma: “Cost of IVG Treatment.”",
+    "NHS Greater Glasgow and Clyde: “Information for patients about Intravenous Immunoglobulins (IVIg) in Neurology.”"
+  ],
+  "meta_description": "Immunoglobulin therapy is used to treat immune deficiencies and various autoimmune conditions. WebMD explains IVIg therapy, uses, side effects, results, and more.",
+  "canonical_url": "https://www.webmd.com/a-to-z-guides/immunoglobulin-therapy",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:36:05.583381Z"
+}

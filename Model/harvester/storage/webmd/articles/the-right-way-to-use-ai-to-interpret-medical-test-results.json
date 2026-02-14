@@ -1,0 +1,461 @@
+{
+  "url": "https://www.webmd.com/a-to-z-guides/news/20250604/cm/the-right-way-to-use-ai-to-interpret-medical-test-results",
+  "title": "The Right Way to Use AI to Interpret Medical Test Results",
+  "slug": "the-right-way-to-use-ai-to-interpret-medical-test-results",
+  "published_date": "",
+  "first_letter": "T",
+  "author": "Julie Stewart",
+  "medically_reviewed_by": "",
+  "read_time": "7 min read",
+  "sections": [
+    {
+      "heading": null,
+      "content": [
+        "June 5, 2025 – It's a common situation today: You're anxiously awaiting the results of a medical test when – ding! – they land in your patient portal. You'll be looking at them before your doctor.",
+        "You start reading, but the confusing jargon makes you more nervous. What's a tortuous colon? Is a 1-centimeter nodule on my thyroid big enough to worry about? Do I have cancer?",
+        "Many people are now using artificial intelligence tools such as ChatGPT to decipher their test results while they wait to hear from their doctor. Some doctors see it as the next-gen version of asking Dr. Google, but on steroids . Just like an old-school internet search, the answers can range from highly accurate to not-so-helpful to misleading to terrifying.",
+        "\"Patients often do this and come in with conclusions, and sometimes those conclusions are appropriate based on what ChatGPT has recommended,\" says Karim Hanna , MD, an associate professor and program director of the University of South Florida's Family Medicine Residency Program. \"But also, there are times where those conclusions need redirection or clarification for the patients so they're not misunderstanding the details.\""
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "June 5, 2025 – It's a common situation today: You're anxiously awaiting the results of a medical test when – ding! – they land in your patient portal. You'll be looking at them before your doctor.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You start reading, but the confusing jargon makes you more nervous. What's a tortuous colon? Is a 1-centimeter nodule on my thyroid big enough to worry about? Do I have cancer?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Many people are now using artificial intelligence tools such as ChatGPT to decipher their test results while they wait to hear from their doctor. Some doctors see it as the next-gen version of asking Dr. Google, but on steroids . Just like an old-school internet search, the answers can range from highly accurate to not-so-helpful to misleading to terrifying.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Patients often do this and come in with conclusions, and sometimes those conclusions are appropriate based on what ChatGPT has recommended,\" says Karim Hanna , MD, an associate professor and program director of the University of South Florida's Family Medicine Residency Program. \"But also, there are times where those conclusions need redirection or clarification for the patients so they're not misunderstanding the details.\"",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "We asked doctors to spell out the pros and cons of using AI to interpret medical test results and share advice on the smartest ways to do it.",
+        "What are the benefits of using AI to explain test results?"
+      ],
+      "bullets": [
+        "AI is good at translating medical terms into understandable language. Test result reports aren't exactly patient-friendly. \"I've been a physician for 20 years, and there are aspects of these radiology reports I don't understand because they're talking about the dye and the protocol, and that's very specific to a radiologist,\" says Ateev Mehrotra , MD, MPH, chair of the Department of Health Services, Policy and Practice at the Brown University School of Public Health and a researcher studying how AI can make test reports more understandable. \"This is a document that was really directed to talk between doctors, or sometimes between radiologists.\" Say a report says you have a tortuous colon. It sounds horrific, but it just means your colon's twists and turns were hard to navigate. AI can clarify things like that. \"If there's some verbiage that is kind of medical lingo, ChatGPT does a great job of bringing it to lay terms and explaining things to patients,\" says Hanna.",
+        "Plain-language summaries help people digest results. One study found that people with cancer who received a CT scan report simplified by a large language model and checked by a radiologist understood their condition better than people who only received the original report. Another study found that patients better understood their pathology reports when they received an AI-generated summary.",
+        "Some health systems, such as Stanford Medicine , are now using AI tools to help doctors explain test results to patients. Mehrotra expects more will follow.",
+        "AI can ease panic – in some cases. Now that test results go straight to patients, sometimes before doctors see them, anxiety around test results is common, research shows . Mehrotra says AI tools could potentially decrease panicked calls to doctors by helping patients understand common findings and test results that are normal or low risk. \" The hope is that more people will see their test results and say, 'Oh, it's OK,' and then be willing to wait for their doc for a couple days to respond, as opposed to having that panic,\" says Mehrotra."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "We asked doctors to spell out the pros and cons of using AI to interpret medical test results and share advice on the smartest ways to do it.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "What are the benefits of using AI to explain test results?",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "AI is good at translating medical terms into understandable language. Test result reports aren't exactly patient-friendly. \"I've been a physician for 20 years, and there are aspects of these radiology reports I don't understand because they're talking about the dye and the protocol, and that's very specific to a radiologist,\" says Ateev Mehrotra , MD, MPH, chair of the Department of Health Services, Policy and Practice at the Brown University School of Public Health and a researcher studying how AI can make test reports more understandable. \"This is a document that was really directed to talk between doctors, or sometimes between radiologists.\" Say a report says you have a tortuous colon. It sounds horrific, but it just means your colon's twists and turns were hard to navigate. AI can clarify things like that. \"If there's some verbiage that is kind of medical lingo, ChatGPT does a great job of bringing it to lay terms and explaining things to patients,\" says Hanna.",
+            "Plain-language summaries help people digest results. One study found that people with cancer who received a CT scan report simplified by a large language model and checked by a radiologist understood their condition better than people who only received the original report. Another study found that patients better understood their pathology reports when they received an AI-generated summary."
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Some health systems, such as Stanford Medicine , are now using AI tools to help doctors explain test results to patients. Mehrotra expects more will follow.",
+            "AI can ease panic – in some cases. Now that test results go straight to patients, sometimes before doctors see them, anxiety around test results is common, research shows . Mehrotra says AI tools could potentially decrease panicked calls to doctors by helping patients understand common findings and test results that are normal or low risk. \" The hope is that more people will see their test results and say, 'Oh, it's OK,' and then be willing to wait for their doc for a couple days to respond, as opposed to having that panic,\" says Mehrotra."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "June 5, 2025 – It's a common situation today: You're anxiously awaiting the results of a medical test when – ding! – they land in your patient portal. You'll be looking at them before your doctor.",
+        "You start reading, but the confusing jargon makes you more nervous. What's a tortuous colon? Is a 1-centimeter nodule on my thyroid big enough to worry about? Do I have cancer?",
+        "Many people are now using artificial intelligence tools such as ChatGPT to decipher their test results while they wait to hear from their doctor. Some doctors see it as the next-gen version of asking Dr. Google, but on steroids . Just like an old-school internet search, the answers can range from highly accurate to not-so-helpful to misleading to terrifying.",
+        "\"Patients often do this and come in with conclusions, and sometimes those conclusions are appropriate based on what ChatGPT has recommended,\" says Karim Hanna , MD, an associate professor and program director of the University of South Florida's Family Medicine Residency Program. \"But also, there are times where those conclusions need redirection or clarification for the patients so they're not misunderstanding the details.\""
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "June 5, 2025 – It's a common situation today: You're anxiously awaiting the results of a medical test when – ding! – they land in your patient portal. You'll be looking at them before your doctor.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You start reading, but the confusing jargon makes you more nervous. What's a tortuous colon? Is a 1-centimeter nodule on my thyroid big enough to worry about? Do I have cancer?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Many people are now using artificial intelligence tools such as ChatGPT to decipher their test results while they wait to hear from their doctor. Some doctors see it as the next-gen version of asking Dr. Google, but on steroids . Just like an old-school internet search, the answers can range from highly accurate to not-so-helpful to misleading to terrifying.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Patients often do this and come in with conclusions, and sometimes those conclusions are appropriate based on what ChatGPT has recommended,\" says Karim Hanna , MD, an associate professor and program director of the University of South Florida's Family Medicine Residency Program. \"But also, there are times where those conclusions need redirection or clarification for the patients so they're not misunderstanding the details.\"",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "We asked doctors to spell out the pros and cons of using AI to interpret medical test results and share advice on the smartest ways to do it.",
+        "What are the benefits of using AI to explain test results?"
+      ],
+      "bullets": [
+        "AI is good at translating medical terms into understandable language. Test result reports aren't exactly patient-friendly. \"I've been a physician for 20 years, and there are aspects of these radiology reports I don't understand because they're talking about the dye and the protocol, and that's very specific to a radiologist,\" says Ateev Mehrotra , MD, MPH, chair of the Department of Health Services, Policy and Practice at the Brown University School of Public Health and a researcher studying how AI can make test reports more understandable. \"This is a document that was really directed to talk between doctors, or sometimes between radiologists.\" Say a report says you have a tortuous colon. It sounds horrific, but it just means your colon's twists and turns were hard to navigate. AI can clarify things like that. \"If there's some verbiage that is kind of medical lingo, ChatGPT does a great job of bringing it to lay terms and explaining things to patients,\" says Hanna.",
+        "Plain-language summaries help people digest results. One study found that people with cancer who received a CT scan report simplified by a large language model and checked by a radiologist understood their condition better than people who only received the original report. Another study found that patients better understood their pathology reports when they received an AI-generated summary.",
+        "Some health systems, such as Stanford Medicine , are now using AI tools to help doctors explain test results to patients. Mehrotra expects more will follow.",
+        "AI can ease panic – in some cases. Now that test results go straight to patients, sometimes before doctors see them, anxiety around test results is common, research shows . Mehrotra says AI tools could potentially decrease panicked calls to doctors by helping patients understand common findings and test results that are normal or low risk. \" The hope is that more people will see their test results and say, 'Oh, it's OK,' and then be willing to wait for their doc for a couple days to respond, as opposed to having that panic,\" says Mehrotra."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "We asked doctors to spell out the pros and cons of using AI to interpret medical test results and share advice on the smartest ways to do it.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "What are the benefits of using AI to explain test results?",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "AI is good at translating medical terms into understandable language. Test result reports aren't exactly patient-friendly. \"I've been a physician for 20 years, and there are aspects of these radiology reports I don't understand because they're talking about the dye and the protocol, and that's very specific to a radiologist,\" says Ateev Mehrotra , MD, MPH, chair of the Department of Health Services, Policy and Practice at the Brown University School of Public Health and a researcher studying how AI can make test reports more understandable. \"This is a document that was really directed to talk between doctors, or sometimes between radiologists.\" Say a report says you have a tortuous colon. It sounds horrific, but it just means your colon's twists and turns were hard to navigate. AI can clarify things like that. \"If there's some verbiage that is kind of medical lingo, ChatGPT does a great job of bringing it to lay terms and explaining things to patients,\" says Hanna.",
+            "Plain-language summaries help people digest results. One study found that people with cancer who received a CT scan report simplified by a large language model and checked by a radiologist understood their condition better than people who only received the original report. Another study found that patients better understood their pathology reports when they received an AI-generated summary."
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Some health systems, such as Stanford Medicine , are now using AI tools to help doctors explain test results to patients. Mehrotra expects more will follow.",
+            "AI can ease panic – in some cases. Now that test results go straight to patients, sometimes before doctors see them, anxiety around test results is common, research shows . Mehrotra says AI tools could potentially decrease panicked calls to doctors by helping patients understand common findings and test results that are normal or low risk. \" The hope is that more people will see their test results and say, 'Oh, it's OK,' and then be willing to wait for their doc for a couple days to respond, as opposed to having that panic,\" says Mehrotra."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "What are the downsides of using AI to explain test results?",
+      "content": [
+        "Sometimes, AI tools such as ChatGPT generate hallucinations , presenting incorrect information as if it's true (and doing so in a confident way). Fact-check: First, click the supporting links to ensure the information comes from real sources.",
+        "\"There are times where it just makes up sources, and you try to find that source, and it's nowhere to be found,\" says Sirui Jiang, MD, PhD, a diagnostic radiology resident at University Hospitals Cleveland who studies AI.",
+        "Once you verify a source exists, check its quality. Ideally, it's a peer-reviewed journal, a doctors' society, or a health system. Then, make sure the text says what the AI tool claims it does.",
+        "If you're expecting bad news, should you wait to hear from your doctor?"
+      ],
+      "bullets": [
+        "It can be wrong. AI is good, but it's not perfect. ChatGPT is 87%-94% accurate when it analyzes radiology reports, according to Harvard research , and about 97% accurate at interpreting pathology reports, according to a study in JAMA Network Open .",
+        "The output isn't tailored to your situation. One drawback of ChatGPT for interpreting medical tests: It lacks context about the patient's medical history, according to research by Hanna and colleagues. When ChatGPT interprets one test in isolation, it might miss the big picture. \"Let's say someone has a hemoglobin of 11,\" says Hanna. \"That hemoglobin of 11 is, in theory, abnormal, and ChatGPT will report it as such, sometimes giving reasons that may be scary or concerning to patients.\" For example, ChatGPT might say that person needs to rule out colon cancer . But they may have had a hemoglobin of 11 for years, and this finding might not actually be new or concerning. \"Take everything that ChatGPT gives you with a grain of salt,\" says Hanna. \"The best person to give you recommendations on the results that they ordered is the physician that ordered said result because that clinician will at least have the wherewithal to get you to the right resource, even if it's beyond their capacity to handle that problem.\""
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "It can be wrong. AI is good, but it's not perfect. ChatGPT is 87%-94% accurate when it analyzes radiology reports, according to Harvard research , and about 97% accurate at interpreting pathology reports, according to a study in JAMA Network Open ."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sometimes, AI tools such as ChatGPT generate hallucinations , presenting incorrect information as if it's true (and doing so in a confident way). Fact-check: First, click the supporting links to ensure the information comes from real sources.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "\"There are times where it just makes up sources, and you try to find that source, and it's nowhere to be found,\" says Sirui Jiang, MD, PhD, a diagnostic radiology resident at University Hospitals Cleveland who studies AI.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Once you verify a source exists, check its quality. Ideally, it's a peer-reviewed journal, a doctors' society, or a health system. Then, make sure the text says what the AI tool claims it does.",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "The output isn't tailored to your situation. One drawback of ChatGPT for interpreting medical tests: It lacks context about the patient's medical history, according to research by Hanna and colleagues. When ChatGPT interprets one test in isolation, it might miss the big picture. \"Let's say someone has a hemoglobin of 11,\" says Hanna. \"That hemoglobin of 11 is, in theory, abnormal, and ChatGPT will report it as such, sometimes giving reasons that may be scary or concerning to patients.\" For example, ChatGPT might say that person needs to rule out colon cancer . But they may have had a hemoglobin of 11 for years, and this finding might not actually be new or concerning. \"Take everything that ChatGPT gives you with a grain of salt,\" says Hanna. \"The best person to give you recommendations on the results that they ordered is the physician that ordered said result because that clinician will at least have the wherewithal to get you to the right resource, even if it's beyond their capacity to handle that problem.\""
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "If you're expecting bad news, should you wait to hear from your doctor?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Sometimes, AI tools such as ChatGPT generate hallucinations , presenting incorrect information as if it's true (and doing so in a confident way). Fact-check: First, click the supporting links to ensure the information comes from real sources.",
+        "\"There are times where it just makes up sources, and you try to find that source, and it's nowhere to be found,\" says Sirui Jiang, MD, PhD, a diagnostic radiology resident at University Hospitals Cleveland who studies AI.",
+        "Once you verify a source exists, check its quality. Ideally, it's a peer-reviewed journal, a doctors' society, or a health system. Then, make sure the text says what the AI tool claims it does.",
+        "If you're expecting bad news, should you wait to hear from your doctor?"
+      ],
+      "bullets": [
+        "It can be wrong. AI is good, but it's not perfect. ChatGPT is 87%-94% accurate when it analyzes radiology reports, according to Harvard research , and about 97% accurate at interpreting pathology reports, according to a study in JAMA Network Open .",
+        "The output isn't tailored to your situation. One drawback of ChatGPT for interpreting medical tests: It lacks context about the patient's medical history, according to research by Hanna and colleagues. When ChatGPT interprets one test in isolation, it might miss the big picture. \"Let's say someone has a hemoglobin of 11,\" says Hanna. \"That hemoglobin of 11 is, in theory, abnormal, and ChatGPT will report it as such, sometimes giving reasons that may be scary or concerning to patients.\" For example, ChatGPT might say that person needs to rule out colon cancer . But they may have had a hemoglobin of 11 for years, and this finding might not actually be new or concerning. \"Take everything that ChatGPT gives you with a grain of salt,\" says Hanna. \"The best person to give you recommendations on the results that they ordered is the physician that ordered said result because that clinician will at least have the wherewithal to get you to the right resource, even if it's beyond their capacity to handle that problem.\""
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "It can be wrong. AI is good, but it's not perfect. ChatGPT is 87%-94% accurate when it analyzes radiology reports, according to Harvard research , and about 97% accurate at interpreting pathology reports, according to a study in JAMA Network Open ."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sometimes, AI tools such as ChatGPT generate hallucinations , presenting incorrect information as if it's true (and doing so in a confident way). Fact-check: First, click the supporting links to ensure the information comes from real sources.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "\"There are times where it just makes up sources, and you try to find that source, and it's nowhere to be found,\" says Sirui Jiang, MD, PhD, a diagnostic radiology resident at University Hospitals Cleveland who studies AI.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Once you verify a source exists, check its quality. Ideally, it's a peer-reviewed journal, a doctors' society, or a health system. Then, make sure the text says what the AI tool claims it does.",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "The output isn't tailored to your situation. One drawback of ChatGPT for interpreting medical tests: It lacks context about the patient's medical history, according to research by Hanna and colleagues. When ChatGPT interprets one test in isolation, it might miss the big picture. \"Let's say someone has a hemoglobin of 11,\" says Hanna. \"That hemoglobin of 11 is, in theory, abnormal, and ChatGPT will report it as such, sometimes giving reasons that may be scary or concerning to patients.\" For example, ChatGPT might say that person needs to rule out colon cancer . But they may have had a hemoglobin of 11 for years, and this finding might not actually be new or concerning. \"Take everything that ChatGPT gives you with a grain of salt,\" says Hanna. \"The best person to give you recommendations on the results that they ordered is the physician that ordered said result because that clinician will at least have the wherewithal to get you to the right resource, even if it's beyond their capacity to handle that problem.\""
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "If you're expecting bad news, should you wait to hear from your doctor?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Before a high-stakes test, like a test to stage cancer, doctors and patients should make a plan to shorten the limbo period when a patient is alone with their results, says Howard Forman, MD, MBA, a professor of radiology and biomedical imaging at Yale University. \"The first thing is to have foresight, both from the patient as well as the physician point of view, and an agreement about how you're going to handle new information,\" he says. \"I think some physicians know that a patient is awaiting a very anxiety-provoking report, and in those situations, it's really useful to have an agreement that the doctor is going to be as anxious to see the results as you are and that they'll be in touch with you by MyChart in a few hours, or maybe by phone or maybe in person.\"",
+        "Whether you choose to dive into the results early or not, at least you know how soon you will have a chance to ask questions. What should you tell AI about your test results?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Before a high-stakes test, like a test to stage cancer, doctors and patients should make a plan to shorten the limbo period when a patient is alone with their results, says Howard Forman, MD, MBA, a professor of radiology and biomedical imaging at Yale University. \"The first thing is to have foresight, both from the patient as well as the physician point of view, and an agreement about how you're going to handle new information,\" he says. \"I think some physicians know that a patient is awaiting a very anxiety-provoking report, and in those situations, it's really useful to have an agreement that the doctor is going to be as anxious to see the results as you are and that they'll be in touch with you by MyChart in a few hours, or maybe by phone or maybe in person.\"",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whether you choose to dive into the results early or not, at least you know how soon you will have a chance to ask questions. What should you tell AI about your test results?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "For the most helpful output, don't just copy and paste test results into an AI tool and hit send. Use prompt engineering – the art and science of creating prompts for best results. \"If you're a patient and you are going to leverage these tools, then I usually suggest an acronym, C.A.R.E,\" says Hanna. Give the tool:",
+        "For example, you could paste your results and add the following text:"
+      ],
+      "bullets": [
+        "Context, or background about yourself",
+        "Action, a verb that describes what you want it to do",
+        "Role to take on; in this case, an expert doctor",
+        "Expectations for how complex the explanation will be",
+        "I am __. ( Enter relevant background information, like your age, if you're comfortable with it, keeping in mind that these tools don't have the same security and privacy standards as medical records. ) Assume the role of a _____. ( Enter radiologist for an imaging test or pathologist for a tissue or fluid sample .) Please ____ ( Identify the key findings in this report OR tell me what the most likely next steps would be OR simplify this report. ) at a _____ language level. ( Start with fourth grade. If you want more detail and complexity, go up to your highest education level.)"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "For the most helpful output, don't just copy and paste test results into an AI tool and hit send. Use prompt engineering – the art and science of creating prompts for best results. \"If you're a patient and you are going to leverage these tools, then I usually suggest an acronym, C.A.R.E,\" says Hanna. Give the tool:",
+          "associated_bullets": [
+            "Context, or background about yourself",
+            "Action, a verb that describes what you want it to do",
+            "Role to take on; in this case, an expert doctor",
+            "Expectations for how complex the explanation will be"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, you could paste your results and add the following text:",
+          "associated_bullets": [
+            "I am __. ( Enter relevant background information, like your age, if you're comfortable with it, keeping in mind that these tools don't have the same security and privacy standards as medical records. ) Assume the role of a _____. ( Enter radiologist for an imaging test or pathologist for a tissue or fluid sample .) Please ____ ( Identify the key findings in this report OR tell me what the most likely next steps would be OR simplify this report. ) at a _____ language level. ( Start with fourth grade. If you want more detail and complexity, go up to your highest education level.)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Before a high-stakes test, like a test to stage cancer, doctors and patients should make a plan to shorten the limbo period when a patient is alone with their results, says Howard Forman, MD, MBA, a professor of radiology and biomedical imaging at Yale University. \"The first thing is to have foresight, both from the patient as well as the physician point of view, and an agreement about how you're going to handle new information,\" he says. \"I think some physicians know that a patient is awaiting a very anxiety-provoking report, and in those situations, it's really useful to have an agreement that the doctor is going to be as anxious to see the results as you are and that they'll be in touch with you by MyChart in a few hours, or maybe by phone or maybe in person.\"",
+        "Whether you choose to dive into the results early or not, at least you know how soon you will have a chance to ask questions. What should you tell AI about your test results?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Before a high-stakes test, like a test to stage cancer, doctors and patients should make a plan to shorten the limbo period when a patient is alone with their results, says Howard Forman, MD, MBA, a professor of radiology and biomedical imaging at Yale University. \"The first thing is to have foresight, both from the patient as well as the physician point of view, and an agreement about how you're going to handle new information,\" he says. \"I think some physicians know that a patient is awaiting a very anxiety-provoking report, and in those situations, it's really useful to have an agreement that the doctor is going to be as anxious to see the results as you are and that they'll be in touch with you by MyChart in a few hours, or maybe by phone or maybe in person.\"",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whether you choose to dive into the results early or not, at least you know how soon you will have a chance to ask questions. What should you tell AI about your test results?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "For the most helpful output, don't just copy and paste test results into an AI tool and hit send. Use prompt engineering – the art and science of creating prompts for best results. \"If you're a patient and you are going to leverage these tools, then I usually suggest an acronym, C.A.R.E,\" says Hanna. Give the tool:",
+        "For example, you could paste your results and add the following text:"
+      ],
+      "bullets": [
+        "Context, or background about yourself",
+        "Action, a verb that describes what you want it to do",
+        "Role to take on; in this case, an expert doctor",
+        "Expectations for how complex the explanation will be",
+        "I am __. ( Enter relevant background information, like your age, if you're comfortable with it, keeping in mind that these tools don't have the same security and privacy standards as medical records. ) Assume the role of a _____. ( Enter radiologist for an imaging test or pathologist for a tissue or fluid sample .) Please ____ ( Identify the key findings in this report OR tell me what the most likely next steps would be OR simplify this report. ) at a _____ language level. ( Start with fourth grade. If you want more detail and complexity, go up to your highest education level.)"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "For the most helpful output, don't just copy and paste test results into an AI tool and hit send. Use prompt engineering – the art and science of creating prompts for best results. \"If you're a patient and you are going to leverage these tools, then I usually suggest an acronym, C.A.R.E,\" says Hanna. Give the tool:",
+          "associated_bullets": [
+            "Context, or background about yourself",
+            "Action, a verb that describes what you want it to do",
+            "Role to take on; in this case, an expert doctor",
+            "Expectations for how complex the explanation will be"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, you could paste your results and add the following text:",
+          "associated_bullets": [
+            "I am __. ( Enter relevant background information, like your age, if you're comfortable with it, keeping in mind that these tools don't have the same security and privacy standards as medical records. ) Assume the role of a _____. ( Enter radiologist for an imaging test or pathologist for a tissue or fluid sample .) Please ____ ( Identify the key findings in this report OR tell me what the most likely next steps would be OR simplify this report. ) at a _____ language level. ( Start with fourth grade. If you want more detail and complexity, go up to your highest education level.)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Try a few variations and compare. \"If you're going to do it, do it a few ways and see how consistent it is,\" says Mehrotra. \"Three interpreted responses versus just one is probably going to be more helpful.\"",
+        "Consider using an AI tool made for medical information and clinical data, such as Open Evidence. \"It's trained on evidence-based medicine, essentially, so it's not just pulling from the internet; it's pulling from peer-reviewed articles,\" says Hanna.",
+        "Whether patients use AI or not, radiologists and imaging specialists can help by writing reports in scientifically accurate yet understandable ways, says Forman. \"The more that we can use terms that are clear, concise, and convey information in a manner that is useful to the clinicians and then the patients, the better it is,\" he says. How should you talk with your doctor about what ChatGPT told you?",
+        "If you're concerned, call and ask to discuss your results as soon as possible. Be upfront about where you got your information. \"If you're feeling guilty about using ChatGPT or any other way to interpret your test results, don't feel guilty, and don't hide it from the doctor,\" says Mehrotra. \"Everyone's doing it.\"",
+        "During the waiting game, it helps to remember that while most doctors are busy, they move fast in emergencies. \"Patients may not be aware of that if there's something life-threatening on a radiology test, a laboratory test, a pathology test, that radiologist is calling at 2 a.m. or whatever time it is to a doctor to say, 'Look, there's a life-threatening issue here, call the patient, get them on board,\" says Mehrotra. \"That is their responsibility.\""
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Try a few variations and compare. \"If you're going to do it, do it a few ways and see how consistent it is,\" says Mehrotra. \"Three interpreted responses versus just one is probably going to be more helpful.\"",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider using an AI tool made for medical information and clinical data, such as Open Evidence. \"It's trained on evidence-based medicine, essentially, so it's not just pulling from the internet; it's pulling from peer-reviewed articles,\" says Hanna.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whether patients use AI or not, radiologists and imaging specialists can help by writing reports in scientifically accurate yet understandable ways, says Forman. \"The more that we can use terms that are clear, concise, and convey information in a manner that is useful to the clinicians and then the patients, the better it is,\" he says. How should you talk with your doctor about what ChatGPT told you?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If you're concerned, call and ask to discuss your results as soon as possible. Be upfront about where you got your information. \"If you're feeling guilty about using ChatGPT or any other way to interpret your test results, don't feel guilty, and don't hide it from the doctor,\" says Mehrotra. \"Everyone's doing it.\"",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "During the waiting game, it helps to remember that while most doctors are busy, they move fast in emergencies. \"Patients may not be aware of that if there's something life-threatening on a radiology test, a laboratory test, a pathology test, that radiologist is calling at 2 a.m. or whatever time it is to a doctor to say, 'Look, there's a life-threatening issue here, call the patient, get them on board,\" says Mehrotra. \"That is their responsibility.\"",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Try a few variations and compare. \"If you're going to do it, do it a few ways and see how consistent it is,\" says Mehrotra. \"Three interpreted responses versus just one is probably going to be more helpful.\"",
+        "Consider using an AI tool made for medical information and clinical data, such as Open Evidence. \"It's trained on evidence-based medicine, essentially, so it's not just pulling from the internet; it's pulling from peer-reviewed articles,\" says Hanna.",
+        "Whether patients use AI or not, radiologists and imaging specialists can help by writing reports in scientifically accurate yet understandable ways, says Forman. \"The more that we can use terms that are clear, concise, and convey information in a manner that is useful to the clinicians and then the patients, the better it is,\" he says. How should you talk with your doctor about what ChatGPT told you?",
+        "If you're concerned, call and ask to discuss your results as soon as possible. Be upfront about where you got your information. \"If you're feeling guilty about using ChatGPT or any other way to interpret your test results, don't feel guilty, and don't hide it from the doctor,\" says Mehrotra. \"Everyone's doing it.\"",
+        "During the waiting game, it helps to remember that while most doctors are busy, they move fast in emergencies. \"Patients may not be aware of that if there's something life-threatening on a radiology test, a laboratory test, a pathology test, that radiologist is calling at 2 a.m. or whatever time it is to a doctor to say, 'Look, there's a life-threatening issue here, call the patient, get them on board,\" says Mehrotra. \"That is their responsibility.\""
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Try a few variations and compare. \"If you're going to do it, do it a few ways and see how consistent it is,\" says Mehrotra. \"Three interpreted responses versus just one is probably going to be more helpful.\"",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider using an AI tool made for medical information and clinical data, such as Open Evidence. \"It's trained on evidence-based medicine, essentially, so it's not just pulling from the internet; it's pulling from peer-reviewed articles,\" says Hanna.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whether patients use AI or not, radiologists and imaging specialists can help by writing reports in scientifically accurate yet understandable ways, says Forman. \"The more that we can use terms that are clear, concise, and convey information in a manner that is useful to the clinicians and then the patients, the better it is,\" he says. How should you talk with your doctor about what ChatGPT told you?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If you're concerned, call and ask to discuss your results as soon as possible. Be upfront about where you got your information. \"If you're feeling guilty about using ChatGPT or any other way to interpret your test results, don't feel guilty, and don't hide it from the doctor,\" says Mehrotra. \"Everyone's doing it.\"",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "During the waiting game, it helps to remember that while most doctors are busy, they move fast in emergencies. \"Patients may not be aware of that if there's something life-threatening on a radiology test, a laboratory test, a pathology test, that radiologist is calling at 2 a.m. or whatever time it is to a doctor to say, 'Look, there's a life-threatening issue here, call the patient, get them on board,\" says Mehrotra. \"That is their responsibility.\"",
+          "associated_bullets": null
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/health_tools/health_problems_related_to_obesity_slideshow/1800ss_thinkstock_rf_cholesterol_lab_test_close_up.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/382x382_julie_stewart.jpg?resize=51px:51px&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [
+    "Karim Hanna , MD, associate professor and program director, Family Medicine Residency Program, University of South Florida.",
+    "Ateev Mehrotra , MD, MPH, chair, Department of Health Services, Policy and Practice, Brown University School of Public Health.",
+    "Sirui Jiang, MD, PhD, diagnostic radiology resident, University Hospitals Cleveland.",
+    "Howard Forman, MD, MBA, professor of radiology and biomedical imaging, Yale University.",
+    "JCO Clinical Cancer Informatics : \"Provision of Radiology Reports Simplified With Large Language Models to Patients With Cancer: Impact on Patient Satisfaction.\"",
+    "BMC Medical Informatics and Decision Making : \"Enhancing doctor-patient communication using large language models for pathology report interpretation.\"",
+    "Stanford Medicine: \"AI tool assists doctors in sharing lab results.\"",
+    "Journal of Medical Internet Research : \"Patient and Health Care Provider Perspectives on Patient Access to Test Results via Web Portals: Scoping Review.\"",
+    "American Journal of Roentgenology : \"Use of ChatGPT Large Language Models to Extract Details of Recommendations for Additional Imaging From Free-Text Impressions of Radiology Reports.\"",
+    "JAMA Network Open : \"Use of Artificial Intelligence Chatbots in Interpretation of Pathology Reports.\""
+  ],
+  "meta_description": "Experts explain the risks and benefits of using programs like ChatGPT to analyze results before your doctor calls to discuss them.",
+  "canonical_url": "https://www.webmd.com/a-to-z-guides/news/20250604/cm/the-right-way-to-use-ai-to-interpret-medical-test-results",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:50:17.752886Z"
+}

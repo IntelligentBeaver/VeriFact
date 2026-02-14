@@ -1,0 +1,101 @@
+{
+  "url": "https://www.webmd.com/allergies/guide-chapter-allergies-treatment",
+  "title": "Treatment",
+  "slug": "guide-chapter-allergies-treatment",
+  "published_date": "",
+  "first_letter": "G",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": [
+        "Overview The Basics Complications",
+        "Symptoms & Types Seasonal & Pet Allergies Food Allergies Skin Allergies Other Allergies",
+        "Tests & Diagnosis",
+        "Treatment Allergy Medications Living With Allergies",
+        "Appointment Prep Chronic Sinusitis With Nasal Polyps Food Allergies",
+        "View Full Guide",
+        "The Basics",
+        "Complications",
+        "Seasonal & Pet Allergies",
+        "Food Allergies",
+        "Skin Allergies",
+        "Other Allergies",
+        "Allergy Medications",
+        "Living With Allergies",
+        "Chronic Sinusitis With Nasal Polyps",
+        "Food Allergies"
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Overview The Basics Complications",
+            "Symptoms & Types Seasonal & Pet Allergies Food Allergies Skin Allergies Other Allergies",
+            "Tests & Diagnosis",
+            "Treatment Allergy Medications Living With Allergies",
+            "Appointment Prep Chronic Sinusitis With Nasal Polyps Food Allergies",
+            "View Full Guide"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "The Basics",
+            "Complications"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Seasonal & Pet Allergies",
+            "Food Allergies",
+            "Skin Allergies",
+            "Other Allergies"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Allergy Medications",
+            "Living With Allergies"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Chronic Sinusitis With Nasal Polyps",
+            "Food Allergies"
+          ]
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/allergies_hpt_toc_redesign/1500x1500_allergies_hpt_chapter_4_1029339748.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/MoreOn_BipolarDisorder.jpg?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/hpt_toc_redesign_illustrations/1500x1500_diagnosis_and_test_option_1.jpg?resize=500px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/ux_images/related_links_icon.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/ux_images/related_header.svg?resize=335px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/staging/webmd/consumer_assets/site_images/images/arrow_right_alt.svg",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "There are lots of allergy treatment options. Over-the-counter and prescription medications can ease annoying symptoms. Allergy shots also help.",
+  "canonical_url": "https://www.webmd.com/allergies/guide-chapter-allergies-treatment",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:16:27.458058Z"
+}

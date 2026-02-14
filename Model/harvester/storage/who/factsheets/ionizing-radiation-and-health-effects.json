@@ -1,0 +1,69 @@
+{
+  "url": "https://www.who.int/news-room/fact-sheets/detail/ionizing-radiation-and-health-effects",
+  "title": "Ionizing radiation and health effects",
+  "slug": "ionizing-radiation-and-health-effects",
+  "published_date": "27 July 2023",
+  "author": "World Health Organization (WHO)",
+  "first_letter": "I",
+  "sections": [
+    {
+      "heading": "Key facts",
+      "content": [
+        {
+          "text": null,
+          "bullets": [
+            "Ionizing radiation is a type of energy released by atoms in the form of electromagnetic waves or particles.",
+            "People are exposed to natural sources of ionizing radiation, such as in soil, water, and vegetation, as well as in human-made sources, such as x-rays in medical devices.",
+            "Ionizing radiation has many beneficial applications, including uses in medicine, industry, agriculture and research.",
+            "As the use of ionizing radiation increases, so does the potential for health hazards if not properly used or contained.",
+            "Acute health effects such as skin burns or acute radiation syndrome can occur when doses of radiation exceed very high levels.",
+            "Low doses of ionizing radiation can increase the risk of longer term effects such as cancer."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "What is ionizing radiation?",
+      "content": [
+        "Ionizing radiation is a type of energy released by atoms that travels in the form of electromagnetic waves (gamma or X-rays) or particles (neutrons, beta or alpha). The spontaneous disintegration of atoms is called radioactivity, and the excess energy emitted is a form of ionizing radiation. Unstable elements which disintegrate and emit ionizing radiation are called radionuclides."
+      ]
+    },
+    {
+      "heading": "Radiation sources",
+      "content": null
+    },
+    {
+      "heading": "Exposure to ionizing radiation",
+      "content": null
+    },
+    {
+      "heading": "Health effects of ionizing radiation",
+      "content": [
+        "Radiation damage to tissue and/or organs depends on the dose of radiation received, or the absorbed dose which is expressed in a unit called the gray (Gy). The potential damage from an absorbed dose depends on the type of radiation and the sensitivity of the different tissues and organs."
+      ]
+    },
+    {
+      "heading": "WHO response",
+      "content": null
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-blue.svg",
+    "https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-white.svg",
+    "https://www.who.int/images/default-source/fallback/header-logos/h-logo-blue1820eae93c154e37b2588ab90fdbc17e.svg?sfvrsn=aaed4f35_20",
+    "https://www.who.int/images/default-source/fallback/maps/africa8bd96ad167204ac7ac4811b8ae1dfe2c.png?sfvrsn=3204f957_20",
+    "https://www.who.int/images/default-source/fallback/maps/americasdf9b2f184d3145259fb3a5336cd775c7.png?sfvrsn=9efd6df3_19",
+    "https://www.who.int/images/default-source/fallback/maps/eastern-mediterraneanadf4e81056b84e75b83a1faed30a1e0a.png?sfvrsn=71211e18_17",
+    "https://www.who.int/images/default-source/fallback/maps/europeae57428b4f114210ae7067e1f5119e1a.png?sfvrsn=c7d5c5a5_19",
+    "https://www.who.int/images/default-source/fallback/maps/south-east-asia1c6bd1d9eb5b4cf0b5ad5da36ff3912d.png?sfvrsn=68e76dc2_17",
+    "https://www.who.int/images/default-source/fallback/maps/western-pacifice1e576200c9b4fe59078eb28958428a9.png?sfvrsn=88cbdcd5_19"
+  ],
+  "tags": [
+    "Health Fact",
+    "ionizing-radiation-and-health-effects",
+    "Ionizing radiation and health effects",
+    "WHO"
+  ],
+  "scrape_timestamp_utc": "2026-01-27T17:24:32Z"
+}

@@ -1,0 +1,112 @@
+{
+  "seed_id": "",
+  "label": "",
+  "canonical_label": "",
+  "aliases": [],
+
+  "semantic_ground_truth": "",
+
+  "temporal_tracking": {
+    "date_introduced": "",
+    "last_medical_update": "",
+    "status": ""
+  },
+
+  "historical_trace": {
+    "history_note": "",
+    "previous_indexing": []
+  },
+
+  "pharmacological_actions": [],
+  "synonyms": [],
+
+  /* ---------- Concept grounding & SapBERT ---------- */
+  "keyword_candidates": [
+    {
+      "term": "",
+      "score": 0.0,
+      "source": ""
+    }
+  ],
+
+  "preferred_search_terms": [],
+  "excluded_terms": [],
+
+  "sapbert_metadata": {
+    "model_name": "",
+    "label_embedding_ref": "",
+    "candidate_embeddings_ref": "",
+    "embedding_dim": null
+  },
+
+  /* ---------- Retrieval configuration ---------- */
+  "harvester_modifiers": [],
+
+  "modifier_groups": {
+    "": []
+  },
+
+  "query_templates": [],
+
+  "retrieval_params": {
+    "top_k_keywords": null,
+    "retmax_stageA": null,
+    "retmax_stageB": null,
+    "min_keyword_score": null,
+    "title_threshold": null,
+    "combined_score_threshold_for_biobert": null
+  },
+
+  /* ---------- Evidence Index (populated post-retrieval) ---------- */
+  "evidence_index": [
+    {
+      "evidence_id": "",
+      "document_id": "",
+      "pmid": "",
+      "source": "",
+      "matched_term": "",
+      "keyword_score": null,
+      "semantic_sim": null,
+      "match_field": "",
+      "match_span": [],
+      "snippet": "",
+      "combined_score": null,
+      "fetched_at": "",
+      "ingestion_provenance": {
+        "fetch_url": "",
+        "raw_ref": ""
+      }
+    }
+  ],
+
+  /* ---------- Downstream analysis (BioBERT / claims) ---------- */
+  "claim_templates": [],
+
+  "analysis": {
+    "biobert_runs": [
+      {
+        "run_id": "",
+        "model_name": "",
+        "input_type": "",
+        "input_ref": "",
+        "run_timestamp": ""
+      }
+    ],
+    "claim_verdicts": [
+      {
+        "claim": "",
+        "verdict": "",
+        "confidence": null,
+        "supporting_evidence_ids": []
+      }
+    ]
+  },
+
+  /* ---------- Administrative ---------- */
+  "mesh_tree_numbers": [],
+  "tags": [],
+  "seed_level_notes": "",
+  "created_at": "",
+  "last_updated_in_db": "",
+  "updated_at": ""
+}

@@ -1,0 +1,78 @@
+{
+  "url": "https://www.webmd.com/fatty-liver-disease/guide-chapter-fatty-liver-disease-treatment-prevention",
+  "title": "Treatment and Prevention",
+  "slug": "guide-chapter-fatty-liver-disease-treatment-prevention",
+  "published_date": "",
+  "first_letter": "G",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": [
+        "Overview",
+        "MASLD and MASH Overview In Women",
+        "Tests & Diagnosis",
+        "Treatment and Prevention Complementary & Alternative Treatments Procedures & Liver Transplant",
+        "Complications",
+        "Appointment Prep",
+        "View Full Guide",
+        "Overview",
+        "In Women",
+        "Complementary & Alternative Treatments",
+        "Procedures & Liver Transplant"
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Overview",
+            "MASLD and MASH Overview In Women",
+            "Tests & Diagnosis",
+            "Treatment and Prevention Complementary & Alternative Treatments Procedures & Liver Transplant",
+            "Complications",
+            "Appointment Prep",
+            "View Full Guide"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Overview",
+            "In Women"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Complementary & Alternative Treatments",
+            "Procedures & Liver Transplant"
+          ]
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/dvt_hpt_toc_redesign/1500x1500_dvt_hpt_toc_redesign_chapter_5_alt.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/other/fatty-liver-disease-health-center-toc-other/More_On_Fatty_Liver.png?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/other/fatty-liver-disease-health-center-toc-other/SR_FattyLiver.png?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "Treatment for MASLD/MASH includes lifestyle changes, dietary adjustments, and medical procedures. Supplements like milk thistle and coffee may help, while severe cases may require a liver transplant.",
+  "canonical_url": "https://www.webmd.com/fatty-liver-disease/guide-chapter-fatty-liver-disease-treatment-prevention",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:28:06.098596Z"
+}

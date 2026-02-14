@@ -1,0 +1,947 @@
+[
+  {
+    "title": "2016 - Pakistan",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-december-2016-polio-pakistan-en",
+    "date": "2016-12-27",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.661835"
+  },
+  {
+    "title": "Influenza A H7N9 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-december-2016-ah7n9-china-en",
+    "date": "2016-12-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.661982"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-december-2016-2-mers-saudi-arabia-en",
+    "date": "2016-12-19",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.662128"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-december-2016-1-mers-saudi-arabia-en",
+    "date": "2016-12-19",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.662274"
+  },
+  {
+    "title": "Influenza A H7N9 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-december-2016-2-ah7n9-china-en",
+    "date": "2016-12-19",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.662423"
+  },
+  {
+    "title": "Influenza A H7N9 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-december-2016-1-ah7n9-china-en",
+    "date": "2016-12-19",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.662570"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Oman",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-december-2016-mers-oman-en",
+    "date": "2016-12-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.662719"
+  },
+  {
+    "title": "Influenza A H5N6 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/07-december-2016-ah5n6-china-en",
+    "date": "2016-12-07",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.662869"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/5-december-2016-mers-saudi-arabia-en",
+    "date": "2016-12-05",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.663017"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/28-november-2016-mers-saudi-arabia-en",
+    "date": "2016-11-28",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.663165"
+  },
+  {
+    "title": "Rift Valley fever - Niger",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/24-november-2016-rift-valley-fever-niger-en",
+    "date": "2016-11-24",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.663316"
+  },
+  {
+    "title": "Dengue – Burkina Faso",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/18-november-2016-dengue-burkina-faso-en",
+    "date": "2016-11-18",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.663465"
+  },
+  {
+    "title": "Influenza A H7N9 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/17-november-2016-ah7n9-china-en",
+    "date": "2016-11-17",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.663626"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-november-2016-mers-saudi-arabia-en",
+    "date": "2016-11-11",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.663778"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/31-october-2016-mers-saudi-arabia-en",
+    "date": "2016-10-31",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.663942"
+  },
+  {
+    "title": "Monkeypox - Central African Republic",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/13-october-2016-monkeypox-caf-en",
+    "date": "2016-10-13",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.664092"
+  },
+  {
+    "title": "Wild poliovirus type 1 and circulating vaccine-derived poliovirus type 2 - Nigeria",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/06-october-2016-polio-nigeria-en",
+    "date": "2016-10-06",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.664240"
+  },
+  {
+    "title": "Rift Valley fever - Niger",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-september-2016-rift-valley-fever-niger-en",
+    "date": "2016-09-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.664387"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-september-2016-mers-saudi-arabia-en",
+    "date": "2016-09-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.664533"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Austria",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-september-2016-mers-austria-en",
+    "date": "2016-09-20",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.664679"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/16-september-2016-mers-saudi-arabia-en",
+    "date": "2016-09-16",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.664829"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Thailand",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-august-2016-mers-thailand-en",
+    "date": "2016-08-26",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:17:58.664978"
+  },
+  {
+    "title": "Influenza A H7N9 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/17-august-2016-ah7n9-china-en",
+    "date": "2016-08-17",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.890645"
+  },
+  {
+    "title": "Chikungunya – Kenya",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/09-august-2016-chikungunya-kenya-en",
+    "date": "2016-08-09",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.890807"
+  },
+  {
+    "title": "Rift Valley fever - China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/02-august-2016-rift-valley-fever-china-en",
+    "date": "2016-08-02",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.890961"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/25-july-2016-mers-saudi-arabia-en",
+    "date": "2016-07-25",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.891117"
+  },
+  {
+    "title": "Influenza A H7N9 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-july-2016-ah7n9-china-en",
+    "date": "2016-07-22",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.891266"
+  },
+  {
+    "title": "Enterohaemorrhagic Escherischia coli – United Kingdom of Great Britain and Northern Ireland",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-july-2016-ehec-uk-en",
+    "date": "2016-07-20",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.891415"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/06-july-2016-mers-saudi-arabia-en",
+    "date": "2016-07-06",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.891563"
+  },
+  {
+    "title": "Influenza A H7N9 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/01-july-2016-ah7n9-china-en",
+    "date": "2016-07-01",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.891711"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Qatar",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-june-2016-mers-qatar-en",
+    "date": "2016-06-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.891857"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-june-2016-mers-saudi-arabia-en",
+    "date": "2016-06-22",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.892008"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – United Arab Emirates",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-june-2016-mers-uae-en",
+    "date": "2016-06-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.892157"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-june-2016-mers-saudi-arabia-en",
+    "date": "2016-06-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.892304"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-june-2016-mers-saudi-arabia-en",
+    "date": "2016-06-19",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.892468"
+  },
+  {
+    "title": "Yellow fever – Angola",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-june-2016-yellow-fever-angola-en",
+    "date": "2016-06-14",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.892626"
+  },
+  {
+    "title": "Chikungunya – United States of America",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-june-2016-chikungunya-usa-en",
+    "date": "2016-06-14",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.892785"
+  },
+  {
+    "title": "Lassa Fever – Benin",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/13-june-2016-lassa-fever-benin-en",
+    "date": "2016-06-13",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.892934"
+  },
+  {
+    "title": "Influenza A H5N6 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/08-june-2016-ah5n6-china-en",
+    "date": "2016-06-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.893087"
+  },
+  {
+    "title": "Oropouche virus disease - Peru",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/03-june-2016-oropouche-peru-en",
+    "date": "2016-06-03",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.893235"
+  },
+  {
+    "title": "Yellow fever – Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/02-june-2016-yellow-fever-drc-en",
+    "date": "2016-06-02",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.893382"
+  },
+  {
+    "title": "Lassa Fever – Nigeria",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-may-2016-lassa-fever-nigeria-en",
+    "date": "2016-05-27",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.893530"
+  },
+  {
+    "title": "Haemorrhagic fever syndrome – South Sudan",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-may-2016-hf-south-sudan-en",
+    "date": "2016-05-19",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.893676"
+  },
+  {
+    "title": "Lassa Fever – Liberia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/18-may-2016-lassa-fever-liberia-en",
+    "date": "2016-05-18",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.893822"
+  },
+  {
+    "title": "Influenza A H7N9 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/17-may-2016-ah7n9-china-en",
+    "date": "2016-05-17",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.893969"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Qatar",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/16-may-2016-mers-qatar-en",
+    "date": "2016-05-16",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.894115"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/16-may-2016-mers-saudi-arabia-en",
+    "date": "2016-05-16",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.894271"
+  },
+  {
+    "title": "Influenza A H5N6 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/10-may-2016-ah5n6-china-en",
+    "date": "2016-05-10",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.894423"
+  },
+  {
+    "title": "Influenza A H5N6 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/6-may-2016-ah5n6-china-en",
+    "date": "2016-05-06",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.894570"
+  },
+  {
+    "title": "Influenza A H7N9 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/3-may-2016-ah7n9-china-en",
+    "date": "2016-05-03",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:04.894718"
+  },
+  {
+    "title": "Yellow fever – Uganda",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/02-may-2016-yellow-fever-uganda-en",
+    "date": "2016-05-02",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.121880"
+  },
+  {
+    "title": "Yellow fever – Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/02-may-2016-yellow-fever-drc-en",
+    "date": "2016-05-02",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.122049"
+  },
+  {
+    "title": "Salmonellosis - United States of America",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/28-april-2016-salmonellosis-usa-en",
+    "date": "2016-04-28",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.122200"
+  },
+  {
+    "title": "Lassa Fever – Germany",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-april-2016-lassa-fever-germany-en",
+    "date": "2016-04-27",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.122346"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-april-2016-mers-saudi-arabia-en",
+    "date": "2016-04-26",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.122490"
+  },
+  {
+    "title": "2016 - China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-april-2016-avian-ah7n9-china-en",
+    "date": "2016-04-26",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.122647"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Bahrain",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/25-april-2016-mers-bahrain-en",
+    "date": "2016-04-25",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.122799"
+  },
+  {
+    "title": "Yellow Fever – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-april-2016-yellow-fever-china-en",
+    "date": "2016-04-22",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.122945"
+  },
+  {
+    "title": "Zika virus disease – Papua New Guinea",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-april-2016-zika-png-en",
+    "date": "2016-04-22",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.123091"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-april-2016-mers-saudi-arabia-en",
+    "date": "2016-04-22",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.123236"
+  },
+  {
+    "title": "2016 - United States of America",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-april-2016-elizabethkingia-usa-en",
+    "date": "2016-04-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.123381"
+  },
+  {
+    "title": "Zika virus disease – Peru",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-april-2016-zika-peru-en",
+    "date": "2016-04-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.123527"
+  },
+  {
+    "title": "Zika virus disease – Saint Lucia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-april-2016-zika-saint-lucia-en",
+    "date": "2016-04-20",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.123674"
+  },
+  {
+    "title": "Zika virus disease – Chile",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/15-april-2016-zika-chile-en",
+    "date": "2016-04-15",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.123833"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-april-2016-mers-saudi-arabia-en",
+    "date": "2016-04-14",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.123983"
+  },
+  {
+    "title": "Yellow fever – Angola",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/13-april-2016-yellow-fever-angola-en",
+    "date": "2016-04-13",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.124130"
+  },
+  {
+    "title": "Zika virus disease – Viet Nam",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-april-2016-zika-viet-nam-en",
+    "date": "2016-04-12",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.124276"
+  },
+  {
+    "title": "Yellow Fever – Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-april-2016-yellow-fever-drc-en",
+    "date": "2016-04-11",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.124420"
+  },
+  {
+    "title": "Microcephaly – France - Martinique",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/9-april-2016-microcephaly-france-en",
+    "date": "2016-04-09",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.124564"
+  },
+  {
+    "title": "Lassa fever – Sweden",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-april-2016-lassa-fever-sweden-en",
+    "date": "2016-04-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.124711"
+  },
+  {
+    "title": "Yellow Fever – Kenya",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/6-april-2016-yellow-fever-kenya-en",
+    "date": "2016-04-06",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.124861"
+  },
+  {
+    "title": "Yellow Fever – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/6-april-2016-yellow-fever-china-en",
+    "date": "2016-04-06",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.125006"
+  },
+  {
+    "title": "Microcephaly – France - Martinique",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/1-april-2016-microcephaly-france-en",
+    "date": "2016-04-01",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.125151"
+  },
+  {
+    "title": "Zika virus disease – Dominica and Cuba",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-march-2016-zika-dominica-and-cuba-en",
+    "date": "2016-03-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.125296"
+  },
+  {
+    "title": "Guillain-Barré syndrome – Panama",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-march-2016-gbs-panama-en",
+    "date": "2016-03-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.125441"
+  },
+  {
+    "title": "Microcephaly – Panama",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-march-2016-microcephaly-panama-en",
+    "date": "2016-03-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.125586"
+  },
+  {
+    "title": "Yellow Fever – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-march-2016-yellow-fever-china-en",
+    "date": "2016-03-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.125729"
+  },
+  {
+    "title": "Influenza A H7N9 virus - China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-march-2016-avian-ah7n9-china-en",
+    "date": "2016-03-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:11.125884"
+  },
+  {
+    "title": "Lassa Fever – Germany",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-march-2016-lassa-fever-germany-en",
+    "date": "2016-03-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.351555"
+  },
+  {
+    "title": "Lassa Fever – Togo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-march-2016-lassa-fever-togo-en",
+    "date": "2016-03-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.351737"
+  },
+  {
+    "title": "Influenza A H5N6 virus - China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-march-2016-ah5n6-china-en",
+    "date": "2016-03-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.351906"
+  },
+  {
+    "title": "Influenza A H7N9 virus - China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-march-2016-avian-ah7n9-china-en",
+    "date": "2016-03-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.352053"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus - Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/23-march-2016-mers-saudi-arabia-en",
+    "date": "2016-03-23",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.352200"
+  },
+  {
+    "title": "Yellow Fever – Angola",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-march-2016-yellow-fever-angola-en",
+    "date": "2016-03-22",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.352350"
+  },
+  {
+    "title": "Guillain-Barré syndrome – United States of America",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-march-2016-gbs-usa-en",
+    "date": "2016-03-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.352496"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-march-2016-mers-saudi-arabia-en",
+    "date": "2016-03-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.352649"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/18-march-2016-mers-saudi-arabia-en",
+    "date": "2016-03-18",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.352811"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/16-march-2016-mers-saudi-arabia-en",
+    "date": "2016-03-16",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.352959"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-march-2016-mers-saudi-arabia-en",
+    "date": "2016-03-14",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.353105"
+  },
+  {
+    "title": "Chikungunya – Argentina",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/14-march-2016-chikungunya-argentina-en",
+    "date": "2016-03-14",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.353250"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/10-march-2016-mers-saudi-arabia-en",
+    "date": "2016-03-10",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.353400"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus - Qatar",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/10-march-2016-mers-qatar-en",
+    "date": "2016-03-10",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.353548"
+  },
+  {
+    "title": "Dengue – Uruguay",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/10-march-2016-dengue-uruguay-en",
+    "date": "2016-03-10",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.353711"
+  },
+  {
+    "title": "Zika virus disease – Argentina and France",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/7-march-2016-zika-argentina-and-france-en",
+    "date": "2016-03-07",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.353860"
+  },
+  {
+    "title": "Guillain-Barré syndrome – France - French Polynesia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/7-march-2016-gbs-french-polynesia-en",
+    "date": "2016-03-07",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.354007"
+  },
+  {
+    "title": "Zika virus disease – Netherlands - Sint Maarten",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/4-march-2016-zika-sint-maarten-en",
+    "date": "2016-03-04",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.354155"
+  },
+  {
+    "title": "Zika virus infection – Saint Vincent and the Grenadines",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/1-march-2016-zika-st-vincent-and-grenadines-en",
+    "date": "2016-03-01",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.354303"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus (MERS-CoV) – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-february-2016-mers-saudi-arabia-en",
+    "date": "2016-02-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.354454"
+  },
+  {
+    "title": "Zika virus disease – Trinidad and Tobago",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-february-2016-zika-trinidad-and-tobago-en",
+    "date": "2016-02-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.354602"
+  },
+  {
+    "title": "Circulating vaccine-derived poliovirus type 1 – Lao People’s Democratic Republic",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/25-february-2016-polio-lao-en",
+    "date": "2016-02-25",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.354750"
+  },
+  {
+    "title": "Dengue – Uruguay",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/25-february-2016-dengue-en",
+    "date": "2016-02-25",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.354898"
+  },
+  {
+    "title": "Influenza A H7N9 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/25-february-2016-avian-influenza-china-en",
+    "date": "2016-02-25",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.355047"
+  },
+  {
+    "title": "Zika virus disease – Netherlands - Bonaire and Aruba",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/22-february-2016-zika-netherlands-en",
+    "date": "2016-02-22",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.355193"
+  },
+  {
+    "title": "2016 - Benin",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-february-2016-lassa-fever-benin-en",
+    "date": "2016-02-19",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.355342"
+  },
+  {
+    "title": "Yellow fever – Angola",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-february-2016-yellow-fever-angola-en",
+    "date": "2016-02-12",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.355500"
+  },
+  {
+    "title": "Microcephaly – United States of America",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-february-2016-microcephaly-usa-en",
+    "date": "2016-02-12",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:17.355646"
+  },
+  {
+    "title": "Zika virus disease – United States of America",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-february-2016-zika-usa-en",
+    "date": "2016-02-12",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.583488"
+  },
+  {
+    "title": "Guillain-Barré syndrome – Colombia and Venezuela",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/12-february-2016-gbs-colombia-venezuela-en",
+    "date": "2016-02-12",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.583652"
+  },
+  {
+    "title": "Influenza A H7N9 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/10-february-2016-avian-influenza-china-en",
+    "date": "2016-02-10",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.583948"
+  },
+  {
+    "title": "Zika virus disease – Maldives",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-february-2016-zika-maldives-en",
+    "date": "2016-02-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.584097"
+  },
+  {
+    "title": "Guillain-Barré syndrome – Brazil",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-february-2016-gbs-brazil-en",
+    "date": "2016-02-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.584248"
+  },
+  {
+    "title": "Guillain-Barré syndrome – France - Martinique",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-february-2016-gbs-france-martinique-en",
+    "date": "2016-02-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.584396"
+  },
+  {
+    "title": "Zika virus disease – Region of the Americas",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-february-2016-zika-americas-region-en",
+    "date": "2016-02-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.584549"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2-february-2016-mers-saudi-arabia-en",
+    "date": "2016-02-02",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.584697"
+  },
+  {
+    "title": "Zika virus disease – United States of America",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-january-2016-zika-usa-en",
+    "date": "2016-01-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.584843"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Thailand",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-january-2016-mers-thailand-en",
+    "date": "2016-01-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.584997"
+  },
+  {
+    "title": "Circulating vaccine-derived poliovirus type 1– Lao People’s Democratic Republic",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/29-january-2016-polio-lao-en",
+    "date": "2016-01-29",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.585143"
+  },
+  {
+    "title": "Lassa fever – Nigeria",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-january-2016-lassa-fever-nigeria-en",
+    "date": "2016-01-27",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.585289"
+  },
+  {
+    "title": "Zika virus disease – Dominican Republic",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/27-january-2016-zika-dominican-republic-en",
+    "date": "2016-01-27",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.585443"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – United Arab Emirates",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-january-2016-mers-are-en",
+    "date": "2016-01-26",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.585593"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-january-2016-mers-saudi-arabia-en",
+    "date": "2016-01-26",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.585741"
+  },
+  {
+    "title": "Influenza A H5N6 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/26-january-2016-avian-influenza-china-en",
+    "date": "2016-01-26",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.585887"
+  },
+  {
+    "title": "Zika virus disease – Haiti",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-january-2016-zika-haiti-en",
+    "date": "2016-01-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.586035"
+  },
+  {
+    "title": "Guillain-Barré syndrome – El Salvador",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-january-2016-gbs-el-salvador-en",
+    "date": "2016-01-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.586181"
+  },
+  {
+    "title": "Zika virus disease – France",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/21-january-2016-zika-france-en",
+    "date": "2016-01-21",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.586326"
+  },
+  {
+    "title": "Zika virus disease – Bolivia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-january-2016-zika-bolivia-en",
+    "date": "2016-01-20",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.586472"
+  },
+  {
+    "title": "Zika virus disease – Guyana, Barbados and Ecuador",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/20-january-2016-zika-guyana-barbados-ecuador-en",
+    "date": "2016-01-20",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.586621"
+  },
+  {
+    "title": "Influenza A H7N9 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/19-january-2016-avian-influenza-china-en",
+    "date": "2016-01-19",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.586765"
+  },
+  {
+    "title": "Influenza A H5N6 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/11-january-2016-avian-influenza-china-en",
+    "date": "2016-01-11",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.586911"
+  },
+  {
+    "title": "Zika virus disease – France",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-january-2016-zika-france-en",
+    "date": "2016-01-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.587060"
+  },
+  {
+    "title": "Microcephaly – Brazil",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-january-2016-brazil-microcephaly-en",
+    "date": "2016-01-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.587207"
+  },
+  {
+    "title": "Zika virus disease – United States of America",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/8-january-2016-zika-usa-en",
+    "date": "2016-01-08",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.587353"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Oman",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/7-january-2016-mers-oman-en",
+    "date": "2016-01-07",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.587500"
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus – Saudi Arabia",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/4-january-2016-mers-saudi-arabia-en",
+    "date": "2016-01-04",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:23.587648"
+  },
+  {
+    "title": "Influenza A H5N6 virus – China",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/4-january-2016-avian-influenza-china-en",
+    "date": "2016-01-04",
+    "category": "Disease Outbreak News",
+    "scraped_at": "2026-01-29T09:18:29.808503"
+  }
+]

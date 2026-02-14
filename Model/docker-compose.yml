@@ -1,0 +1,25 @@
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:9.2.4
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+    ports:
+      - "9200:9200"
+
+  retriever:
+    build:
+      context: .
+      dockerfile: Dockerfile.retriever
+    environment:
+      - ES_HOST=elasticsearch
+      - ES_PORT=9200
+      - ES_INDEX=medical_passages
+      - INDEX_DIR=/app/retrieval/storage
+    volumes:
+      - ./retrieval/storage:/app/retrieval/storage:ro
+    depends_on:
+      - elasticsearch
+    ports:
+      - "8000:8000"
+

@@ -1,0 +1,538 @@
+{
+  "url": "https://www.webmd.com/a-to-z-guides/virus-genome-sequencing",
+  "title": "What Is Virus Genome Sequencing?",
+  "slug": "virus-genome-sequencing",
+  "published_date": "2024-06-06",
+  "first_letter": "V",
+  "author": "Kendall K. Morgan",
+  "medically_reviewed_by": "Nayana  Ambardekar, MD",
+  "read_time": "6 min read",
+  "sections": [
+    {
+      "heading": null,
+      "content": [
+        "First, let’s start with the basics. All living things have a genome.",
+        "Genomes are made of DNA. Each of your cells has a copy of your genome packed inside of it. You can think of it like an instruction manual or recipe book. The genome has all the instructions or “recipes” your body needs to work and look the way it does.",
+        "The human genome is written in a series of 3 billion DNA bases of four different types. Each base can be represented by one of four “letters” in the DNA “alphabet.” Most of your DNA will look just like that of any other person. But tiny differences in the spelling or sequence of those letters in thousands of genes across your genome explain, in part, what makes you unique.",
+        "Viruses have genomes, too. A virus genome can be made of DNA or a similar molecule called RNA. Compared to your genome, a virus genome is tiny. For example, coronaviruses such as the one that causes COVID-19 have an RNA genome that’s about 30,000 letters long (that’s 100,000 times smaller than the human genome). The genome of influenza or flu virus is even shorter at about 13,500 RNA letters.",
+        "Not all viruses make people sick. But the genomes of those that do have all the instructions needed for them to infect our cells, make more copies of themselves and spread. Small differences in those instructions can make different viruses or different variants or strains of the same virus look different and act in different ways. Scientists can learn a lot about a virus by studying its genome."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "First, let’s start with the basics. All living things have a genome.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Genomes are made of DNA. Each of your cells has a copy of your genome packed inside of it. You can think of it like an instruction manual or recipe book. The genome has all the instructions or “recipes” your body needs to work and look the way it does.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The human genome is written in a series of 3 billion DNA bases of four different types. Each base can be represented by one of four “letters” in the DNA “alphabet.” Most of your DNA will look just like that of any other person. But tiny differences in the spelling or sequence of those letters in thousands of genes across your genome explain, in part, what makes you unique.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Viruses have genomes, too. A virus genome can be made of DNA or a similar molecule called RNA. Compared to your genome, a virus genome is tiny. For example, coronaviruses such as the one that causes COVID-19 have an RNA genome that’s about 30,000 letters long (that’s 100,000 times smaller than the human genome). The genome of influenza or flu virus is even shorter at about 13,500 RNA letters.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Not all viruses make people sick. But the genomes of those that do have all the instructions needed for them to infect our cells, make more copies of themselves and spread. Small differences in those instructions can make different viruses or different variants or strains of the same virus look different and act in different ways. Scientists can learn a lot about a virus by studying its genome.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Is Virus Genome Sequence or Viral Genome Sequencing?",
+      "content": [
+        "The genome sequence of a virus is the sequence or order of bases or letters that make up a virus’s genetic material, or its genome. If you were to write down the genome sequence of a particular coronavirus, it would be a series of about 30,000 letters. The key is to get them in just the right order that you find them in a particular virus.",
+        "In the case of RNA, scientists use the letters A, C, G, and U, which stand for each of the four RNA bases: adenine, cytosine, guanine, and uracil. It’s the same for DNA, except it’s a T for thymine in place of uracil. The process scientists use to figure out the right order of letters in a certain sample of the virus is called genome sequencing."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The genome sequence of a virus is the sequence or order of bases or letters that make up a virus’s genetic material, or its genome. If you were to write down the genome sequence of a particular coronavirus, it would be a series of about 30,000 letters. The key is to get them in just the right order that you find them in a particular virus.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In the case of RNA, scientists use the letters A, C, G, and U, which stand for each of the four RNA bases: adenine, cytosine, guanine, and uracil. It’s the same for DNA, except it’s a T for thymine in place of uracil. The process scientists use to figure out the right order of letters in a certain sample of the virus is called genome sequencing.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "First, let’s start with the basics. All living things have a genome.",
+        "Genomes are made of DNA. Each of your cells has a copy of your genome packed inside of it. You can think of it like an instruction manual or recipe book. The genome has all the instructions or “recipes” your body needs to work and look the way it does.",
+        "The human genome is written in a series of 3 billion DNA bases of four different types. Each base can be represented by one of four “letters” in the DNA “alphabet.” Most of your DNA will look just like that of any other person. But tiny differences in the spelling or sequence of those letters in thousands of genes across your genome explain, in part, what makes you unique.",
+        "Viruses have genomes, too. A virus genome can be made of DNA or a similar molecule called RNA. Compared to your genome, a virus genome is tiny. For example, coronaviruses such as the one that causes COVID-19 have an RNA genome that’s about 30,000 letters long (that’s 100,000 times smaller than the human genome). The genome of influenza or flu virus is even shorter at about 13,500 RNA letters.",
+        "Not all viruses make people sick. But the genomes of those that do have all the instructions needed for them to infect our cells, make more copies of themselves and spread. Small differences in those instructions can make different viruses or different variants or strains of the same virus look different and act in different ways. Scientists can learn a lot about a virus by studying its genome."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "First, let’s start with the basics. All living things have a genome.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Genomes are made of DNA. Each of your cells has a copy of your genome packed inside of it. You can think of it like an instruction manual or recipe book. The genome has all the instructions or “recipes” your body needs to work and look the way it does.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The human genome is written in a series of 3 billion DNA bases of four different types. Each base can be represented by one of four “letters” in the DNA “alphabet.” Most of your DNA will look just like that of any other person. But tiny differences in the spelling or sequence of those letters in thousands of genes across your genome explain, in part, what makes you unique.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Viruses have genomes, too. A virus genome can be made of DNA or a similar molecule called RNA. Compared to your genome, a virus genome is tiny. For example, coronaviruses such as the one that causes COVID-19 have an RNA genome that’s about 30,000 letters long (that’s 100,000 times smaller than the human genome). The genome of influenza or flu virus is even shorter at about 13,500 RNA letters.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Not all viruses make people sick. But the genomes of those that do have all the instructions needed for them to infect our cells, make more copies of themselves and spread. Small differences in those instructions can make different viruses or different variants or strains of the same virus look different and act in different ways. Scientists can learn a lot about a virus by studying its genome.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Is Virus Genome Sequence or Viral Genome Sequencing?",
+      "content": [
+        "The genome sequence of a virus is the sequence or order of bases or letters that make up a virus’s genetic material, or its genome. If you were to write down the genome sequence of a particular coronavirus, it would be a series of about 30,000 letters. The key is to get them in just the right order that you find them in a particular virus.",
+        "In the case of RNA, scientists use the letters A, C, G, and U, which stand for each of the four RNA bases: adenine, cytosine, guanine, and uracil. It’s the same for DNA, except it’s a T for thymine in place of uracil. The process scientists use to figure out the right order of letters in a certain sample of the virus is called genome sequencing."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The genome sequence of a virus is the sequence or order of bases or letters that make up a virus’s genetic material, or its genome. If you were to write down the genome sequence of a particular coronavirus, it would be a series of about 30,000 letters. The key is to get them in just the right order that you find them in a particular virus.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In the case of RNA, scientists use the letters A, C, G, and U, which stand for each of the four RNA bases: adenine, cytosine, guanine, and uracil. It’s the same for DNA, except it’s a T for thymine in place of uracil. The process scientists use to figure out the right order of letters in a certain sample of the virus is called genome sequencing.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Does Virus Genome Sequencing Tell Us?",
+      "content": [
+        "Viruses and virus genomes change all the time. The reason is that cells sometimes make mistakes."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Viruses and virus genomes change all the time. The reason is that cells sometimes make mistakes.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "When a viral genome is copied inside an infected cell, sometimes a “typo” gets through. Most of the time, those spelling errors don’t make a lot of difference. But sometimes they can change how a virus looks or acts in ways that turn out to be important. Nobody knows where the virus that causes COVID-19 came from exactly. But it probably arose from a coronavirus in another animal, such as a bat, that changed by mistake in a way that allowed it to infect people.",
+        "Genome sequencing is how scientists found this new human coronavirus soon after it popped up in people. At first, what they knew was that people in China were suddenly getting sick with respiratory symptoms. So scientists sequenced the genome of a viral sample from a person who worked at a market where they thought it might have come from. By comparing the RNA sequence to other viral genome sequences they had from earlier studies, they could tell right away that it was a coronavirus they hadn’t seen in people before."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "When a viral genome is copied inside an infected cell, sometimes a “typo” gets through. Most of the time, those spelling errors don’t make a lot of difference. But sometimes they can change how a virus looks or acts in ways that turn out to be important. Nobody knows where the virus that causes COVID-19 came from exactly. But it probably arose from a coronavirus in another animal, such as a bat, that changed by mistake in a way that allowed it to infect people.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Genome sequencing is how scientists found this new human coronavirus soon after it popped up in people. At first, what they knew was that people in China were suddenly getting sick with respiratory symptoms. So scientists sequenced the genome of a viral sample from a person who worked at a market where they thought it might have come from. By comparing the RNA sequence to other viral genome sequences they had from earlier studies, they could tell right away that it was a coronavirus they hadn’t seen in people before.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Even though it was a new virus as far as people were concerned, they knew a lot about it right away based on its genome. That’s because scientists had been studying related coronaviruses that had caused earlier outbreaks in people. From those studies, they knew about some of the important parts of the coronavirus genome, including the gene that encodes what scientists call its spike protein.",
+        "They knew the spike would be important for the virus to infect our cells. They also knew it could be a useful target for vaccines or other treatments. They knew all of this soon after discovering the coronavirus because they could sequence its genome and compare the genome to other viral genomes.",
+        "So genome sequencing can reveal many useful things.",
+        "It can identify a new virus or tell you what kind of virus is making someone sick. It can give scientists ideas about how a virus might make us sick based on its genes and the proteins they encode along with ways to try and stop it. When a virus is spreading from person to person around the world, scientists can use genome sequences to track its movements and any changes that happen."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Even though it was a new virus as far as people were concerned, they knew a lot about it right away based on its genome. That’s because scientists had been studying related coronaviruses that had caused earlier outbreaks in people. From those studies, they knew about some of the important parts of the coronavirus genome, including the gene that encodes what scientists call its spike protein.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "They knew the spike would be important for the virus to infect our cells. They also knew it could be a useful target for vaccines or other treatments. They knew all of this soon after discovering the coronavirus because they could sequence its genome and compare the genome to other viral genomes.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So genome sequencing can reveal many useful things.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "It can identify a new virus or tell you what kind of virus is making someone sick. It can give scientists ideas about how a virus might make us sick based on its genes and the proteins they encode along with ways to try and stop it. When a virus is spreading from person to person around the world, scientists can use genome sequences to track its movements and any changes that happen.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Does Virus Genome Sequencing Tell Us?",
+      "content": [
+        "Viruses and virus genomes change all the time. The reason is that cells sometimes make mistakes."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Viruses and virus genomes change all the time. The reason is that cells sometimes make mistakes.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "When a viral genome is copied inside an infected cell, sometimes a “typo” gets through. Most of the time, those spelling errors don’t make a lot of difference. But sometimes they can change how a virus looks or acts in ways that turn out to be important. Nobody knows where the virus that causes COVID-19 came from exactly. But it probably arose from a coronavirus in another animal, such as a bat, that changed by mistake in a way that allowed it to infect people.",
+        "Genome sequencing is how scientists found this new human coronavirus soon after it popped up in people. At first, what they knew was that people in China were suddenly getting sick with respiratory symptoms. So scientists sequenced the genome of a viral sample from a person who worked at a market where they thought it might have come from. By comparing the RNA sequence to other viral genome sequences they had from earlier studies, they could tell right away that it was a coronavirus they hadn’t seen in people before."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "When a viral genome is copied inside an infected cell, sometimes a “typo” gets through. Most of the time, those spelling errors don’t make a lot of difference. But sometimes they can change how a virus looks or acts in ways that turn out to be important. Nobody knows where the virus that causes COVID-19 came from exactly. But it probably arose from a coronavirus in another animal, such as a bat, that changed by mistake in a way that allowed it to infect people.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Genome sequencing is how scientists found this new human coronavirus soon after it popped up in people. At first, what they knew was that people in China were suddenly getting sick with respiratory symptoms. So scientists sequenced the genome of a viral sample from a person who worked at a market where they thought it might have come from. By comparing the RNA sequence to other viral genome sequences they had from earlier studies, they could tell right away that it was a coronavirus they hadn’t seen in people before.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Even though it was a new virus as far as people were concerned, they knew a lot about it right away based on its genome. That’s because scientists had been studying related coronaviruses that had caused earlier outbreaks in people. From those studies, they knew about some of the important parts of the coronavirus genome, including the gene that encodes what scientists call its spike protein.",
+        "They knew the spike would be important for the virus to infect our cells. They also knew it could be a useful target for vaccines or other treatments. They knew all of this soon after discovering the coronavirus because they could sequence its genome and compare the genome to other viral genomes.",
+        "So genome sequencing can reveal many useful things.",
+        "It can identify a new virus or tell you what kind of virus is making someone sick. It can give scientists ideas about how a virus might make us sick based on its genes and the proteins they encode along with ways to try and stop it. When a virus is spreading from person to person around the world, scientists can use genome sequences to track its movements and any changes that happen."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Even though it was a new virus as far as people were concerned, they knew a lot about it right away based on its genome. That’s because scientists had been studying related coronaviruses that had caused earlier outbreaks in people. From those studies, they knew about some of the important parts of the coronavirus genome, including the gene that encodes what scientists call its spike protein.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "They knew the spike would be important for the virus to infect our cells. They also knew it could be a useful target for vaccines or other treatments. They knew all of this soon after discovering the coronavirus because they could sequence its genome and compare the genome to other viral genomes.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So genome sequencing can reveal many useful things.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "It can identify a new virus or tell you what kind of virus is making someone sick. It can give scientists ideas about how a virus might make us sick based on its genes and the proteins they encode along with ways to try and stop it. When a virus is spreading from person to person around the world, scientists can use genome sequences to track its movements and any changes that happen.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Is the Purpose of Virus Genome Sequencing for COVID-19 and the Flu?",
+      "content": [
+        "Scientists have been tracking flu viruses for decades. They use them to compare the viruses around now to those that were around in the past. Based on the genome sequences, they look for important differences in the way certain genes are spelled. Some changes don’t make much difference at all. But others affect how easily a virus spreads from one person to the next or how sick it makes people.",
+        "Every year, scientists use flu genome sequences to help them decide what to include in the flu vaccines. Because these viruses have been around so long and change all the time, you can find slightly different versions even in samples that came from one person with the flu. In a normal year, scientists sequence thousands of flu viruses to keep them informed and help them make public health decisions.",
+        "In the COVID-19 pandemic , genome sequencing has been important. Genome sequences help scientists track the way the coronavirus is spreading and how it’s changing. They can also study genome sequences to figure out which changes are worth worrying about and which probably aren’t."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Scientists have been tracking flu viruses for decades. They use them to compare the viruses around now to those that were around in the past. Based on the genome sequences, they look for important differences in the way certain genes are spelled. Some changes don’t make much difference at all. But others affect how easily a virus spreads from one person to the next or how sick it makes people.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Every year, scientists use flu genome sequences to help them decide what to include in the flu vaccines. Because these viruses have been around so long and change all the time, you can find slightly different versions even in samples that came from one person with the flu. In a normal year, scientists sequence thousands of flu viruses to keep them informed and help them make public health decisions.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In the COVID-19 pandemic , genome sequencing has been important. Genome sequences help scientists track the way the coronavirus is spreading and how it’s changing. They can also study genome sequences to figure out which changes are worth worrying about and which probably aren’t.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "For example, one study in Boston used about 800 viral genomes to see how the coronavirus was spreading there early on. Based on tiny changes in the genomes, they could tell that the coronavirus had gotten to the Boston area dozens of times, coming from Europe and parts of the U.S. Researchers also could tell that a single conference had led to thousands of infections in Boston and other places around the world.",
+        "Scientists continue to sequence the coronavirus that causes COVID-19 to understand how it’s moving and catch new variants as they arise. This process is called genomic surveillance.",
+        "Genomic surveillance involves sequencing lots of samples. It uncovers new variants, or viral genomes that have one or more mutations in them.",
+        "Some variants that pop up just disappear or don’t make any difference. When changes in the genome look like they might be worrisome, scientists classify those as either a “variant of interest” or a “variant of concern.” You’re likely familiar with coronavirus variants such as Delta or Omicron."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "For example, one study in Boston used about 800 viral genomes to see how the coronavirus was spreading there early on. Based on tiny changes in the genomes, they could tell that the coronavirus had gotten to the Boston area dozens of times, coming from Europe and parts of the U.S. Researchers also could tell that a single conference had led to thousands of infections in Boston and other places around the world.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Scientists continue to sequence the coronavirus that causes COVID-19 to understand how it’s moving and catch new variants as they arise. This process is called genomic surveillance.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Genomic surveillance involves sequencing lots of samples. It uncovers new variants, or viral genomes that have one or more mutations in them.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Some variants that pop up just disappear or don’t make any difference. When changes in the genome look like they might be worrisome, scientists classify those as either a “variant of interest” or a “variant of concern.” You’re likely familiar with coronavirus variants such as Delta or Omicron.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Is the Purpose of Virus Genome Sequencing for COVID-19 and the Flu?",
+      "content": [
+        "Scientists have been tracking flu viruses for decades. They use them to compare the viruses around now to those that were around in the past. Based on the genome sequences, they look for important differences in the way certain genes are spelled. Some changes don’t make much difference at all. But others affect how easily a virus spreads from one person to the next or how sick it makes people.",
+        "Every year, scientists use flu genome sequences to help them decide what to include in the flu vaccines. Because these viruses have been around so long and change all the time, you can find slightly different versions even in samples that came from one person with the flu. In a normal year, scientists sequence thousands of flu viruses to keep them informed and help them make public health decisions.",
+        "In the COVID-19 pandemic , genome sequencing has been important. Genome sequences help scientists track the way the coronavirus is spreading and how it’s changing. They can also study genome sequences to figure out which changes are worth worrying about and which probably aren’t."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Scientists have been tracking flu viruses for decades. They use them to compare the viruses around now to those that were around in the past. Based on the genome sequences, they look for important differences in the way certain genes are spelled. Some changes don’t make much difference at all. But others affect how easily a virus spreads from one person to the next or how sick it makes people.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Every year, scientists use flu genome sequences to help them decide what to include in the flu vaccines. Because these viruses have been around so long and change all the time, you can find slightly different versions even in samples that came from one person with the flu. In a normal year, scientists sequence thousands of flu viruses to keep them informed and help them make public health decisions.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In the COVID-19 pandemic , genome sequencing has been important. Genome sequences help scientists track the way the coronavirus is spreading and how it’s changing. They can also study genome sequences to figure out which changes are worth worrying about and which probably aren’t.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "For example, one study in Boston used about 800 viral genomes to see how the coronavirus was spreading there early on. Based on tiny changes in the genomes, they could tell that the coronavirus had gotten to the Boston area dozens of times, coming from Europe and parts of the U.S. Researchers also could tell that a single conference had led to thousands of infections in Boston and other places around the world.",
+        "Scientists continue to sequence the coronavirus that causes COVID-19 to understand how it’s moving and catch new variants as they arise. This process is called genomic surveillance.",
+        "Genomic surveillance involves sequencing lots of samples. It uncovers new variants, or viral genomes that have one or more mutations in them.",
+        "Some variants that pop up just disappear or don’t make any difference. When changes in the genome look like they might be worrisome, scientists classify those as either a “variant of interest” or a “variant of concern.” You’re likely familiar with coronavirus variants such as Delta or Omicron."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "For example, one study in Boston used about 800 viral genomes to see how the coronavirus was spreading there early on. Based on tiny changes in the genomes, they could tell that the coronavirus had gotten to the Boston area dozens of times, coming from Europe and parts of the U.S. Researchers also could tell that a single conference had led to thousands of infections in Boston and other places around the world.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Scientists continue to sequence the coronavirus that causes COVID-19 to understand how it’s moving and catch new variants as they arise. This process is called genomic surveillance.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Genomic surveillance involves sequencing lots of samples. It uncovers new variants, or viral genomes that have one or more mutations in them.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Some variants that pop up just disappear or don’t make any difference. When changes in the genome look like they might be worrisome, scientists classify those as either a “variant of interest” or a “variant of concern.” You’re likely familiar with coronavirus variants such as Delta or Omicron.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "One of the reasons scientists were worried early on about Omicron is that the variant has about 50 typos or mutations in its genome. Lots of those mutations are also in the spike protein, which is the part of the virus that vaccines and our immune systems use to attack it.",
+        "Because of these changes, Omicron spreads faster than the original coronavirus that causes COVID-19. Scientists expect new variants to keep coming up. By continuing genome sequencing and surveillance, they can try to keep ahead of the virus. Scientists can use genome sequencing to identify and track any virus they’re interested in."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "One of the reasons scientists were worried early on about Omicron is that the variant has about 50 typos or mutations in its genome. Lots of those mutations are also in the spike protein, which is the part of the virus that vaccines and our immune systems use to attack it.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Because of these changes, Omicron spreads faster than the original coronavirus that causes COVID-19. Scientists expect new variants to keep coming up. By continuing genome sequencing and surveillance, they can try to keep ahead of the virus. Scientists can use genome sequencing to identify and track any virus they’re interested in.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "How Is Virus Genome Sequencing Done?",
+      "content": [
+        "Genome sequencing is a lot easier and cheaper now than it used to be. Viral genomes are also easier to sequence than a human genome because of their small size. Here are the primary steps:",
+        "Extraction . Scientists extract the RNA or DNA from a sample that has virus in it."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Genome sequencing is a lot easier and cheaper now than it used to be. Viral genomes are also easier to sequence than a human genome because of their small size. Here are the primary steps:",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Extraction . Scientists extract the RNA or DNA from a sample that has virus in it.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Sample preparation",
+      "content": [
+        ". Scientists prepare the sample. For example, they might have to chop the RNA or DNA into smaller pieces or add certain fragments to the ends. The specific steps depend on which type of machine scientists are using.",
+        "Sequencing . Scientists put the sample into a sequencing machine. The machine reads signals that tell them the order of bases or letters in the DNA or RNA.",
+        "Analysis . The machines will end up with lots of strings of letters that don’t individually cover the whole genome. They’ll use computers to put it all together into a complete genome sequence and identify any differences in the new sequence compared to others."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ". Scientists prepare the sample. For example, they might have to chop the RNA or DNA into smaller pieces or add certain fragments to the ends. The specific steps depend on which type of machine scientists are using.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Sequencing . Scientists put the sample into a sequencing machine. The machine reads signals that tell them the order of bases or letters in the DNA or RNA.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysis . The machines will end up with lots of strings of letters that don’t individually cover the whole genome. They’ll use computers to put it all together into a complete genome sequence and identify any differences in the new sequence compared to others.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "One of the reasons scientists were worried early on about Omicron is that the variant has about 50 typos or mutations in its genome. Lots of those mutations are also in the spike protein, which is the part of the virus that vaccines and our immune systems use to attack it.",
+        "Because of these changes, Omicron spreads faster than the original coronavirus that causes COVID-19. Scientists expect new variants to keep coming up. By continuing genome sequencing and surveillance, they can try to keep ahead of the virus. Scientists can use genome sequencing to identify and track any virus they’re interested in."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "One of the reasons scientists were worried early on about Omicron is that the variant has about 50 typos or mutations in its genome. Lots of those mutations are also in the spike protein, which is the part of the virus that vaccines and our immune systems use to attack it.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Because of these changes, Omicron spreads faster than the original coronavirus that causes COVID-19. Scientists expect new variants to keep coming up. By continuing genome sequencing and surveillance, they can try to keep ahead of the virus. Scientists can use genome sequencing to identify and track any virus they’re interested in.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "How Is Virus Genome Sequencing Done?",
+      "content": [
+        "Genome sequencing is a lot easier and cheaper now than it used to be. Viral genomes are also easier to sequence than a human genome because of their small size. Here are the primary steps:",
+        "Extraction . Scientists extract the RNA or DNA from a sample that has virus in it."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Genome sequencing is a lot easier and cheaper now than it used to be. Viral genomes are also easier to sequence than a human genome because of their small size. Here are the primary steps:",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Extraction . Scientists extract the RNA or DNA from a sample that has virus in it.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        ". Scientists prepare the sample. For example, they might have to chop the RNA or DNA into smaller pieces or add certain fragments to the ends. The specific steps depend on which type of machine scientists are using.",
+        "Sequencing . Scientists put the sample into a sequencing machine. The machine reads signals that tell them the order of bases or letters in the DNA or RNA.",
+        "Analysis . The machines will end up with lots of strings of letters that don’t individually cover the whole genome. They’ll use computers to put it all together into a complete genome sequence and identify any differences in the new sequence compared to others."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ". Scientists prepare the sample. For example, they might have to chop the RNA or DNA into smaller pieces or add certain fragments to the ends. The specific steps depend on which type of machine scientists are using.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Sequencing . Scientists put the sample into a sequencing machine. The machine reads signals that tell them the order of bases or letters in the DNA or RNA.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysis . The machines will end up with lots of strings of letters that don’t individually cover the whole genome. They’ll use computers to put it all together into a complete genome sequence and identify any differences in the new sequence compared to others.",
+          "associated_bullets": null
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd-logo-fb.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/kendall-morgan-382x382.jpg?resize=51px:51px&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/ambardekar_nayana_382x382.jpg?resize=51px:51px&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [
+    "UK Research and Innovation: “How does virus genome sequencing help the response to COVID-19?”",
+    "Microbiology Society: “Are Viruses Alive?”",
+    "Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease : “Insights into SARS-CoV-2 genome, structure, evolution, pathogenesis and therapies: Structural genomics approach.”",
+    "Centers for Disease Control and Prevention: “Understanding Influenza Viruses,” “COVID-19: What is Genomic Surveillance?” “Influenza Virus Genome Sequencing and Genetic Characterization,” “COVID Data Tracker,” “What You Need to Know About Variants,” “Advanced Molecular Detection (AMD).”",
+    "Nature Education : “Genetics of the Influenza Virus.”",
+    "Molecular Biology and Evolution : “Where Did SARS-CoV-2 Come From?”",
+    "Nature : “A new coronavirus associated with human respiratory disease in China,” “Omicron extensively but incompletely escapes Pfizer BNT162b2 neutralization.”",
+    "Science : “Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation,” “Phylogenetic analysis of SARS-CoV-2 in Boston highlights the impact of superspreading events.”"
+  ],
+  "meta_description": "What Is Virus Genome Sequencing?",
+  "canonical_url": "https://www.webmd.com/a-to-z-guides/virus-genome-sequencing",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:50:44.048258Z"
+}

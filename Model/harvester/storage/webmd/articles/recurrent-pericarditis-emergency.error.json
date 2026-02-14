@@ -1,0 +1,5 @@
+{
+  "url": "https://www.webmd.com/heart-disease/cm/recurrent-pericarditis-emergency",
+  "error": "'NoneType' object has no attribute 'select'",
+  "scrape_timestamp_utc": "2026-01-23T03:43:31.210049Z"
+}

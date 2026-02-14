@@ -1,0 +1,541 @@
+{
+  "url": "https://www.webmd.com/podcasts/20240912/practical-steps-to-minimize-pollutions-impact-on-your-health-and-home",
+  "title": "Practical Steps to Minimize Pollution's Impact on Your Health and Home",
+  "slug": "practical-steps-to-minimize-pollutions-impact-on-your-health-and-home",
+  "published_date": "",
+  "first_letter": "P",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": null,
+      "content_blocks": []
+    },
+    {
+      "heading": null,
+      "content": [
+        "Sep. 12, 2024 -- Most of us are aware of the risks of air pollution, but what about the pollutants we encounter inside our homes every day? In 2024, the American Lung Association reported that over 131 million people in the U.S. are exposed to unhealthy levels of pollution, but the dangers don’t stop at the front door. In this episode, we dive deep into the topic of pollution with Philip J. Landrigan, MD, MSc, FAAP , a leading expert in global public health. Dr. Landrigan helps us identify different sources of pollution, including microplastics, pesticides, and air pollution, and their health risks. Learn practical strategies for minimizing exposure , safer alternatives to common pollutants, and how pollution is linked to climate change. Whether at home, in your community, or at a societal level, discover actionable steps you can take to reduce pollution’s impact on your health and the health of those around you."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sep. 12, 2024 -- Most of us are aware of the risks of air pollution, but what about the pollutants we encounter inside our homes every day? In 2024, the American Lung Association reported that over 131 million people in the U.S. are exposed to unhealthy levels of pollution, but the dangers don’t stop at the front door. In this episode, we dive deep into the topic of pollution with Philip J. Landrigan, MD, MSc, FAAP , a leading expert in global public health. Dr. Landrigan helps us identify different sources of pollution, including microplastics, pesticides, and air pollution, and their health risks. Learn practical strategies for minimizing exposure , safer alternatives to common pollutants, and how pollution is linked to climate change. Whether at home, in your community, or at a societal level, discover actionable steps you can take to reduce pollution’s impact on your health and the health of those around you.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Neha Pathak, MD, FACP, DipABLM:",
+      "content": [
+        "Welcome to the WebMD Health Discovered podcast. I'm Dr Neha Pathak, WebMD's Chief Physician Editor for Health and Lifestyle Medicine. Today, we're talking about something that can be super overwhelming for so many of us. Pollution in the world around us and how to protect ourselves and our children."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Welcome to the WebMD Health Discovered podcast. I'm Dr Neha Pathak, WebMD's Chief Physician Editor for Health and Lifestyle Medicine. Today, we're talking about something that can be super overwhelming for so many of us. Pollution in the world around us and how to protect ourselves and our children.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Pollution, as we know, encompasses a whole variety of different things from pollution in the air, the water, soil, on the foods that we eat, plastics. So how do we get started in minimizing our risk? What should we be really thinking about and focusing on minimizing in our own homes so that we minimize our exposure to dangerous chemicals?",
+        "Today, we're going to be focusing mostly on plastics, pesticides, talking a little bit about air pollution and getting really important health information from one of the world's experts on pollution and its health impacts. So first let me introduce my guest, Dr Philip Landrigan. He's the director of the program for Global Public Health and the Common Good, director of the Global Observatory on Planetary Health and professor of biology at Boston College. Welcome to the WebMD Health Discovered podcast, Dr Landrigan."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pollution, as we know, encompasses a whole variety of different things from pollution in the air, the water, soil, on the foods that we eat, plastics. So how do we get started in minimizing our risk? What should we be really thinking about and focusing on minimizing in our own homes so that we minimize our exposure to dangerous chemicals?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Today, we're going to be focusing mostly on plastics, pesticides, talking a little bit about air pollution and getting really important health information from one of the world's experts on pollution and its health impacts. So first let me introduce my guest, Dr Philip Landrigan. He's the director of the program for Global Public Health and the Common Good, director of the Global Observatory on Planetary Health and professor of biology at Boston College. Welcome to the WebMD Health Discovered podcast, Dr Landrigan.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Philip J. Landrigan, MD, MSc:",
+      "content": [
+        "Neha, thank you. It's a pleasure to be here.",
+        "Pathak: Well, I am really, really so honored to have you here and excited to dig in. But before we get to my questions for today, I'd love to just talk about your personal health discovery, your aha moment that brought you to this work on pollution. You are so well known in this space. You've done so much work that informs so much of what I do clinically and what others do."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Neha, thank you. It's a pleasure to be here.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak: Well, I am really, really so honored to have you here and excited to dig in. But before we get to my questions for today, I'd love to just talk about your personal health discovery, your aha moment that brought you to this work on pollution. You are so well known in this space. You've done so much work that informs so much of what I do clinically and what others do.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "So, I'd love it if you could give us a little bit of your story.",
+        "Landrigan: Sure. So, I'm trained as a pediatrician, and I got into public health in the 1970s when I was drafted into the U.S. Public Health Service during the Vietnam War. I had the good fortune to end up at CDC, Centers for Disease Control and Prevention in Atlanta, where they turned me into an epidemiologist, and I've really never looked back since that time.",
+        "For a long time, my focus in epidemiology has been on toxic chemicals and their effects on human health, especially children's health since I'm a pediatrician. Started out with lead, got into pesticides, got into air pollution. Around 2015, I started thinking more globally. Up until then I'd been mainly focused within the United States but started thinking about environmental hazards globally because I realized that by far the greatest burden of environmental disease is in low income and middle-income countries."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "So, I'd love it if you could give us a little bit of your story.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Landrigan: Sure. So, I'm trained as a pediatrician, and I got into public health in the 1970s when I was drafted into the U.S. Public Health Service during the Vietnam War. I had the good fortune to end up at CDC, Centers for Disease Control and Prevention in Atlanta, where they turned me into an epidemiologist, and I've really never looked back since that time.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "For a long time, my focus in epidemiology has been on toxic chemicals and their effects on human health, especially children's health since I'm a pediatrician. Started out with lead, got into pesticides, got into air pollution. Around 2015, I started thinking more globally. Up until then I'd been mainly focused within the United States but started thinking about environmental hazards globally because I realized that by far the greatest burden of environmental disease is in low income and middle-income countries.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "I became involved in the Lancet Commission on pollution and health, a big report that a number of colleagues and I published in the Lancet. In 2018, the top line finding was that pollution in all its forms, air, water, soil, chemical is responsible for at least nine million premature deaths per year.",
+        "That's three times more deaths than AIDS, malaria, and TB put together. It's just amazing what the toll is from pollution.",
+        "Pathak: The whole idea of pollution is so overwhelming to so many of us. I'm thinking of myself as a mother, a member of a family, a member of a community. What should I be thinking about so that I don't feel this sense of overwhelm?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "I became involved in the Lancet Commission on pollution and health, a big report that a number of colleagues and I published in the Lancet. In 2018, the top line finding was that pollution in all its forms, air, water, soil, chemical is responsible for at least nine million premature deaths per year.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "That's three times more deaths than AIDS, malaria, and TB put together. It's just amazing what the toll is from pollution.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak: The whole idea of pollution is so overwhelming to so many of us. I'm thinking of myself as a mother, a member of a family, a member of a community. What should I be thinking about so that I don't feel this sense of overwhelm?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Landrigan:",
+      "content": [
+        "That's a very important question and you're absolutely right. It's so easy for folks to feel powerless, that there's nothing they can do in the face of these overwhelming problems. Likewise, climate change. But I think in reality there are some very specific things that people can do on three levels."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "That's a very important question and you're absolutely right. It's so easy for folks to feel powerless, that there's nothing they can do in the face of these overwhelming problems. Likewise, climate change. But I think in reality there are some very specific things that people can do on three levels.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "You can make a huge difference in your own home and your own family, but people can also make a difference in their community, and they can make a difference in the broader society. So, in their home, parents can decide what products to buy, they can decide whether or not to bring in plastic to their home or go preferentially to paper and cardboard and glass packaging.",
+        "I know you can't do it all the time, of course, but you can certainly tilt the equation, tilt the balance. And people can decide to reduce their carbon footprint and reduce the pollution they generate by moving away from gas heating, moving away from a gas stove, moving away from a gasoline or diesel-powered vehicle to electric. People can reduce their family's exposure to pesticides by not using pesticides in the home and garden and also by buying organic food when they can because it's been very well shown that a mainly organic diet reduces pesticide exposure by 90 percent."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "You can make a huge difference in your own home and your own family, but people can also make a difference in their community, and they can make a difference in the broader society. So, in their home, parents can decide what products to buy, they can decide whether or not to bring in plastic to their home or go preferentially to paper and cardboard and glass packaging.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "I know you can't do it all the time, of course, but you can certainly tilt the equation, tilt the balance. And people can decide to reduce their carbon footprint and reduce the pollution they generate by moving away from gas heating, moving away from a gas stove, moving away from a gasoline or diesel-powered vehicle to electric. People can reduce their family's exposure to pesticides by not using pesticides in the home and garden and also by buying organic food when they can because it's been very well shown that a mainly organic diet reduces pesticide exposure by 90 percent.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "So those are things that people can do in their home in the community. Lots of communities have taken very excellent, powerful steps to reduce pollution. Many communities around this country have banned plastic bags. They've banned plastic straws and eating utensils. They have, especially more in Canada than the United States, individual cities and towns have banned what they call the cosmetic use of pesticides, like for lawns and gardens people learn to live with a few dandelions.",
+        "Reduce the use of pesticides, in schools and on playgrounds, public spaces in the community. And then finally, in the broader society, we're all citizens of something, a city, a state, the nation. We should vote, we should elect candidates who will protect the environment and therefore protect our children's health."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "So those are things that people can do in their home in the community. Lots of communities have taken very excellent, powerful steps to reduce pollution. Many communities around this country have banned plastic bags. They've banned plastic straws and eating utensils. They have, especially more in Canada than the United States, individual cities and towns have banned what they call the cosmetic use of pesticides, like for lawns and gardens people learn to live with a few dandelions.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Reduce the use of pesticides, in schools and on playgrounds, public spaces in the community. And then finally, in the broader society, we're all citizens of something, a city, a state, the nation. We should vote, we should elect candidates who will protect the environment and therefore protect our children's health.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "And beyond voting, if a person has time, I know young parents often don't have the time, but if somebody does have the time, get involved in politics beyond voting, get to know your elected officials, have a cup of coffee with them. They're often interesting people, even if you don't agree with them, you can have a good conversation and maybe help them to do the right thing to protect their kids."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "And beyond voting, if a person has time, I know young parents often don't have the time, but if somebody does have the time, get involved in politics beyond voting, get to know your elected officials, have a cup of coffee with them. They're often interesting people, even if you don't agree with them, you can have a good conversation and maybe help them to do the right thing to protect their kids.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Because after all, almost every elected official of whatever party is going to have kids. They're going to have grandchildren. They're going to care about their families and that gives you an opening to have to have a talk with them.",
+        "Pathak: That's really helpful, and I love how you've laid it out stepwise in terms of where you feel that you have the most ability to act and at these various levels. What I find often is moving for people if I’m in the office setting or when I'm just talking to friends is really framing the why. And I think framing the why around health can be really helpful.",
+        "So, can you help us understand? Let's start with plastics. What are some of the health risks? Why is it aside from just a problem of plastic pollution that we're seeing as piles of plastic, you know, it’s cosmetically unappealing, but what are the actual health impacts on people?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Because after all, almost every elected official of whatever party is going to have kids. They're going to have grandchildren. They're going to care about their families and that gives you an opening to have to have a talk with them.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak: That's really helpful, and I love how you've laid it out stepwise in terms of where you feel that you have the most ability to act and at these various levels. What I find often is moving for people if I’m in the office setting or when I'm just talking to friends is really framing the why. And I think framing the why around health can be really helpful.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So, can you help us understand? Let's start with plastics. What are some of the health risks? Why is it aside from just a problem of plastic pollution that we're seeing as piles of plastic, you know, it’s cosmetically unappealing, but what are the actual health impacts on people?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Landrigan:",
+      "content": [
+        "Yeah, I think you're absolutely right that when we frame these global threats in terms of their impacts on human health, we make a much bigger difference. We engage a lot more people in the conversation. I think, looking back over the past five or 10 years, that's absolutely been the case in regard to climate change.",
+        "For a long time, climate change was pretty much the purview of the atmospheric scientists and the meteorologists, and they talked about molecules in the upper atmosphere and so on. And it was brilliant science, but it didn't resonate with most people because they saw no relevance to their daily lives but starting about five or seven years ago with heat waves with wildfires with floods with other climate related disasters. It became clear that climate change was not just far away in time and space, but it was here and now it was affecting people. And I think it's profoundly changed the dynamic on climate change. So, I think we're in the early stages of making a similar transition in the case of plastic."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Yeah, I think you're absolutely right that when we frame these global threats in terms of their impacts on human health, we make a much bigger difference. We engage a lot more people in the conversation. I think, looking back over the past five or 10 years, that's absolutely been the case in regard to climate change.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "For a long time, climate change was pretty much the purview of the atmospheric scientists and the meteorologists, and they talked about molecules in the upper atmosphere and so on. And it was brilliant science, but it didn't resonate with most people because they saw no relevance to their daily lives but starting about five or seven years ago with heat waves with wildfires with floods with other climate related disasters. It became clear that climate change was not just far away in time and space, but it was here and now it was affecting people. And I think it's profoundly changed the dynamic on climate change. So, I think we're in the early stages of making a similar transition in the case of plastic.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "For a long time, plastic has been talked about as plastic in the ocean. We've seen these horrible pictures of whales and turtles caught in fishing nets and seabirds with their gastrointestinal tracts clogged with plastic. And it's terrible, but it seems far away. And we've seen pictures of beaches in Indonesia and Malaysia and other countries covered with plastic waste.",
+        "But again, it seems far away, but now we're coming increasingly to understand that plastic is affecting human health here and now in developed countries like the United States. And the most immediate threat for most people is the thousands of chemicals in plastic. So, just a quick primer on what's plastic.",
+        "All plastic has two components. There's the polymer, which is the something like polyvinyl chloride or polyurethane or polyethylene. And a polymer is a big molecule, which provides the structure of the matrix for the plastic and the polymer is pretty inert.",
+        "There are hazards in making polymers the industrial workers will make. Polymers are exposed to some pretty horrific chemicals, but once polymers get out into products, they're pretty inert. They don't pose much of a risk to the typical consumer, to the typical family."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "For a long time, plastic has been talked about as plastic in the ocean. We've seen these horrible pictures of whales and turtles caught in fishing nets and seabirds with their gastrointestinal tracts clogged with plastic. And it's terrible, but it seems far away. And we've seen pictures of beaches in Indonesia and Malaysia and other countries covered with plastic waste.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "But again, it seems far away, but now we're coming increasingly to understand that plastic is affecting human health here and now in developed countries like the United States. And the most immediate threat for most people is the thousands of chemicals in plastic. So, just a quick primer on what's plastic.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "All plastic has two components. There's the polymer, which is the something like polyvinyl chloride or polyurethane or polyethylene. And a polymer is a big molecule, which provides the structure of the matrix for the plastic and the polymer is pretty inert.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "There are hazards in making polymers the industrial workers will make. Polymers are exposed to some pretty horrific chemicals, but once polymers get out into products, they're pretty inert. They don't pose much of a risk to the typical consumer, to the typical family.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "But the other component of plastic is the chemicals that are stuck into the polymer. And there are thousands of them, an estimated 16,000. And these include coloring agents that give it brilliant colors or plasticizers, which make it flexible or chemicals that make plastics resistant to flame or ultraviolet and so on and so forth.",
+        "And a lot of these chemicals are toxic. They include known human carcinogens. They include chemicals that can damage the nervous system. They include chemicals like phthalates and bisphenol A that are now very clearly understood by endocrinologists to be endocrine receptors, that can hack the human endocrine system and cause some pretty terrible damage with even fairly brief exposures.",
+        "And the problem with these chemicals that are in plastic is they don't stay there. They leach out of the plastic, and they get into us. They leach out of plastic if you microwave your soup in a plastic vessel because the microwave energy drives the chemicals out. But even in normal use think about how little kids handle plastic toys."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "But the other component of plastic is the chemicals that are stuck into the polymer. And there are thousands of them, an estimated 16,000. And these include coloring agents that give it brilliant colors or plasticizers, which make it flexible or chemicals that make plastics resistant to flame or ultraviolet and so on and so forth.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And a lot of these chemicals are toxic. They include known human carcinogens. They include chemicals that can damage the nervous system. They include chemicals like phthalates and bisphenol A that are now very clearly understood by endocrinologists to be endocrine receptors, that can hack the human endocrine system and cause some pretty terrible damage with even fairly brief exposures.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And the problem with these chemicals that are in plastic is they don't stay there. They leach out of the plastic, and they get into us. They leach out of plastic if you microwave your soup in a plastic vessel because the microwave energy drives the chemicals out. But even in normal use think about how little kids handle plastic toys.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "They chew on them. They get their hands on them. They spend hours with one little object, and in the course of that contact with the chemical, they get exposed. And the chemicals get in mainly through swallowing, but also to some extent, through inhalation and through the skin.",
+        "And once those chemicals are in the human body, they can cause a lot of harm, especially to children. I think that's the most immediate thing that everyone, parents especially, need to understand about plastics and their health impacts.",
+        "Pathak: What would you consider healthier swaps in terms of plastic? We hear a lot about what's being marketed to us as silicone products, plant-based plastics. How do you fit that into the realm of what we can consider bringing into our home as a safer alternative, or should we just really think about glass, cardboard, paper instead of any of these alternatives?",
+        "Landrigan: Yeah, a lot of those alternatives are well intentioned. I think they're certainly moving in the right direction. I love the idea that people are making plastics that are not based on fossil fuels. You probably know that 99 percent of plastic is based on coal or oil or gas. So, it's great that companies are seeing an opportunity to make green plastics and I certainly encourage that."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "They chew on them. They get their hands on them. They spend hours with one little object, and in the course of that contact with the chemical, they get exposed. And the chemicals get in mainly through swallowing, but also to some extent, through inhalation and through the skin.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And once those chemicals are in the human body, they can cause a lot of harm, especially to children. I think that's the most immediate thing that everyone, parents especially, need to understand about plastics and their health impacts.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak: What would you consider healthier swaps in terms of plastic? We hear a lot about what's being marketed to us as silicone products, plant-based plastics. How do you fit that into the realm of what we can consider bringing into our home as a safer alternative, or should we just really think about glass, cardboard, paper instead of any of these alternatives?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Landrigan: Yeah, a lot of those alternatives are well intentioned. I think they're certainly moving in the right direction. I love the idea that people are making plastics that are not based on fossil fuels. You probably know that 99 percent of plastic is based on coal or oil or gas. So, it's great that companies are seeing an opportunity to make green plastics and I certainly encourage that.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "That said, a lot of those products are still unproven. We don't know yet whether they are safe or not. We certainly hope they are, but we don't know. So, in the interim, I think there's a lot of virtue in going with more traditional products to the extent that we can with paper, with glass.",
+        "I grew up, that's a long time ago, I understand in another century, but with wooden blocks. And especially if they're not painted, because you don't want lead paint for sure, but unpainted wooden blocks, wooden toys are great. They're very durable. They pass down through the generations in a family and kids love them.",
+        "Pathak: I’m curious if you could talk to us a little bit about pesticides and organic foods as an alternative to what we can consider buying to educate us or at least mitigate our exposure. Can you talk a little bit about that? And the health impacts. What are the health impacts of pesticides and the benefits of switching towards more organic as possible?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "That said, a lot of those products are still unproven. We don't know yet whether they are safe or not. We certainly hope they are, but we don't know. So, in the interim, I think there's a lot of virtue in going with more traditional products to the extent that we can with paper, with glass.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "I grew up, that's a long time ago, I understand in another century, but with wooden blocks. And especially if they're not painted, because you don't want lead paint for sure, but unpainted wooden blocks, wooden toys are great. They're very durable. They pass down through the generations in a family and kids love them.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak: I’m curious if you could talk to us a little bit about pesticides and organic foods as an alternative to what we can consider buying to educate us or at least mitigate our exposure. Can you talk a little bit about that? And the health impacts. What are the health impacts of pesticides and the benefits of switching towards more organic as possible?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Landrigan:",
+      "content": [
+        "Pesticides are manufactured chemicals that are deliberately designed to kill living organisms. They kill insects, they kill plants, they kill fungi and so forth. Pesticides are not nice chemicals. And because we humans share a lot of enzymes and cellular systems with the organisms that pesticides are designed to kill, it's not surprising that a lot of pesticides are harmful to us.",
+        "For example, a lot of the most commonly used pesticides are deliberately designed to cause damage to the nervous system. Well, the human nervous system and the nervous system of an insect, like a mosquito, has an awful lot of the same enzymes, the same signaling pathways, and so we're vulnerable. So, the best way that a family can reduce their exposure to pesticides is to do two things.",
+        "Number one, eliminate the use of pesticides inside the home and in the garden. And number two, whenever possible, whenever it's affordable, to eat organic. And when I say organic, I mean USDA-certified organic. If a company claims that a food is natural or local or some other adjective, that has no legal meaning. But if a food is USDA, U.S. Department of Agriculture, certified organic, then a family can be assured that that food will be free of pesticides and also that it'll be free of GMO products."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pesticides are manufactured chemicals that are deliberately designed to kill living organisms. They kill insects, they kill plants, they kill fungi and so forth. Pesticides are not nice chemicals. And because we humans share a lot of enzymes and cellular systems with the organisms that pesticides are designed to kill, it's not surprising that a lot of pesticides are harmful to us.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, a lot of the most commonly used pesticides are deliberately designed to cause damage to the nervous system. Well, the human nervous system and the nervous system of an insect, like a mosquito, has an awful lot of the same enzymes, the same signaling pathways, and so we're vulnerable. So, the best way that a family can reduce their exposure to pesticides is to do two things.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Number one, eliminate the use of pesticides inside the home and in the garden. And number two, whenever possible, whenever it's affordable, to eat organic. And when I say organic, I mean USDA-certified organic. If a company claims that a food is natural or local or some other adjective, that has no legal meaning. But if a food is USDA, U.S. Department of Agriculture, certified organic, then a family can be assured that that food will be free of pesticides and also that it'll be free of GMO products.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "And it's been well shown that families who eat a mainly organic diet have 90 percent less pesticide in their body than families who eat the so-called conventional diet.",
+        "Pathak: I have a question since we had talked about climate change earlier. So, this tension between vector borne illnesses that we're at higher risk for because of climate change. So, more lime or more dengue, if you're traveling, and the advice to use these DEET based insect repellents? How do you think about that risk, and balancing that risk and the exposure of those chemicals?",
+        "Landrigan: That’s very important and this is an ongoing debate. I was just talking yesterday with a pediatrician in Puerto Rico where they're dealing right now. What you have to recognize when you're dealing with these mosquito- borne illnesses is that probably the least effective and yet the most dangerous and the most attractive option for dealing with the problem is to do broadcast spraying from aircraft, from helicopters, from trucks that go up and down the street. Puts out a big cloud politicians love it because it looks like you're doing something."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "And it's been well shown that families who eat a mainly organic diet have 90 percent less pesticide in their body than families who eat the so-called conventional diet.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak: I have a question since we had talked about climate change earlier. So, this tension between vector borne illnesses that we're at higher risk for because of climate change. So, more lime or more dengue, if you're traveling, and the advice to use these DEET based insect repellents? How do you think about that risk, and balancing that risk and the exposure of those chemicals?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Landrigan: That’s very important and this is an ongoing debate. I was just talking yesterday with a pediatrician in Puerto Rico where they're dealing right now. What you have to recognize when you're dealing with these mosquito- borne illnesses is that probably the least effective and yet the most dangerous and the most attractive option for dealing with the problem is to do broadcast spraying from aircraft, from helicopters, from trucks that go up and down the street. Puts out a big cloud politicians love it because it looks like you're doing something.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "But 99 percent of that pesticide goes off target. It doesn't do anything for the mosquitoes and instead it kills birds, it kills beneficial insects like bees and other pollinators, and it exposes children. And sometimes when it's an emergency situation, you've got to do broadcast spraying, there's no getting around it.",
+        "Most of the time, public health authorities stay ahead of the curve and monitor the situation. There's a whole series of things they can do that make it unnecessary to do broadcast spraying. One thing that is very effective against mosquito-borne illnesses, like West Nile, like dengue, is to put larvicides into mosquito breeding areas.",
+        "Mosquitoes breed in water, in standing water, the larvicides come in the form of little capsules or tablets an inch or two in diameter. And yes, it is a pesticide, no question about that, but you put it into a very localized area. You don't spray it broadly across the landscape and you basically kill the mosquito larvae before they hatch and it's extremely effective."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "But 99 percent of that pesticide goes off target. It doesn't do anything for the mosquitoes and instead it kills birds, it kills beneficial insects like bees and other pollinators, and it exposes children. And sometimes when it's an emergency situation, you've got to do broadcast spraying, there's no getting around it.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Most of the time, public health authorities stay ahead of the curve and monitor the situation. There's a whole series of things they can do that make it unnecessary to do broadcast spraying. One thing that is very effective against mosquito-borne illnesses, like West Nile, like dengue, is to put larvicides into mosquito breeding areas.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosquitoes breed in water, in standing water, the larvicides come in the form of little capsules or tablets an inch or two in diameter. And yes, it is a pesticide, no question about that, but you put it into a very localized area. You don't spray it broadly across the landscape and you basically kill the mosquito larvae before they hatch and it's extremely effective.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "And coupling larvicide with repeated monitoring is something that state-of-the-art health departments do all the time. People can also take personal actions. DEET is actually not bad. DEET is an insect repellent. It's not an insecticide. And used as directed, it's really quite safe.",
+        "Another thing that people can do is wear long sleeve shirts, long pants. And if you're going to be walking in the fields or in the woods, tuck your pants into your socks. And then put DEET on the exposed areas. That combination works very well. Nothing’s 100 percent here, but it greatly reduces the incidence of disease.",
+        "I would just say in closing that I encourage everybody to take the problem of climate change very seriously and do what you can within your power to make a difference, especially by reducing your carbon footprint. Which means getting an electric vehicle if you can, or at least a hybrid if you live in a part of the country where you can do that.",
+        "Switching from gas stove to an electric stove. Putting a solar panel on your roof. If you're able to do that, preferentially purchasing green electricity from your electricity supplier, which is an option that's available in more and more parts of the country. I know the issue of climate change and green power gets politicized, but the reality is that in most of the United States today, green electricity is actually cheaper."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "And coupling larvicide with repeated monitoring is something that state-of-the-art health departments do all the time. People can also take personal actions. DEET is actually not bad. DEET is an insect repellent. It's not an insecticide. And used as directed, it's really quite safe.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Another thing that people can do is wear long sleeve shirts, long pants. And if you're going to be walking in the fields or in the woods, tuck your pants into your socks. And then put DEET on the exposed areas. That combination works very well. Nothing’s 100 percent here, but it greatly reduces the incidence of disease.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "I would just say in closing that I encourage everybody to take the problem of climate change very seriously and do what you can within your power to make a difference, especially by reducing your carbon footprint. Which means getting an electric vehicle if you can, or at least a hybrid if you live in a part of the country where you can do that.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Switching from gas stove to an electric stove. Putting a solar panel on your roof. If you're able to do that, preferentially purchasing green electricity from your electricity supplier, which is an option that's available in more and more parts of the country. I know the issue of climate change and green power gets politicized, but the reality is that in most of the United States today, green electricity is actually cheaper.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "It's actually cheaper. It costs you less than electricity that is made from any fossil fuel. So, it's one of these situations where you can do good for your family, do good for the planet, and at the same time do good for your pocketbook.",
+        "Pathak: That's great. And in terms of our pollution conversation, really think that those things are really helpful to reducing your local air pollution. So, if you're switching over to an electric vehicle or sourcing energy as much as possible from green energy solutions, not using a gas stove in your home, you're actually improving the air quality in your personal environment.",
+        "Landrigan: That's absolutely correct. The greenhouse gases that cause climate change and the pollutants that cause air pollution come from the same source, which is burning fossil fuels.",
+        "Pathak: Well, thank you so much for being with us today. We've talked with Dr Philip Landrigan about key things, crucial steps that we can take in our own homes, in our communities, and as a broader society to lower our exposure and our children's exposure to health-harming pollution.",
+        "To find out more information about Dr Landrigan and his work, please take a look at the links in our show notes. Thank you so much for listening. Please take a moment to follow, rate, and review this podcast on your favorite listening platform. If you'd like to send me an email about topics you're interested in or questions for future guests, please send me a note at [email protected] . This is Dr Neha Pathak for the WebMD Health Discovered podcast."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "It's actually cheaper. It costs you less than electricity that is made from any fossil fuel. So, it's one of these situations where you can do good for your family, do good for the planet, and at the same time do good for your pocketbook.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak: That's great. And in terms of our pollution conversation, really think that those things are really helpful to reducing your local air pollution. So, if you're switching over to an electric vehicle or sourcing energy as much as possible from green energy solutions, not using a gas stove in your home, you're actually improving the air quality in your personal environment.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Landrigan: That's absolutely correct. The greenhouse gases that cause climate change and the pollutants that cause air pollution come from the same source, which is burning fossil fuels.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak: Well, thank you so much for being with us today. We've talked with Dr Philip Landrigan about key things, crucial steps that we can take in our own homes, in our communities, and as a broader society to lower our exposure and our children's exposure to health-harming pollution.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "To find out more information about Dr Landrigan and his work, please take a look at the links in our show notes. Thank you so much for listening. Please take a moment to follow, rate, and review this podcast on your favorite listening platform. If you'd like to send me an email about topics you're interested in or questions for future guests, please send me a note at [email protected] . This is Dr Neha Pathak for the WebMD Health Discovered podcast.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": null,
+      "bullets": null,
+      "content_blocks": []
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd-logo-fb.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "Most of us are aware of the risks of air pollution, but what about the pollutants we encounter inside our homes every day? In 2024, the American Lung Association reported that over 131 million people in the U.S. are exposed to unhealthy levels of pollution, but the dangers don’t stop at the front door. In this episode, we dive deep into the topic of pollution with Philip J. Landrigan, MD, MSc, FAAP, a leading expert in global public health.",
+  "canonical_url": "https://www.webmd.com/podcasts/20240912/practical-steps-to-minimize-pollutions-impact-on-your-health-and-home",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:51:56.310227Z"
+}

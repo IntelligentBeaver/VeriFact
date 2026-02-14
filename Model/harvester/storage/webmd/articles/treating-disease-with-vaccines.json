@@ -1,0 +1,492 @@
+{
+  "url": "https://www.webmd.com/vaccines/features/treating-disease-with-vaccines",
+  "title": "Treating Disease With Vaccines",
+  "slug": "treating-disease-with-vaccines",
+  "published_date": "",
+  "first_letter": "T",
+  "author": "R. Morgan Griffin",
+  "medically_reviewed_by": "Louise  Chang, MD",
+  "read_time": "7 min read",
+  "sections": [
+    {
+      "heading": null,
+      "content": [
+        "While traditional vaccines are designed to prevent disease, researchers are working on something new: therapeutic vaccines, vaccinations that treat an illness after you have it.",
+        "Therapeutic vaccines have the potential to change medical treatment radically and may be able to treat all sorts of scourges, such as:",
+        "\"We're at a fascinating crossroads in the development of therapeutic vaccines,\" says Hildegund C. J. Ertl, MD, program leader in the Immunology Program at the Wistar Institute at the University of Pennsylvania. \"We understand so much more about the underlying science.\"",
+        "But Ertl and other experts urge cautious optimism. While therapeutic vaccines seem to be on the horizon, they've seemed that way for a long time.",
+        "\"I remember when therapeutic vaccines were first developed for skin cancer in the 1960s,\" says Richard L. Wasserman, MD, PhD, clinical professor in the department of pediatrics at the University of Texas Southwestern Medical School in Dallas. \"But forty years later, we still don't have one.\""
+      ],
+      "bullets": [
+        "HIV",
+        "Herpes",
+        "Alzheimer's disease",
+        "Cancer"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "While traditional vaccines are designed to prevent disease, researchers are working on something new: therapeutic vaccines, vaccinations that treat an illness after you have it.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Therapeutic vaccines have the potential to change medical treatment radically and may be able to treat all sorts of scourges, such as:",
+          "associated_bullets": [
+            "HIV",
+            "Herpes",
+            "Alzheimer's disease",
+            "Cancer"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "\"We're at a fascinating crossroads in the development of therapeutic vaccines,\" says Hildegund C. J. Ertl, MD, program leader in the Immunology Program at the Wistar Institute at the University of Pennsylvania. \"We understand so much more about the underlying science.\"",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "But Ertl and other experts urge cautious optimism. While therapeutic vaccines seem to be on the horizon, they've seemed that way for a long time.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "\"I remember when therapeutic vaccines were first developed for skin cancer in the 1960s,\" says Richard L. Wasserman, MD, PhD, clinical professor in the department of pediatrics at the University of Texas Southwestern Medical School in Dallas. \"But forty years later, we still don't have one.\"",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "How Do Therapeutic Vaccines Work?",
+      "content": [
+        "Standard preventative vaccines work by helping your immune system develop immunity to a weakened or dead form of a germ. Then, when you actually come into contact with the live germ, your immune system knows how to fight it off.",
+        "Therapeutic vaccines would be used after a person contracts a disease, yet they would still work by boosting your own immune system's response to an illness.",
+        "While the immune system works very well most of the time, some illnesses -- like cancer , HIV , and Alzheimer's -- don't trigger an effective immune response. In the case of some cancers, the immune system simply fails to recognize the invading cells. Other viruses, like HIV, can overwhelm the immune system and shut it down before it can work.",
+        "Therapeutic vaccines help by forcing the immune system to recognize a virus or cancerous cell. Some specific types of therapeutic vaccines include:"
+      ],
+      "bullets": [
+        "Antigen vaccines. When an antigen is introduced into the body, it provokes the immune system to create an antibody to fight it. Some researchers are working on vaccines that will use specific cancer antigens to force the immune system into action.",
+        "Dendritic cell vaccines. Dendritic cells are immune cells which prowl your bloodstream, grabbing foreign germs and bringing them to other immune cells, which create antibodies to attack them. Researchers have had some success in removing dendritic cells from a person, \"loading\" them with dead tumor cells or dead viruses, and then injecting them back into the person. Once the dendritic cells have been \"taught\" how to recognize the invading cells, they may spur the immune system to attack.",
+        "DNA vaccines. One problem with many therapeutic vaccines is that the effects wear off. After a vaccination, the immune system might be aggressive for awhile, but eventually return to normal. Some researchers hope they can inject bits of DNA into cells, instructing them to keep the immune system revved up and alert.",
+        "Tumor cell vaccines. These vaccines use actual cancer cells that are removed during surgery. The cells are then killed -- so they can't cause cancer growth -- and tweaked in some way, often by adding new genes or chemicals. They are then introduced into the body. The hope is that the modified gene will get the attention of the immune system, which will then target other cancer cells. Some of these vaccines are autologous (using cancer cells from your own body), others are allogeneic (using cells that came from someone else)."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Standard preventative vaccines work by helping your immune system develop immunity to a weakened or dead form of a germ. Then, when you actually come into contact with the live germ, your immune system knows how to fight it off.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Therapeutic vaccines would be used after a person contracts a disease, yet they would still work by boosting your own immune system's response to an illness.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "While the immune system works very well most of the time, some illnesses -- like cancer , HIV , and Alzheimer's -- don't trigger an effective immune response. In the case of some cancers, the immune system simply fails to recognize the invading cells. Other viruses, like HIV, can overwhelm the immune system and shut it down before it can work.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Therapeutic vaccines help by forcing the immune system to recognize a virus or cancerous cell. Some specific types of therapeutic vaccines include:",
+          "associated_bullets": [
+            "Antigen vaccines. When an antigen is introduced into the body, it provokes the immune system to create an antibody to fight it. Some researchers are working on vaccines that will use specific cancer antigens to force the immune system into action.",
+            "Dendritic cell vaccines. Dendritic cells are immune cells which prowl your bloodstream, grabbing foreign germs and bringing them to other immune cells, which create antibodies to attack them. Researchers have had some success in removing dendritic cells from a person, \"loading\" them with dead tumor cells or dead viruses, and then injecting them back into the person. Once the dendritic cells have been \"taught\" how to recognize the invading cells, they may spur the immune system to attack.",
+            "DNA vaccines. One problem with many therapeutic vaccines is that the effects wear off. After a vaccination, the immune system might be aggressive for awhile, but eventually return to normal. Some researchers hope they can inject bits of DNA into cells, instructing them to keep the immune system revved up and alert.",
+            "Tumor cell vaccines. These vaccines use actual cancer cells that are removed during surgery. The cells are then killed -- so they can't cause cancer growth -- and tweaked in some way, often by adding new genes or chemicals. They are then introduced into the body. The hope is that the modified gene will get the attention of the immune system, which will then target other cancer cells. Some of these vaccines are autologous (using cancer cells from your own body), others are allogeneic (using cells that came from someone else)."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "While traditional vaccines are designed to prevent disease, researchers are working on something new: therapeutic vaccines, vaccinations that treat an illness after you have it.",
+        "Therapeutic vaccines have the potential to change medical treatment radically and may be able to treat all sorts of scourges, such as:",
+        "\"We're at a fascinating crossroads in the development of therapeutic vaccines,\" says Hildegund C. J. Ertl, MD, program leader in the Immunology Program at the Wistar Institute at the University of Pennsylvania. \"We understand so much more about the underlying science.\"",
+        "But Ertl and other experts urge cautious optimism. While therapeutic vaccines seem to be on the horizon, they've seemed that way for a long time.",
+        "\"I remember when therapeutic vaccines were first developed for skin cancer in the 1960s,\" says Richard L. Wasserman, MD, PhD, clinical professor in the department of pediatrics at the University of Texas Southwestern Medical School in Dallas. \"But forty years later, we still don't have one.\""
+      ],
+      "bullets": [
+        "HIV",
+        "Herpes",
+        "Alzheimer's disease",
+        "Cancer"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "While traditional vaccines are designed to prevent disease, researchers are working on something new: therapeutic vaccines, vaccinations that treat an illness after you have it.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Therapeutic vaccines have the potential to change medical treatment radically and may be able to treat all sorts of scourges, such as:",
+          "associated_bullets": [
+            "HIV",
+            "Herpes",
+            "Alzheimer's disease",
+            "Cancer"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "\"We're at a fascinating crossroads in the development of therapeutic vaccines,\" says Hildegund C. J. Ertl, MD, program leader in the Immunology Program at the Wistar Institute at the University of Pennsylvania. \"We understand so much more about the underlying science.\"",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "But Ertl and other experts urge cautious optimism. While therapeutic vaccines seem to be on the horizon, they've seemed that way for a long time.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "\"I remember when therapeutic vaccines were first developed for skin cancer in the 1960s,\" says Richard L. Wasserman, MD, PhD, clinical professor in the department of pediatrics at the University of Texas Southwestern Medical School in Dallas. \"But forty years later, we still don't have one.\"",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "How Do Therapeutic Vaccines Work?",
+      "content": [
+        "Standard preventative vaccines work by helping your immune system develop immunity to a weakened or dead form of a germ. Then, when you actually come into contact with the live germ, your immune system knows how to fight it off.",
+        "Therapeutic vaccines would be used after a person contracts a disease, yet they would still work by boosting your own immune system's response to an illness.",
+        "While the immune system works very well most of the time, some illnesses -- like cancer , HIV , and Alzheimer's -- don't trigger an effective immune response. In the case of some cancers, the immune system simply fails to recognize the invading cells. Other viruses, like HIV, can overwhelm the immune system and shut it down before it can work.",
+        "Therapeutic vaccines help by forcing the immune system to recognize a virus or cancerous cell. Some specific types of therapeutic vaccines include:"
+      ],
+      "bullets": [
+        "Antigen vaccines. When an antigen is introduced into the body, it provokes the immune system to create an antibody to fight it. Some researchers are working on vaccines that will use specific cancer antigens to force the immune system into action.",
+        "Dendritic cell vaccines. Dendritic cells are immune cells which prowl your bloodstream, grabbing foreign germs and bringing them to other immune cells, which create antibodies to attack them. Researchers have had some success in removing dendritic cells from a person, \"loading\" them with dead tumor cells or dead viruses, and then injecting them back into the person. Once the dendritic cells have been \"taught\" how to recognize the invading cells, they may spur the immune system to attack.",
+        "DNA vaccines. One problem with many therapeutic vaccines is that the effects wear off. After a vaccination, the immune system might be aggressive for awhile, but eventually return to normal. Some researchers hope they can inject bits of DNA into cells, instructing them to keep the immune system revved up and alert.",
+        "Tumor cell vaccines. These vaccines use actual cancer cells that are removed during surgery. The cells are then killed -- so they can't cause cancer growth -- and tweaked in some way, often by adding new genes or chemicals. They are then introduced into the body. The hope is that the modified gene will get the attention of the immune system, which will then target other cancer cells. Some of these vaccines are autologous (using cancer cells from your own body), others are allogeneic (using cells that came from someone else)."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Standard preventative vaccines work by helping your immune system develop immunity to a weakened or dead form of a germ. Then, when you actually come into contact with the live germ, your immune system knows how to fight it off.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Therapeutic vaccines would be used after a person contracts a disease, yet they would still work by boosting your own immune system's response to an illness.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "While the immune system works very well most of the time, some illnesses -- like cancer , HIV , and Alzheimer's -- don't trigger an effective immune response. In the case of some cancers, the immune system simply fails to recognize the invading cells. Other viruses, like HIV, can overwhelm the immune system and shut it down before it can work.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Therapeutic vaccines help by forcing the immune system to recognize a virus or cancerous cell. Some specific types of therapeutic vaccines include:",
+          "associated_bullets": [
+            "Antigen vaccines. When an antigen is introduced into the body, it provokes the immune system to create an antibody to fight it. Some researchers are working on vaccines that will use specific cancer antigens to force the immune system into action.",
+            "Dendritic cell vaccines. Dendritic cells are immune cells which prowl your bloodstream, grabbing foreign germs and bringing them to other immune cells, which create antibodies to attack them. Researchers have had some success in removing dendritic cells from a person, \"loading\" them with dead tumor cells or dead viruses, and then injecting them back into the person. Once the dendritic cells have been \"taught\" how to recognize the invading cells, they may spur the immune system to attack.",
+            "DNA vaccines. One problem with many therapeutic vaccines is that the effects wear off. After a vaccination, the immune system might be aggressive for awhile, but eventually return to normal. Some researchers hope they can inject bits of DNA into cells, instructing them to keep the immune system revved up and alert.",
+            "Tumor cell vaccines. These vaccines use actual cancer cells that are removed during surgery. The cells are then killed -- so they can't cause cancer growth -- and tweaked in some way, often by adding new genes or chemicals. They are then introduced into the body. The hope is that the modified gene will get the attention of the immune system, which will then target other cancer cells. Some of these vaccines are autologous (using cancer cells from your own body), others are allogeneic (using cells that came from someone else)."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "What Diseases May Therapeutic Vaccines Treat?",
+      "content": [
+        "The number of diseases researchers hope to treat with therapeutic vaccines is enormous.",
+        "\"Someday, we might make vaccines for Alzheimer's , neurological diseases, arteriosclerosis, and maybe even obesity,\" says Ertl. Other targets for therapeutic vaccines include viruses like herpes and hepatitis and even nicotine addiction.",
+        "The list of diseases is impressive, but Ertl and other experts say that most of these vaccines are in very early stages of development. Here are a few examples of therapeutic vaccines being studied."
+      ],
+      "bullets": [
+        "HIV. Researchers have been looking for a therapeutic HIV vaccine for decades, but they have made some progress. One approach had researchers loading dendritic cells with killed AIDS viruses and then injecting them back into the person, triggering an effective immune response. In one 2004 study of 18 people injected with the vaccine, the amount of virus in the blood dropped by 80%. After one year, eight of the people still had a 90% drop in their viral levels.",
+        "Alzheimer's Disease . One experimental vaccine for Alzheimer's disease may help the immune system attack a protein that plays a key role in the illness. By getting the immune system to attack the protein, the vaccine might slow down the progress of the illness. A study of the vaccine was suspended in 2002, when 6% of the subjects developed brain inflammation. However, researchers kept tracking the people who received the vaccines. After a year, about 20% of the people were making antibodies to the protein, meaning that their immune system was attacking it. This group also scored slightly better on memory tests than people who had not received the vaccine.",
+        "Cancer. A cancer vaccine has been the Holy Grail for many immunologists, and dozens of vaccines have been tested in dozens of types of cancer. Vaccines are being developed for breast cancer , colorectal cancer , kidney cancer , leukemia , lung cancer , lymphoma , melanoma , ovarian cancer , prostate cancer , and pancreatic cancer , among others. One prostate cancer vaccine, Provenge, was shown to lengthen the life of men with widespread disease. It also is a dendritic vaccine -- dendritic cells are taken from a man, \"taught\" to recognize tumor cells, and reinjected into the body. In a group of 127 men with metastatic prostate cancer, the men who received the vaccine lived four and a half months longer than the men who didn't. One vaccine that will help prevent cervical cancer , Gardasil, is likely to be approved by the FDA soon. Studies show that Gardasil will block the underlying cause of 70% of all cervical cancers. Another similar HPV vaccine , Cervarix, is also in the pipeline. However, these aren't truly therapeutic vaccines -- they work by preventing infection with a virus (HPV or human papillomavirus) that can lead to cervical cancer."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The number of diseases researchers hope to treat with therapeutic vaccines is enormous.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Someday, we might make vaccines for Alzheimer's , neurological diseases, arteriosclerosis, and maybe even obesity,\" says Ertl. Other targets for therapeutic vaccines include viruses like herpes and hepatitis and even nicotine addiction.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The list of diseases is impressive, but Ertl and other experts say that most of these vaccines are in very early stages of development. Here are a few examples of therapeutic vaccines being studied.",
+          "associated_bullets": [
+            "HIV. Researchers have been looking for a therapeutic HIV vaccine for decades, but they have made some progress. One approach had researchers loading dendritic cells with killed AIDS viruses and then injecting them back into the person, triggering an effective immune response. In one 2004 study of 18 people injected with the vaccine, the amount of virus in the blood dropped by 80%. After one year, eight of the people still had a 90% drop in their viral levels.",
+            "Alzheimer's Disease . One experimental vaccine for Alzheimer's disease may help the immune system attack a protein that plays a key role in the illness. By getting the immune system to attack the protein, the vaccine might slow down the progress of the illness. A study of the vaccine was suspended in 2002, when 6% of the subjects developed brain inflammation. However, researchers kept tracking the people who received the vaccines. After a year, about 20% of the people were making antibodies to the protein, meaning that their immune system was attacking it. This group also scored slightly better on memory tests than people who had not received the vaccine.",
+            "Cancer. A cancer vaccine has been the Holy Grail for many immunologists, and dozens of vaccines have been tested in dozens of types of cancer. Vaccines are being developed for breast cancer , colorectal cancer , kidney cancer , leukemia , lung cancer , lymphoma , melanoma , ovarian cancer , prostate cancer , and pancreatic cancer , among others. One prostate cancer vaccine, Provenge, was shown to lengthen the life of men with widespread disease. It also is a dendritic vaccine -- dendritic cells are taken from a man, \"taught\" to recognize tumor cells, and reinjected into the body. In a group of 127 men with metastatic prostate cancer, the men who received the vaccine lived four and a half months longer than the men who didn't. One vaccine that will help prevent cervical cancer , Gardasil, is likely to be approved by the FDA soon. Studies show that Gardasil will block the underlying cause of 70% of all cervical cancers. Another similar HPV vaccine , Cervarix, is also in the pipeline. However, these aren't truly therapeutic vaccines -- they work by preventing infection with a virus (HPV or human papillomavirus) that can lead to cervical cancer."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "What Diseases May Therapeutic Vaccines Treat?",
+      "content": [
+        "The number of diseases researchers hope to treat with therapeutic vaccines is enormous.",
+        "\"Someday, we might make vaccines for Alzheimer's , neurological diseases, arteriosclerosis, and maybe even obesity,\" says Ertl. Other targets for therapeutic vaccines include viruses like herpes and hepatitis and even nicotine addiction.",
+        "The list of diseases is impressive, but Ertl and other experts say that most of these vaccines are in very early stages of development. Here are a few examples of therapeutic vaccines being studied."
+      ],
+      "bullets": [
+        "HIV. Researchers have been looking for a therapeutic HIV vaccine for decades, but they have made some progress. One approach had researchers loading dendritic cells with killed AIDS viruses and then injecting them back into the person, triggering an effective immune response. In one 2004 study of 18 people injected with the vaccine, the amount of virus in the blood dropped by 80%. After one year, eight of the people still had a 90% drop in their viral levels.",
+        "Alzheimer's Disease . One experimental vaccine for Alzheimer's disease may help the immune system attack a protein that plays a key role in the illness. By getting the immune system to attack the protein, the vaccine might slow down the progress of the illness. A study of the vaccine was suspended in 2002, when 6% of the subjects developed brain inflammation. However, researchers kept tracking the people who received the vaccines. After a year, about 20% of the people were making antibodies to the protein, meaning that their immune system was attacking it. This group also scored slightly better on memory tests than people who had not received the vaccine.",
+        "Cancer. A cancer vaccine has been the Holy Grail for many immunologists, and dozens of vaccines have been tested in dozens of types of cancer. Vaccines are being developed for breast cancer , colorectal cancer , kidney cancer , leukemia , lung cancer , lymphoma , melanoma , ovarian cancer , prostate cancer , and pancreatic cancer , among others. One prostate cancer vaccine, Provenge, was shown to lengthen the life of men with widespread disease. It also is a dendritic vaccine -- dendritic cells are taken from a man, \"taught\" to recognize tumor cells, and reinjected into the body. In a group of 127 men with metastatic prostate cancer, the men who received the vaccine lived four and a half months longer than the men who didn't. One vaccine that will help prevent cervical cancer , Gardasil, is likely to be approved by the FDA soon. Studies show that Gardasil will block the underlying cause of 70% of all cervical cancers. Another similar HPV vaccine , Cervarix, is also in the pipeline. However, these aren't truly therapeutic vaccines -- they work by preventing infection with a virus (HPV or human papillomavirus) that can lead to cervical cancer."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The number of diseases researchers hope to treat with therapeutic vaccines is enormous.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Someday, we might make vaccines for Alzheimer's , neurological diseases, arteriosclerosis, and maybe even obesity,\" says Ertl. Other targets for therapeutic vaccines include viruses like herpes and hepatitis and even nicotine addiction.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The list of diseases is impressive, but Ertl and other experts say that most of these vaccines are in very early stages of development. Here are a few examples of therapeutic vaccines being studied.",
+          "associated_bullets": [
+            "HIV. Researchers have been looking for a therapeutic HIV vaccine for decades, but they have made some progress. One approach had researchers loading dendritic cells with killed AIDS viruses and then injecting them back into the person, triggering an effective immune response. In one 2004 study of 18 people injected with the vaccine, the amount of virus in the blood dropped by 80%. After one year, eight of the people still had a 90% drop in their viral levels.",
+            "Alzheimer's Disease . One experimental vaccine for Alzheimer's disease may help the immune system attack a protein that plays a key role in the illness. By getting the immune system to attack the protein, the vaccine might slow down the progress of the illness. A study of the vaccine was suspended in 2002, when 6% of the subjects developed brain inflammation. However, researchers kept tracking the people who received the vaccines. After a year, about 20% of the people were making antibodies to the protein, meaning that their immune system was attacking it. This group also scored slightly better on memory tests than people who had not received the vaccine.",
+            "Cancer. A cancer vaccine has been the Holy Grail for many immunologists, and dozens of vaccines have been tested in dozens of types of cancer. Vaccines are being developed for breast cancer , colorectal cancer , kidney cancer , leukemia , lung cancer , lymphoma , melanoma , ovarian cancer , prostate cancer , and pancreatic cancer , among others. One prostate cancer vaccine, Provenge, was shown to lengthen the life of men with widespread disease. It also is a dendritic vaccine -- dendritic cells are taken from a man, \"taught\" to recognize tumor cells, and reinjected into the body. In a group of 127 men with metastatic prostate cancer, the men who received the vaccine lived four and a half months longer than the men who didn't. One vaccine that will help prevent cervical cancer , Gardasil, is likely to be approved by the FDA soon. Studies show that Gardasil will block the underlying cause of 70% of all cervical cancers. Another similar HPV vaccine , Cervarix, is also in the pipeline. However, these aren't truly therapeutic vaccines -- they work by preventing infection with a virus (HPV or human papillomavirus) that can lead to cervical cancer."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Effective Therapeutic Vaccines: The Barriers",
+      "content": [
+        "While researchers have worked hard at developing therapeutic vaccines for decades, the results have tended to be disappointing.",
+        "\"Unfortunately, the role of immunity in diseases like cancer is much more complicated than we are smart,\" says Wasserman. \"There are a lot of interesting observations to suggest that therapeutic vaccinations might work, and we've learned a lot in forty years of researching them. But we still have a long way to go.\"",
+        "Some researchers think that part of the problem is that diseases like HIV create such high levels of virus in the blood that the immune system is quickly overwhelmed. Experts hope that lowering the viral load first and then using a therapeutic vaccine could make for better results.",
+        "Wasserman observes another risk. Standard vaccines help your immune system target foreign invaders, but when you're dealing with a disease like cancer, the tumor cells are very similar to normal healthy cells, creating a new danger.",
+        "\"A cancer vaccine might not be able to distinguish between cancer cells and normal healthy cells,\" says Wasserman. \"It could wind up attacking both of them, causing an autoimmune disorder .\""
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "While researchers have worked hard at developing therapeutic vaccines for decades, the results have tended to be disappointing.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Unfortunately, the role of immunity in diseases like cancer is much more complicated than we are smart,\" says Wasserman. \"There are a lot of interesting observations to suggest that therapeutic vaccinations might work, and we've learned a lot in forty years of researching them. But we still have a long way to go.\"",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Some researchers think that part of the problem is that diseases like HIV create such high levels of virus in the blood that the immune system is quickly overwhelmed. Experts hope that lowering the viral load first and then using a therapeutic vaccine could make for better results.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Wasserman observes another risk. Standard vaccines help your immune system target foreign invaders, but when you're dealing with a disease like cancer, the tumor cells are very similar to normal healthy cells, creating a new danger.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "\"A cancer vaccine might not be able to distinguish between cancer cells and normal healthy cells,\" says Wasserman. \"It could wind up attacking both of them, causing an autoimmune disorder .\"",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Ertl stresses that therapeutic vaccines will never be a substitute for preventative vaccines.",
+        "\"If you have a choice between a preventative vaccine and a therapeutic vaccine, I would always recommend prevention,\" says Ertl. \"Preventing a disease is always easier and safer than treating it.\"",
+        "Ertl notes that researchers and drug companies are extremely careful when making a preventative vaccine. Making a healthy person sick is simply unacceptable. But \"the accepted risks are going to be higher for a treatment that's given to someone who is already sick,\" she tells WebMD."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ertl stresses that therapeutic vaccines will never be a substitute for preventative vaccines.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "\"If you have a choice between a preventative vaccine and a therapeutic vaccine, I would always recommend prevention,\" says Ertl. \"Preventing a disease is always easier and safer than treating it.\"",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Ertl notes that researchers and drug companies are extremely careful when making a preventative vaccine. Making a healthy person sick is simply unacceptable. But \"the accepted risks are going to be higher for a treatment that's given to someone who is already sick,\" she tells WebMD.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Therapeutic Vaccines: Keeping Perspective",
+      "content": [
+        "While therapeutic vaccines are exciting, none is close to being used outside of clinical trials . So if you or a loved one is sick now, you need to rely on other treatments. You could also talk to your doctor about taking part in a clinical trial.",
+        "But Ertl says that, in the future, therapeutic vaccines could be crucial for diseases that we learn how to treat but not prevent."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "While therapeutic vaccines are exciting, none is close to being used outside of clinical trials . So if you or a loved one is sick now, you need to rely on other treatments. You could also talk to your doctor about taking part in a clinical trial.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "But Ertl says that, in the future, therapeutic vaccines could be crucial for diseases that we learn how to treat but not prevent.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "\"There are some diseases, like Alzheimer's, that we just don't have a clue how to prevent with a vaccine,\" she says. A preventative vaccine might be unlikely or impossible, while a therapeutic vaccine could be more feasible.",
+        "Researchers are making progress, says Ertl, but there's still a lot to learn."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "\"There are some diseases, like Alzheimer's, that we just don't have a clue how to prevent with a vaccine,\" she says. A preventative vaccine might be unlikely or impossible, while a therapeutic vaccine could be more feasible.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Researchers are making progress, says Ertl, but there's still a lot to learn.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Effective Therapeutic Vaccines: The Barriers",
+      "content": [
+        "While researchers have worked hard at developing therapeutic vaccines for decades, the results have tended to be disappointing.",
+        "\"Unfortunately, the role of immunity in diseases like cancer is much more complicated than we are smart,\" says Wasserman. \"There are a lot of interesting observations to suggest that therapeutic vaccinations might work, and we've learned a lot in forty years of researching them. But we still have a long way to go.\"",
+        "Some researchers think that part of the problem is that diseases like HIV create such high levels of virus in the blood that the immune system is quickly overwhelmed. Experts hope that lowering the viral load first and then using a therapeutic vaccine could make for better results.",
+        "Wasserman observes another risk. Standard vaccines help your immune system target foreign invaders, but when you're dealing with a disease like cancer, the tumor cells are very similar to normal healthy cells, creating a new danger.",
+        "\"A cancer vaccine might not be able to distinguish between cancer cells and normal healthy cells,\" says Wasserman. \"It could wind up attacking both of them, causing an autoimmune disorder .\""
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "While researchers have worked hard at developing therapeutic vaccines for decades, the results have tended to be disappointing.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Unfortunately, the role of immunity in diseases like cancer is much more complicated than we are smart,\" says Wasserman. \"There are a lot of interesting observations to suggest that therapeutic vaccinations might work, and we've learned a lot in forty years of researching them. But we still have a long way to go.\"",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Some researchers think that part of the problem is that diseases like HIV create such high levels of virus in the blood that the immune system is quickly overwhelmed. Experts hope that lowering the viral load first and then using a therapeutic vaccine could make for better results.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Wasserman observes another risk. Standard vaccines help your immune system target foreign invaders, but when you're dealing with a disease like cancer, the tumor cells are very similar to normal healthy cells, creating a new danger.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "\"A cancer vaccine might not be able to distinguish between cancer cells and normal healthy cells,\" says Wasserman. \"It could wind up attacking both of them, causing an autoimmune disorder .\"",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Ertl stresses that therapeutic vaccines will never be a substitute for preventative vaccines.",
+        "\"If you have a choice between a preventative vaccine and a therapeutic vaccine, I would always recommend prevention,\" says Ertl. \"Preventing a disease is always easier and safer than treating it.\"",
+        "Ertl notes that researchers and drug companies are extremely careful when making a preventative vaccine. Making a healthy person sick is simply unacceptable. But \"the accepted risks are going to be higher for a treatment that's given to someone who is already sick,\" she tells WebMD."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ertl stresses that therapeutic vaccines will never be a substitute for preventative vaccines.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "\"If you have a choice between a preventative vaccine and a therapeutic vaccine, I would always recommend prevention,\" says Ertl. \"Preventing a disease is always easier and safer than treating it.\"",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Ertl notes that researchers and drug companies are extremely careful when making a preventative vaccine. Making a healthy person sick is simply unacceptable. But \"the accepted risks are going to be higher for a treatment that's given to someone who is already sick,\" she tells WebMD.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Therapeutic Vaccines: Keeping Perspective",
+      "content": [
+        "While therapeutic vaccines are exciting, none is close to being used outside of clinical trials . So if you or a loved one is sick now, you need to rely on other treatments. You could also talk to your doctor about taking part in a clinical trial.",
+        "But Ertl says that, in the future, therapeutic vaccines could be crucial for diseases that we learn how to treat but not prevent."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "While therapeutic vaccines are exciting, none is close to being used outside of clinical trials . So if you or a loved one is sick now, you need to rely on other treatments. You could also talk to your doctor about taking part in a clinical trial.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "But Ertl says that, in the future, therapeutic vaccines could be crucial for diseases that we learn how to treat but not prevent.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "\"There are some diseases, like Alzheimer's, that we just don't have a clue how to prevent with a vaccine,\" she says. A preventative vaccine might be unlikely or impossible, while a therapeutic vaccine could be more feasible.",
+        "Researchers are making progress, says Ertl, but there's still a lot to learn."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "\"There are some diseases, like Alzheimer's, that we just don't have a clue how to prevent with a vaccine,\" she says. A preventative vaccine might be unlikely or impossible, while a therapeutic vaccine could be more feasible.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Researchers are making progress, says Ertl, but there's still a lot to learn.",
+          "associated_bullets": null
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd-logo-fb.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/Chang_Louise1.jpg?resize=51px:51px&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/Adult_Vaccines.png?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/hpt_toc_redesign_illustrations/1500x1500_symptoms_types_options_5.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [
+    "SOURCES: American Cancer Society web site, \"Cancer\n       Vaccines,\" \"Detailed Guide to Prostate Cancer: What's New in Prostate\n       Cancer Research and Development?\" GlaxoSmithKline web site, press release.\n       Hildegund C. J. Ertl, MD, program leader, immunology program, the Wistar\n       Institute, University of Pennsylvania. National Institute for Allergic and\n       Infectious Diseases web site, \"Understanding Vaccines: What They Are and\n       How They Work.\" Richard L. Wasserman, MD, PhD, clinical professor in the\n       department of pediatrics at the University of Texas Southwestern Medical\n       School. WebMD Medical News: \"Alzheimer's Vaccine Inching Toward\n       Reality.\" WebMD Medical News: \"Human Test: Novel Vaccine Stops\n       HIV.\" WebMD Medical News: \"Cervical Cancer Vaccine Shows Promise.\"\n       WebMD Medical News: \"Nicotine Vaccine Shows Early Promise.\" WebMD\n       Medical News: \"Prostate Cancer Vaccine May Improve Survival.\" Wistar\n       Institute web site, press release, \"Building Better Therapeutic Vaccines\n       for Chronic Infections.\""
+  ],
+  "meta_description": "Can therapeutic vaccines cure illnesses we already have -- like HIV, Alzheimer's disease, and cancer?",
+  "canonical_url": "https://www.webmd.com/vaccines/features/treating-disease-with-vaccines",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:24:33.905282Z"
+}

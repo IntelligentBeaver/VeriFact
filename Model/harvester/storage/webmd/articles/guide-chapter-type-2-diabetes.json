@@ -1,0 +1,107 @@
+{
+  "url": "https://www.webmd.com/diabetes/guide-chapter-type-2-diabetes",
+  "title": "Type 2 Diabetes",
+  "slug": "guide-chapter-type-2-diabetes",
+  "published_date": "",
+  "first_letter": "G",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": [
+        "Overview & Types",
+        "Symptoms & Diagnosis",
+        "Treatment",
+        "Living With Understanding Blood Sugar Diet & Exercise Better Living Complications",
+        "Related Conditions",
+        "Type 2 Diabetes Overview Symptoms & Causes Diagnosis & Tests Prevention & Treatment Living & Managing Complications & Related Diseases",
+        "Type 1 Diabetes Overview Treating & Managing Complications & Related Conditions",
+        "Gestational Diabetes",
+        "Appointment Prep",
+        "View Full Guide",
+        "Understanding Blood Sugar",
+        "Diet & Exercise",
+        "Better Living",
+        "Complications",
+        "Overview",
+        "Symptoms & Causes",
+        "Diagnosis & Tests",
+        "Prevention & Treatment",
+        "Living & Managing",
+        "Complications & Related Diseases",
+        "Overview",
+        "Treating & Managing",
+        "Complications & Related Conditions"
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Overview & Types",
+            "Symptoms & Diagnosis",
+            "Treatment",
+            "Living With Understanding Blood Sugar Diet & Exercise Better Living Complications",
+            "Related Conditions",
+            "Type 2 Diabetes Overview Symptoms & Causes Diagnosis & Tests Prevention & Treatment Living & Managing Complications & Related Diseases",
+            "Type 1 Diabetes Overview Treating & Managing Complications & Related Conditions",
+            "Gestational Diabetes",
+            "Appointment Prep",
+            "View Full Guide"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Understanding Blood Sugar",
+            "Diet & Exercise",
+            "Better Living",
+            "Complications"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Overview",
+            "Symptoms & Causes",
+            "Diagnosis & Tests",
+            "Prevention & Treatment",
+            "Living & Managing",
+            "Complications & Related Diseases"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Overview",
+            "Treating & Managing",
+            "Complications & Related Conditions"
+          ]
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd-logo-fb.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/MoreOn_Allergies.jpg?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/recommended/recommended-diabetes-4.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "Learn about the symptoms, causes, and treatments of type 2 diabetes.",
+  "canonical_url": "https://www.webmd.com/diabetes/guide-chapter-type-2-diabetes",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:17:09.272173Z"
+}

@@ -1,0 +1,84 @@
+{
+  "url": "https://www.webmd.com/menopause/guide-chapter-menopause-overview",
+  "title": "Menopause",
+  "slug": "guide-chapter-menopause-overview",
+  "published_date": "",
+  "first_letter": "G",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": [
+        "Perimenopause",
+        "Menopause Overview Causes and Symptoms Diagnosis and Tests Protecting Your Health",
+        "Postmenopause",
+        "Treatment",
+        "Living With Daily Life Diet and Exercise Sex and Sleep",
+        "Support & Resources",
+        "View Full Guide",
+        "Overview",
+        "Causes and Symptoms",
+        "Diagnosis and Tests",
+        "Protecting Your Health",
+        "Daily Life",
+        "Diet and Exercise",
+        "Sex and Sleep"
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Perimenopause",
+            "Menopause Overview Causes and Symptoms Diagnosis and Tests Protecting Your Health",
+            "Postmenopause",
+            "Treatment",
+            "Living With Daily Life Diet and Exercise Sex and Sleep",
+            "Support & Resources",
+            "View Full Guide"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Overview",
+            "Causes and Symptoms",
+            "Diagnosis and Tests",
+            "Protecting Your Health"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Daily Life",
+            "Diet and Exercise",
+            "Sex and Sleep"
+          ]
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/menopause_hpt_toc_redesign/1500x1500_menopause_hpt_toc_redesign_chapter_2.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/site_front_toc_redesign/more_on/MoreOn_CompassHealthAging.png?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/menopause_hpt_toc_redesign/1500x1500_menopause_hpt_toc_redesign_chapter_2.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "Not only do menopausal symptoms vary, but menopause types exist. Learn about the symptoms of menopause, its complications, and how to cope with each.",
+  "canonical_url": "https://www.webmd.com/menopause/guide-chapter-menopause-overview",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:40:03.716923Z"
+}

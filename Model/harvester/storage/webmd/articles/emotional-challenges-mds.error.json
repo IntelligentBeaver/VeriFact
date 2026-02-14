@@ -1,0 +1,5 @@
+{
+  "url": "https://www.webmd.com/cancer/lymphoma/emotional-challenges-mds",
+  "error": "'NoneType' object has no attribute 'select'",
+  "scrape_timestamp_utc": "2026-01-23T03:41:12.295324Z"
+}
