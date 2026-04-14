@@ -1,0 +1,1065 @@
+import 'dart:convert';
+
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:lucide_icons_flutter/lucide_icons.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:skeletonizer/skeletonizer.dart';
+import 'package:speech_to_text/speech_to_text.dart' as stt;
+import 'package:verifact_app/extensions/context_extensions.dart';
+import 'package:verifact_app/models/history_record.dart';
+import 'package:verifact_app/models/qa_model.dart';
+import 'package:verifact_app/models/retriever_model.dart';
+import 'package:verifact_app/screens/history_screen.dart';
+import 'package:verifact_app/screens/settings_screen.dart';
+import 'package:verifact_app/screens/verifier_result_screen.dart';
+import 'package:verifact_app/services/camera_service.dart';
+import 'package:verifact_app/services/history_service.dart';
+import 'package:verifact_app/services/image_picker_service.dart';
+import 'package:verifact_app/utils/constants/sizes.dart';
+import 'package:verifact_app/utils/helpers/device_utility.dart';
+import 'package:verifact_app/utils/helpers/helper_functions.dart';
+import 'package:verifact_app/utils/notifiers/home_search_notifier.dart';
+import 'package:verifact_app/utils/notifiers/qa_notifier.dart';
+import 'package:verifact_app/utils/notifiers/retriever_notifier.dart';
+import 'package:verifact_app/widgets/home/home_bottom_nav.dart';
+import 'package:verifact_app/widgets/home/quick_menu_sheet.dart';
+import 'package:verifact_app/widgets/results/custom_doc_result_card_skeleton.dart';
+import 'package:verifact_app/widgets/results/custom_doc_search_result_card.dart';
+import 'package:verifact_app/widgets/results/custom_qa_result_card.dart';
+import 'package:verifact_app/widgets/results/custom_qa_result_card_skeleton.dart';
+import 'package:verifact_app/widgets/results/custom_results_header.dart';
+import 'package:verifact_app/widgets/results/custom_source_card.dart';
+
+class HomeScreen extends ConsumerStatefulWidget {
+  const HomeScreen({super.key});
+
+  @override
+  ConsumerState<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends ConsumerState<HomeScreen> {
+  final _searchController = TextEditingController();
+  final FocusNode _searchFocus = FocusNode();
+  int _currentIndex = 0;
+  bool _hasSubmitted = false;
+  HomeSearchMode _lastSubmittedMode = HomeSearchMode.verifier;
+  bool _showInfoBanner = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadBannerPref();
+  }
+
+  Future<void> _loadBannerPref() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final hidden = prefs.getBool('hide_info_banner') ?? false;
+      setState(() => _showInfoBanner = !hidden);
+    } catch (_) {
+      setState(() => _showInfoBanner = true);
+    }
+  }
+
+  Future<void> _closeBanner() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setBool('hide_info_banner', true);
+    } catch (_) {}
+    setState(() => _showInfoBanner = false);
+  }
+
+  @override
+  void dispose() {
+    _searchController.dispose();
+    _searchFocus.dispose();
+    super.dispose();
+  }
+
+  Future<void> _submitSearch() async {
+    final query = _searchController.text.trim();
+    if (query.isEmpty) return;
+
+    final mode = ref.read(homeSearchProvider);
+    // If verifier mode (default) — navigate to verifier results page
+    if (mode == HomeSearchMode.verifier) {
+      Navigator.of(context).push(
+        MaterialPageRoute<void>(
+          builder: (_) => VerifierResultScreen(claim: query),
+        ),
+      );
+      return;
+    }
+
+    // For QA/Doc modes, perform the usual fetch and show results inline
+    setState(() {
+      _hasSubmitted = true;
+      _lastSubmittedMode = mode;
+    });
+
+    switch (mode) {
+      case HomeSearchMode.qa:
+        await ref.read(qaProvider.notifier).fetchAnswer(query);
+        try {
+          final qaState = ref.read(qaProvider).value;
+          final rec = HistoryRecord(
+            type: 'qa',
+            query: query,
+            conclusion: qaState?.answer,
+            sources: qaState?.sources.map((s) => s.url ?? '').toList(),
+            payload: qaState?.toString(),
+            timestamp: DateTime.now().millisecondsSinceEpoch,
+          );
+          HistoryService().addRecord(rec);
+        } catch (_) {}
+      case HomeSearchMode.doc:
+        await ref.read(retrieverProvider.notifier).search(query);
+        try {
+          final resp = ref.read(retrieverProvider).value;
+          final rec = HistoryRecord(
+            type: 'doc',
+            query: query,
+            conclusion: resp == null ? null : '${resp.results.length} results',
+            payload: resp == null ? null : jsonEncode(resp.toJson()),
+            timestamp: DateTime.now().millisecondsSinceEpoch,
+          );
+          HistoryService().addRecord(rec);
+        } catch (_) {}
+      default:
+        break;
+    }
+  }
+
+  void _resetSearch() {
+    setState(() {
+      _hasSubmitted = false;
+      _lastSubmittedMode = HomeSearchMode.verifier;
+    });
+    _searchController.clear();
+    ref.read(homeSearchProvider.notifier).selectMode(HomeSearchMode.verifier);
+  }
+
+  Future<void> _showQuickMenu(BuildContext context) async {
+    await showModalBottomSheet<void>(
+      context: context,
+      backgroundColor: context.color.surface,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(
+          top: Radius.circular(AppSizes.borderRadiusLg),
+        ),
+      ),
+      builder: (context) => const QuickMenuSheet(),
+    );
+  }
+
+  String _titleForMode(HomeSearchMode mode) {
+    switch (mode) {
+      case HomeSearchMode.qa:
+        return 'QA System';
+      case HomeSearchMode.doc:
+        return 'Doc Search';
+      case HomeSearchMode.verifier:
+        return _greeting();
+    }
+  }
+
+  String _greeting() {
+    final hour = DateTime.now().hour;
+    if (hour < 12) return 'Good morning';
+    if (hour < 18) return 'Good afternoon';
+    return 'Good evening';
+  }
+
+  String _subtitleForMode(HomeSearchMode mode) {
+    switch (mode) {
+      case HomeSearchMode.qa:
+        return 'How can I help you find the answers of today?';
+      case HomeSearchMode.doc:
+        return 'What document do you need help searching?';
+      case HomeSearchMode.verifier:
+        return 'How can I help you fact-check today?';
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final mode = ref.watch(homeSearchProvider);
+    final qaState = ref.watch(qaProvider);
+    final retrieverState = ref.watch(retrieverProvider);
+
+    return GestureDetector(
+      behavior: HitTestBehavior.translucent,
+      onTap: () => FocusScope.of(context).unfocus(),
+      child: Scaffold(
+        backgroundColor: context.theme.scaffoldBackgroundColor,
+        bottomNavigationBar: HomeBottomNav(
+          currentIndex: _currentIndex,
+          onTap: (index) => setState(() => _currentIndex = index),
+        ),
+        appBar: AppBar(
+          elevation: 0,
+          toolbarHeight: AppSizes.appBarHeight,
+          backgroundColor: Colors.transparent,
+          foregroundColor: context.color.onSurface,
+          actionsPadding: EdgeInsets.only(right: AppSizes.smMd),
+          actions: [
+            IconButton(
+              padding: EdgeInsets.zero,
+              constraints: const BoxConstraints(),
+              icon: Icon(
+                LucideIcons.settings300,
+                size: AppSizes.iconMd,
+                color: context.color.onSurface,
+              ),
+              onPressed: () => Navigator.of(context).push(
+                MaterialPageRoute<void>(
+                  builder: (_) => const SettingsScreen(),
+                ),
+              ),
+            ),
+          ],
+          title: Row(
+            children: [
+              Row(
+                spacing: AppSizes.xsSm,
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  SizedBox(
+                    width: 30,
+                    height: 30,
+                    child: Image.asset(
+                      'assets/icons/verified.png',
+                    ),
+                  ),
+
+                  Text(
+                    'VeriFact App',
+                    style: context.text.headlineLarge?.copyWith(
+                      fontWeight: FontWeight.w900,
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
+        body: _currentIndex == 1
+            ? const HistoryScreen()
+            : SafeArea(
+                child: Padding(
+                  padding: EdgeInsets.symmetric(
+                    horizontal: AppSizes.smMd,
+                    vertical: AppSizes.md,
+                  ),
+                  child: Stack(
+                    children: [
+                      Column(
+                        children: [
+                          Expanded(
+                            child: AnimatedSwitcher(
+                              duration: const Duration(milliseconds: 300),
+                              transitionBuilder: (child, animation) =>
+                                  FadeTransition(
+                                    opacity: animation,
+                                    child: FadeTransition(
+                                      opacity: Tween<double>(
+                                        begin: 0.5,
+                                        end: 1,
+                                      ).animate(animation),
+                                      child: child,
+                                    ),
+                                  ),
+                              child: _hasSubmitted
+                                  ? _ResultsSection(
+                                      key: const ValueKey('results'),
+                                      hasSubmitted: _hasSubmitted,
+                                      mode: _lastSubmittedMode,
+                                      qaState: qaState,
+                                      retrieverState: retrieverState,
+                                    )
+                                  : Column(
+                                      key: const ValueKey('header'),
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: [
+                                        _HomeHeader(
+                                          title: _titleForMode(mode),
+                                          subtitle: _subtitleForMode(mode),
+                                        ),
+                                        SizedBox(height: AppSizes.lg),
+                                        _QuickActionsSection(
+                                          onModeSelected: (selected) => ref
+                                              .read(homeSearchProvider.notifier)
+                                              .selectMode(selected),
+                                          onTap: (label) {
+                                            showInfoSnackbar('$label tapped');
+                                          },
+                                        ),
+                                      ],
+                                    ),
+                            ),
+                          ),
+                          if (_showInfoBanner) ...[
+                            Container(
+                              padding: EdgeInsets.symmetric(
+                                horizontal: AppSizes.md,
+                                vertical: AppSizes.sm,
+                              ),
+                              margin: EdgeInsets.only(bottom: AppSizes.sm),
+                              decoration: BoxDecoration(
+                                color: context.color.secondaryContainer,
+                                borderRadius: BorderRadius.circular(
+                                  AppSizes.borderRadiusLg,
+                                ),
+                              ),
+                              child: Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "This app retrieves evidence from reputed articles but shouldn't be relied on completely. Seek professional medical advice.",
+                                      style: context.text.labelSmall?.copyWith(
+                                        color:
+                                            context.color.onSecondaryContainer,
+                                      ),
+                                      maxLines: 3,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  SizedBox(width: AppSizes.sm),
+                                  GestureDetector(
+                                    onTap: _closeBanner,
+                                    child: Icon(
+                                      LucideIcons.x,
+                                      size: AppSizes.iconSm,
+                                      color: context.color.onSecondaryContainer,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                          _SearchBarContainer(
+                            mode: mode,
+                            controller: _searchController,
+                            focusNode: _searchFocus,
+                            onModeCleared: _resetSearch,
+                            onPlusTap: () => _showQuickMenu(context),
+                            onSubmitted: (_) => _submitSearch(),
+                          ),
+                          SizedBox(height: AppSizes.smMd),
+                        ],
+                      ),
+
+                      // Settings button top-right
+                    ],
+                  ),
+                ),
+              ),
+      ),
+    );
+  }
+}
+
+class _HomeHeader extends StatelessWidget {
+  const _HomeHeader({required this.title, required this.subtitle});
+
+  final String title;
+  final String subtitle;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Text(
+          title,
+          textAlign: TextAlign.center,
+          style: context.text.displayLarge?.copyWith(
+            fontWeight: FontWeight.w900,
+          ),
+        ),
+        SizedBox(height: AppSizes.xsSm),
+        Text(
+          subtitle,
+          textAlign: TextAlign.center,
+          style: context.text.bodySmall,
+        ),
+      ],
+    );
+  }
+}
+
+class _QuickActionsSection extends StatelessWidget {
+  const _QuickActionsSection({
+    required this.onTap,
+    required this.onModeSelected,
+  });
+
+  final void Function(String label) onTap;
+  final void Function(HomeSearchMode mode) onModeSelected;
+
+  @override
+  Widget build(BuildContext context) {
+    final actions = [
+      const _QuickActionData('QA System', LucideIcons.messagesSquare),
+      const _QuickActionData('Doc Search', LucideIcons.fileSearch),
+      const _QuickActionData('Scan Image', LucideIcons.camera),
+      const _QuickActionData('Upload Image', LucideIcons.fileUp),
+    ];
+
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Row(
+          children: [
+            Expanded(
+              child: _QuickActionButton(
+                data: actions[0],
+                onTap: () => onModeSelected(HomeSearchMode.qa),
+              ),
+            ),
+            SizedBox(width: AppSizes.smMd),
+            Expanded(
+              child: _QuickActionButton(
+                data: actions[1],
+                onTap: () => onModeSelected(HomeSearchMode.doc),
+              ),
+            ),
+          ],
+        ),
+        SizedBox(height: AppSizes.smMd),
+        Row(
+          children: [
+            Expanded(
+              child: _QuickActionButton(
+                data: actions[2],
+                onTap: () => onTap(actions[2].label),
+              ),
+            ),
+            SizedBox(width: AppSizes.smMd),
+            Expanded(
+              child: _QuickActionButton(
+                data: actions[3],
+                onTap: () => onTap(actions[3].label),
+              ),
+            ),
+          ],
+        ),
+      ],
+    );
+  }
+}
+
+class _QuickActionButton extends StatelessWidget {
+  const _QuickActionButton({
+    required this.data,
+    required this.onTap,
+  });
+
+  final _QuickActionData data;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    Future<void> handleAction() async {
+      try {
+        if (data.label == 'Scan Image') {
+          await CameraService.openCameraAndShow(context);
+          return;
+        }
+
+        if (data.label == 'Upload Image') {
+          final file = await ImagePickerService.pickFromGallery(
+            
+          );
+          if (file == null) return;
+          await CameraService.openPreview(context, file.path);
+          return;
+        }
+
+        // default fallback: call provided onTap
+        onTap();
+      } catch (_) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('Could not access image.')),
+        );
+      }
+    }
+
+    return InkWell(
+      borderRadius: BorderRadius.circular(AppSizes.borderRadiusXl),
+      onTap: handleAction,
+      child: Container(
+        padding: EdgeInsets.symmetric(
+          horizontal: AppSizes.md,
+          vertical: AppSizes.smMd,
+        ),
+        decoration: BoxDecoration(
+          color: context.color.surface,
+          borderRadius: BorderRadius.circular(AppSizes.borderRadiusXl),
+          border: Border.all(color: context.color.outlineVariant),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(
+              data.icon,
+              size: AppSizes.iconSm,
+              color: data.label == 'Doc Search' || data.label == 'Scan Image'
+                  ? context.color.secondary
+                  : context.color.primary,
+            ),
+            SizedBox(width: AppSizes.sm),
+            Flexible(
+              child: Text(
+                data.label,
+                overflow: TextOverflow.ellipsis,
+                style: context.text.labelLarge?.copyWith(),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _SearchBarContainer extends ConsumerStatefulWidget {
+  const _SearchBarContainer({
+    required this.mode,
+    required this.controller,
+    required this.focusNode,
+    required this.onModeCleared,
+    required this.onPlusTap,
+    required this.onSubmitted,
+  });
+
+  final HomeSearchMode mode;
+  final TextEditingController controller;
+  final FocusNode focusNode;
+  final VoidCallback onModeCleared;
+  final VoidCallback onPlusTap;
+  final ValueChanged<String> onSubmitted;
+
+  @override
+  ConsumerState<_SearchBarContainer> createState() =>
+      _SearchBarContainerState();
+}
+
+class _SearchBarContainerState extends ConsumerState<_SearchBarContainer> {
+  late stt.SpeechToText _speech;
+  bool _listening = false;
+
+  @override
+  void initState() {
+    super.initState();
+    widget.focusNode.addListener(_onFocusChange);
+    _speech = stt.SpeechToText();
+    _initSpeech();
+  }
+
+  Future<void> _initSpeech() async {
+    try {
+      await _speech.initialize();
+    } catch (_) {}
+  }
+
+  Future<void> _toggleListening() async {
+    if (!_listening) {
+      final available = await _speech.initialize();
+      if (!available) return;
+      try {
+        SystemSound.play(SystemSoundType.click);
+      } catch (_) {}
+      setState(() => _listening = true);
+      _speech.listen(
+        onResult: (result) {
+          final text = result.recognizedWords;
+          widget.controller.text = text;
+          widget.controller.selection = TextSelection.fromPosition(
+            TextPosition(offset: text.length),
+          );
+          setState(() {});
+        },
+        localeId: 'en_US',
+      );
+    } else {
+      await _speech.stop();
+      try {
+        SystemSound.play(SystemSoundType.alert);
+      } catch (_) {}
+      setState(() => _listening = false);
+      widget.onSubmitted(widget.controller.text.trim());
+    }
+  }
+
+  @override
+  void dispose() {
+    widget.focusNode.removeListener(_onFocusChange);
+    _speech.stop();
+    super.dispose();
+  }
+
+  void _onFocusChange() => setState(() {});
+
+  @override
+  Widget build(BuildContext context) {
+    final mode = widget.mode;
+    final showChip = mode != HomeSearchMode.verifier;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        if (showChip) ...[
+          SizedBox(height: AppSizes.smMd),
+          _ModeChip(mode: mode, onClear: widget.onModeCleared),
+        ],
+        SizedBox(height: AppSizes.smMd),
+        Container(
+          padding: EdgeInsets.fromLTRB(
+            AppSizes.smMd,
+            AppSizes.xsSm,
+            AppSizes.xs,
+            AppSizes.xsSm,
+          ),
+          decoration: BoxDecoration(
+            color: context.color.surface,
+            borderRadius: BorderRadius.circular(AppSizes.borderRadiusXl + 8.r),
+            border: Border.all(
+              color: widget.focusNode.hasFocus
+                  ? context.color.primary
+                  : context.color.outlineVariant,
+            ),
+          ),
+          child: Row(
+            children: [
+              Icon(
+                LucideIcons.search,
+                size: AppSizes.iconSm,
+                color: context.color.onSurfaceVariant,
+              ),
+              SizedBox(width: AppSizes.sm),
+              Expanded(
+                child: TextField(
+                  controller: widget.controller,
+                  focusNode: widget.focusNode,
+                  onSubmitted: widget.onSubmitted,
+                  textInputAction: TextInputAction.search,
+                  style: context.text.bodyMedium?.copyWith(
+                    color: context.color.onSurface,
+                  ),
+                  decoration: InputDecoration(
+                    hintText: 'Enter your Claim...',
+                    hintStyle: context.text.bodySmall?.copyWith(
+                      color: context.color.onSurfaceVariant,
+                    ),
+                    isDense: true,
+                    border: InputBorder.none,
+                  ),
+                ),
+              ),
+              // SizedBox(width: AppSizes.smMd),
+              // InkWell(
+              //   onTap: widget.onPlusTap,
+              //   borderRadius: BorderRadius.circular(
+              //     AppSizes.borderRadiusXl + 8.r,
+              //   ),
+              //   child: SizedBox(
+              //     width: AppSizes.iconLg,
+              //     height: AppSizes.iconLg,
+              //     // decoration: BoxDecoration(
+              //     //   color: context.color.surfaceContainer,
+              //     //   borderRadius: BorderRadius.circular(
+              //     //     AppSizes.borderRadiusXl,
+              //     //   ),
+              //     // ),
+              //     child: Icon(
+              //       LucideIcons.plus,
+              //       size: AppSizes.iconMd,
+              //       color: context.color.onSurfaceVariant,
+              //     ),
+              //   ),
+              // ),
+              SizedBox(width: AppSizes.smMd),
+              GestureDetector(
+                onTap: _toggleListening,
+                child: CircleAvatar(
+                  radius: AppSizes.iconXl / 2,
+                  backgroundColor: _listening
+                      ? context.color.primary
+                      : context.color.surfaceContainer,
+                  child: Icon(
+                    LucideIcons.mic,
+                    size: AppSizes.iconSm,
+                    color: _listening
+                        ? context.color.onPrimary
+                        : context.color.onSurfaceVariant,
+                  ),
+                ),
+              ),
+              SizedBox(width: AppSizes.sm),
+              // Submit (up arrow) button — enabled when there is text
+              ValueListenableBuilder<TextEditingValue>(
+                valueListenable: widget.controller,
+                builder: (context, value, _) {
+                  final enabled = value.text.trim().isNotEmpty;
+                  return InkWell(
+                    onTap: enabled
+                        ? () {
+                            DeviceUtility.hideKeyboard(context);
+                            widget.onSubmitted(widget.controller.text.trim());
+                          }
+                        : null,
+                    child: Container(
+                      width: AppSizes.iconXl,
+                      height: AppSizes.iconXl,
+                      decoration: BoxDecoration(
+                        color: enabled
+                            ? context.color.primary
+                            : context.color.surfaceContainer,
+                        borderRadius: BorderRadius.circular(
+                          AppSizes.borderRadiusXl,
+                        ),
+                      ),
+                      child: Icon(
+                        LucideIcons.arrowUp,
+                        size: AppSizes.iconSm,
+                        color: enabled
+                            ? context.color.onPrimary
+                            : context.color.onSurfaceVariant,
+                      ),
+                    ),
+                  );
+                },
+              ),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class _ModeChip extends StatelessWidget {
+  const _ModeChip({
+    required this.mode,
+    required this.onClear,
+  });
+
+  final HomeSearchMode mode;
+  final VoidCallback onClear;
+
+  String _modeLabel() {
+    switch (mode) {
+      case HomeSearchMode.qa:
+        return 'QA System';
+      case HomeSearchMode.doc:
+        return 'Doc Search';
+      case HomeSearchMode.verifier:
+        return 'Verifier';
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onClear,
+      child: Container(
+        padding: EdgeInsets.symmetric(
+          horizontal: AppSizes.md,
+          vertical: AppSizes.xsSm,
+        ),
+        decoration: BoxDecoration(
+          color: context.color.primaryContainer,
+          borderRadius: BorderRadius.circular(AppSizes.borderRadiusXl),
+        ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              _modeLabel(),
+              style: context.text.labelSmall?.copyWith(
+                color: context.color.onPrimaryContainer,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
+            SizedBox(width: AppSizes.xsSm),
+            Icon(
+              LucideIcons.x,
+              size: AppSizes.iconSm,
+              color: context.color.onPrimaryContainer,
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+// ChatInputBar moved to widgets/home/chat_input_bar.dart
+
+// HomeBottomNav moved to widgets/home/home_bottom_nav.dart
+
+// QuickMenuSheet and MenuTile moved to widgets/home/quick_menu_sheet.dart
+
+class _ResultsSection extends StatelessWidget {
+  const _ResultsSection({
+    required this.hasSubmitted,
+    required this.mode,
+    required this.qaState,
+    required this.retrieverState,
+    super.key,
+  });
+
+  final bool hasSubmitted;
+  final HomeSearchMode mode;
+  final AsyncValue<QAModel?> qaState;
+  final AsyncValue<RetrieverResponse?> retrieverState;
+
+  @override
+  Widget build(BuildContext context) {
+    switch (mode) {
+      case HomeSearchMode.qa:
+        return _qaResults(context, qaState);
+      case HomeSearchMode.doc:
+        return _retrieverResults(context, retrieverState);
+      case HomeSearchMode.verifier:
+        return const SizedBox.shrink();
+    }
+  }
+
+  Widget _qaResults(BuildContext context, AsyncValue<QAModel?> state) {
+    return state.when(
+      loading: () => Skeletonizer(
+        child: _qaSkeletonLoader(context),
+      ),
+      error: (err, _) => _errorCard(context, err.toString()),
+      data: (data) {
+        if (data == null) return _emptyCard(context, 'No answers yet.');
+
+        final (conclusion, evidence) = _parseAnswer(data.answer);
+
+        return ListView(
+          padding: EdgeInsets.zero,
+          children: [
+            Text(
+              'Your Answer',
+              style: context.text.displayMedium?.copyWith(
+                fontWeight: FontWeight.w900,
+                color: context.color.onSurface,
+              ),
+            ),
+            SizedBox(height: AppSizes.mdLg),
+            CustomQAResultCard(
+              conclusion: conclusion,
+              evidence: evidence,
+            ),
+            if (data.sources.isNotEmpty) ...[
+              SizedBox(height: AppSizes.md),
+              Row(
+                spacing: AppSizes.xsSm,
+                children: [
+                  Icon(
+                    LucideIcons.bookSearch500,
+                    size: 18.r,
+                    color: context.color.primary,
+                  ),
+                  Text(
+                    'Sources',
+                    style: context.text.headlineLarge?.copyWith(
+                      fontWeight: FontWeight.w900,
+                      color: context.color.onSurface,
+                    ),
+                  ),
+                ],
+              ),
+              SizedBox(height: AppSizes.md),
+              ...data.sources.map(
+                (source) => Padding(
+                  padding: EdgeInsets.only(bottom: AppSizes.smMd),
+                  child: CustomSourceCard(
+                    title: source.title.isEmpty ? 'Source' : source.title,
+                    text: source.text,
+                    url: source.url,
+                    score: source.score,
+                  ),
+                ),
+              ),
+            ],
+          ],
+        );
+      },
+    );
+  }
+
+  Widget _qaSkeletonLoader(BuildContext context) {
+    return ListView(
+      padding: EdgeInsets.zero,
+      children: [
+        Container(
+          height: 32,
+          width: 200,
+          color: context.color.outlineVariant,
+        ),
+        SizedBox(height: AppSizes.mdLg),
+        const CustomQAResultCardSkeleton(),
+        SizedBox(height: AppSizes.lg),
+        Container(
+          height: 20,
+          width: 100,
+          color: context.color.outlineVariant,
+        ),
+        SizedBox(height: AppSizes.mdLg),
+        ...List.generate(
+          3,
+          (_) => Padding(
+            padding: EdgeInsets.only(bottom: AppSizes.smMd),
+            child: const CustomDocResultCardSkeleton(),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _retrieverResults(
+    BuildContext context,
+    AsyncValue<RetrieverResponse?> state,
+  ) {
+    return state.when(
+      loading: () => Skeletonizer(
+        child: _docSkeletonLoader(context),
+      ),
+      error: (err, _) => _errorCard(context, err.toString()),
+      data: (data) {
+        if (data == null || data.results.isEmpty) {
+          return _emptyCard(context, 'No documents yet.');
+        }
+
+        return Column(
+          children: [
+            const CustomResultsHeader(title: 'Your Results'),
+            SizedBox(height: AppSizes.mdLg),
+            Expanded(
+              child: ListView.separated(
+                padding: EdgeInsets.zero,
+                itemCount: data.results.length,
+                separatorBuilder: (_, _) => SizedBox(height: AppSizes.smMd),
+                itemBuilder: (context, index) {
+                  final result = data.results[index];
+                  final passage = result.passage;
+                  final author = result.passage?.author ?? 'Unknown Author';
+                  final url = result.passage?.url;
+                  final title =
+                      passage?.title ?? passage?.sectionHeading ?? 'Result';
+                  final snippet = (passage?.text ?? '').replaceAll('\n', ' ');
+                  final score =
+                      result.finalScore ??
+                      result.crossScore ??
+                      result.faissScore;
+
+                  return CustomDocSearchResultCard(
+                    title: title,
+                    content: snippet.isEmpty
+                        ? 'No preview available.'
+                        : snippet.length > 320
+                        ? '${snippet.substring(0, 320)}...'
+                        : snippet,
+                    author: author,
+                    score: score,
+                    url: url,
+                  );
+                },
+              ),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  Widget _docSkeletonLoader(BuildContext context) {
+    return Column(
+      children: [
+        const CustomResultsHeader(title: 'Your Results'),
+        SizedBox(height: AppSizes.mdLg),
+        Expanded(
+          child: ListView.separated(
+            padding: EdgeInsets.zero,
+            itemCount: 6,
+            separatorBuilder: (_, __) => SizedBox(height: AppSizes.smMd),
+            itemBuilder: (_, __) => const CustomDocResultCardSkeleton(),
+          ),
+        ),
+      ],
+    );
+  }
+
+  (String conclusion, String evidence) _parseAnswer(String answer) {
+    var conclusion = '';
+    var evidence = '';
+
+    // Try to split by "Conclusion:" and "Evidence:" labels
+    final conclusionMatch = RegExp(
+      r'Conclusion:\s*(.+?)(?=\n\nEvidence:|Evidence:|$)',
+      dotAll: true,
+    ).firstMatch(answer);
+    final evidenceMatch = RegExp(
+      r'Evidence:\s*(.+?)$',
+      dotAll: true,
+    ).firstMatch(answer);
+
+    if (conclusionMatch != null) {
+      conclusion = conclusionMatch.group(1)?.trim() ?? '';
+    }
+    if (evidenceMatch != null) {
+      evidence = evidenceMatch.group(1)?.trim() ?? '';
+    }
+
+    // If parsing failed, use the entire text as conclusion
+    if (conclusion.isEmpty && evidence.isEmpty) {
+      conclusion = answer;
+    }
+
+    return (conclusion, evidence);
+  }
+
+  Widget _errorCard(BuildContext context, String message) {
+    return Card(
+      margin: EdgeInsets.zero,
+      color: context.color.errorContainer,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(AppSizes.borderRadiusLg),
+      ),
+      child: Padding(
+        padding: EdgeInsets.all(AppSizes.md),
+        child: Text(
+          message,
+          style: context.text.bodySmall?.copyWith(
+            color: context.color.onErrorContainer,
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _emptyCard(BuildContext context, String message) {
+    return Center(
+      child: Text(
+        message,
+        style: context.text.bodySmall?.copyWith(
+          color: context.color.onSurfaceVariant,
+        ),
+      ),
+    );
+  }
+}
+
+class _QuickActionData {
+  const _QuickActionData(this.label, this.icon);
+
+  final String label;
+  final IconData icon;
+}
