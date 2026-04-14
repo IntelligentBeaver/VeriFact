@@ -1,90 +1,291 @@
 # VeriFact App
 
-VeriFact is a Flutter application for scanning, extracting, and verifying text from images and documents using on-device ML and camera features. It provides OCR, capture workflows, result verification, history storage, and developer utilities for testing and debugging.
+This directory contains the Flutter client application for VeriFact.
 
-**Project snapshot**
-- **SDK:** Dart/Flutter (environment: >= 3.10.1)
-- **Flavors:** `dev`, `prod` (entrypoints: `lib/main_dev.dart`, `lib/main_prod.dart`)
+It is the user-facing layer that:
 
-**Key Features**
-- Image capture and selection (camera + gallery)
-- On-device OCR using Google ML Kit
-- Document/text verification and result presentation
-- Local history storage of scans
-- Speech-to-text input and developer test screens
-- Responsive UI and theming, with splash & launcher icon support
+- captures user input (typed claims/questions and image content),
+- performs on-device OCR,
+- sends requests to retrieval/QA/verifier backend endpoints,
+- renders evidence-driven outputs,
+- persists user history locally.
 
-**Screens & Functionality**
-- **Splash Screen:** App startup and initialization.
-- **Home Screen:** Main entry UI — capture images, select images, start OCR workflows.
-- **OCR Page:** Runs text recognition on image input and returns extracted text.
-- **Verifier Result Screen:** Displays parsed text and verification outcome, confidence metadata, and actions (share, save).
-- **History Screen:** Lists previously scanned/verified items stored locally.
-- **History Preview Screen:** Detailed view of a saved scan with extracted text and metadata.
-- **Settings Screen:** App preferences, permission toggles, and environment/config settings.
-- **Response Test Screen:** Development/testing UI for API/response validation and diagnostics.
-- **About Screen:** App info, version and credits.
-- **App entry (`app.dart`):** Application root, routing and provider initialization.
+## 1) Why This App Exists
 
-Note: Screen filenames live in `lib/screens/` and the project also contains `lib/camera_screen/`, `lib/controllers/`, `lib/providers/`, `lib/services/`, `lib/models/`, and `lib/widgets/` to organize camera, state management, services, and UI components.
+The App is built to make medical fact-checking workflows practical for non-technical users. It combines:
 
-**Important Packages Used**
-- `google_mlkit_text_recognition`: On-device OCR and text recognition.
-- `camera` / `image_picker`: Capture images from camera and select images from gallery.
-- `dio`: HTTP client for API requests and verification endpoints.
-- `flutter_riverpod` (and `riverpod_annotation`): Primary state management and dependency injection.
-- `provider`: Present for compatibility or legacy parts of the app.
-- `hive` / `hive_flutter` / `shared_preferences`: Local persistence and lightweight storage for history and preferences.
-- `speech_to_text`: Voice input and speech-to-text features.
-- `permission_handler`: Manage runtime permissions for camera, storage and microphone.
-- `connectivity_plus` / `device_info_plus`: Network and device capability checks.
-- `flutter_dotenv`: Environment configuration via `.env` file.
-- `flutter_screenutil`: Responsive layouts and sizing across screen densities.
-- `flutter_native_splash` / `flutter_launcher_icons`: Splash screen and app icon generation.
-- `logger`: Simple logging for development and debugging.
-- `flutter_svg`, `google_fonts`: Asset & typography support.
+- low-friction input paths (typing, camera capture, gallery upload),
+- transparent outputs (confidence, source links, score context),
+- persistent local recall (history previews and reruns).
 
-**Project Structure (high level)**
-- `lib/` — application source
-	- `main_dev.dart`, `main_prod.dart`, `main_common.dart` — flavor entrypoints
-	- `screens/` — UI screens (listed above)
-	- `camera_screen/`, `controllers/`, `providers/`, `services/`, `models/`, `widgets/` — feature code
-- `android/`, `ios/` — platform configurations and keystore/settings
-- `assets/` — images, icons, fonts
-- `tools/bump_version.py` — version bump helper (used by build tasks)
+The design goal is to keep the UI simple while backend and model complexity remain server-side.
 
-**Setup & Run**
-Prerequisites: Flutter SDK (matching the project's environment), Android/iOS toolchains as needed.
+## 2) Tech Stack Snapshot
 
-Install dependencies:
+- **Framework**: Flutter / Dart SDK `^3.10.1`
+- **State Management**: Riverpod 3 (`flutter_riverpod`, `riverpod_annotation`, generated providers)
+- **Networking**: Dio
+- **OCR**: `google_mlkit_text_recognition`
+- **Persistence**: Hive + SharedPreferences
+- **Image Capture/Selection**: `camera` + `image_picker`
+- **Permissions**: `permission_handler`
+- **Responsive/UI Utilities**: `flutter_screenutil`, `flutter_native_splash`, `flutter_launcher_icons`
+
+## 3) Runtime Flavors and Boot Flow
+
+Flavor entrypoints:
+
+- `lib/main_dev.dart`
+- `lib/main_prod.dart`
+
+Common boot sequence in `lib/main_common.dart`:
+
+1. Initialize `FlavorConfig` (base URL + flavor identity).
+2. Ensure Flutter bindings and preserve splash screen.
+3. Preload available cameras.
+4. Request camera/gallery permissions.
+5. Initialize Hive and register `HistoryRecordAdapter`.
+6. Open `history` box eagerly.
+7. Lock orientation to portrait.
+8. Remove splash and run app inside `ProviderScope`.
+
+### Environment Variables
+
+The app reads from `.env`:
+
+- `API_BASE_URL_DEV` in dev mode
+- `API_BASE_URL_PROD` in prod mode
+
+`main_dev.dart` and `main_prod.dart` validate that required variables are present.
+
+## 4) Application Architecture
+
+The app uses a layered architecture:
+
+1. **UI Layer** (`lib/screens`, `lib/widgets`)
+2. **State Layer** (`lib/utils/notifiers`)
+3. **Repository Layer** (`lib/utils/repositories`)
+4. **Controller Layer** (`lib/controllers`)
+5. **Transport + Storage Services** (`lib/utils/services`, `lib/services`)
+6. **Typed Models** (`lib/models`)
+
+This separation keeps UI concerns isolated from API transport and business flow, making the app easier to evolve and test.
+
+## 5) Screen System and User Flows
+
+Primary screens in `lib/screens/`:
+
+- `splash_screen.dart`
+- `home_screen.dart`
+- `verifier_result_screen.dart`
+- `history_screen.dart`
+- `history_preview_screen.dart`
+- `ocr_page.dart`
+- `settings_screen.dart`
+- `about_screen.dart`
+- `response_test_screen.dart`
+
+### Home Modes
+
+`HomeScreen` supports three search modes via `HomeSearchNotifier`:
+
+- `verifier`
+- `qa`
+- `doc`
+
+Behavior:
+
+- Verifier mode navigates to `VerifierResultScreen` with the claim.
+- QA mode fetches `/qa/answer`, renders parsed answer, stores result in history.
+- Doc mode fetches `/retrieval/search`, renders ranked passages, stores result in history.
+
+### Quick Actions
+
+Home quick actions provide:
+
+- QA mode selection
+- Doc Search mode selection
+- Camera capture (`CameraService.openCameraAndShow`)
+- Gallery upload (`ImagePickerService.pickFromGallery` + preview path)
+
+## 6) OCR Subsystem
+
+OCR stack is implemented by `OcrService` and `ocr_provider.dart`.
+
+Key responsibilities:
+
+- permission-aware image selection/capture,
+- robust image file validation,
+- OCR processing via ML Kit `TextRecognizer`,
+- extraction of text blocks with bounding boxes,
+- optional fine-grained text selection overlays in `ocr_page.dart`.
+
+Data model:
+
+- `TextBlock` contains text, absolute bounding box, source image dimensions, and normalized coordinates for UI rendering.
+
+Why this exists:
+
+- to support image-first fact-checking where users start with screenshots/photos,
+- to make extracted text inspectable before verification call submission.
+
+## 7) Networking and API Contract Layer
+
+### URL Constants
+
+`lib/utils/constants/url_strings.dart` defines endpoint paths:
+
+- `/verifier/verify`
+- `/retrieval/search`
+- `/qa/answer`
+
+### Dio Client Strategy
+
+`DioClient` supports two client builders:
+
+- `initClient()`
+- `initPublicClient()`
+
+Both support runtime base URL override from SharedPreferences key `override_base_url`; otherwise they use flavor base URL.
+
+A logging interceptor is attached for request/response/error traceability.
+
+### Controller Responsibilities
+
+- `QAController`: maps request payload and parses `QAModel`
+- `RetrieverController`: maps retrieval request and parses `RetrieverResponse`
+- `VerifierController`: posts claim payload and parses `VerifierModel`
+
+Controllers convert transport-level failures into typed exceptions for UI-safe handling.
+
+### Repository + Notifier Pattern
+
+- Repositories wrap controllers for dependency injection boundaries.
+- Riverpod notifiers (`qa_notifier`, `retriever_notifier`, `verifier_notifier`) expose async state lifecycle to UI.
+
+This keeps screens declarative and eliminates manual state plumbing.
+
+## 8) Local Persistence and History
+
+History is stored in Hive box `history` via `HistoryService`.
+
+Record model (`HistoryRecord`):
+
+- `type` (`verifier`, `qa`, `doc`)
+- `query`
+- `resultStatus`
+- `conclusion`
+- `evidence`
+- `sources`
+- `payload`
+- `timestamp`
+
+Features:
+
+- grouped-by-day rendering (`Today`, `Yesterday`, weekday labels),
+- type filtering in UI,
+- preview reconstruction for QA/doc/verifier payloads,
+- swipe-to-delete.
+
+Why this exists:
+
+- users need to revisit prior checks,
+- allows quick audit trail of app-level fact-check interactions.
+
+## 9) Settings and Runtime Control
+
+`settings_screen.dart` includes:
+
+- theme toggle (persisted using `theme_notifier` and SharedPreferences),
+- About navigation,
+- long-press base URL override editor.
+
+The base URL override enables rapid environment switching during demos/testing without rebuilding flavors.
+
+## 10) App Directory Map
+
+```text
+App/
+├─ lib/
+│  ├─ main_dev.dart
+│  ├─ main_prod.dart
+│  ├─ main_common.dart
+│  ├─ screens/
+│  ├─ controllers/
+│  ├─ providers/
+│  ├─ services/
+│  ├─ utils/
+│  │  ├─ constants/
+│  │  ├─ notifiers/
+│  │  ├─ repositories/
+│  │  └─ services/
+│  ├─ models/
+│  └─ widgets/
+├─ assets/
+├─ android/
+├─ ios/
+└─ tools/
+```
+
+## 11) Setup and Run
+
+From `App/`:
+
 ```bash
 flutter pub get
 ```
 
-Run (dev flavor):
+Run dev flavor:
+
 ```bash
 flutter run -t lib/main_dev.dart --flavor dev
 ```
 
-Build (prod appbundle):
+Run prod flavor:
+
 ```bash
-# optionally bump version first (workspace tasks exist that call the bump scripts)
+flutter run -t lib/main_prod.dart --flavor prod
+```
+
+Build release appbundle:
+
+```bash
 flutter build appbundle --flavor prod -t lib/main_prod.dart --release
 ```
 
-The workspace includes VS Code tasks for version bumping and building (see tasks named like `flutter: bump patch (prod)` and `flutter: build appbundle (prod) [patch bump]`). Version bumps use `tools/bump_version.py`.
+## 12) Development Commands
 
-**Configuration & Notes**
-- Add runtime configuration in `.env` (the app loads `.env` per `pubspec.yaml`).
-- App permissions must be granted for camera, microphone (speech) and storage for full functionality.
-- Local persistence uses Hive; if schema or adapters are added, ensure `build_runner` is used to regenerate code where necessary.
+```bash
+flutter analyze
+dart run build_runner build --delete-conflicting-outputs
+```
 
-**Contributing**
-- Follow existing style and Riverpod-driven state patterns when adding features.
-- Run `flutter analyze` and `dart fix --apply` before submitting changes.
+## 13) Common Troubleshooting
 
-**License**
-This repository does not include a license file. Add a license if you intend to make this project public.
+### App fails at startup due missing API env
 
----
-Updated documentation for the project's structure and developer usage.
+- Ensure `.env` exists in `App/` and includes required `API_BASE_URL_DEV` / `API_BASE_URL_PROD`.
+
+### OCR not working
+
+- Confirm camera/photos permissions granted.
+- Check image source accessibility and file existence.
+
+### API calls fail after endpoint migration
+
+- Update flavor env values or long-press `Change baseURL` in Settings.
+- Verify backend route availability (`/qa/answer`, `/retrieval/search`, `/verifier/verify`).
+
+### History not appearing
+
+- Ensure Hive initialization is successful in boot flow.
+- Verify `HistoryRecordAdapter` type id compatibility if model changes are introduced.
+
+## 14) Why This App Structure Works
+
+- Keeps business logic out of widgets.
+- Makes async API/UI state explicit and predictable.
+- Supports multi-environment operation with minimal friction.
+- Preserves user trust with evidence visibility and persistent history.
+
+This App is intentionally designed as the reliable, user-facing shell over the broader VeriFact backend and model ecosystem.
