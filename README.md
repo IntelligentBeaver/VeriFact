@@ -7,6 +7,17 @@
 
 VeriFact starts with a simple mobile app experience and is powered by a retrieval-focused backend and model/data pipelines behind the scenes.
 
+## Project Links
+
+<div align="center">
+
+[![Overleaf](https://img.shields.io/badge/Overleaf-Project-47A141?style=for-the-badge&logo=overleaf&logoColor=white)](https://www.overleaf.com/project/69350ec7bb5450bfb16872e9)
+[![Figma](https://img.shields.io/badge/Figma-Design-1F1F1F?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/BqdgAEriXKzZm9ebEsSUkf/VeriFact-App)
+[![Google%20Drive](https://img.shields.io/badge/Google%20Drive-Files-0F9D58?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1DYucnJS13Kk1Zyj8gGQGmIgIlD-9kA10?usp=drive_link)
+[![Notion](https://img.shields.io/badge/Notion-Workspace-111111?style=for-the-badge&logo=notion&logoColor=white)](https://www.notion.so/VeriFact-Final-Year-Major-Project-2c5728051d2681e9b29ef8dda96482c4?source=copy_link)
+
+</div>
+
 ## App First
 
 The first thing VeriFact is built for is user experience:
