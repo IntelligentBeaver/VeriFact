@@ -1,0 +1,562 @@
+{
+  "url": "https://www.webmd.com/cancer/features/cm/biosensors",
+  "title": "Biosensors and Your Health",
+  "slug": "biosensors",
+  "published_date": "2019-06-08",
+  "first_letter": "B",
+  "author": "Hope Cristol",
+  "medically_reviewed_by": "Laura J. Martin, MD",
+  "read_time": "6 min read",
+  "sections": [
+    {
+      "heading": null,
+      "content": [
+        "Michael Snyder, PhD, was on a flight to Norway when he noticed some of his health stats weren’t normal. Several biosensors showed his heart rate and temperature were up. His blood oxygen levels were down.",
+        "At the time, he was taking part in a study about the potential roles of biosensors in managing health. Snyder, the director of the Stanford Center for Genomics and Personalized Medicine, didn’t feel sick, but he guessed that was about to change.",
+        "“Those signals were really quite strong: The elevated heart rate, the amount of outlying measurements. I knew something was up,” Snyder says.",
+        "Because he’d recently spent time outdoors in rural Massachusetts, where many ticks carry Lyme disease, Snyder wondered if he’d been infected. He went to a doctor in Norway instead of waiting it out, and he got a prescription for antibiotics that fight Lyme disease. Sure enough, a blood test in the U.S. would later confirm that’s what he had. He credits his early detection and treatment to those early warning signs from biosensors.",
+        "That’s just one success story about the health potential for wearable biosensors. What are they, exactly? The name is an umbrella term that applies to many gadgets. On one end of the spectrum, it includes those wildly popular wristbands that track your every step. But other types of biosensors could also have a big impact on your health -- and lead to better, more personalized care from your doctor."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Michael Snyder, PhD, was on a flight to Norway when he noticed some of his health stats weren’t normal. Several biosensors showed his heart rate and temperature were up. His blood oxygen levels were down.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "At the time, he was taking part in a study about the potential roles of biosensors in managing health. Snyder, the director of the Stanford Center for Genomics and Personalized Medicine, didn’t feel sick, but he guessed that was about to change.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“Those signals were really quite strong: The elevated heart rate, the amount of outlying measurements. I knew something was up,” Snyder says.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Because he’d recently spent time outdoors in rural Massachusetts, where many ticks carry Lyme disease, Snyder wondered if he’d been infected. He went to a doctor in Norway instead of waiting it out, and he got a prescription for antibiotics that fight Lyme disease. Sure enough, a blood test in the U.S. would later confirm that’s what he had. He credits his early detection and treatment to those early warning signs from biosensors.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "That’s just one success story about the health potential for wearable biosensors. What are they, exactly? The name is an umbrella term that applies to many gadgets. On one end of the spectrum, it includes those wildly popular wristbands that track your every step. But other types of biosensors could also have a big impact on your health -- and lead to better, more personalized care from your doctor.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Implantable Biosensors",
+      "content": [
+        "A biosensor under your skin ? It sounds like science fiction, but implantable sensors are already here. A few examples:",
+        "Continuous glucose monitors for type 1 and type 2 diabetes . There are many of these on the market. One recently approved device, made by Dexcom, has three parts: a small, needle-like sensor that goes under your skin, a transmitter that sends data to a monitor, and a monitor that provides charts of your blood sugar levels . There’s also software that lets you and your doctor track your blood sugar trends over time. That could lead to new treatments or advice tailored just for you and your diabetes."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "A biosensor under your skin ? It sounds like science fiction, but implantable sensors are already here. A few examples:",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Continuous glucose monitors for type 1 and type 2 diabetes . There are many of these on the market. One recently approved device, made by Dexcom, has three parts: a small, needle-like sensor that goes under your skin, a transmitter that sends data to a monitor, and a monitor that provides charts of your blood sugar levels . There’s also software that lets you and your doctor track your blood sugar trends over time. That could lead to new treatments or advice tailored just for you and your diabetes.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Michael Snyder, PhD, was on a flight to Norway when he noticed some of his health stats weren’t normal. Several biosensors showed his heart rate and temperature were up. His blood oxygen levels were down.",
+        "At the time, he was taking part in a study about the potential roles of biosensors in managing health. Snyder, the director of the Stanford Center for Genomics and Personalized Medicine, didn’t feel sick, but he guessed that was about to change.",
+        "“Those signals were really quite strong: The elevated heart rate, the amount of outlying measurements. I knew something was up,” Snyder says.",
+        "Because he’d recently spent time outdoors in rural Massachusetts, where many ticks carry Lyme disease, Snyder wondered if he’d been infected. He went to a doctor in Norway instead of waiting it out, and he got a prescription for antibiotics that fight Lyme disease. Sure enough, a blood test in the U.S. would later confirm that’s what he had. He credits his early detection and treatment to those early warning signs from biosensors.",
+        "That’s just one success story about the health potential for wearable biosensors. What are they, exactly? The name is an umbrella term that applies to many gadgets. On one end of the spectrum, it includes those wildly popular wristbands that track your every step. But other types of biosensors could also have a big impact on your health -- and lead to better, more personalized care from your doctor."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Michael Snyder, PhD, was on a flight to Norway when he noticed some of his health stats weren’t normal. Several biosensors showed his heart rate and temperature were up. His blood oxygen levels were down.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "At the time, he was taking part in a study about the potential roles of biosensors in managing health. Snyder, the director of the Stanford Center for Genomics and Personalized Medicine, didn’t feel sick, but he guessed that was about to change.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“Those signals were really quite strong: The elevated heart rate, the amount of outlying measurements. I knew something was up,” Snyder says.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Because he’d recently spent time outdoors in rural Massachusetts, where many ticks carry Lyme disease, Snyder wondered if he’d been infected. He went to a doctor in Norway instead of waiting it out, and he got a prescription for antibiotics that fight Lyme disease. Sure enough, a blood test in the U.S. would later confirm that’s what he had. He credits his early detection and treatment to those early warning signs from biosensors.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "That’s just one success story about the health potential for wearable biosensors. What are they, exactly? The name is an umbrella term that applies to many gadgets. On one end of the spectrum, it includes those wildly popular wristbands that track your every step. But other types of biosensors could also have a big impact on your health -- and lead to better, more personalized care from your doctor.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Implantable Biosensors",
+      "content": [
+        "A biosensor under your skin ? It sounds like science fiction, but implantable sensors are already here. A few examples:",
+        "Continuous glucose monitors for type 1 and type 2 diabetes . There are many of these on the market. One recently approved device, made by Dexcom, has three parts: a small, needle-like sensor that goes under your skin, a transmitter that sends data to a monitor, and a monitor that provides charts of your blood sugar levels . There’s also software that lets you and your doctor track your blood sugar trends over time. That could lead to new treatments or advice tailored just for you and your diabetes."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "A biosensor under your skin ? It sounds like science fiction, but implantable sensors are already here. A few examples:",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Continuous glucose monitors for type 1 and type 2 diabetes . There are many of these on the market. One recently approved device, made by Dexcom, has three parts: a small, needle-like sensor that goes under your skin, a transmitter that sends data to a monitor, and a monitor that provides charts of your blood sugar levels . There’s also software that lets you and your doctor track your blood sugar trends over time. That could lead to new treatments or advice tailored just for you and your diabetes.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Implantable electrocardiogram (ECG or EKG ) monitors.",
+      "content": [
+        "These devices can monitor your heart’s rhythm for up to 3 years. Models like the Reveal LINQ Insertable Cardiac Monitor send data about your heart rhythm to an app. Measuring rhythms over time can help doctors find possible causes of fainting episodes or unexplained falls, or diagnose an irregular heartbeat .",
+        "Other types of implantable biosensors are in different stages of testing and development. Some of these devices hold promise for:"
+      ],
+      "bullets": [
+        "Finding cancer",
+        "Monitoring pressure inside the skull in people with brain injuries",
+        "Measuring the real-time effect of medicines in the body",
+        "Monitoring oxygen levels in tissues"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "These devices can monitor your heart’s rhythm for up to 3 years. Models like the Reveal LINQ Insertable Cardiac Monitor send data about your heart rhythm to an app. Measuring rhythms over time can help doctors find possible causes of fainting episodes or unexplained falls, or diagnose an irregular heartbeat .",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Other types of implantable biosensors are in different stages of testing and development. Some of these devices hold promise for:",
+          "associated_bullets": [
+            "Finding cancer",
+            "Monitoring pressure inside the skull in people with brain injuries",
+            "Measuring the real-time effect of medicines in the body",
+            "Monitoring oxygen levels in tissues"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Smartphone Biosensors and Apps",
+      "content": [
+        "The one gadget we keep with us almost all the time can do a lot to help us live healthier, thanks to different types of sensors that are built into it. With a little help from an app, smartphones can measure:",
+        "Researchers are also looking to use smartphone biosensors for other health tasks, such as monitoring for falls and checking the range of motion in your joints.",
+        "Sensors and apps will never replace your doctor. But there’s one area where being a bit of a do-it-yourselfer can give your doctor an edge: blood pressure monitoring. Using a device to check your blood pressure at home is already accepted as one of the best ways to get your condition under control. That’s because sharing the readings with your doctor give them even more information to work with as they plan your treatment.",
+        "The future looks bright for home monitors. Options on the market now include the iHealth Sense, a wrist unit that sends updates directly to a smartphone app. Omron, with a focus on traditional home tests, has Evolv, a streamlined version of that bulky cuff your doctor uses. It, too, lets you share info with your phone. And Qardioarm is a blood pressure monitor that provides wireless updates to a smartphone app. The upside of this technology is that it also makes it easier to share with your doctor. No more lugging that bulky monitor in so they can check your readings.",
+        "Look for continuous monitoring to be the next big thing. Omron has rolled out Omron HeartGuide, a smartwatch that tracks your blood pressure constantly and, of course, sends readings to your smartphone. That’ll help you and your doctor figure out how certain activities affect your readings and provide insight on what happens to your blood pressure while you’re asleep. Some doctors think nighttime pressure gives a better idea of how likely you are to have a stroke or heart attack . It’ll keep track of daily activity, heart rate, and sleep quality, too."
+      ],
+      "bullets": [
+        "Blood pressure",
+        "Physical activity",
+        "Sleep",
+        "Pulse",
+        "Blood sugar",
+        "Body fat"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The one gadget we keep with us almost all the time can do a lot to help us live healthier, thanks to different types of sensors that are built into it. With a little help from an app, smartphones can measure:",
+          "associated_bullets": [
+            "Blood pressure",
+            "Physical activity",
+            "Sleep",
+            "Pulse",
+            "Blood sugar",
+            "Body fat"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Researchers are also looking to use smartphone biosensors for other health tasks, such as monitoring for falls and checking the range of motion in your joints.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Sensors and apps will never replace your doctor. But there’s one area where being a bit of a do-it-yourselfer can give your doctor an edge: blood pressure monitoring. Using a device to check your blood pressure at home is already accepted as one of the best ways to get your condition under control. That’s because sharing the readings with your doctor give them even more information to work with as they plan your treatment.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The future looks bright for home monitors. Options on the market now include the iHealth Sense, a wrist unit that sends updates directly to a smartphone app. Omron, with a focus on traditional home tests, has Evolv, a streamlined version of that bulky cuff your doctor uses. It, too, lets you share info with your phone. And Qardioarm is a blood pressure monitor that provides wireless updates to a smartphone app. The upside of this technology is that it also makes it easier to share with your doctor. No more lugging that bulky monitor in so they can check your readings.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Look for continuous monitoring to be the next big thing. Omron has rolled out Omron HeartGuide, a smartwatch that tracks your blood pressure constantly and, of course, sends readings to your smartphone. That’ll help you and your doctor figure out how certain activities affect your readings and provide insight on what happens to your blood pressure while you’re asleep. Some doctors think nighttime pressure gives a better idea of how likely you are to have a stroke or heart attack . It’ll keep track of daily activity, heart rate, and sleep quality, too.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "These devices can monitor your heart’s rhythm for up to 3 years. Models like the Reveal LINQ Insertable Cardiac Monitor send data about your heart rhythm to an app. Measuring rhythms over time can help doctors find possible causes of fainting episodes or unexplained falls, or diagnose an irregular heartbeat .",
+        "Other types of implantable biosensors are in different stages of testing and development. Some of these devices hold promise for:"
+      ],
+      "bullets": [
+        "Finding cancer",
+        "Monitoring pressure inside the skull in people with brain injuries",
+        "Measuring the real-time effect of medicines in the body",
+        "Monitoring oxygen levels in tissues"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "These devices can monitor your heart’s rhythm for up to 3 years. Models like the Reveal LINQ Insertable Cardiac Monitor send data about your heart rhythm to an app. Measuring rhythms over time can help doctors find possible causes of fainting episodes or unexplained falls, or diagnose an irregular heartbeat .",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Other types of implantable biosensors are in different stages of testing and development. Some of these devices hold promise for:",
+          "associated_bullets": [
+            "Finding cancer",
+            "Monitoring pressure inside the skull in people with brain injuries",
+            "Measuring the real-time effect of medicines in the body",
+            "Monitoring oxygen levels in tissues"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Smartphone Biosensors and Apps",
+      "content": [
+        "The one gadget we keep with us almost all the time can do a lot to help us live healthier, thanks to different types of sensors that are built into it. With a little help from an app, smartphones can measure:",
+        "Researchers are also looking to use smartphone biosensors for other health tasks, such as monitoring for falls and checking the range of motion in your joints.",
+        "Sensors and apps will never replace your doctor. But there’s one area where being a bit of a do-it-yourselfer can give your doctor an edge: blood pressure monitoring. Using a device to check your blood pressure at home is already accepted as one of the best ways to get your condition under control. That’s because sharing the readings with your doctor give them even more information to work with as they plan your treatment.",
+        "The future looks bright for home monitors. Options on the market now include the iHealth Sense, a wrist unit that sends updates directly to a smartphone app. Omron, with a focus on traditional home tests, has Evolv, a streamlined version of that bulky cuff your doctor uses. It, too, lets you share info with your phone. And Qardioarm is a blood pressure monitor that provides wireless updates to a smartphone app. The upside of this technology is that it also makes it easier to share with your doctor. No more lugging that bulky monitor in so they can check your readings.",
+        "Look for continuous monitoring to be the next big thing. Omron has rolled out Omron HeartGuide, a smartwatch that tracks your blood pressure constantly and, of course, sends readings to your smartphone. That’ll help you and your doctor figure out how certain activities affect your readings and provide insight on what happens to your blood pressure while you’re asleep. Some doctors think nighttime pressure gives a better idea of how likely you are to have a stroke or heart attack . It’ll keep track of daily activity, heart rate, and sleep quality, too."
+      ],
+      "bullets": [
+        "Blood pressure",
+        "Physical activity",
+        "Sleep",
+        "Pulse",
+        "Blood sugar",
+        "Body fat"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The one gadget we keep with us almost all the time can do a lot to help us live healthier, thanks to different types of sensors that are built into it. With a little help from an app, smartphones can measure:",
+          "associated_bullets": [
+            "Blood pressure",
+            "Physical activity",
+            "Sleep",
+            "Pulse",
+            "Blood sugar",
+            "Body fat"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Researchers are also looking to use smartphone biosensors for other health tasks, such as monitoring for falls and checking the range of motion in your joints.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Sensors and apps will never replace your doctor. But there’s one area where being a bit of a do-it-yourselfer can give your doctor an edge: blood pressure monitoring. Using a device to check your blood pressure at home is already accepted as one of the best ways to get your condition under control. That’s because sharing the readings with your doctor give them even more information to work with as they plan your treatment.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The future looks bright for home monitors. Options on the market now include the iHealth Sense, a wrist unit that sends updates directly to a smartphone app. Omron, with a focus on traditional home tests, has Evolv, a streamlined version of that bulky cuff your doctor uses. It, too, lets you share info with your phone. And Qardioarm is a blood pressure monitor that provides wireless updates to a smartphone app. The upside of this technology is that it also makes it easier to share with your doctor. No more lugging that bulky monitor in so they can check your readings.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Look for continuous monitoring to be the next big thing. Omron has rolled out Omron HeartGuide, a smartwatch that tracks your blood pressure constantly and, of course, sends readings to your smartphone. That’ll help you and your doctor figure out how certain activities affect your readings and provide insight on what happens to your blood pressure while you’re asleep. Some doctors think nighttime pressure gives a better idea of how likely you are to have a stroke or heart attack . It’ll keep track of daily activity, heart rate, and sleep quality, too.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Stick-On Sensors",
+      "content": [
+        "Some implantable biosensors have a stick-on component. For example, continuous glucose monitors usually have a patch or monitor that sticks on your skin , in addition to the sensor beneath your skin.",
+        "Patch biosensors are different. With these, nothing is injected or implanted. These are some of the uses for patch biosensors on the market or in development.",
+        "Patch EKG. There are several patch EKGs available. One is the BodyGuardian Heart, a lightweight device you put onto your chest with a sticky strip. It will send data for a certain period of time -- as much as your doctor prescribes -- to a special “smartphone.” (It tracks your heart info but doesn’t make calls.) After the monitoring period ends, you send the equipment back to your doctor in a prepaid shipping box. The advantage of the patch over an in-office EKG: “A simple patch that you can put on your chest can be more accurate than the single reading you get at a doctor’s office,” Snyder says."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Some implantable biosensors have a stick-on component. For example, continuous glucose monitors usually have a patch or monitor that sticks on your skin , in addition to the sensor beneath your skin.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Patch biosensors are different. With these, nothing is injected or implanted. These are some of the uses for patch biosensors on the market or in development.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Patch EKG. There are several patch EKGs available. One is the BodyGuardian Heart, a lightweight device you put onto your chest with a sticky strip. It will send data for a certain period of time -- as much as your doctor prescribes -- to a special “smartphone.” (It tracks your heart info but doesn’t make calls.) After the monitoring period ends, you send the equipment back to your doctor in a prepaid shipping box. The advantage of the patch over an in-office EKG: “A simple patch that you can put on your chest can be more accurate than the single reading you get at a doctor’s office,” Snyder says.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Biomarker analysis.",
+      "content": [
+        "This type of patch will analyze your sweat for sodium , glucose, and other substances. Researchers say it could alert you to fatigue, dehydration, and similar problems. If you’re a serious athlete, you can find out when you’re low on electrolytes and need to refuel.",
+        "Researchers at the University of California in San Diego are working on a blood alcohol sensor that looks like a temporary tattoo. It sticks to your skin and sends out chemicals that make you sweat. It measures the alcohol in your sweat and sends info to a laptop or other device.",
+        "Vital signs monitor. In the hospital, a sticky biosensor on your chest may one day keep track of important vital signs, like your heart rate, respiratory rate, and skin temperature. One type of sensor for hospital use can also monitor your temperature, steps, and whether you’ve fallen."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "This type of patch will analyze your sweat for sodium , glucose, and other substances. Researchers say it could alert you to fatigue, dehydration, and similar problems. If you’re a serious athlete, you can find out when you’re low on electrolytes and need to refuel.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Researchers at the University of California in San Diego are working on a blood alcohol sensor that looks like a temporary tattoo. It sticks to your skin and sends out chemicals that make you sweat. It measures the alcohol in your sweat and sends info to a laptop or other device.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Vital signs monitor. In the hospital, a sticky biosensor on your chest may one day keep track of important vital signs, like your heart rate, respiratory rate, and skin temperature. One type of sensor for hospital use can also monitor your temperature, steps, and whether you’ve fallen.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Wearable Biosensors",
+      "content": [
+        "Wearable activity trackers can measure your steps, heart rate, blood pressure, sleep, and more. But as Snyder’s research shows, they may have medical value in the future."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Wearable activity trackers can measure your steps, heart rate, blood pressure, sleep, and more. But as Snyder’s research shows, they may have medical value in the future.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Stick-On Sensors",
+      "content": [
+        "Some implantable biosensors have a stick-on component. For example, continuous glucose monitors usually have a patch or monitor that sticks on your skin , in addition to the sensor beneath your skin.",
+        "Patch biosensors are different. With these, nothing is injected or implanted. These are some of the uses for patch biosensors on the market or in development.",
+        "Patch EKG. There are several patch EKGs available. One is the BodyGuardian Heart, a lightweight device you put onto your chest with a sticky strip. It will send data for a certain period of time -- as much as your doctor prescribes -- to a special “smartphone.” (It tracks your heart info but doesn’t make calls.) After the monitoring period ends, you send the equipment back to your doctor in a prepaid shipping box. The advantage of the patch over an in-office EKG: “A simple patch that you can put on your chest can be more accurate than the single reading you get at a doctor’s office,” Snyder says."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Some implantable biosensors have a stick-on component. For example, continuous glucose monitors usually have a patch or monitor that sticks on your skin , in addition to the sensor beneath your skin.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Patch biosensors are different. With these, nothing is injected or implanted. These are some of the uses for patch biosensors on the market or in development.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Patch EKG. There are several patch EKGs available. One is the BodyGuardian Heart, a lightweight device you put onto your chest with a sticky strip. It will send data for a certain period of time -- as much as your doctor prescribes -- to a special “smartphone.” (It tracks your heart info but doesn’t make calls.) After the monitoring period ends, you send the equipment back to your doctor in a prepaid shipping box. The advantage of the patch over an in-office EKG: “A simple patch that you can put on your chest can be more accurate than the single reading you get at a doctor’s office,” Snyder says.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "This type of patch will analyze your sweat for sodium , glucose, and other substances. Researchers say it could alert you to fatigue, dehydration, and similar problems. If you’re a serious athlete, you can find out when you’re low on electrolytes and need to refuel.",
+        "Researchers at the University of California in San Diego are working on a blood alcohol sensor that looks like a temporary tattoo. It sticks to your skin and sends out chemicals that make you sweat. It measures the alcohol in your sweat and sends info to a laptop or other device.",
+        "Vital signs monitor. In the hospital, a sticky biosensor on your chest may one day keep track of important vital signs, like your heart rate, respiratory rate, and skin temperature. One type of sensor for hospital use can also monitor your temperature, steps, and whether you’ve fallen."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "This type of patch will analyze your sweat for sodium , glucose, and other substances. Researchers say it could alert you to fatigue, dehydration, and similar problems. If you’re a serious athlete, you can find out when you’re low on electrolytes and need to refuel.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Researchers at the University of California in San Diego are working on a blood alcohol sensor that looks like a temporary tattoo. It sticks to your skin and sends out chemicals that make you sweat. It measures the alcohol in your sweat and sends info to a laptop or other device.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Vital signs monitor. In the hospital, a sticky biosensor on your chest may one day keep track of important vital signs, like your heart rate, respiratory rate, and skin temperature. One type of sensor for hospital use can also monitor your temperature, steps, and whether you’ve fallen.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Wearable Biosensors",
+      "content": [
+        "Wearable activity trackers can measure your steps, heart rate, blood pressure, sleep, and more. But as Snyder’s research shows, they may have medical value in the future."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Wearable activity trackers can measure your steps, heart rate, blood pressure, sleep, and more. But as Snyder’s research shows, they may have medical value in the future.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Other wearable devices also show promise for both health and disease management. A few areas researchers are exploring for biosensors include:",
+        "Opioid addiction. Early research shows that sensors in wristbands can detect when someone has taken large amounts of opioids.",
+        "Epilepsy. Several biosensors are in the works. One type, a wrist unit intended for use in hospitals, helps staff tell seizures from non-seizures. Another wristband sensor can alert caregivers when a person with epilepsy is having a seizure.",
+        "Blood alcohol: The BACtrack Skyn is another wrist-worn biosensor. It measures and records your blood alcohol level. It’s the latest product for the company’s line of portable blood alcohol tests.",
+        "Blood sugar: Engineers at UCLA are working on a super-thin sensor that could go on the back of a watch or contact lens and measure blood sugar in your sweat or tears.",
+        "It’s easy to get caught up in the excitement of new technology, but biosensors are only a small part of the solution. What they allow is the development of brand-new systems of care."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Other wearable devices also show promise for both health and disease management. A few areas researchers are exploring for biosensors include:",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Opioid addiction. Early research shows that sensors in wristbands can detect when someone has taken large amounts of opioids.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Epilepsy. Several biosensors are in the works. One type, a wrist unit intended for use in hospitals, helps staff tell seizures from non-seizures. Another wristband sensor can alert caregivers when a person with epilepsy is having a seizure.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Blood alcohol: The BACtrack Skyn is another wrist-worn biosensor. It measures and records your blood alcohol level. It’s the latest product for the company’s line of portable blood alcohol tests.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Blood sugar: Engineers at UCLA are working on a super-thin sensor that could go on the back of a watch or contact lens and measure blood sugar in your sweat or tears.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "It’s easy to get caught up in the excitement of new technology, but biosensors are only a small part of the solution. What they allow is the development of brand-new systems of care.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Other wearable devices also show promise for both health and disease management. A few areas researchers are exploring for biosensors include:",
+        "Opioid addiction. Early research shows that sensors in wristbands can detect when someone has taken large amounts of opioids.",
+        "Epilepsy. Several biosensors are in the works. One type, a wrist unit intended for use in hospitals, helps staff tell seizures from non-seizures. Another wristband sensor can alert caregivers when a person with epilepsy is having a seizure.",
+        "Blood alcohol: The BACtrack Skyn is another wrist-worn biosensor. It measures and records your blood alcohol level. It’s the latest product for the company’s line of portable blood alcohol tests.",
+        "Blood sugar: Engineers at UCLA are working on a super-thin sensor that could go on the back of a watch or contact lens and measure blood sugar in your sweat or tears.",
+        "It’s easy to get caught up in the excitement of new technology, but biosensors are only a small part of the solution. What they allow is the development of brand-new systems of care."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Other wearable devices also show promise for both health and disease management. A few areas researchers are exploring for biosensors include:",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Opioid addiction. Early research shows that sensors in wristbands can detect when someone has taken large amounts of opioids.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Epilepsy. Several biosensors are in the works. One type, a wrist unit intended for use in hospitals, helps staff tell seizures from non-seizures. Another wristband sensor can alert caregivers when a person with epilepsy is having a seizure.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Blood alcohol: The BACtrack Skyn is another wrist-worn biosensor. It measures and records your blood alcohol level. It’s the latest product for the company’s line of portable blood alcohol tests.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Blood sugar: Engineers at UCLA are working on a super-thin sensor that could go on the back of a watch or contact lens and measure blood sugar in your sweat or tears.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "It’s easy to get caught up in the excitement of new technology, but biosensors are only a small part of the solution. What they allow is the development of brand-new systems of care.",
+          "associated_bullets": null
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/features/biosensors/10-0_650x350.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/avatar_placeholder.jpg?resize=51px:51px&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/MoreOn_HeartburnGerd.jpg?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/hpt_toc_redesign_illustrations/1500x1500_diagnosis_and_test_option_4.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [
+    "Journal of the American Medical Association : “Effect of Home Blood Pressure Telemonitoring and Pharmacist Management on Blood Pressure Control: A Cluster Randomized Clinical Trial.”",
+    "NIH News in Health: “Biosensors and Your Health.”",
+    "ACS Nano : “Highly Sensitive and Wearable In 2 O 3 Nanoribbon Transistor Biosensors with Integrated On-Chip Gate for Glucose Monitoring in Body Fluids.”",
+    "Michael Snyder, PhD, director, Stanford Center for Genomics and Personalized Medicine, Stanford University, Stanford, CA.",
+    "Dexcom.",
+    "Pacing and Clinical Electrophysiology : “Current and Emerging Indications for Implantable Cardiac Monitors.”",
+    "Medtronic.",
+    "American Cancer Society: \"Nanosensor Device May Help Watch for Cancer From the Inside.”",
+    "University of Michigan Chronis Lab: “Implantable Biosensors.”",
+    "Ecole Polytechnique Federale de Lausanne: “A chip placed under the skin for more precise medicine.”",
+    "Profusa Inc.",
+    "Diagnostics : “Commercial Smartphone-Based Devices and Smart Applications for Personalized Healthcare Monitoring and Management.”",
+    "PLOS One : “Analysis of a Smartphone-Based Architecture with Multiple Mobility Sensors for Fall Detection.”",
+    "Telemedicine and e-Health : “Trueness and Minimal Detectable Change of Smartphone Inclinometer Measurements of Shoulder Range of Motion.”",
+    "Preventice Solutions.",
+    "University of California, Berkeley: “Let them see you sweat: What new wearable sensors can reveal from perspiration.”",
+    "Kenzen.",
+    "Philips.",
+    "Journal of Medical Toxicology : “Wearable Biosensors to Detect Physiologic Change During Opioid Use.”",
+    "Conference proceedings: Annual International Conference of the IEEE Engineering in Medicine and Biology Society : “Epileptic seizure detection using wristworn biosensors.”",
+    "Empatica.",
+    "BACtrack.",
+    "Medscape: “Nighttime Hypertension -- Not Daytime or Clinic -- Predicts MI and Stroke in Meta-Analysis.”",
+    "Omron.",
+    "JAMA : “Effect of Home Blood Pressure Telemonitoring and Pharmacist Management on Blood Pressure Control: A Cluster Randomized Clinical Trial.”",
+    "Harvard Health Publications: “Checking blood pressure at home pays off.”",
+    "iHealth."
+  ],
+  "meta_description": "Biosensors track measurements in your body that can reveal a lot about your health for you and your doctor. Learn more about this cutting-edge field.",
+  "canonical_url": "https://www.webmd.com/cancer/features/cm/biosensors",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:51:58.714137Z"
+}

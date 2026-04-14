@@ -1,0 +1,921 @@
+{
+  "url": "https://www.webmd.com/melanoma-skin-cancer/cm/mohs-surgery",
+  "title": "What Is Mohs Surgery?",
+  "slug": "mohs-surgery",
+  "published_date": "2024-10-20",
+  "first_letter": "M",
+  "author": "Alyson Powell Key",
+  "medically_reviewed_by": "Zilpah  Sheikh, MD",
+  "read_time": "7 min read",
+  "sections": [
+    {
+      "heading": "What Is Mohs Surgery?",
+      "content": [
+        "Mohs surgery (also called Mohs micrographic surgery) is a type of surgery doctors use to treat skin cancer . The goal is to remove as much of the cancer as possible while saving the healthy tissue around it. A surgeon removes layers of skin one at a time and examines them under a microscope until all the cancer is gone. This lowers the chance of requiring future treatments or surgery.",
+        "A doctor named Frederick Mohs developed the treatment in the 1930s. While newer ones have come along in recent years, many surgeons still rely on this procedure to treat skin cancer. (Photo Credit: E+/Getty Images)"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mohs surgery (also called Mohs micrographic surgery) is a type of surgery doctors use to treat skin cancer . The goal is to remove as much of the cancer as possible while saving the healthy tissue around it. A surgeon removes layers of skin one at a time and examines them under a microscope until all the cancer is gone. This lowers the chance of requiring future treatments or surgery.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "A doctor named Frederick Mohs developed the treatment in the 1930s. While newer ones have come along in recent years, many surgeons still rely on this procedure to treat skin cancer. (Photo Credit: E+/Getty Images)",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Cancers Does Mohs Surgery Treat?",
+      "content": [
+        "Doctors consider Mohs surgery the best treatment for two of the most common types of skin cancer: basal cell carcinoma (BCC) and squamous cell carcinoma (SCC). They also use it to treat other kinds of skin cancer."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Doctors consider Mohs surgery the best treatment for two of the most common types of skin cancer: basal cell carcinoma (BCC) and squamous cell carcinoma (SCC). They also use it to treat other kinds of skin cancer.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Mohs Surgery vs. Excision",
+      "content": [
+        "Mohs surgery and traditional excision both treat skin cancer but differ in their approaches. Mohs surgery removes thin layers of skin one at a time. It involves checking for cancer with each layer, preserving healthy tissue, and removing all cancerous cells. Traditional excision cuts out the tumor and surrounding tissue in one step but might require more skin to be removed. Mohs is often more effective for certain skin cancers, especially in areas such as the face, where saving healthy skin is important."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mohs surgery and traditional excision both treat skin cancer but differ in their approaches. Mohs surgery removes thin layers of skin one at a time. It involves checking for cancer with each layer, preserving healthy tissue, and removing all cancerous cells. Traditional excision cuts out the tumor and surrounding tissue in one step but might require more skin to be removed. Mohs is often more effective for certain skin cancers, especially in areas such as the face, where saving healthy skin is important.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Should I Get Mohs Surgery?",
+      "content": [
+        "Mohs Surgery Appropriate Use Criteria (AUC) helps doctors quickly figure out if Mohs surgery is best for their patients. It gives guidance based on detailed criteria regarding whether Mohs surgery suits you.",
+        "When deciding if Mohs surgery is the right treatment, doctors consider several factors. These include:",
+        "Based on where the cancer is located in the body",
+        "These parts of the body are more suitable for Mohs surgery:",
+        "Based on patient characteristics",
+        "You may not be a good candidate for Mohs surgery if you have:",
+        "Based on tumor characteristics",
+        "Doctors may consider Mohs surgery appropriate for tumors that:"
+      ],
+      "bullets": [
+        "Location of the cancer on the body",
+        "Patient's risk factors",
+        "Tumor's characteristics",
+        "Central face, eyelids/outer or inner corner of the eye (canthi), eyebrows, nose , lips, chin, ear, and the tissue surrounding the external ear",
+        "Genitals",
+        "Hands, feet, ankles, and nails",
+        "Nipples/areola",
+        "Low or no immunity to infectious diseases and cancer",
+        "A genetic syndrome",
+        "A history of high-risk tumors",
+        "Skin that's been previously treated with radiation",
+        "Grow aggressively",
+        "Have unclear edges",
+        "Resist other treatments"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mohs Surgery Appropriate Use Criteria (AUC) helps doctors quickly figure out if Mohs surgery is best for their patients. It gives guidance based on detailed criteria regarding whether Mohs surgery suits you.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "When deciding if Mohs surgery is the right treatment, doctors consider several factors. These include:",
+          "associated_bullets": [
+            "Location of the cancer on the body",
+            "Patient's risk factors",
+            "Tumor's characteristics"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Based on where the cancer is located in the body",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "These parts of the body are more suitable for Mohs surgery:",
+          "associated_bullets": [
+            "Central face, eyelids/outer or inner corner of the eye (canthi), eyebrows, nose , lips, chin, ear, and the tissue surrounding the external ear",
+            "Genitals",
+            "Hands, feet, ankles, and nails",
+            "Nipples/areola"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Based on patient characteristics",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You may not be a good candidate for Mohs surgery if you have:",
+          "associated_bullets": [
+            "Low or no immunity to infectious diseases and cancer",
+            "A genetic syndrome",
+            "A history of high-risk tumors",
+            "Skin that's been previously treated with radiation"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Based on tumor characteristics",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Doctors may consider Mohs surgery appropriate for tumors that:",
+          "associated_bullets": [
+            "Grow aggressively",
+            "Have unclear edges",
+            "Resist other treatments"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "What Is Mohs Surgery?",
+      "content": [
+        "Mohs surgery (also called Mohs micrographic surgery) is a type of surgery doctors use to treat skin cancer . The goal is to remove as much of the cancer as possible while saving the healthy tissue around it. A surgeon removes layers of skin one at a time and examines them under a microscope until all the cancer is gone. This lowers the chance of requiring future treatments or surgery.",
+        "A doctor named Frederick Mohs developed the treatment in the 1930s. While newer ones have come along in recent years, many surgeons still rely on this procedure to treat skin cancer. (Photo Credit: E+/Getty Images)"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mohs surgery (also called Mohs micrographic surgery) is a type of surgery doctors use to treat skin cancer . The goal is to remove as much of the cancer as possible while saving the healthy tissue around it. A surgeon removes layers of skin one at a time and examines them under a microscope until all the cancer is gone. This lowers the chance of requiring future treatments or surgery.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "A doctor named Frederick Mohs developed the treatment in the 1930s. While newer ones have come along in recent years, many surgeons still rely on this procedure to treat skin cancer. (Photo Credit: E+/Getty Images)",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Cancers Does Mohs Surgery Treat?",
+      "content": [
+        "Doctors consider Mohs surgery the best treatment for two of the most common types of skin cancer: basal cell carcinoma (BCC) and squamous cell carcinoma (SCC). They also use it to treat other kinds of skin cancer."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Doctors consider Mohs surgery the best treatment for two of the most common types of skin cancer: basal cell carcinoma (BCC) and squamous cell carcinoma (SCC). They also use it to treat other kinds of skin cancer.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Mohs Surgery vs. Excision",
+      "content": [
+        "Mohs surgery and traditional excision both treat skin cancer but differ in their approaches. Mohs surgery removes thin layers of skin one at a time. It involves checking for cancer with each layer, preserving healthy tissue, and removing all cancerous cells. Traditional excision cuts out the tumor and surrounding tissue in one step but might require more skin to be removed. Mohs is often more effective for certain skin cancers, especially in areas such as the face, where saving healthy skin is important."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mohs surgery and traditional excision both treat skin cancer but differ in their approaches. Mohs surgery removes thin layers of skin one at a time. It involves checking for cancer with each layer, preserving healthy tissue, and removing all cancerous cells. Traditional excision cuts out the tumor and surrounding tissue in one step but might require more skin to be removed. Mohs is often more effective for certain skin cancers, especially in areas such as the face, where saving healthy skin is important.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Should I Get Mohs Surgery?",
+      "content": [
+        "Mohs Surgery Appropriate Use Criteria (AUC) helps doctors quickly figure out if Mohs surgery is best for their patients. It gives guidance based on detailed criteria regarding whether Mohs surgery suits you.",
+        "When deciding if Mohs surgery is the right treatment, doctors consider several factors. These include:",
+        "Based on where the cancer is located in the body",
+        "These parts of the body are more suitable for Mohs surgery:",
+        "Based on patient characteristics",
+        "You may not be a good candidate for Mohs surgery if you have:",
+        "Based on tumor characteristics",
+        "Doctors may consider Mohs surgery appropriate for tumors that:"
+      ],
+      "bullets": [
+        "Location of the cancer on the body",
+        "Patient's risk factors",
+        "Tumor's characteristics",
+        "Central face, eyelids/outer or inner corner of the eye (canthi), eyebrows, nose , lips, chin, ear, and the tissue surrounding the external ear",
+        "Genitals",
+        "Hands, feet, ankles, and nails",
+        "Nipples/areola",
+        "Low or no immunity to infectious diseases and cancer",
+        "A genetic syndrome",
+        "A history of high-risk tumors",
+        "Skin that's been previously treated with radiation",
+        "Grow aggressively",
+        "Have unclear edges",
+        "Resist other treatments"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mohs Surgery Appropriate Use Criteria (AUC) helps doctors quickly figure out if Mohs surgery is best for their patients. It gives guidance based on detailed criteria regarding whether Mohs surgery suits you.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "When deciding if Mohs surgery is the right treatment, doctors consider several factors. These include:",
+          "associated_bullets": [
+            "Location of the cancer on the body",
+            "Patient's risk factors",
+            "Tumor's characteristics"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Based on where the cancer is located in the body",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "These parts of the body are more suitable for Mohs surgery:",
+          "associated_bullets": [
+            "Central face, eyelids/outer or inner corner of the eye (canthi), eyebrows, nose , lips, chin, ear, and the tissue surrounding the external ear",
+            "Genitals",
+            "Hands, feet, ankles, and nails",
+            "Nipples/areola"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Based on patient characteristics",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You may not be a good candidate for Mohs surgery if you have:",
+          "associated_bullets": [
+            "Low or no immunity to infectious diseases and cancer",
+            "A genetic syndrome",
+            "A history of high-risk tumors",
+            "Skin that's been previously treated with radiation"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Based on tumor characteristics",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Doctors may consider Mohs surgery appropriate for tumors that:",
+          "associated_bullets": [
+            "Grow aggressively",
+            "Have unclear edges",
+            "Resist other treatments"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Mohs Procedure",
+      "content": [
+        "You'll have Mohs surgery in an operating room or office with a nearby lab. That way, the surgeon can easily examine the tissue once it’s removed. The surgery usually lasts about 4 hours, and you’ll go home the same day. But it may last longer, so set aside the whole day.",
+        "Before your surgery, a doctor or nurse will clean the area. They’ll then use a special pen to outline it and inject your skin with medicine so you won’t feel any pain.",
+        "The surgeon will remove the visible part of your cancer with a scalpel. They’ll also remove a thin layer of tissue under the visible tumor and put on a temporary bandage. Then, they'll take the tissue to the lab to look at it under a microscope. If there’s still cancer, a surgeon will remove more layers, one at a time, until they can no longer see more cancer.",
+        "Cutting away the skin might take just a few minutes, but the analysis can take much longer, maybe up to an hour. You may want to bring a snack to eat or something to read to help pass the time."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "You'll have Mohs surgery in an operating room or office with a nearby lab. That way, the surgeon can easily examine the tissue once it’s removed. The surgery usually lasts about 4 hours, and you’ll go home the same day. But it may last longer, so set aside the whole day.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Before your surgery, a doctor or nurse will clean the area. They’ll then use a special pen to outline it and inject your skin with medicine so you won’t feel any pain.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The surgeon will remove the visible part of your cancer with a scalpel. They’ll also remove a thin layer of tissue under the visible tumor and put on a temporary bandage. Then, they'll take the tissue to the lab to look at it under a microscope. If there’s still cancer, a surgeon will remove more layers, one at a time, until they can no longer see more cancer.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Cutting away the skin might take just a few minutes, but the analysis can take much longer, maybe up to an hour. You may want to bring a snack to eat or something to read to help pass the time.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Mohs Surgery Recovery",
+      "content": [
+        "Once your surgeon has removed all of the tissue that contains cancer, they’ll discuss your options for how to let the wound heal. Depending on your situation, they’ll go with one of these:",
+        "Because your surgeon will be able to see the results right after the tissue is removed, you’ll likely go home with all your skin cancer removed. But you may need to follow up with your doctor just to make sure your recovery is going well.",
+        "You may have discomfort, bleeding, redness, or swelling after surgery, but these issues should go away before long. Your doctor will give you instructions on cleaning the wound and any medicine you need to take."
+      ],
+      "bullets": [
+        "Stitch the wound closed.",
+        "Let the incision heal by itself.",
+        "Take a flap of skin from a nearby part of your body to help cover the wound.",
+        "Take a skin graft from another part of your body to help cover the wound.",
+        "Temporarily close the wound and set reconstructive surgery for later."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Once your surgeon has removed all of the tissue that contains cancer, they’ll discuss your options for how to let the wound heal. Depending on your situation, they’ll go with one of these:",
+          "associated_bullets": [
+            "Stitch the wound closed.",
+            "Let the incision heal by itself.",
+            "Take a flap of skin from a nearby part of your body to help cover the wound.",
+            "Take a skin graft from another part of your body to help cover the wound.",
+            "Temporarily close the wound and set reconstructive surgery for later."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Because your surgeon will be able to see the results right after the tissue is removed, you’ll likely go home with all your skin cancer removed. But you may need to follow up with your doctor just to make sure your recovery is going well.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You may have discomfort, bleeding, redness, or swelling after surgery, but these issues should go away before long. Your doctor will give you instructions on cleaning the wound and any medicine you need to take.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Mohs Procedure",
+      "content": [
+        "You'll have Mohs surgery in an operating room or office with a nearby lab. That way, the surgeon can easily examine the tissue once it’s removed. The surgery usually lasts about 4 hours, and you’ll go home the same day. But it may last longer, so set aside the whole day.",
+        "Before your surgery, a doctor or nurse will clean the area. They’ll then use a special pen to outline it and inject your skin with medicine so you won’t feel any pain.",
+        "The surgeon will remove the visible part of your cancer with a scalpel. They’ll also remove a thin layer of tissue under the visible tumor and put on a temporary bandage. Then, they'll take the tissue to the lab to look at it under a microscope. If there’s still cancer, a surgeon will remove more layers, one at a time, until they can no longer see more cancer.",
+        "Cutting away the skin might take just a few minutes, but the analysis can take much longer, maybe up to an hour. You may want to bring a snack to eat or something to read to help pass the time."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "You'll have Mohs surgery in an operating room or office with a nearby lab. That way, the surgeon can easily examine the tissue once it’s removed. The surgery usually lasts about 4 hours, and you’ll go home the same day. But it may last longer, so set aside the whole day.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Before your surgery, a doctor or nurse will clean the area. They’ll then use a special pen to outline it and inject your skin with medicine so you won’t feel any pain.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The surgeon will remove the visible part of your cancer with a scalpel. They’ll also remove a thin layer of tissue under the visible tumor and put on a temporary bandage. Then, they'll take the tissue to the lab to look at it under a microscope. If there’s still cancer, a surgeon will remove more layers, one at a time, until they can no longer see more cancer.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Cutting away the skin might take just a few minutes, but the analysis can take much longer, maybe up to an hour. You may want to bring a snack to eat or something to read to help pass the time.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Mohs Surgery Recovery",
+      "content": [
+        "Once your surgeon has removed all of the tissue that contains cancer, they’ll discuss your options for how to let the wound heal. Depending on your situation, they’ll go with one of these:",
+        "Because your surgeon will be able to see the results right after the tissue is removed, you’ll likely go home with all your skin cancer removed. But you may need to follow up with your doctor just to make sure your recovery is going well.",
+        "You may have discomfort, bleeding, redness, or swelling after surgery, but these issues should go away before long. Your doctor will give you instructions on cleaning the wound and any medicine you need to take."
+      ],
+      "bullets": [
+        "Stitch the wound closed.",
+        "Let the incision heal by itself.",
+        "Take a flap of skin from a nearby part of your body to help cover the wound.",
+        "Take a skin graft from another part of your body to help cover the wound.",
+        "Temporarily close the wound and set reconstructive surgery for later."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Once your surgeon has removed all of the tissue that contains cancer, they’ll discuss your options for how to let the wound heal. Depending on your situation, they’ll go with one of these:",
+          "associated_bullets": [
+            "Stitch the wound closed.",
+            "Let the incision heal by itself.",
+            "Take a flap of skin from a nearby part of your body to help cover the wound.",
+            "Take a skin graft from another part of your body to help cover the wound.",
+            "Temporarily close the wound and set reconstructive surgery for later."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Because your surgeon will be able to see the results right after the tissue is removed, you’ll likely go home with all your skin cancer removed. But you may need to follow up with your doctor just to make sure your recovery is going well.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You may have discomfort, bleeding, redness, or swelling after surgery, but these issues should go away before long. Your doctor will give you instructions on cleaning the wound and any medicine you need to take.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "It’s a good idea to have someone take you home afterward. If you’re taking sedatives or prescription painkillers, driving yourself home is not an option.",
+        "Would you need reconstruction surgery after Mohs?",
+        "You may need reconstructive surgery after Mohs surgery, especially if the procedure leaves a noticeable scar . Reconstruction helps restore function and appearance, especially in sensitive areas such as the face, where tissue might be lost or damaged. Doctors use it on large wounds, in areas with tight skin, or when cosmetic concerns are a priority. Depending on the wound's size, location, and depth, doctors could use techniques such as skin grafts or flaps."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "It’s a good idea to have someone take you home afterward. If you’re taking sedatives or prescription painkillers, driving yourself home is not an option.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Would you need reconstruction surgery after Mohs?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You may need reconstructive surgery after Mohs surgery, especially if the procedure leaves a noticeable scar . Reconstruction helps restore function and appearance, especially in sensitive areas such as the face, where tissue might be lost or damaged. Doctors use it on large wounds, in areas with tight skin, or when cosmetic concerns are a priority. Depending on the wound's size, location, and depth, doctors could use techniques such as skin grafts or flaps.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Can the Cancer Come Back After Mohs Surgery?",
+      "content": [
+        "Mohs surgery has the highest cure rate of all treatments for basal cell and squamous cell carcinomas — more than 99% for new skin cancers and 95% if the cancer comes back.",
+        "Your doctor will want to schedule regular follow-ups with you to check your skin for new cancers. Twice a year is normal, but you may need them more often if you have an aggressive type of cancer that's more likely to return. You and your doctor will decide on the right schedule."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mohs surgery has the highest cure rate of all treatments for basal cell and squamous cell carcinomas — more than 99% for new skin cancers and 95% if the cancer comes back.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Your doctor will want to schedule regular follow-ups with you to check your skin for new cancers. Twice a year is normal, but you may need them more often if you have an aggressive type of cancer that's more likely to return. You and your doctor will decide on the right schedule.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Mohs Surgery Benefits",
+      "content": [
+        "Mohs surgery offers several benefits, making it a top choice for treating skin cancer. These include:"
+      ],
+      "bullets": [
+        "High precision in removing cancer while saving healthy tissue",
+        "An outpatient procedure, so no overnight stay required",
+        "Low risk of complications",
+        "A high cure rate",
+        "Preserving healthy skin cells and reducing scarring",
+        "Ideal for sensitive areas such as the face, hands, and genitals"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mohs surgery offers several benefits, making it a top choice for treating skin cancer. These include:",
+          "associated_bullets": [
+            "High precision in removing cancer while saving healthy tissue",
+            "An outpatient procedure, so no overnight stay required",
+            "Low risk of complications",
+            "A high cure rate",
+            "Preserving healthy skin cells and reducing scarring",
+            "Ideal for sensitive areas such as the face, hands, and genitals"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Mohs Surgery Risks",
+      "content": [
+        "Mohs surgery is generally considered very safe, but there are some risks:",
+        "Although these are less likely to happen, there are other potential problems:"
+      ],
+      "bullets": [
+        "Bleeding from the site of surgery",
+        "Bleeding into the wound ( hematoma ) from surrounding tissue",
+        "Pain or tenderness in the area where the skin was removed",
+        "Infection",
+        "You could have temporary or permanent numbness where the skin was removed.",
+        "If your tumor was large and your surgeon cut a muscle nerve while removing it, you might feel some weakness in that part of your body.",
+        "You might feel itching or shooting pain.",
+        "You could form a thick, raised scar."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mohs surgery is generally considered very safe, but there are some risks:",
+          "associated_bullets": [
+            "Bleeding from the site of surgery",
+            "Bleeding into the wound ( hematoma ) from surrounding tissue",
+            "Pain or tenderness in the area where the skin was removed",
+            "Infection"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Although these are less likely to happen, there are other potential problems:",
+          "associated_bullets": [
+            "You could have temporary or permanent numbness where the skin was removed.",
+            "If your tumor was large and your surgeon cut a muscle nerve while removing it, you might feel some weakness in that part of your body.",
+            "You might feel itching or shooting pain.",
+            "You could form a thick, raised scar."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "It’s a good idea to have someone take you home afterward. If you’re taking sedatives or prescription painkillers, driving yourself home is not an option.",
+        "Would you need reconstruction surgery after Mohs?",
+        "You may need reconstructive surgery after Mohs surgery, especially if the procedure leaves a noticeable scar . Reconstruction helps restore function and appearance, especially in sensitive areas such as the face, where tissue might be lost or damaged. Doctors use it on large wounds, in areas with tight skin, or when cosmetic concerns are a priority. Depending on the wound's size, location, and depth, doctors could use techniques such as skin grafts or flaps."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "It’s a good idea to have someone take you home afterward. If you’re taking sedatives or prescription painkillers, driving yourself home is not an option.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Would you need reconstruction surgery after Mohs?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You may need reconstructive surgery after Mohs surgery, especially if the procedure leaves a noticeable scar . Reconstruction helps restore function and appearance, especially in sensitive areas such as the face, where tissue might be lost or damaged. Doctors use it on large wounds, in areas with tight skin, or when cosmetic concerns are a priority. Depending on the wound's size, location, and depth, doctors could use techniques such as skin grafts or flaps.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Can the Cancer Come Back After Mohs Surgery?",
+      "content": [
+        "Mohs surgery has the highest cure rate of all treatments for basal cell and squamous cell carcinomas — more than 99% for new skin cancers and 95% if the cancer comes back.",
+        "Your doctor will want to schedule regular follow-ups with you to check your skin for new cancers. Twice a year is normal, but you may need them more often if you have an aggressive type of cancer that's more likely to return. You and your doctor will decide on the right schedule."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mohs surgery has the highest cure rate of all treatments for basal cell and squamous cell carcinomas — more than 99% for new skin cancers and 95% if the cancer comes back.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Your doctor will want to schedule regular follow-ups with you to check your skin for new cancers. Twice a year is normal, but you may need them more often if you have an aggressive type of cancer that's more likely to return. You and your doctor will decide on the right schedule.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Mohs Surgery Benefits",
+      "content": [
+        "Mohs surgery offers several benefits, making it a top choice for treating skin cancer. These include:"
+      ],
+      "bullets": [
+        "High precision in removing cancer while saving healthy tissue",
+        "An outpatient procedure, so no overnight stay required",
+        "Low risk of complications",
+        "A high cure rate",
+        "Preserving healthy skin cells and reducing scarring",
+        "Ideal for sensitive areas such as the face, hands, and genitals"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mohs surgery offers several benefits, making it a top choice for treating skin cancer. These include:",
+          "associated_bullets": [
+            "High precision in removing cancer while saving healthy tissue",
+            "An outpatient procedure, so no overnight stay required",
+            "Low risk of complications",
+            "A high cure rate",
+            "Preserving healthy skin cells and reducing scarring",
+            "Ideal for sensitive areas such as the face, hands, and genitals"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Mohs Surgery Risks",
+      "content": [
+        "Mohs surgery is generally considered very safe, but there are some risks:",
+        "Although these are less likely to happen, there are other potential problems:"
+      ],
+      "bullets": [
+        "Bleeding from the site of surgery",
+        "Bleeding into the wound ( hematoma ) from surrounding tissue",
+        "Pain or tenderness in the area where the skin was removed",
+        "Infection",
+        "You could have temporary or permanent numbness where the skin was removed.",
+        "If your tumor was large and your surgeon cut a muscle nerve while removing it, you might feel some weakness in that part of your body.",
+        "You might feel itching or shooting pain.",
+        "You could form a thick, raised scar."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mohs surgery is generally considered very safe, but there are some risks:",
+          "associated_bullets": [
+            "Bleeding from the site of surgery",
+            "Bleeding into the wound ( hematoma ) from surrounding tissue",
+            "Pain or tenderness in the area where the skin was removed",
+            "Infection"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Although these are less likely to happen, there are other potential problems:",
+          "associated_bullets": [
+            "You could have temporary or permanent numbness where the skin was removed.",
+            "If your tumor was large and your surgeon cut a muscle nerve while removing it, you might feel some weakness in that part of your body.",
+            "You might feel itching or shooting pain.",
+            "You could form a thick, raised scar."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Questions to Ask Your Doctor Before a Mohs Procedure",
+      "content": [
+        "Here are some questions to think about asking your doctor or surgeon:"
+      ],
+      "bullets": [
+        "Will my insurance cover this surgery?",
+        "What should I wear on the day of surgery?",
+        "Can I eat or drink on the day of surgery?",
+        "Should I take my usual medications before surgery?",
+        "I have a pacemaker. Is that a problem?",
+        "Will I be able to go back to work or exercise after surgery?",
+        "Will Mohs surgery or reconstruction leave a scar?"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Here are some questions to think about asking your doctor or surgeon:",
+          "associated_bullets": [
+            "Will my insurance cover this surgery?",
+            "What should I wear on the day of surgery?",
+            "Can I eat or drink on the day of surgery?",
+            "Should I take my usual medications before surgery?",
+            "I have a pacemaker. Is that a problem?",
+            "Will I be able to go back to work or exercise after surgery?",
+            "Will Mohs surgery or reconstruction leave a scar?"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Alternatives to Mohs Surgery",
+      "content": [
+        "Here are some other options for treating basal and squamous cell skin cancers:"
+      ],
+      "bullets": [
+        "Cryotherapy. Freezes and kills cancer cells using liquid nitrogen.",
+        "Radiation therapy. Uses targeted X-rays to destroy cancer cells, often for areas that are hard to treat surgically.",
+        "Topical treatments. Creams such as imiquimod or 5-fluorouracil are applied directly to the cancer to trigger an immune response or kill cells.",
+        "Photodynamic therapy (PDT). Combines a light-sensitive drug with specific light exposure to destroy cancer cells.",
+        "Electrodesiccation and curettage (ED&C). Scrapes away the tumor and uses an electric needle to kill the remaining cancer cells."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Here are some other options for treating basal and squamous cell skin cancers:",
+          "associated_bullets": [
+            "Cryotherapy. Freezes and kills cancer cells using liquid nitrogen.",
+            "Radiation therapy. Uses targeted X-rays to destroy cancer cells, often for areas that are hard to treat surgically.",
+            "Topical treatments. Creams such as imiquimod or 5-fluorouracil are applied directly to the cancer to trigger an immune response or kill cells.",
+            "Photodynamic therapy (PDT). Combines a light-sensitive drug with specific light exposure to destroy cancer cells.",
+            "Electrodesiccation and curettage (ED&C). Scrapes away the tumor and uses an electric needle to kill the remaining cancer cells."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Takeaways",
+      "content": [
+        "Mohs surgery is a precise method that doctors use to treat skin cancer. It's done by removing thin layers of skin, one at a time, while checking for cancer in each layer. It works well for treating cancers such as basal and squamous cell carcinomas, especially in areas where preserving healthy tissue is important, such as the face or hands. The procedure has a high cure rate and works well for aggressive cancers. After surgery, the wound may heal naturally and require stitching, or reconstructive surgery, depending on its size and location. Mohs surgery has low risks and minimal scarring."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mohs surgery is a precise method that doctors use to treat skin cancer. It's done by removing thin layers of skin, one at a time, while checking for cancer in each layer. It works well for treating cancers such as basal and squamous cell carcinomas, especially in areas where preserving healthy tissue is important, such as the face or hands. The procedure has a high cure rate and works well for aggressive cancers. After surgery, the wound may heal naturally and require stitching, or reconstructive surgery, depending on its size and location. Mohs surgery has low risks and minimal scarring.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Mohs Surgery FAQs",
+      "content": [
+        "How painful is the Mohs procedure?",
+        "You won't feel pain during Mohs surgery; it's just pressure and touch.",
+        "How long does swelling last after Mohs surgery on the face?",
+        "The swelling and bruising will go down naturally while the wound heals.",
+        "Is Mohs surgery covered by Medicare?",
+        "Yes. Medicare Part B covers Mohs surgery. It helps pay for necessary outpatient procedures, including this treatment for skin cancer. Most insurance plans typically cover Mohs surgery. But the amount of coverage can vary depending on your provider, plan type, and other factors."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "How painful is the Mohs procedure?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You won't feel pain during Mohs surgery; it's just pressure and touch.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "How long does swelling last after Mohs surgery on the face?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The swelling and bruising will go down naturally while the wound heals.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Is Mohs surgery covered by Medicare?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. Medicare Part B covers Mohs surgery. It helps pay for necessary outpatient procedures, including this treatment for skin cancer. Most insurance plans typically cover Mohs surgery. But the amount of coverage can vary depending on your provider, plan type, and other factors.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Questions to Ask Your Doctor Before a Mohs Procedure",
+      "content": [
+        "Here are some questions to think about asking your doctor or surgeon:"
+      ],
+      "bullets": [
+        "Will my insurance cover this surgery?",
+        "What should I wear on the day of surgery?",
+        "Can I eat or drink on the day of surgery?",
+        "Should I take my usual medications before surgery?",
+        "I have a pacemaker. Is that a problem?",
+        "Will I be able to go back to work or exercise after surgery?",
+        "Will Mohs surgery or reconstruction leave a scar?"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Here are some questions to think about asking your doctor or surgeon:",
+          "associated_bullets": [
+            "Will my insurance cover this surgery?",
+            "What should I wear on the day of surgery?",
+            "Can I eat or drink on the day of surgery?",
+            "Should I take my usual medications before surgery?",
+            "I have a pacemaker. Is that a problem?",
+            "Will I be able to go back to work or exercise after surgery?",
+            "Will Mohs surgery or reconstruction leave a scar?"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Alternatives to Mohs Surgery",
+      "content": [
+        "Here are some other options for treating basal and squamous cell skin cancers:"
+      ],
+      "bullets": [
+        "Cryotherapy. Freezes and kills cancer cells using liquid nitrogen.",
+        "Radiation therapy. Uses targeted X-rays to destroy cancer cells, often for areas that are hard to treat surgically.",
+        "Topical treatments. Creams such as imiquimod or 5-fluorouracil are applied directly to the cancer to trigger an immune response or kill cells.",
+        "Photodynamic therapy (PDT). Combines a light-sensitive drug with specific light exposure to destroy cancer cells.",
+        "Electrodesiccation and curettage (ED&C). Scrapes away the tumor and uses an electric needle to kill the remaining cancer cells."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Here are some other options for treating basal and squamous cell skin cancers:",
+          "associated_bullets": [
+            "Cryotherapy. Freezes and kills cancer cells using liquid nitrogen.",
+            "Radiation therapy. Uses targeted X-rays to destroy cancer cells, often for areas that are hard to treat surgically.",
+            "Topical treatments. Creams such as imiquimod or 5-fluorouracil are applied directly to the cancer to trigger an immune response or kill cells.",
+            "Photodynamic therapy (PDT). Combines a light-sensitive drug with specific light exposure to destroy cancer cells.",
+            "Electrodesiccation and curettage (ED&C). Scrapes away the tumor and uses an electric needle to kill the remaining cancer cells."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Takeaways",
+      "content": [
+        "Mohs surgery is a precise method that doctors use to treat skin cancer. It's done by removing thin layers of skin, one at a time, while checking for cancer in each layer. It works well for treating cancers such as basal and squamous cell carcinomas, especially in areas where preserving healthy tissue is important, such as the face or hands. The procedure has a high cure rate and works well for aggressive cancers. After surgery, the wound may heal naturally and require stitching, or reconstructive surgery, depending on its size and location. Mohs surgery has low risks and minimal scarring."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mohs surgery is a precise method that doctors use to treat skin cancer. It's done by removing thin layers of skin, one at a time, while checking for cancer in each layer. It works well for treating cancers such as basal and squamous cell carcinomas, especially in areas where preserving healthy tissue is important, such as the face or hands. The procedure has a high cure rate and works well for aggressive cancers. After surgery, the wound may heal naturally and require stitching, or reconstructive surgery, depending on its size and location. Mohs surgery has low risks and minimal scarring.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Mohs Surgery FAQs",
+      "content": [
+        "How painful is the Mohs procedure?",
+        "You won't feel pain during Mohs surgery; it's just pressure and touch.",
+        "How long does swelling last after Mohs surgery on the face?",
+        "The swelling and bruising will go down naturally while the wound heals.",
+        "Is Mohs surgery covered by Medicare?",
+        "Yes. Medicare Part B covers Mohs surgery. It helps pay for necessary outpatient procedures, including this treatment for skin cancer. Most insurance plans typically cover Mohs surgery. But the amount of coverage can vary depending on your provider, plan type, and other factors."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "How painful is the Mohs procedure?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You won't feel pain during Mohs surgery; it's just pressure and touch.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "How long does swelling last after Mohs surgery on the face?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The swelling and bruising will go down naturally while the wound heals.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Is Mohs surgery covered by Medicare?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. Medicare Part B covers Mohs surgery. It helps pay for necessary outpatient procedures, including this treatment for skin cancer. Most insurance plans typically cover Mohs surgery. But the amount of coverage can vary depending on your provider, plan type, and other factors.",
+          "associated_bullets": null
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/reference_guide/living_with_basal_cell_carcinoma_ref_guide/1800x1200_living_with_basal_cell_carcinoma_ref_guide.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/382x382_alyson_key_headshot.jpg?resize=51px:51px&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/sheikh_zilpah_382x382.jpg?resize=51px:51px&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/reference_guide/living_with_basal_cell_carcinoma_ref_guide/1800x1200_living_with_basal_cell_carcinoma_ref_guide.jpg?resize=750px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/site_front_toc_redesign/more_on/MoreOn_CompassHealthAging.png?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/asthma_hpt_toc_redesign/1500x1500_asthma_hpt_toc_chapter_4_602981371.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [
+    "Mayo Clinic: “Mohs surgery.”",
+    "American College of Mohs Surgery: “History of Mohs Surgery,” “Post-Operative Care.”",
+    "University of Chicago, Section of Dermatology: “Mohs surgery: Questions and Answers Regarding Your Procedure.”",
+    "Skin Cancer Foundation: “Mohs surgery.”",
+    "NCI Dictionary of Cancer Terms: “Mohs surgery.”",
+    "Cleveland Clinic: “Mohs surgery.”",
+    "Medicare.org: \"Does Medicare Cover Mohs Surgery?\"",
+    "Roswell Park Comprehensive Cancer Center: \"After Mohs Surgery.\"",
+    "Seminars in Plastic Surgery : \"Mohs Micrographic Surgery: Development, Technique, and Applications in Cutaneous Malignancies.\"",
+    "StatPearls: \"Mohs Micrographic Surgery.\"",
+    "NHS Chelsea and Westminster Hospital: \"Reconstruction after Mohs surgery: Understanding the surgical options.\"",
+    "American Academy of Dermatology Association: \"Mohs Surgery Appropriate Use Criteria (AUC) App.\"",
+    "MetroDerm: \"Mohs Surgery vs. Traditional Excision for Skin Cancer.\"",
+    "American Cancer Society: \"Radiation Therapy for Basal and Squamous Cell Skin Cancers,\" \"Non-surgical Local Treatments for Basal and Squamous Cell Skin Cancers.\"",
+    "Advanced Dermatology & Skin Cancer Center: \"Mohs Surgery Questions.\"",
+    "American Society for Mohs Surgery: \"Does Insurance Cover Mohs Surgery?\" \"Curettage and Electrodesiccation.\""
+  ],
+  "meta_description": "Explore how Mohs surgery treats skin cancer by removing cancerous cells layer by layer. Find out what to expect before, during, and after the procedure.",
+  "canonical_url": "https://www.webmd.com/melanoma-skin-cancer/cm/mohs-surgery",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:46:02.037153Z"
+}

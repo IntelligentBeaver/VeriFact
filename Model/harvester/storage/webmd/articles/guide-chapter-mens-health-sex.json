@@ -1,0 +1,70 @@
+{
+  "url": "https://www.webmd.com/men/guide-chapter-mens-health-sex",
+  "title": "Sex",
+  "slug": "guide-chapter-mens-health-sex",
+  "published_date": "",
+  "first_letter": "G",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": [
+        "Sex Section 1 Sexual Health Problems",
+        "Health Concerns Men’s Conditions Living Better",
+        "View Full Guide",
+        "Section 1",
+        "Sexual Health Problems",
+        "Men’s Conditions",
+        "Living Better"
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Sex Section 1 Sexual Health Problems",
+            "Health Concerns Men’s Conditions Living Better",
+            "View Full Guide"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Section 1",
+            "Sexual Health Problems"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Men’s Conditions",
+            "Living Better"
+          ]
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/erectile_dysfunction_hpt_toc_redesign/1500x1500_erectile_dysfunction_hpt_toc_chapter_1_139266837.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/MoreOn_PsoriaticArthritis.jpg?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/hpt_toc_redesign_illustrations/Recommended_Parkinsons-1.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "Get all of your questions about sex, male sexual conditions, and everything in between answered here. Find out what's normal and what should require a visit to your doctor's office.",
+  "canonical_url": "https://www.webmd.com/men/guide-chapter-mens-health-sex",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:40:01.635033Z"
+}

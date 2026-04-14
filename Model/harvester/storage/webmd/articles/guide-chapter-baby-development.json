@@ -1,0 +1,57 @@
+{
+  "url": "https://www.webmd.com/parenting/baby/guide-chapter-baby-development",
+  "title": "Baby Development",
+  "slug": "guide-chapter-baby-development",
+  "published_date": "",
+  "first_letter": "G",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": [
+        "Baby Nutrition",
+        "Bath & Body Essentials",
+        "Baby Development",
+        "Better Sleep",
+        "View Full Guide"
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Baby Nutrition",
+            "Bath & Body Essentials",
+            "Baby Development",
+            "Better Sleep",
+            "View Full Guide"
+          ]
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/site_front_toc_redesign/grow_baby_site_front_toc_redesign/1500x1500_grow_baby_site_front_toc_redesign_chapter_3.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/sitefronts/branding/grow/grow_logo.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/MoreOn_Baby_02.png?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/site_front_toc_redesign/grow_baby_site_front_toc_redesign/1500x1500_grow_baby_site_front_toc_redesign_chapter_2_alt.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "Your baby's development depends on a lot of things. Keep up with your baby's growth and learn about ways you can enhance your infant's development, plus milestones to watch out for.",
+  "canonical_url": "https://www.webmd.com/parenting/baby/guide-chapter-baby-development",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:18:40.759976Z"
+}

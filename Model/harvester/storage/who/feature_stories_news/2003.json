@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://www.who.int/news-room/feature-stories/detail/sars-breaking-the-chains-of-transmission",
+    "title": "SARS: breaking the chains of transmission",
+    "published_date": "2003-07-05",
+    "author": "WHO",
+    "medically_reviewed_by": "World Health Organization (WHO)",
+    "topics": "Feature Story",
+    "location": null,
+    "sections": [
+      {
+        "heading": null,
+        "content": [
+          "With Taiwan, China now off the list of areas with recent local transmission of SARS, the human-to-human chain of transmission of this new disease appears to be broken globally.",
+          "The chain of transmission is considered broken at an outbreak site when 20 days have passed since the last probable case was placed in isolation, left the area, or died. If no further cases are detected during these 20 days, despite sensitive surveillance, the virus can be considered banished from its human host.",
+          "In late June, WHO announced that Hong Kong* and Beijing, the world’s two most severely affected areas, had interrupted transmission. Toronto and Taiwan followed shortly afterwards, with Taiwan removed on 5 July.",
+          "At all outbreak sites around the world, the SARS virus has been pushed back out of its new human host. This is a striking achievement for an especially dangerous and poorly understood new disease, which was unheard of four months ago.",
+          "However, the world must remain vigilant for SARS. The resurgence in late May of cases in Toronto, where the disease was thought to have been contained, is a sobering reminder of the resilience of SARS and its capacity to deliver surprises."
+        ]
+      },
+      {
+        "heading": "The earliest – and most mysterious – chains",
+        "content": [
+          "The earliest cases are now known to have occurred in mid-November in Guangdong Province, China. SARS was first carried out into the world at large on 21 February, when an infected medical doctor from Guangdong checked into room 911 on the 9th floor of the Metropole Hotel in Hong Kong.",
+          "That single hotel floor became the setting, in ways that remain mysterious, for the international spread of SARS. At least 14 guests and visitors carried the virus with them to the hospital systems of Toronto, Hong Kong, Viet Nam, and Singapore. Most recently, an additional two guests from the UK, who subsequently fell ill and were hospitalized in the Philippines, were shown to have been infected with SARS when tested upon their return home. For reasons that remain unclear, these two patients were the only guests infected during their stay at the Hong Kong hotel who did not spark large outbreaks elsewhere.",
+          "The earliest and most severe outbreaks – in Toronto, Hong Kong, Viet Nam, and Singapore – were all seeded by visitors to the hotel. At that time, prior to the first global alert issued by WHO on 12 March, no one was aware that a severe new disease, capable of rapidly spreading in hospitals, had emerged. Hospital staff responding to the earliest cases failed to protect themselves from infection as they aggressively fought to save lives.",
+          "As a result, the disease rapidly spread within hospitals, infecting staff, other patients, and visitors, and then spilled out into the larger community as family members and their close contacts became infected. As the outbreaks grew in size, the number of exported cases rose, with 30 countries and areas eventually reporting cases."
+        ]
+      },
+      {
+        "heading": "Effective detective work",
+        "content": [
+          "<div><img data-sf-ec-immutable=\"\" src=\"https://www.who.int/features/2003/carlos_urbani.jpg\" alt=\"Photo of Dr. Carlos Urbani\" width=\"100\" height=\"100\" />",
+          "Dr Carlo Urbani, WHO expert on communicable diseases, died of SARS on March 29 2003. Dr Urbani was the first to identify SARS in Viet Nam. His swift actions led to a heightened global awareness that ultimately saved many lives.",
+          "WHO and country health officials had to act rapidly. Tracking these chains of transmission became one of the key measures for controlling the outbreaks. In Singapore, for example, five patients were determined to account for 103 of the total 206 cases in the outbreak.",
+          "Other measures to stem the outbreak included rapid detection and isolation of cases, quarantine of contacts, and travel restrictions. Case detection was further improved by the opening of hundreds of fever clinics and use of the mass media to encourage people to check for fever several times a day.",
+          "Following the WHO global alert, and a stronger emergency travel advisory issued by WHO on 15 March, almost all countries experiencing imported cases have been able to either prevent any further transmission or keep the number of additional cases very small. This has been possible through heightened awareness of the symptoms to watch for and the actions to take.",
+          "Taiwan, China, the sole exception, experienced an explosion of cases following a lapse in infection control procedures in a single hospital – yet another example of how unforgiving SARS can be.",
+          "SARS is the first severe and easily transmissible new disease to emerge in the 21st century. Its containment, however, has been achieved through the diligent application of control measures from centuries past. In the final analysis, it will be these old-fashioned measures that defeat SARS – at least for now."
+        ]
+      },
+      {
+        "heading": "Remaining questions",
+        "content": [
+          "The most pressing question at present is whether SARS will return. Like the Ebola virus, whose origins have never been discovered, the SARS virus could hide in some animal or environmental reservoir, only to resurface once conditions again become ripe for spread to its new human host. SARS might also behave like many other respiratory diseases of viral origin, dying out as heat and humidity rise and returning when the season turns cooler.",
+          "For this reason, WHO will be moving soon from an emergency-based response effort to a research agenda focused on answering this and many other critical questions. For example, it is possible that transmission could continue to occur, even after all known chains of transmission have been broken, at a level so low that it defies detection until the disease once again flares up in an outbreak.",
+          "For now, however, WHO’s first objective of sealing off opportunities for further international spread appears close to becoming a reality.",
+          "* Hong Kong Special Administrative Region of China"
+        ]
+      }
+    ],
+    "references": [],
+    "images": [],
+    "tags": [
+      "WHO",
+      "Feature Story",
+      "SARS: breaking the chains of transmission",
+      "Feature Story"
+    ],
+    "scrape_timestamp_utc": "2026-01-29T04:57:05Z",
+    "first_seen_utc": "2026-01-29T04:57:05Z"
+  }
+]

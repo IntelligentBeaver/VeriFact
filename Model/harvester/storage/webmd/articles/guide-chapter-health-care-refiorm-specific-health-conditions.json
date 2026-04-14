@@ -1,0 +1,76 @@
+{
+  "url": "https://www.webmd.com/health-insurance/guide-chapter-health-care-refiorm-specific-health-conditions",
+  "title": "Health Care Reform & Specific Health Conditions",
+  "slug": "guide-chapter-health-care-refiorm-specific-health-conditions",
+  "published_date": "",
+  "first_letter": "G",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": [
+        "Health Insurance & The Affordable Care Act (ACA) - Basics",
+        "Health Care Reform & Specific Health Conditions",
+        "Medicare, Medicaid, and Supplemental Coverage Medicare Medicaid",
+        "Navigating Healthcare Services & Insurance Claims",
+        "Disability Insurance & Veterans' Benefits SSDI Veterans' Health Care",
+        "View Full Guide",
+        "Medicare",
+        "Medicaid",
+        "SSDI",
+        "Veterans' Health Care"
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Health Insurance & The Affordable Care Act (ACA) - Basics",
+            "Health Care Reform & Specific Health Conditions",
+            "Medicare, Medicaid, and Supplemental Coverage Medicare Medicaid",
+            "Navigating Healthcare Services & Insurance Claims",
+            "Disability Insurance & Veterans' Benefits SSDI Veterans' Health Care",
+            "View Full Guide"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Medicare",
+            "Medicaid"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "SSDI",
+            "Veterans' Health Care"
+          ]
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/lupus_hpt_toc_redesign/1500x1500_lupus_guide_chapter_4.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/Health_Insurance.png?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/hpt_toc_redesign_illustrations/1500x1500_symptoms_types_options_5.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "Learn how health reform affects chronic conditions, drug costs, screenings, and preventive care while helping you manage expenses and access affordable prescriptions and essential services.",
+  "canonical_url": "https://www.webmd.com/health-insurance/guide-chapter-health-care-refiorm-specific-health-conditions",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:40:03.384821Z"
+}

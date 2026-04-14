@@ -1,0 +1,229 @@
+{
+  "seed_id": "mesh:D009792",
+  "label": "oceans and seas",
+  "canonical_label": "Oceans and Seas",
+  "aliases": [],
+  "semantic_ground_truth": "A great expanse of continuous bodies of salt water which together cover more than 70 percent of the earth's surface. Seas may be partially or entirely enclosed by land, and are smaller than the five oceans (Atlantic, Pacific, Indian, Arctic, and Antarctic).\n    ",
+  "temporal_tracking": {
+    "date_introduced": "1987-01-01",
+    "last_medical_update": "2015-06-22",
+    "status": "established"
+  },
+  "historical_trace": {
+    "history_note": "87\n  ",
+    "previous_indexing": []
+  },
+  "pharmacological_actions": [],
+  "synonyms": [
+    "Oceans and Seas",
+    "Seas",
+    "Oceans",
+    "Seas and Oceans"
+  ],
+  "keyword_candidates": [
+    {
+      "term": "Oceans and Seas",
+      "score": 1.0,
+      "source": "canonical_label;label;mesh_synonym;ngram"
+    },
+    {
+      "term": "Seas",
+      "score": 0.9,
+      "source": "mesh_synonym"
+    },
+    {
+      "term": "Oceans",
+      "score": 0.9,
+      "source": "mesh_synonym"
+    },
+    {
+      "term": "Seas and Oceans",
+      "score": 0.9,
+      "source": "mesh_synonym;ngram"
+    },
+    {
+      "term": "Oceans and Seas ethnology",
+      "score": 0.6,
+      "source": "modifier:ethnology"
+    },
+    {
+      "term": "Oceans and Seas epidemiology",
+      "score": 0.6,
+      "source": "modifier:epidemiology"
+    },
+    {
+      "term": "Seas ethnology",
+      "score": 0.6,
+      "source": "modifier:ethnology;ngram"
+    },
+    {
+      "term": "Seas epidemiology",
+      "score": 0.6,
+      "source": "modifier:epidemiology;ngram"
+    },
+    {
+      "term": "Oceans ethnology",
+      "score": 0.6,
+      "source": "modifier:ethnology"
+    },
+    {
+      "term": "Oceans epidemiology",
+      "score": 0.6,
+      "source": "modifier:epidemiology"
+    },
+    {
+      "term": "Oceans and",
+      "score": 0.5,
+      "source": "ngram"
+    },
+    {
+      "term": "and Seas",
+      "score": 0.5,
+      "source": "ngram"
+    },
+    {
+      "term": "Seas and",
+      "score": 0.5,
+      "source": "ngram"
+    },
+    {
+      "term": "and Oceans",
+      "score": 0.5,
+      "source": "ngram"
+    },
+    {
+      "term": "and Seas ethnology",
+      "score": 0.5,
+      "source": "ngram"
+    },
+    {
+      "term": "and Seas epidemiology",
+      "score": 0.5,
+      "source": "ngram"
+    }
+  ],
+  "preferred_search_terms": [
+    "Seas",
+    "Oceans"
+  ],
+  "excluded_terms": [],
+  "sapbert_metadata": {
+    "model_name": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+    "label_embedding_ref": "storage\\embeddings\\G\\mesh_D009792_label.npy",
+    "candidate_embeddings_ref": "storage\\embeddings\\G\\mesh_D009792_candidates.npy",
+    "embedding_dim": 768,
+    "num_candidate_embeddings": 15,
+    "embedded_at": "2026-01-21T06:04:43.818555Z"
+  },
+  "harvester_modifiers": [
+    "ethnology",
+    "epidemiology"
+  ],
+  "modifier_groups": {},
+  "query_templates": [],
+  "retrieval_params": {
+    "top_k_keywords": null,
+    "retmax_stageA": null,
+    "retmax_stageB": null,
+    "min_keyword_score": null,
+    "title_threshold": null,
+    "combined_score_threshold_for_biobert": null
+  },
+  "evidence_index": [],
+  "claim_templates": [],
+  "analysis": {
+    "biobert_runs": [],
+    "claim_verdicts": []
+  },
+  "mesh_tree_numbers": [
+    "G01.311.625",
+    "G16.500.275.725.500.650",
+    "Z01.756"
+  ],
+  "tags": [
+    "Z01",
+    "G16",
+    "G01"
+  ],
+  "top_level_branches": [
+    "G",
+    "Z"
+  ],
+  "seed_level_notes": "",
+  "created_at": "2026-01-21T11:22:12.876635Z",
+  "last_updated_in_db": "2026-01-21T11:22:12.876640Z",
+  "updated_at": "",
+  "_seed_file_path": "C:\\Users\\Aman Sheikh\\Desktop\\Projects\\VeriFact\\Model\\harvester\\storage\\seeds\\mesh_seed_Z.json",
+  "pubmed_search_log": [
+    {
+      "term": "Seas",
+      "query": "(\"Seas\"[MeSH Terms] OR \"Seas\"[Title/Abstract])",
+      "count": 5288,
+      "pmids": [
+        "41580454",
+        "41571477",
+        "41570520",
+        "41570517",
+        "41565810",
+        "41563944",
+        "41557610",
+        "41552281",
+        "41550066",
+        "41546901",
+        "41544741",
+        "41537958",
+        "41538453",
+        "41538446",
+        "41535149",
+        "41533780",
+        "41530335",
+        "41528421",
+        "41520425",
+        "41501018",
+        "41499877",
+        "41495312",
+        "41480265",
+        "41478055",
+        "41463883"
+      ],
+      "api_key_used": "80d607",
+      "email_used": "abamsheikh@gmail.com",
+      "retrieved_at": "2026-01-27T03:59:14Z"
+    },
+    {
+      "term": "Oceans",
+      "query": "(\"Oceans\"[MeSH Terms] OR \"Oceans\"[Title/Abstract])",
+      "count": 10095,
+      "pmids": [
+        "41582016",
+        "41581932",
+        "41574885",
+        "41570459",
+        "41568848",
+        "41565680",
+        "41564454",
+        "41564180",
+        "41563986",
+        "41562499",
+        "41561598",
+        "41557800",
+        "41555975",
+        "41550245",
+        "41548548",
+        "41545472",
+        "41545315",
+        "41538015",
+        "41535095",
+        "41535070",
+        "41531092",
+        "41529076",
+        "41528421",
+        "41525907",
+        "41525657"
+      ],
+      "api_key_used": "e3c208",
+      "email_used": "prashant.211528@ncit.edu.np",
+      "retrieved_at": "2026-01-27T03:59:14Z"
+    }
+  ]
+}

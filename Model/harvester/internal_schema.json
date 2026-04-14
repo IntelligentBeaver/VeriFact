@@ -1,0 +1,462 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "health_document",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "document_id",
+    "source",
+    "source_id",
+    "identifiers",
+    "title",
+    "content_type",
+    "ingestion"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+$"
+    },
+    "document_id": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "identifiers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "value"
+        ],
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "given_names": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "family_name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "affiliations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "orcid": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "email": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "contribution_role": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "author_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "affiliations": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "abstract": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "plain_text": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "text_sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "start_offset": {
+            "type": "integer"
+          },
+          "end_offset": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "content_type": {
+      "type": "string",
+      "enum": [
+        "journal_article",
+        "preprint",
+        "clinical_trial",
+        "dataset",
+        "guideline",
+        "news",
+        "report",
+        "web",
+        "blog",
+        "other"
+      ]
+    },
+    "language": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mesh_terms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "published_date": {
+      "oneOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "journal": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "issn": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publisher": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "volume": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "issue": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pages": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "license": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "access": {
+      "type": "object",
+      "properties": {
+        "has_fulltext": {
+          "type": "boolean"
+        },
+        "access_type": {
+          "type": "string",
+          "enum": [
+            "open",
+            "embargoed",
+            "subscription",
+            "unknown"
+          ]
+        },
+        "fulltext_urls": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string"
+              },
+              "format": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "url"
+            ]
+          }
+        }
+      }
+    },
+    "figures": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "tables": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "supplementary_files": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "methods_summary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "data_availability": {
+      "type": "object"
+    },
+    "funding": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "conflicts_of_interest": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ethics": {
+      "type": "object"
+    },
+    "clinical_trial": {
+      "type": "object"
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "ingestion": {
+      "type": "object",
+      "required": [
+        "ingested_at",
+        "harvester_id",
+        "adapter"
+      ],
+      "properties": {
+        "ingested_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "harvester_id": {
+          "type": "string"
+        },
+        "adapter": {
+          "type": "object",
+          "required": [
+            "name",
+            "version",
+            "fetched_at"
+          ],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "version": {
+              "type": "string"
+            },
+            "fetched_at": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "source_fetch_url": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "raw_payload_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "raw_format": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "raw_size_bytes": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "raw_sha256": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_last_modified": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "processing": {
+      "type": "object",
+      "properties": {
+        "normalized_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "language_detected": {
+          "type": "string"
+        },
+        "dedup_key": {
+          "type": "string"
+        },
+        "canonical_id": {
+          "type": "string"
+        },
+        "quality_flags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "processing_notes": {
+          "type": "string"
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "security": {
+      "type": "object"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

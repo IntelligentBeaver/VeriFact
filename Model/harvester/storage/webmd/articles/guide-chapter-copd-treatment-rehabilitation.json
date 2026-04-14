@@ -1,0 +1,94 @@
+{
+  "url": "https://www.webmd.com/lung/copd/guide-chapter-copd-treatment-rehabilitation",
+  "title": "Treatment & Rehabilitation",
+  "slug": "guide-chapter-copd-treatment-rehabilitation",
+  "published_date": "",
+  "first_letter": "G",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": [
+        "Overview",
+        "Symptoms & Causes Symptoms Causes",
+        "Diagnosis and Stages Tests Stages",
+        "Treatment & Rehabilitation Treatments Rehabilitation",
+        "Living With & Complications Living With Complications",
+        "View Full Guide",
+        "Symptoms",
+        "Causes",
+        "Tests",
+        "Stages",
+        "Treatments",
+        "Rehabilitation",
+        "Living With",
+        "Complications"
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Overview",
+            "Symptoms & Causes Symptoms Causes",
+            "Diagnosis and Stages Tests Stages",
+            "Treatment & Rehabilitation Treatments Rehabilitation",
+            "Living With & Complications Living With Complications",
+            "View Full Guide"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Symptoms",
+            "Causes"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Tests",
+            "Stages"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Treatments",
+            "Rehabilitation"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Living With",
+            "Complications"
+          ]
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/copd_hpt_toc_redesign/1500x1500_copd_hpt_toc_chapter_4_1359363032.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/copd.png?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/hpt_toc_redesign_illustrations/1500x1500_symptoms_types_options_5.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "There’s no cure for COPD, so the goal of treatment is to ease your symptoms. Your doctor will work with you to prevent or treat any complications and improve your overall quality of life.",
+  "canonical_url": "https://www.webmd.com/lung/copd/guide-chapter-copd-treatment-rehabilitation",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:46:15.032544Z"
+}

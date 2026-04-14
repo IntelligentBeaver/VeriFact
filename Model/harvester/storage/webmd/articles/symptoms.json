@@ -1,0 +1,645 @@
+{
+  "url": "https://www.webmd.com/pets/dogs/symptoms",
+  "title": "Dog Health Symptoms A to Z",
+  "slug": "symptoms",
+  "published_date": "",
+  "first_letter": "S",
+  "author": "WebMD Editorial Contributors",
+  "medically_reviewed_by": "",
+  "read_time": "2 min read",
+  "sections": [
+    {
+      "heading": "A",
+      "content": null,
+      "bullets": [
+        "Abdomen - Painful",
+        "Abdomen - Swollen",
+        "Anorexia",
+        "Bad Breath",
+        "Bleeding - Wounds",
+        "Bleeding From Ear",
+        "Bleeding From Nose",
+        "Bleeding From Paw",
+        "Blindness",
+        "Blood in Stool",
+        "Blood in Urine",
+        "Breathing - Abnormal",
+        "Chewing or Licking at Skin",
+        "Choking",
+        "Circling",
+        "Constipation",
+        "Coughing",
+        "Dandruff",
+        "Deafness",
+        "Defecation - Painful",
+        "Defecation - Straining",
+        "Defecation - Too Much",
+        "Dehydration",
+        "Diarrhea",
+        "Dizziness",
+        "Dragging Bottom",
+        "Drooling",
+        "Ears - Discharge",
+        "Ears - Foul Odor",
+        "Ears - Head Shaking",
+        "Ears - Rubbing",
+        "Ears - Swollen",
+        "Eating - Grass",
+        "Eating - Refusal to Eat",
+        "Eating - Regurgitation",
+        "Eating - Weight Gain",
+        "Eating Stool",
+        "Eyes - Bulging",
+        "Eyes - Cloudy",
+        "Eyes - Discharge",
+        "Eyes - Pupils Different Sizes",
+        "Eyes - Red",
+        "Eyes - Squinting",
+        "Eyes - Tear Staining",
+        "Eyes - Third Eyelid",
+        "Face - Swollen",
+        "Falling Down",
+        "Fever",
+        "Gagging",
+        "Gas",
+        "Hair Loss",
+        "Head Tilt",
+        "Heart Rate - Abnormal",
+        "Heat",
+        "Hot Spot",
+        "Incontinence - Urinary",
+        "Itching and Scratching",
+        "Leg - Swollen",
+        "Lethargy",
+        "Licking or Chewing at Skin",
+        "Limping and Lameness",
+        "Losing Balance",
+        "Lumps, Bumps and Growths",
+        "Mouth - Bad Breath",
+        "Mouth - Foreign Object",
+        "Mouth - Painful swallowing",
+        "Mouth - Smacking Lips",
+        "Mouth - Sore",
+        "Mouth Breathing",
+        "Nose - Bleeding",
+        "Nose - Discharge",
+        "Panting",
+        "Paws - Bleeding",
+        "Poisoning",
+        "Pregnancy",
+        "Regurgitation",
+        "Reverse Sneezing",
+        "Runny Nose",
+        "Scooting",
+        "Scratching and Itching",
+        "Seizures",
+        "Shedding",
+        "Shivering",
+        "Skin - Licking and Chewing",
+        "Skin - Lumps, bumps and growths",
+        "Sneezing",
+        "Staggering",
+        "Stool - Bloody",
+        "Stool - Eating",
+        "Stool - Loose",
+        "Stool - Painful",
+        "Tail - Limp",
+        "Thirst - Excessive",
+        "Trembling",
+        "Urinary Incontinence",
+        "Urination - Frequent",
+        "Urination - Painful",
+        "Urination - Straining",
+        "Vomiting",
+        "Watery Eye",
+        "Weight Gain"
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Abdomen - Painful",
+            "Abdomen - Swollen",
+            "Anorexia"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Bad Breath",
+            "Bleeding - Wounds",
+            "Bleeding From Ear",
+            "Bleeding From Nose",
+            "Bleeding From Paw",
+            "Blindness",
+            "Blood in Stool",
+            "Blood in Urine",
+            "Breathing - Abnormal"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Chewing or Licking at Skin",
+            "Choking",
+            "Circling",
+            "Constipation",
+            "Coughing"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Dandruff",
+            "Deafness",
+            "Defecation - Painful",
+            "Defecation - Straining",
+            "Defecation - Too Much",
+            "Dehydration",
+            "Diarrhea",
+            "Dizziness",
+            "Dragging Bottom",
+            "Drooling"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Ears - Discharge",
+            "Ears - Foul Odor",
+            "Ears - Head Shaking",
+            "Ears - Rubbing",
+            "Ears - Swollen",
+            "Eating - Grass",
+            "Eating - Refusal to Eat",
+            "Eating - Regurgitation",
+            "Eating - Weight Gain",
+            "Eating Stool",
+            "Eyes - Bulging",
+            "Eyes - Cloudy",
+            "Eyes - Discharge",
+            "Eyes - Pupils Different Sizes",
+            "Eyes - Red",
+            "Eyes - Squinting",
+            "Eyes - Tear Staining",
+            "Eyes - Third Eyelid"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Face - Swollen",
+            "Falling Down",
+            "Fever"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Gagging",
+            "Gas"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Hair Loss",
+            "Head Tilt",
+            "Heart Rate - Abnormal",
+            "Heat",
+            "Hot Spot"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Incontinence - Urinary",
+            "Itching and Scratching"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Leg - Swollen",
+            "Lethargy",
+            "Licking or Chewing at Skin",
+            "Limping and Lameness",
+            "Losing Balance",
+            "Lumps, Bumps and Growths"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Mouth - Bad Breath",
+            "Mouth - Foreign Object",
+            "Mouth - Painful swallowing",
+            "Mouth - Smacking Lips",
+            "Mouth - Sore",
+            "Mouth Breathing"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Nose - Bleeding",
+            "Nose - Discharge"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Panting",
+            "Paws - Bleeding",
+            "Poisoning",
+            "Pregnancy"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Regurgitation",
+            "Reverse Sneezing",
+            "Runny Nose"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Scooting",
+            "Scratching and Itching",
+            "Seizures",
+            "Shedding",
+            "Shivering",
+            "Skin - Licking and Chewing",
+            "Skin - Lumps, bumps and growths",
+            "Sneezing",
+            "Staggering",
+            "Stool - Bloody",
+            "Stool - Eating",
+            "Stool - Loose",
+            "Stool - Painful"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Tail - Limp",
+            "Thirst - Excessive",
+            "Trembling"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Urinary Incontinence",
+            "Urination - Frequent",
+            "Urination - Painful",
+            "Urination - Straining"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Vomiting"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Watery Eye",
+            "Weight Gain"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "A",
+      "content": null,
+      "bullets": [
+        "Abdomen - Painful",
+        "Abdomen - Swollen",
+        "Anorexia",
+        "Bad Breath",
+        "Bleeding - Wounds",
+        "Bleeding From Ear",
+        "Bleeding From Nose",
+        "Bleeding From Paw",
+        "Blindness",
+        "Blood in Stool",
+        "Blood in Urine",
+        "Breathing - Abnormal",
+        "Chewing or Licking at Skin",
+        "Choking",
+        "Circling",
+        "Constipation",
+        "Coughing",
+        "Dandruff",
+        "Deafness",
+        "Defecation - Painful",
+        "Defecation - Straining",
+        "Defecation - Too Much",
+        "Dehydration",
+        "Diarrhea",
+        "Dizziness",
+        "Dragging Bottom",
+        "Drooling",
+        "Ears - Discharge",
+        "Ears - Foul Odor",
+        "Ears - Head Shaking",
+        "Ears - Rubbing",
+        "Ears - Swollen",
+        "Eating - Grass",
+        "Eating - Refusal to Eat",
+        "Eating - Regurgitation",
+        "Eating - Weight Gain",
+        "Eating Stool",
+        "Eyes - Bulging",
+        "Eyes - Cloudy",
+        "Eyes - Discharge",
+        "Eyes - Pupils Different Sizes",
+        "Eyes - Red",
+        "Eyes - Squinting",
+        "Eyes - Tear Staining",
+        "Eyes - Third Eyelid",
+        "Face - Swollen",
+        "Falling Down",
+        "Fever",
+        "Gagging",
+        "Gas",
+        "Hair Loss",
+        "Head Tilt",
+        "Heart Rate - Abnormal",
+        "Heat",
+        "Hot Spot",
+        "Incontinence - Urinary",
+        "Itching and Scratching",
+        "Leg - Swollen",
+        "Lethargy",
+        "Licking or Chewing at Skin",
+        "Limping and Lameness",
+        "Losing Balance",
+        "Lumps, Bumps and Growths",
+        "Mouth - Bad Breath",
+        "Mouth - Foreign Object",
+        "Mouth - Painful swallowing",
+        "Mouth - Smacking Lips",
+        "Mouth - Sore",
+        "Mouth Breathing",
+        "Nose - Bleeding",
+        "Nose - Discharge",
+        "Panting",
+        "Paws - Bleeding",
+        "Poisoning",
+        "Pregnancy",
+        "Regurgitation",
+        "Reverse Sneezing",
+        "Runny Nose",
+        "Scooting",
+        "Scratching and Itching",
+        "Seizures",
+        "Shedding",
+        "Shivering",
+        "Skin - Licking and Chewing",
+        "Skin - Lumps, bumps and growths",
+        "Sneezing",
+        "Staggering",
+        "Stool - Bloody",
+        "Stool - Eating",
+        "Stool - Loose",
+        "Stool - Painful",
+        "Tail - Limp",
+        "Thirst - Excessive",
+        "Trembling",
+        "Urinary Incontinence",
+        "Urination - Frequent",
+        "Urination - Painful",
+        "Urination - Straining",
+        "Vomiting",
+        "Watery Eye",
+        "Weight Gain"
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Abdomen - Painful",
+            "Abdomen - Swollen",
+            "Anorexia"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Bad Breath",
+            "Bleeding - Wounds",
+            "Bleeding From Ear",
+            "Bleeding From Nose",
+            "Bleeding From Paw",
+            "Blindness",
+            "Blood in Stool",
+            "Blood in Urine",
+            "Breathing - Abnormal"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Chewing or Licking at Skin",
+            "Choking",
+            "Circling",
+            "Constipation",
+            "Coughing"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Dandruff",
+            "Deafness",
+            "Defecation - Painful",
+            "Defecation - Straining",
+            "Defecation - Too Much",
+            "Dehydration",
+            "Diarrhea",
+            "Dizziness",
+            "Dragging Bottom",
+            "Drooling"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Ears - Discharge",
+            "Ears - Foul Odor",
+            "Ears - Head Shaking",
+            "Ears - Rubbing",
+            "Ears - Swollen",
+            "Eating - Grass",
+            "Eating - Refusal to Eat",
+            "Eating - Regurgitation",
+            "Eating - Weight Gain",
+            "Eating Stool",
+            "Eyes - Bulging",
+            "Eyes - Cloudy",
+            "Eyes - Discharge",
+            "Eyes - Pupils Different Sizes",
+            "Eyes - Red",
+            "Eyes - Squinting",
+            "Eyes - Tear Staining",
+            "Eyes - Third Eyelid"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Face - Swollen",
+            "Falling Down",
+            "Fever"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Gagging",
+            "Gas"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Hair Loss",
+            "Head Tilt",
+            "Heart Rate - Abnormal",
+            "Heat",
+            "Hot Spot"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Incontinence - Urinary",
+            "Itching and Scratching"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Leg - Swollen",
+            "Lethargy",
+            "Licking or Chewing at Skin",
+            "Limping and Lameness",
+            "Losing Balance",
+            "Lumps, Bumps and Growths"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Mouth - Bad Breath",
+            "Mouth - Foreign Object",
+            "Mouth - Painful swallowing",
+            "Mouth - Smacking Lips",
+            "Mouth - Sore",
+            "Mouth Breathing"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Nose - Bleeding",
+            "Nose - Discharge"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Panting",
+            "Paws - Bleeding",
+            "Poisoning",
+            "Pregnancy"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Regurgitation",
+            "Reverse Sneezing",
+            "Runny Nose"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Scooting",
+            "Scratching and Itching",
+            "Seizures",
+            "Shedding",
+            "Shivering",
+            "Skin - Licking and Chewing",
+            "Skin - Lumps, bumps and growths",
+            "Sneezing",
+            "Staggering",
+            "Stool - Bloody",
+            "Stool - Eating",
+            "Stool - Loose",
+            "Stool - Painful"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Tail - Limp",
+            "Thirst - Excessive",
+            "Trembling"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Urinary Incontinence",
+            "Urination - Frequent",
+            "Urination - Painful",
+            "Urination - Straining"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Vomiting"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Watery Eye",
+            "Weight Gain"
+          ]
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd-logo-fb.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/sitefronts/branding/fetch-logo-color.svg",
+    "https://img.webmd.com/vim/live/webmd/consumer_assets/site_images/Avatar.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/MoreOn_Pets_03.png?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/site_front_toc_redesign/dogs_site_front_toc_redesign/1500x1500_dogs_site_front_chapter_3_724227683.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "WebMD provides comprehensive dog health information covering a wide variety of symptoms affecting your pet.",
+  "canonical_url": "https://www.webmd.com/pets/dogs/symptoms",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:51:59.453329Z"
+}

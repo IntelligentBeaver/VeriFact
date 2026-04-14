@@ -1,0 +1,129 @@
+{
+  "url": "https://www.who.int/news-room/fact-sheets/detail/yellow-fever",
+  "title": "Yellow fever",
+  "slug": "yellow-fever",
+  "published_date": "20 October 2025",
+  "author": "World Health Organization (WHO)",
+  "first_letter": "Y",
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": [
+        "Yellow fever is an epidemic-prone, vaccine-preventable disease caused by a virus transmitted by infected Aedes s.p. , Haemagogus s.p. and Sabethes s.p. mosquitoes. These mosquitoes breed in domestic, forest (sylvatic), and semi-domestic environments.",
+        "Due to its high-impact and potential for international spread, yellow fever poses a significant threat to global health security."
+      ]
+    },
+    {
+      "heading": "Symptoms",
+      "content": [
+        "The initial symptoms of yellow fever are fever, headache, general body aches, nausea, vomiting and weakness. These symptoms typically disappear within 3–4 days.",
+        "About 15% of people infected with yellow fever will have severe infection. Symptoms are the recurrence of high fever, jaundice (yellowing of the skin and eyes), vomiting, bleeding (of the mouth, nose, eyes and stomach), organ failure and shock. About 50% of patients in this phase die within 7–10 days.",
+        "The incubation period for yellow fever is 3–6 days."
+      ]
+    },
+    {
+      "heading": "Treatment",
+      "content": [
+        "There is no specific anti-viral treatment. Clinical care remains mostly supportive, with the 2025 clinical management guidelines providing a protocolized approach. The two anti-virals that can be given , sofosbuvir and monoclonal antibody TY014, are recommended exclusively in research settings(3).",
+        "Supportive care includes rest and hydration; management of liver and kidney failure, and fever; and antibiotics for secondary bacterial infections. Patients may be managed at home, hospitalized, or referred for emergency care depending on severity. Jaundice is an indication of severe disease, justifying hospitalization, often in an intensive care unit."
+      ]
+    },
+    {
+      "heading": "Diagnosis",
+      "content": [
+        "Diagnosis is challenging, especially early on when clinical manifestations are nonspecific. Severe cases may resemble malaria, leptospirosis, viral hepatitis, other haemorrhagic fevers such as dengue, and poisoning.",
+        {
+          "text": "Diagnosis is carried out as follows:",
+          "bullets": [
+            "in the early stage: by Reverse Transcriptase Polymerase Chain Reaction (RT-PCR) testing of blood; and",
+            "in the later stage: by antibody detection via ELISA or plaque reduction neutralization test (PRNT) testing of blood."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Prevention",
+      "content": null
+    },
+    {
+      "heading": "Vaccination",
+      "content": [
+        "Vaccination is the most effective preventive measure. A single dose provides lifelong immunity and no booster is needed. Immunity develops in for 80–100% of people within 10 days, and in over 99% within 30 days.",
+        {
+          "text": "Side-effects are rare. Vaccination is not recommended for:",
+          "bullets": [
+            "infants under      9 months;",
+            "pregnant women (except during outbreaks);",
+            "people with severe egg allergies;",
+            "individuals with severe immunodeficiency or thymus disorders."
+          ]
+        },
+        "Above 60 years, careful consideration should be given to the vaccination risk-benefit ratio (4).",
+        "Under the International Health Regulations (IHR), countries may require proof of vaccination for travellers. Medical exemptions must be certified."
+      ]
+    },
+    {
+      "heading": "Vector control",
+      "content": [
+        {
+          "text": "Vector control is carried out by:",
+          "bullets": [
+            "eliminating mosquito breeding sites (e.g. standing water);",
+            "using larvicides in water containers; and",
+            "wearing protective clothing and using repellents."
+          ]
+        },
+        "Insecticide-treated bed nets are less effective as the mosquitoes transmitting yellow fever bite during the daytime.",
+        "Vector surveillance, especially of Aedes aegypti mosquitoes, helps assess urban outbreak risk."
+      ]
+    },
+    {
+      "heading": "Epidemic preparedness, surveillance and response",
+      "content": [
+        "Rapid detection and laboratory confirmation, as well as emergency vaccination, are critical to control outbreaks. In outbreaks, WHO estimates that actual cases may be 10 to 250 times higher than reported. High-risk countries should maintain at least one national laboratory for yellow fever testing. Any confirmed case must be investigated and followed by emergency and long-term immunization measures. During outbreaks, there is a risk of yellow fever exportation to countries with lower transmission risk. Strengthening risk awareness, early detection, and response is essential to prevent local transmission."
+      ]
+    },
+    {
+      "heading": "WHO response",
+      "content": [
+        "The Eliminate Yellow Fever Epidemics (EYE) Strategy is a comprehensive and long-term strategy built on lessons learned from urban outbreaks in Angola and the Democratic Republic of the Congo.  It aims to end yellow fever epidemics by the end of 2026. The EYE strategy is steered by Gavi, UNICEF and WHO, with WHO hosting the global Secretariat of the partnership. It was developed by a coalition of partners to face yellow fever’s changing epidemiology, resurgence of mosquitoes, and the increased risk of urban outbreaks and international spread.",
+        {
+          "text": "It consists of three strategic objectives:",
+          "bullets": [
+            "mass vaccination campaigns in high-risk countries to prevent      outbreaks, with routine children’s immunization and catch-up interventions      to sustain the gains;",
+            "strengthening urban preparedness and protecting high-risk workers;      this includes enhancing implementation of IHR (2005) to prevent      international spread; and",
+            "early case detection and response for rapid outbreak containment."
+          ]
+        },
+        {
+          "text": "References",
+          "bullets": [
+            "Gaythorpe K.A.M. et al. The global burden of yellow fever. ELife. 2021;10:e64670. https://pubmed.ncbi.nlm.nih.gov/33722340/",
+            "Garske T. et al. Yellow fever in Africa: Estimating the burden of disease and impact of mass vaccination from outbreak and serological data. PLoS Med. 2014;11(5):e1001638 - https://pubmed.ncbi.nlm.nih.gov/24800812/",
+            "World Health Organization. (‎2025)‎. WHO guidelines for clinical management of arboviral diseases: dengue, chikungunya, Zika and yellow fever. World Health Organization. https://iris.who.int/handle/10665/381804 .",
+            "World Health Organization. (‎2013)‎. Vaccines and vaccination against yellow fever: WHO Position Paper – June 2013 = Note de synthèse : position de l’OMS sur les vaccins et la vaccination contre la fièvre jaune, juin 2013. Weekly Epidemiological Record = Relevé épidémiologique hebdomadaire, 88 (‎27)‎, 269 - 83. https://iris.who.int/handle/10665/242089"
+          ]
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-blue.svg",
+    "https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-white.svg",
+    "https://www.who.int/images/default-source/fallback/header-logos/h-logo-blue1820eae93c154e37b2588ab90fdbc17e.svg?sfvrsn=aaed4f35_20",
+    "https://www.who.int/images/default-source/fallback/maps/africa8bd96ad167204ac7ac4811b8ae1dfe2c.png?sfvrsn=3204f957_20",
+    "https://www.who.int/images/default-source/fallback/maps/americasdf9b2f184d3145259fb3a5336cd775c7.png?sfvrsn=9efd6df3_19",
+    "https://www.who.int/images/default-source/fallback/maps/eastern-mediterraneanadf4e81056b84e75b83a1faed30a1e0a.png?sfvrsn=71211e18_17",
+    "https://www.who.int/images/default-source/fallback/maps/europeae57428b4f114210ae7067e1f5119e1a.png?sfvrsn=c7d5c5a5_19",
+    "https://www.who.int/images/default-source/fallback/maps/south-east-asia1c6bd1d9eb5b4cf0b5ad5da36ff3912d.png?sfvrsn=68e76dc2_17",
+    "https://www.who.int/images/default-source/fallback/maps/western-pacifice1e576200c9b4fe59078eb28958428a9.png?sfvrsn=88cbdcd5_19"
+  ],
+  "tags": [
+    "Health Fact",
+    "yellow-fever",
+    "Yellow fever",
+    "WHO"
+  ],
+  "scrape_timestamp_utc": "2026-01-27T17:25:16Z"
+}

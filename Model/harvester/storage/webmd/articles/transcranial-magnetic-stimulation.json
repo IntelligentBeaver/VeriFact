@@ -1,0 +1,986 @@
+{
+  "url": "https://www.webmd.com/depression/transcranial-magnetic-stimulation",
+  "title": "TMS (Transcranial Magnetic Stimulation)",
+  "slug": "transcranial-magnetic-stimulation",
+  "published_date": "2025-06-11",
+  "first_letter": "T",
+  "author": "Rachel Reiff Ellis",
+  "medically_reviewed_by": "Smitha  Bhandari, MD",
+  "read_time": "8 min read",
+  "sections": [
+    {
+      "heading": "What Is TMS (Transcranial Magnetic Stimulation)?",
+      "content": [
+        "Transcranial magnetic stimulation (TMS) is a noninvasive procedure that uses magnetic pulses to treat and prevent the symptoms of depression and other conditions. The electromagnet releases a pulse that excites nerve cells in a region of the brain related to mood.",
+        "It’s an option when medication and psychotherapy aren’t enough.",
+        "“An electrical current runs through the ring of the wand, and that creates a magnetic pulse that points down toward your head through your skull into the brain,” says Larisa Karpova, MD, a psychiatrist at LifeStance Health in Wellesley, Massachusetts. “It’s not painful, but you may feel a tingle.”",
+        "There are two types of TMS: deep TMS and repetitive TMS (rTMS). Deep TMS uses a coil called an H coil that reaches deeper and wider areas of the brain. The coil for rTMS concentrates on areas of your brain closer to the surface. Sometimes doctors call it “surface TMS.”"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transcranial magnetic stimulation (TMS) is a noninvasive procedure that uses magnetic pulses to treat and prevent the symptoms of depression and other conditions. The electromagnet releases a pulse that excites nerve cells in a region of the brain related to mood.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "It’s an option when medication and psychotherapy aren’t enough.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“An electrical current runs through the ring of the wand, and that creates a magnetic pulse that points down toward your head through your skull into the brain,” says Larisa Karpova, MD, a psychiatrist at LifeStance Health in Wellesley, Massachusetts. “It’s not painful, but you may feel a tingle.”",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "There are two types of TMS: deep TMS and repetitive TMS (rTMS). Deep TMS uses a coil called an H coil that reaches deeper and wider areas of the brain. The coil for rTMS concentrates on areas of your brain closer to the surface. Sometimes doctors call it “surface TMS.”",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "TMS vs. electroconvulsive therapy (ECT)",
+      "content": [
+        "Along with the type of coil used, there are other ways to personalize TMS treatment.",
+        "Your doctor will decide on “protocol” or “stimulation parameters.” That’s how often the magnetic pulses coming from the coil repeat. They can be:",
+        "Session times for iTBS or cTBS protocols are usually much shorter than high or low frequency because researchers are still studying them.",
+        "Another choice your doctor makes is where to direct the pulses. That depends on the condition being treated. For example, doctors typically target the area of the brain known as the dorsolateral prefrontal cortex when treating depression.",
+        "ECT, sometimes called “shock therapy,” is another procedure that uses electrical currents to treat depression. But there are key differences between ECT and TMS. While both target parts of the brain with electrical currents, ECT releases electrical currents that trigger seizures in an attempt to reverse depression symptoms. TMS does not involve seizures."
+      ],
+      "bullets": [
+        "High frequency",
+        "Low frequency",
+        "Intermittent theta burst (iTBS)",
+        "Continuous theta burst (cTBS)"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Along with the type of coil used, there are other ways to personalize TMS treatment.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Your doctor will decide on “protocol” or “stimulation parameters.” That’s how often the magnetic pulses coming from the coil repeat. They can be:",
+          "associated_bullets": [
+            "High frequency",
+            "Low frequency",
+            "Intermittent theta burst (iTBS)",
+            "Continuous theta burst (cTBS)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Session times for iTBS or cTBS protocols are usually much shorter than high or low frequency because researchers are still studying them.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Another choice your doctor makes is where to direct the pulses. That depends on the condition being treated. For example, doctors typically target the area of the brain known as the dorsolateral prefrontal cortex when treating depression.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "ECT, sometimes called “shock therapy,” is another procedure that uses electrical currents to treat depression. But there are key differences between ECT and TMS. While both target parts of the brain with electrical currents, ECT releases electrical currents that trigger seizures in an attempt to reverse depression symptoms. TMS does not involve seizures.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Another difference is that you’re fully awake for TMS. ECT requires general anesthesia. In other words, you’re put to sleep.",
+        "ECT also tends to have more side effects. It may impact cognition. That includes mental processes like memory and judgment.",
+        "The most common reason people get TMS is to treat major depressive disorder that hasn’t gotten better with medication and therapy."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Another difference is that you’re fully awake for TMS. ECT requires general anesthesia. In other words, you’re put to sleep.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "ECT also tends to have more side effects. It may impact cognition. That includes mental processes like memory and judgment.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The most common reason people get TMS is to treat major depressive disorder that hasn’t gotten better with medication and therapy.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Is TMS (Transcranial Magnetic Stimulation)?",
+      "content": [
+        "Transcranial magnetic stimulation (TMS) is a noninvasive procedure that uses magnetic pulses to treat and prevent the symptoms of depression and other conditions. The electromagnet releases a pulse that excites nerve cells in a region of the brain related to mood.",
+        "It’s an option when medication and psychotherapy aren’t enough.",
+        "“An electrical current runs through the ring of the wand, and that creates a magnetic pulse that points down toward your head through your skull into the brain,” says Larisa Karpova, MD, a psychiatrist at LifeStance Health in Wellesley, Massachusetts. “It’s not painful, but you may feel a tingle.”",
+        "There are two types of TMS: deep TMS and repetitive TMS (rTMS). Deep TMS uses a coil called an H coil that reaches deeper and wider areas of the brain. The coil for rTMS concentrates on areas of your brain closer to the surface. Sometimes doctors call it “surface TMS.”"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transcranial magnetic stimulation (TMS) is a noninvasive procedure that uses magnetic pulses to treat and prevent the symptoms of depression and other conditions. The electromagnet releases a pulse that excites nerve cells in a region of the brain related to mood.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "It’s an option when medication and psychotherapy aren’t enough.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“An electrical current runs through the ring of the wand, and that creates a magnetic pulse that points down toward your head through your skull into the brain,” says Larisa Karpova, MD, a psychiatrist at LifeStance Health in Wellesley, Massachusetts. “It’s not painful, but you may feel a tingle.”",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "There are two types of TMS: deep TMS and repetitive TMS (rTMS). Deep TMS uses a coil called an H coil that reaches deeper and wider areas of the brain. The coil for rTMS concentrates on areas of your brain closer to the surface. Sometimes doctors call it “surface TMS.”",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "TMS vs. electroconvulsive therapy (ECT)",
+      "content": [
+        "Along with the type of coil used, there are other ways to personalize TMS treatment.",
+        "Your doctor will decide on “protocol” or “stimulation parameters.” That’s how often the magnetic pulses coming from the coil repeat. They can be:",
+        "Session times for iTBS or cTBS protocols are usually much shorter than high or low frequency because researchers are still studying them.",
+        "Another choice your doctor makes is where to direct the pulses. That depends on the condition being treated. For example, doctors typically target the area of the brain known as the dorsolateral prefrontal cortex when treating depression.",
+        "ECT, sometimes called “shock therapy,” is another procedure that uses electrical currents to treat depression. But there are key differences between ECT and TMS. While both target parts of the brain with electrical currents, ECT releases electrical currents that trigger seizures in an attempt to reverse depression symptoms. TMS does not involve seizures."
+      ],
+      "bullets": [
+        "High frequency",
+        "Low frequency",
+        "Intermittent theta burst (iTBS)",
+        "Continuous theta burst (cTBS)"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Along with the type of coil used, there are other ways to personalize TMS treatment.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Your doctor will decide on “protocol” or “stimulation parameters.” That’s how often the magnetic pulses coming from the coil repeat. They can be:",
+          "associated_bullets": [
+            "High frequency",
+            "Low frequency",
+            "Intermittent theta burst (iTBS)",
+            "Continuous theta burst (cTBS)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Session times for iTBS or cTBS protocols are usually much shorter than high or low frequency because researchers are still studying them.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Another choice your doctor makes is where to direct the pulses. That depends on the condition being treated. For example, doctors typically target the area of the brain known as the dorsolateral prefrontal cortex when treating depression.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "ECT, sometimes called “shock therapy,” is another procedure that uses electrical currents to treat depression. But there are key differences between ECT and TMS. While both target parts of the brain with electrical currents, ECT releases electrical currents that trigger seizures in an attempt to reverse depression symptoms. TMS does not involve seizures.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Another difference is that you’re fully awake for TMS. ECT requires general anesthesia. In other words, you’re put to sleep.",
+        "ECT also tends to have more side effects. It may impact cognition. That includes mental processes like memory and judgment.",
+        "The most common reason people get TMS is to treat major depressive disorder that hasn’t gotten better with medication and therapy."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Another difference is that you’re fully awake for TMS. ECT requires general anesthesia. In other words, you’re put to sleep.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "ECT also tends to have more side effects. It may impact cognition. That includes mental processes like memory and judgment.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The most common reason people get TMS is to treat major depressive disorder that hasn’t gotten better with medication and therapy.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Reasons People Get Transcranial Magnetic Stimulation",
+      "content": [
+        "The most common reason people get TMS is to treat major depressive disorder that hasn’t gotten better with medication and therapy.",
+        "TMS is also FDA-approved to treat:"
+      ],
+      "bullets": [
+        "Obsessive-compulsive disorder (OCD)",
+        "Migraine",
+        "Anxiety that happens alongside depression",
+        "Smoking cessation"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The most common reason people get TMS is to treat major depressive disorder that hasn’t gotten better with medication and therapy.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "TMS is also FDA-approved to treat:",
+          "associated_bullets": [
+            "Obsessive-compulsive disorder (OCD)",
+            "Migraine",
+            "Anxiety that happens alongside depression",
+            "Smoking cessation"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "How Does TMS Work?",
+      "content": [
+        "TMS uses both electricity and magnetism to “rewire” your brain, or increase the brain’s ability to form new pathways. To understand how TMS works, you have to understand how magnets work.",
+        "The space around a magnet is called its magnetic field. When a magnet gets near something that transmits electricity, the two interact with each other to create electricity. When this happens inside your brain, like it does during TMS, it affects your brain cells and nerves (neurons).",
+        "Your brain cells and neurons use electricity to send and receive information. Creating electricity near these cells and neurons “stimulates” them and boosts their ability to relay messages. During TMS, this electricity is focused on the parts of your brain related to emotions, decision-making, and feelings of pleasure."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "TMS uses both electricity and magnetism to “rewire” your brain, or increase the brain’s ability to form new pathways. To understand how TMS works, you have to understand how magnets work.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The space around a magnet is called its magnetic field. When a magnet gets near something that transmits electricity, the two interact with each other to create electricity. When this happens inside your brain, like it does during TMS, it affects your brain cells and nerves (neurons).",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Your brain cells and neurons use electricity to send and receive information. Creating electricity near these cells and neurons “stimulates” them and boosts their ability to relay messages. During TMS, this electricity is focused on the parts of your brain related to emotions, decision-making, and feelings of pleasure.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Who Can Get TMS?",
+      "content": [
+        "TMS may be a good choice for you if:",
+        "You can’t have TMS if you have any type of metal in your head, such as:",
+        "Using magnetic stimulation near these metal devices can trigger pain or move the device and damage your brain.",
+        "If you have epilepsy or another seizure disorder, or you take medication that increases your chances of seizure, TMS poses a risk. It’s rare for TMS to cause seizures, but it can happen.",
+        "TMS doesn’t work for everyone. Studies have shown that TMS doesn’t typically benefit people with:"
+      ],
+      "bullets": [
+        "You’ve tried one or more antidepression medications with no results.",
+        "The side effects from your antidepressant medications are severe.",
+        "Cochlear implants",
+        "A metal skull plate",
+        "Metal coils or stents for blood vessel repair",
+        "Implanted vagus nerve or deep brain stimulators",
+        "Implanted electrical devices, such as pacemakers or medicine pumps",
+        "Electrodes for monitoring brain activity",
+        "Magnetic implants",
+        "Bullet fragments",
+        "Psychotic depression (depression psychosis)",
+        "A history of failed ECT treatment",
+        "Schizophrenia",
+        "Posttraumatic stress disorder",
+        "Panic disorder"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "TMS may be a good choice for you if:",
+          "associated_bullets": [
+            "You’ve tried one or more antidepression medications with no results.",
+            "The side effects from your antidepressant medications are severe."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "You can’t have TMS if you have any type of metal in your head, such as:",
+          "associated_bullets": [
+            "Cochlear implants",
+            "A metal skull plate",
+            "Metal coils or stents for blood vessel repair",
+            "Implanted vagus nerve or deep brain stimulators",
+            "Implanted electrical devices, such as pacemakers or medicine pumps",
+            "Electrodes for monitoring brain activity",
+            "Magnetic implants",
+            "Bullet fragments"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Using magnetic stimulation near these metal devices can trigger pain or move the device and damage your brain.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If you have epilepsy or another seizure disorder, or you take medication that increases your chances of seizure, TMS poses a risk. It’s rare for TMS to cause seizures, but it can happen.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "TMS doesn’t work for everyone. Studies have shown that TMS doesn’t typically benefit people with:",
+          "associated_bullets": [
+            "Psychotic depression (depression psychosis)",
+            "A history of failed ECT treatment",
+            "Schizophrenia",
+            "Posttraumatic stress disorder",
+            "Panic disorder"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Reasons People Get Transcranial Magnetic Stimulation",
+      "content": [
+        "The most common reason people get TMS is to treat major depressive disorder that hasn’t gotten better with medication and therapy.",
+        "TMS is also FDA-approved to treat:"
+      ],
+      "bullets": [
+        "Obsessive-compulsive disorder (OCD)",
+        "Migraine",
+        "Anxiety that happens alongside depression",
+        "Smoking cessation"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The most common reason people get TMS is to treat major depressive disorder that hasn’t gotten better with medication and therapy.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "TMS is also FDA-approved to treat:",
+          "associated_bullets": [
+            "Obsessive-compulsive disorder (OCD)",
+            "Migraine",
+            "Anxiety that happens alongside depression",
+            "Smoking cessation"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "How Does TMS Work?",
+      "content": [
+        "TMS uses both electricity and magnetism to “rewire” your brain, or increase the brain’s ability to form new pathways. To understand how TMS works, you have to understand how magnets work.",
+        "The space around a magnet is called its magnetic field. When a magnet gets near something that transmits electricity, the two interact with each other to create electricity. When this happens inside your brain, like it does during TMS, it affects your brain cells and nerves (neurons).",
+        "Your brain cells and neurons use electricity to send and receive information. Creating electricity near these cells and neurons “stimulates” them and boosts their ability to relay messages. During TMS, this electricity is focused on the parts of your brain related to emotions, decision-making, and feelings of pleasure."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "TMS uses both electricity and magnetism to “rewire” your brain, or increase the brain’s ability to form new pathways. To understand how TMS works, you have to understand how magnets work.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The space around a magnet is called its magnetic field. When a magnet gets near something that transmits electricity, the two interact with each other to create electricity. When this happens inside your brain, like it does during TMS, it affects your brain cells and nerves (neurons).",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Your brain cells and neurons use electricity to send and receive information. Creating electricity near these cells and neurons “stimulates” them and boosts their ability to relay messages. During TMS, this electricity is focused on the parts of your brain related to emotions, decision-making, and feelings of pleasure.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Who Can Get TMS?",
+      "content": [
+        "TMS may be a good choice for you if:",
+        "You can’t have TMS if you have any type of metal in your head, such as:",
+        "Using magnetic stimulation near these metal devices can trigger pain or move the device and damage your brain.",
+        "If you have epilepsy or another seizure disorder, or you take medication that increases your chances of seizure, TMS poses a risk. It’s rare for TMS to cause seizures, but it can happen.",
+        "TMS doesn’t work for everyone. Studies have shown that TMS doesn’t typically benefit people with:"
+      ],
+      "bullets": [
+        "You’ve tried one or more antidepression medications with no results.",
+        "The side effects from your antidepressant medications are severe.",
+        "Cochlear implants",
+        "A metal skull plate",
+        "Metal coils or stents for blood vessel repair",
+        "Implanted vagus nerve or deep brain stimulators",
+        "Implanted electrical devices, such as pacemakers or medicine pumps",
+        "Electrodes for monitoring brain activity",
+        "Magnetic implants",
+        "Bullet fragments",
+        "Psychotic depression (depression psychosis)",
+        "A history of failed ECT treatment",
+        "Schizophrenia",
+        "Posttraumatic stress disorder",
+        "Panic disorder"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "TMS may be a good choice for you if:",
+          "associated_bullets": [
+            "You’ve tried one or more antidepression medications with no results.",
+            "The side effects from your antidepressant medications are severe."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "You can’t have TMS if you have any type of metal in your head, such as:",
+          "associated_bullets": [
+            "Cochlear implants",
+            "A metal skull plate",
+            "Metal coils or stents for blood vessel repair",
+            "Implanted vagus nerve or deep brain stimulators",
+            "Implanted electrical devices, such as pacemakers or medicine pumps",
+            "Electrodes for monitoring brain activity",
+            "Magnetic implants",
+            "Bullet fragments"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Using magnetic stimulation near these metal devices can trigger pain or move the device and damage your brain.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If you have epilepsy or another seizure disorder, or you take medication that increases your chances of seizure, TMS poses a risk. It’s rare for TMS to cause seizures, but it can happen.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "TMS doesn’t work for everyone. Studies have shown that TMS doesn’t typically benefit people with:",
+          "associated_bullets": [
+            "Psychotic depression (depression psychosis)",
+            "A history of failed ECT treatment",
+            "Schizophrenia",
+            "Posttraumatic stress disorder",
+            "Panic disorder"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "How to Prepare for a TMS Session",
+      "content": [
+        "Before you start TMS sessions, your doctor will want to know more about your medical history, including your mental health history. You may need lab tests to make sure TMS is safe for you.",
+        "Since TMS doesn’t require anesthesia, you don’t need anyone to drive you home after your session. But if it’s your first time, you may want to bring someone, since you don’t know how you’ll feel afterward."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Before you start TMS sessions, your doctor will want to know more about your medical history, including your mental health history. You may need lab tests to make sure TMS is safe for you.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Since TMS doesn’t require anesthesia, you don’t need anyone to drive you home after your session. But if it’s your first time, you may want to bring someone, since you don’t know how you’ll feel afterward.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What to Expect From a TMS Therapy Session",
+      "content": [
+        "Your doctor will spend some time figuring out the best position for the coils before you begin. This is called mapping. You'll sit in a chair and the doctor will put an electromagnetic coil against your head.",
+        "They’ll switch the coil on and off in a repeating pattern to create pulses while moving it around your head until they find a spot that makes the fingers or hand on the other side of your body twitch. Once they find that spot, they figure out how much energy each pulse needs to move your fingers and thumb at least half the time. This tells them the spot and strength to use for your treatment sessions."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Your doctor will spend some time figuring out the best position for the coils before you begin. This is called mapping. You'll sit in a chair and the doctor will put an electromagnetic coil against your head.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "They’ll switch the coil on and off in a repeating pattern to create pulses while moving it around your head until they find a spot that makes the fingers or hand on the other side of your body twitch. Once they find that spot, they figure out how much energy each pulse needs to move your fingers and thumb at least half the time. This tells them the spot and strength to use for your treatment sessions.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "After a TMS session",
+      "content": [
+        "A typical TMS session takes about 30-35 minutes, but it can be as short as three minutes or as long as 50 minutes. Your doctor will fit you with a cap that has a magnetic coil in it. You’ll wear earplugs to protect your ears.",
+        "This pulse starts an electrical current in the small area of your brain near the wand. When the coil is on your scalp, the stimulation feels like light-to-moderate tapping on your head. They typically happen in fast bursts followed by a pause. The bursts you have depend on the type of TMS your doctor is using.",
+        "You should track how you’re feeling after a session and let your doctor know about any side effects from treatment. You should be able to return to normal activities right after your session.",
+        "Doctors usually prescribe TMS therapy on a daily basis (five days a week when doctor’s offices are open) for several weeks. You may have it for as long as eight weeks. In some cases, a doctor may prescribe more frequent sessions, such as 10 times a day, for a maximum of five days."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "A typical TMS session takes about 30-35 minutes, but it can be as short as three minutes or as long as 50 minutes. Your doctor will fit you with a cap that has a magnetic coil in it. You’ll wear earplugs to protect your ears.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "This pulse starts an electrical current in the small area of your brain near the wand. When the coil is on your scalp, the stimulation feels like light-to-moderate tapping on your head. They typically happen in fast bursts followed by a pause. The bursts you have depend on the type of TMS your doctor is using.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You should track how you’re feeling after a session and let your doctor know about any side effects from treatment. You should be able to return to normal activities right after your session.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Doctors usually prescribe TMS therapy on a daily basis (five days a week when doctor’s offices are open) for several weeks. You may have it for as long as eight weeks. In some cases, a doctor may prescribe more frequent sessions, such as 10 times a day, for a maximum of five days.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "How to Prepare for a TMS Session",
+      "content": [
+        "Before you start TMS sessions, your doctor will want to know more about your medical history, including your mental health history. You may need lab tests to make sure TMS is safe for you.",
+        "Since TMS doesn’t require anesthesia, you don’t need anyone to drive you home after your session. But if it’s your first time, you may want to bring someone, since you don’t know how you’ll feel afterward."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Before you start TMS sessions, your doctor will want to know more about your medical history, including your mental health history. You may need lab tests to make sure TMS is safe for you.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Since TMS doesn’t require anesthesia, you don’t need anyone to drive you home after your session. But if it’s your first time, you may want to bring someone, since you don’t know how you’ll feel afterward.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What to Expect From a TMS Therapy Session",
+      "content": [
+        "Your doctor will spend some time figuring out the best position for the coils before you begin. This is called mapping. You'll sit in a chair and the doctor will put an electromagnetic coil against your head.",
+        "They’ll switch the coil on and off in a repeating pattern to create pulses while moving it around your head until they find a spot that makes the fingers or hand on the other side of your body twitch. Once they find that spot, they figure out how much energy each pulse needs to move your fingers and thumb at least half the time. This tells them the spot and strength to use for your treatment sessions."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Your doctor will spend some time figuring out the best position for the coils before you begin. This is called mapping. You'll sit in a chair and the doctor will put an electromagnetic coil against your head.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "They’ll switch the coil on and off in a repeating pattern to create pulses while moving it around your head until they find a spot that makes the fingers or hand on the other side of your body twitch. Once they find that spot, they figure out how much energy each pulse needs to move your fingers and thumb at least half the time. This tells them the spot and strength to use for your treatment sessions.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "After a TMS session",
+      "content": [
+        "A typical TMS session takes about 30-35 minutes, but it can be as short as three minutes or as long as 50 minutes. Your doctor will fit you with a cap that has a magnetic coil in it. You’ll wear earplugs to protect your ears.",
+        "This pulse starts an electrical current in the small area of your brain near the wand. When the coil is on your scalp, the stimulation feels like light-to-moderate tapping on your head. They typically happen in fast bursts followed by a pause. The bursts you have depend on the type of TMS your doctor is using.",
+        "You should track how you’re feeling after a session and let your doctor know about any side effects from treatment. You should be able to return to normal activities right after your session.",
+        "Doctors usually prescribe TMS therapy on a daily basis (five days a week when doctor’s offices are open) for several weeks. You may have it for as long as eight weeks. In some cases, a doctor may prescribe more frequent sessions, such as 10 times a day, for a maximum of five days."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "A typical TMS session takes about 30-35 minutes, but it can be as short as three minutes or as long as 50 minutes. Your doctor will fit you with a cap that has a magnetic coil in it. You’ll wear earplugs to protect your ears.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "This pulse starts an electrical current in the small area of your brain near the wand. When the coil is on your scalp, the stimulation feels like light-to-moderate tapping on your head. They typically happen in fast bursts followed by a pause. The bursts you have depend on the type of TMS your doctor is using.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You should track how you’re feeling after a session and let your doctor know about any side effects from treatment. You should be able to return to normal activities right after your session.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Doctors usually prescribe TMS therapy on a daily basis (five days a week when doctor’s offices are open) for several weeks. You may have it for as long as eight weeks. In some cases, a doctor may prescribe more frequent sessions, such as 10 times a day, for a maximum of five days.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "TMS Side Effects",
+      "content": [
+        "Any side effects you have with TMS should be mild. “Because TMS is brain-focused and doesn’t go through the whole body, you don’t have to worry about the same side effects you get with systemic medications for depression like weight gain, sexual side effects, or fatigue,” says Karpova.",
+        "Some people may have:",
+        "These side effects should decrease with each session.",
+        "For a very few people, TMS may cause serious side effects, such as:",
+        "So far, studies on rTMS and deep TMS show that they don’t have significant long-term side effects. Researchers are still looking into long-term use of TMS to better understand how it affects the body and mind."
+      ],
+      "bullets": [
+        "Scalp discomfort and pain",
+        "Headache",
+        "Tingling, spasms or twitching of facial muscles",
+        "Lightheadedness",
+        "Seizures",
+        "Mania (extreme emotional high), especially if you have a history of bipolar disorder",
+        "Hearing loss if your ears aren’t protected well during treatment"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Any side effects you have with TMS should be mild. “Because TMS is brain-focused and doesn’t go through the whole body, you don’t have to worry about the same side effects you get with systemic medications for depression like weight gain, sexual side effects, or fatigue,” says Karpova.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Some people may have:",
+          "associated_bullets": [
+            "Scalp discomfort and pain",
+            "Headache",
+            "Tingling, spasms or twitching of facial muscles",
+            "Lightheadedness"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These side effects should decrease with each session.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "For a very few people, TMS may cause serious side effects, such as:",
+          "associated_bullets": [
+            "Seizures",
+            "Mania (extreme emotional high), especially if you have a history of bipolar disorder",
+            "Hearing loss if your ears aren’t protected well during treatment"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "So far, studies on rTMS and deep TMS show that they don’t have significant long-term side effects. Researchers are still looking into long-term use of TMS to better understand how it affects the body and mind.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Risks of Transcranial Magnetic Stimulation",
+      "content": [
+        "The risks of TMS are low because nothing is being put inside your body. If you have bipolar disorder or severe anxiety, there is a small risk that TMS could overstimulate your brain and worsen anxiety, panic, or insomnia."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The risks of TMS are low because nothing is being put inside your body. If you have bipolar disorder or severe anxiety, there is a small risk that TMS could overstimulate your brain and worsen anxiety, panic, or insomnia.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "TMS Costs and Insurance",
+      "content": [
+        "Your insurance coverage for TMS will depend on your specific plan as well as your individual diagnoses. Most insurance plans, including Medicare, only cover TMS as a treatment for major depressive disorder. You’ll likely need prior authorization from a doctor.",
+        "TMS for OCD typically requires you try at least one other type of OCD treatment before TMS or that you pay some portion of the treatment cost.",
+        "If your insurance doesn’t cover it or you don’t have insurance, TMS treatment may cost as much as $15,000."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Your insurance coverage for TMS will depend on your specific plan as well as your individual diagnoses. Most insurance plans, including Medicare, only cover TMS as a treatment for major depressive disorder. You’ll likely need prior authorization from a doctor.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "TMS for OCD typically requires you try at least one other type of OCD treatment before TMS or that you pay some portion of the treatment cost.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If your insurance doesn’t cover it or you don’t have insurance, TMS treatment may cost as much as $15,000.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Takeaways",
+      "content": [
+        "TMS is a noninvasive treatment that uses magnetic pulses to stimulate brain areas involved in mood regulation, mainly for people with depression who haven’t improved with medication or therapy. There are different types of TMS and pulse patterns, which your doctor fits to your specific needs. TMS is safe and most people tolerate it well. You may have mild side effects like scalp discomfort or headaches, though rare risks like seizures or worsened symptoms can happen."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "TMS is a noninvasive treatment that uses magnetic pulses to stimulate brain areas involved in mood regulation, mainly for people with depression who haven’t improved with medication or therapy. There are different types of TMS and pulse patterns, which your doctor fits to your specific needs. TMS is safe and most people tolerate it well. You may have mild side effects like scalp discomfort or headaches, though rare risks like seizures or worsened symptoms can happen.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "TMS Side Effects",
+      "content": [
+        "Any side effects you have with TMS should be mild. “Because TMS is brain-focused and doesn’t go through the whole body, you don’t have to worry about the same side effects you get with systemic medications for depression like weight gain, sexual side effects, or fatigue,” says Karpova.",
+        "Some people may have:",
+        "These side effects should decrease with each session.",
+        "For a very few people, TMS may cause serious side effects, such as:",
+        "So far, studies on rTMS and deep TMS show that they don’t have significant long-term side effects. Researchers are still looking into long-term use of TMS to better understand how it affects the body and mind."
+      ],
+      "bullets": [
+        "Scalp discomfort and pain",
+        "Headache",
+        "Tingling, spasms or twitching of facial muscles",
+        "Lightheadedness",
+        "Seizures",
+        "Mania (extreme emotional high), especially if you have a history of bipolar disorder",
+        "Hearing loss if your ears aren’t protected well during treatment"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Any side effects you have with TMS should be mild. “Because TMS is brain-focused and doesn’t go through the whole body, you don’t have to worry about the same side effects you get with systemic medications for depression like weight gain, sexual side effects, or fatigue,” says Karpova.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Some people may have:",
+          "associated_bullets": [
+            "Scalp discomfort and pain",
+            "Headache",
+            "Tingling, spasms or twitching of facial muscles",
+            "Lightheadedness"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These side effects should decrease with each session.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "For a very few people, TMS may cause serious side effects, such as:",
+          "associated_bullets": [
+            "Seizures",
+            "Mania (extreme emotional high), especially if you have a history of bipolar disorder",
+            "Hearing loss if your ears aren’t protected well during treatment"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "So far, studies on rTMS and deep TMS show that they don’t have significant long-term side effects. Researchers are still looking into long-term use of TMS to better understand how it affects the body and mind.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Risks of Transcranial Magnetic Stimulation",
+      "content": [
+        "The risks of TMS are low because nothing is being put inside your body. If you have bipolar disorder or severe anxiety, there is a small risk that TMS could overstimulate your brain and worsen anxiety, panic, or insomnia."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The risks of TMS are low because nothing is being put inside your body. If you have bipolar disorder or severe anxiety, there is a small risk that TMS could overstimulate your brain and worsen anxiety, panic, or insomnia.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "TMS Costs and Insurance",
+      "content": [
+        "Your insurance coverage for TMS will depend on your specific plan as well as your individual diagnoses. Most insurance plans, including Medicare, only cover TMS as a treatment for major depressive disorder. You’ll likely need prior authorization from a doctor.",
+        "TMS for OCD typically requires you try at least one other type of OCD treatment before TMS or that you pay some portion of the treatment cost.",
+        "If your insurance doesn’t cover it or you don’t have insurance, TMS treatment may cost as much as $15,000."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Your insurance coverage for TMS will depend on your specific plan as well as your individual diagnoses. Most insurance plans, including Medicare, only cover TMS as a treatment for major depressive disorder. You’ll likely need prior authorization from a doctor.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "TMS for OCD typically requires you try at least one other type of OCD treatment before TMS or that you pay some portion of the treatment cost.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If your insurance doesn’t cover it or you don’t have insurance, TMS treatment may cost as much as $15,000.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Takeaways",
+      "content": [
+        "TMS is a noninvasive treatment that uses magnetic pulses to stimulate brain areas involved in mood regulation, mainly for people with depression who haven’t improved with medication or therapy. There are different types of TMS and pulse patterns, which your doctor fits to your specific needs. TMS is safe and most people tolerate it well. You may have mild side effects like scalp discomfort or headaches, though rare risks like seizures or worsened symptoms can happen."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "TMS is a noninvasive treatment that uses magnetic pulses to stimulate brain areas involved in mood regulation, mainly for people with depression who haven’t improved with medication or therapy. There are different types of TMS and pulse patterns, which your doctor fits to your specific needs. TMS is safe and most people tolerate it well. You may have mild side effects like scalp discomfort or headaches, though rare risks like seizures or worsened symptoms can happen.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "TMS (Transcranial Magnetic Stimulation) FAQs",
+      "content": [
+        "TMS increases your brain’s neuroplasticity, or its ability to form new pathways. This “rewires” your brain in the sense that it gives your brain new connections to work with.",
+        "TMS is FDA-approved, which means they’ve done studies not only on how well it works, but on its safety. There are single cases of severe side effects, but they’re very rare. On the whole, TMS has very few side effects.",
+        "Yes, the FDA first approved TMS as a treatment for major depressive disorder in 2008. In 2017, the FDA approved TMS as a treatment for obsessive compulsive disorder (OCD). Since then, the FDA has also approved TMS as a treatment for migraine, anxiety that’s happening alongside depression, and smoking cessation.",
+        "Although the success rates of TMS vary by the condition it’s treating, research shows that it is effective in many people. As a treatment for depression, it works for about 60% of people who didn’t get help from other depression treatments. Studies show that over 50% of people who get better during the initial treatment are still doing well after one year."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "TMS increases your brain’s neuroplasticity, or its ability to form new pathways. This “rewires” your brain in the sense that it gives your brain new connections to work with.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "TMS is FDA-approved, which means they’ve done studies not only on how well it works, but on its safety. There are single cases of severe side effects, but they’re very rare. On the whole, TMS has very few side effects.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes, the FDA first approved TMS as a treatment for major depressive disorder in 2008. In 2017, the FDA approved TMS as a treatment for obsessive compulsive disorder (OCD). Since then, the FDA has also approved TMS as a treatment for migraine, anxiety that’s happening alongside depression, and smoking cessation.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Although the success rates of TMS vary by the condition it’s treating, research shows that it is effective in many people. As a treatment for depression, it works for about 60% of people who didn’t get help from other depression treatments. Studies show that over 50% of people who get better during the initial treatment are still doing well after one year.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Can TMS increase anxiety?",
+      "content": [
+        "No, in fact, studies show that TMS may actually enhance memory and cognition. Researchers are studying TMS as a potential treatment of early dementia and as a way to enhance brain power.",
+        "In people with bipolar disorder or severe anxiety, there is a slight chance that TMS could overstimulate the brain and increase feelings of anxiety, panic, or insomnia."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "No, in fact, studies show that TMS may actually enhance memory and cognition. Researchers are studying TMS as a potential treatment of early dementia and as a way to enhance brain power.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In people with bipolar disorder or severe anxiety, there is a slight chance that TMS could overstimulate the brain and increase feelings of anxiety, panic, or insomnia.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "TMS (Transcranial Magnetic Stimulation) FAQs",
+      "content": [
+        "TMS increases your brain’s neuroplasticity, or its ability to form new pathways. This “rewires” your brain in the sense that it gives your brain new connections to work with.",
+        "TMS is FDA-approved, which means they’ve done studies not only on how well it works, but on its safety. There are single cases of severe side effects, but they’re very rare. On the whole, TMS has very few side effects.",
+        "Yes, the FDA first approved TMS as a treatment for major depressive disorder in 2008. In 2017, the FDA approved TMS as a treatment for obsessive compulsive disorder (OCD). Since then, the FDA has also approved TMS as a treatment for migraine, anxiety that’s happening alongside depression, and smoking cessation.",
+        "Although the success rates of TMS vary by the condition it’s treating, research shows that it is effective in many people. As a treatment for depression, it works for about 60% of people who didn’t get help from other depression treatments. Studies show that over 50% of people who get better during the initial treatment are still doing well after one year."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "TMS increases your brain’s neuroplasticity, or its ability to form new pathways. This “rewires” your brain in the sense that it gives your brain new connections to work with.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "TMS is FDA-approved, which means they’ve done studies not only on how well it works, but on its safety. There are single cases of severe side effects, but they’re very rare. On the whole, TMS has very few side effects.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes, the FDA first approved TMS as a treatment for major depressive disorder in 2008. In 2017, the FDA approved TMS as a treatment for obsessive compulsive disorder (OCD). Since then, the FDA has also approved TMS as a treatment for migraine, anxiety that’s happening alongside depression, and smoking cessation.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Although the success rates of TMS vary by the condition it’s treating, research shows that it is effective in many people. As a treatment for depression, it works for about 60% of people who didn’t get help from other depression treatments. Studies show that over 50% of people who get better during the initial treatment are still doing well after one year.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Can TMS increase anxiety?",
+      "content": [
+        "No, in fact, studies show that TMS may actually enhance memory and cognition. Researchers are studying TMS as a potential treatment of early dementia and as a way to enhance brain power.",
+        "In people with bipolar disorder or severe anxiety, there is a slight chance that TMS could overstimulate the brain and increase feelings of anxiety, panic, or insomnia."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "No, in fact, studies show that TMS may actually enhance memory and cognition. Researchers are studying TMS as a potential treatment of early dementia and as a way to enhance brain power.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In people with bipolar disorder or severe anxiety, there is a slight chance that TMS could overstimulate the brain and increase feelings of anxiety, panic, or insomnia.",
+          "associated_bullets": null
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/reference_guide/understanding-cutting-edge-treatments-for-mdd-ref-guide/1800x1200-understanding-cutting-edge-treatments-for-mdd-ref-guide.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/rachel-reiff-ellis-382x382.jpg?resize=51px:51px&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/bhandari_smitha_382x382.jpg?resize=51px:51px&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/reference_guide/understanding-cutting-edge-treatments-for-mdd-ref-guide/1800x1200-understanding-cutting-edge-treatments-for-mdd-ref-guide.jpg?resize=750px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/MoreOn_Cancer.jpg?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/hpt_toc_redesign_illustrations/1500x1500_symptoms_types_options_3.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [
+    "Photo Credit: Philippe Garo/Science Source",
+    "Larisa Karpova, MD , psychiatrist, Lifestance Health, Wellesley, Massachusetts.",
+    "U.S. Department of Veterans Affairs: “ Transcranial Magnetic Stimulation (TMS) – Treatment for Depression .”",
+    "World Psychiatry: “ Efficacy and safety of deep transcranial magnetic stimulation for major depression: a prospective multicenter randomized controlled trial .”",
+    "International OCD Foundation: “ Transcranial Magnetic Stimulation (TMS) for OCD. ”",
+    "Yale Medicine: “ Transcranial Magnetic Stimulation (TMS) for Depression, OCD: What to Know. ”",
+    "Harvard Health Publishing: “ Transcranial magnetic stimulation (TMS): Hope for stubborn depression .”",
+    "Brain Stimulation: “ A visual and narrative timeline of US FDA milestones for Transcranial Magnetic Stimulation (TMS) devices .”",
+    "Mayo Clinic: “ Transcranial Magnetic Stimulation .”",
+    "Cleveland Clinic: “ Transcranial Magnetic Stimulation .”",
+    "UNC School of Medicine: “ TMS FAQ .”",
+    "Northwell Health: “ Transcranial magnetic stimulation (TMS) .”",
+    "Mass General Brigham McClean Hospital: “ What Is Transcranial Magnetic Stimulation (TMS) and How Does It Work? ”",
+    "World Journal of Psychiatry: “ Past, present, and future of deep transcranial magnetic stimulation: A review in psychiatric and neurological disorders .”",
+    "UCLA Health: “ After years of depression, electromagnetic stimulation of the brain may provide relief .”"
+  ],
+  "meta_description": "Find out how TMS or transcranial magnetic stimulation works to treat depression and other mental health conditions. Discover TMS therapy benefits, side effects, and cost.",
+  "canonical_url": "https://www.webmd.com/depression/transcranial-magnetic-stimulation",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:42:23.845651Z"
+}

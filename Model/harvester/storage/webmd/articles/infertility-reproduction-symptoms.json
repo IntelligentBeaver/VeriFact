@@ -1,0 +1,78 @@
+{
+  "url": "https://www.webmd.com/infertility-and-reproduction/infertility-reproduction-symptoms",
+  "title": "Symptoms",
+  "slug": "infertility-reproduction-symptoms",
+  "published_date": "",
+  "first_letter": "I",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": [
+        "Overview What Is Infertility? Female Infertility Male Infertility",
+        "Symptoms",
+        "Tests & Diagnosis",
+        "Treatment Options for Women Options for Men General Facts",
+        "View Full Guide",
+        "What Is Infertility?",
+        "Female Infertility",
+        "Male Infertility",
+        "Options for Women",
+        "Options for Men",
+        "General Facts"
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Overview What Is Infertility? Female Infertility Male Infertility",
+            "Symptoms",
+            "Tests & Diagnosis",
+            "Treatment Options for Women Options for Men General Facts",
+            "View Full Guide"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "What Is Infertility?",
+            "Female Infertility",
+            "Male Infertility"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Options for Women",
+            "Options for Men",
+            "General Facts"
+          ]
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/sexual_conditions_hpt_toc_redesign/1500x1500_sexual_conditions_hpt_toc_redesign_chapter_2.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/MoreOn_BowelDisease.jpg?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/stroke_hpt_toc_redesign/1500x1500_stroke_hpt_toc_chapter_3_alt.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "Having a hard time getting pregnant? When is it an underlying health problem? Get additional information on the signs of infertility and when to see a doctor.",
+  "canonical_url": "https://www.webmd.com/infertility-and-reproduction/infertility-reproduction-symptoms",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:36:45.255855Z"
+}

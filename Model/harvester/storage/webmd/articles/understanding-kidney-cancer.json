@@ -1,0 +1,900 @@
+{
+  "url": "https://www.webmd.com/cancer/understanding-kidney-cancer",
+  "title": "Understanding Kidney Cancer",
+  "slug": "understanding-kidney-cancer",
+  "published_date": "2025-02-28",
+  "first_letter": "U",
+  "author": "WebMD Editorial Contributor, Kristin Mitchell",
+  "medically_reviewed_by": "Brunilda  Nazario, MD",
+  "read_time": "9 min read",
+  "sections": [
+    {
+      "heading": "What Is Kidney Cancer?",
+      "content": [
+        "Kidney cancer -- also called renal cell cancer -- is a disease in which kidney cells become malignant (cancerous) and grow out of control, forming a tumor. Almost all kidney cancers first appear in the lining of tiny tubes (tubules) in the kidney. This type of kidney cancer is called renal cell carcinoma . The good news is that most kidney cancers are found before they spread (metastasize) to distant organs. And cancers caught early are easier to treat successfully. However, these tumors can grow to be quite large before they are detected.",
+        "The kidneys are two bean-shaped organs, each about the size of a fist. They lie in your abdomen on each side of your spine. Their main job is to clean your blood , removing waste products and making urine.",
+        "Doctors don't know the causes of kidney cancer. But certain factors appear to increase the risk of getting kidney cancer. For example, kidney cancer occurs most often in people older than age 40. These are some other risk factors for kidney cancer :",
+        "Having these risk factors does not mean you will get kidney cancer. And it's also true that you can have none of them and still get the disease."
+      ],
+      "bullets": [
+        "Smoking . If you smoke cigarettes, your risk for kidney cancer is twice that of nonsmokers. Smoking cigars may also increase your risk.",
+        "Being male. Men are about twice as likely as women to get kidney cancer.",
+        "Having obesity . Extra weight may cause changes to hormones that increase your risk.",
+        "Using certain pain medications for a long time. This includes over-the-counter drugs in addition to prescription drugs .",
+        "Having advanced kidney disease or being on long-term dialysis , a treatment for people with kidneys that have stopped working",
+        "Having certain genetic conditions, such as von Hippel-Lindau ( VHL ) disease or inherited papillary renal cell carcinoma",
+        "Having a family history of kidney cancer. The risk is especially high in siblings, possibly due to living in the same environment and/or shared genes",
+        "Being exposed to certain chemicals, such as asbestos , cadmium, benzene, organic solvents, or certain herbicides",
+        "Having high blood pressure . Doctors don't know whether high blood pressure or medication used to treat it is the source of the increased risk.",
+        "Being of a certain race. American Indian and Alaska Native people have the highest risk of kidney cancer in the US. The risk in Black people is slightly higher than in White people. The reason for this is unknown.",
+        "Having lymphoma . For an unknown reason, there is an increased risk of kidney cancer in patients with lymphoma."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kidney cancer -- also called renal cell cancer -- is a disease in which kidney cells become malignant (cancerous) and grow out of control, forming a tumor. Almost all kidney cancers first appear in the lining of tiny tubes (tubules) in the kidney. This type of kidney cancer is called renal cell carcinoma . The good news is that most kidney cancers are found before they spread (metastasize) to distant organs. And cancers caught early are easier to treat successfully. However, these tumors can grow to be quite large before they are detected.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The kidneys are two bean-shaped organs, each about the size of a fist. They lie in your abdomen on each side of your spine. Their main job is to clean your blood , removing waste products and making urine.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Doctors don't know the causes of kidney cancer. But certain factors appear to increase the risk of getting kidney cancer. For example, kidney cancer occurs most often in people older than age 40. These are some other risk factors for kidney cancer :",
+          "associated_bullets": [
+            "Smoking . If you smoke cigarettes, your risk for kidney cancer is twice that of nonsmokers. Smoking cigars may also increase your risk.",
+            "Being male. Men are about twice as likely as women to get kidney cancer.",
+            "Having obesity . Extra weight may cause changes to hormones that increase your risk.",
+            "Using certain pain medications for a long time. This includes over-the-counter drugs in addition to prescription drugs .",
+            "Having advanced kidney disease or being on long-term dialysis , a treatment for people with kidneys that have stopped working",
+            "Having certain genetic conditions, such as von Hippel-Lindau ( VHL ) disease or inherited papillary renal cell carcinoma",
+            "Having a family history of kidney cancer. The risk is especially high in siblings, possibly due to living in the same environment and/or shared genes",
+            "Being exposed to certain chemicals, such as asbestos , cadmium, benzene, organic solvents, or certain herbicides",
+            "Having high blood pressure . Doctors don't know whether high blood pressure or medication used to treat it is the source of the increased risk.",
+            "Being of a certain race. American Indian and Alaska Native people have the highest risk of kidney cancer in the US. The risk in Black people is slightly higher than in White people. The reason for this is unknown.",
+            "Having lymphoma . For an unknown reason, there is an increased risk of kidney cancer in patients with lymphoma."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Having these risk factors does not mean you will get kidney cancer. And it's also true that you can have none of them and still get the disease.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Is Kidney Cancer?",
+      "content": [
+        "Kidney cancer -- also called renal cell cancer -- is a disease in which kidney cells become malignant (cancerous) and grow out of control, forming a tumor. Almost all kidney cancers first appear in the lining of tiny tubes (tubules) in the kidney. This type of kidney cancer is called renal cell carcinoma . The good news is that most kidney cancers are found before they spread (metastasize) to distant organs. And cancers caught early are easier to treat successfully. However, these tumors can grow to be quite large before they are detected.",
+        "The kidneys are two bean-shaped organs, each about the size of a fist. They lie in your abdomen on each side of your spine. Their main job is to clean your blood , removing waste products and making urine.",
+        "Doctors don't know the causes of kidney cancer. But certain factors appear to increase the risk of getting kidney cancer. For example, kidney cancer occurs most often in people older than age 40. These are some other risk factors for kidney cancer :",
+        "Having these risk factors does not mean you will get kidney cancer. And it's also true that you can have none of them and still get the disease."
+      ],
+      "bullets": [
+        "Smoking . If you smoke cigarettes, your risk for kidney cancer is twice that of nonsmokers. Smoking cigars may also increase your risk.",
+        "Being male. Men are about twice as likely as women to get kidney cancer.",
+        "Having obesity . Extra weight may cause changes to hormones that increase your risk.",
+        "Using certain pain medications for a long time. This includes over-the-counter drugs in addition to prescription drugs .",
+        "Having advanced kidney disease or being on long-term dialysis , a treatment for people with kidneys that have stopped working",
+        "Having certain genetic conditions, such as von Hippel-Lindau ( VHL ) disease or inherited papillary renal cell carcinoma",
+        "Having a family history of kidney cancer. The risk is especially high in siblings, possibly due to living in the same environment and/or shared genes",
+        "Being exposed to certain chemicals, such as asbestos , cadmium, benzene, organic solvents, or certain herbicides",
+        "Having high blood pressure . Doctors don't know whether high blood pressure or medication used to treat it is the source of the increased risk.",
+        "Being of a certain race. American Indian and Alaska Native people have the highest risk of kidney cancer in the US. The risk in Black people is slightly higher than in White people. The reason for this is unknown.",
+        "Having lymphoma . For an unknown reason, there is an increased risk of kidney cancer in patients with lymphoma."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kidney cancer -- also called renal cell cancer -- is a disease in which kidney cells become malignant (cancerous) and grow out of control, forming a tumor. Almost all kidney cancers first appear in the lining of tiny tubes (tubules) in the kidney. This type of kidney cancer is called renal cell carcinoma . The good news is that most kidney cancers are found before they spread (metastasize) to distant organs. And cancers caught early are easier to treat successfully. However, these tumors can grow to be quite large before they are detected.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The kidneys are two bean-shaped organs, each about the size of a fist. They lie in your abdomen on each side of your spine. Their main job is to clean your blood , removing waste products and making urine.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Doctors don't know the causes of kidney cancer. But certain factors appear to increase the risk of getting kidney cancer. For example, kidney cancer occurs most often in people older than age 40. These are some other risk factors for kidney cancer :",
+          "associated_bullets": [
+            "Smoking . If you smoke cigarettes, your risk for kidney cancer is twice that of nonsmokers. Smoking cigars may also increase your risk.",
+            "Being male. Men are about twice as likely as women to get kidney cancer.",
+            "Having obesity . Extra weight may cause changes to hormones that increase your risk.",
+            "Using certain pain medications for a long time. This includes over-the-counter drugs in addition to prescription drugs .",
+            "Having advanced kidney disease or being on long-term dialysis , a treatment for people with kidneys that have stopped working",
+            "Having certain genetic conditions, such as von Hippel-Lindau ( VHL ) disease or inherited papillary renal cell carcinoma",
+            "Having a family history of kidney cancer. The risk is especially high in siblings, possibly due to living in the same environment and/or shared genes",
+            "Being exposed to certain chemicals, such as asbestos , cadmium, benzene, organic solvents, or certain herbicides",
+            "Having high blood pressure . Doctors don't know whether high blood pressure or medication used to treat it is the source of the increased risk.",
+            "Being of a certain race. American Indian and Alaska Native people have the highest risk of kidney cancer in the US. The risk in Black people is slightly higher than in White people. The reason for this is unknown.",
+            "Having lymphoma . For an unknown reason, there is an increased risk of kidney cancer in patients with lymphoma."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Having these risk factors does not mean you will get kidney cancer. And it's also true that you can have none of them and still get the disease.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Are the Symptoms of Kidney Cancer?",
+      "content": [
+        "In many cases, people may have no early symptoms of kidney cancer. As the tumor grows larger, symptoms may appear. You may have one or more of these kidney cancer symptoms :",
+        "Kidney cancer that spreads to other parts of your body may cause other symptoms, such as:"
+      ],
+      "bullets": [
+        "Blood in your urine",
+        "A lump in your side or abdomen",
+        "A loss of appetite",
+        "A pain in your side that doesn't go away",
+        "Weight loss that occurs for no known reason",
+        "Fever that lasts for weeks and isn't caused by a cold or other infection",
+        "Extreme fatigue",
+        "Anemia",
+        "Swelling in your ankles or legs",
+        "Shortness of breath",
+        "Coughing up blood",
+        "Bone pain"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "In many cases, people may have no early symptoms of kidney cancer. As the tumor grows larger, symptoms may appear. You may have one or more of these kidney cancer symptoms :",
+          "associated_bullets": [
+            "Blood in your urine",
+            "A lump in your side or abdomen",
+            "A loss of appetite",
+            "A pain in your side that doesn't go away",
+            "Weight loss that occurs for no known reason",
+            "Fever that lasts for weeks and isn't caused by a cold or other infection",
+            "Extreme fatigue",
+            "Anemia",
+            "Swelling in your ankles or legs"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kidney cancer that spreads to other parts of your body may cause other symptoms, such as:",
+          "associated_bullets": [
+            "Shortness of breath",
+            "Coughing up blood",
+            "Bone pain"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "How Do I Know If I Have Kidney Cancer?",
+      "content": [
+        "Maybe you've had kidney cancer symptoms such as pain in your side, weight loss, or extreme fatigue. Or maybe your doctor has found a lump in your side during a routine exam or a sign of kidney cancer during a test for another disease. Regardless, to confirm a diagnosis of kidney cancer, you will need a thorough physical exam , health history, and tests.",
+        "Your doctor will feel your abdomen and side for lumps and check for fever and high blood pressure , among other things. You will also answer questions about your health habits, any past illnesses, and types of treatment. To make a diagnosis of kidney cancer, your doctor will also order one or more tests like these:"
+      ],
+      "bullets": [
+        "Urine tests check for blood in your urine or other signs of problems.",
+        "Blood tests show how well your kidneys are working.",
+        "Intravenous pyelogram (IVP) involves X-raying your kidneys after the doctor injects a dye that travels to your urinary tract, highlighting any tumors.",
+        "Ultrasound uses sound waves to create a picture of your kidneys. It can help tell if a tumor is solid or fluid-filled.",
+        "A CT scan uses X-rays and a computer to create a series of detailed pictures of your kidneys. This may also require an injection of dye. CT scans have virtually replaced pyelogram and ultrasound as a tool for diagnosing kidney cancer.",
+        "Magnetic resonance imaging (MRI) uses strong magnets and radio waves to create detailed images of soft tissues in your body. You may need an injection of a contrast agent to create better pictures.",
+        "Renal arteriogram . This test is used to evaluate the blood supply to the tumor. It is not given often, but may help diagnose small tumors. It has other uses, as well."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Maybe you've had kidney cancer symptoms such as pain in your side, weight loss, or extreme fatigue. Or maybe your doctor has found a lump in your side during a routine exam or a sign of kidney cancer during a test for another disease. Regardless, to confirm a diagnosis of kidney cancer, you will need a thorough physical exam , health history, and tests.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Your doctor will feel your abdomen and side for lumps and check for fever and high blood pressure , among other things. You will also answer questions about your health habits, any past illnesses, and types of treatment. To make a diagnosis of kidney cancer, your doctor will also order one or more tests like these:",
+          "associated_bullets": [
+            "Urine tests check for blood in your urine or other signs of problems.",
+            "Blood tests show how well your kidneys are working.",
+            "Intravenous pyelogram (IVP) involves X-raying your kidneys after the doctor injects a dye that travels to your urinary tract, highlighting any tumors.",
+            "Ultrasound uses sound waves to create a picture of your kidneys. It can help tell if a tumor is solid or fluid-filled.",
+            "A CT scan uses X-rays and a computer to create a series of detailed pictures of your kidneys. This may also require an injection of dye. CT scans have virtually replaced pyelogram and ultrasound as a tool for diagnosing kidney cancer.",
+            "Magnetic resonance imaging (MRI) uses strong magnets and radio waves to create detailed images of soft tissues in your body. You may need an injection of a contrast agent to create better pictures.",
+            "Renal arteriogram . This test is used to evaluate the blood supply to the tumor. It is not given often, but may help diagnose small tumors. It has other uses, as well."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "What Are the Symptoms of Kidney Cancer?",
+      "content": [
+        "In many cases, people may have no early symptoms of kidney cancer. As the tumor grows larger, symptoms may appear. You may have one or more of these kidney cancer symptoms :",
+        "Kidney cancer that spreads to other parts of your body may cause other symptoms, such as:"
+      ],
+      "bullets": [
+        "Blood in your urine",
+        "A lump in your side or abdomen",
+        "A loss of appetite",
+        "A pain in your side that doesn't go away",
+        "Weight loss that occurs for no known reason",
+        "Fever that lasts for weeks and isn't caused by a cold or other infection",
+        "Extreme fatigue",
+        "Anemia",
+        "Swelling in your ankles or legs",
+        "Shortness of breath",
+        "Coughing up blood",
+        "Bone pain"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "In many cases, people may have no early symptoms of kidney cancer. As the tumor grows larger, symptoms may appear. You may have one or more of these kidney cancer symptoms :",
+          "associated_bullets": [
+            "Blood in your urine",
+            "A lump in your side or abdomen",
+            "A loss of appetite",
+            "A pain in your side that doesn't go away",
+            "Weight loss that occurs for no known reason",
+            "Fever that lasts for weeks and isn't caused by a cold or other infection",
+            "Extreme fatigue",
+            "Anemia",
+            "Swelling in your ankles or legs"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kidney cancer that spreads to other parts of your body may cause other symptoms, such as:",
+          "associated_bullets": [
+            "Shortness of breath",
+            "Coughing up blood",
+            "Bone pain"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "How Do I Know If I Have Kidney Cancer?",
+      "content": [
+        "Maybe you've had kidney cancer symptoms such as pain in your side, weight loss, or extreme fatigue. Or maybe your doctor has found a lump in your side during a routine exam or a sign of kidney cancer during a test for another disease. Regardless, to confirm a diagnosis of kidney cancer, you will need a thorough physical exam , health history, and tests.",
+        "Your doctor will feel your abdomen and side for lumps and check for fever and high blood pressure , among other things. You will also answer questions about your health habits, any past illnesses, and types of treatment. To make a diagnosis of kidney cancer, your doctor will also order one or more tests like these:"
+      ],
+      "bullets": [
+        "Urine tests check for blood in your urine or other signs of problems.",
+        "Blood tests show how well your kidneys are working.",
+        "Intravenous pyelogram (IVP) involves X-raying your kidneys after the doctor injects a dye that travels to your urinary tract, highlighting any tumors.",
+        "Ultrasound uses sound waves to create a picture of your kidneys. It can help tell if a tumor is solid or fluid-filled.",
+        "A CT scan uses X-rays and a computer to create a series of detailed pictures of your kidneys. This may also require an injection of dye. CT scans have virtually replaced pyelogram and ultrasound as a tool for diagnosing kidney cancer.",
+        "Magnetic resonance imaging (MRI) uses strong magnets and radio waves to create detailed images of soft tissues in your body. You may need an injection of a contrast agent to create better pictures.",
+        "Renal arteriogram . This test is used to evaluate the blood supply to the tumor. It is not given often, but may help diagnose small tumors. It has other uses, as well."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Maybe you've had kidney cancer symptoms such as pain in your side, weight loss, or extreme fatigue. Or maybe your doctor has found a lump in your side during a routine exam or a sign of kidney cancer during a test for another disease. Regardless, to confirm a diagnosis of kidney cancer, you will need a thorough physical exam , health history, and tests.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Your doctor will feel your abdomen and side for lumps and check for fever and high blood pressure , among other things. You will also answer questions about your health habits, any past illnesses, and types of treatment. To make a diagnosis of kidney cancer, your doctor will also order one or more tests like these:",
+          "associated_bullets": [
+            "Urine tests check for blood in your urine or other signs of problems.",
+            "Blood tests show how well your kidneys are working.",
+            "Intravenous pyelogram (IVP) involves X-raying your kidneys after the doctor injects a dye that travels to your urinary tract, highlighting any tumors.",
+            "Ultrasound uses sound waves to create a picture of your kidneys. It can help tell if a tumor is solid or fluid-filled.",
+            "A CT scan uses X-rays and a computer to create a series of detailed pictures of your kidneys. This may also require an injection of dye. CT scans have virtually replaced pyelogram and ultrasound as a tool for diagnosing kidney cancer.",
+            "Magnetic resonance imaging (MRI) uses strong magnets and radio waves to create detailed images of soft tissues in your body. You may need an injection of a contrast agent to create better pictures.",
+            "Renal arteriogram . This test is used to evaluate the blood supply to the tumor. It is not given often, but may help diagnose small tumors. It has other uses, as well."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Unlike with many other cancers, your doctor may be pretty certain about a diagnosis of kidney cancer without a biopsy . Sometimes, a biopsy will be done to confirm the diagnosis. A doctor may use a needle biopsy to remove a sample of tissue, which is then examined under a microscope for cancer cells. The biopsy may also tell the grade of the cancer -- how aggressive the cancer is likely to be. Often the surgeon will simply remove the entire tumor and then have a sample of tissue examined.",
+        "Once your doctor makes a diagnosis of kidney cancer, you may need other tests to tell if the cancer has spread within your kidney, to the other kidney, or to other parts of your body. When cancer spreads from the place where it first started, it has metastasized. You might need a CT scan or MRI. A chest X-ray can show whether the cancer has spread to your lungs . A bone scan can see if it is in your bones. These tests will help your doctor determine the stage of kidney cancer."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Unlike with many other cancers, your doctor may be pretty certain about a diagnosis of kidney cancer without a biopsy . Sometimes, a biopsy will be done to confirm the diagnosis. A doctor may use a needle biopsy to remove a sample of tissue, which is then examined under a microscope for cancer cells. The biopsy may also tell the grade of the cancer -- how aggressive the cancer is likely to be. Often the surgeon will simply remove the entire tumor and then have a sample of tissue examined.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Once your doctor makes a diagnosis of kidney cancer, you may need other tests to tell if the cancer has spread within your kidney, to the other kidney, or to other parts of your body. When cancer spreads from the place where it first started, it has metastasized. You might need a CT scan or MRI. A chest X-ray can show whether the cancer has spread to your lungs . A bone scan can see if it is in your bones. These tests will help your doctor determine the stage of kidney cancer.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Are the Stages of Kidney Cancer?",
+      "content": [
+        "Your prognosis depends on your general health, as well as the grade and stage of your kidney cancer.",
+        "These are the stages of kidney cancer. The higher the stage, the more advanced the cancer.",
+        "Stage I",
+        "Stage II",
+        "Stage III",
+        "Stage IV"
+      ],
+      "bullets": [
+        "A tumor 7 centimeters or smaller that is only in the kidney",
+        "A tumor larger than 7 centimeters that is only in the kidney",
+        "A tumor that is in the kidney and in at least one nearby lymph node",
+        "A tumor that is in the kidney's main blood vessel and may also be in nearby lymph node",
+        "A tumor that is in the fatty tissue around the kidney and may also involve nearby lymph nodes",
+        "A tumor that extends into major veins or perinephric tissues, but not into the ipsilateral adrenal gland and not beyond Gerota's fascia",
+        "Cancer has spread beyond the fatty layer of tissue around the kidney, and it may also be in nearby lymph nodes",
+        "Cancer may have spread to other organs, such as the bowel, pancreas , or lungs",
+        "Cancer has spread beyond Gerota's fascia (including contiguous extension into the ipsilateral adrenal gland)"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Your prognosis depends on your general health, as well as the grade and stage of your kidney cancer.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "These are the stages of kidney cancer. The higher the stage, the more advanced the cancer.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Stage I",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A tumor 7 centimeters or smaller that is only in the kidney"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Stage II",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A tumor larger than 7 centimeters that is only in the kidney"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Stage III",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A tumor that is in the kidney and in at least one nearby lymph node",
+            "A tumor that is in the kidney's main blood vessel and may also be in nearby lymph node",
+            "A tumor that is in the fatty tissue around the kidney and may also involve nearby lymph nodes",
+            "A tumor that extends into major veins or perinephric tissues, but not into the ipsilateral adrenal gland and not beyond Gerota's fascia"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Stage IV",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Cancer has spread beyond the fatty layer of tissue around the kidney, and it may also be in nearby lymph nodes",
+            "Cancer may have spread to other organs, such as the bowel, pancreas , or lungs",
+            "Cancer has spread beyond Gerota's fascia (including contiguous extension into the ipsilateral adrenal gland)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Unlike with many other cancers, your doctor may be pretty certain about a diagnosis of kidney cancer without a biopsy . Sometimes, a biopsy will be done to confirm the diagnosis. A doctor may use a needle biopsy to remove a sample of tissue, which is then examined under a microscope for cancer cells. The biopsy may also tell the grade of the cancer -- how aggressive the cancer is likely to be. Often the surgeon will simply remove the entire tumor and then have a sample of tissue examined.",
+        "Once your doctor makes a diagnosis of kidney cancer, you may need other tests to tell if the cancer has spread within your kidney, to the other kidney, or to other parts of your body. When cancer spreads from the place where it first started, it has metastasized. You might need a CT scan or MRI. A chest X-ray can show whether the cancer has spread to your lungs . A bone scan can see if it is in your bones. These tests will help your doctor determine the stage of kidney cancer."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Unlike with many other cancers, your doctor may be pretty certain about a diagnosis of kidney cancer without a biopsy . Sometimes, a biopsy will be done to confirm the diagnosis. A doctor may use a needle biopsy to remove a sample of tissue, which is then examined under a microscope for cancer cells. The biopsy may also tell the grade of the cancer -- how aggressive the cancer is likely to be. Often the surgeon will simply remove the entire tumor and then have a sample of tissue examined.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Once your doctor makes a diagnosis of kidney cancer, you may need other tests to tell if the cancer has spread within your kidney, to the other kidney, or to other parts of your body. When cancer spreads from the place where it first started, it has metastasized. You might need a CT scan or MRI. A chest X-ray can show whether the cancer has spread to your lungs . A bone scan can see if it is in your bones. These tests will help your doctor determine the stage of kidney cancer.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "What Are the Stages of Kidney Cancer?",
+      "content": [
+        "Your prognosis depends on your general health, as well as the grade and stage of your kidney cancer.",
+        "These are the stages of kidney cancer. The higher the stage, the more advanced the cancer.",
+        "Stage I",
+        "Stage II",
+        "Stage III",
+        "Stage IV"
+      ],
+      "bullets": [
+        "A tumor 7 centimeters or smaller that is only in the kidney",
+        "A tumor larger than 7 centimeters that is only in the kidney",
+        "A tumor that is in the kidney and in at least one nearby lymph node",
+        "A tumor that is in the kidney's main blood vessel and may also be in nearby lymph node",
+        "A tumor that is in the fatty tissue around the kidney and may also involve nearby lymph nodes",
+        "A tumor that extends into major veins or perinephric tissues, but not into the ipsilateral adrenal gland and not beyond Gerota's fascia",
+        "Cancer has spread beyond the fatty layer of tissue around the kidney, and it may also be in nearby lymph nodes",
+        "Cancer may have spread to other organs, such as the bowel, pancreas , or lungs",
+        "Cancer has spread beyond Gerota's fascia (including contiguous extension into the ipsilateral adrenal gland)"
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Your prognosis depends on your general health, as well as the grade and stage of your kidney cancer.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "These are the stages of kidney cancer. The higher the stage, the more advanced the cancer.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Stage I",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A tumor 7 centimeters or smaller that is only in the kidney"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Stage II",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A tumor larger than 7 centimeters that is only in the kidney"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Stage III",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A tumor that is in the kidney and in at least one nearby lymph node",
+            "A tumor that is in the kidney's main blood vessel and may also be in nearby lymph node",
+            "A tumor that is in the fatty tissue around the kidney and may also involve nearby lymph nodes",
+            "A tumor that extends into major veins or perinephric tissues, but not into the ipsilateral adrenal gland and not beyond Gerota's fascia"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Stage IV",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Cancer has spread beyond the fatty layer of tissue around the kidney, and it may also be in nearby lymph nodes",
+            "Cancer may have spread to other organs, such as the bowel, pancreas , or lungs",
+            "Cancer has spread beyond Gerota's fascia (including contiguous extension into the ipsilateral adrenal gland)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "What Are the Treatments for Kidney Cancer?",
+      "content": [
+        "Once you have a diagnosis and know your stage of kidney cancer, you and your doctor can plan treatment. You may want to gather information to help you feel more informed about your decision. Your doctor may refer you to a specialist for treatment. This could include an urologist, a medical or radiation oncologist, or a surgeon. Before beginning treatment, many people find it helpful to get a second opinion about the diagnosis of kidney cancer and the treatment plan.",
+        "Kidney cancer is one of the more common cancers to undergo spontaneous regression, in which it may return to an earlier stage. However, the incidence is quite low (up to about 1% of people with metastatic renal cell carcinoma might see regression).",
+        "There are several standard types of treatment for kidney cancer. In most cases, surgery is the first step. Even if surgery removes the entire tumor, though, your doctor may suggest an extra treatment to kill any remaining cancer cells that can't be seen."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Once you have a diagnosis and know your stage of kidney cancer, you and your doctor can plan treatment. You may want to gather information to help you feel more informed about your decision. Your doctor may refer you to a specialist for treatment. This could include an urologist, a medical or radiation oncologist, or a surgeon. Before beginning treatment, many people find it helpful to get a second opinion about the diagnosis of kidney cancer and the treatment plan.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Kidney cancer is one of the more common cancers to undergo spontaneous regression, in which it may return to an earlier stage. However, the incidence is quite low (up to about 1% of people with metastatic renal cell carcinoma might see regression).",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "There are several standard types of treatment for kidney cancer. In most cases, surgery is the first step. Even if surgery removes the entire tumor, though, your doctor may suggest an extra treatment to kill any remaining cancer cells that can't be seen.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Surgery for kidney cancer",
+      "content": [
+        "These are the main types of surgery for kidney cancer. Which type you have depends on how advanced your cancer is.",
+        "You can survive with just a part of one kidney as long as it is still working. If the surgeon removes both kidneys or if both kidneys are not working, you will need a machine to clean your blood (dialysis) or a new kidney ( kidney transplant ). A transplant is possible if your cancer was found only in your kidney and a donated kidney is available.",
+        "If surgery can't remove your kidney cancer, your doctor may suggest another option to help destroy the tumor."
+      ],
+      "bullets": [
+        "Radical nephrectomy removes the kidney, adrenal gland, and surrounding tissue. It also often removes nearby lymph nodes. It is the most common surgery for kidney cancer and can now be done through a small incision with a laparoscope.",
+        "Simple nephrectomy removes the kidney only.",
+        "Partial nephrectomy removes the cancer in the kidney along with some tissue around it. This procedure is used for patients with smaller tumors (less than 4 cm) or in those patients in which a radical nephrectomy might hurt the other kidney.",
+        "Cryotherapy uses extreme cold to kill the tumor.",
+        "Radiofrequency ablation uses high-energy radio waves to \"cook\" the tumor.",
+        "Arterial embolization involves inserting material into an artery that leads to the kidney. This blocks blood flow to the tumor. This procedure may be done to help shrink the tumor before ablation."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "These are the main types of surgery for kidney cancer. Which type you have depends on how advanced your cancer is.",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Radical nephrectomy removes the kidney, adrenal gland, and surrounding tissue. It also often removes nearby lymph nodes. It is the most common surgery for kidney cancer and can now be done through a small incision with a laparoscope.",
+            "Simple nephrectomy removes the kidney only.",
+            "Partial nephrectomy removes the cancer in the kidney along with some tissue around it. This procedure is used for patients with smaller tumors (less than 4 cm) or in those patients in which a radical nephrectomy might hurt the other kidney."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "You can survive with just a part of one kidney as long as it is still working. If the surgeon removes both kidneys or if both kidneys are not working, you will need a machine to clean your blood (dialysis) or a new kidney ( kidney transplant ). A transplant is possible if your cancer was found only in your kidney and a donated kidney is available.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If surgery can't remove your kidney cancer, your doctor may suggest another option to help destroy the tumor.",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Cryotherapy uses extreme cold to kill the tumor.",
+            "Radiofrequency ablation uses high-energy radio waves to \"cook\" the tumor.",
+            "Arterial embolization involves inserting material into an artery that leads to the kidney. This blocks blood flow to the tumor. This procedure may be done to help shrink the tumor before ablation."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "What Are the Treatments for Kidney Cancer?",
+      "content": [
+        "Once you have a diagnosis and know your stage of kidney cancer, you and your doctor can plan treatment. You may want to gather information to help you feel more informed about your decision. Your doctor may refer you to a specialist for treatment. This could include an urologist, a medical or radiation oncologist, or a surgeon. Before beginning treatment, many people find it helpful to get a second opinion about the diagnosis of kidney cancer and the treatment plan.",
+        "Kidney cancer is one of the more common cancers to undergo spontaneous regression, in which it may return to an earlier stage. However, the incidence is quite low (up to about 1% of people with metastatic renal cell carcinoma might see regression).",
+        "There are several standard types of treatment for kidney cancer. In most cases, surgery is the first step. Even if surgery removes the entire tumor, though, your doctor may suggest an extra treatment to kill any remaining cancer cells that can't be seen."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Once you have a diagnosis and know your stage of kidney cancer, you and your doctor can plan treatment. You may want to gather information to help you feel more informed about your decision. Your doctor may refer you to a specialist for treatment. This could include an urologist, a medical or radiation oncologist, or a surgeon. Before beginning treatment, many people find it helpful to get a second opinion about the diagnosis of kidney cancer and the treatment plan.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Kidney cancer is one of the more common cancers to undergo spontaneous regression, in which it may return to an earlier stage. However, the incidence is quite low (up to about 1% of people with metastatic renal cell carcinoma might see regression).",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "There are several standard types of treatment for kidney cancer. In most cases, surgery is the first step. Even if surgery removes the entire tumor, though, your doctor may suggest an extra treatment to kill any remaining cancer cells that can't be seen.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "These are the main types of surgery for kidney cancer. Which type you have depends on how advanced your cancer is.",
+        "You can survive with just a part of one kidney as long as it is still working. If the surgeon removes both kidneys or if both kidneys are not working, you will need a machine to clean your blood (dialysis) or a new kidney ( kidney transplant ). A transplant is possible if your cancer was found only in your kidney and a donated kidney is available.",
+        "If surgery can't remove your kidney cancer, your doctor may suggest another option to help destroy the tumor."
+      ],
+      "bullets": [
+        "Radical nephrectomy removes the kidney, adrenal gland, and surrounding tissue. It also often removes nearby lymph nodes. It is the most common surgery for kidney cancer and can now be done through a small incision with a laparoscope.",
+        "Simple nephrectomy removes the kidney only.",
+        "Partial nephrectomy removes the cancer in the kidney along with some tissue around it. This procedure is used for patients with smaller tumors (less than 4 cm) or in those patients in which a radical nephrectomy might hurt the other kidney.",
+        "Cryotherapy uses extreme cold to kill the tumor.",
+        "Radiofrequency ablation uses high-energy radio waves to \"cook\" the tumor.",
+        "Arterial embolization involves inserting material into an artery that leads to the kidney. This blocks blood flow to the tumor. This procedure may be done to help shrink the tumor before ablation."
+      ],
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "These are the main types of surgery for kidney cancer. Which type you have depends on how advanced your cancer is.",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Radical nephrectomy removes the kidney, adrenal gland, and surrounding tissue. It also often removes nearby lymph nodes. It is the most common surgery for kidney cancer and can now be done through a small incision with a laparoscope.",
+            "Simple nephrectomy removes the kidney only.",
+            "Partial nephrectomy removes the cancer in the kidney along with some tissue around it. This procedure is used for patients with smaller tumors (less than 4 cm) or in those patients in which a radical nephrectomy might hurt the other kidney."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "You can survive with just a part of one kidney as long as it is still working. If the surgeon removes both kidneys or if both kidneys are not working, you will need a machine to clean your blood (dialysis) or a new kidney ( kidney transplant ). A transplant is possible if your cancer was found only in your kidney and a donated kidney is available.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If surgery can't remove your kidney cancer, your doctor may suggest another option to help destroy the tumor.",
+          "associated_bullets": null
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Cryotherapy uses extreme cold to kill the tumor.",
+            "Radiofrequency ablation uses high-energy radio waves to \"cook\" the tumor.",
+            "Arterial embolization involves inserting material into an artery that leads to the kidney. This blocks blood flow to the tumor. This procedure may be done to help shrink the tumor before ablation."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Biologic therapy for kidney cancer",
+      "content": [
+        "This therapy uses your immune system to fight cancer by boosting, directing, or restoring your body's natural defenses. Substances for biologic therapy are made by your body or in a lab. Examples of biologic therapy for metastatic kidney cancer include interferon alpha or interleukin-2. There are many new immunotherapies being actively studied for kidney cancer.  Each of these treatments has a unique place in the management of advanced kidney cancer.",
+        "Targeted therapy for kidney cancer",
+        "This therapy uses drugs or other substances to find and target cancer cells with less toxicity to normal cells.",
+        "Anti-angiogenic agents. One type of targeted therapy is anti-angiogenic agents. These keep blood vessels from feeding a tumor, causing it to shrink or stop growing.",
+        "Multikinase inhibitors or tyrosine kinase inhibitors. These inhibitors are another type of targeted agent. They are oral drugs that block an enzyme pathway which allows cancer cells to grow.",
+        "m-TOR inhibitors . m-TOR inhibitors are available as an oral medication and as an IV. They block a pathway which allows blood vessels to help tumor cells grow."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "This therapy uses your immune system to fight cancer by boosting, directing, or restoring your body's natural defenses. Substances for biologic therapy are made by your body or in a lab. Examples of biologic therapy for metastatic kidney cancer include interferon alpha or interleukin-2. There are many new immunotherapies being actively studied for kidney cancer.  Each of these treatments has a unique place in the management of advanced kidney cancer.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Targeted therapy for kidney cancer",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "This therapy uses drugs or other substances to find and target cancer cells with less toxicity to normal cells.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Anti-angiogenic agents. One type of targeted therapy is anti-angiogenic agents. These keep blood vessels from feeding a tumor, causing it to shrink or stop growing.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Multikinase inhibitors or tyrosine kinase inhibitors. These inhibitors are another type of targeted agent. They are oral drugs that block an enzyme pathway which allows cancer cells to grow.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "m-TOR inhibitors . m-TOR inhibitors are available as an oral medication and as an IV. They block a pathway which allows blood vessels to help tumor cells grow.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "HIF inhibitors.",
+      "content": [
+        "This type of targeted therapy is used in people who have kidney cancer that doesn't immediately require surgery (such as those who have von Hippel-Lindau disease) and in people who have advanced kidney cancer who were previously treated with another targeted drug therapy. HIF inhibitors work by blocking the activity of a protein known as hypoxia-inducible factor 2 alpha, which causes cancer cell growth.",
+        "Ways to combine HIF inhibitors with immune checkpoint inhibitors (a type of immunotherapy drug) for treatment are currently being conducted.",
+        "Radiation therapy for kidney cancer",
+        "This treatment is not typically a first-line treatment for kidney cancer. Radiation therapy is used in people who can't or don't want to have surgery or if cancer comes back after being treated.",
+        "It uses high-energy rays, similar to X-rays but much stronger,  to kill cancer cells or halt their growth. External radiation therapy sends radiation to the cancer from a machine outside the body.",
+        "Chemotherapy for kidney cancer",
+        "Chemotherapy is mostly used for certain less common types of kidney cancer such as renal medullary carcinoma or collecting duct renal cell carcinoma. More common types of kidney cancer usually don't respond well to chemotherapy and are typically treated with immunotherapy and targeted drugs.",
+        "Chemotherapy uses drugs to kill cancer cells or stop them from multiplying."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "This type of targeted therapy is used in people who have kidney cancer that doesn't immediately require surgery (such as those who have von Hippel-Lindau disease) and in people who have advanced kidney cancer who were previously treated with another targeted drug therapy. HIF inhibitors work by blocking the activity of a protein known as hypoxia-inducible factor 2 alpha, which causes cancer cell growth.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Ways to combine HIF inhibitors with immune checkpoint inhibitors (a type of immunotherapy drug) for treatment are currently being conducted.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Radiation therapy for kidney cancer",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "This treatment is not typically a first-line treatment for kidney cancer. Radiation therapy is used in people who can't or don't want to have surgery or if cancer comes back after being treated.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "It uses high-energy rays, similar to X-rays but much stronger,  to kill cancer cells or halt their growth. External radiation therapy sends radiation to the cancer from a machine outside the body.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Chemotherapy for kidney cancer",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Chemotherapy is mostly used for certain less common types of kidney cancer such as renal medullary carcinoma or collecting duct renal cell carcinoma. More common types of kidney cancer usually don't respond well to chemotherapy and are typically treated with immunotherapy and targeted drugs.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Chemotherapy uses drugs to kill cancer cells or stop them from multiplying.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "This therapy uses your immune system to fight cancer by boosting, directing, or restoring your body's natural defenses. Substances for biologic therapy are made by your body or in a lab. Examples of biologic therapy for metastatic kidney cancer include interferon alpha or interleukin-2. There are many new immunotherapies being actively studied for kidney cancer.  Each of these treatments has a unique place in the management of advanced kidney cancer.",
+        "Targeted therapy for kidney cancer",
+        "This therapy uses drugs or other substances to find and target cancer cells with less toxicity to normal cells.",
+        "Anti-angiogenic agents. One type of targeted therapy is anti-angiogenic agents. These keep blood vessels from feeding a tumor, causing it to shrink or stop growing.",
+        "Multikinase inhibitors or tyrosine kinase inhibitors. These inhibitors are another type of targeted agent. They are oral drugs that block an enzyme pathway which allows cancer cells to grow.",
+        "m-TOR inhibitors . m-TOR inhibitors are available as an oral medication and as an IV. They block a pathway which allows blood vessels to help tumor cells grow."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "This therapy uses your immune system to fight cancer by boosting, directing, or restoring your body's natural defenses. Substances for biologic therapy are made by your body or in a lab. Examples of biologic therapy for metastatic kidney cancer include interferon alpha or interleukin-2. There are many new immunotherapies being actively studied for kidney cancer.  Each of these treatments has a unique place in the management of advanced kidney cancer.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Targeted therapy for kidney cancer",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "This therapy uses drugs or other substances to find and target cancer cells with less toxicity to normal cells.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Anti-angiogenic agents. One type of targeted therapy is anti-angiogenic agents. These keep blood vessels from feeding a tumor, causing it to shrink or stop growing.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Multikinase inhibitors or tyrosine kinase inhibitors. These inhibitors are another type of targeted agent. They are oral drugs that block an enzyme pathway which allows cancer cells to grow.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "m-TOR inhibitors . m-TOR inhibitors are available as an oral medication and as an IV. They block a pathway which allows blood vessels to help tumor cells grow.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "This type of targeted therapy is used in people who have kidney cancer that doesn't immediately require surgery (such as those who have von Hippel-Lindau disease) and in people who have advanced kidney cancer who were previously treated with another targeted drug therapy. HIF inhibitors work by blocking the activity of a protein known as hypoxia-inducible factor 2 alpha, which causes cancer cell growth.",
+        "Ways to combine HIF inhibitors with immune checkpoint inhibitors (a type of immunotherapy drug) for treatment are currently being conducted.",
+        "Radiation therapy for kidney cancer",
+        "This treatment is not typically a first-line treatment for kidney cancer. Radiation therapy is used in people who can't or don't want to have surgery or if cancer comes back after being treated.",
+        "It uses high-energy rays, similar to X-rays but much stronger,  to kill cancer cells or halt their growth. External radiation therapy sends radiation to the cancer from a machine outside the body.",
+        "Chemotherapy for kidney cancer",
+        "Chemotherapy is mostly used for certain less common types of kidney cancer such as renal medullary carcinoma or collecting duct renal cell carcinoma. More common types of kidney cancer usually don't respond well to chemotherapy and are typically treated with immunotherapy and targeted drugs.",
+        "Chemotherapy uses drugs to kill cancer cells or stop them from multiplying."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "This type of targeted therapy is used in people who have kidney cancer that doesn't immediately require surgery (such as those who have von Hippel-Lindau disease) and in people who have advanced kidney cancer who were previously treated with another targeted drug therapy. HIF inhibitors work by blocking the activity of a protein known as hypoxia-inducible factor 2 alpha, which causes cancer cell growth.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Ways to combine HIF inhibitors with immune checkpoint inhibitors (a type of immunotherapy drug) for treatment are currently being conducted.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Radiation therapy for kidney cancer",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "This treatment is not typically a first-line treatment for kidney cancer. Radiation therapy is used in people who can't or don't want to have surgery or if cancer comes back after being treated.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "It uses high-energy rays, similar to X-rays but much stronger,  to kill cancer cells or halt their growth. External radiation therapy sends radiation to the cancer from a machine outside the body.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Chemotherapy for kidney cancer",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Chemotherapy is mostly used for certain less common types of kidney cancer such as renal medullary carcinoma or collecting duct renal cell carcinoma. More common types of kidney cancer usually don't respond well to chemotherapy and are typically treated with immunotherapy and targeted drugs.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Chemotherapy uses drugs to kill cancer cells or stop them from multiplying.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "How Can I Prevent Kidney Cancer?",
+      "content": [
+        "Because doctors don't know the causes of kidney cancer, it is not clear how to prevent the disease. However, certain factors are linked to kidney cancer, so you can take certain steps to lower your risk -- quit smoking , maintain a healthy weight, manage your blood pressure , and avoid being exposed to harmful chemicals."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Because doctors don't know the causes of kidney cancer, it is not clear how to prevent the disease. However, certain factors are linked to kidney cancer, so you can take certain steps to lower your risk -- quit smoking , maintain a healthy weight, manage your blood pressure , and avoid being exposed to harmful chemicals.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "How Can I Prevent Kidney Cancer?",
+      "content": [
+        "Because doctors don't know the causes of kidney cancer, it is not clear how to prevent the disease. However, certain factors are linked to kidney cancer, so you can take certain steps to lower your risk -- quit smoking , maintain a healthy weight, manage your blood pressure , and avoid being exposed to harmful chemicals."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Because doctors don't know the causes of kidney cancer, it is not clear how to prevent the disease. However, certain factors are linked to kidney cancer, so you can take certain steps to lower your risk -- quit smoking , maintain a healthy weight, manage your blood pressure , and avoid being exposed to harmful chemicals.",
+          "associated_bullets": null
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd-logo-fb.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/kristin-michell-alt-382x382.jpg?resize=51px:51px&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/biographies/nazario_brunilda_382x382.jpg?resize=51px:51px&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/MoreOn_BreastCancer.jpg?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/tocs/healthctr/FB_Group_Image/sr_condidtion_11.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [
+    "SOURCES: American Cancer Society: \"Kidney Cancer (Adult) Renal Cell Carcinoma,\" \" Targeted Drug Therapy for Kidney Cancer, \" \" Chemotherapy for Kidney Cancer .\" National Cancer Institute: \"What You Need To Know About Kidney Cancer,\" \"General Information About Renal Cell Cancer.\" American Urological Association: \"Kidney Cancer.\" Society of Interventional Radiologists: \"Interventional Radiology Treatments for Kidney Cancer.\"",
+    "Cancers (Basel) : \" Novel Approaches with HIF-2α Targeted Therapies in Metastatic Renal Cell Carcinoma. \""
+  ],
+  "meta_description": "Learn more from WebMD about kidney cancer, including types, diagnosis, stages, treatment, and risk factors.",
+  "canonical_url": "https://www.webmd.com/cancer/understanding-kidney-cancer",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:46:15.769882Z"
+}

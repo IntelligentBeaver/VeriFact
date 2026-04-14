@@ -1,0 +1,249 @@
+{
+  "question": "Mosquito causes dengue",
+  "answer": "Conclusion: Mosquitoes are associated with the transmission of dengue.\n\nEvidence: [Source 1], [Source 2], [Source 3], [Source 5] all mention that mosquitoes can become infected with the virus after biting DENV-infected individuals and then pass the virus onto other individuals, making them capable of spreading the dengue virus within households and in the neighborhood.",
+  "sources": [
+    {
+      "id": 1,
+      "title": "Dengue - Bangladesh",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON481",
+      "score": 0.9548815611331599
+    },
+    {
+      "id": 2,
+      "title": "Dengue outbreak and response in Bangladesh",
+      "url": "https://www.who.int/news-room/feature-stories/detail/dengue-outbreak-and-response-in-bangladesh-2023",
+      "score": 0.9526998895357542
+    },
+    {
+      "id": 3,
+      "title": "Dengue - Nepal",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON412",
+      "score": 0.9370567347570716
+    },
+    {
+      "id": 4,
+      "title": "Dengue Fever",
+      "url": "https://www.webmd.com/a-to-z-guides/dengue-fever-reference",
+      "score": 0.9347702794608292
+    },
+    {
+      "id": 5,
+      "title": "Dengue - Bangladesh",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON424",
+      "score": 0.9344384234750447
+    }
+  ],
+  "raw_results": [
+    {
+      "passage": {
+        "passage_id": "0430e0adec0d38d0e05a920945f27f8f38c79c10_s5_b0",
+        "doc_id": "0430e0adec0d38d0e05a920945f27f8f38c79c10",
+        "section_heading": "WHO advice",
+        "block_index": 0,
+        "text": "The proximity of mosquito vector breeding sites to human habitation is a significant risk factor for\u00a0dengue virus infection. Aedes species mosquitoes can become infected with the virus after biting\u00a0DENV-infected individuals and then pass the virus onto other individuals within the vicinity. This cycle, therefore, makes the infective mosquito capable of spreading the dengue virus within households and in the neighbourhood, leading to clusters of cases.",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON481",
+        "title": "Dengue - Bangladesh",
+        "published_date": "2023-08-11",
+        "scrape_timestamp_utc": null,
+        "author": "WHO",
+        "medically_reviewed_by": "World Health Organization (WHO)",
+        "sources": "(See all DONs related to this event,https://www.who.int/emergencies/emergency-events/item/2022-e000427), (Read more about Dengue and severe dengue,https://www.who.int/health-topics/dengue-and-severe-dengue), (The fourth edition of the National Guideline for      Clinical Management of Dengue Syndrome,https://old.dghs.gov.bd/images/docs/vpr/Revised_National_Guideline_for_Clinical_Management_of_Dengue_Syndrome_2018.pdf), (https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue,https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue), (https://doi.org/10.1186/s41182-023-00528-6,https://doi.org/10.1186/s41182-023-00528-6), (https://old.dghs.gov.bd/index.php/bd/home/5200-daily-dengue-status-report,https://old.dghs.gov.bd/index.php/bd/home/5200-daily-dengue-status-report), (https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON481,https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON481)",
+        "location": null,
+        "tags": [
+          "WHO",
+          "Disease Outbreak",
+          "Dengue - Bangladesh"
+        ],
+        "domain_tier": "gold"
+      },
+      "rrf_score": 0.012461300309597523,
+      "faiss_score": 0.7333871126174927,
+      "es_score": 29.146427,
+      "faiss_rank": 16,
+      "es_rank": 25,
+      "cross_score": 8.016969680786133,
+      "final_score": 0.9548815611331599,
+      "domain_tier": "gold",
+      "scores": {
+        "faiss": 0.7333871126174927,
+        "cross_encoder": 0.9996702907803002,
+        "entity_match": 0.5,
+        "lexical": 0.6666666666666666,
+        "domain": 1.0,
+        "freshness": 0.7
+      }
+    },
+    {
+      "passage": {
+        "passage_id": "21a03ad59bd1a0dccd77fd4925f555d41e5c80d0_s0_b1",
+        "doc_id": "21a03ad59bd1a0dccd77fd4925f555d41e5c80d0",
+        "section_heading": "Dengue outbreak and response in Bangladesh",
+        "block_index": 1,
+        "text": "The higher incidence of dengue is taking place in the context of an unusual episodic amount of rainfall, combined with\u00a0high temperatures and high humidity, which have resulted in an increased mosquito population throughout Bangladesh.",
+        "url": "https://www.who.int/news-room/feature-stories/detail/dengue-outbreak-and-response-in-bangladesh-2023",
+        "title": "Dengue outbreak and response in Bangladesh",
+        "published_date": "2023-10-26",
+        "scrape_timestamp_utc": "2026-01-29T04:47:10Z",
+        "author": "WHO",
+        "medically_reviewed_by": "World Health Organization (WHO)",
+        "sources": "(Dengue update 2023 (who.int),https://www.who.int/bangladesh/emergencies/dengue-update-2023)",
+        "location": null,
+        "tags": [
+          "WHO",
+          "Feature Story",
+          "Dengue outbreak and response in Bangladesh",
+          "Feature Story"
+        ],
+        "domain_tier": "gold"
+      },
+      "rrf_score": 0.011595547309833025,
+      "faiss_score": 0.7311754822731018,
+      "es_score": 26.919815,
+      "faiss_rank": 17,
+      "es_rank": 38,
+      "cross_score": 5.4213714599609375,
+      "final_score": 0.9526998895357542,
+      "domain_tier": "gold",
+      "scores": {
+        "faiss": 0.7311754822731018,
+        "cross_encoder": 0.9955983807520302,
+        "entity_match": 0.5,
+        "lexical": 0.6666666666666666,
+        "domain": 1.0,
+        "freshness": 0.7
+      }
+    },
+    {
+      "passage": {
+        "passage_id": "d7f6254dce03378ceaff7450cf9f5d3dfaf10deb_s5_b0",
+        "doc_id": "d7f6254dce03378ceaff7450cf9f5d3dfaf10deb",
+        "section_heading": "WHO advice",
+        "block_index": 0,
+        "text": "The proximity of mosquito vector breeding sites to human habitation is a significant risk factor for dengue virus infection.\u00a0 Although dengue does not spread from human to human, mosquitoes can become infected after biting infected individuals. This cycle, therefore, makes the infected mosquito capable of spreading the dengue virus among households and in the neighbourhood, leading to clusters of cases.",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON412",
+        "title": "Dengue - Nepal",
+        "published_date": "2022-10-10",
+        "scrape_timestamp_utc": null,
+        "author": "WHO",
+        "medically_reviewed_by": "World Health Organization (WHO)",
+        "sources": "(See all DONs related to this event,https://www.who.int/emergencies/emergency-events/item/2022-e000345), (Read more about Dengue and severe dengue,https://www.who.int/health-topics/dengue-and-severe-dengue), (WHO factsheet: Dengue and severe dengue,https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue), (WHO Q&A: Dengue and severe dengue,https://www.who.int/news-room/questions-and-answers/item/dengue-and-severe-dengue), (WHO Health topics: Dengue and severe dengue,https://www.who.int/health-topics/dengue-and-severe-dengue), (WHO Dengue control strategies,http://origin.who.int/denguecontrol/control_strategies/en/), (Global Strategy for dengue prevention and control,      2012\u20132020,http://origin.who.int/denguecontrol/resources/9789241504034/en/), (Strong country capacity, improved tools and community engagement critical to enhancing dengue prevention and control,https://www.who.int/news-room/detail/14-11-2019-strong-country-capacity-improved-tools-and-community-engagement-critical-to-enhancing-dengue-prevention-and-control), (https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON412,https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON412)",
+        "location": null,
+        "tags": [
+          "WHO",
+          "Disease Outbreak",
+          "Dengue - Nepal"
+        ],
+        "domain_tier": "gold"
+      },
+      "rrf_score": 0.013599853961299745,
+      "faiss_score": 0.7224545478820801,
+      "es_score": 32.60505,
+      "faiss_rank": 23,
+      "es_rank": 6,
+      "cross_score": 7.488941192626953,
+      "final_score": 0.9370567347570716,
+      "domain_tier": "gold",
+      "scores": {
+        "faiss": 0.7224545478820801,
+        "cross_encoder": 0.9994410777997123,
+        "entity_match": 0.5,
+        "lexical": 0.6666666666666666,
+        "domain": 1.0,
+        "freshness": 0.4
+      }
+    },
+    {
+      "passage": {
+        "passage_id": "3b263cf4bebefd02cc9307396b41bf105535d5a8_s22_b0",
+        "doc_id": "3b263cf4bebefd02cc9307396b41bf105535d5a8",
+        "section_heading": "Takeaways",
+        "block_index": 0,
+        "text": "Dengue fever is a viral illness that mosquitoes spread in tropical areas of the world. The virus causes symptoms such as a high fever and painful headaches. Dengue fever is often mild and manageable at home with rest, pain relievers, and extra fluids. Severe cases may need treatment in a hospital.",
+        "url": "https://www.webmd.com/a-to-z-guides/dengue-fever-reference",
+        "title": "Dengue Fever",
+        "published_date": "2024-10-22",
+        "scrape_timestamp_utc": "2026-01-22T16:09:43.807020Z",
+        "author": "Stephanie Watson",
+        "medically_reviewed_by": "Poonam  Sachdev",
+        "sources": [
+          "CDC: \u201cAbout a Dengue Vaccine,\u201d \u201cClinical Features of Dengue,\u201d \u201cData and Statistics on Dengue in the United States,\u201d \u201cDengue: Frequently Asked Questions,\u201d \u201cDengue: Prevention,\u201d \u201cHow Dengue Spreads,\u201d \u201cHow Malaria Spreads,\u201d \u201cMolecular Tests for Dengue Virus,\u201d \u201cSerologic Tests for Dengue Virus,\u201d \u201cWhy is Dengue a Global Issue?\u201d",
+          "Cleveland Clinic: \u201cDengue Fever.\u201d",
+          "Cureus: \u201cDengue Fever: Prognostic Insights From a Complete Blood Count.\u201d",
+          "Directors of Health Promotion and Education: \u201cDengue.\u201d",
+          "Florida Department of Health: \u201cDengue Fever.\u201d",
+          "Johns Hopkins Medicine: \u201cDengue Fever.\u201d",
+          "Mayo Clinic: \u201cDengue Fever.\u201d",
+          "National Library of Medicine: \u201cDengue Fever Test.\u201d",
+          "Nature: \u201cDengue Viruses.\u201d",
+          "StatPearls: \u201cDengue Fever.\u201d",
+          "Target Malaria: \u201cMalaria vs. Dengue: What are the Similarities and Differences?\u201d",
+          "The Journal of Clinical Investigation: \u201cTV005 Dengue Vaccine Protects Against Dengue Serotypes 2 and 3 in Two Controlled Human Infection Studies.\u201d",
+          "University of Alabama at Birmingham Medicine: \u201cDengue Fever.\u201d",
+          "University of Florida IFAS Extension: \u201cWhat is Dengue?\u201d",
+          "World Health Organization: \u201cDengue and Severe Dengue,\u201d \u201cMalaria,\u201d \u201cVaccines and Immunization: Dengue.\u201d"
+        ],
+        "location": null,
+        "tags": [
+          "Health Topics",
+          "WebMD"
+        ],
+        "domain_tier": "silver"
+      },
+      "rrf_score": 0.010763888888888889,
+      "faiss_score": 0.7137402296066284,
+      "es_score": 28.227627,
+      "faiss_rank": 36,
+      "es_rank": 30,
+      "cross_score": 7.094930171966553,
+      "final_score": 0.9347702794608292,
+      "domain_tier": "silver",
+      "scores": {
+        "faiss": 0.7137402296066284,
+        "cross_encoder": 0.9991713884812635,
+        "entity_match": 0.5,
+        "lexical": 0.6666666666666666,
+        "domain": 0.85,
+        "freshness": 0.7
+      }
+    },
+    {
+      "passage": {
+        "passage_id": "cc32bf2687ddbee64eec7f3343d6f57d419e0ad1_s5_b0",
+        "doc_id": "cc32bf2687ddbee64eec7f3343d6f57d419e0ad1",
+        "section_heading": "WHO advice",
+        "block_index": 0,
+        "text": "The proximity of mosquito vector breeding sites to human habitation is a significant risk factor for dengue virus infection. Although dengue does not directly spread from human-to-human, Aedes species mosquitoes can become infected after biting dengue-infected individuals, thus creating a cycle of transmission capable of spreading dengue and leading to clusters of cases.",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON424",
+        "title": "Dengue - Bangladesh",
+        "published_date": "2022-11-28",
+        "scrape_timestamp_utc": null,
+        "author": "WHO",
+        "medically_reviewed_by": "World Health Organization (WHO)",
+        "sources": "(See all DONs related to this event,https://www.who.int/emergencies/emergency-events/item/2022-e000427), (Read more about Dengue and severe dengue,https://www.who.int/health-topics/dengue-and-severe-dengue), (WHO factsheet:      Dengue and severe dengue,https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue), (WHO Q&A:      Dengue and severe dengue,https://www.who.int/news-room/questions-and-answers/item/dengue-and-severe-dengue), (WHO Health      topics: Dengue and severe dengue,https://www.who.int/health-topics/dengue-and-severe-dengue), (Global Strategy for dengue prevention and control, 2012\u20132020,https://www.who.int/publications/i/item/9789241504034), (Strong country capacity, improved      tools and community engagement critical to enhancing dengue prevention and      control,https://www.who.int/news-room/detail/14-11-2019-strong-country-capacity-improved-tools-and-community-engagement-critical-to-enhancing-dengue-prevention-and-control), (WHO Manual for monitoring insecticide resistance in mosquito vectors 22 June      2022.,https://www.who.int/publications/i/item/9789240051089), (Directorate General of health      services (DGHS) Bangladesh, dengue daily situation report,https://old.dghs.gov.bd/index.php/bd/home/5200-daily-dengue-status-report), (https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON424,https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON424)",
+        "location": null,
+        "tags": [
+          "WHO",
+          "Disease Outbreak",
+          "Dengue - Bangladesh"
+        ],
+        "domain_tier": "gold"
+      },
+      "rrf_score": 0.011024096385542168,
+      "faiss_score": 0.7118428349494934,
+      "es_score": 29.631624,
+      "faiss_rank": 40,
+      "es_rank": 23,
+      "cross_score": 7.657254695892334,
+      "final_score": 0.9344384234750447,
+      "domain_tier": "gold",
+      "scores": {
+        "faiss": 0.7118428349494934,
+        "cross_encoder": 0.9995276201775116,
+        "entity_match": 0.5,
+        "lexical": 0.6666666666666666,
+        "domain": 1.0,
+        "freshness": 0.4
+      }
+    }
+  ]
+}

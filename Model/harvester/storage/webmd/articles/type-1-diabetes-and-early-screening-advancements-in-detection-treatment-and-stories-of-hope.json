@@ -1,0 +1,617 @@
+{
+  "url": "https://www.webmd.com/podcasts/20241031/type-1-diabetes-and-early-screening-advancements-in-detection-treatment-and-stories-of-hope",
+  "title": "Type 1 Diabetes and Early Screening: Advances in Detection, Treatment, and Stories of Hope",
+  "slug": "type-1-diabetes-and-early-screening-advancements-in-detection-treatment-and-stories-of-hope",
+  "published_date": "",
+  "first_letter": "T",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": null,
+      "content_blocks": []
+    },
+    {
+      "heading": null,
+      "content": [
+        "Oct. 31, 2024 -- Type 1 diabetes can develop at any age, making early screening crucial for those at risk. But how do we know who is at risk? When should we screen? And what steps can we take to protect ourselves and our loved ones? In this episode, we spoke with Jeremy Pettus, MD , a board-certified endocrinologist specializing in treating diabetes and host of the Taking Control of Your Diabetes podcast , about diagnostic methods, such as blood sugar and A1C tests, the crucial role of early detection, screening recommendations, advancements in diabetes management, and his hope for the future of stem cell therapies. We also hear a powerful story from Samara, known as theT1Dmama on YouTube, about her daughter Addie’s diagnosis of type 1 diabetes."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Oct. 31, 2024 -- Type 1 diabetes can develop at any age, making early screening crucial for those at risk. But how do we know who is at risk? When should we screen? And what steps can we take to protect ourselves and our loved ones? In this episode, we spoke with Jeremy Pettus, MD , a board-certified endocrinologist specializing in treating diabetes and host of the Taking Control of Your Diabetes podcast , about diagnostic methods, such as blood sugar and A1C tests, the crucial role of early detection, screening recommendations, advancements in diabetes management, and his hope for the future of stem cell therapies. We also hear a powerful story from Samara, known as theT1Dmama on YouTube, about her daughter Addie’s diagnosis of type 1 diabetes.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Samara:",
+      "content": [
+        "My daughter Addie, a couple months after her first birthday, I noticed that she was eating more and she was really thirsty. But as a mom, I just was like, \"Oh, maybe it's a growth spurt.\" And then she started vomiting. At this time, we were doing the transition from breast milk and formula to cow's milk. I was just thinking maybe she's allergic to milk, maybe she's having a bad reaction. And this was during peak COVID time, we weren't going anywhere. So when she got sick, I was really confused. It was when her breathing started to get labored, I was really, really concerned. When I got to the hospital, they told me quickly her blood sugar was in the high 600s. They explained [inaudible 00:00:52] GKA, which is diabetic ketoacidosis, and they explained that it's looking like diabetes. I thought she had COVID."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "My daughter Addie, a couple months after her first birthday, I noticed that she was eating more and she was really thirsty. But as a mom, I just was like, \"Oh, maybe it's a growth spurt.\" And then she started vomiting. At this time, we were doing the transition from breast milk and formula to cow's milk. I was just thinking maybe she's allergic to milk, maybe she's having a bad reaction. And this was during peak COVID time, we weren't going anywhere. So when she got sick, I was really confused. It was when her breathing started to get labored, I was really, really concerned. When I got to the hospital, they told me quickly her blood sugar was in the high 600s. They explained [inaudible 00:00:52] GKA, which is diabetic ketoacidosis, and they explained that it's looking like diabetes. I thought she had COVID.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "John Whyte, MD, MPH:",
+      "content": [
+        "Today on a special episode of Health Discovered we take a closer look at diabetes.",
+        "Samara: I was so confused. I had no idea that babies or children could get diagnosed at that age. I really was like, \"Diabetes is an adult disease.\" I was just so blindsided.",
+        "Whyte: While type 2 diabetes is most closely associated with affecting older adults, type 1 can present at any age."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Today on a special episode of Health Discovered we take a closer look at diabetes.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Samara: I was so confused. I had no idea that babies or children could get diagnosed at that age. I really was like, \"Diabetes is an adult disease.\" I was just so blindsided.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte: While type 2 diabetes is most closely associated with affecting older adults, type 1 can present at any age.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Samara:",
+      "content": [
+        "They did ask us if we had any family history and I told them no, I knew no one, no one else. Not even in my personal life, friends or coworkers. I didn't know anyone who had type 1 diabetes.",
+        "Whyte: This fact, combined with advances in treatment that can significantly delay the onset of type 1 diabetes, has placed a newfound importance on early screening.",
+        "Samara: In the background, me and her dad are learning about type 1 and they're telling us, \"This is how you're going to manage it at home. These are the meds she's going to have to take.\" And we're just getting an overload of information. Our life, it revolves around type 1 diabetes sometimes. Now, being three years in, it has gotten easier, and we have more tools at our disposal. Having a plan and knowing how to deal with that has really helped us."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "They did ask us if we had any family history and I told them no, I knew no one, no one else. Not even in my personal life, friends or coworkers. I didn't know anyone who had type 1 diabetes.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte: This fact, combined with advances in treatment that can significantly delay the onset of type 1 diabetes, has placed a newfound importance on early screening.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Samara: In the background, me and her dad are learning about type 1 and they're telling us, \"This is how you're going to manage it at home. These are the meds she's going to have to take.\" And we're just getting an overload of information. Our life, it revolves around type 1 diabetes sometimes. Now, being three years in, it has gotten easier, and we have more tools at our disposal. Having a plan and knowing how to deal with that has really helped us.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Whyte:",
+      "content": [
+        "So who is at risk? When should we screen? And what can we do to ensure we're best protecting our families and ourselves? The answers when Health Discovered returns from a short break.",
+        "Dr Pettus, thanks again for doing this. Always appreciate the time.",
+        "Jeremy Pettus, MD: Thanks for rescheduling.",
+        "Whyte: To get a better understanding of diabetes itself, who's at risk, and how it's diagnosed, we wanted to talk to Dr Jeremy Pettus.",
+        "Pettus: Hi everybody. My name is Dr Jeremy Pettus, I am an Associate Professor of Medicine at the University of California, San Diego, where I do a lot of clinical trials and clinical research in type 1 diabetes. And I also work for a not-for-profit organization called Taking Control of Your Diabetes or TCOID. We have a website with free videos for patients and our own podcast.",
+        "Whyte: Now, you were diagnosed with type 1 diabetes when you were 15. What was that like and did that impact why you chose being a physician?",
+        "Pettus: Yeah, absolutely. It was literally life-changing. I went from, it seemed like overnight, a happy, healthy 15-year-old kid to very quickly getting symptoms of diabetes, which I was very thirsty, I had to go to the bathroom all the time. And I was losing weight, and before I knew it, I had to go to the hospital and was diagnosed with this lifelong chronic condition. Again, when you're 15, you think, \"Well, I'll go to the doctor, I'll get better and get on with my life.\" But being told that this is something that I'm going to be living with forever was, like I said, was life-changing, but I really tried to make something positive out of it."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "So who is at risk? When should we screen? And what can we do to ensure we're best protecting our families and ourselves? The answers when Health Discovered returns from a short break.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Dr Pettus, thanks again for doing this. Always appreciate the time.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeremy Pettus, MD: Thanks for rescheduling.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte: To get a better understanding of diabetes itself, who's at risk, and how it's diagnosed, we wanted to talk to Dr Jeremy Pettus.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pettus: Hi everybody. My name is Dr Jeremy Pettus, I am an Associate Professor of Medicine at the University of California, San Diego, where I do a lot of clinical trials and clinical research in type 1 diabetes. And I also work for a not-for-profit organization called Taking Control of Your Diabetes or TCOID. We have a website with free videos for patients and our own podcast.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte: Now, you were diagnosed with type 1 diabetes when you were 15. What was that like and did that impact why you chose being a physician?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pettus: Yeah, absolutely. It was literally life-changing. I went from, it seemed like overnight, a happy, healthy 15-year-old kid to very quickly getting symptoms of diabetes, which I was very thirsty, I had to go to the bathroom all the time. And I was losing weight, and before I knew it, I had to go to the hospital and was diagnosed with this lifelong chronic condition. Again, when you're 15, you think, \"Well, I'll go to the doctor, I'll get better and get on with my life.\" But being told that this is something that I'm going to be living with forever was, like I said, was life-changing, but I really tried to make something positive out of it.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "And being exposed to the medical field so early in life, and with my own disease, my own condition, it really did compel me to go into medicine and then eventually endocrinology. And now as a type 1 diabetes specialist to treat other people living with this disease, and to do research in it to hopefully one day prevent it entirely, let's say maybe even cure it one day. But obviously this has been a huge passion of mine since I was basically a kid.",
+        "Whyte : We hear a lot about the word diabetes, but there are different types, primarily type 1 and type 2. For you we're talking about type 1. Can you remind our audience the difference between type 1 and type 2?",
+        "Pettus : Sure. So yes, broadly speaking, there's two different types. Type 1, type 2, conveniently named. The vast majority of people in the world, in the United States, have type 2 diabetes, about 90% of everybody with diabetes has type 2. And type 2 tends to be later in life. When I say later, it means not kids. So people in their 50s, 60s. It's associated with weight gain, obesity, insulin resistance, and people take medications to improve how well the insulin is working in their body to help control their blood sugars. They can take medicines like these GLP-1 drugs that we see on TV all the time to help lose weight.",
+        "It's very different than type 1 diabetes. And type 1, we used to call it juvenile diabetes. We know now that you can actually get it at any age so we don't use that term as much anymore, but type 1 is completely different. And what happens there is it's an autoimmune disease, so people might know that term. There's lots of other autoimmune diseases, thyroid conditions, rheumatoid arthritis, lupus, inflammatory bowel disease. So what happens in any autoimmune disease is the immune system, which is the system that normally keeps us healthy, kills the bacteria and viruses, it goes awry. And it identifies the beta cells of the pancreas, those are the very special cells that make insulin, and identifies them as foreign. And we don't know why."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "And being exposed to the medical field so early in life, and with my own disease, my own condition, it really did compel me to go into medicine and then eventually endocrinology. And now as a type 1 diabetes specialist to treat other people living with this disease, and to do research in it to hopefully one day prevent it entirely, let's say maybe even cure it one day. But obviously this has been a huge passion of mine since I was basically a kid.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : We hear a lot about the word diabetes, but there are different types, primarily type 1 and type 2. For you we're talking about type 1. Can you remind our audience the difference between type 1 and type 2?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pettus : Sure. So yes, broadly speaking, there's two different types. Type 1, type 2, conveniently named. The vast majority of people in the world, in the United States, have type 2 diabetes, about 90% of everybody with diabetes has type 2. And type 2 tends to be later in life. When I say later, it means not kids. So people in their 50s, 60s. It's associated with weight gain, obesity, insulin resistance, and people take medications to improve how well the insulin is working in their body to help control their blood sugars. They can take medicines like these GLP-1 drugs that we see on TV all the time to help lose weight.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "It's very different than type 1 diabetes. And type 1, we used to call it juvenile diabetes. We know now that you can actually get it at any age so we don't use that term as much anymore, but type 1 is completely different. And what happens there is it's an autoimmune disease, so people might know that term. There's lots of other autoimmune diseases, thyroid conditions, rheumatoid arthritis, lupus, inflammatory bowel disease. So what happens in any autoimmune disease is the immune system, which is the system that normally keeps us healthy, kills the bacteria and viruses, it goes awry. And it identifies the beta cells of the pancreas, those are the very special cells that make insulin, and identifies them as foreign. And we don't know why.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "But it starts attacking and destroying them just like it would a virus or a bacteria. And this process, we don't know what triggers it, it can go on for years before somebody is diagnosed, their blood sugars become elevated. So I said, for example, that I was diagnosed when I was 15, that's when my blood sugars became really high. But this immune process likely started when I was 10, 11, sometime many years before and I just didn't know about it. And once you get down to only about 10% of your beta cells that are left, that's when you develop the symptoms of high blood sugars, you need to go to the hospital, those kinds of things.",
+        "So it really is different because it is an autoimmune disease, that changes how we treat it. Because I don't have insulin producing cells, I need insulin for the rest of my life. And everybody with type 1 diabetes, that's the treatment. And then when we think about how we might cure it or prevent it, it is along the lines of addressing the immune system versus again, in type 2 diabetes we're focusing on weight and insulin sensitivity."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "But it starts attacking and destroying them just like it would a virus or a bacteria. And this process, we don't know what triggers it, it can go on for years before somebody is diagnosed, their blood sugars become elevated. So I said, for example, that I was diagnosed when I was 15, that's when my blood sugars became really high. But this immune process likely started when I was 10, 11, sometime many years before and I just didn't know about it. And once you get down to only about 10% of your beta cells that are left, that's when you develop the symptoms of high blood sugars, you need to go to the hospital, those kinds of things.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So it really is different because it is an autoimmune disease, that changes how we treat it. Because I don't have insulin producing cells, I need insulin for the rest of my life. And everybody with type 1 diabetes, that's the treatment. And then when we think about how we might cure it or prevent it, it is along the lines of addressing the immune system versus again, in type 2 diabetes we're focusing on weight and insulin sensitivity.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Whyte",
+      "content": [
+        ": You mentioned some of the symptoms you were having. You were thirsty a lot, eating a lot, urinating a lot. But how do we diagnose type 1 diabetes? It's more than just a blood sugar, isn't it?",
+        "Pettus : Yeah, so there's a couple ways. So you could start with a blood sugar, and in my case actually when I went into the hospital, it was around 800. It was literally off the chart and so high when people with type 1 get first diagnosed. But a blood sugar, if you do a finger stick at home or if you do go to the lab and get a glucose, that tells you what your blood sugar is right that second, which is helpful information. But another piece of information is the A1c test, and everybody who has diabetes or knows somebody with diabetes probably knows what that test is, and it's a reflection of what your blood sugars have been doing over the last two to three months. So it gives you not just what's going on that second, but again, kind of a report card over the last several months. So getting your blood sugar tested, getting your A1c, those are the two main tests we use to diagnose diabetes."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": You mentioned some of the symptoms you were having. You were thirsty a lot, eating a lot, urinating a lot. But how do we diagnose type 1 diabetes? It's more than just a blood sugar, isn't it?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pettus : Yeah, so there's a couple ways. So you could start with a blood sugar, and in my case actually when I went into the hospital, it was around 800. It was literally off the chart and so high when people with type 1 get first diagnosed. But a blood sugar, if you do a finger stick at home or if you do go to the lab and get a glucose, that tells you what your blood sugar is right that second, which is helpful information. But another piece of information is the A1c test, and everybody who has diabetes or knows somebody with diabetes probably knows what that test is, and it's a reflection of what your blood sugars have been doing over the last two to three months. So it gives you not just what's going on that second, but again, kind of a report card over the last several months. So getting your blood sugar tested, getting your A1c, those are the two main tests we use to diagnose diabetes.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Whyte",
+      "content": [
+        ": But there were some additional tests, aren't there, that we've learned over the past few years. You mentioned how it's an autoimmune disease. Can you talk about some of those tests that people might've heard of or perhaps they want to ask their doctor about?",
+        "Pettus : Absolutely. So when I was talking about blood sugars, that's when it's late in the game. Your blood sugar's already elevated, and I just told you that this process in myself was probably going on since I was 10 years old. Well, gosh, wouldn't it be nice to know that this immune process was going on even when my blood sugars were normal? And so we now have, and we've actually had for a number of years, these tests that we call autoantibodies. And there's generally about five of them that we test and they have very complicated scientific names, but basically when any of these antibodies become positive, it's an indication that the immune process has been activated. You may not have high blood sugars yet, but this immune process is going on."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": But there were some additional tests, aren't there, that we've learned over the past few years. You mentioned how it's an autoimmune disease. Can you talk about some of those tests that people might've heard of or perhaps they want to ask their doctor about?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pettus : Absolutely. So when I was talking about blood sugars, that's when it's late in the game. Your blood sugar's already elevated, and I just told you that this process in myself was probably going on since I was 10 years old. Well, gosh, wouldn't it be nice to know that this immune process was going on even when my blood sugars were normal? And so we now have, and we've actually had for a number of years, these tests that we call autoantibodies. And there's generally about five of them that we test and they have very complicated scientific names, but basically when any of these antibodies become positive, it's an indication that the immune process has been activated. You may not have high blood sugars yet, but this immune process is going on.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "So it's a way that we have now to identify people that might be at risk of getting type 1 diabetes, of having high blood sugars. So again, to use myself as an example, if I tested these antibodies when I was 10 or 11, they very likely would've been elevated, and it would've been a sign that, \"Hey, look, there's a good chance that you're going to develop type 1 diabetes in the next several years.\" We can at least do education about what the signs and symptoms are. And now we actually have a medication available, that's the first that we've ever had approved in type 1 diabetes, to potentially delay the onset of getting high blood sugars.",
+        "Whyte : So who do we screen and how, because you mentioned a simple blood sugar is just going to tell your doctor how you're doing at that point in time. What's the screening recommendations, particularly for kids as well as parents?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "So it's a way that we have now to identify people that might be at risk of getting type 1 diabetes, of having high blood sugars. So again, to use myself as an example, if I tested these antibodies when I was 10 or 11, they very likely would've been elevated, and it would've been a sign that, \"Hey, look, there's a good chance that you're going to develop type 1 diabetes in the next several years.\" We can at least do education about what the signs and symptoms are. And now we actually have a medication available, that's the first that we've ever had approved in type 1 diabetes, to potentially delay the onset of getting high blood sugars.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : So who do we screen and how, because you mentioned a simple blood sugar is just going to tell your doctor how you're doing at that point in time. What's the screening recommendations, particularly for kids as well as parents?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Pettus",
+      "content": [
+        ": These are the questions, who do we screen? What do we do about it? So we're starting with screening or recommending, screening anybody that has a family history of type 1 diabetes. For example, I have two young boys, getting them screened, which I have done, my brother's sister, even my parents, because I said you can get type 1 at any age. So if you're listening and you have a relative with type 1 diabetes, or you have type 1, you should recommend to your family members to get screened. And how to do that. Well, there's a number of ways that you can do that. So you can go to your doctor and say, \"I want to get these labs ordered.\" They are covered by insurance. They are a little unfamiliar, so there's a potential that your doctor might not know what they are.",
+        "So I recommend that people go to a website called TrialNet, TrialNet.org, and what this is is it's a giant research study throughout the country that is looking at these antibodies to see how early we can catch people when they're at risk, what kind of interventions can we do? And if you go on the website, fill out information, they'll actually send you a kit to do at home where you can just essentially prick your finger and put some blood on a card and send it back in. Usually for free, because this is under the research umbrella. And that's a great way to get screened. So you can give your family, friends that website to do that.",
+        "Whyte : And as you said, they can talk to their doctor as well. And you mentioned about family history. So in some ways that makes sense, if someone in your family has it, a sibling, a parent, it makes good sense to have other family members tested. But at the top, we heard from Samara whose child was diagnosed with type 1 diabetes without a family history. So with that in mind, does it make sense to screen for type 1 diabetes even without a family history?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": These are the questions, who do we screen? What do we do about it? So we're starting with screening or recommending, screening anybody that has a family history of type 1 diabetes. For example, I have two young boys, getting them screened, which I have done, my brother's sister, even my parents, because I said you can get type 1 at any age. So if you're listening and you have a relative with type 1 diabetes, or you have type 1, you should recommend to your family members to get screened. And how to do that. Well, there's a number of ways that you can do that. So you can go to your doctor and say, \"I want to get these labs ordered.\" They are covered by insurance. They are a little unfamiliar, so there's a potential that your doctor might not know what they are.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So I recommend that people go to a website called TrialNet, TrialNet.org, and what this is is it's a giant research study throughout the country that is looking at these antibodies to see how early we can catch people when they're at risk, what kind of interventions can we do? And if you go on the website, fill out information, they'll actually send you a kit to do at home where you can just essentially prick your finger and put some blood on a card and send it back in. Usually for free, because this is under the research umbrella. And that's a great way to get screened. So you can give your family, friends that website to do that.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : And as you said, they can talk to their doctor as well. And you mentioned about family history. So in some ways that makes sense, if someone in your family has it, a sibling, a parent, it makes good sense to have other family members tested. But at the top, we heard from Samara whose child was diagnosed with type 1 diabetes without a family history. So with that in mind, does it make sense to screen for type 1 diabetes even without a family history?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Pettus",
+      "content": [
+        ": Yeah, so here's the rub. So people that have a family history have about a tenfold increased risk of getting type 1 diabetes. But so let me put some specific numbers there. Of every child that's born in the United States, there's about a half a percent chance that they will develop type 1, very low. If you have a mother or a father with type 1 diabetes, that risk goes up about tenfold, so meaning about 5%. Or what I like to tell the parents is there's a 95% chance your child won't get type 1.",
+        "So we know that having a family history increases your risk, but the vast majority of people living with type 1 have no family history, myself included. Nobody else in my family has type 1. So we say let's start with people with a family history because they're at the highest risk, that's the lowest hanging fruit, if you will, of where to start. But in order to truly move the needle and find all the people that are at risk for type 1, we eventually do need to move to some kind of mandatory screening at certain ages."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": Yeah, so here's the rub. So people that have a family history have about a tenfold increased risk of getting type 1 diabetes. But so let me put some specific numbers there. Of every child that's born in the United States, there's about a half a percent chance that they will develop type 1, very low. If you have a mother or a father with type 1 diabetes, that risk goes up about tenfold, so meaning about 5%. Or what I like to tell the parents is there's a 95% chance your child won't get type 1.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So we know that having a family history increases your risk, but the vast majority of people living with type 1 have no family history, myself included. Nobody else in my family has type 1. So we say let's start with people with a family history because they're at the highest risk, that's the lowest hanging fruit, if you will, of where to start. But in order to truly move the needle and find all the people that are at risk for type 1, we eventually do need to move to some kind of mandatory screening at certain ages.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Other countries, Italy for example, has already started implementing this. They passed a law that at a certain age, they're working out the details, every child will be screened. So we're not there yet in the US, there's obviously a lot of logistics to work out, but I imagine one day in the not too distant future, this will be part of the routine pediatric care. We screen for cystic fibrosis and these other things, and we'll add eventually I think type 1 diabetes to that list, but we just haven't done that yet.",
+        "Whyte : Now, what I thought was very interesting is that you had mentioned a few minutes ago about how you had these symptoms when you were 15, but what was going on with your pancreas in your body was happening much sooner. So if we could screen for that and determine earlier on what's happening, perhaps we could do something about treatment. So talk to us about the impact that early screening might have on treatment."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Other countries, Italy for example, has already started implementing this. They passed a law that at a certain age, they're working out the details, every child will be screened. So we're not there yet in the US, there's obviously a lot of logistics to work out, but I imagine one day in the not too distant future, this will be part of the routine pediatric care. We screen for cystic fibrosis and these other things, and we'll add eventually I think type 1 diabetes to that list, but we just haven't done that yet.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : Now, what I thought was very interesting is that you had mentioned a few minutes ago about how you had these symptoms when you were 15, but what was going on with your pancreas in your body was happening much sooner. So if we could screen for that and determine earlier on what's happening, perhaps we could do something about treatment. So talk to us about the impact that early screening might have on treatment.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Pettus",
+      "content": [
+        ": Yeah, well that's another great question. So early screening can do a couple things.",
+        "Whyte : We'll be back with Dr Pettus's answer in a moment, but before we go to a quick break, a few more words from Samara on her family's journey.",
+        "Samara : So I started a YouTube page, the T1DMama, to share our family's journey in Addie's life with type 1 diabetes. It just started out as me sharing what my daughter and our family is going through at the moment with our close family and friends, and then I posted on TikTok and people had questions. And they're like, \"Well, what is she wearing? How does she have diabetes, she's so little?\" And I'm just like, \"Oh, you guys didn't know that kids can get diabetes, let me tell you.\" People have been really receptive to it, and there has been more importantly a need for that information. I can't tell you how many parents have messaged me or emailed me and said, \"I had suspicions about my child and then I saw your video, and I talked to the pediatrician and turns out they had diabetes.\""
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": Yeah, well that's another great question. So early screening can do a couple things.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : We'll be back with Dr Pettus's answer in a moment, but before we go to a quick break, a few more words from Samara on her family's journey.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Samara : So I started a YouTube page, the T1DMama, to share our family's journey in Addie's life with type 1 diabetes. It just started out as me sharing what my daughter and our family is going through at the moment with our close family and friends, and then I posted on TikTok and people had questions. And they're like, \"Well, what is she wearing? How does she have diabetes, she's so little?\" And I'm just like, \"Oh, you guys didn't know that kids can get diabetes, let me tell you.\" People have been really receptive to it, and there has been more importantly a need for that information. I can't tell you how many parents have messaged me or emailed me and said, \"I had suspicions about my child and then I saw your video, and I talked to the pediatrician and turns out they had diabetes.\"",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "For me, that's just amazing, because other parents, other families won't have to experience what we went through. I've even had people message me and say, \"I've had diabetes for 30 years, and Addie's inspired me to finally get a CGM,\" things like that. And so I'm just like, \"Wow, she's 1-year-old and inspiring people.\"",
+        "Whyte : So right before the break, Dr Pettus, I asked you what type 1 diabetes treatment looks like today. So please, continue.",
+        "Pettus : Sure. So let's say you screen a child and they have their antibodies positive, you know that they're at risk of developing type 1. And again, to be specific, once you have two of these antibodies that are positive, your risk of getting high blood sugars or developing type 1 in the next five years is now 50%. So it's gone up to be a pretty high, pretty significant risk. And the very least what you can do is provide education. So when I went to the hospital, it came out of nowhere, my blood sugar was through the roof. That's what we call diabetic ketoacidosis. And it's a potentially life-threatening condition."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "For me, that's just amazing, because other parents, other families won't have to experience what we went through. I've even had people message me and say, \"I've had diabetes for 30 years, and Addie's inspired me to finally get a CGM,\" things like that. And so I'm just like, \"Wow, she's 1-year-old and inspiring people.\"",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : So right before the break, Dr Pettus, I asked you what type 1 diabetes treatment looks like today. So please, continue.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pettus : Sure. So let's say you screen a child and they have their antibodies positive, you know that they're at risk of developing type 1. And again, to be specific, once you have two of these antibodies that are positive, your risk of getting high blood sugars or developing type 1 in the next five years is now 50%. So it's gone up to be a pretty high, pretty significant risk. And the very least what you can do is provide education. So when I went to the hospital, it came out of nowhere, my blood sugar was through the roof. That's what we call diabetic ketoacidosis. And it's a potentially life-threatening condition.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "But if you take somebody, you screen them, you find that they're at risk, you can start educating them. You can have them maybe check their blood sugars periodically. You can catch it much, much sooner to keep them safe. So that's one potential advantage. The other is that I alluded to, there's now a medication, it's called Teplizumab, that's the generic name for it. And what it is is it's immunotherapeutic and immune modulators, another way that says that it dampens the immune system a little bit to say, \"Hey, lay off these beta cells, calm down immune system. These beta cells are not bad guys, let's leave them alone.\" And the treatment is a 14-day course. It's an IV infusion. You would have to go to an infusion center, you get infused for 30 minutes over 14 days. And that's the therapy.",
+        "And in the clinical trials, if people have gotten this infusion, it was shown to delay the onset of high blood sugars, type 1 diabetes, by about three years. So people have different views on what does that mean, three years? To me, that's a big deal."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "But if you take somebody, you screen them, you find that they're at risk, you can start educating them. You can have them maybe check their blood sugars periodically. You can catch it much, much sooner to keep them safe. So that's one potential advantage. The other is that I alluded to, there's now a medication, it's called Teplizumab, that's the generic name for it. And what it is is it's immunotherapeutic and immune modulators, another way that says that it dampens the immune system a little bit to say, \"Hey, lay off these beta cells, calm down immune system. These beta cells are not bad guys, let's leave them alone.\" And the treatment is a 14-day course. It's an IV infusion. You would have to go to an infusion center, you get infused for 30 minutes over 14 days. And that's the therapy.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And in the clinical trials, if people have gotten this infusion, it was shown to delay the onset of high blood sugars, type 1 diabetes, by about three years. So people have different views on what does that mean, three years? To me, that's a big deal.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Whyte",
+      "content": [
+        ": Sure.",
+        "Pettus : Three days without type one diabetes would be a godsend, but three years could be a lot of time for a child to develop. Being diagnosed at nine is very different than 12, not to mention all the finger pokes and insulin sticks, and highs and lows that you're not dealing with. And time for therapies to evolve. So the pump and the continuous glucose monitor that I'm using right now didn't exist a year ago, let alone three years ago. So it just buys time. But in order to use this therapy, it all goes back to screening. We need to find these people that are at risk, and once we find these antibodies, now, thankfully we have something that we can do about it.",
+        "Whyte : And you've talked about continuous glucose monitoring, and I know you're very interested in tech. And there's a lot more options today than there were say when we were growing up. So what does treatment look like for type 1 diabetes today?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": Sure.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pettus : Three days without type one diabetes would be a godsend, but three years could be a lot of time for a child to develop. Being diagnosed at nine is very different than 12, not to mention all the finger pokes and insulin sticks, and highs and lows that you're not dealing with. And time for therapies to evolve. So the pump and the continuous glucose monitor that I'm using right now didn't exist a year ago, let alone three years ago. So it just buys time. But in order to use this therapy, it all goes back to screening. We need to find these people that are at risk, and once we find these antibodies, now, thankfully we have something that we can do about it.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : And you've talked about continuous glucose monitoring, and I know you're very interested in tech. And there's a lot more options today than there were say when we were growing up. So what does treatment look like for type 1 diabetes today?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Pettus",
+      "content": [
+        ": It's crazy how quickly this has evolved. So when I went to college, I was doing two injections a day. There was no CGM. I was pricking my finger 10 times a day, and lots of highs, lots of lows. So now having these CGM systems where I can see my blood sugar all the time, it's on my phone, it's on my smartwatch. I can share it with loved ones so they can see my blood sugar when I'm in New York and they're in San Diego. In addition to the insulin pumps, they're now working with these continuous glucose monitors to start automating insulin delivery. So when my blood sugar starts going up a little bit on my CGM, the pump can automatically respond and start bringing me back into range.",
+        "So these are not set it and forget it, like you just put these pumps on and your blood sugars are immaculate all day long. But gosh, they certainly help a lot. Particularly at night when you're sleeping, you're not eating, you're not doing anything, these systems can really lock you in so your blood sugars are well controlled overnight. So I sleep better. I wake up with a better blood sugar, less alarms at night or highs or lows, less dangerous lows at night. So these systems have really been just a huge development, and every month or week it seems like there's some new kind of iteration."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": It's crazy how quickly this has evolved. So when I went to college, I was doing two injections a day. There was no CGM. I was pricking my finger 10 times a day, and lots of highs, lots of lows. So now having these CGM systems where I can see my blood sugar all the time, it's on my phone, it's on my smartwatch. I can share it with loved ones so they can see my blood sugar when I'm in New York and they're in San Diego. In addition to the insulin pumps, they're now working with these continuous glucose monitors to start automating insulin delivery. So when my blood sugar starts going up a little bit on my CGM, the pump can automatically respond and start bringing me back into range.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So these are not set it and forget it, like you just put these pumps on and your blood sugars are immaculate all day long. But gosh, they certainly help a lot. Particularly at night when you're sleeping, you're not eating, you're not doing anything, these systems can really lock you in so your blood sugars are well controlled overnight. So I sleep better. I wake up with a better blood sugar, less alarms at night or highs or lows, less dangerous lows at night. So these systems have really been just a huge development, and every month or week it seems like there's some new kind of iteration.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Whyte",
+      "content": [
+        ": Now, we've been talking about prevention of type 2 diabetes for decades, done a lot of studies on it. Did you ever think that we would be talking about prevention of type 1 diabetes?",
+        "Pettus : Well, I certainly hoped. The good news is we know what's going on. We know that the immune system is targeting these beta cells. It's kind of simplistic when you think about it, type 2 diabetes, there's a lot of different factors going on and it can be difficult to treat. So we know where to start with type 1. And now thankfully we have a medication that it certainly does not cure type 1 and it doesn't prevent it entirely, but it's a fantastic place to start. So my colleagues, other people in the field, really believe that this is the first domino to fall. We have this one medication, now we'll probably combine it with something else, maybe a third medication. So that three year delay becomes five years, becomes 10 years, until one day, hopefully we can identify people that are at risk and they don't ever get type 1. And we're started on that path."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": Now, we've been talking about prevention of type 2 diabetes for decades, done a lot of studies on it. Did you ever think that we would be talking about prevention of type 1 diabetes?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pettus : Well, I certainly hoped. The good news is we know what's going on. We know that the immune system is targeting these beta cells. It's kind of simplistic when you think about it, type 2 diabetes, there's a lot of different factors going on and it can be difficult to treat. So we know where to start with type 1. And now thankfully we have a medication that it certainly does not cure type 1 and it doesn't prevent it entirely, but it's a fantastic place to start. So my colleagues, other people in the field, really believe that this is the first domino to fall. We have this one medication, now we'll probably combine it with something else, maybe a third medication. So that three year delay becomes five years, becomes 10 years, until one day, hopefully we can identify people that are at risk and they don't ever get type 1. And we're started on that path.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Whyte",
+      "content": [
+        ": To your point, it's all about screening, identifying those people at risk.",
+        "Pettus : Exactly.",
+        "Whyte : Now, you travel around the country giving talks, you host a podcast yourself called Taking Control of Your Diabetes.",
+        "Pettus : I do.",
+        "Whyte : What are your biggest takeaways from engaging with the diabetes community?",
+        "Pettus : Yeah, I guess there's just such a thirst for knowledge and for people to really take control of their own diabetes. You maybe get to go to your provider twice a year, spend 15 minutes with them. So there's such a need to educate yourself, to empower yourself, because whether you have type 1 or type 2, or whatever you have, it really is a 24/7 job where you're looking at your blood sugars. If they're high, you got to do something. If they're low, you got to do something. How exercise plays into that, sleep, your anxiety level, caffeine, the list goes on and on and on of what we have to stay on top of living with this disease. So I've been really inspired, I think, by the people living with this. There is a lot of hope, there's a lot of camaraderie."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": To your point, it's all about screening, identifying those people at risk.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pettus : Exactly.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : Now, you travel around the country giving talks, you host a podcast yourself called Taking Control of Your Diabetes.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pettus : I do.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : What are your biggest takeaways from engaging with the diabetes community?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pettus : Yeah, I guess there's just such a thirst for knowledge and for people to really take control of their own diabetes. You maybe get to go to your provider twice a year, spend 15 minutes with them. So there's such a need to educate yourself, to empower yourself, because whether you have type 1 or type 2, or whatever you have, it really is a 24/7 job where you're looking at your blood sugars. If they're high, you got to do something. If they're low, you got to do something. How exercise plays into that, sleep, your anxiety level, caffeine, the list goes on and on and on of what we have to stay on top of living with this disease. So I've been really inspired, I think, by the people living with this. There is a lot of hope, there's a lot of camaraderie.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "If I'm out somewhere and I see somebody wearing an insulin pump or something, there's this immediate bond of, \"Man, this person really gets it.\" And I always am left with hope, because there is so much going on. And I mentioned when I went to college, how different it was, but even five years, 10 years, for type 1 and type 2. Type 2, all these breakthrough medications, and type 1, the technology and these immunotherapies we're talking about. So I'm really left hopeful that this is going to get better and better, and living with diabetes is going to get easier and easier.",
+        "Whyte : Yeah. Well, in your podcast, you love to talk about the latest advancements in tech and medication. Anything that you're super excited about that you want to share to enlighten our audience?",
+        "Pettus : Well, I think, again, back to type 1, when we think about cure, there's still a lot going on. And hey, look, I don't have any beta cells, how do I get them back? Is there replacement? Are there transplants? People hear this buzzword, stem cells, what's that all about? So we have now found a way to make beta cells. We can take stem cells and grow them indefinitely, and make enough beta cells to give everybody with diabetes in the world back beta cells. But now we got to figure out the best way to do it safely, because I could take somebody else's beta cells and fuse them into me, but my body would reject it. I'd need these immunosuppressive medications just like I got a kidney transplant or something like that."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "If I'm out somewhere and I see somebody wearing an insulin pump or something, there's this immediate bond of, \"Man, this person really gets it.\" And I always am left with hope, because there is so much going on. And I mentioned when I went to college, how different it was, but even five years, 10 years, for type 1 and type 2. Type 2, all these breakthrough medications, and type 1, the technology and these immunotherapies we're talking about. So I'm really left hopeful that this is going to get better and better, and living with diabetes is going to get easier and easier.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : Yeah. Well, in your podcast, you love to talk about the latest advancements in tech and medication. Anything that you're super excited about that you want to share to enlighten our audience?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pettus : Well, I think, again, back to type 1, when we think about cure, there's still a lot going on. And hey, look, I don't have any beta cells, how do I get them back? Is there replacement? Are there transplants? People hear this buzzword, stem cells, what's that all about? So we have now found a way to make beta cells. We can take stem cells and grow them indefinitely, and make enough beta cells to give everybody with diabetes in the world back beta cells. But now we got to figure out the best way to do it safely, because I could take somebody else's beta cells and fuse them into me, but my body would reject it. I'd need these immunosuppressive medications just like I got a kidney transplant or something like that.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "So there's been a lot of development in can we put these beta cells in a certain device? Can we genetically modify them so they don't require immunosuppression? And I would say in the next five, 10 years, we will have something like that, where we can infuse beta cells, not need immunosuppression, and that truly becomes a cure.",
+        "Whyte : Wow. Well, Dr Pettus, thanks for joining me today and sharing your insights.",
+        "Pettus : Yeah, happy to be here. Thank you for having me, and it's been great.",
+        "Whyte : And finally, before we go, some parting words from Samara.",
+        "Samara : I think there's a lot of benefit to getting that early screening for young children. You can skip that whole traumatic portion and that stressful moment of your child being sick, close to a diabetic coma. They go into diagnosis, if it comes out that they have diabetes, you go into it more calm and you're able to accept the diagnosis, and go forward with managing it better."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "So there's been a lot of development in can we put these beta cells in a certain device? Can we genetically modify them so they don't require immunosuppression? And I would say in the next five, 10 years, we will have something like that, where we can infuse beta cells, not need immunosuppression, and that truly becomes a cure.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : Wow. Well, Dr Pettus, thanks for joining me today and sharing your insights.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pettus : Yeah, happy to be here. Thank you for having me, and it's been great.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : And finally, before we go, some parting words from Samara.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Samara : I think there's a lot of benefit to getting that early screening for young children. You can skip that whole traumatic portion and that stressful moment of your child being sick, close to a diabetic coma. They go into diagnosis, if it comes out that they have diabetes, you go into it more calm and you're able to accept the diagnosis, and go forward with managing it better.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Whyte",
+      "content": [
+        ": Diabetes may be a chronic condition, but as Dr Pettus said, there are so many reasons to be hopeful. If you or someone you know could be at risk, please consider sharing this episode and encouraging them to talk to their doctor about screening for type 1 diabetes. As always, more information on type 1 diabetes is available at WebMD.com. Special thanks to our guest, Dr Pettus and Samara, for joining us. Links to their work are in this episode description.",
+        "Thank you so much for listening to the special edition of the Health Discovered Podcast. Please take a moment to follow, rate, and review our show on your favorite listening platform. And if you'd like to hear about a particular topic in the future, please send an email to [email protected] . This is Dr John Whyte, the Chief Medical Officer for WebMD, reminding you that better information leads to better health. See you next time."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": Diabetes may be a chronic condition, but as Dr Pettus said, there are so many reasons to be hopeful. If you or someone you know could be at risk, please consider sharing this episode and encouraging them to talk to their doctor about screening for type 1 diabetes. As always, more information on type 1 diabetes is available at WebMD.com. Special thanks to our guest, Dr Pettus and Samara, for joining us. Links to their work are in this episode description.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Thank you so much for listening to the special edition of the Health Discovered Podcast. Please take a moment to follow, rate, and review our show on your favorite listening platform. And if you'd like to hear about a particular topic in the future, please send an email to [email protected] . This is Dr John Whyte, the Chief Medical Officer for WebMD, reminding you that better information leads to better health. See you next time.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": null,
+      "bullets": null,
+      "content_blocks": []
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd-logo-fb.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "Type 1 diabetes can develop at any age, making early screening crucial for those at risk. But how do we know who is at risk? When should we screen? And what steps can we take to protect ourselves and our loved ones? In this episode, we spoke with Jeremy Pettus, MD, a board-certified endocrinologist specializing in treating diabetes and host of the Taking Control of Your Diabetes podcast, about diagnostic methods, such as blood sugar and A1C tests, the crucial role of early detection, screening recommendations, advancements in diabetes management, and his hope for the future of stem cell therapies. We also hear a powerful story from Samara, known as theT1Dmama on YouTube, about her daughter Addie’s diagnosis of type 1 diabetes.",
+  "canonical_url": "https://www.webmd.com/podcasts/20241031/type-1-diabetes-and-early-screening-advancements-in-detection-treatment-and-stories-of-hope",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:28:28.056616Z"
+}

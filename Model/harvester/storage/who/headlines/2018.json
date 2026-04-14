@@ -1,0 +1,920 @@
+[
+  {
+    "url": "https://www.who.int/news/item/28-12-2018-statement-on-disruptions-to-the-ebola-response-in-the-democratic-republic-of-the-congo",
+    "title": "Statement on disruptions to the Ebola response in the Democratic Republic of the Congo",
+    "date": "2018-12-28",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://www.who.int/images/default-source/ebola-drc/community-engagement-beni-drc-ebola.tmb-768v.jpg?Culture=en&sfvrsn=afcd582c_9"
+  },
+  {
+    "url": "https://www.who.int/news/item/28-12-2018-nigeria-launches-yellow-fever-vaccination-campaign-to-stop-outbreak-in-edo-state",
+    "title": "Nigeria launches Yellow fever vaccination campaign to stop outbreak in Edo state",
+    "date": "2018-12-28",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/infographics/yellow-fever/nigeria-yellow-fever-dec2018.tmb-768v.jpg?sfvrsn=d95aa374_5"
+  },
+  {
+    "url": "https://www.who.int/news/item/20-12-2018-a-new-multipurpose-infectious-disease-unit-opens-in-juba-south-sudan",
+    "title": "A new multipurpose Infectious Disease Unit opens in Juba, South Sudan",
+    "date": "2018-12-20",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/taban-deng-gai-cuts-the-ribbon.tmb-768v.jpeg?sfvrsn=64f0c02f_3"
+  },
+  {
+    "url": "https://www.who.int/news/item/13-12-2018-nearly-30-million-sick-and-premature-newborns-in-dire-need-of-treatment-every-year",
+    "title": "Nearly 30 million sick and premature newborns in dire need of treatment every year",
+    "date": "2018-12-13",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/mother-and-new-born.tmb-768v.jpg?sfvrsn=b405f807_32"
+  },
+  {
+    "url": "https://www.who.int/news/item/07-12-2018-new-who-report-highlights-insufficient-progress-to-tackle-lack-of-safety-on-the-world's-roads",
+    "title": "New WHO report highlights insufficient progress to tackle lack of safety on the world's roads",
+    "date": "2018-12-07",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/pedestrians-road-traffic-jpg.tmb-768v.jpg?sfvrsn=132b8496_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/05-12-2018-health-benefits-far-outweigh-the-costs-of-meeting-climate-change-goals",
+    "title": "Health benefits far outweigh the costs of meeting climate change goals",
+    "date": "2018-12-05",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/wpro/health-topic/climate-change/f6-140042016-vu-01346.tmb-768v.jpg?Culture=en&sfvrsn=68796014_20"
+  },
+  {
+    "url": "https://www.who.int/news/item/03-12-2018-who-statement-for-cop24",
+    "title": "WHO statement for COP24 ",
+    "date": "2018-12-03",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://www.who.int/images/default-source/imported/who_060149-orig.tmb-768v.jpg?Culture=en&sfvrsn=fc0d754e_38"
+  },
+  {
+    "url": "https://www.who.int/news/item/30-11-2018-statement-of-the-nineteenth-ihr-emergency-committee-regarding-the-international-spread-of-poliovirus",
+    "title": "Statement of the Nineteenth IHR Emergency Committee  Regarding the International Spread of Poliovirus",
+    "date": "2018-11-30",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://www.who.int/images/default-source/wpro/emergencies-hub/png-poliovirus-outbreak/gallery-png-polio-outbreak/20180817-rd-giving-oral-polio-480px.tmb-768v.jpg?Culture=en&sfvrsn=79056173_14"
+  },
+  {
+    "url": "https://www.who.int/news/item/29-11-2018-measles-cases-spike-globally-due-to-gaps-in-vaccination-coverage",
+    "title": "Measles cases spike globally due to gaps in vaccination coverage",
+    "date": "2018-11-29",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/wpro/countries/china/news/vaccinating-children-in-guizhou-during-measles-sias-in-2008.tmb-768v.jpg?Culture=en&sfvrsn=9380b21d_13"
+  },
+  {
+    "url": "https://www.who.int/news/item/28-11-2018-malaria-control-campaign-launched-in-democratic-republic-of-the-congo-to-save-lives-and-aid-ebola-response",
+    "title": "Malaria control campaign launched in Democratic Republic of the Congo to save lives and aid Ebola response",
+    "date": "2018-11-28",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/imported/malaria-control.tmb-768v.jpg?Culture=en&sfvrsn=a668875c_3"
+  },
+  {
+    "url": "https://www.who.int/news/item/26-11-2018-democratic-republic-of-the-congo-begins-first-ever-multi-drug-ebola-trial",
+    "title": "Democratic Republic of the Congo begins first-ever multi-drug Ebola trial ",
+    "date": "2018-11-26",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/ebola-drcfca7d018171a4b9bb5d72332a559a5e1.tmb-768v.jpg?sfvrsn=c8bd9b62_19"
+  },
+  {
+    "url": "https://www.who.int/news/item/21-11-2018-who-and-eu-commit-to-work-together-to-accelerate-progress-on-health",
+    "title": "WHO and EU commit to work together to accelerate progress on health",
+    "date": "2018-11-21",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/medicine-pharmacy.tmb-768v.jpg?sfvrsn=c455fe18_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/19-11-2018-who-and-partners-launch-new-country-led-response-to-put-stalled-malaria-control-efforts-back-on-track",
+    "title": "WHO and partners launch new country-led response to put stalled malaria control efforts back on track",
+    "date": "2018-11-19",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/malaria-children-mosquito-net.tmb-768v.jpg?sfvrsn=85faf4db_32"
+  },
+  {
+    "url": "https://www.who.int/news/item/17-11-2018-who-statement-on-latest-attacks-in-the-democratic-republic-of-the-congo",
+    "title": "WHO statement on latest attacks in the Democratic Republic of the Congo",
+    "date": "2018-11-17",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/default-album/ebola-remote.tmb-768v.jpg?sfvrsn=2693a7c3_12"
+  },
+  {
+    "url": "https://www.who.int/news/item/08-11-2018-new-measures-and-strong-partnership-having-positive-impact-on-ebola-response-in-the-democratic-republic-of-the-congo",
+    "title": "New measures and strong partnership having positive impact on Ebola response in the Democratic Republic of the Congo",
+    "date": "2018-11-08",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/dg-and-lacroix.tmb-768v.jpg?sfvrsn=a0fa8a01_26"
+  },
+  {
+    "url": "https://www.who.int/news/item/07-11-2018-uganda-vaccinates-front-line-health-workers-against-ebola",
+    "title": "Uganda Vaccinates Front-line health-workers against Ebola",
+    "date": "2018-11-07",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/team-vaccination-ebola.tmb-768v.jpeg?sfvrsn=9fef95d_3"
+  },
+  {
+    "url": "https://www.who.int/news/item/01-11-2018-who-enhances-ebola-rapid-response-readiness-capacities-in-south-sudan",
+    "title": "WHO enhances Ebola Rapid Response Readiness Capacities in South Sudan",
+    "date": "2018-11-01",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/ebola-rapid-response.tmb-768v.jpg?sfvrsn=f59ea2d9_3"
+  },
+  {
+    "url": "https://www.who.int/news/item/01-11-2018-who-global-conference-on-air-pollution-and-health",
+    "title": "WHO Global Conference on Air Pollution and Health",
+    "date": "2018-11-01",
+    "tags": [
+      "Note for Media"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/people/who-people/director-general/dr-tedros/hq-dr-tedros-unog-presser-07feb2018-0148.tmb-768v.jpg?sfvrsn=4c64c2ef_4"
+  },
+  {
+    "url": "https://www.who.int/news/item/31-10-2018-singapore-wipes-out-measles-australia-brunei-darussalam-and-macao-sar-(china)-eliminate-rubella",
+    "title": "Singapore wipes out measles; Australia, Brunei Darussalam and Macao SAR (China) eliminate rubella",
+    "date": "2018-10-31",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/wpro/health-topic/measles-and-rubella/img-6909-edit.tmb-768v.jpg?Culture=en&sfvrsn=833b8bd5_3"
+  },
+  {
+    "url": "https://www.who.int/news/item/29-10-2018-more-than-90-of-the-worlds-children-breathe-toxic-air-every-day",
+    "title": "More than 90% of the world’s children breathe toxic air every day",
+    "date": "2018-10-29",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/big-stories/air-pollution/gallery/air-pollution.tmb-768v.jpg?sfvrsn=50b110a6_12"
+  },
+  {
+    "url": "https://www.who.int/news/item/25-10-2018-new-global-commitment-to-primary-health-care-for-all-at-astana-conference",
+    "title": "New global commitment to primary health care for all at Astana conference",
+    "date": "2018-10-25",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/wpro/health-topic/hospitals/f2-07042017-nr-4287.tmb-768v.jpg?Culture=en&sfvrsn=f93d7f70_14"
+  },
+  {
+    "url": "https://www.who.int/news/item/23-10-2018-hh-pope-francis-and-who-director-general-health-is-a-right-and-not-a-privilege",
+    "title": "HH Pope Francis and WHO Director-General: Health is a right and not a privilege",
+    "date": "2018-10-23",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/pope-francis-tedrost.tmb-768v.png?sfvrsn=6bc422e9_28"
+  },
+  {
+    "url": "https://www.who.int/news/item/17-10-2018-statement-on-the-meeting-of-the-ihr-emergency-committee-on-the-ebola-outbreak-in-drc",
+    "title": "Statement on the October 2018 meeting of the IHR Emergency Committee on the Ebola virus disease outbreak in the Democratic Republic of the Congo ",
+    "date": "2018-10-17",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/ebola-emergency-committee.tmb-768v.jpg?sfvrsn=32877ec7_19"
+  },
+  {
+    "url": "https://www.who.int/news/item/17-10-2018-united-nations-agencies-call-for-ban-on-virginity-testing",
+    "title": "United Nations agencies call for ban on virginity testing",
+    "date": "2018-10-17",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/default-album/virginity-testing-ban-1.tmb-768v.png?Culture=en&sfvrsn=5a591974_12"
+  },
+  {
+    "url": "https://www.who.int/news/item/16-10-2018-global-health-organizations-commit-to-new-ways-of-working-together-for-greater-impact",
+    "title": "Global health organizations commit to new ways of working together for greater impact",
+    "date": "2018-10-16",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/gap/girl-hero-image.tmb-768v.jpg?sfvrsn=564e958c_30"
+  },
+  {
+    "url": "https://www.who.int/news/item/05-10-2018-situation-update-on-meningitis-c-epidemic-risk",
+    "title": "Situation update on meningitis C epidemic risk",
+    "date": "2018-10-05",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/health-topics/meningitis/meningitis-immunization-by-susan-mckay.tmb-768v.jpg?Culture=en&sfvrsn=e7c2a85f_2"
+  },
+  {
+    "url": "https://www.who.int/news/item/05-10-2018-health-workers-in-yemen-reach-more-than-306-000-people-with-cholera-vaccines-during-four-day-pause-in-fighting-who-unicef",
+    "title": "Health workers in Yemen reach more than 306,000 people with cholera vaccines during four-day pause in fighting – WHO, UNICEF",
+    "date": "2018-10-05",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/yemen-cholera-vaccines.tmb-768v.jpg?sfvrsn=ee8a593b_26"
+  },
+  {
+    "url": "https://www.who.int/news/item/01-10-2018-who-fctc-opens-8th-cop-session-to-review-progress-strengthen-global-fight-against-tobacco-use",
+    "title": "WHO FCTC opens 8th COP session to review progress, strengthen global fight against tobacco use",
+    "date": "2018-10-01",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/no-smoking-sign.tmb-768v.jpg?sfvrsn=d482fafd_32"
+  },
+  {
+    "url": "https://www.who.int/news/item/01-10-2018-who-calls-for-increased-investment-to-reach-the-goal-of-a-toilet-for-all",
+    "title": "WHO calls for increased investment to reach the goal of a toilet for all",
+    "date": "2018-10-01",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/nepal-toilet.tmb-768v.jpg?sfvrsn=1695ed4a_38"
+  },
+  {
+    "url": "https://www.who.int/news/item/27-09-2018-heads-of-state-commit-to-lead-response-to-beat-noncommunicable-diseases-promote-mental-health",
+    "title": "Heads of State commit to lead response to beat noncommunicable diseases, promote mental health",
+    "date": "2018-09-27",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/campaigns---walk-the-talk/walk-the-talk/walk-the-talk-6---tardy.tmb-768v.jpg?sfvrsn=63f74242_31"
+  },
+  {
+    "url": "https://www.who.int/news/item/27-09-2018-who-director-general-reappoints-michael-r-bloomberg-as-who-global-ambassador--for-noncommunicable-diseases-and-injuries",
+    "title": "WHO Director-General reappoints Michael R. Bloomberg as WHO Global Ambassador for Noncommunicable Diseases and Injuries",
+    "date": "2018-09-27",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/wpro/about-us/regional-director-report/ncd-and-health-throught-th-elife-course.tmb-768v.jpg?Culture=en&sfvrsn=5fd8114f_26"
+  },
+  {
+    "url": "https://www.who.int/news/item/26-09-2018-world-leaders-commit-to-bold-targets--and-urgent-action-to-end-tb",
+    "title": "World leaders commit to bold targets and urgent action to end TB ",
+    "date": "2018-09-26",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/tuberculosis-nurse-patients.tmb-768v.jpg?sfvrsn=850d43b4_38"
+  },
+  {
+    "url": "https://www.who.int/news/item/26-09-2018-who-calls-for-protection-of-humanitarian-workers-and-civilians-in--democratic-republic-of-the-congo",
+    "title": "WHO calls for protection of humanitarian workers and civilians in Democratic Republic of the Congo ",
+    "date": "2018-09-26",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/ebola-drc.tmb-768v.jpg?sfvrsn=a8603a45_25"
+  },
+  {
+    "url": "https://www.who.int/news/item/26-09-2018-ray-chambers-appointed-who-ambassador-for-global-strategy",
+    "title": "Ray Chambers appointed WHO Ambassador for Global Strategy",
+    "date": "2018-09-26",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/wpro/countries/mongolia/f14-29092017-mn-2412.tmb-768v.jpg?Culture=en&sfvrsn=f112aec1_15"
+  },
+  {
+    "url": "https://www.who.int/news/item/21-09-2018-harmful-use-of-alcohol-kills-more-than-3-million-people-each-year--most-of-them-men",
+    "title": "Harmful use of alcohol kills more than 3 million people each year, most of them men",
+    "date": "2018-09-21",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/departments/substances-abuse/alcohol/alcohol-bottles.tmb-768v.jpg?Culture=en&sfvrsn=d4f7b64e_6"
+  },
+  {
+    "url": "https://www.who.int/news/item/19-09-2018-who-launches-first-investment-case-to-save-up-to-30-million-lives",
+    "title": "WHO launches first investment case to save up to 30 million lives",
+    "date": "2018-09-19",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/default-album/investment-small.tmb-768v.png?sfvrsn=a4d93d32_4"
+  },
+  {
+    "url": "https://www.who.int/news/item/18-09-2018-who-calls-for-urgent-action-to-end-tb-",
+    "title": "WHO calls for urgent action to end TB",
+    "date": "2018-09-18",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/wpro/health-topic/tuberculosis/f2-26112015-pg-06926.tmb-768v.jpg?Culture=en&sfvrsn=56015b10_26"
+  },
+  {
+    "url": "https://www.who.int/news/item/18-09-2018-a-child-under-15-dies-every-5-seconds-around-the-world-",
+    "title": "A child under 15 dies every 5 seconds around the world",
+    "date": "2018-09-18",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/girl-in-tanzania.tmb-768v.jpg?sfvrsn=310e6bfc_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/11-09-2018-ebola-strikes-big-city-in-the-democratic-republic-of-the-congo-and-who-scales-up-response-to-new-threat",
+    "title": "Ebola strikes big city in the Democratic Republic of the Congo and WHO scales up response to new threat",
+    "date": "2018-09-11",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/imported/ebola-strikes-big-city.tmb-768v.jpg?Culture=en&sfvrsn=31eeb633_3"
+  },
+  {
+    "url": "https://www.who.int/news/item/11-09-2018-global-hunger-continues-to-rise---new-un-report-says",
+    "title": "Global hunger continues to rise, new UN report says",
+    "date": "2018-09-11",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/tif-cover-photo-only.tmb-768v.jpg?sfvrsn=81ea7469_38"
+  },
+  {
+    "url": "https://www.who.int/news/item/10-09-2018-global-preparedness-monitoring-board-convenes-for-the-first-time-in-geneva",
+    "title": "Global Preparedness Monitoring Board convenes for the first time in Geneva",
+    "date": "2018-09-10",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://www.who.int/images/default-source/fallback/icons/news.tmb-768v.png?Culture=en&sfvrsn=d88eddde_24"
+  },
+  {
+    "url": "https://www.who.int/news/item/15-08-2018-statement-of-the-eighteenth-ihr-emergency-committee-regarding-the-international-spread-of-poliovirus",
+    "title": "Statement of the Eighteenth IHR Emergency Committee  Regarding the International Spread of Poliovirus",
+    "date": "2018-08-15",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/polio-nigeria-1200.tmb-768v.jpg?sfvrsn=cd10e77d_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/12-08-2018-who-calls-for-free-and-secure-access-in-responding-to-ebola-outbreak-in-the-democratic-republic-of-the-congo",
+    "title": "WHO calls for free and secure access in responding to Ebola outbreak in the Democratic Republic of the Congo",
+    "date": "2018-08-12",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/imported/ebola-treatment-center.tmb-768v.jpg?Culture=en&sfvrsn=89dfaab_3"
+  },
+  {
+    "url": "https://www.who.int/news/item/08-08-2018-ebola-vaccination-begins-in-north-kivu",
+    "title": "Ebola vaccination begins in North Kivu",
+    "date": "2018-08-08",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/north-kivu-ring-vaccination.tmb-768v.jpg?sfvrsn=890323c9_38"
+  },
+  {
+    "url": "https://www.who.int/news/item/01-08-2018-cluster-of-presumptive-ebola-cases-in-north-kivu-in-the-democratic-republic-of-the-congo",
+    "title": "Cluster of presumptive Ebola cases in North Kivu in the Democratic Republic of the Congo",
+    "date": "2018-08-01",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/big-stories/outbreaks/epidermiologist-ebola.tmb-768v.jpg?sfvrsn=60a9c905_12"
+  },
+  {
+    "url": "https://www.who.int/news/item/31-07-2018-3-in-5-babies-not-breastfed-in-the-first-hour-of-life",
+    "title": "3 in 5 babies not breastfed in the first hour of life",
+    "date": "2018-07-31",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/breastfeeding-sierra-leone.tmb-768v.jpg?sfvrsn=269be59_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/24-07-2018-returning-home-after-surviving-ebola-in-the-democratic-republic-of-the-congo",
+    "title": "Returning home after surviving Ebola in the Democratic Republic of the Congo",
+    "date": "2018-07-24",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/lucien-ambunga-drc-ebola-survivor-congo.tmb-768v.jpg?sfvrsn=29e3c835_3"
+  },
+  {
+    "url": "https://www.who.int/news/item/24-07-2018-ebola-outbreak-in-drc-ends--who-calls-for-international-efforts-to-stop-other-deadly-outbreaks-in-the-country",
+    "title": "Ebola outbreak in DRC ends: WHO calls for international efforts to stop other deadly outbreaks in the country",
+    "date": "2018-07-24",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/ebola-treatment-facility-in-monrovia.tmb-768v.jpg?sfvrsn=81ab55fe_31"
+  },
+  {
+    "url": "https://www.who.int/news/item/24-07-2018-who-deputy-director-general-s-speech-at-global-disability-summit",
+    "title": "WHO Deputy Director General’s speech at Global Disability Summit",
+    "date": "2018-07-24",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/departments/rollator-jd-2018.tmb-768v.jpg?Culture=en&sfvrsn=30e62bd7_3"
+  },
+  {
+    "url": "https://www.who.int/news/item/18-07-2018-countries-step-up-to-tackle-antimicrobial-resistance",
+    "title": "Countries step up to tackle antimicrobial resistance",
+    "date": "2018-07-18",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/antimicrobial-resistance.tmb-768v.jpg?sfvrsn=57ab2aef_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/11-07-2018-an-inclusive-response-reaching-batwa-communities-to-combat-ebola",
+    "title": "An inclusive response: reaching Batwa communities to combat Ebola",
+    "date": "2018-07-11",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/batwa-chief-ilinga-bopope-lopaka-lomba-with-his-grandchildren-and-other-family-members-congo-drc-ebola.tmb-768v.jpg?sfvrsn=eb1b9753_3"
+  },
+  {
+    "url": "https://www.who.int/news/item/05-07-2018-low-quality-healthcare-is-increasing-the-burden-of-illness-and-health-costs-globally",
+    "title": "Low quality healthcare is increasing the burden of illness and health costs globally",
+    "date": "2018-07-05",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/uganda-chris-black-jpg.tmb-768v.jpg?sfvrsn=fed4b770_24"
+  },
+  {
+    "url": "https://www.who.int/news/item/27-06-2018-who-study-shows-drug-could-save-thousands-of-women’s-lives",
+    "title": "WHO study shows drug could save thousands of women’s lives",
+    "date": "2018-06-27",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/mother-and-baby.tmb-768v.jpg?sfvrsn=ad5d6515_38"
+  },
+  {
+    "url": "https://www.who.int/news/item/27-06-2018-bringing-ebola-vaccine-to-remote-communities-in-the-democratic-republic-of-congo",
+    "title": "Bringing Ebola vaccine to remote communities in the Democratic Republic of Congo",
+    "date": "2018-06-27",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/ebola-vaccination-remote-communities-drc-congo.tmb-768v.jpg?sfvrsn=8ee4c2b6_3"
+  },
+  {
+    "url": "https://www.who.int/news/item/18-06-2018-who-releases-new-international-classification-of-diseases-(icd-11)",
+    "title": "WHO releases new International Classification of Diseases (ICD 11)",
+    "date": "2018-06-18",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/hero-images/icd-cover.tmb-768v.jpg?sfvrsn=62d175ff_24"
+  },
+  {
+    "url": "https://www.who.int/news/item/16-06-2018-statement-from-who-director-general-on-humanitarian-situation-in-yemen",
+    "title": "Statement from WHO Director-General on the humanitarian situation in Yemen",
+    "date": "2018-06-16",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/yemen.tmb-768v.jpg?sfvrsn=e9cce6a5_20"
+  },
+  {
+    "url": "https://www.who.int/news/item/12-06-2018-the-central-african-republic-prepares-for-ebola-response",
+    "title": "The Central African Republic prepares for Ebola response",
+    "date": "2018-06-12",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/dr-tedros-central-african-republic-car-ebola-response.tmb-768v.jpg?sfvrsn=c724ec13_3"
+  },
+  {
+    "url": "https://www.who.int/news/item/11-06-2018-who-certifies-paraguay-malaria-free",
+    "title": "WHO certifies Paraguay malaria-free",
+    "date": "2018-06-11",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/malaria-paraguay.tmb-768v.jpg?sfvrsn=b79f9497_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/09-06-2018-at-one-month-mark-in-ebola-outbreak-the-focus-shifts-to-remote-areas",
+    "title": "At one-month mark in Ebola outbreak, the focus shifts to remote areas",
+    "date": "2018-06-09",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/default-album/ebola-remote.tmb-768v.jpg?sfvrsn=2693a7c3_12"
+  },
+  {
+    "url": "https://www.who.int/news/item/04-06-2018-who-launches-global-action-plan-on-physical-activity",
+    "title": "WHO launches Global Action Plan on Physical Activity",
+    "date": "2018-06-04",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/hoolahoop-thailand-physical_activity-jpg.tmb-768v.jpg?sfvrsn=9ee3b5b2_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/31-05-2018-world-no-tobacco-day-tobacco-and-heart-disease",
+    "title": "World No Tobacco Day: Tobacco and Heart Disease",
+    "date": "2018-05-31",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/campaigns/world-no-tobacco-day-2018/tobacco-heart.tmb-768v.jpg?sfvrsn=83a26e4f_30"
+  },
+  {
+    "url": "https://www.who.int/news/item/26-05-2018-seventy-first-world-health-assembly-update-26-may",
+    "title": "Seventy-first World Health Assembly update, 26 May",
+    "date": "2018-05-26",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/world-health-assembly/wha71/wha-closing-dr-tedros-thumb_70b557e3-6a82-42ff-9d0d-e043029b722b.tmb-768v.png?sfvrsn=6a8eab48_16"
+  },
+  {
+    "url": "https://www.who.int/news/item/25-05-2018-seventy-first-world-health-assembly-update-25-may",
+    "title": "Seventy-first World Health Assembly update, 25 May",
+    "date": "2018-05-25",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/infographics/wha-tv-camera.tmb-768v.jpg?sfvrsn=e8dcc50f_18"
+  },
+  {
+    "url": "https://www.who.int/news/item/24-05-2018-seventy-first-world-health-assembly-update-24-may",
+    "title": "Seventy-first World Health Assembly update, 24 May",
+    "date": "2018-05-24",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/World-Health-Assembly/technical-briefing-health-environment-and-climate-change.tmb-768v.png?sfvrsn=96a1eb2_6"
+  },
+  {
+    "url": "https://www.who.int/news/item/24-05-2018-who-and-world-bank-group-join-forces-to-strengthen-global-health-security",
+    "title": "WHO and World Bank Group join forces to strengthen global health security",
+    "date": "2018-05-24",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/world-bank-who-in-field.tmb-768v.jpg?sfvrsn=e1299a16_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/24-05-2018-online-course-on-global-health-at-the-human-animal-ecosystem-interface",
+    "title": "Online Course on Global Health at the Human-Animal-Ecosystem Interface",
+    "date": "2018-05-24",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/departments/ntd-library/foodborne-trematodiases/8879421315-e63977ca81-o.tmb-768v.jpg?Culture=en&sfvrsn=aa5c0d76_2"
+  },
+  {
+    "url": "https://www.who.int/news/item/23-05-2018-seventy-first-world-health-assembly-update-23-may",
+    "title": "Seventy-First World Health Assembly update, 23 May",
+    "date": "2018-05-23",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/world-health-assembly/wha71/day-3/2018-05-23-wha-day-4-tardy-126e96945ad2be441f9fb12e36f8942a50.tmb-768v.jpg?Culture=en&sfvrsn=b2df58a7_15"
+  },
+  {
+    "url": "https://www.who.int/news/item/23-05-2018-world-health-assembly-delegates-agree-new-five-year-strategic-plan",
+    "title": "World Health Assembly delegates agree new five-year strategic plan",
+    "date": "2018-05-23",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/World-Health-Assembly/day-1/2-wha71-plenary-crowd.tmb-768v.jpg?sfvrsn=f7b8535d_18"
+  },
+  {
+    "url": "https://www.who.int/news/item/22-05-2018-sana-hafeez-who-champion-for-assistive-technology-told-her-story-at-the-world-health-assembly",
+    "title": "Sana Hafeez, WHO Champion for assistive technology, told her story at the World Health Assembly",
+    "date": "2018-05-22",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/departments/sana.tmb-768v.jpg?Culture=en&sfvrsn=c93063cb_3"
+  },
+  {
+    "url": "https://www.who.int/news/item/21-05-2018-who-supports-ebola-vaccination-of-high-risk-populations-in-the-democratic-republic-of-the-congo",
+    "title": "WHO supports Ebola vaccination of high risk populations in the Democratic Republic of the Congo",
+    "date": "2018-05-21",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/vaccination-supply-preparation-ebola-drc-mbandaka-2018.tmb-768v.jpg?sfvrsn=216bf83c_31"
+  },
+  {
+    "url": "https://www.who.int/news/item/18-05-2018-statement-on-the-1st-meeting-of-the-ihr-emergency-committee-regarding-the-ebola-outbreak-in-2018",
+    "title": "Statement on the 1st meeting of the IHR Emergency Committee regarding the Ebola outbreak in 2018",
+    "date": "2018-05-18",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/ebola-drc/ebola-fever-check-wangata-2018.tmb-768v.jpeg?sfvrsn=f8eb405_31"
+  },
+  {
+    "url": "https://www.who.int/news/item/18-05-2018-director-general-brings-ambitious-agenda-for-change-to-world-health-assembly",
+    "title": "Director-General brings ambitious agenda for change to World Health Assembly",
+    "date": "2018-05-18",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/people/who-people/director-general/dr-tedros/dr-tedros-adhanom-ghebreyesus-142-executive-board2.tmb-768v.jpg?Culture=en&sfvrsn=5c223a2d_24"
+  },
+  {
+    "url": "https://www.who.int/news/item/17-05-2018-who-concerned-as-one-ebola-case-confirmed-in-urban-area-of-democratic-republic-of-the-congo",
+    "title": "WHO concerned as one Ebola case confirmed in urban area of Democratic Republic of the Congo",
+    "date": "2018-05-17",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/mangata-hospital-drc.tmb-768v.jpeg?sfvrsn=c6c80baa_38"
+  },
+  {
+    "url": "https://www.who.int/news/item/16-05-2018-investing-in-noncommunicable-disease-control-generates-major-financial-and-health-gains",
+    "title": "Investing in noncommunicable disease control generates major financial and health gains",
+    "date": "2018-05-16",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/outdoor-activities-at-tbilisis-kindergarten-34301159051-o_3d319a00-398d-4de4-b524-e46656262c45.tmb-768v.jpg?sfvrsn=543cd017_49"
+  },
+  {
+    "url": "https://www.who.int/news/item/15-05-2018-first-ever-who-list-of-essential-diagnostic-tests-to-improve-diagnosis-and-treatment-outcomes",
+    "title": "First-ever WHO list of essential diagnostic tests to improve diagnosis and treatment outcomes",
+    "date": "2018-05-15",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/haiti-rural-diagnostics.tmb-768v.jpg?sfvrsn=98b1ed07_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/14-05-2018-who-plan-to-eliminate-industrially-produced-trans-fatty-acids-from-global-food-supply",
+    "title": "WHO plan to eliminate industrially-produced trans-fatty acids from global food supply",
+    "date": "2018-05-14",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/departments/nutrition/replace-trans-fat/potato-friesf34664a74982493b8af0d99df9bf4d9a.tmb-768v.jpg?Culture=en&sfvrsn=ad1a9e39_18"
+  },
+  {
+    "url": "https://www.who.int/news/item/13-05-2018-who-director-general-visits-ebola-affected-areas-in-dr-congo",
+    "title": "WHO Director General visits Ebola-affected areas in DR Congo",
+    "date": "2018-05-13",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/facts-in-pictures/img-20180513-wa0005.tmb-768v.jpg?sfvrsn=d3b17981_31"
+  },
+  {
+    "url": "https://www.who.int/news/item/11-05-2018-who-and-partners-working-with-national-health-authorities-to-contain-new-ebola-outbreak-in-the-democratic-republic-of-the-congo",
+    "title": "WHO and partners working with national health authorities to contain new Ebola outbreak in the Democratic Republic of the Congo ",
+    "date": "2018-05-11",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/facts-in-pictures/image1.tmb-768v.jpeg?sfvrsn=20fece13_31"
+  },
+  {
+    "url": "https://www.who.int/news/item/10-05-2018-statement-of-the-seventeenth-ihr-emergency-committee-regarding-the-international-spread-of-poliovirus",
+    "title": "Statement of the Seventeenth IHR Emergency Committee  Regarding the International Spread of Poliovirus",
+    "date": "2018-05-10",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/pakistan-polio-jpg.tmb-768v.jpg?sfvrsn=8bf45dea_28"
+  },
+  {
+    "url": "https://www.who.int/news/item/08-05-2018-looming-monsoons-and-little-funding-threaten-health-gains-in-cox-s-bazar",
+    "title": "Looming monsoons and little funding threaten health gains in Cox’s Bazar ",
+    "date": "2018-05-08",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/coxs-bazar-rohingya-camps.tmb-768v.jpg?sfvrsn=f70d6965_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/08-05-2018-new-ebola-outbreak-declared-in-democratic-republic-of-the-congo",
+    "title": "New Ebola outbreak declared in Democratic Republic of the Congo",
+    "date": "2018-05-08",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/lab-drc-ebola.tmb-768v.jpg?sfvrsn=ca2724b4_31"
+  },
+  {
+    "url": "https://www.who.int/news/item/07-05-2018-largest-cholera-vaccine-drive-in-history-to-target-spike-in-outbreaks",
+    "title": "Largest cholera vaccine drive in history to target spike in outbreaks",
+    "date": "2018-05-07",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/imported/cholera-water-jar.tmb-768v.jpg?Culture=en&sfvrsn=ba59f398_33"
+  },
+  {
+    "url": "https://www.who.int/news/item/04-05-2018-un-s-health-and-development-agencies-join-forces-for-good-health",
+    "title": "UN’s Health and Development Agencies Join Forces for Good Health",
+    "date": "2018-05-04",
+    "tags": [
+      "Note for Media"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/who-undp-mou-signing_46851b18-4570-49a4-b167-5d7d26bde1d3.tmb-768v.jpg?sfvrsn=ae0567c5_38"
+  },
+  {
+    "url": "https://www.who.int/news/item/02-05-2018-9-out-of-10-people-worldwide-breathe-polluted-air-but-more-countries-are-taking-action",
+    "title": "9 out of 10 people worldwide breathe polluted air, but more countries are taking action",
+    "date": "2018-05-02",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/hero-images/ulaanbaatar-air-pollution.tmb-768v.jpg?sfvrsn=3b2f7fc5_18"
+  },
+  {
+    "url": "https://www.who.int/news/item/25-04-2018-viet-nam-ready-to-eliminate-malaria",
+    "title": "Viet Nam ready to eliminate malaria",
+    "date": "2018-04-25",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/global-malaria-program-(gmp)/mme-images/mme-elimination-viet-nam2.tmb-768v.jpg?Culture=en&sfvrsn=bb3cf5f4_1"
+  },
+  {
+    "url": "https://www.who.int/news/item/11-04-2018-who-and-unicef-issue-new-guidance-to-promote-breastfeeding-in-health-facilities-globally",
+    "title": "WHO and UNICEF issue new guidance to promote breastfeeding in health facilities globally",
+    "date": "2018-04-11",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/vaccinating-breastfeeding-brazil-jpg.tmb-768v.jpg?sfvrsn=8850ff08_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/11-04-2018-who-concerned-about-suspected-chemical-attacks-in-syria",
+    "title": "WHO concerned about suspected chemical attacks in Syria",
+    "date": "2018-04-11",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/syria9.tmb-768v.jpg?sfvrsn=ba8fad64_37"
+  },
+  {
+    "url": "https://www.who.int/news/item/10-04-2018-nearly-one-billion-people-in-africa-to-be-protected-against-yellow-fever-by-2026",
+    "title": "Nearly one billion people in Africa to be protected against Yellow fever by 2026",
+    "date": "2018-04-10",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/yellow-fever-vaccine-prevention-is-better-than-a-cure.tmb-768v.jpg?sfvrsn=680245ca_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/05-04-2018-who-at-70---working-for-better-health-for-everyone-everywhere",
+    "title": "WHO at 70 - working for better health for everyone, everywhere",
+    "date": "2018-04-05",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/hero-images/old-man-in-the-hospital-with-a-health-worker.tmb-768v.jpg?sfvrsn=de790099_26"
+  },
+  {
+    "url": "https://www.who.int/news/item/27-03-2018-donors-pledge-over-us-15-million-to-who-s-contingency-fund-for-emergencies",
+    "title": "Donors pledge over US$ 15 million to WHO’s Contingency Fund for Emergencies",
+    "date": "2018-03-27",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://www.who.int/images/default-source/imported/hq-cfe-26mar2018-0146.tmb-768v.jpg?Culture=en&sfvrsn=771e3f87_38"
+  },
+  {
+    "url": "https://www.who.int/news/item/21-03-2018-promote-health-keep-the-world-safe-serve-the-vulnerable",
+    "title": "Promote health, keep the world safe, serve the vulnerable",
+    "date": "2018-03-21",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/yellow-fever-outbreak-in-the-democratic-republic-of-the-congo_dd5de79f-c93c-4e29-a20d-e7bbb385df8b.tmb-768v.jpg?sfvrsn=7befa41e_38"
+  },
+  {
+    "url": "https://www.who.int/news/item/14-03-2018-seven-years-of-syria-s-health-tragedy",
+    "title": "Seven years of Syria’s health tragedy",
+    "date": "2018-03-14",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/destruction-syria-war.tmb-768v.jpg?sfvrsn=26a7f55f_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/08-03-2018-working-together-for-the-health-and-welfare-of-humankind",
+    "title": "61st session of the Commission on Narcotic Drugs",
+    "date": "2018-03-08",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/gender-in-india.tmb-768v.jpg?sfvrsn=6f9c0c02_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/07-03-2018-gender-equality-must-be-at-the-core-of-health-for-all",
+    "title": "Gender equality must be at the core of 'Health for All'",
+    "date": "2018-03-07",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/midwife-woman-holding-baby-jpg.tmb-768v.jpg?sfvrsn=ca9461b6_37"
+  },
+  {
+    "url": "https://www.who.int/news/item/27-02-2018-statement-for-rare-disease-day",
+    "title": "Statement for Rare Disease Day",
+    "date": "2018-02-27",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/marburg-outbreak-in-uganda.tmb-768v.jpg?sfvrsn=4d41f75e_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/16-02-2018-world-leaders-join-new-drive-to-beat-noncommunicable-diseases",
+    "title": "World leaders join new drive to beat noncommunicable diseases",
+    "date": "2018-02-16",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/ncds-photo-07-jpg.tmb-768v.jpg?sfvrsn=78105d4_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/15-02-2018-individualized-supportive-care-key-to-positive-childbirth-experience-says-who",
+    "title": "Individualized, supportive care key to positive childbirth experience, says WHO",
+    "date": "2018-02-15",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/pregnancy-consultation-colombia.tmb-768v.jpg?sfvrsn=5ffb9ec6_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/13-02-2018-statement-of-the-sixteenth-ihr-emergency-committee-regarding-the-international-spread-of-poliovirus",
+    "title": "Statement of the Sixteenth IHR Emergency Committee Regarding the International Spread of Poliovirus",
+    "date": "2018-02-13",
+    "tags": [
+      "Statement"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/polio-nigeria-1200.tmb-768v.jpg?sfvrsn=cd10e77d_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/29-01-2018-high-levels-of-antibiotic-resistance-found-worldwide-new-data-shows",
+    "title": "High levels of antibiotic resistance found worldwide, new data shows",
+    "date": "2018-01-29",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/who-014757-orig.tmb-768v.jpg?sfvrsn=77d228f5_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/10-01-2018-un-environment-and-who-agree-to-major-collaboration-on-environmental-health-risks",
+    "title": "UN Environment and WHO agree to major collaboration on environmental health risks",
+    "date": "2018-01-10",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/tedros-unep.tmb-768v.jpg?sfvrsn=918cadbe_44"
+  },
+  {
+    "url": "https://www.who.int/news/item/08-01-2018-dr-carissa-etienne-elected-for-a-second-term-as-who-regional-director-for-the-americas",
+    "title": "Dr Carissa Etienne elected for a second term as WHO Regional Director for the Americas",
+    "date": "2018-01-08",
+    "tags": [
+      "Note for Media"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/dr-tedros-dr-carissa-etienne-142-executive-board.tmb-768v.jpg?sfvrsn=e44398e6_26"
+  },
+  {
+    "url": "https://www.who.int/news/item/08-01-2018-who-director-general-invest-in-health-to-end-plague-in-madagascar",
+    "title": "WHO Director-General: invest in health to end plague in Madagascar",
+    "date": "2018-01-08",
+    "tags": [
+      "News release"
+    ],
+    "image": "https://cdn.who.int/media/images/default-source/imported/tedros-madagscar-plague.tmb-768v.jpg?sfvrsn=21a9d8ec_44"
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "url": "https://www.webmd.com/osteoporosis/guide-chapter-osteoporosis-risks-prevention",
+  "title": "Risks & Prevention",
+  "slug": "guide-chapter-osteoporosis-risks-prevention",
+  "published_date": "",
+  "first_letter": "G",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": [
+        "Overview",
+        "Symptoms & Types",
+        "Risks & Prevention",
+        "Tests & Diagnosis",
+        "Treatment",
+        "Complications Problems Linked to Osteoporosis Osteoporosis & Bone Fractures",
+        "Living With",
+        "View Full Guide",
+        "Problems Linked to Osteoporosis",
+        "Osteoporosis & Bone Fractures"
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Overview",
+            "Symptoms & Types",
+            "Risks & Prevention",
+            "Tests & Diagnosis",
+            "Treatment",
+            "Complications Problems Linked to Osteoporosis Osteoporosis & Bone Fractures",
+            "Living With",
+            "View Full Guide"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Problems Linked to Osteoporosis",
+            "Osteoporosis & Bone Fractures"
+          ]
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/osteoporosis_hpt_toc_redesign/Screening%20&amp;%20Prevention_option_2.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/MoreOn_MensHealth.jpg?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/hpt_toc_redesign_illustrations/1500x1500_treatment_and_care_option_3.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "You can’t change many of the things that raise your chances of developing osteoporosis, like your genes, your age, and your sex. But that doesn’t mean you can’t prevent the disease.",
+  "canonical_url": "https://www.webmd.com/osteoporosis/guide-chapter-osteoporosis-risks-prevention",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:28:06.000495Z"
+}

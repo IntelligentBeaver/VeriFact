@@ -1,0 +1,291 @@
+{
+  "url": "https://www.webmd.com/osteoporosis/news/20231009/cm/new-ai-may-slash-high-death-rate-after-hip-fractures",
+  "title": "New AI May Slash High Death Rate After Hip Fractures",
+  "slug": "new-ai-may-slash-high-death-rate-after-hip-fractures",
+  "published_date": "",
+  "first_letter": "N",
+  "author": "Sarah Amandolare",
+  "medically_reviewed_by": "",
+  "read_time": "3 min read",
+  "sections": [
+    {
+      "heading": null,
+      "content": [
+        "Oct. 9, 2023 – Artificial Intelligence tools targeting hip fracture are on the rise.",
+        "The latest, from University of Pennsylvania researchers, can predict a patient’s risk of dying after a hip fracture, an underappreciated health hazard that affects hundreds of thousands of Americans each year.",
+        "The innovation could help doctors flag high-risk patients so they can help, potentially saving lives.",
+        "“We wanted to try out a bunch of different AI algorithms, feed them all the information, and then see what's the most accurate predictor of mortality we can get,” said study co-author Abhinav Suri, a medical student at the University of California, Los Angeles.",
+        "Other recent advances can predict the risk of fracturing a replacement hip, as well as recovery of mobility after hip surgery. Previous efforts have also used AI to assess death risk after hip fracture , but the new study tested more algorithms and included more patient data, the researchers say.",
+        "The researchers used a decade’s worth of data from 3,751 hip fracture patients to train 10 machine learning algorithms. The resulting models provide a “mortality risk score.” The models were assessed for how well they predicted mortality 1, 5, and 10 years after a hip fracture."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Oct. 9, 2023 – Artificial Intelligence tools targeting hip fracture are on the rise.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The latest, from University of Pennsylvania researchers, can predict a patient’s risk of dying after a hip fracture, an underappreciated health hazard that affects hundreds of thousands of Americans each year.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The innovation could help doctors flag high-risk patients so they can help, potentially saving lives.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“We wanted to try out a bunch of different AI algorithms, feed them all the information, and then see what's the most accurate predictor of mortality we can get,” said study co-author Abhinav Suri, a medical student at the University of California, Los Angeles.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Other recent advances can predict the risk of fracturing a replacement hip, as well as recovery of mobility after hip surgery. Previous efforts have also used AI to assess death risk after hip fracture , but the new study tested more algorithms and included more patient data, the researchers say.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The researchers used a decade’s worth of data from 3,751 hip fracture patients to train 10 machine learning algorithms. The resulting models provide a “mortality risk score.” The models were assessed for how well they predicted mortality 1, 5, and 10 years after a hip fracture.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "The models \"learned\" from the results of 149 lab tests and seven demographic variables. Of those data points, the researchers identified 10 features most important to mortality risk. Age topped the list, followed by blood glucose level.",
+        "“There i",
+        "s no current mortality risk calculator for hip fractures,” said Cory Calendine, MD, an orthopedic surgeon at the Bone and Joint Institute of Tennessee, who was not involved in the study. Some methods, like the Charlson Comorbidity Index, can help predict death more globally but have limited use in fracture care.",
+        "The model may not change how doctors manage hip fractures, which almost always demand surgery. But it could help doctors counsel the family, or signal for a health care worker to recommend more frequent or intensive follow-up care.",
+        "How AI Could Help Address an 'Enormous Public Health Issue'",
+        "More than 300,000 people in the U.S. fracture a hip every year. Among them, 20% to 40% die within a year, and one-third of those who survive longer lose their independence ."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The models \"learned\" from the results of 149 lab tests and seven demographic variables. Of those data points, the researchers identified 10 features most important to mortality risk. Age topped the list, followed by blood glucose level.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“There i",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "s no current mortality risk calculator for hip fractures,” said Cory Calendine, MD, an orthopedic surgeon at the Bone and Joint Institute of Tennessee, who was not involved in the study. Some methods, like the Charlson Comorbidity Index, can help predict death more globally but have limited use in fracture care.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The model may not change how doctors manage hip fractures, which almost always demand surgery. But it could help doctors counsel the family, or signal for a health care worker to recommend more frequent or intensive follow-up care.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "How AI Could Help Address an 'Enormous Public Health Issue'",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "More than 300,000 people in the U.S. fracture a hip every year. Among them, 20% to 40% die within a year, and one-third of those who survive longer lose their independence .",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Oct. 9, 2023 – Artificial Intelligence tools targeting hip fracture are on the rise.",
+        "The latest, from University of Pennsylvania researchers, can predict a patient’s risk of dying after a hip fracture, an underappreciated health hazard that affects hundreds of thousands of Americans each year.",
+        "The innovation could help doctors flag high-risk patients so they can help, potentially saving lives.",
+        "“We wanted to try out a bunch of different AI algorithms, feed them all the information, and then see what's the most accurate predictor of mortality we can get,” said study co-author Abhinav Suri, a medical student at the University of California, Los Angeles.",
+        "Other recent advances can predict the risk of fracturing a replacement hip, as well as recovery of mobility after hip surgery. Previous efforts have also used AI to assess death risk after hip fracture , but the new study tested more algorithms and included more patient data, the researchers say.",
+        "The researchers used a decade’s worth of data from 3,751 hip fracture patients to train 10 machine learning algorithms. The resulting models provide a “mortality risk score.” The models were assessed for how well they predicted mortality 1, 5, and 10 years after a hip fracture."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Oct. 9, 2023 – Artificial Intelligence tools targeting hip fracture are on the rise.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The latest, from University of Pennsylvania researchers, can predict a patient’s risk of dying after a hip fracture, an underappreciated health hazard that affects hundreds of thousands of Americans each year.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The innovation could help doctors flag high-risk patients so they can help, potentially saving lives.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“We wanted to try out a bunch of different AI algorithms, feed them all the information, and then see what's the most accurate predictor of mortality we can get,” said study co-author Abhinav Suri, a medical student at the University of California, Los Angeles.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Other recent advances can predict the risk of fracturing a replacement hip, as well as recovery of mobility after hip surgery. Previous efforts have also used AI to assess death risk after hip fracture , but the new study tested more algorithms and included more patient data, the researchers say.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The researchers used a decade’s worth of data from 3,751 hip fracture patients to train 10 machine learning algorithms. The resulting models provide a “mortality risk score.” The models were assessed for how well they predicted mortality 1, 5, and 10 years after a hip fracture.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "The models \"learned\" from the results of 149 lab tests and seven demographic variables. Of those data points, the researchers identified 10 features most important to mortality risk. Age topped the list, followed by blood glucose level.",
+        "“There i",
+        "s no current mortality risk calculator for hip fractures,” said Cory Calendine, MD, an orthopedic surgeon at the Bone and Joint Institute of Tennessee, who was not involved in the study. Some methods, like the Charlson Comorbidity Index, can help predict death more globally but have limited use in fracture care.",
+        "The model may not change how doctors manage hip fractures, which almost always demand surgery. But it could help doctors counsel the family, or signal for a health care worker to recommend more frequent or intensive follow-up care.",
+        "How AI Could Help Address an 'Enormous Public Health Issue'",
+        "More than 300,000 people in the U.S. fracture a hip every year. Among them, 20% to 40% die within a year, and one-third of those who survive longer lose their independence ."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The models \"learned\" from the results of 149 lab tests and seven demographic variables. Of those data points, the researchers identified 10 features most important to mortality risk. Age topped the list, followed by blood glucose level.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“There i",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "s no current mortality risk calculator for hip fractures,” said Cory Calendine, MD, an orthopedic surgeon at the Bone and Joint Institute of Tennessee, who was not involved in the study. Some methods, like the Charlson Comorbidity Index, can help predict death more globally but have limited use in fracture care.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The model may not change how doctors manage hip fractures, which almost always demand surgery. But it could help doctors counsel the family, or signal for a health care worker to recommend more frequent or intensive follow-up care.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "How AI Could Help Address an 'Enormous Public Health Issue'",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "More than 300,000 people in the U.S. fracture a hip every year. Among them, 20% to 40% die within a year, and one-third of those who survive longer lose their independence .",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "“Hip fracture is such an enormous public health issue. In truth, it really demands a preventive approach,” said Cody C. Wyles, MD, an assistant professor of orthopedic surgery and clinical anatomy at the Mayo Clinic, who was not involved in the study. “One of the reasons the injury is so devastating is not so much the injury, but that it's a marker of poor health.”",
+        "Many hip fracture patients have poor bone mineral density, muscle strength, and immune function, according to Wyles. Being unable to get around after surgery can be devastating for those patients.",
+        "Organ failure soon after hip surgery is “very rare” but can result from bone marrow being released into the body, both when the fracture occurs and after bone implants are placed during surgery, according to Wyles. Marrow can circulate to the lungs , creating stress to the heart and blood vessels.",
+        "Wyles spearheaded the Orthopedic Surgery Artificial Intelligence Laboratory at the Mayo Clinic, where researchers are developing risk prediction tools for patients and using AI to create synthetic versions of patient X-rays that can be viewed from multiple angles. AI models can also pinpoint targets for robotic tools to aim for during surgery.",
+        "Still, when it comes to hip fractures, “diet and exercise are going to be way more important than AI for helping us with this crisis,” Wyles said."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "“Hip fracture is such an enormous public health issue. In truth, it really demands a preventive approach,” said Cody C. Wyles, MD, an assistant professor of orthopedic surgery and clinical anatomy at the Mayo Clinic, who was not involved in the study. “One of the reasons the injury is so devastating is not so much the injury, but that it's a marker of poor health.”",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Many hip fracture patients have poor bone mineral density, muscle strength, and immune function, according to Wyles. Being unable to get around after surgery can be devastating for those patients.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Organ failure soon after hip surgery is “very rare” but can result from bone marrow being released into the body, both when the fracture occurs and after bone implants are placed during surgery, according to Wyles. Marrow can circulate to the lungs , creating stress to the heart and blood vessels.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Wyles spearheaded the Orthopedic Surgery Artificial Intelligence Laboratory at the Mayo Clinic, where researchers are developing risk prediction tools for patients and using AI to create synthetic versions of patient X-rays that can be viewed from multiple angles. AI models can also pinpoint targets for robotic tools to aim for during surgery.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Still, when it comes to hip fractures, “diet and exercise are going to be way more important than AI for helping us with this crisis,” Wyles said.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "“Hip fracture is such an enormous public health issue. In truth, it really demands a preventive approach,” said Cody C. Wyles, MD, an assistant professor of orthopedic surgery and clinical anatomy at the Mayo Clinic, who was not involved in the study. “One of the reasons the injury is so devastating is not so much the injury, but that it's a marker of poor health.”",
+        "Many hip fracture patients have poor bone mineral density, muscle strength, and immune function, according to Wyles. Being unable to get around after surgery can be devastating for those patients.",
+        "Organ failure soon after hip surgery is “very rare” but can result from bone marrow being released into the body, both when the fracture occurs and after bone implants are placed during surgery, according to Wyles. Marrow can circulate to the lungs , creating stress to the heart and blood vessels.",
+        "Wyles spearheaded the Orthopedic Surgery Artificial Intelligence Laboratory at the Mayo Clinic, where researchers are developing risk prediction tools for patients and using AI to create synthetic versions of patient X-rays that can be viewed from multiple angles. AI models can also pinpoint targets for robotic tools to aim for during surgery.",
+        "Still, when it comes to hip fractures, “diet and exercise are going to be way more important than AI for helping us with this crisis,” Wyles said."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "“Hip fracture is such an enormous public health issue. In truth, it really demands a preventive approach,” said Cody C. Wyles, MD, an assistant professor of orthopedic surgery and clinical anatomy at the Mayo Clinic, who was not involved in the study. “One of the reasons the injury is so devastating is not so much the injury, but that it's a marker of poor health.”",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Many hip fracture patients have poor bone mineral density, muscle strength, and immune function, according to Wyles. Being unable to get around after surgery can be devastating for those patients.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Organ failure soon after hip surgery is “very rare” but can result from bone marrow being released into the body, both when the fracture occurs and after bone implants are placed during surgery, according to Wyles. Marrow can circulate to the lungs , creating stress to the heart and blood vessels.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Wyles spearheaded the Orthopedic Surgery Artificial Intelligence Laboratory at the Mayo Clinic, where researchers are developing risk prediction tools for patients and using AI to create synthetic versions of patient X-rays that can be viewed from multiple angles. AI models can also pinpoint targets for robotic tools to aim for during surgery.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Still, when it comes to hip fractures, “diet and exercise are going to be way more important than AI for helping us with this crisis,” Wyles said.",
+          "associated_bullets": null
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd-logo-fb.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.webmd.com/vim/live/webmd/consumer_assets/site_images/Avatar.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/MoreOn_Alzheimers.jpg?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/osteoporosis_hpt_toc_redesign/1500x1500_osteoporosis_hpt_toc_chapter_2_1150511910.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [
+    "Journal of Orthopaedic Research : \"Machine learning-based mortality prediction in hip fracture patients using biomarkers.\"",
+    "Cory Calendine, MD, orthopedic surgeon, Bone and Joint Institute of Tennessee.",
+    "Cody C. Wyles, MD, assistant professor of orthopedic surgery and clinical anatomy, Mayo Clinic.",
+    "Abhinav Suri, medical student, University of California, Los Angeles."
+  ],
+  "meta_description": "Researchers have come up with artificial intelligence that can predict a patient’s risk of dying in the years after a hip fracture. It could help doctors improve post-operative care.",
+  "canonical_url": "https://www.webmd.com/osteoporosis/news/20231009/cm/new-ai-may-slash-high-death-rate-after-hip-fractures",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:31:40.818795Z"
+}

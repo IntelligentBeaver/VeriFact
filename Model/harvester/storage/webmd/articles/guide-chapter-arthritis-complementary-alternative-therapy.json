@@ -1,0 +1,78 @@
+{
+  "url": "https://www.webmd.com/arthritis/guide-chapter-arthritis-complementary-alternative-therapy",
+  "title": "Complementary & Alternative Therapy",
+  "slug": "guide-chapter-arthritis-complementary-alternative-therapy",
+  "published_date": "",
+  "first_letter": "G",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": [
+        "Overview",
+        "Tests & Diagnosis",
+        "Types Arthritis Types & Related Conditions Gout",
+        "Treatment Medications Surgery Arthritis Care Team",
+        "Complementary & Alternative Therapy",
+        "View Full Guide",
+        "Arthritis Types & Related Conditions",
+        "Gout",
+        "Medications",
+        "Surgery",
+        "Arthritis Care Team"
+      ],
+      "content_blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Overview",
+            "Tests & Diagnosis",
+            "Types Arthritis Types & Related Conditions Gout",
+            "Treatment Medications Surgery Arthritis Care Team",
+            "Complementary & Alternative Therapy",
+            "View Full Guide"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Arthritis Types & Related Conditions",
+            "Gout"
+          ]
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Medications",
+            "Surgery",
+            "Arthritis Care Team"
+          ]
+        }
+      ]
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/arthritis-hpt-toc-redesign/1500x1500-arthritis-hpt-toc-chapter-3-redesign.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/more_on/Arthritis.png?resize=300px:*&output-quality=75",
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/hpt_toc_redesign/hpt_toc_redesign_illustrations/1500x1500_screening_and_prevention_option_3.jpg?resize=500px:*&output-quality=75",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "Arthritis causes swollen, stiff joints and discomfort. Complementary treatments such as acupuncture, exercise, heat and cold therapy, occupational therapy, and assistive devices help manage symptoms and enhance mobility.",
+  "canonical_url": "https://www.webmd.com/arthritis/guide-chapter-arthritis-complementary-alternative-therapy",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:42:29.877286Z"
+}

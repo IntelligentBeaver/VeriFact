@@ -1,0 +1,775 @@
+{
+  "url": "https://www.webmd.com/podcasts/20241127/gut-check-antibiotics-probiotics-and-your-health",
+  "title": "Gut Check: Antibiotics, Probiotics, and Your Health",
+  "slug": "gut-check-antibiotics-probiotics-and-your-health",
+  "published_date": "",
+  "first_letter": "G",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": null,
+      "content_blocks": []
+    },
+    {
+      "heading": null,
+      "content": [
+        "Nov. 27, 2024 -- Antibiotics are life-saving in the right moments, like treating bacterial infections, but knowing when they’re necessary is key. They can also disrupt the delicate balance of gut health. So, how can probiotics help? When should you use them – and when should you not? We spoke with Will Bulsiewicz, MD , a board-certified gastroenterologist and NYT bestselling author, to explore the relationship between antibiotics, probiotics, and gut health. Dr. B shared insights on evidence-based probiotic use, the importance of mindful antibiotic choices, and how a gut-healthy diet can support overall well-being."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nov. 27, 2024 -- Antibiotics are life-saving in the right moments, like treating bacterial infections, but knowing when they’re necessary is key. They can also disrupt the delicate balance of gut health. So, how can probiotics help? When should you use them – and when should you not? We spoke with Will Bulsiewicz, MD , a board-certified gastroenterologist and NYT bestselling author, to explore the relationship between antibiotics, probiotics, and gut health. Dr. B shared insights on evidence-based probiotic use, the importance of mindful antibiotic choices, and how a gut-healthy diet can support overall well-being.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Neha Pathak, MD, FACP, DipABLM:",
+      "content": [
+        "Welcome to the WebMD Health Discovered Podcast. I'm Dr Neha Pathak, WebMD's Chief Physician Editor for Health and Lifestyle Medicine. Today, we're exploring a topic that impacts all of us. The delicate balance of gut health and the real role of probiotics and antibiotics. We know that antibiotics can be lifesaving, there's no denying that, but they're often misunderstood in terms of when we need them and how they impact our gut health."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Welcome to the WebMD Health Discovered Podcast. I'm Dr Neha Pathak, WebMD's Chief Physician Editor for Health and Lifestyle Medicine. Today, we're exploring a topic that impacts all of us. The delicate balance of gut health and the real role of probiotics and antibiotics. We know that antibiotics can be lifesaving, there's no denying that, but they're often misunderstood in terms of when we need them and how they impact our gut health.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "While they can be lifesavers, they're not always the answer, and their overuse can lead to resistance, making these medications much less effective for when we actually need them. It's also important to know when antibiotics are appropriate and the right questions to ask your healthcare provider. Like, is this medicine really necessary?",
+        "Understanding when to shift away from expecting antibiotics for every ailment can help protect our health in the long run and very importantly can help protect our gut health in the long run.",
+        "So, enter probiotics, those good bacteria known to support gut health. When are they a good idea? Especially after a round of antibiotics. It's really important for us to know that not all probiotics are created equal and their effectiveness varies widely.",
+        "In this episode, we're breaking down the facts, myths, and science behind probiotics. Antibiotics and the role of other things like a high fiber diet in building optimal gut resilience.",
+        "We'll help you understand when probiotics might make a difference, when they might not, and how to make an informed choice for yourself and your family. So, whether you're navigating an antibiotic prescription or aiming to enhance your gut health, stay tuned as we unpack practical steps, key questions to ask, and smart strategies to approach these powerful tools for a healthier gut and a healthier gut microbiome."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "While they can be lifesavers, they're not always the answer, and their overuse can lead to resistance, making these medications much less effective for when we actually need them. It's also important to know when antibiotics are appropriate and the right questions to ask your healthcare provider. Like, is this medicine really necessary?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Understanding when to shift away from expecting antibiotics for every ailment can help protect our health in the long run and very importantly can help protect our gut health in the long run.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So, enter probiotics, those good bacteria known to support gut health. When are they a good idea? Especially after a round of antibiotics. It's really important for us to know that not all probiotics are created equal and their effectiveness varies widely.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In this episode, we're breaking down the facts, myths, and science behind probiotics. Antibiotics and the role of other things like a high fiber diet in building optimal gut resilience.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "We'll help you understand when probiotics might make a difference, when they might not, and how to make an informed choice for yourself and your family. So, whether you're navigating an antibiotic prescription or aiming to enhance your gut health, stay tuned as we unpack practical steps, key questions to ask, and smart strategies to approach these powerful tools for a healthier gut and a healthier gut microbiome.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "But first, let me introduce my guest, Dr Will Bulsiewicz. Dr Bulsiewicz, better known as Dr B, is a board-certified gastroenterologist and New York Times best-selling author, known for his exploration of the relationship between the gut microbiome and plant-based nutrition.",
+        "Welcome to the WebMD Health Discovered podcast, Will.",
+        "Will Bulsiewicz, MD, MSCI: Oh, thank you, Dr Neha. It's always, always a pleasure to connect with you.",
+        "Pathak: So excited to jump into our conversation. Before we do, I'd love to just get a sense of you started to connect the dots between the microbiome, antibiotics, probiotics. How did you come to a unifying theory, if you have one, on how we should be thinking about the interaction of these things?",
+        "Bulsiewicz: The story quite simply is that I was going through my medical training, eight years after medical school, 16 years when you include medical school and college, and I was in my early 30s.",
+        "And I had sacrificed everything to become a doctor, including my own health. I was 50 pounds overweight. I had metabolic issues. I was in a bad place in terms of my mood, my self-esteem, and I needed to fix my own issues. And what I ultimately discovered was the power of dietary change. So that came first and that was roughly 2012, 2013 for me."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "But first, let me introduce my guest, Dr Will Bulsiewicz. Dr Bulsiewicz, better known as Dr B, is a board-certified gastroenterologist and New York Times best-selling author, known for his exploration of the relationship between the gut microbiome and plant-based nutrition.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Welcome to the WebMD Health Discovered podcast, Will.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Will Bulsiewicz, MD, MSCI: Oh, thank you, Dr Neha. It's always, always a pleasure to connect with you.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak: So excited to jump into our conversation. Before we do, I'd love to just get a sense of you started to connect the dots between the microbiome, antibiotics, probiotics. How did you come to a unifying theory, if you have one, on how we should be thinking about the interaction of these things?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Bulsiewicz: The story quite simply is that I was going through my medical training, eight years after medical school, 16 years when you include medical school and college, and I was in my early 30s.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And I had sacrificed everything to become a doctor, including my own health. I was 50 pounds overweight. I had metabolic issues. I was in a bad place in terms of my mood, my self-esteem, and I needed to fix my own issues. And what I ultimately discovered was the power of dietary change. So that came first and that was roughly 2012, 2013 for me.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "I was at that time, 32, 33 years old, wrapping up my training. I was in my gastroenterology fellowship. And, so as I was processing what had happened in my own life and attempting to bring it into the clinic to help my patients who had gut health problems, I then started to see the emergence of new research in my field as a gastroenterologist.",
+        "So in a way, because I was a gastroenterologist, and because this was the gut microbiome that we're talking about, I was starting to be exposed to the research before people in other specialties would be and this voracious desire that I had to understand the connections between our nutrition and our body started to come together with clarity, come into focus."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "I was at that time, 32, 33 years old, wrapping up my training. I was in my gastroenterology fellowship. And, so as I was processing what had happened in my own life and attempting to bring it into the clinic to help my patients who had gut health problems, I then started to see the emergence of new research in my field as a gastroenterologist.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So in a way, because I was a gastroenterologist, and because this was the gut microbiome that we're talking about, I was starting to be exposed to the research before people in other specialties would be and this voracious desire that I had to understand the connections between our nutrition and our body started to come together with clarity, come into focus.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Because I was able to then connect the dots, like it stopped being a black box and it started being, oh, when I eat this, it affects these microbes, which released these chemicals that then have healing effects throughout my body. And so, so that was the way that I came into the microbiome. And so, it was like from 2014 on, I was basically obsessing over this idea, and it hadn't yet made its way into other specialties or even to the public yet, but now here we are and it's 2024 and people are definitely paying attention."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Because I was able to then connect the dots, like it stopped being a black box and it started being, oh, when I eat this, it affects these microbes, which released these chemicals that then have healing effects throughout my body. And so, so that was the way that I came into the microbiome. And so, it was like from 2014 on, I was basically obsessing over this idea, and it hadn't yet made its way into other specialties or even to the public yet, but now here we are and it's 2024 and people are definitely paying attention.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Pathak:",
+      "content": [
+        "That story is so reflective of why we're talking to a gastroenterologist about antibiotics and probiotics. So, we're having this discussion today, hopefully around what we need to be thinking about when we're prescribed some of these medications.",
+        "Can you help us take a step back and really talk through what are we talking about when we say probiotics or prebiotics?",
+        "Bulsiewicz: Sure. So, probiotics is a term that most people in America have heard at this point And what we're referring to there, like quite specifically, are live microorganisms, typically either bacteria or yeasts, that have been demonstrated in research to have beneficial effects on human health. So, it's not just live microbes.",
+        "It has to actually be specific strains of these microbes, bacteria, or yeasts that we have a study to say we have demonstrated that this bacteria or yeast is good for human health. That's what a probiotic is. Now, sometimes we use this language or terminology quite loosely."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "That story is so reflective of why we're talking to a gastroenterologist about antibiotics and probiotics. So, we're having this discussion today, hopefully around what we need to be thinking about when we're prescribed some of these medications.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Can you help us take a step back and really talk through what are we talking about when we say probiotics or prebiotics?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Bulsiewicz: Sure. So, probiotics is a term that most people in America have heard at this point And what we're referring to there, like quite specifically, are live microorganisms, typically either bacteria or yeasts, that have been demonstrated in research to have beneficial effects on human health. So, it's not just live microbes.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "It has to actually be specific strains of these microbes, bacteria, or yeasts that we have a study to say we have demonstrated that this bacteria or yeast is good for human health. That's what a probiotic is. Now, sometimes we use this language or terminology quite loosely.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "I myself am guilty of this at times. I will fully acknowledge this when we're talking about, you know, for example, fermented foods and fermented foods are living foods. I think of a fermented food as being an ecosystem of microbes that include both bacteria and yeasts and living within that ecosystem.",
+        "You may actually have the exact same bacteria or the exact same yeast that have been demonstrated to have these health effects. They may be in there. I don't think it's actually fair for us to technically call them probiotics because it's not the same. It's not the same to consume kefir or to eat sauerkraut as it is to take a capsule that contains purified strains in a certain amount that has been rigorously studied and demonstrated to have a certain effect."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "I myself am guilty of this at times. I will fully acknowledge this when we're talking about, you know, for example, fermented foods and fermented foods are living foods. I think of a fermented food as being an ecosystem of microbes that include both bacteria and yeasts and living within that ecosystem.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You may actually have the exact same bacteria or the exact same yeast that have been demonstrated to have these health effects. They may be in there. I don't think it's actually fair for us to technically call them probiotics because it's not the same. It's not the same to consume kefir or to eat sauerkraut as it is to take a capsule that contains purified strains in a certain amount that has been rigorously studied and demonstrated to have a certain effect.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "So, I think that's sort of the conceptual framework around probiotics and, you know, a quick comment since we're on the topic of probiotics, I feel compelled to say this just to sort of weigh the context from my perspective and my belief."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "So, I think that's sort of the conceptual framework around probiotics and, you know, a quick comment since we're on the topic of probiotics, I feel compelled to say this just to sort of weigh the context from my perspective and my belief.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "I feel like people want to reduce them down to either good or bad, right? It's like this black or white thing, but it's not really. It's actually quite nuanced. And I personally, as a gastroenterologist, have cared for thousands of patients that have benefited from the use of probiotics. Does that mean that they are beneficial?",
+        "Absolutely not. Does that mean that if you are listening to us right now, you should be taking one? Absolutely not. Does that mean that we're even using them properly right now in the United States? I would say that we're not. So I hope that that's one of the things that we can kind of dig into is the nuance, because I do think that there's a place that exists where probiotics can be helpful and beneficial to people who need them, but they're not this silver bullet that everyone needs to take, and that, to me, is where we run into an issue where the marketing is hyperbolic and beyond what the science actually supports."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "I feel like people want to reduce them down to either good or bad, right? It's like this black or white thing, but it's not really. It's actually quite nuanced. And I personally, as a gastroenterologist, have cared for thousands of patients that have benefited from the use of probiotics. Does that mean that they are beneficial?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Absolutely not. Does that mean that if you are listening to us right now, you should be taking one? Absolutely not. Does that mean that we're even using them properly right now in the United States? I would say that we're not. So I hope that that's one of the things that we can kind of dig into is the nuance, because I do think that there's a place that exists where probiotics can be helpful and beneficial to people who need them, but they're not this silver bullet that everyone needs to take, and that, to me, is where we run into an issue where the marketing is hyperbolic and beyond what the science actually supports.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Pathak:",
+      "content": [
+        "So, let's talk step by step then about those three pieces that you just laid out. Talk to us first about situations in which you do find them to be beneficial probiotics. And then when we say probiotics also tell us what you mean by that specifically.",
+        "Are you talking about that in the food-based form? Are you talking about that as a capsule? And then talk about what circumstances do you use that tool in your toolbox?",
+        "Bulsiewicz: Okay. So, with probiotics, if we could, I would like to separate out entirely probiotic supplements, which classically will come in a capsule, and I would like to remove that from any sort of idea around fermented foods.",
+        "With probiotic supplements what you're going to have is a capsule that contains specific ingredients, microbes that might be one bacteria or one yeast or a mixture of several and they're put in there with the intent of providing benefits to your health. They're going to define typically a certain number of different microbes’ part of the issue that we have from my perspective is that people number one assume that probiotics are all the same."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "So, let's talk step by step then about those three pieces that you just laid out. Talk to us first about situations in which you do find them to be beneficial probiotics. And then when we say probiotics also tell us what you mean by that specifically.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Are you talking about that in the food-based form? Are you talking about that as a capsule? And then talk about what circumstances do you use that tool in your toolbox?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Bulsiewicz: Okay. So, with probiotics, if we could, I would like to separate out entirely probiotic supplements, which classically will come in a capsule, and I would like to remove that from any sort of idea around fermented foods.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "With probiotic supplements what you're going to have is a capsule that contains specific ingredients, microbes that might be one bacteria or one yeast or a mixture of several and they're put in there with the intent of providing benefits to your health. They're going to define typically a certain number of different microbes’ part of the issue that we have from my perspective is that people number one assume that probiotics are all the same.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "This is even done by the way, Neha, in some of the studies, like systematic reviews and meta analyses where they just bundle all probiotics together, right? they're not the same. Different microbes have different effects. Different numbers have different effects. So, for the people who are listening at home that are trying to make an assessment of, can I use a probiotic?",
+        "I want you to understand that the way that you go about this is to start with evidence, the science, and to say, what evidence do I have for these specific microbes? In this specific amount, and that is to me, the simplest that we can make it. We can certainly make this more complicated and talk about different types of capsules and things like that.",
+        "I don't think we necessarily need to go there. I think that what we need to focus on is what is the evidence for this specific microbe in this specific amount, and there should be an outcome. So what I mean by that is, are we attempting to improve irritable bowel syndrome? Are we attempting to improve constipation?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "This is even done by the way, Neha, in some of the studies, like systematic reviews and meta analyses where they just bundle all probiotics together, right? they're not the same. Different microbes have different effects. Different numbers have different effects. So, for the people who are listening at home that are trying to make an assessment of, can I use a probiotic?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "I want you to understand that the way that you go about this is to start with evidence, the science, and to say, what evidence do I have for these specific microbes? In this specific amount, and that is to me, the simplest that we can make it. We can certainly make this more complicated and talk about different types of capsules and things like that.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "I don't think we necessarily need to go there. I think that what we need to focus on is what is the evidence for this specific microbe in this specific amount, and there should be an outcome. So what I mean by that is, are we attempting to improve irritable bowel syndrome? Are we attempting to improve constipation?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Are we attempting to protect ourselves from developing an infection after we take antibiotics? And for each of these things, there is research that will show some probiotics that work. And to be completely frank, the probiotics that don't work, they probably don't get published because the people who paid for those studies, they don't want to publish that study, right?",
+        "So what we have is typically just positive studies that show this probiotic works for this thing. When you're thinking about taking a probiotic, and this is the same way that I think about this as a gastroenterologist, but I want our listeners to think about it this way: start with, what am I trying to accomplish? And then you find the probiotic that has a study. Ideally this is a placebo-controlled drug randomized study that shows that when you take this probiotic, you are more likely to achieve the result that you are trying to accomplish. And with that, make sure that you're taking the exact same probiotic with the exact same amount of microbes. Once you've identified that, it doesn't mean it's going to work."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Are we attempting to protect ourselves from developing an infection after we take antibiotics? And for each of these things, there is research that will show some probiotics that work. And to be completely frank, the probiotics that don't work, they probably don't get published because the people who paid for those studies, they don't want to publish that study, right?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So what we have is typically just positive studies that show this probiotic works for this thing. When you're thinking about taking a probiotic, and this is the same way that I think about this as a gastroenterologist, but I want our listeners to think about it this way: start with, what am I trying to accomplish? And then you find the probiotic that has a study. Ideally this is a placebo-controlled drug randomized study that shows that when you take this probiotic, you are more likely to achieve the result that you are trying to accomplish. And with that, make sure that you're taking the exact same probiotic with the exact same amount of microbes. Once you've identified that, it doesn't mean it's going to work.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "and with that in mind, a probiotic is a gut microbiome intervention. So I'm taking my personal microbiome that's unique, and then I'm introducing these new microbes. And the truth is we're not going to know Until we try and much like, you know, you can't promise that every single medicine will work for every single person. People have different responses. The same is true with probiotics that ultimately you have to say, what am I trying to accomplish? If it's like, Hey, I want to improve my bloating.",
+        "Okay, I'm going to choose a probiotic that's been shown to do this. And then I'm going to take, take it for a month and I'm going to reevaluate. Is this really making any difference for me? And that's the way that I approach this. So I think that like on some level, this, combination of starting evidence based and then moving into personalized,",
+        "Pathak: If we're thinking then about using that really helpful framework of what is the evidence that there are probiotic supplements? That may be able to lessen adverse impacts from taking an antibiotic that might impact our microbiome. How do you approach that specific outcome?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "and with that in mind, a probiotic is a gut microbiome intervention. So I'm taking my personal microbiome that's unique, and then I'm introducing these new microbes. And the truth is we're not going to know Until we try and much like, you know, you can't promise that every single medicine will work for every single person. People have different responses. The same is true with probiotics that ultimately you have to say, what am I trying to accomplish? If it's like, Hey, I want to improve my bloating.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Okay, I'm going to choose a probiotic that's been shown to do this. And then I'm going to take, take it for a month and I'm going to reevaluate. Is this really making any difference for me? And that's the way that I approach this. So I think that like on some level, this, combination of starting evidence based and then moving into personalized,",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak: If we're thinking then about using that really helpful framework of what is the evidence that there are probiotic supplements? That may be able to lessen adverse impacts from taking an antibiotic that might impact our microbiome. How do you approach that specific outcome?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Bulsiewicz:",
+      "content": [
+        "It used to be years ago that we would basically recommend probiotics to anyone who was taking antibiotics.",
+        "And it was just like a quite simple intuitive idea that hadn't really been fleshed out in studies. And we just assumed that, hey, this is so obvious. If we're going to knock the microbes down, then why don't we just instantly replace them with fresh, good guys? And that will fix all of the issues and negate any bad result.",
+        "So that's where we stood until 2018. And then there was a study that came out of the Weizmann Institute where they went into great detail to actually address this question and see what happens after a person takes antibiotics to the microbiome in terms of the recovery that's taking place.",
+        "And how does that differ between a person who takes probiotics or does not take probiotics? And in this study, they were getting microbiome specimens from all over the body, including doing colonoscopies. Right. So, they went far beyond the level of detail that we typically go to where most of the time people just take a poop specimen and call it a day. And what they discovered; this is the reason why we can't just make assumptions in research. When these study participants took antibiotics, they discovered that when they actually followed with probiotics, it slowed down the recovery of the microbiome. So if you left the microbiome completely alone, it would build back on its own. It would heal. It would take time. But it would happen. But if you introduce probiotics, you actually are disrupting that healing process. And so those foreign microbes that really, frankly, weren't supposed to be there, that it's unnatural."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "It used to be years ago that we would basically recommend probiotics to anyone who was taking antibiotics.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And it was just like a quite simple intuitive idea that hadn't really been fleshed out in studies. And we just assumed that, hey, this is so obvious. If we're going to knock the microbes down, then why don't we just instantly replace them with fresh, good guys? And that will fix all of the issues and negate any bad result.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So that's where we stood until 2018. And then there was a study that came out of the Weizmann Institute where they went into great detail to actually address this question and see what happens after a person takes antibiotics to the microbiome in terms of the recovery that's taking place.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And how does that differ between a person who takes probiotics or does not take probiotics? And in this study, they were getting microbiome specimens from all over the body, including doing colonoscopies. Right. So, they went far beyond the level of detail that we typically go to where most of the time people just take a poop specimen and call it a day. And what they discovered; this is the reason why we can't just make assumptions in research. When these study participants took antibiotics, they discovered that when they actually followed with probiotics, it slowed down the recovery of the microbiome. So if you left the microbiome completely alone, it would build back on its own. It would heal. It would take time. But it would happen. But if you introduce probiotics, you actually are disrupting that healing process. And so those foreign microbes that really, frankly, weren't supposed to be there, that it's unnatural.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "They actually are taking up residence and taking up space. It's just slowing down our ability to move forward. And so, the negative effects that come from the antibiotics actually last longer when you take a probiotic afterwards. So, I shifted to a new position after this study came out.",
+        "And my new position was that the majority of people who take antibiotics do not need, should not take a probiotic. Now, there are exceptions to this. This is where the complex part comes in. Is that there are clearly, clearly studies that show us that certain probiotics can protect us from developing an infection called Clostridioides Difficile or C. diff. And the C. diff, it is a pathogenic bacteria. It may exist, like I'm quite certain that I have this living inside of my microbiome right now because I've been taking care of so many patients with this. But in a healthy microbiome, it doesn't have any power. It can't do anything. But when you knock down the healthy microbiome with antibiotics. It creates an environment where actually this bacterium thrives and then it grows and then it causes colitis, which basically means inflammation of the colon. And for some people, it's a minor thing. It's detected quite quickly because they're having diarrhea 24 hours a day and they know that something is wrong."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "They actually are taking up residence and taking up space. It's just slowing down our ability to move forward. And so, the negative effects that come from the antibiotics actually last longer when you take a probiotic afterwards. So, I shifted to a new position after this study came out.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And my new position was that the majority of people who take antibiotics do not need, should not take a probiotic. Now, there are exceptions to this. This is where the complex part comes in. Is that there are clearly, clearly studies that show us that certain probiotics can protect us from developing an infection called Clostridioides Difficile or C. diff. And the C. diff, it is a pathogenic bacteria. It may exist, like I'm quite certain that I have this living inside of my microbiome right now because I've been taking care of so many patients with this. But in a healthy microbiome, it doesn't have any power. It can't do anything. But when you knock down the healthy microbiome with antibiotics. It creates an environment where actually this bacterium thrives and then it grows and then it causes colitis, which basically means inflammation of the colon. And for some people, it's a minor thing. It's detected quite quickly because they're having diarrhea 24 hours a day and they know that something is wrong.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "They might see blood. They may have a fever. For some people that's easy to treat. But for many people, it is not, and it can be dangerous and require multiple courses of new antibiotics. And for some people actually compromise their colon in terms of there are people who have had to have their colon removed as a result of this bacteria. All of what I just described is related to what's happening in the microbiome. But to answer the question, would I recommend probiotics to some people after antibiotics?",
+        "Yes. The person that I'm worried they will develop this infection called C. diff. I would actually recommend probiotics to them. And the reason why is because any sort of concerns that I have based upon the 2018 study are not as powerful as my concerns about what happens if they develop this infection. And I know that there are probiotics that can help to protect them from the infection. And that's why I would recommend those."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "They might see blood. They may have a fever. For some people that's easy to treat. But for many people, it is not, and it can be dangerous and require multiple courses of new antibiotics. And for some people actually compromise their colon in terms of there are people who have had to have their colon removed as a result of this bacteria. All of what I just described is related to what's happening in the microbiome. But to answer the question, would I recommend probiotics to some people after antibiotics?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. The person that I'm worried they will develop this infection called C. diff. I would actually recommend probiotics to them. And the reason why is because any sort of concerns that I have based upon the 2018 study are not as powerful as my concerns about what happens if they develop this infection. And I know that there are probiotics that can help to protect them from the infection. And that's why I would recommend those.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Pathak:",
+      "content": [
+        "That's really helpful. And I think just to go back to your earlier comment, let's dig in a little bit to what antibiotics are doing to the gut microbiome and the impact that they're having, which is where you then come into your framework of considering which patient is going to benefit from probiotics. So, you said specifically those at higher risk for C. diff. Can you talk a little bit about antibiotics?",
+        "Bulsiewicz: So to properly contextualize this, because I'm about to make antibiotics sound very bad. I want to start by saying this: that if I were to use an analogy for antibiotics, the analogy that comes to mind for me is the discovery of fire by early humans, because the discovery of fire, it transformed us in a really powerful and beautiful way.",
+        "And we would never want to walk that back. And we are all better off as the result of the fact that we can light up our stove and have a fire and we can cook a delicious meal. but there are downsides to fire and people do get hurt by fire at times. If they're not careful, and that's the way that I would describe."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "That's really helpful. And I think just to go back to your earlier comment, let's dig in a little bit to what antibiotics are doing to the gut microbiome and the impact that they're having, which is where you then come into your framework of considering which patient is going to benefit from probiotics. So, you said specifically those at higher risk for C. diff. Can you talk a little bit about antibiotics?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Bulsiewicz: So to properly contextualize this, because I'm about to make antibiotics sound very bad. I want to start by saying this: that if I were to use an analogy for antibiotics, the analogy that comes to mind for me is the discovery of fire by early humans, because the discovery of fire, it transformed us in a really powerful and beautiful way.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And we would never want to walk that back. And we are all better off as the result of the fact that we can light up our stove and have a fire and we can cook a delicious meal. but there are downsides to fire and people do get hurt by fire at times. If they're not careful, and that's the way that I would describe.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "This is that there are massive, massive benefits, but there are also downsides. And I think that the reason why we're having this conversation is that for a very long time, we focused on the benefits, and we completely ignored the downsides. And so now we have to bring attention to what we've now learned, which is changing how we feel on some level. Antibiotics are the greatest discovery in the history of medicine. Nothing has added more to our life expectancy. And if you went back literally just a little over 100 years ago, the top causes of death were all infections. And those are not the top causes of death anymore.",
+        "And that's thanks to antibiotics. But there are clearly downsides. And the reason that it's important to know this is that sometimes they're not necessary. In fact, research would suggest that, on the order of 30 percent of antibiotic prescriptions in the United States, you didn't even have to take it at all. That's why we have to talk about this. We know that living inside of our colon are about 38 trillion microbes. There is nothing that will so powerfully change the shape of that microbiome as antibiotics."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "This is that there are massive, massive benefits, but there are also downsides. And I think that the reason why we're having this conversation is that for a very long time, we focused on the benefits, and we completely ignored the downsides. And so now we have to bring attention to what we've now learned, which is changing how we feel on some level. Antibiotics are the greatest discovery in the history of medicine. Nothing has added more to our life expectancy. And if you went back literally just a little over 100 years ago, the top causes of death were all infections. And those are not the top causes of death anymore.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And that's thanks to antibiotics. But there are clearly downsides. And the reason that it's important to know this is that sometimes they're not necessary. In fact, research would suggest that, on the order of 30 percent of antibiotic prescriptions in the United States, you didn't even have to take it at all. That's why we have to talk about this. We know that living inside of our colon are about 38 trillion microbes. There is nothing that will so powerfully change the shape of that microbiome as antibiotics.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "This is heavy duty stuff. And what happens is that you are doing multiple things to the microbes. You are knocking them down, so we have less living bacteria, you are reducing diversity. Diversity is actually a measure of health within the microbiome, so we are making a sacrifice of reducing diversity with our antibiotics, and simultaneously when we're knocking them down, yes, we kill bad bacteria, but we also kill good bacteria.",
+        "Examples of these are ones like Faecalibacterium prausnitzii which have shown tons of anti-inflammatory benefits. Or Eubacterium, which again, have shown all these anti-inflammatory benefits. When we kill these bacteria, the good ones, we suffer a consequence, which is that they're not able to do their job as well. And sometimes their job is to produce things, like chemicals, that have certain physiologic properties benefits in our body, like short chain fatty acids, butyrate, acetate, and propionate.",
+        "So for anyone who's followed my work, you've heard me talk about this before, but for those that have not, these short chain fatty acids, they are produced when our gut microbiome breaks down fiber. Or resistant starch. But basically, it's fiber gets broken down and it stops being fiber and it becomes these short chain fatty acids, butyrate, acetate, and propionate, and I'm just going to say, and Neha, you may have heard me say this before. In my more than 20 years of study in medicine, these are the most anti-inflammatory chemicals that I've ever come across."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "This is heavy duty stuff. And what happens is that you are doing multiple things to the microbes. You are knocking them down, so we have less living bacteria, you are reducing diversity. Diversity is actually a measure of health within the microbiome, so we are making a sacrifice of reducing diversity with our antibiotics, and simultaneously when we're knocking them down, yes, we kill bad bacteria, but we also kill good bacteria.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Examples of these are ones like Faecalibacterium prausnitzii which have shown tons of anti-inflammatory benefits. Or Eubacterium, which again, have shown all these anti-inflammatory benefits. When we kill these bacteria, the good ones, we suffer a consequence, which is that they're not able to do their job as well. And sometimes their job is to produce things, like chemicals, that have certain physiologic properties benefits in our body, like short chain fatty acids, butyrate, acetate, and propionate.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So for anyone who's followed my work, you've heard me talk about this before, but for those that have not, these short chain fatty acids, they are produced when our gut microbiome breaks down fiber. Or resistant starch. But basically, it's fiber gets broken down and it stops being fiber and it becomes these short chain fatty acids, butyrate, acetate, and propionate, and I'm just going to say, and Neha, you may have heard me say this before. In my more than 20 years of study in medicine, these are the most anti-inflammatory chemicals that I've ever come across.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "And they have a number of different things that they're doing in our body. So when we sacrifice those microbes that produce short chain fatty acids, what that means is you could eat the exact same amount of fiber, but you're getting less from it. And it has downstream effects. And one of them is that it damages our gut barrier.",
+        "And when you damage the gut barrier, now the wall that protects our bloodstream and protects our immune system is porous. It's got holes in it. And so toxins that are existing within our intestines can sneak across and basically create inflammation and activate the immune system. All right. So this is what I'm proposing here is basically a framework for damaging the microbiome. Inducing what we call dysbiosis, which is our research term for a damaged microbiome and suffering consequences from that dysbiosis that include increased inflammation."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "And they have a number of different things that they're doing in our body. So when we sacrifice those microbes that produce short chain fatty acids, what that means is you could eat the exact same amount of fiber, but you're getting less from it. And it has downstream effects. And one of them is that it damages our gut barrier.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And when you damage the gut barrier, now the wall that protects our bloodstream and protects our immune system is porous. It's got holes in it. And so toxins that are existing within our intestines can sneak across and basically create inflammation and activate the immune system. All right. So this is what I'm proposing here is basically a framework for damaging the microbiome. Inducing what we call dysbiosis, which is our research term for a damaged microbiome and suffering consequences from that dysbiosis that include increased inflammation.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "Antibiotic use has been as a result of this associated with many different inflammatory conditions. Like an example is inflammatory bowel disease. So Crohn's disease and ulcerative colitis have been associated with the use of antibiotics. Now this makes them sound very scary. I have four kids. When my children need antibiotics, I do not hesitate."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Antibiotic use has been as a result of this associated with many different inflammatory conditions. Like an example is inflammatory bowel disease. So Crohn's disease and ulcerative colitis have been associated with the use of antibiotics. Now this makes them sound very scary. I have four kids. When my children need antibiotics, I do not hesitate.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "I give them what they need. But the way that I handle this is number one to ensure that they actually need the antibiotic. That's the most important thing because don't take it if you don't need it.",
+        "And then number two, to do what I can to reinforce their health, including their microbiome and support it. And to me, when we say, “Oh, we'll just take a probiotic again.” I think we're kind of oversimplifying this and there's other things that we could do that have nothing to do with probiotics that we could do to support these microbes so that we can get the best result.",
+        "Pathak: So, for your child or you, if you have to take those antibiotics, what are those things beyond probiotics that you're doing to help build back as optimally as you can?",
+        "Bulsiewicz: Research has shown that your diet and specifically the fiber in your diet, fiber is the food for these microbes. Fiber is what allows them to multiply and to grow and to grow back. Fiber is what allows them to protect themselves because they have a source of nutrition. research has shown that your diet before, during, and after antibiotics has a massive impact. On how your body actually responds. Let me use an analogy.",
+        "It's like we're going to have to dig a hole, right? That we're actually like with the shovel in the hole, throwing the dirt out. And then we're going to have to climb out of this hole. For a person who's already on a high fiber diet, a healthy diet that includes a wide variety of different plants. They're standing on solid ground before they start digging this hole for the person who's on a very low fiber diet, which sadly in the United States is 95 percent of Americans, they're already standing up to their waist in the hole before they've even started the antibiotic and then you start the antibiotic."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "I give them what they need. But the way that I handle this is number one to ensure that they actually need the antibiotic. That's the most important thing because don't take it if you don't need it.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And then number two, to do what I can to reinforce their health, including their microbiome and support it. And to me, when we say, “Oh, we'll just take a probiotic again.” I think we're kind of oversimplifying this and there's other things that we could do that have nothing to do with probiotics that we could do to support these microbes so that we can get the best result.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak: So, for your child or you, if you have to take those antibiotics, what are those things beyond probiotics that you're doing to help build back as optimally as you can?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Bulsiewicz: Research has shown that your diet and specifically the fiber in your diet, fiber is the food for these microbes. Fiber is what allows them to multiply and to grow and to grow back. Fiber is what allows them to protect themselves because they have a source of nutrition. research has shown that your diet before, during, and after antibiotics has a massive impact. On how your body actually responds. Let me use an analogy.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "It's like we're going to have to dig a hole, right? That we're actually like with the shovel in the hole, throwing the dirt out. And then we're going to have to climb out of this hole. For a person who's already on a high fiber diet, a healthy diet that includes a wide variety of different plants. They're standing on solid ground before they start digging this hole for the person who's on a very low fiber diet, which sadly in the United States is 95 percent of Americans, they're already standing up to their waist in the hole before they've even started the antibiotic and then you start the antibiotic.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "And that's when the digging begins and you're digging yourself down into this hole that ultimately you have to climb out of. For the person who already started waist deep they are going to end up way deeper than the person who is standing on firm, solid ground in the beginning, right?",
+        "So, what I'm saying with that is that your starting point means your diet. Before you ever even got the prescription and then the depth that you dig will be impacted by what you're eating while you're on the antibiotics and then your ability to recover and bounce back is also connected to the food that you're eating because when you consume a high quality diet that includes a lot of different fiber you bounce right back up right, you bounce right back up because the minute you take away those antibiotics, the fact that you're feeding and fueling these microbes, they've been so hungry and they're finally able to eat and grow back and multiply and grow."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "And that's when the digging begins and you're digging yourself down into this hole that ultimately you have to climb out of. For the person who already started waist deep they are going to end up way deeper than the person who is standing on firm, solid ground in the beginning, right?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "So, what I'm saying with that is that your starting point means your diet. Before you ever even got the prescription and then the depth that you dig will be impacted by what you're eating while you're on the antibiotics and then your ability to recover and bounce back is also connected to the food that you're eating because when you consume a high quality diet that includes a lot of different fiber you bounce right back up right, you bounce right back up because the minute you take away those antibiotics, the fact that you're feeding and fueling these microbes, they've been so hungry and they're finally able to eat and grow back and multiply and grow.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "And they want to do that so briskly. But if you are consuming the standard American diet, which is predominantly ultra-processed foods that have very, very little fiber, then you're not going to be given those benefits. I make arguments in my books for people to a healthy diet right now, like why would you wait. Because the microbiome is not just about our ability to recover from antibiotics, the microbiome is about your health today, tomorrow, the future, how you live 50 years from now.",
+        "That's the reason that you met, you change your diet today. But then the beauty of that is that when you come to this moment, we're like, oh I have to take antibiotics because I have this issue. Cool. If you need them, take them, but continue to consume a high fiber diet. And then after you're done, continue to eat a high fiber diet. And that to me is the key is like high fiber all the way through.",
+        "Pathak: What's the best way for folks to have this conversation with their health care providers so that they can identify if a supplement is a part of the treatment plan for them beyond what you said, the daily in and out eating of these healthful foods. How would one have this conversation or how do you advise them to have this conversation?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "And they want to do that so briskly. But if you are consuming the standard American diet, which is predominantly ultra-processed foods that have very, very little fiber, then you're not going to be given those benefits. I make arguments in my books for people to a healthy diet right now, like why would you wait. Because the microbiome is not just about our ability to recover from antibiotics, the microbiome is about your health today, tomorrow, the future, how you live 50 years from now.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "That's the reason that you met, you change your diet today. But then the beauty of that is that when you come to this moment, we're like, oh I have to take antibiotics because I have this issue. Cool. If you need them, take them, but continue to consume a high fiber diet. And then after you're done, continue to eat a high fiber diet. And that to me is the key is like high fiber all the way through.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak: What's the best way for folks to have this conversation with their health care providers so that they can identify if a supplement is a part of the treatment plan for them beyond what you said, the daily in and out eating of these healthful foods. How would one have this conversation or how do you advise them to have this conversation?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Bulsiewicz:",
+      "content": [
+        "Yeah, so I think the place that I would start is, your doctor absolutely is responsible for answering the question. Do I need to take this antibiotic? And the follow up question is what happens if I don't take this antibiotic? And that's not you challenging the doctor or their recommendation, that is you being an active participant in your own health and just collecting the proper information so that you can make a health related choice.",
+        "Because ultimately, at the end of the day, to me, where we need to be in healthcare is that the doctor and the patient form a relationship that is mutually beneficial in the sense that the doctor brings their education and expertise and the patient brings knowing their own body and how they feel and also their preferences, because preferences do matter.",
+        "And that conversation happens. And the patient collects the information that they need, and the doctor provides the risks and the benefits, and then the patient makes a choice. Right, and I think that's the way the structure that we ultimately need, and I don't think it's wrong to ask those questions do I really need this antibiotic and what happens if I don't take this antibiotic?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Yeah, so I think the place that I would start is, your doctor absolutely is responsible for answering the question. Do I need to take this antibiotic? And the follow up question is what happens if I don't take this antibiotic? And that's not you challenging the doctor or their recommendation, that is you being an active participant in your own health and just collecting the proper information so that you can make a health related choice.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Because ultimately, at the end of the day, to me, where we need to be in healthcare is that the doctor and the patient form a relationship that is mutually beneficial in the sense that the doctor brings their education and expertise and the patient brings knowing their own body and how they feel and also their preferences, because preferences do matter.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And that conversation happens. And the patient collects the information that they need, and the doctor provides the risks and the benefits, and then the patient makes a choice. Right, and I think that's the way the structure that we ultimately need, and I don't think it's wrong to ask those questions do I really need this antibiotic and what happens if I don't take this antibiotic?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "I think that that's very fair. So now let's assume that it's one of the 70 percent moments where you do in fact actually need this antibiotic, okay, you've made the decision that you're going to take the antibiotic. I think it's also fair to ask the question to your doctor, do I need a probiotic in addition to this antibiotic?",
+        "Pathak: Thank you so much for that because I think what you've done is you shared with us a lot of what we can do, recognizing that there is not going to be a one size fits all.",
+        "You've really helped arm us with the proper questions to ask our healthcare team so that we're making that personalized choice. I want to yield the final few minutes to, if you have any final bite sized action items, you've already shared so much to create sustainable changes in our lives and particularly around the time where it may come to a point where we, or our children, members of our family do need to take this antibiotic. You've shared so much, but final few thoughts, if you have anything to add."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "I think that that's very fair. So now let's assume that it's one of the 70 percent moments where you do in fact actually need this antibiotic, okay, you've made the decision that you're going to take the antibiotic. I think it's also fair to ask the question to your doctor, do I need a probiotic in addition to this antibiotic?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak: Thank you so much for that because I think what you've done is you shared with us a lot of what we can do, recognizing that there is not going to be a one size fits all.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "You've really helped arm us with the proper questions to ask our healthcare team so that we're making that personalized choice. I want to yield the final few minutes to, if you have any final bite sized action items, you've already shared so much to create sustainable changes in our lives and particularly around the time where it may come to a point where we, or our children, members of our family do need to take this antibiotic. You've shared so much, but final few thoughts, if you have anything to add.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Bulsiewicz:",
+      "content": [
+        "The antibiotic conversation for me brings up, and I may be opening up a can of worms here to be totally honest with you, but, I think that we have to be thoughtful about the moments in our health where we do accept antibiotics as the treatment. And the reason why I say that is that there's things that have become trendy that ultimately guide people towards taking antibiotics. And that is a problem, particularly if we have the wrong diagnosis. So let me pull back the veil and just say what I want to say, which is that I worry.",
+        "I worry about the trendiness of small intestine bacterial overgrowth or SIBO. We've turned this into a thing, and we've turned this into a thing where like people aren't even doing testing and they're just taking antibiotics and when I say antibiotic I should add since we're on the topic of my concerns in the space that sometimes people do like herbal preparations. And they use a different term, like antimicrobial, like bactericidal. It's the exact same thing."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The antibiotic conversation for me brings up, and I may be opening up a can of worms here to be totally honest with you, but, I think that we have to be thoughtful about the moments in our health where we do accept antibiotics as the treatment. And the reason why I say that is that there's things that have become trendy that ultimately guide people towards taking antibiotics. And that is a problem, particularly if we have the wrong diagnosis. So let me pull back the veil and just say what I want to say, which is that I worry.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "I worry about the trendiness of small intestine bacterial overgrowth or SIBO. We've turned this into a thing, and we've turned this into a thing where like people aren't even doing testing and they're just taking antibiotics and when I say antibiotic I should add since we're on the topic of my concerns in the space that sometimes people do like herbal preparations. And they use a different term, like antimicrobial, like bactericidal. It's the exact same thing.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "The difference is that at least if I prescribe the antibiotic, I know. Because we have research with the microbiome at this point for most antibiotics. At least I know what the cost is. And what we're going to do. And I also know what the benefit is when we take herbal preparations, show me the research to back it up.",
+        "And if you can't find it, then you don't know what the benefit is, nor do you know the risk. And that scares me. I don't like that. That's not good medicine.",
+        "Pathak: I really want to thank you so much for being with us today, Dr B. This has been just a really helpful conversation. And I think that, the critical piece that I hope we all take away is that we have to be mindfully thinking about how we're living our daily lifestyles, and then mindfully thinking about even just this one unique intervention that might happen in an office visit, particularly around antibiotics. So really think about all of these things mindfully. And I really, really appreciate your time on the conversation."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The difference is that at least if I prescribe the antibiotic, I know. Because we have research with the microbiome at this point for most antibiotics. At least I know what the cost is. And what we're going to do. And I also know what the benefit is when we take herbal preparations, show me the research to back it up.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And if you can't find it, then you don't know what the benefit is, nor do you know the risk. And that scares me. I don't like that. That's not good medicine.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak: I really want to thank you so much for being with us today, Dr B. This has been just a really helpful conversation. And I think that, the critical piece that I hope we all take away is that we have to be mindfully thinking about how we're living our daily lifestyles, and then mindfully thinking about even just this one unique intervention that might happen in an office visit, particularly around antibiotics. So really think about all of these things mindfully. And I really, really appreciate your time on the conversation.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Bulsiewicz:",
+      "content": [
+        "Thank you so much for having me, Neha.",
+        "Pathak: My conversation with Dr. B explored the relationship between gut health, antibiotics, and probiotics, highlighting the importance of a balanced approach to maintaining gut resilience through diet, evidence based probiotic use, and mindful medical choices.",
+        "Some of my key takeaways from my conversation with Dr. B are that number one, antibiotics are lifesaving, but they're lifesaving in the right context. They can have unintended effects on our gut health. I's key to know when we need an antibiotic and when we don't. Because when we need it, we should take it, but we should also recognize that antibiotics can have an impact on our gut health, primarily by disrupting the balance of microbes. Dr. B emphasizes that antibiotics should only be used when necessary, and really wants our listeners to ask their doctors critical questions before starting a course",
+        "I hope our listeners take away that we can take a proactive role in our health care by asking informed questions and considering the science behind each recommendation. To find out more information about Dr. Bulsiewicz, visit theplantfedgut.com or on social media @theguthealthMD. And we'll have information about how to connect with him in our show notes.",
+        "Thank you so much for listening. Please take a moment to follow, rate, and review this podcast on your favorite listening platform. If you'd like to send me an email about topics you're interested in or questions for future guests, please send me a note at [email protected] . This is Dr Neha Pathak for the WebMD Health Discovered podcast."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Thank you so much for having me, Neha.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Pathak: My conversation with Dr. B explored the relationship between gut health, antibiotics, and probiotics, highlighting the importance of a balanced approach to maintaining gut resilience through diet, evidence based probiotic use, and mindful medical choices.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Some of my key takeaways from my conversation with Dr. B are that number one, antibiotics are lifesaving, but they're lifesaving in the right context. They can have unintended effects on our gut health. I's key to know when we need an antibiotic and when we don't. Because when we need it, we should take it, but we should also recognize that antibiotics can have an impact on our gut health, primarily by disrupting the balance of microbes. Dr. B emphasizes that antibiotics should only be used when necessary, and really wants our listeners to ask their doctors critical questions before starting a course",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "I hope our listeners take away that we can take a proactive role in our health care by asking informed questions and considering the science behind each recommendation. To find out more information about Dr. Bulsiewicz, visit theplantfedgut.com or on social media @theguthealthMD. And we'll have information about how to connect with him in our show notes.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Thank you so much for listening. Please take a moment to follow, rate, and review this podcast on your favorite listening platform. If you'd like to send me an email about topics you're interested in or questions for future guests, please send me a note at [email protected] . This is Dr Neha Pathak for the WebMD Health Discovered podcast.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": null,
+      "bullets": null,
+      "content_blocks": []
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd-logo-fb.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "Antibiotics are life-saving in the right moments, like treating bacterial infections, but knowing when they’re necessary is key. They can also disrupt the delicate balance of gut health. So, how can probiotics help? When should you use them – and when should you not? We spoke with Will Bulsiewicz, MD, a board-certified gastroenterologist and NYT bestselling author, to explore the relationship between antibiotics, probiotics, and gut health. Dr. B shared insights on evidence-based probiotic use, the importance of mindful antibiotic choices, and how a gut-healthy diet can support overall well-being.",
+  "canonical_url": "https://www.webmd.com/podcasts/20241127/gut-check-antibiotics-probiotics-and-your-health",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:24:59.819075Z"
+}

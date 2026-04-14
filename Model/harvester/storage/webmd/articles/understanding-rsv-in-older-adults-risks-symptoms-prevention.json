@@ -1,0 +1,611 @@
+{
+  "url": "https://www.webmd.com/podcasts/20241003/understanding-rsv-in-older-adults-risks-symptoms-prevention",
+  "title": "Understanding RSV in Older Adults: Risks, Symptoms, and Prevention",
+  "slug": "understanding-rsv-in-older-adults-risks-symptoms-prevention",
+  "published_date": "",
+  "first_letter": "U",
+  "author": "",
+  "medically_reviewed_by": "",
+  "read_time": "",
+  "sections": [
+    {
+      "heading": null,
+      "content": null,
+      "bullets": null,
+      "content_blocks": []
+    },
+    {
+      "heading": null,
+      "content": [
+        "Oct. 3, 2024 -- Respiratory Syncytial Virus (RSV) is often thought of as a childhood illness, but it poses a significant threat to older adults as well. According to the CDC, RSV infected approximately 65 million people globally last year, leading to an estimated 160,000 hospitalizations among adults aged 60 and older. What does RSV look like in adults , and what symptoms should you be vigilant about? In this episode, we are joined by Dr. Kizzmekia Corbett-Helaire , a renowned vaccinologist and assistant professor at Harvard T.H. Chan School of Public Health, who breaks down the risks, ongoing vaccine development, and prevention strategies for vulnerable populations, particularly older adults. We also hear from Irene, who, at 69-years of age, experienced severe, unfamiliar, cold-like symptoms that ultimately led to an unexpected RSV diagnosis.",
+        "This podcast episode was recorded on September 4th, 2024. The information presented is subject to change and is for informational purposes only. If you have specific medical concerns or questions, you should contact your personal healthcare provider."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Oct. 3, 2024 -- Respiratory Syncytial Virus (RSV) is often thought of as a childhood illness, but it poses a significant threat to older adults as well. According to the CDC, RSV infected approximately 65 million people globally last year, leading to an estimated 160,000 hospitalizations among adults aged 60 and older. What does RSV look like in adults , and what symptoms should you be vigilant about? In this episode, we are joined by Dr. Kizzmekia Corbett-Helaire , a renowned vaccinologist and assistant professor at Harvard T.H. Chan School of Public Health, who breaks down the risks, ongoing vaccine development, and prevention strategies for vulnerable populations, particularly older adults. We also hear from Irene, who, at 69-years of age, experienced severe, unfamiliar, cold-like symptoms that ultimately led to an unexpected RSV diagnosis.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "This podcast episode was recorded on September 4th, 2024. The information presented is subject to change and is for informational purposes only. If you have specific medical concerns or questions, you should contact your personal healthcare provider.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Irene Schuble:",
+      "content": [
+        "I'm a pretty active person, even though I was 69 at the time, I'm pretty active all the time. I have just changed careers at 75, and that should show you how active it gets.",
+        "John Whyte, MD, MPH : On today's episode of Health Discovered, we spoke with Irene, who likes to go by Rene. True to her word, at the age of 75, after serving in the Army, a stint performing in the circus, and a 35-year career in social work, she began teaching special education classes with young students.",
+        "Schuble : I'm telling you, I learn something new from those kids every day.",
+        "Whyte : In addition to being described as the Energizer Bunny, she also told us she rarely gets sick, which made it odd when five years ago, a lingering illness simply would not go away.",
+        "Schuble : I felt a lot of symptoms that I hadn't felt before that didn't go away, so I started out by thinking, oh, this is just a cold, it's the flu, it's something. Several days later, it got worse, so I went to the clinic. They tested me for the flu, for pneumonia, didn't have that, but I kept feeling worse. I went to the emergency room, where I seldom ever go, and they were looking at me like I was crazy, and they were saying, \"Well, you don't have this and you don't have the flu.\" Well, I know I don't have the flu, I know I don't have pneumonia, but I feel like I'm going to die at any moment."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "I'm a pretty active person, even though I was 69 at the time, I'm pretty active all the time. I have just changed careers at 75, and that should show you how active it gets.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "John Whyte, MD, MPH : On today's episode of Health Discovered, we spoke with Irene, who likes to go by Rene. True to her word, at the age of 75, after serving in the Army, a stint performing in the circus, and a 35-year career in social work, she began teaching special education classes with young students.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Schuble : I'm telling you, I learn something new from those kids every day.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : In addition to being described as the Energizer Bunny, she also told us she rarely gets sick, which made it odd when five years ago, a lingering illness simply would not go away.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Schuble : I felt a lot of symptoms that I hadn't felt before that didn't go away, so I started out by thinking, oh, this is just a cold, it's the flu, it's something. Several days later, it got worse, so I went to the clinic. They tested me for the flu, for pneumonia, didn't have that, but I kept feeling worse. I went to the emergency room, where I seldom ever go, and they were looking at me like I was crazy, and they were saying, \"Well, you don't have this and you don't have the flu.\" Well, I know I don't have the flu, I know I don't have pneumonia, but I feel like I'm going to die at any moment.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "So I suffered. I couldn't go to work, and it seemed like, for about six weeks, that was a life of I couldn't. I couldn't stay awake, I couldn't go to sleep. When I'd go to sleep, I would wake up coughing. I just felt miserable. I had an older doctor who was retiring, so I called him and I said, \"I've got something, nobody can tell me what it is, but I'm more miserable as the days go by.\" He looked at the tests I'd already had and he said, \"I think you have RSV.\"",
+        "Speaker 4: I think you have RSV.",
+        "Shuble: And I was like, \"No, no, no, no, RSV is a baby disease. I may look young, but I'm not that young.\" He said, \"No, I think you have RSV.\"",
+        "Speaker 4: No, I think you have RSV.",
+        "Shuble: I got to feeling better, but it took six weeks out of my life, and I have a terrible fear of getting it again. If I get sick, the first thing I think of is not, oh, I've got a cold, I maybe have the flu, I think, do I have RSV again? I wish I'd known the symptoms, I wish someone had talked to people my age about it. I want to make sure that others understand that this experience that I went through was worse than any flu I'd ever had, any pneumonia I'd ever had, any cold I'd ever had, and I don't want to have to go through that again.",
+        "Whyte: Unfortunately, Irene's assumption that RSV only impacts young children is all too commonly held. The data suggests otherwise. According to the CDC, last year, respiratory syncytial virus, or RSV, infected roughly 65 million people globally, resulting in an estimated 60,000 to 160,000 hospitalizations among adults 65 years and older. And this year, the agency projects the disease will impact similar numbers. So what exactly is RSV? Why can it be so serious in older adults? And what can we do to protect ourselves and our families?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "So I suffered. I couldn't go to work, and it seemed like, for about six weeks, that was a life of I couldn't. I couldn't stay awake, I couldn't go to sleep. When I'd go to sleep, I would wake up coughing. I just felt miserable. I had an older doctor who was retiring, so I called him and I said, \"I've got something, nobody can tell me what it is, but I'm more miserable as the days go by.\" He looked at the tests I'd already had and he said, \"I think you have RSV.\"",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Speaker 4: I think you have RSV.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Shuble: And I was like, \"No, no, no, no, RSV is a baby disease. I may look young, but I'm not that young.\" He said, \"No, I think you have RSV.\"",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Speaker 4: No, I think you have RSV.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Shuble: I got to feeling better, but it took six weeks out of my life, and I have a terrible fear of getting it again. If I get sick, the first thing I think of is not, oh, I've got a cold, I maybe have the flu, I think, do I have RSV again? I wish I'd known the symptoms, I wish someone had talked to people my age about it. I want to make sure that others understand that this experience that I went through was worse than any flu I'd ever had, any pneumonia I'd ever had, any cold I'd ever had, and I don't want to have to go through that again.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte: Unfortunately, Irene's assumption that RSV only impacts young children is all too commonly held. The data suggests otherwise. According to the CDC, last year, respiratory syncytial virus, or RSV, infected roughly 65 million people globally, resulting in an estimated 60,000 to 160,000 hospitalizations among adults 65 years and older. And this year, the agency projects the disease will impact similar numbers. So what exactly is RSV? Why can it be so serious in older adults? And what can we do to protect ourselves and our families?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "I'm Dr John Whyte, chief medical officer of WebMD, and welcome to a special episode of Health Discovered on RSV.",
+        "Kizzmekia S Corbett-Helaire, PhD : All right, it's coming through the headphones, look at that.",
+        "Whyte : All right, I have to do that too.",
+        "Corbett-Helaire : I love it.",
+        "Whyte: To get a better understanding of how serious this virus can be, I wanted to talk to the doctor whose work significantly contributed to the creation of its vaccine, Dr Kizzmekia Corbett-Helaire.",
+        "Corbett-Helaire: My name is Kizzmekia Corbett-Helaire. I am an assistant professor at the Harvard T.H. Chan School of Public Health, and also an HHMI Freeman Hrabowski scholar. I am a viral immunologist who uses my expertise to inform vaccine development, and so I have done that for influenza vaccines, and also, most notably, for coronavirus mRNA vaccines.",
+        "Whyte : Well, let's get right into it. I want to ask you, what exactly is RSV, the respiratory syncytial virus, and what makes it different from other respiratory viruses like the flu?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "I'm Dr John Whyte, chief medical officer of WebMD, and welcome to a special episode of Health Discovered on RSV.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Kizzmekia S Corbett-Helaire, PhD : All right, it's coming through the headphones, look at that.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : All right, I have to do that too.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Corbett-Helaire : I love it.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte: To get a better understanding of how serious this virus can be, I wanted to talk to the doctor whose work significantly contributed to the creation of its vaccine, Dr Kizzmekia Corbett-Helaire.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Corbett-Helaire: My name is Kizzmekia Corbett-Helaire. I am an assistant professor at the Harvard T.H. Chan School of Public Health, and also an HHMI Freeman Hrabowski scholar. I am a viral immunologist who uses my expertise to inform vaccine development, and so I have done that for influenza vaccines, and also, most notably, for coronavirus mRNA vaccines.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : Well, let's get right into it. I want to ask you, what exactly is RSV, the respiratory syncytial virus, and what makes it different from other respiratory viruses like the flu?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Corbett-Helaire",
+      "content": [
+        ": Respiratory syncytial virus, or RSV, is similar to the flu in the sense that it causes respiratory illness, and although we call it a common cold virus, it does not cause the flu, because the only virus that can cause the actual flu is a virus called influenza. Respiratory syncytial virus is different because the family of viruses that causes this common cold is completely different than the influenza viruses, and therefore, because it's completely different, that means that it can attack your body differently, and because it can attack your body differently, you'll see differences in the population that it infects, the type of disease that it causes, and so on.",
+        "Whyte : Well, I want to talk about that population, because I have young children, I'm a parent, like many listeners, and historically, we always were hearing about RSV in young children. But as we heard at the beginning of the episode, it poses a serious threat to older adults as well. Can you explain why that is, and how we've come to this knowledge around RSV in adults?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": Respiratory syncytial virus, or RSV, is similar to the flu in the sense that it causes respiratory illness, and although we call it a common cold virus, it does not cause the flu, because the only virus that can cause the actual flu is a virus called influenza. Respiratory syncytial virus is different because the family of viruses that causes this common cold is completely different than the influenza viruses, and therefore, because it's completely different, that means that it can attack your body differently, and because it can attack your body differently, you'll see differences in the population that it infects, the type of disease that it causes, and so on.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : Well, I want to talk about that population, because I have young children, I'm a parent, like many listeners, and historically, we always were hearing about RSV in young children. But as we heard at the beginning of the episode, it poses a serious threat to older adults as well. Can you explain why that is, and how we've come to this knowledge around RSV in adults?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Corbett-Helaire:",
+      "content": [
+        "These respiratory viruses, the way that they cause more severe disease, so that is the type of disease that would land someone in a hospital, or even at least into the emergency room, that type of disease happens in the lower airway, so this is down in your lung, that's where your breathing machine is. And oftentimes, you see those types of viruses causing more severe disease in really young children or older adults, because their lungs are not as good at preventing those types of infections. And so, that's what's happening with RSV. We have normally heard of it as something that affects babies, because it is one of those things that during this, as I say, flu season, where you see a lot of babies that are getting severely ill and ending up in the hospital wheezing from RSV. But RSV is certainly a culprit of severe illness in older people as well, specifically those that are over the age of 75."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "These respiratory viruses, the way that they cause more severe disease, so that is the type of disease that would land someone in a hospital, or even at least into the emergency room, that type of disease happens in the lower airway, so this is down in your lung, that's where your breathing machine is. And oftentimes, you see those types of viruses causing more severe disease in really young children or older adults, because their lungs are not as good at preventing those types of infections. And so, that's what's happening with RSV. We have normally heard of it as something that affects babies, because it is one of those things that during this, as I say, flu season, where you see a lot of babies that are getting severely ill and ending up in the hospital wheezing from RSV. But RSV is certainly a culprit of severe illness in older people as well, specifically those that are over the age of 75.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Whyte:",
+      "content": [
+        "Now, sometimes when we hear about viruses, and there's lots of them, people don't take them seriously, so I wanted to ask you to help explain what sort of complications can arise from exposure to RSV.",
+        "Corbett-Helaire : Oh, you can get severe illness, where you're in the hospital with pneumonias. Because your lungs are weak, you have the opportunity to get different types of infections on top of your RSV infection, so you'll see a lot of people who will have co-infections with bacteria or other viruses. For older people, there's a small percentage of which actually who succumb to this infection, where, unfortunately, they do not come out well following their RSV infection. One thing that we continue to learn, especially around these seasonal respiratory viruses, is that the reason why it's very difficult sometimes to take them seriously is because many people, a bulk of the population, might just get the sniffles if they come in contact with the virus, and so it's not always easy to reconcile with the entire risk of these viruses if you think, if I get infected, I'll probably just get a cough."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Now, sometimes when we hear about viruses, and there's lots of them, people don't take them seriously, so I wanted to ask you to help explain what sort of complications can arise from exposure to RSV.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Corbett-Helaire : Oh, you can get severe illness, where you're in the hospital with pneumonias. Because your lungs are weak, you have the opportunity to get different types of infections on top of your RSV infection, so you'll see a lot of people who will have co-infections with bacteria or other viruses. For older people, there's a small percentage of which actually who succumb to this infection, where, unfortunately, they do not come out well following their RSV infection. One thing that we continue to learn, especially around these seasonal respiratory viruses, is that the reason why it's very difficult sometimes to take them seriously is because many people, a bulk of the population, might just get the sniffles if they come in contact with the virus, and so it's not always easy to reconcile with the entire risk of these viruses if you think, if I get infected, I'll probably just get a cough.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "The other thing that is unfortunate in the case of these viruses is that, just like it's going to come this year, it's going to come next year, and it's going to come the year after that. We almost become a little bit numb to the outcomes of these viruses. But I always like to remind people of the common cold viruses, which there are over 200 viruses that can cause the common cold, that they actually are serious in their own right. There are tens of thousands of people, particularly in that younger age group and the older age groups, that end up in the hospital every single year. It depends on the study, quite frankly, but RSV takes on easily 10% to 20% of those hospitalizations, and so it is certainly something to take very seriously.",
+        "Whyte: And we also need to take it seriously if you have some chronic conditions, right?",
+        "Corbett-Helaire: Oh, yeah.",
+        "Whyte: What about if you have diabetes or asthma or heart disease, does that compound RSV severity if you get infected?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "The other thing that is unfortunate in the case of these viruses is that, just like it's going to come this year, it's going to come next year, and it's going to come the year after that. We almost become a little bit numb to the outcomes of these viruses. But I always like to remind people of the common cold viruses, which there are over 200 viruses that can cause the common cold, that they actually are serious in their own right. There are tens of thousands of people, particularly in that younger age group and the older age groups, that end up in the hospital every single year. It depends on the study, quite frankly, but RSV takes on easily 10% to 20% of those hospitalizations, and so it is certainly something to take very seriously.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte: And we also need to take it seriously if you have some chronic conditions, right?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Corbett-Helaire: Oh, yeah.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte: What about if you have diabetes or asthma or heart disease, does that compound RSV severity if you get infected?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Corbett-Helaire",
+      "content": [
+        ": Depending on the study, it could double, triple your chances of getting severe illness, especially if you are over the age of 65. This is why the recommendation in those people who have those types of complications is to get a dose of the RSV vaccine if they're 65 and older, whereas if you are a healthy older adult, you can get the vaccine at 75 or older, and it's because those types of complications, you can just think about them as things that would potentially make your lungs weak, and therefore make you not have the ability to fight off what you might consider to be just a mundane everyday virus, in the same way that someone else might fight that virus off.",
+        "Whyte: You're at Harvard Chan, I might mention I went there a long, long time ago, but Harvard Chan and a lot of other schools of public health are very focused on the disparities that we've seen in healthcare, and we know from studies that have shown respiratory illnesses like RSV are disproportionately impacting Black and Hispanic communities. Can you help us understand why that's the case?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": Depending on the study, it could double, triple your chances of getting severe illness, especially if you are over the age of 65. This is why the recommendation in those people who have those types of complications is to get a dose of the RSV vaccine if they're 65 and older, whereas if you are a healthy older adult, you can get the vaccine at 75 or older, and it's because those types of complications, you can just think about them as things that would potentially make your lungs weak, and therefore make you not have the ability to fight off what you might consider to be just a mundane everyday virus, in the same way that someone else might fight that virus off.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte: You're at Harvard Chan, I might mention I went there a long, long time ago, but Harvard Chan and a lot of other schools of public health are very focused on the disparities that we've seen in healthcare, and we know from studies that have shown respiratory illnesses like RSV are disproportionately impacting Black and Hispanic communities. Can you help us understand why that's the case?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Corbett-Helaire",
+      "content": [
+        ": It's a very complex issue. I think the one thing that becomes more and more clear each time there is an outbreak, or the more we really continue to discuss these respiratory illnesses, is that it's consistent. When the Coronavirus pandemic was in its height, Black and Brown populations were five times, sometimes even up to 10 times, more affected with severe illness and death. The same is true across the board. When the HIV pandemic rolled around, that was true, and certainly with common cold viruses, it is almost always true. And the truth of the matter is that there are social determinants of health that for certain populations, they are unfortunately burdened with more severe illness than others. On top of that, many of the complex illnesses that can overlap with the RSV infection and make it such that someone cannot necessarily fight off the virus as well are more prominent in those types of populations. Black and Brown people have more diabetes in our communities, we tend to have more heart disease as well, and so taking all of those things into account, we're oftentimes more burdened by these viruses that cause respiratory illness, like RSV."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": It's a very complex issue. I think the one thing that becomes more and more clear each time there is an outbreak, or the more we really continue to discuss these respiratory illnesses, is that it's consistent. When the Coronavirus pandemic was in its height, Black and Brown populations were five times, sometimes even up to 10 times, more affected with severe illness and death. The same is true across the board. When the HIV pandemic rolled around, that was true, and certainly with common cold viruses, it is almost always true. And the truth of the matter is that there are social determinants of health that for certain populations, they are unfortunately burdened with more severe illness than others. On top of that, many of the complex illnesses that can overlap with the RSV infection and make it such that someone cannot necessarily fight off the virus as well are more prominent in those types of populations. Black and Brown people have more diabetes in our communities, we tend to have more heart disease as well, and so taking all of those things into account, we're oftentimes more burdened by these viruses that cause respiratory illness, like RSV.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Whyte:",
+      "content": [
+        "Now that we understand how serious RSV can be, not only to young children but to older adults, I want to spend some time talking about prevention, because if we can prevent it, that's a good thing in terms of preventing them from having a serious illness. So what can older adults, especially those at risk, do in our daily lives to make sure we're protecting our respiratory health?",
+        "Corbett-Helaire : The most important thing to remember around prevention of disease, especially severe disease, is that vaccines are, all in all, the most valuable tool towards prevention of severe disease. Before last year, there was not even an RSV vaccine available, and now we have multiple different vaccine technologies that are available and approved to be safe and effective, and recommended to those over the age of 65 with certain other comorbidities, or over the age of 75 for all adults. And because you have these tools available, I really like to make sure that people understand that there's something that they should heed in their toolbox. You can go to your doctor's office, and you can get one shot of an RSV vaccine, and you are very well protected against severe illness. That's the best tool that we have in our toolbox for older adults, for sure."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Now that we understand how serious RSV can be, not only to young children but to older adults, I want to spend some time talking about prevention, because if we can prevent it, that's a good thing in terms of preventing them from having a serious illness. So what can older adults, especially those at risk, do in our daily lives to make sure we're protecting our respiratory health?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Corbett-Helaire : The most important thing to remember around prevention of disease, especially severe disease, is that vaccines are, all in all, the most valuable tool towards prevention of severe disease. Before last year, there was not even an RSV vaccine available, and now we have multiple different vaccine technologies that are available and approved to be safe and effective, and recommended to those over the age of 65 with certain other comorbidities, or over the age of 75 for all adults. And because you have these tools available, I really like to make sure that people understand that there's something that they should heed in their toolbox. You can go to your doctor's office, and you can get one shot of an RSV vaccine, and you are very well protected against severe illness. That's the best tool that we have in our toolbox for older adults, for sure.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": [
+        "There are always public health measures that one can take, but I like to think that for the public health measures, such as masking or trying to stay clear of people who are sick, all of those things, they're a little bit harder to implement consistently on a day-to-day basis, as opposed to getting a vaccine and having the comfort of knowing, now my body is equipped to fight off this virus shall I come in contact with it. And the truth of the matter is that with interaction with individuals over the entire course of what we call flu season, or respiratory virus season, the chances that you will come in contact with RSV are quite high, and so given that chance, you want to protect yourself as best you can with the vaccine.",
+        "Whyte : That's a great point, because they may not have heard about it in the past, but this is not a rare condition in terms of what we're talking about as a respiratory virus."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "There are always public health measures that one can take, but I like to think that for the public health measures, such as masking or trying to stay clear of people who are sick, all of those things, they're a little bit harder to implement consistently on a day-to-day basis, as opposed to getting a vaccine and having the comfort of knowing, now my body is equipped to fight off this virus shall I come in contact with it. And the truth of the matter is that with interaction with individuals over the entire course of what we call flu season, or respiratory virus season, the chances that you will come in contact with RSV are quite high, and so given that chance, you want to protect yourself as best you can with the vaccine.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : That's a great point, because they may not have heard about it in the past, but this is not a rare condition in terms of what we're talking about as a respiratory virus.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Corbett-Helaire",
+      "content": [
+        ": My grandma has heard about it.",
+        "Whyte : Your grandma is very well-informed. And speaking of well-informed older adults, before the break, I wanted to share some words of wisdom from our guest at the beginning of the episode, Irene.",
+        "Shuble : As an older person, we sometimes wait, we don't want to bother people. Well, I'm sorry, I'm bothering people now. What I would tell somebody, \"If you have symptoms, go talk to your doctor. Don't keep it a secret, don't sit home and suffer like I did for weeks on end. Don't always rely on, well, I've just got a cold. We're not diagnosticians, we're human beings. Go to somebody professional.\" I don't want families to lose their loved ones, I don't want to lose my family, and I don't want to go through that again.",
+        "Whyte: Health Discovered, we'll be right back.",
+        "And now, back to my conversation with Dr Corbett-Helaire. I'm an internal medicine physician, as I mentioned, and I've seen, over the past couple of years, patients ask more questions about vaccines, and I welcome that because that's a good time to help educate them about the effectiveness, about how the vaccines were developed. And you've played a significant role in vaccine development, especially during the pandemic, and particularly with mRNA, so I'd love to hear about how the RSV vaccines were developed."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": My grandma has heard about it.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : Your grandma is very well-informed. And speaking of well-informed older adults, before the break, I wanted to share some words of wisdom from our guest at the beginning of the episode, Irene.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Shuble : As an older person, we sometimes wait, we don't want to bother people. Well, I'm sorry, I'm bothering people now. What I would tell somebody, \"If you have symptoms, go talk to your doctor. Don't keep it a secret, don't sit home and suffer like I did for weeks on end. Don't always rely on, well, I've just got a cold. We're not diagnosticians, we're human beings. Go to somebody professional.\" I don't want families to lose their loved ones, I don't want to lose my family, and I don't want to go through that again.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte: Health Discovered, we'll be right back.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And now, back to my conversation with Dr Corbett-Helaire. I'm an internal medicine physician, as I mentioned, and I've seen, over the past couple of years, patients ask more questions about vaccines, and I welcome that because that's a good time to help educate them about the effectiveness, about how the vaccines were developed. And you've played a significant role in vaccine development, especially during the pandemic, and particularly with mRNA, so I'd love to hear about how the RSV vaccines were developed.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Corbett-Helaire",
+      "content": [
+        ": I love talking about this, because the technology behind the RSV vaccines were actually developed in the same laboratory that I worked at the Vaccine Research Center under my mentor Dr Barney Graham, and world-famous structural biologist, Jason McLellan, who's amazing.",
+        "What I like to remind people about the way that vaccines are developed, especially in the New Age, like the RSV vaccine, is that the entire point of vaccines is to excite your immune system. So think about it like getting the party started with your immune system, and the way that you alert or excite your immune system is by saying, \"Hey, I'm here. Come over here and learn all about me.\" And so, these vaccines are doing that, and what's really interesting about the RSV vaccine is that it's doing that with just one protein.",
+        "When you get this vaccine, you're not getting an entire virus, like you may have heard about for other types of vaccines, you're getting one protein, and that protein is the protein that if your body was to see the virus, it would be the first protein that your body would see. And so, basically, the vaccine is just a protein that Dr Graham and Jason McLellan learned how to stabilize, such that it's in a very good form to give to your body to excite your immune system, such that when your body sees the virus later and the proteins on that virus, it'll say, \"No, no, no, you can't enter this cell, I'm going to block you from entering this cell.\""
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": I love talking about this, because the technology behind the RSV vaccines were actually developed in the same laboratory that I worked at the Vaccine Research Center under my mentor Dr Barney Graham, and world-famous structural biologist, Jason McLellan, who's amazing.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "What I like to remind people about the way that vaccines are developed, especially in the New Age, like the RSV vaccine, is that the entire point of vaccines is to excite your immune system. So think about it like getting the party started with your immune system, and the way that you alert or excite your immune system is by saying, \"Hey, I'm here. Come over here and learn all about me.\" And so, these vaccines are doing that, and what's really interesting about the RSV vaccine is that it's doing that with just one protein.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "When you get this vaccine, you're not getting an entire virus, like you may have heard about for other types of vaccines, you're getting one protein, and that protein is the protein that if your body was to see the virus, it would be the first protein that your body would see. And so, basically, the vaccine is just a protein that Dr Graham and Jason McLellan learned how to stabilize, such that it's in a very good form to give to your body to excite your immune system, such that when your body sees the virus later and the proteins on that virus, it'll say, \"No, no, no, you can't enter this cell, I'm going to block you from entering this cell.\"",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Whyte",
+      "content": [
+        ": That is a great explanation, I never thought of it that way, and I love the party metaphor.",
+        "Corbett-Helaire: And also, all of the antibodies that your body is making, they're like the security guards, they're not letting all the bad guys into the party.",
+        "Whyte : That's good to know. Now, you seem like a very measured person in terms of how you describe data, how you talk about science, and I was struck by a quote that you had made, and it was in the context of that those who've taken the RSV vaccine have been found to be 85% less likely to get a severe RSV infection, and you said, \"This is an absolutely astonishing vaccine.\" Explain what you mean by that."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": That is a great explanation, I never thought of it that way, and I love the party metaphor.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Corbett-Helaire: And also, all of the antibodies that your body is making, they're like the security guards, they're not letting all the bad guys into the party.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : That's good to know. Now, you seem like a very measured person in terms of how you describe data, how you talk about science, and I was struck by a quote that you had made, and it was in the context of that those who've taken the RSV vaccine have been found to be 85% less likely to get a severe RSV infection, and you said, \"This is an absolutely astonishing vaccine.\" Explain what you mean by that.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Corbett-Helaire",
+      "content": [
+        ": I think that when we go into vaccine development, a good vaccine honestly prevents 50% or 60% of severe infection, we're very happy with those types of numbers. And so, when we see numbers in the 80s, sometimes even 90 percentile, it is astonishing and it means that the vaccines are really good. I think moreover than that now, as the data continues to pour in, it's not just that they are good regarding their efficacy against severe disease, but thus far, they're not recommended seasonally. So far, it's one shot, and it looks like at least for two years, you'll be able to maintain efficacy at a very high rate, and so I'm impressed."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": I think that when we go into vaccine development, a good vaccine honestly prevents 50% or 60% of severe infection, we're very happy with those types of numbers. And so, when we see numbers in the 80s, sometimes even 90 percentile, it is astonishing and it means that the vaccines are really good. I think moreover than that now, as the data continues to pour in, it's not just that they are good regarding their efficacy against severe disease, but thus far, they're not recommended seasonally. So far, it's one shot, and it looks like at least for two years, you'll be able to maintain efficacy at a very high rate, and so I'm impressed.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Whyte:",
+      "content": [
+        "Fair enough. And you raised a good point, every vaccine doesn't have that level of effectiveness. I want to address the issue of hesitancy. There are people who nowadays are more hesitant regarding vaccines, so what would you say to older adults, to those patients who might just be hesitant to get a vaccine, do you have any advice for talking to their doctors?",
+        "Corbett-Helaire : You know that I don't call it hesitancy, you must know that.",
+        "Whyte: I know. That's my lead in for you to address it after that party metaphor.",
+        "Corbett-Helaire: Yes. I like to use the word inquisitiveness, because hesitancy is defined by one's unwillingness to get vaccines, and I often like to say that there is a comma because they have questions. And so, what I like to remind people is that it is okay to lean into that comma, it is okay that you, who are not a vaccinologist, not an immunologist, this is not what you study day in and day out, and so it is okay that you have questions and concerns that might lend to you saying, \"I'm not going to do that just yet, I am hesitant,\" so to speak, and leaning into those questions, asking your physician, asking your trusted scientists that you might follow on Instagram, or listening to podcasts like this one, finding the information via trusted sources for your questions is absolutely okay. And so, that's what I say to those communities, to those people who are just right now have not decided that they will get vaccines, that's okay, continue to ask your questions and get the information that's necessary."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": "Fair enough. And you raised a good point, every vaccine doesn't have that level of effectiveness. I want to address the issue of hesitancy. There are people who nowadays are more hesitant regarding vaccines, so what would you say to older adults, to those patients who might just be hesitant to get a vaccine, do you have any advice for talking to their doctors?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Corbett-Helaire : You know that I don't call it hesitancy, you must know that.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte: I know. That's my lead in for you to address it after that party metaphor.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Corbett-Helaire: Yes. I like to use the word inquisitiveness, because hesitancy is defined by one's unwillingness to get vaccines, and I often like to say that there is a comma because they have questions. And so, what I like to remind people is that it is okay to lean into that comma, it is okay that you, who are not a vaccinologist, not an immunologist, this is not what you study day in and day out, and so it is okay that you have questions and concerns that might lend to you saying, \"I'm not going to do that just yet, I am hesitant,\" so to speak, and leaning into those questions, asking your physician, asking your trusted scientists that you might follow on Instagram, or listening to podcasts like this one, finding the information via trusted sources for your questions is absolutely okay. And so, that's what I say to those communities, to those people who are just right now have not decided that they will get vaccines, that's okay, continue to ask your questions and get the information that's necessary.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Whyte",
+      "content": [
+        ": Should we be talking to our parents, our grandparents-",
+        "Corbett-Helaire: Absolutely.",
+        "Whyte : ... encouraging them to talk to their doctor?",
+        "Corbett-Helaire: Make it a date, actually. My grandmother loves when one of my like 30-some-odd cousins comes over on a Sunday, goes with her to church, takes her to Golden Corral after.",
+        "Whyte : Hopefully tells her ahead of time.",
+        "Corbett-Helaire : Make it a date. I think the best advice is active, and so as we are talking to our loved ones about vaccine recommendations, RSV or otherwise, I think being active with them and going to get their vaccines, helping to schedule appointments, reminding them that podcasts like this exist, or listening with them even, all of these things are really good tools to inform those around us around vaccines.",
+        "Whyte : Sometimes people are confused about the way vaccines are made and they think they may be allergic to certain substances, that's not the case for this type of vaccine, but are there any contract indications that people should be aware of or serious side effects that they should know upfront?"
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": Should we be talking to our parents, our grandparents-",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Corbett-Helaire: Absolutely.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : ... encouraging them to talk to their doctor?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Corbett-Helaire: Make it a date, actually. My grandmother loves when one of my like 30-some-odd cousins comes over on a Sunday, goes with her to church, takes her to Golden Corral after.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : Hopefully tells her ahead of time.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Corbett-Helaire : Make it a date. I think the best advice is active, and so as we are talking to our loved ones about vaccine recommendations, RSV or otherwise, I think being active with them and going to get their vaccines, helping to schedule appointments, reminding them that podcasts like this exist, or listening with them even, all of these things are really good tools to inform those around us around vaccines.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : Sometimes people are confused about the way vaccines are made and they think they may be allergic to certain substances, that's not the case for this type of vaccine, but are there any contract indications that people should be aware of or serious side effects that they should know upfront?",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Corbett-Helaire",
+      "content": [
+        ": The most common side effects for RSV vaccines are the typical side effects that we see from vaccines, so you might be tired, the day after, the couple of days after, you'll certainly have some pain at the injection site, some swelling at the injection site. But those types of side effects are so mild as compared to what is the potential for ending up with this very severe RSV infection this season.",
+        "Whyte : Can you get this vaccine at the same time that you're getting other vaccines, perhaps the COVID booster, perhaps flu?",
+        "Corbett-Helaire : Yes, you can.",
+        "Whyte : And you should.",
+        "Corbett-Helaire : And you should. If you don't want to make multiple trips to the drugstore or to your doctor's office, it is certainly okay that you get your seasonal vaccines at the same time, so RSV, COVID, and flu.",
+        "Whyte : And it's important to remind viewers that the RSV vaccine is covered by insurance programs. Kizzmekia, I want to thank you for taking the time to speak with us."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": The most common side effects for RSV vaccines are the typical side effects that we see from vaccines, so you might be tired, the day after, the couple of days after, you'll certainly have some pain at the injection site, some swelling at the injection site. But those types of side effects are so mild as compared to what is the potential for ending up with this very severe RSV infection this season.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : Can you get this vaccine at the same time that you're getting other vaccines, perhaps the COVID booster, perhaps flu?",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Corbett-Helaire : Yes, you can.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : And you should.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Corbett-Helaire : And you should. If you don't want to make multiple trips to the drugstore or to your doctor's office, it is certainly okay that you get your seasonal vaccines at the same time, so RSV, COVID, and flu.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : And it's important to remind viewers that the RSV vaccine is covered by insurance programs. Kizzmekia, I want to thank you for taking the time to speak with us.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": "Corbett-Helaire",
+      "content": [
+        ": Yeah, thank you so much for having me.",
+        "Whyte : Whether a newborn or older adult, the fact is RSV can be a serious illness, and potentially result in an unwanted trip to the ER. Luckily, there are tools at our disposal to protect ourselves and our families. For more information on RSV, head to WebMD.com. As always, this is Dr John Whyte, reminding you that better information leads to better health.",
+        "Thank you so much for listening to this special edition of the Health Discovered podcast. Please take a moment to follow, rate, and review our show on your favorite listening platform. And if you'd like to hear about a particular topic in the future, please send an email to [email protected] . Thanks, and I'll see you next time."
+      ],
+      "bullets": null,
+      "content_blocks": [
+        {
+          "type": "paragraph",
+          "text": ": Yeah, thank you so much for having me.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Whyte : Whether a newborn or older adult, the fact is RSV can be a serious illness, and potentially result in an unwanted trip to the ER. Luckily, there are tools at our disposal to protect ourselves and our families. For more information on RSV, head to WebMD.com. As always, this is Dr John Whyte, reminding you that better information leads to better health.",
+          "associated_bullets": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Thank you so much for listening to this special edition of the Health Discovered podcast. Please take a moment to follow, rate, and review our show on your favorite listening platform. And if you'd like to hear about a particular topic in the future, please send an email to [email protected] . Thanks, and I'll see you next time.",
+          "associated_bullets": null
+        }
+      ]
+    },
+    {
+      "heading": null,
+      "content": null,
+      "bullets": null,
+      "content_blocks": []
+    }
+  ],
+  "pdfs": [],
+  "images": [
+    "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd-logo-fb.jpg",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/logos/webmd/web/webmd_logo_white.svg",
+    "https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registered.png?resize=*:60px",
+    "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/oncology/1/footer-images/ad-choice.png",
+    "https://img.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/oncology/1/images/webmd-logo-white.svg",
+    "https://sb.scorecardresearch.com/p?c1=2&c2=6035829&cv=3.6&cj=1"
+  ],
+  "related_links": [],
+  "sources": [],
+  "meta_description": "Respiratory Syncytial Virus (RSV) is often thought of as a childhood illness, but it poses a significant threat to older adults as well. According to the CDC, RSV infected approximately 65 million people globally last year, leading to an estimated 160,000 hospitalizations among adults aged 60 and older. What does RSV look like in adults, and what symptoms should you be vigilant about? In this episode, we are joined by Dr. Kizzmekia Corbett-Helaire, a renowned vaccinologist and assistant professor at Harvard T.H. Chan School of Public Health, who breaks down the risks, ongoing vaccine development, and prevention strategies for vulnerable populations, particularly older adults. We also hear from Irene, who, at 69-years of age, experienced severe, unfamiliar, cold-like symptoms that ultimately led to an unexpected RSV diagnosis.",
+  "canonical_url": "https://www.webmd.com/podcasts/20241003/understanding-rsv-in-older-adults-risks-symptoms-prevention",
+  "tags": [
+    "Health Topics",
+    "WebMD"
+  ],
+  "scrape_timestamp_utc": "2026-01-23T03:45:29.782894Z"
+}

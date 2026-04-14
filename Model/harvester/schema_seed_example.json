@@ -1,0 +1,99 @@
+{
+  "seed_id": "mesh:D000708",
+  "label": "anaplasia",
+  "canonical_label": "Anaplasia",
+  "aliases": ["Anaplasias", "anaplasia"],
+  "semantic_ground_truth": "Loss of structural differentiation and useful function of neoplastic cells.",
+  "temporal_tracking": {
+    "date_introduced": "1977-01-01",
+    "last_medical_update": "2003-07-09",
+    "status": "established"
+  },
+  "historical_trace": {
+    "history_note": "77",
+    "previous_indexing": []
+  },
+  "pharmacological_actions": [],
+  "synonyms": ["Anaplasias", "Anaplasia"],
+
+  /* --- Grounding & keywords (SapBERT outputs + curated choices) */
+  "keyword_candidates": [
+    {"term": "anaplasia", "score": 0.99, "source": "label"},
+    {"term": "anaplasias", "score": 0.95, "source": "synonyms"}
+  ],
+  "preferred_search_terms": ["anaplasia", "anaplasias"],
+  "excluded_terms": ["9", "11alpha", "verylongiupacfragment..."],
+  "sapbert_metadata": {
+    "label_embedding_ref": "embeddings/mesh_D000708_label.npy",
+    "candidate_embeddings_ref": "embeddings/mesh_D000708_candidates.npz",
+    "model_name": "cambridgeltl/SapBERT-from-PubMedBERT"
+  },
+
+  /* --- Retrieval configuration and modifiers */
+  "harvester_modifiers": [
+    "blood", "blood supply", "cerebrospinal fluid", "chemically induced", "classification",
+    "complications", "congenital", "diagnosis", "diet therapy", "drug therapy", "economics",
+    "embryology", "enzymology", "ethnology", "etiology", "genetics", "history", "immunology",
+    "metabolism", "microbiology", "mortality", "nursing", "epidemiology", "parasitology",
+    "pathology", "physiopathology", "prevention & control", "psychology", "radiotherapy",
+    "rehabilitation", "secondary", "surgery", "therapy", "ultrastructure", "urine",
+    "veterinary", "chemistry", "virology", "diagnostic imaging"
+  ],
+  "modifier_groups": {
+    "diagnosis": ["diagnosis", "diagnostic imaging", "pathology"],
+    "therapy": ["drug therapy", "surgery", "radiotherapy"],
+    "epidemiology": ["mortality", "prevalence", "incidence"]
+  },
+  "query_templates": [
+    "({{t}}[MeSH Terms] OR \"{{t}}\"[Title/Abstract])",
+    "(\"{{t}}\"[Title/Abstract] AND (\"{{mod}}\"[Title/Abstract]))"
+  ],
+  "retrieval_params": {
+    "top_k_keywords": 5,
+    "retmax_stageA": 50,
+    "retmax_stageB": 200,
+    "min_keyword_score": 0.60,
+    "title_threshold": 0.85,
+    "combined_score_threshold_for_biobert": 0.60
+  },
+
+  /* --- Evidence index (empty now; populated after retrieval) */
+  "evidence_index": [],
+
+  /* evidence_index item example (schema)
+  {
+    "evidence_id": "<sha256...>",
+    "document_id": "<doc.document_id>",
+    "pmid": "12345678",
+    "source": "pubmed",
+    "matched_term": "anaplasia",
+    "keyword_score": 0.99,
+    "semantic_sim": 0.92,
+    "match_field": "title",
+    "match_span": [123, 145],
+    "snippet": "Sentence containing the matched term...",
+    "combined_score": 0.95,
+    "fetched_at": "2026-01-20T12:00:00Z",
+    "ingestion_provenance": {"fetch_url":"...", "raw_ref":"storage/pubmed_123.xml"}
+  }
+  */
+
+  /* --- Analysis outputs (filled after BioBERT / aggregation) */
+  "claim_templates": [
+    "{{label}} causes {{condition}}",
+    "{{label}} is associated with {{condition}}",
+    "{{label}} shows loss of differentiation in {{tissue}}"
+  ],
+  "analysis": {
+    "biobert_runs": [],
+    "claim_verdicts": []
+  },
+
+  /* --- Administrative / audit */
+  "mesh_tree_numbers": ["C04.697.045", "C23.550.727.045"],
+  "tags": ["C04", "C23"],
+  "seed_level_notes": "",
+  "last_updated_in_db": "2026-01-13T15:04:53.032416Z",
+  "created_at": "1977-01-01T00:00:00Z",
+  "updated_at": "2026-01-13T15:04:53.032416Z"
+}
