@@ -1,0 +1,13 @@
+App/
+Model/
+Miscellaneous/
+Assets/
+Reports/
+
+Backend/storage/embeddings.npy
+Backend/storage/index.faiss
+Backend/storage/mesh_concepts.json
+Backend/storage/metadata.json
+Backend/verifier/verifier_model.pkl
+Backend/retrieval.zip
+Backend/storage.zip
